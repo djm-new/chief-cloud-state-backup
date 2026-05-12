@@ -95,6 +95,10 @@ copy_file /opt/data/cron/jobs.json "$SNAPSHOT_DIR/cron/jobs.json"
 copy_dir_filtered /opt/data/scripts "$SNAPSHOT_DIR/scripts"
 copy_dir_filtered /opt/data/memories "$SNAPSHOT_DIR/memories"
 copy_dir_filtered /opt/data/skills "$SNAPSHOT_DIR/skills"
+copy_dir_filtered /opt/data/health "$SNAPSHOT_DIR/health"
+
+# Preserve empty allowlisted directories like memories/ before committing.
+find "$SNAPSHOT_DIR" -type d -empty -exec touch {}/.gitkeep \;
 
 # Remove any sensitive filenames if they slipped through nested folders.
 find "$SNAPSHOT_DIR" -type f \( \
