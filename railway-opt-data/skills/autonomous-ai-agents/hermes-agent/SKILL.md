@@ -819,6 +819,10 @@ and logs — avoids shell-escaping backslashes in bash.
 2. `hermes skills config` — check platform enablement
 3. Load explicitly: `/skill name` or `hermes -s name`
 
+### Slack Monitoring / Digest Setup
+
+When the user wants Hermes to monitor Slack messages or channels proactively, first verify Slack gateway status and distinguish **listable channels** from **readable channels**. Bot tokens often list many public channels but `conversations.history` fails with `not_in_channel` unless the bot is a member. For low-noise proactive monitoring, use a script-only cron job that stays silent when no new messages arrive, and ask before bulk-joining public channels because that is visible/noisy. Detailed workflow and pitfalls: `references/slack-monitoring-digests.md`.
+
 ### Gateway issues
 Check logs first:
 ```bash

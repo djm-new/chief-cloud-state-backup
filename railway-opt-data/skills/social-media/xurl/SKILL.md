@@ -403,7 +403,27 @@ xurl --app staging /2/users/me             # one-off against staging
 - **Multiple apps:** Each app has isolated credentials/tokens. Switch with `xurl auth default` or `--app`.
 - **Multiple accounts per app:** Select with `-u / --username`, or set a default with `xurl auth default APP USER`.
 - **Token storage:** `~/.xurl` is YAML. Never read or send this file to LLM context.
-- **Cost:** X API access is typically paid for meaningful usage. Many failures are plan/permission problems, not code problems.
+- **Cost:** X API access is pay-per-usage and credit-based. Many failures are plan/permission problems, not code problems. Before proposing recurring monitors/digests, check whether the user has credits and estimate cost from the pricing page.
+
+---
+
+## Pricing Notes for Digest/Monitoring Workflows
+
+When building tweet digests, do not assume the API is free. Current X docs describe credits as prepaid dollar-denominated usage, deducted per endpoint/resource. The Developer Console is the source of truth, but useful planning figures from the docs:
+
+- `Posts: Read`: about `$0.005` per post resource returned.
+- `User: Read`: about `$0.010` per user resource returned.
+- Owned reads may be cheaper for the authenticated user's own data, but favorite-poster monitoring usually reads other users' posts.
+- Resources are usually deduplicated within a 24-hour UTC day window, so re-reading the same post should not normally double-charge, but treat this as a soft guarantee.
+
+For user-facing setup, explicitly discuss cost before continuing with X-based recurring jobs. Recommend conservative defaults: hourly polling, specific handles only, small initial credit purchase, spending limits, cached user IDs, no broad searches, and no replies/reposts unless requested.
+
+Rough `Posts: Read` examples:
+- 10 posts/day ≈ `$1.50/month`
+- 25 posts/day ≈ `$3.75/month`
+- 50 posts/day ≈ `$7.50/month`
+- 100 posts/day ≈ `$15/month`
+- 200 posts/day ≈ `$30/month`
 
 ---
 

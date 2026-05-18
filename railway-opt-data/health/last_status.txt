@@ -1,5 +1,5 @@
-Chief Railway health check: 2026-05-17T07:00:30Z
-Memory: 311MB / 22888MB (1%)
-Railway volume disk: 45MB / 46627MB (1%)
+Chief Railway health check: 2026-05-18T07:00:50Z
+Memory: 987MB / 22888MB (4%)
+Railway volume disk: 58MB / 46627MB (1%)
 Gateway process: 1 /opt/hermes/.venv/bin/python3 /opt/hermes/.venv/bin/hermes gateway run
 Status: OK
