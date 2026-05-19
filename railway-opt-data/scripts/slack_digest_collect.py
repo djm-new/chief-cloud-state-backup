@@ -72,9 +72,14 @@ async def list_readable_candidate_channels(client, include_all_listed=False):
     channels = []
     cursor = None
     while True:
+        # Do not include mpim unless SLACK_INCLUDE_MPIM=1; many user tokens lack mpim:read
+        # and Slack rejects the whole conversations.list call with missing_scope.
+        conv_types = 'public_channel,private_channel,im'
+        if os.getenv('SLACK_INCLUDE_MPIM', '').lower() in {'1', 'true', 'yes', 'on'}:
+            conv_types += ',mpim'
         resp = await slack_call_with_rate_limit(
             client.conversations_list,
-            types='public_channel,private_channel,mpim,im',
+            types=conv_types,
             limit=200,
             cursor=cursor,
             exclude_archived=True,
