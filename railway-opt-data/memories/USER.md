@@ -8,6 +8,8 @@ User prefers explicit approval before enabling recurring monitors or side-effect
 §
 User expects Hermes voice/STT support to work after initial setup and prefers configuration regressions to be investigated and fixed directly rather than only explained.
 §
-User wants Slack business briefings in EST, focused on MENA, revenue, finance, blockers, leadership channels, mentions of DJ, and direct DMs, using balanced OpenAI-model pipeline.
+User wants Slack business briefings in EST using a balanced OpenAI pipeline, focused on MENA, revenue/finance, blockers, leadership, DJ mentions, DMs/MPIMs; items must include enough context to explain what happened, who said it, why it matters, and whether DJ needs to act.
 §
 User needs multi-person Slack DMs included in Slack business briefings; mpim coverage is required, not optional.
+§
+User prefers exact, step-by-step operational instructions when troubleshooting integrations or credential/scope issues.

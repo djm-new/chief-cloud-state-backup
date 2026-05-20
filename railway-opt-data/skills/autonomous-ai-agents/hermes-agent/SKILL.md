@@ -821,7 +821,7 @@ and logs — avoids shell-escaping backslashes in bash.
 
 ### Slack Monitoring / Digest Setup
 
-When the user wants Hermes to monitor Slack messages or channels proactively, first verify Slack gateway status and distinguish **listable channels** from **readable channels**. Bot tokens often list many public channels but `conversations.history` fails with `not_in_channel` unless the bot is a member. For low-noise proactive monitoring, use a script-only cron job that stays silent when no new messages arrive, and ask before bulk-joining public channels because that is visible/noisy. Detailed workflow and pitfalls: `references/slack-monitoring-digests.md`.
+When the user wants Hermes to monitor Slack messages or channels proactively, first verify Slack gateway status and distinguish **listable channels** from **readable channels**. Bot tokens often list many public channels but `conversations.history` fails with `not_in_channel` unless the bot is a member. For low-noise proactive monitoring, use a script-only cron job that stays silent when no new messages arrive, and ask before bulk-joining public channels because that is visible/noisy. For DJ/Flow business briefings, prefer a two-job pipeline: local no-agent Slack collection (user token, DMs, MPIMs, state) followed by a separate LLM executive-brief job; keep recurring jobs paused until DJ approves. Detailed workflow, MPIM scope verification, and pitfalls: `references/slack-monitoring-digests.md`.
 
 ### Gateway issues
 Check logs first:
