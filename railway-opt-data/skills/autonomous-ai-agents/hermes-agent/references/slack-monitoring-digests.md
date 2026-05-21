@@ -73,10 +73,11 @@ Deliver this to the user's preferred home thread. Once raw collection works, add
 
 ## Business briefing pipeline pattern
 
-For high-volume Slack workspaces, do **not** send raw Slack dumps directly to Telegram and do **not** run an LLM over every workspace message. For DJ/Flow brief quality standards, also read `references/slack-brief-calibration-dj.md` before editing collector/brief prompts. Use a two-job pipeline:
+For high-volume Slack workspaces, do **not** send raw Slack dumps directly to Telegram and do **not** run an LLM over every workspace message. Use a two-job pipeline:
 
 1. **Collection job** (`no_agent=true`, `deliver=local`): deterministic script only. Use `SLACK_USER_TOKEN`; collect broad Slack search hits, targeted terms, 1:1 DMs, and MPIM history; de-dupe by `channel:ts`; store state and write latest evidence to a local file such as `/opt/data/slack_business_brief_latest.md`.
-2. **Briefing job** (`deliver=origin`): runs a few minutes later, with a small script/context bridge that prints the latest collection file. The agent prompt filters aggressively and writes an executive brief with source links.
+2. **Briefing job** (`deliver=origin`): runs a few minutes later, with a small script/context bridge that prints the latest collection file plus rolling topic memory. The agent prompt filters aggressively and writes an executive brief with source links.
+3. **Rolling topic memory**: maintain `/opt/data/slack_brief_archive/open_topics.md` plus dated final brief archives. Archive only curated brief outputs and open/watch topics, not raw Slack dumps. Use this rolling context to recognize continuations and say what changed since prior briefs.
 
 For Eastern-time twice-daily briefs using UTC cron during EDT, schedule collection/briefing around:
 
