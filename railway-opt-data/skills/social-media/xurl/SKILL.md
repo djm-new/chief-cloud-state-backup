@@ -372,11 +372,12 @@ xurl --app staging /2/users/me             # one-off against staging
 
 1. Verify prerequisites: `xurl --help` and `xurl auth status`.
 2. **Check default app has credentials.** Parse the `auth status` output. The default app is marked with `▸`. If the default app shows `oauth2: (none)` but another app has a valid oauth2 user, tell the user to run `xurl auth default <that-app>` to fix it. This is the most common setup mistake — the user added an app with a custom name but never set it as default, so xurl keeps trying the empty `default` profile.
-3. If auth is missing entirely, stop and direct the user to the "One-Time User Setup" section — do NOT attempt to register apps or pass secrets yourself.
-4. Start with a cheap read (`xurl whoami`, `xurl user @handle`, `xurl search ... -n 3`) to confirm reachability.
-5. Confirm the target post/user and the user's intent before any write action (post, reply, like, repost, DM, follow, block, delete).
-6. Use JSON output directly — every response is already structured.
-7. Never paste `~/.xurl` contents back into the conversation.
+3. If auth is missing entirely, stop and direct the user to the "One-Time User Setup" section for authenticated reads/writes — do NOT attempt to register apps or pass secrets yourself.
+4. **For read-only public post requests**, try public fallbacks before giving up or asking for credentials. `publish.twitter.com/oembed`, `api.fxtwitter.com`, and `api.vxtwitter.com` often expose the focal post text, author metadata, and media URLs without auth. These mirrors may not expose the full thread, so label coverage clearly. See `references/public-read-fallbacks.md`.
+5. Start with a cheap read (`xurl whoami`, `xurl user @handle`, `xurl search ... -n 3`) to confirm reachability when using authenticated `xurl`.
+6. Confirm the target post/user and the user's intent before any write action (post, reply, like, repost, DM, follow, block, delete).
+7. Use JSON output directly — every response is already structured.
+8. Never paste `~/.xurl` contents back into the conversation.
 
 ---
 
