@@ -1,15 +1,15 @@
-User values practical leverage from Hermes and prefers use cases that deliver concrete proactive value over setup-heavy integrations.
+User wants recurring monitors silent on OK and actionable on alert, not raw status dumps.
 §
 User's highest-priority Hermes use case is monitoring Slack messages/channels in the Flow workspace and surfacing important activity proactively.
 §
 User wants Slack monitoring via DJ user-level OAuth, twice daily, with Slack business brief deliveries going to Telegram alerts topic 5.
 §
-User prefers explicit approval before enabling recurring monitors or side-effectful integrations, especially where polling frequency could increase token/API costs.
+User prefers explicit approval before recurring monitors/side effects. For Google, read/search/summarize only when requested; never send/reply/forward, invite, share, notify, or modify externally—draft-only unless policy changes.
 §
 User expects Hermes voice/STT support to work after initial setup and prefers configuration regressions to be investigated and fixed directly rather than only explained.
 §
-User wants Slack business briefings in EST via balanced OpenAI pipeline; focus MENA, revenue/finance, blockers, leadership, DJ mentions, DMs/MPIMs. Items need full context: what happened, who said it, why it matters, DJ action. Prefers calibration drafts as editable Markdown.
+User wants one integrated smart briefing in EST to Telegram alerts topic 5: Daily ToM-aware Slack + personal/166-2nd email, with MENA/revenue/blockers/leadership/mentions/DMs/MPIMs, DJ actions, and suggested ToM additions only—never write ToM without approval.
 §
 User needs multi-person Slack DMs included in Slack business briefings; mpim coverage is required, not optional.
 §
-User prefers exact, step-by-step operational instructions when troubleshooting integrations or credential/scope issues.
+User expects exact integration troubleshooting and direct CLI execution when access is available, but wants ambiguous integration/design requests clarified before live workflow changes are made.

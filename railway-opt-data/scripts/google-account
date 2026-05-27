@@ -1,0 +1,51 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+acct="${1:-}"
+if [[ $# -gt 0 ]]; then shift || true; fi
+
+case "$acct" in
+  personal|166-2nd|flow) ;;
+  *)
+    echo "Usage: google-account {personal|166-2nd|flow} <google_api.py args...>" >&2
+    echo "Example: google-account personal drive search 'budget' --max 10" >&2
+    exit 2
+    ;;
+esac
+
+service="${1:-}"
+action="${2:-}"
+
+# DJ Google security policy: no outbound email, no notification-triggering actions.
+# See /opt/data/google-accounts/SECURITY_POLICY.md
+if [[ "$service" == "gmail" && ( "$action" == "send" || "$action" == "reply" ) ]]; then
+  echo "BLOCKED_BY_POLICY: Gmail send/reply is disabled. Draft the message for DJ to send manually." >&2
+  exit 64
+fi
+
+if [[ "$service" == "drive" && "$action" == "share" ]]; then
+  for arg in "$@"; do
+    if [[ "$arg" == "--notify" ]]; then
+      echo "BLOCKED_BY_POLICY: Drive share notifications are disabled. Share without --notify or draft instructions for DJ." >&2
+      exit 64
+    fi
+  done
+fi
+
+if [[ "$service" == "calendar" && "$action" == "create" ]]; then
+  prev=""
+  for arg in "$@"; do
+    if [[ "$prev" == "--attendees" && -n "$arg" ]]; then
+      echo "BLOCKED_BY_POLICY: Calendar guest invites/attendee emails are disabled. Create events without attendees or draft invite details for DJ." >&2
+      exit 64
+    fi
+    if [[ "$arg" == --attendees=* && "$arg" != "--attendees=" ]]; then
+      echo "BLOCKED_BY_POLICY: Calendar guest invites/attendee emails are disabled. Create events without attendees or draft invite details for DJ." >&2
+      exit 64
+    fi
+    prev="$arg"
+  done
+fi
+
+export HERMES_HOME="/opt/data/google-accounts/$acct"
+exec python3 /opt/data/skills/productivity/google-workspace/scripts/google_api.py "$@"

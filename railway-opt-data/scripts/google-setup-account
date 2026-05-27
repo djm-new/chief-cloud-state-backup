@@ -1,0 +1,45 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+acct="${1:-}"
+case "$acct" in
+  personal|166-2nd|flow) ;;
+  *)
+    echo "Usage: google-setup-account {personal|166-2nd|flow} {client-secret|auth-url|auth-code|check|check-live} [arg]" >&2
+    exit 2
+    ;;
+esac
+shift
+cmd="${1:-}"
+shift || true
+
+export HERMES_HOME="/opt/data/google-accounts/$acct"
+GSETUP=/opt/data/skills/productivity/google-workspace/scripts/setup.py
+CLIENT_SECRET=/opt/data/google_client_secret.json
+mkdir -p "$HERMES_HOME"
+chmod 700 /opt/data/google-accounts "$HERMES_HOME" 2>/dev/null || true
+
+case "$cmd" in
+  client-secret)
+    exec python3 "$GSETUP" --client-secret "$CLIENT_SECRET"
+    ;;
+  auth-url)
+    python3 "$GSETUP" --client-secret "$CLIENT_SECRET" >/dev/null
+    exec python3 "$GSETUP" --auth-url
+    ;;
+  auth-code)
+    code="${1:-}"
+    if [[ -z "$code" ]]; then echo "Missing auth code/redirect URL" >&2; exit 2; fi
+    exec python3 "$GSETUP" --auth-code "$code"
+    ;;
+  check)
+    exec python3 "$GSETUP" --check
+    ;;
+  check-live)
+    exec python3 "$GSETUP" --check-live
+    ;;
+  *)
+    echo "Unknown command: $cmd" >&2
+    exit 2
+    ;;
+esac

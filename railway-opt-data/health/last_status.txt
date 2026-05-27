@@ -1,5 +1,22 @@
-Chief Railway health check: 2026-05-26T07:00:02Z
-Memory: 602MB / 22888MB (2%)
-Railway volume disk: 133MB / 46627MB (1%)
+Chief Railway health check: 2026-05-27T07:00:05Z
+Memory: 940MB / 22888MB (4%)
+Railway volume disk: 180MB / 46627MB (1%)
 Gateway process: 1 /opt/hermes/.venv/bin/python3 /opt/hermes/.venv/bin/hermes gateway run
-Status: OK
+Operational checks:
+  Chief operational health: 2026-05-27T07:00:10.728603+00:00
+  Check: /opt/data/daily-tom/task_state.json: 5446 bytes, age 15.9h
+  Check: /opt/data/slack_business_brief_latest.md: 35057 bytes, age 10.0h
+  Check: /opt/data/slack_brief_archive/open_topics.md: 1827 bytes, age 8.9h
+  Check: /opt/data/slack_brief_archive/BRIEFING_POLICY.md: 1290 bytes, age 9.0h
+  Check: /opt/data/google-accounts/SECURITY_POLICY.md: 2340 bytes, age 16.4h
+  Check: /opt/data/security/ATTACK_VECTOR_CHECKLIST.md: 1489 bytes, age 10.8h
+  Check: Archived smart briefings: 6
+  Check: Latest archived briefing: 2026-05-27-0030.md, age 6.4h
+  Check: Daily ToM context: OK (716 chars)
+  Check: Email ToM context: OK (17273 chars)
+  Check: Filtered Slack context: OK (2354 chars)
+  Check: Full smart brief context: OK (27419 chars)
+  Status: ATTENTION NEEDED
+  Issue: Daily ToM context output missing expected marker: ## Daily Top of Mind Context
+Status: ATTENTION NEEDED
+Issue: Chief operational health checks found issues.

@@ -27,7 +27,7 @@
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-12T19:59:22.529154+00:00",
-      "next_run_at": "2026-05-28T07:15:00+00:00",
+      "next_run_at": "2026-05-27T07:15:00+00:00",
       "last_run_at": "2026-05-26T07:15:06.253540+00:00",
       "last_status": "ok",
       "last_error": null,
@@ -57,15 +57,15 @@
       "schedule_display": "*/30 * * * *",
       "repeat": {
         "times": null,
-        "completed": 685
+        "completed": 662
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-12T20:42:58.485236+00:00",
-      "next_run_at": "2026-05-27T07:30:00+00:00",
-      "last_run_at": "2026-05-27T07:00:10.754645+00:00",
+      "next_run_at": "2026-05-26T20:00:00+00:00",
+      "last_run_at": "2026-05-26T19:30:50.280523+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -82,8 +82,8 @@
         "chief-health-report"
       ],
       "skill": "chief-health-report",
-      "model": "claude-haiku-4-5",
-      "provider": "anthropic",
+      "model": null,
+      "provider": null,
       "base_url": null,
       "script": null,
       "no_agent": false,
@@ -115,8 +115,8 @@
     },
     {
       "id": "60e7cd4fcf43",
-      "name": "Smart business briefing data collection",
-      "prompt": "Script-only data collection for DJ's single smart business briefing. Crawl Flow Slack using SLACK_USER_TOKEN and save local candidate evidence for downstream ToM/email-aware synthesis. This job must not deliver a user-facing briefing, use an LLM, write to Daily ToM, or send/reply/notify anyone.",
+      "name": "Slack business brief collection",
+      "prompt": "Script-only Slack collector for DJ's Flow business briefing. Use SLACK_USER_TOKEN to collect Slack search candidates, 1:1 DMs, and multi-person DMs visible to DJ. Do not use an LLM. Save output locally for the downstream briefing job; no Telegram delivery from this collection job.",
       "skills": [],
       "skill": null,
       "model": null,
@@ -157,12 +157,12 @@
     },
     {
       "id": "d85ba3927717",
-      "name": "Smart business briefing",
-      "prompt": "You are writing DJ Mauch's single smart executive business briefing for Flow. You have one job: protect DJ's attention by surfacing only what he actually needs to act on or know.\n\n## Inputs injected before this prompt\nThe pre-run script injects:\n1. Daily ToM priority context (read from Google Doc \u2014 today's active tasks by priority).\n2. Gmail context from personal (dj.mauch@gmail.com) and 166-2nd (dj@1662nd.com) \u2014 bounded, ToM-weighted.\n3. Filtered Slack evidence \u2014 already pre-filtered by an executive-relevance filter (v3). What remains passed a strict threshold: DMs/MPIMs, ToM entities, deal/project channels, tour/prospect signals, notable engineering items.\n4. Rolling open topics from /opt/data/slack_brief_archive/open_topics.md.\n\n## Mandatory rules\n\n### The DJ relevance test\nEvery item in the briefing must answer: \"Why does DJ need to know this, and what decision or action follows?\"\nIf the answer is weak \u2192 downgrade to \"Worth knowing\" or exclude entirely. Do not fill the briefing with items that merely exist.\n\n### DM / group-DM handling\n- DMs and MPIMs are always surface \u2014 but you MUST read the full context (prior messages in the thread or preceding messages) before drawing any conclusion.\n- Never quote one line of a DM out of context and guess what it's about.\n- If you see a message like \"great. let's wind him down...\" \u2014 look at ALL the context lines provided. Identify the subject (who), the task (wind down what), and the relevant party. Report: \"[Name] will be wound down the week after next per group-DM with Thasan and Samin. Context: [description from thread].\"\n- If context is insufficient to interpret, say: \"Group DM mentions a wind-down decision \u2014 insufficient context to identify subject. Link: [url].\" Do not guess.\n\n### False inference rule\n- Never connect unrelated items as if they are related. Example: Vercel access approval for a MENA app does NOT mean MENA KPI/Hubspot/revenue diagnostic work is unblocked \u2014 they may be completely unrelated.\n- Only connect items when the connection is explicit in the source material.\n\n### App install requests\n- Never include Slackbot app install requests. These are IT-handled and irrelevant to DJ. They are already excluded by the filter, but if any slip through, drop them.\n\n### Leasing channel signals\n- Include leasing/tour signals (people waiting for tours, prospect visits, staffing issues at tours). These ARE valuable to DJ.\n- Keep them brief: one line + context, flag only if it represents a pattern or needs DJ attention.\n\n### Engineering items\n- Include notable engineering items when they involve a named ToM entity (e.g., \"Society Wynwood\" \u2192 \"Flow Wynwood\" naming), a product decision, or a blocker.\n- Exclude low-context engineering chatter (random PR merges, minor code comments, test results).\n\n### No false state assertions\n- Never assert that something is \"resolved\" or \"closed\" unless the source explicitly says it is.\n- Never assert that an action is complete unless you have evidence.\n- When uncertain: say \"unclear\" or \"no explicit confirmation found.\"\n\n### ToM additions\n- Suggest specific ToM additions when the evidence is clear. Always ask DJ directly for approval: \"Do you approve adding [X] to the ToM?\"\n- Never write to the ToM doc without explicit DJ approval.\n\n## Output format\n\n### Executive summary\n3\u20135 bullets maximum. Only the highest-signal items. Start with the most important.\n\n### Needs DJ attention\nItems with a clear decision, action, or response required. Be opinionated: tell DJ what you recommend.\n\n### Worth knowing / monitor\nNo action needed today, but worth having in the picture. Keep brief.\n\n### Deliberately excluded\nOne-liner list of what was filtered and why. Gives DJ confidence the filter is working.\n\n### Suggested ToM additions \u2014 approval required\nSpecific, formatted ToM entries you recommend adding. Ask DJ directly for approval.\n\n### Watchlist / carry-forward\nItems staying open from rolling state.\n\n## What NOT to do\n- Do not list things that merely exist without a reason they matter to DJ.\n- Do not assert causation between unrelated items.\n- Do not include app install requests.\n- Do not write anything to the ToM doc.\n- Do not send, reply, or forward any email or Slack message.\n- Do not trigger any external notifications.\n\n## Archiving\nAfter generating the briefing:\n1. Save to /opt/data/slack_brief_archive/YYYY-MM-DD-HHMM.md (use current UTC time).\n2. Update /opt/data/slack_brief_archive/open_topics.md: carry forward unresolved items, mark resolved ones, add new ones.\n3. Do NOT save review copies or draft copies to the archive directory.",
+      "name": "Slack business executive brief",
+      "prompt": "You are writing DJ Mauch's single smart business briefing for Flow. The pre-run script injects (1) the current Daily Top of Mind active list, (2) lightweight bounded Gmail context from personal + 166-2nd inboxes, (3) rolling topics from prior briefs, and (4) latest Slack collection evidence including channels, DMs, and MPIMs.\n\nUse the Daily ToM list as the priority lens for reviewing both Slack and email. The email context is intentionally light: bounded recent searches and ToM-keyword matches only, not a full mailbox crawl.\n\nOutput one integrated briefing only \u2014 do not create separate Slack/email/ToM briefings. Structure:\n1. Top alerts / decisions for DJ\n2. ToM-linked updates: cite relevant ToM item(s), whether the signal came from Slack or email, what happened, who said it/sent it, why it matters, and DJ action\n3. Other important Slack/email items not already on ToM\n4. Suggested ToM additions (approval required): list candidate items only; do not write to the ToM doc or imply they were added\n5. Watchlist / follow-ups\n\nRules:\n- Never write to the Daily ToM doc.\n- Never send/reply/forward Slack or Gmail messages.\n- Never mark Gmail read/unread, archive, label, or modify email.\n- Prefer concise executive synthesis over raw transcript/email dumps.\n- Include enough context for DJ to understand the issue without opening Slack/Gmail.\n- MPIM/group-DM coverage is required; if evidence says MPIM error occurred, disclose it.\n- Deliver in Telegram-friendly Markdown with bullets, no tables.",
       "skills": [],
       "skill": null,
-      "model": "claude-sonnet-4-6",
-      "provider": "anthropic",
+      "model": null,
+      "provider": null,
       "base_url": null,
       "script": "slack_business_brief_context.py",
       "no_agent": false,
@@ -194,10 +194,7 @@
         "chat_name": "Chief Group - Hermes",
         "thread_id": "3"
       },
-      "enabled_toolsets": [
-        "file",
-        "terminal"
-      ],
+      "enabled_toolsets": null,
       "workdir": null
     },
     {
@@ -220,15 +217,15 @@
       "schedule_display": "0 * * * *",
       "repeat": {
         "times": null,
-        "completed": 15
+        "completed": 3
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-26T16:48:41.225755+00:00",
-      "next_run_at": "2026-05-27T08:00:00+00:00",
-      "last_run_at": "2026-05-27T07:00:05.782618+00:00",
+      "next_run_at": "2026-05-26T20:00:00+00:00",
+      "last_run_at": "2026-05-26T19:00:49.161941+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -243,5 +240,5 @@
       "workdir": null
     }
   ],
-  "updated_at": "2026-05-27T07:15:11.412032+00:00"
+  "updated_at": "2026-05-26T19:30:50.280975+00:00"
 }
