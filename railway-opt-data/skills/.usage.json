@@ -1,4 +1,17 @@
 {
+  "cron-job-design": {
+    "archived_at": null,
+    "created_at": "2026-05-27T12:08:01.270884+00:00",
+    "created_by": "agent",
+    "last_patched_at": "2026-05-27T12:08:16.839056+00:00",
+    "last_used_at": "2026-05-27T14:12:07.966643+00:00",
+    "last_viewed_at": "2026-05-27T14:12:07.959083+00:00",
+    "patch_count": 1,
+    "pinned": false,
+    "state": "active",
+    "use_count": 1,
+    "view_count": 1
+  },
   "daily-business-briefing": {
     "archived_at": null,
     "created_at": "2026-05-26T21:01:01.030914+00:00",

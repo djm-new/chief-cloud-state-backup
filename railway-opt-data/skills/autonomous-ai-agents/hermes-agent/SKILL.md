@@ -655,6 +655,8 @@ the `cronjob` tool, the `hermes cron` CLI (`list`, `add`, `edit`,
 
 User docs: https://hermes-agent.nousresearch.com/docs/user-guide/features/cron
 
+**Output discipline:** cron jobs that emit verbose status on every tick are noise. DJ expects silence on OK and actionable alerts only. Load the `cron-job-design` skill when writing or fixing cron scripts — it has the fingerprint-dedup pattern, alert format, and status-file pattern that match DJ's preferences.
+
 ### Curator (skill lifecycle)
 
 Background maintenance for agent-created skills. Tracks usage, marks
@@ -808,6 +810,7 @@ and logs — avoids shell-escaping backslashes in bash.
 2. `hermes login` — re-authenticate OAuth providers
 3. Check `.env` has the right API key
 4. **Copilot 403**: `gh auth login` tokens do NOT work for Copilot API. You must use the Copilot-specific OAuth device code flow via `hermes model` → GitHub Copilot.
+5. **"Non-retryable error (HTTP None) — trying fallback" on every turn**: primary model is broken at connection level (not a 4xx). Check `config.yaml` — `model.provider` + `model.default` — and compare against which provider is actually succeeding (check gateway.log for "switching to fallback"). Fix: set `model.provider` and `model.default` to the working fallback provider. The `openai-codex` provider with `model.default: ''` auto-selects `gpt-5.5` and can silently fail on every request if the OAuth token is stale or the model is unavailable. Diagnose by grepping gateway.log for `"defaulting to"` and `"switching to fallback"` on the same turns.
 
 ### Changes not taking effect
 - **Tools/skills:** `/reset` starts a new session with updated toolset
@@ -818,6 +821,33 @@ and logs — avoids shell-escaping backslashes in bash.
 1. `hermes skills list` — verify installed
 2. `hermes skills config` — check platform enablement
 3. Load explicitly: `/skill name` or `hermes -s name`
+
+### openai-codex provider: Cloudflare block on server IPs
+
+The `openai-codex` OAuth provider uses `chatgpt.com/backend-api/codex` as its endpoint. This endpoint is protected by Cloudflare and **blocks all datacenter/server IPs** (Railway, VPS, Docker, etc.) with a `cf-mitigated: challenge` / HTTP 403 response. This is not Railway-specific — the same block fires from any non-residential IP, including the user's own home IP when using raw HTTP (curl, httpx).
+
+**Symptoms:**
+- Every turn shows `⚠️ Non-retryable error (HTTP None) — trying fallback...` followed by `🔄 Primary model failed — switching to fallback`
+- `HTTP None` (not 403) because the SDK's streaming path receives HTML from Cloudflare instead of JSON → can't parse a status code
+- Logs show `No model configured — defaulting to gpt-5.5 for provider openai-codex` on every request
+- The fallback provider (Anthropic) handles the turn successfully — responses work, but the error banner appears first
+
+**Root cause:** The device-code OAuth token has scopes `openid profile email offline_access` only — no API scopes. The JWT audience is `api.openai.com/v1`, but that endpoint rejects the token with 401 (wrong scopes). The only endpoint that accepts it is `chatgpt.com/backend-api/codex`, which is Cloudflare-blocked from server IPs.
+
+**Fix:** Use a standard OpenAI API key (`sk-proj-...`) from [platform.openai.com/api-keys](https://platform.openai.com/api-keys) with provider `openai` and model `gpt-5.5`. Add to `.env` as `OPENAI_API_KEY`. This hits `api.openai.com/v1` directly — no Cloudflare, no OAuth dance, confirmed reachable from Railway.
+
+```bash
+# In /opt/data/.env
+OPENAI_API_KEY=sk-proj-...
+
+# In /opt/data/config.yaml
+model:
+  default: gpt-5.5
+  provider: openai
+  base_url: ''
+```
+
+The `openai-codex` credential pool entry can remain for reference but will not work from any server environment.
 
 ### Slack Monitoring / Digest Setup
 

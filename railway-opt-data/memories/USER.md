@@ -6,9 +6,9 @@ User wants Slack monitoring via DJ user-level OAuth, twice daily, with Slack bus
 §
 User prefers explicit approval before recurring monitors/side effects. For Google, read/search/summarize only when requested; never send/reply/forward, invite, share, notify, or modify externally—draft-only unless policy changes.
 §
-User expects Hermes voice/STT support to work after initial setup and prefers configuration regressions to be investigated and fixed directly rather than only explained.
+Primary model: anthropic/claude-sonnet-4-6 (set May 27 2026). CF blocked openai-codex ~May 26 2026. OPENAI_CODEX env exists; restore openai-codex as primary when Hermes patches CF.
 §
-User wants one integrated smart briefing in EST to Telegram alerts topic 5: Daily ToM-aware Slack + personal/166-2nd email, with MENA/revenue/blockers/leadership/mentions/DMs/MPIMs, DJ actions, and suggested ToM additions only—never write ToM without approval.
+User wants smart briefing in EST to Telegram alerts topic 5: ToM-aware Slack + personal/166-2nd email, MENA/revenue/blockers/mentions/DMs/MPIMs, DJ actions, suggested ToM additions—never write ToM without approval.
 §
 User needs multi-person Slack DMs included in Slack business briefings; mpim coverage is required, not optional.
 §
