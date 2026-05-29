@@ -27,12 +27,12 @@ def main():
     try:
         body = fetch_body()
     except Exception as e:
-        print(f'## Daily ToM Context\nUnable to fetch Daily ToM: {type(e).__name__}')
+        print(f'## Daily Top of Mind Context\nUnable to fetch Daily ToM: {type(e).__name__}')
         return
     lines = [x.rstrip() for x in body.splitlines()]
     date_idx = next((i for i, l in enumerate(lines) if DATE_RE.match(l.strip())), None)
     if date_idx is None:
-        print('## Daily ToM Context\nNo dated section found.')
+        print('## Daily Top of Mind Context\nNo dated section found.')
         return
     end_idx = next((i for i in range(date_idx + 1, len(lines)) if DATE_RE.match(lines[i].strip())), len(lines))
     date_label = lines[date_idx].strip()

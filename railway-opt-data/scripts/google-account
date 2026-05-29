@@ -48,4 +48,8 @@ if [[ "$service" == "calendar" && "$action" == "create" ]]; then
 fi
 
 export HERMES_HOME="/opt/data/google-accounts/$acct"
-exec python3 /opt/data/skills/productivity/google-workspace/scripts/google_api.py "$@"
+PYTHON_BIN="/opt/data/google-accounts/.venv/bin/python"
+if [[ ! -x "$PYTHON_BIN" ]]; then
+  PYTHON_BIN="python3"
+fi
+exec "$PYTHON_BIN" /opt/data/skills/productivity/google-workspace/scripts/google_api.py "$@"

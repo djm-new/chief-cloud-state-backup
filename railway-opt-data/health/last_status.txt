@@ -1,22 +1,20 @@
-Chief Railway health check: 2026-05-28T07:00:36Z
-Memory: 261MB / 22888MB (1%)
-Railway volume disk: 184MB / 46627MB (1%)
+Chief Railway health check: 2026-05-29T07:00:14Z
+Memory: 533MB / 22888MB (2%)
+Railway volume disk: 318MB / 46627MB (1%)
 Gateway process: 1 /opt/hermes/.venv/bin/python3 /opt/hermes/.venv/bin/hermes gateway run
 Operational checks:
-  Chief operational health: 2026-05-28T07:00:41.297515+00:00
-  Check: /opt/data/daily-tom/task_state.json: 5446 bytes, age 39.9h
-  Check: /opt/data/slack_business_brief_latest.md: 35057 bytes, age 34.0h
-  Check: /opt/data/slack_brief_archive/open_topics.md: 1827 bytes, age 32.9h
-  Check: /opt/data/slack_brief_archive/BRIEFING_POLICY.md: 1290 bytes, age 33.0h
-  Check: /opt/data/google-accounts/SECURITY_POLICY.md: 2340 bytes, age 40.5h
-  Check: /opt/data/security/ATTACK_VECTOR_CHECKLIST.md: 1489 bytes, age 34.8h
+  Chief operational health: 2026-05-29T07:01:18.745734+00:00
+  Check: /opt/data/daily-tom/task_state.json: 6827 bytes, age 12.0h
+  Check: /opt/data/slack_business_brief_latest.md: 35057 bytes, age 58.0h
+  Check: /opt/data/slack_brief_archive/open_topics.md: 1827 bytes, age 56.9h
+  Check: /opt/data/slack_brief_archive/BRIEFING_POLICY.md: 1290 bytes, age 57.0h
+  Check: /opt/data/google-accounts/SECURITY_POLICY.md: 2340 bytes, age 64.5h
+  Check: /opt/data/security/ATTACK_VECTOR_CHECKLIST.md: 1489 bytes, age 58.8h
   Check: Archived smart briefings: 6
-  Check: Latest archived briefing: 2026-05-27-0030.md, age 30.4h
-  Check: Daily ToM context: OK (716 chars)
-  Check: Email ToM context: OK (17273 chars)
+  Check: Latest archived briefing: 2026-05-27-0030.md, age 54.4h
+  Check: Daily ToM context: OK (1613 chars)
+  Check: Email ToM context: OK (4550 chars)
   Check: Filtered Slack context: OK (2354 chars)
-  Check: Full smart brief context: OK (27419 chars)
-  Status: ATTENTION NEEDED
-  Issue: Daily ToM context output missing expected marker: ## Daily Top of Mind Context
-Status: ATTENTION NEEDED
-Issue: Chief operational health checks found issues.
+  Check: Full smart brief context: OK (15593 chars)
+  Status: OK
+Status: OK

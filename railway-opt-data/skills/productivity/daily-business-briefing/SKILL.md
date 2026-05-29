@@ -155,6 +155,24 @@ Operational health is checked by:
 
 It verifies ToM state, Slack latest crawl, email context, filtered Slack context, full context generation, key file sizes, and archive/open-topic presence.
 
+Daily ToM run/debug details, including the expected context marker, manual run command, Google runtime venv, and DST-safe schedule shape, are in `references/daily-tom-troubleshooting.md`.
+
+### Daily ToM context marker troubleshooting
+
+If Chief alerts that Daily ToM context output is missing an expected markdown marker:
+
+1. Reproduce directly: `/opt/data/scripts/chief_operational_health.py`.
+2. Run the failing extractor directly: `/opt/data/scripts/daily-tom-context.py`.
+3. The Daily ToM extractor must emit the exact marker `## Daily Top of Mind Context` on both success and fallback/error paths; do not let fallback text drift to `## Daily ToM Context` or similar.
+4. If Google fetch fails because the runtime Python lacks Google client packages, repair the `/opt/data` Google runtime instead of editing Hermes code:
+   ```bash
+   uv venv /opt/data/google-accounts/.venv
+   uv pip install --python /opt/data/google-accounts/.venv/bin/python \
+     google-api-python-client google-auth-oauthlib google-auth-httplib2
+   ```
+   Then ensure `/opt/data/scripts/google-account` invokes `/opt/data/google-accounts/.venv/bin/python` when present, falling back to `python3` only if the venv is absent.
+5. Verify with `/opt/data/scripts/chief_operational_health.py`; expected final line is `Status: OK`.
+
 ## Attack-vector review
 
 Before installing/running new external skills, scripts, or dependencies, read:

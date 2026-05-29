@@ -166,6 +166,7 @@ Exit nonzero if issues found; the bash wrapper treats nonzero as issues.
 ## Pitfalls
 
 - **Never emit verbose output unconditionally.** Even "looks good" summaries are noise when they arrive 48 times a day.
+- **Don't schedule daily jobs hourly just to handle time zones.** DJ explicitly pushed back on hourly wakeups for a once-daily Daily ToM job. For a daily local-time job with DST, prefer a narrow UTC candidate schedule (for ET 5AM: `0 9,10 * * *`) plus an in-script local-time/date guard so only one candidate performs work and the other exits silently.
 - **Don't suppress logs** — write full detail to a status file so Hermes can read it on-demand; just don't push it to Telegram automatically.
 - **CHIEF_HEALTH_ALWAYS_REPORT=1** can be set to force output for debugging without changing the script's default behavior.
 - **Clear the fingerprint on resolution** — if you only clear it when issues appear, a persistent-then-resolved-then-recurring issue will be silenced on second occurrence.

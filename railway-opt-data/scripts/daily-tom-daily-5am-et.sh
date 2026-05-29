@@ -19,13 +19,21 @@ if [[ -f "$last_run_file" && "$(cat "$last_run_file")" == "$today" ]]; then
   exit 0
 fi
 
-out="$(/opt/data/scripts/daily-tom-sync.py --date "$today" --apply)"
+PYTHON_BIN="/opt/data/google-accounts/.venv/bin/python"
+if [[ ! -x "$PYTHON_BIN" ]]; then
+  PYTHON_BIN="python3"
+fi
+
+out="$($PYTHON_BIN /opt/data/scripts/daily-tom-sync.py --date "$today" --apply)"
 printf '%s' "$today" > "$last_run_file"
 chmod 600 "$last_run_file"
 
-python3 - <<'PY' <<<"$out"
+tmp_json="$(mktemp)"
+printf '%s' "$out" > "$tmp_json"
+$PYTHON_BIN - "$tmp_json" <<'PY'
 import json, sys
-j=json.load(sys.stdin)
+from pathlib import Path
+j=json.loads(Path(sys.argv[1]).read_text())
 if j.get('status') == 'noop':
     print(f"Daily ToM sync: no-op for {j.get('date')} — {j.get('reason')}")
 else:
@@ -42,3 +50,4 @@ else:
         f"Groups: Professional {bg.get('Professional', 0)} / MENA {bg.get('Professional - MENA', 0)} / Others {bg.get('Professional - Others', 0)} / Personal {bg.get('Personal', 0)}"
     )
 PY
+rm -f "$tmp_json"
