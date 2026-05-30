@@ -55,10 +55,49 @@ For the Daily ToM 5AM ET job, avoid hourly cron wakeups. Use UTC candidate hours
 
 The EDT candidate is 09:00 UTC; the EST candidate is 10:00 UTC. Only the matching 5AM ET candidate should do work; the other should exit silently.
 
+## Google Docs style preservation
+
+When `daily-tom-sync.py` creates a new day, plain `insertText` inherits the paragraph style at the insertion point. Because the insertion point is near `[Next date]`, this can accidentally make every inserted paragraph `HEADING_2`. Preserve the established document pattern explicitly:
+
+- Date line: `HEADING_2`
+- Blank lines, section labels (`[Professional]`, etc.), and task rows: `NORMAL_TEXT`
+
+Preferred implementation pattern in `daily-tom-sync.py`:
+
+1. Build `inserted_text = new_section + "\n"`.
+2. Add the `insertText` request first.
+3. Add one `updateParagraphStyle` request per inserted paragraph over the inserted ranges.
+4. Set only `fields: "namedStyleType"` so other doc formatting is not disturbed.
+
+If a generated day already has bad styles, repair just that day's paragraph ranges: keep the date paragraph `HEADING_2`; set all paragraphs until the next date section to `NORMAL_TEXT`. Verify by reading Docs API `paragraph.paragraphStyle.namedStyleType`, not by eyeballing extracted plain text.
+
+## Manual task additions
+
+When DJ explicitly asks to add a ToM item to today's list, it is an approved Docs edit. Add it to the current top dated section, usually under `[Professional]` unless the request clearly names another section. Preserve the ToM task-id convention by appending a fresh `[n:<id>]`, and verify with `/opt/data/scripts/daily-tom-context.py` that the item appears under the expected section.
+
+Be careful with Google Docs insertion indexes: fetch the live doc, find today's date paragraph, find the section paragraph and next section/date boundary, then insert before that section's trailing blank line or before the next section. Do not use stale indexes from a previous read after making edits.
+
+## Keyboard marker normalization
+
+DJ uses fast keyboard shorthands in the Google Doc:
+
+- leading `x`, `x `, `X `, or `[x]` means completed and should be converted to `✅ `
+- leading `>`, `> `, or `[>]` means in-progress and should be converted to `↗️ `
+
+Important implementation details:
+
+- `daily-tom-sync.py` must treat lowercase no-space `xTask` as completed but avoid treating uppercase task names such as `XM comp` as completed. The conservative regex is `x(?=[A-Z0-9])` for no-space lowercase `x`, plus spaced `[xX]\\s+`.
+- Preserve visible in-progress markers when carrying tasks forward: `>Task` / `↗️ Task` should become and remain `↗️ Task` in future generated days.
+- If existing historical paragraphs have raw markers, batch-rewrite the live Google Doc via Docs API by replacing only the paragraph content prefix; skip date lines, `[Next date]`, `[Parking Lot]`, and `[Section]` headings. Verify there are zero remaining task paragraphs matching raw `x`/`>` prefixes.
+- The Daily ToM context extractor should also recognize the same completion shorthand so `xTask` does not leak into briefing context before the next sync/cleanup pass.
+
 ## Verification checklist
 
 - `bash -n /opt/data/scripts/daily-tom-daily-5am-et.sh`
+- `/opt/data/google-accounts/.venv/bin/python -m py_compile /opt/data/scripts/daily-tom-sync.py /opt/data/scripts/daily-tom-context.py`
 - `/opt/data/scripts/daily-tom-context.py` starts with `## Daily Top of Mind Context`
 - Context says `Current ToM section: <today's date>` after an applied run
+- If styles were changed: inspect Docs API paragraph styles for the current day (`HEADING_2` date, `NORMAL_TEXT` body)
+- If marker normalization changed: verify no non-structural paragraph begins with raw `[x]`, `x`, `X `, `[>]`, or `>` markers; completed items should show `✅`, in-progress items should show `↗️`.
 - `/opt/data/scripts/chief_operational_health.py` ends with `Status: OK`
 - `hermes cron list` shows Daily ToM enabled with schedule `0 9,10 * * *`

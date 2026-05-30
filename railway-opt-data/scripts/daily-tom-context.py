@@ -15,7 +15,7 @@ DATE_RE = re.compile(r'^(?:Jan|January|Feb|February|Mar|March|Apr|April|May|Jun|
 SECTION_RE = re.compile(r'^\[(.+?)\]$')
 PRIORITY_RE = re.compile(r'(?<!\*)\*{1,3}(?!\*)')
 ID_RE = re.compile(r'\[n:([A-Za-z0-9]{4,12})\]')
-DONE_RE = re.compile(r'^(?:✅\s*|\[x\]\s*|[xX]\s+)')
+DONE_RE = re.compile(r'^(?:✅\s*|\[x\]\s*|[xX]\s+|x(?=[A-Z0-9]))')
 
 
 def fetch_body() -> str:

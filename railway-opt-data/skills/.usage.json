@@ -16,14 +16,14 @@
     "archived_at": null,
     "created_at": "2026-05-26T21:01:01.030914+00:00",
     "created_by": null,
-    "last_patched_at": "2026-05-28T19:01:52.068206+00:00",
-    "last_used_at": "2026-05-28T14:27:18.783553+00:00",
-    "last_viewed_at": "2026-05-28T14:27:18.778836+00:00",
-    "patch_count": 9,
+    "last_patched_at": "2026-05-29T12:25:41.484566+00:00",
+    "last_used_at": "2026-05-29T12:21:43.442789+00:00",
+    "last_viewed_at": "2026-05-29T12:21:43.438639+00:00",
+    "patch_count": 12,
     "pinned": false,
     "state": "active",
-    "use_count": 5,
-    "view_count": 5
+    "use_count": 9,
+    "view_count": 9
   },
   "legal-document-analysis": {
     "archived_at": null,

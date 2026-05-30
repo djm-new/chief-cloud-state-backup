@@ -55,7 +55,11 @@ SECTION_RE = re.compile(r"^\[(.+?)\]$")
 ID_RE = re.compile(r"\[n:([A-Za-z0-9]{4,12})\]")
 REL_PARK_RE = re.compile(r"\[(\d{1,3})d\]")
 ABS_PARK_RE = re.compile(r"\[(\d{1,2})/(\d{1,2})\]")
-DONE_PREFIX_RE = re.compile(r"^(?:✅\s*|\[x\]\s*|[xX]\s+)")
+# DJ shorthand: typing a leading `x` or `>` in the Google Doc should be
+# treated as the emoji marker on the next sync/cleanup pass. Be conservative
+# with bare `x`: accept lowercase `xTask` / `x Task`, but do not treat
+# uppercase task names like `XM comp` as done.
+DONE_PREFIX_RE = re.compile(r"^(?:✅\s*|\[x\]\s*|[xX]\s+|x(?=[A-Z0-9]))")
 PROGRESS_PREFIX_RE = re.compile(r"^(?:↗️\s*|\[>\]\s*|>\s*)")
 PRIORITY_RE = re.compile(r"(?<!\*)\*{1,3}(?!\*)")
 
@@ -267,6 +271,8 @@ def parse_tasks(paras: list[Para], start_idx: int, end_idx: int, today: dt.date,
             continue
         if is_prog:
             in_progress.append(task_id)
+            if not PROGRESS_PREFIX_RE.match(text):
+                text = f"↗️ {text}"
         task = Task(text=text, group=group, id=task_id, priority=priority, original_order=order)
         order += 1
         if park_days is not None:
@@ -337,13 +343,38 @@ def build_section(today: dt.date, carried: list[Task], returning: list[Task], st
         lines.append("")
         lines.append(f"[{group}]")
         for task in sorted(by_group.get(group, []), key=priority_sort_key):
-            # Ensure progress markers are stripped and ID exists.
-            text = PROGRESS_PREFIX_RE.sub("", DONE_PREFIX_RE.sub("", task.text)).strip()
+            # Ensure completed markers are stripped and ID exists. Preserve
+            # in-progress markers so `>`/`↗️` carries forward visibly.
+            text = DONE_PREFIX_RE.sub("", task.text).strip()
             if "[n:" not in text:
                 text = f"{text} [n:{task.id}]"
             lines.append(text)
     lines.append("")
     return "\n".join(lines)
+
+
+def style_requests_for_inserted_section(start_index: int, text: str) -> list[dict[str, Any]]:
+    """Make a newly inserted day match the existing Daily ToM doc style.
+
+    Google Docs insertText inherits the paragraph style at the insertion point.
+    Because we insert directly after [Next date], that can cause the entire new
+    section to inherit Heading 2. The desired format is: date heading = Heading 2,
+    all section labels/tasks/blanks = Normal text.
+    """
+    requests: list[dict[str, Any]] = []
+    idx = start_index
+    for line_no, line in enumerate(text.splitlines(keepends=True)):
+        end = idx + len(line)
+        if end > idx:
+            requests.append({
+                "updateParagraphStyle": {
+                    "range": {"startIndex": idx, "endIndex": end},
+                    "paragraphStyle": {"namedStyleType": "HEADING_2" if line_no == 0 else "NORMAL_TEXT"},
+                    "fields": "namedStyleType",
+                }
+            })
+        idx = end
+    return requests
 
 
 def main() -> int:
@@ -379,7 +410,9 @@ def main() -> int:
         # Preserve parking lot at top: insert after parking lot, before latest dated section.
         insertion_index = paras[parking_end - 1].end if parking_end > parking_idx + 1 else paras[parking_idx].end
 
-    requests = [{"insertText": {"location": {"index": insertion_index}, "text": new_section + "\n"}}]
+    inserted_text = new_section + "\n"
+    requests = [{"insertText": {"location": {"index": insertion_index}, "text": inserted_text}}]
+    requests.extend(style_requests_for_inserted_section(insertion_index, inserted_text))
 
     summary = {
         "status": "dry_run" if not args.apply else "applied",

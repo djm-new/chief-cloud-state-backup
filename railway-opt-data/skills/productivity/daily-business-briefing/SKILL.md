@@ -155,7 +155,7 @@ Operational health is checked by:
 
 It verifies ToM state, Slack latest crawl, email context, filtered Slack context, full context generation, key file sizes, and archive/open-topic presence.
 
-Daily ToM run/debug details, including the expected context marker, manual run command, Google runtime venv, and DST-safe schedule shape, are in `references/daily-tom-troubleshooting.md`.
+Daily ToM run/debug details, including the expected context marker, manual run command, manual task additions, Google Docs style preservation, Google runtime venv, and DST-safe schedule shape, are in `references/daily-tom-troubleshooting.md`.
 
 ### Daily ToM context marker troubleshooting
 
