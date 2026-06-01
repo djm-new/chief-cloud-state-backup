@@ -1,23 +1,23 @@
-Chief Railway health check: 2026-05-31T07:00:16Z
-Memory: 189MB / 22888MB (0%)
+Chief Railway health check: 2026-06-01T07:00:36Z
+Memory: 292MB / 22888MB (1%)
 Railway volume disk: 319MB / 46627MB (1%)
 Gateway process: 1 /opt/hermes/.venv/bin/python3 /opt/hermes/.venv/bin/hermes gateway run
 Operational checks:
-  Chief operational health: 2026-05-31T07:01:18.527636+00:00
-  Check: /opt/data/daily-tom/task_state.json: 8251 bytes, age 22.0h
-  Check: /opt/data/slack_business_brief_latest.md: 35057 bytes, age 106.0h
-  Check: /opt/data/slack_brief_archive/open_topics.md: 1827 bytes, age 104.9h
-  Check: /opt/data/slack_brief_archive/BRIEFING_POLICY.md: 1290 bytes, age 105.0h
-  Check: /opt/data/google-accounts/SECURITY_POLICY.md: 2340 bytes, age 112.5h
-  Check: /opt/data/security/ATTACK_VECTOR_CHECKLIST.md: 1489 bytes, age 106.8h
+  Chief operational health: 2026-06-01T07:01:42.832781+00:00
+  Check: /opt/data/daily-tom/task_state.json: 8819 bytes, age 22.0h
+  Check: /opt/data/slack_business_brief_latest.md: 35057 bytes, age 130.0h
+  Check: /opt/data/slack_brief_archive/open_topics.md: 1827 bytes, age 128.9h
+  Check: /opt/data/slack_brief_archive/BRIEFING_POLICY.md: 1290 bytes, age 129.0h
+  Check: /opt/data/google-accounts/SECURITY_POLICY.md: 2340 bytes, age 136.5h
+  Check: /opt/data/security/ATTACK_VECTOR_CHECKLIST.md: 1489 bytes, age 130.8h
   Check: Archived smart briefings: 6
-  Check: Latest archived briefing: 2026-05-27-0030.md, age 102.4h
+  Check: Latest archived briefing: 2026-05-27-0030.md, age 126.4h
   Check: Daily ToM context: OK (1535 chars)
-  Check: Email ToM context: OK (6016 chars)
+  Check: Email ToM context: OK (5442 chars)
   Check: Filtered Slack context: OK (2354 chars)
-  Check: Full smart brief context: OK (16981 chars)
+  Check: Full smart brief context: OK (16407 chars)
   Status: ATTENTION NEEDED
-  Issue: Stale file: /opt/data/slack_business_brief_latest.md age 106.0h > 72h
-  Issue: Latest archived briefing is stale: 102.4h
+  Issue: Stale file: /opt/data/slack_business_brief_latest.md age 130.0h > 72h
+  Issue: Latest archived briefing is stale: 126.4h
 Status: ATTENTION NEEDED
 Issue: Chief operational health checks found issues.
