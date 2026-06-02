@@ -10,4 +10,4 @@ Railway Chief Google Workspace is configured for three account slots on the pers
 §
 DJ's Google security policy: Google actions may read/search/summarize and may create/edit/delete Calendar events, Docs, Sheets, and Drive files when requested, but Hermes must never send Gmail/reply/forward or trigger external notifications (calendar guest invite emails, Drive share notifications, Docs/Sheets comment notifications). Outbound email/share/invite content is draft-only unless DJ explicitly changes the policy.
 §
-Google Doc “DM Running Daily ToM” is DJ’s daily rolling todo source of truth: latest dated block near top; sections Professional, MENA, Others, Personal; [n:id] task IDs; ✅ completion; **/*** priority. Google-native sync runs daily at 5AM ET and reports to Telegram alerts topic 5.
+Google Doc “DM Running Daily ToM” is DJ’s daily rolling todo source of truth: latest block near top; sections Professional/MENA/Others/Personal; [n:id], **/*** priority; x/[x]→✅, >/[>]→↗️; new-day style date=Heading 2/body=Normal text; sync 5AM ET to Telegram alerts topic 5.
