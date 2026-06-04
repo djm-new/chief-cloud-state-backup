@@ -20,15 +20,15 @@
       "schedule_display": "15 7 * * *",
       "repeat": {
         "times": null,
-        "completed": 21
+        "completed": 22
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-12T19:59:22.529154+00:00",
-      "next_run_at": "2026-06-04T07:15:00+00:00",
-      "last_run_at": "2026-06-02T07:15:06.393549+00:00",
+      "next_run_at": "2026-06-05T07:15:00+00:00",
+      "last_run_at": "2026-06-03T07:15:25.687596+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -51,21 +51,21 @@
       "context_from": null,
       "schedule": {
         "kind": "cron",
-        "expr": "*/30 * * * *",
-        "display": "*/30 * * * *"
+        "expr": "0 */3 * * *",
+        "display": "0 */3 * * *"
       },
-      "schedule_display": "*/30 * * * *",
+      "schedule_display": "0 */3 * * *",
       "repeat": {
         "times": null,
-        "completed": 1018
+        "completed": 1051
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-12T20:42:58.485236+00:00",
-      "next_run_at": "2026-06-03T07:30:00+00:00",
-      "last_run_at": "2026-06-03T07:01:21.557836+00:00",
+      "next_run_at": "2026-06-04T09:00:00+00:00",
+      "last_run_at": "2026-06-04T06:01:46.274691+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -77,11 +77,9 @@
     {
       "id": "b84c63dd0926",
       "name": "Daily Chief morning health summary",
-      "prompt": "Run the Railway Chief health check and send DJ a brief morning status report in plain English.\n\nRun: CHIEF_HEALTH_ALWAYS_REPORT=1 /opt/data/scripts/chief_health_check.sh\n\nReport in 3-5 lines. Include:\n- Memory usage (amount used / total / percent)\n- Railway volume disk usage\n- Gateway status (running or not)\n- Whether last backup succeeded (check /opt/data/health/last_status.txt)\n- One-line overall verdict: all clear or attention needed\n\nKeep it friendly and brief. This is a routine daily check-in.",
-      "skills": [
-        "chief-health-report"
-      ],
-      "skill": "chief-health-report",
+      "prompt": "Run the Railway Chief health check and send DJ a concise morning status report in plain English.\n\nRun exactly:\nCHIEF_HEALTH_ALWAYS_REPORT=1 /opt/data/scripts/chief_health_check.sh\n\nReport in 3-5 lines. Include:\n- Memory usage (amount used / total / percent)\n- Railway volume disk usage\n- Gateway status (running or not)\n- Last backup status if visible in /opt/data/health/last_status.txt or the health output\n- One-line verdict using these meanings:\n  - \"All clear\" only when checks are OK.\n  - \"Hermes follow-up logged\" when the output says DJ action is none / issues are not DJ-actionable.\n  - \"DJ action needed\" only when the output explicitly says DJ action is required or the gateway/resources are unhealthy.\n\nDo not say \"attention needed\" if the recommended DJ action is none. Keep it friendly and brief.",
+      "skills": [],
+      "skill": null,
       "model": "claude-haiku-4-5",
       "provider": "anthropic",
       "base_url": null,
@@ -96,15 +94,15 @@
       "schedule_display": "0 12 * * *",
       "repeat": {
         "times": null,
-        "completed": 22
+        "completed": 23
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-12T21:10:04.711555+00:00",
-      "next_run_at": "2026-06-03T12:00:00+00:00",
-      "last_run_at": "2026-06-02T12:01:24.997955+00:00",
+      "next_run_at": "2026-06-04T12:00:00+00:00",
+      "last_run_at": "2026-06-03T12:00:54.818598+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -135,12 +133,12 @@
         "times": null,
         "completed": 3
       },
-      "enabled": false,
-      "state": "paused",
-      "paused_at": "2026-05-19T14:57:56.782236+00:00",
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-18T00:29:40.815074+00:00",
-      "next_run_at": "2026-05-19T20:55:00+00:00",
+      "next_run_at": "2026-06-04T12:55:00+00:00",
       "last_run_at": "2026-05-19T14:58:33.388837+00:00",
       "last_status": "ok",
       "last_error": null,
@@ -177,12 +175,12 @@
         "times": null,
         "completed": 0
       },
-      "enabled": false,
-      "state": "paused",
-      "paused_at": "2026-05-19T14:59:22.404549+00:00",
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-19T14:57:13.733402+00:00",
-      "next_run_at": "2026-05-19T14:58:12.885492+00:00",
+      "next_run_at": "2026-06-04T13:05:00+00:00",
       "last_run_at": null,
       "last_status": null,
       "last_error": null,
@@ -220,15 +218,15 @@
       "schedule_display": "0 9,10 * * *",
       "repeat": {
         "times": null,
-        "completed": 60
+        "completed": 62
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-26T16:48:41.225755+00:00",
-      "next_run_at": "2026-06-03T09:00:00+00:00",
-      "last_run_at": "2026-06-02T10:00:30.307564+00:00",
+      "next_run_at": "2026-06-04T09:00:00+00:00",
+      "last_run_at": "2026-06-03T10:00:58.565618+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -241,7 +239,51 @@
       },
       "enabled_toolsets": null,
       "workdir": null
+    },
+    {
+      "id": "71f28ceed919",
+      "name": "Pause smart business briefing trial after tomorrow",
+      "prompt": "One-shot cleanup after DJ's June 4, 2026 smart business briefing trial. Pause these two cron jobs, and do not create any new cron jobs: 60e7cd4fcf43 (Smart business briefing data collection) and d85ba3927717 (Smart business briefing). After pausing both, final response should be a concise local note confirming both were paused.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "once",
+        "run_at": "2026-06-04T21:20:00+00:00",
+        "display": "once at 2026-06-04 21:20"
+      },
+      "schedule_display": "once at 2026-06-04 21:20",
+      "repeat": {
+        "times": 1,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-04T01:58:14.378744+00:00",
+      "next_run_at": "2026-06-04T21:20:00+00:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "-1003956828149",
+        "chat_name": "Chief Group - Hermes",
+        "thread_id": "5"
+      },
+      "enabled_toolsets": [
+        "cronjob"
+      ],
+      "workdir": null
     }
   ],
-  "updated_at": "2026-06-03T07:15:21.920048+00:00"
+  "updated_at": "2026-06-04T07:15:48.894821+00:00"
 }

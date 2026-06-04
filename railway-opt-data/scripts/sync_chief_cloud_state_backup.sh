@@ -7,7 +7,7 @@ SNAPSHOT_DIR="$REPO_DIR/railway-opt-data"
 BRANCH="main"
 
 if [ -z "${GITHUB_TOKEN:-}" ]; then
-  echo "Chief cloud-state GitHub sync skipped: GITHUB_TOKEN is not set in Railway variables."
+  echo "Cronjob Response: Daily Chief cloud-state GitHub backup sync not successful: GITHUB_TOKEN is not set in Railway variables."
   exit 0
 fi
 
@@ -116,5 +116,5 @@ if [ -n "$(git status --porcelain)" ]; then
   git add -A
   git commit -m "chore: Railway Chief cloud-state snapshot $(date +%Y-%m-%d)" >/dev/null
   git push origin "$BRANCH" >/dev/null 2>&1
-  echo "Chief cloud-state GitHub sync pushed commit $(git rev-parse --short HEAD)."
+  echo "Cronjob Response: Daily Chief cloud-state GitHub backup sync successfully pushed."
 fi

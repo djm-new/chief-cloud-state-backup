@@ -1,4 +1,4 @@
-User wants recurring monitors silent on OK and actionable on alert, not raw status dumps.
+User wants monitors silent on OK/actionable on alert; cron listings in plain English, not cron syntax.
 §
 User's highest-priority Hermes use case is monitoring Slack messages/channels in the Flow workspace and surfacing important activity proactively.
 §

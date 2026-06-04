@@ -30,10 +30,10 @@ A cron job that fires every N minutes and delivers verbose stats even when nothi
 
 ## Alert output format
 
-When there IS something wrong, the alert message should be:
+When there IS something DJ-actionable, the alert message should be:
 
 ```
-⚠️ <System> needs attention
+⚠️ <System> needs DJ attention
 Time: <ISO UTC>
 
 What changed:
@@ -50,14 +50,16 @@ Useful context:
 [Optional: Operational issue details:]
 - <detail>
 
-DJ action: <either "none unless this repeats" or specific action required>
+DJ action: <specific action required>
 ```
+
+If the recommended DJ action is `none`, do **not** label it "needs attention." Either stay silent (preferred for recurring monitors) or label it clearly as internal follow-up, e.g. `ℹ️ <System> Hermes follow-up logged` with `DJ action: none.`
 
 Key rules:
 - Lead with emoji flag so it's scannable in Telegram.
 - "What changed" = the issues list, bullet-formatted.
 - "Useful context" = metrics only when the issue could be caused by resource pressure.
-- "DJ action" = either "none, Hermes should fix this" or an explicit ask. Never omit this line.
+- Never combine "needs attention" with "DJ action: none." That is contradictory and DJ explicitly rejected it.
 
 ---
 
@@ -135,6 +137,21 @@ deliver: telegram:<chat>:<topic>  # or "local" for disk only
 schedule: "*/30 * * * *"    # 5-field cron or "every 30m" / "every 2h"
 ```
 
+When reporting cron jobs to DJ, **do not show raw cron notation as the primary format.** DJ explicitly called that absurd/non-human. Translate schedules into plain English and ET-local next-run times, e.g.:
+
+- `Runs: every 3 hours, on the hour`
+- `Runs: every day at 5:00 AM ET`
+- `Next run: tomorrow at 8:00 AM ET`
+
+Only include the raw cron string if DJ asks for implementation detail or you need it for debugging.
+
+When DJ asks how many alerts/updates to expect, count expected delivered messages under the stated assumptions, not scheduled executions. Distinguish:
+
+- silent-on-OK monitor runs → **0 messages when healthy**
+- daily summary/report jobs → **1 expected message per run**
+- sync/backup jobs that print only on change → **0 if no changes, 1 if they push/report a change**
+- paused jobs → **0 messages**
+
 ---
 
 ## Operational health check pattern
@@ -162,6 +179,16 @@ def check_file(path, max_age_h=None, max_size_kb=None, min_size=1):
 Exit nonzero if issues found; the bash wrapper treats nonzero as issues.
 
 ---
+
+## Hermes cron wrapper/footer control
+
+Hermes wraps cron deliveries by default with `Cronjob Response`, `job_id`, divider, and a "To stop or manage this job..." footer. DJ flagged that footer/job metadata as extraneous for daily health-style updates. If a job's script/agent already prints the exact user-facing message, disable wrapping globally with:
+
+```bash
+/opt/hermes/.venv/bin/hermes config set cron.wrap_response false
+```
+
+Then make each cron script output its own concise self-identifying line, e.g. `Cronjob Response: <job name> successfully pushed.` or `Cronjob Response: <job name> not successful: <reason>.` This avoids raw job IDs and stop-management boilerplate in Telegram.
 
 ## Pitfalls
 

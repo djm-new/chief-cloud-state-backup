@@ -52,9 +52,29 @@ def run_check(name: str, cmd: list[str], timeout: int = 60, must_contain: list[s
         LINES.append(f"{name}: FAIL")
 
 
+def smart_briefing_jobs_paused() -> bool:
+    try:
+        data = json.loads(Path('/opt/data/cron/jobs.json').read_text())
+    except Exception:
+        return False
+    wanted = {'Smart business briefing data collection', 'Smart business briefing'}
+    states = {}
+    for job in data.get('jobs', []):
+        name = job.get('name')
+        if name in wanted:
+            states[name] = (not job.get('enabled')) or job.get('state') == 'paused'
+    return wanted.issubset(states) and all(states.values())
+
+
+briefing_paused = smart_briefing_jobs_paused()
+
 # Freshness / existence checks.
 check_file('/opt/data/daily-tom/task_state.json', max_age_h=72, max_size_kb=256)
-check_file('/opt/data/slack_business_brief_latest.md', max_age_h=72, max_size_kb=512)
+if briefing_paused:
+    LINES.append('Smart briefing freshness: skipped because smart briefing cron jobs are paused')
+    check_file('/opt/data/slack_business_brief_latest.md', max_size_kb=512)
+else:
+    check_file('/opt/data/slack_business_brief_latest.md', max_age_h=72, max_size_kb=512)
 check_file('/opt/data/slack_brief_archive/open_topics.md', max_size_kb=12)
 check_file('/opt/data/slack_brief_archive/BRIEFING_POLICY.md', max_size_kb=16)
 check_file('/opt/data/google-accounts/SECURITY_POLICY.md', max_size_kb=16)
@@ -67,7 +87,7 @@ LINES.append(f"Archived smart briefings: {len(briefs)}")
 if briefs:
     age = age_hours(briefs[-1])
     LINES.append(f"Latest archived briefing: {briefs[-1].name}, age {age:.1f}h")
-    if age is not None and age > 96:
+    if not briefing_paused and age is not None and age > 96:
         ISSUES.append(f"Latest archived briefing is stale: {age:.1f}h")
 
 # Context generation must include all major sections.
