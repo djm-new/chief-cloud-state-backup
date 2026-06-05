@@ -21,6 +21,8 @@ Assume the implementer is a skilled developer but knows almost nothing about the
 
 **Core principle:** A good plan makes implementation obvious. If someone has to guess, the plan is incomplete.
 
+**Discovery mode reference:** For low-friction product/spec interviews before implementation, see `references/product-discovery-interview.md`. For DJ's health/fitness app discovery notes, see `references/health-fitness-app-discovery-dj.md`. For the reusable pattern of turning an approved PWA plan into a locally verified Next.js/Railway scaffold, see `references/nextjs-railway-pwa-bootstrap.md`. For HealthOS workout logging UX, see `references/healthos-workout-ux.md`: workout flows should be plan-first and exception-only, not per-rep/per-set data entry.
+
 ## When to Use
 
 **Always use before:**
@@ -32,6 +34,20 @@ Assume the implementer is a skilled developer but knows almost nothing about the
 - Feature seems simple (assumptions cause bugs)
 - You plan to implement it yourself (future you needs guidance)
 - Working alone (documentation matters)
+
+## Before the Plan: Product Discovery Interview
+
+When the user wants to design/align before implementation, do **not** jump directly to a full implementation plan or a giant questionnaire. Run an interactive discovery interview first:
+
+- Ask one short question at a time.
+- Prefer multiple-choice options plus room for freeform answers.
+- After each answer, restate the decision in one concise sentence and ask the next most informative question.
+- Keep momentum; avoid making the user scroll back and answer a long list.
+- If the user asks for "BMAD-style" or interview mode, use fast pitter-patter questions until requirements are crisp.
+- Only synthesize into a PRD/spec after enough answers are collected.
+- Only write an implementation plan after the user approves the product direction.
+
+See `references/product-discovery-interview.md` for the reusable interview pattern and DJ's current health/exercise app decisions.
 
 ## Bite-Sized Task Granularity
 
@@ -138,6 +154,21 @@ Read and understand:
 - Design documents or user description
 - Acceptance criteria
 - Constraints
+
+#### Product-discovery interview mode
+
+When requirements are still being shaped with the user, do **not** dump a long questionnaire. Use a fast interview cadence instead:
+
+- Ask one short, high-leverage question at a time.
+- Offer compact choices (A/B/C/D) when useful, but accept fragments or free-form answers.
+- Summarize each decision in 1-2 lines, then immediately ask the next question.
+- Stop after enough alignment and synthesize into a spec; do not chase every edge case forever.
+- If the user asks for “BMAD style” or complains that scrolling through questions is high friction, switch to this interview mode.
+- Do not implement while still in alignment mode unless the user explicitly approves moving from design to build.
+
+For a reusable checklist and spec shape from a health/dashboard app discovery session, see `references/product-discovery-interview-pattern.md`.
+
+### Step 2: Explore the Codebase
 
 ### Step 2: Explore the Codebase
 
@@ -275,6 +306,21 @@ git commit -m "type: description"
 After saving the plan, offer the execution approach:
 
 **"Plan complete and saved. Ready to execute using subagent-driven-development — I'll dispatch a fresh subagent per task with two-stage review (spec compliance then code quality). Shall I proceed?"**
+
+### DJ active-project mode
+
+**DJ's explicit standing instruction:** "Don't make me prompt you. If we're on a project, keep pushing until we're done." He has expressed this multiple times with increasing frustration ("why do you keep stopping? just go"). Treat any session where an active build project is in flight as being in this mode by default — you should not need to be told twice.
+
+When DJ explicitly says to "go forward," "keep going," or that he should not have to keep prompting during an active project, switch from interview/plan-only mode into active execution:
+
+- **Never end a turn mid-project asking "what's next?" or "shall I continue?" if safe local actions remain.** Just do them.
+- Continue making concrete progress until the current phase is complete and verified, or until an external blocker requires credentials/approval.
+- Do not end a turn with only "next steps" if safe local actions remain (write spec, scaffold repo, run tests, commit, update status docs).
+- Keep a compact status file in the project (e.g. `PROJECT_STATUS.md`) with completed work, verification commands, local commits, and external blockers so future sessions resume without rediscovery.
+- Still ask before live external side effects that need explicit approval or credentials (deployments, recurring jobs, external notifications, account changes), but keep doing local/reversible implementation work when scope is clear.
+- Verify before summarizing: typecheck/tests/build or the project-appropriate equivalent, then commit in small chunks.
+- When a phase ends (tests green, build clean, committed), immediately identify the next phase and start it in the same turn.
+- Only surface a summary/checkpoint to DJ when: (a) a real external blocker is hit (auth, credentials, remote service), (b) a destructive/irreversible action is about to happen, or (c) the entire project is done.
 
 When executing, use the `subagent-driven-development` skill:
 - Fresh `delegate_task` per task with full context

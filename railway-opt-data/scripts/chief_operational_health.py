@@ -52,26 +52,51 @@ def run_check(name: str, cmd: list[str], timeout: int = 60, must_contain: list[s
         LINES.append(f"{name}: FAIL")
 
 
-def smart_briefing_jobs_paused() -> bool:
+def smart_briefing_job_state() -> tuple[bool, bool]:
+    """Return (all_paused, first_enabled_run_pending).
+
+    Freshness should not alert while a paused briefing is being re-enabled for a
+    scheduled trial but has not yet had its first briefing run.
+    """
     try:
         data = json.loads(Path('/opt/data/cron/jobs.json').read_text())
     except Exception:
-        return False
+        return False, False
     wanted = {'Smart business briefing data collection', 'Smart business briefing'}
-    states = {}
-    for job in data.get('jobs', []):
-        name = job.get('name')
-        if name in wanted:
-            states[name] = (not job.get('enabled')) or job.get('state') == 'paused'
-    return wanted.issubset(states) and all(states.values())
+    jobs = {job.get('name'): job for job in data.get('jobs', []) if job.get('name') in wanted}
+    if not wanted.issubset(jobs):
+        return False, False
+
+    def is_paused(job: dict) -> bool:
+        return (not job.get('enabled')) or job.get('state') == 'paused'
+
+    all_paused = all(is_paused(job) for job in jobs.values())
+    briefing_job = jobs.get('Smart business briefing', {})
+    first_enabled_run_pending = False
+    if not is_paused(briefing_job) and not briefing_job.get('last_run_at'):
+        next_run = briefing_job.get('next_run_at')
+        if next_run:
+            try:
+                next_dt = datetime.fromisoformat(next_run.replace('Z', '+00:00')).timestamp()
+                # Allow a 2h grace window after the first scheduled run before
+                # treating old briefing artifacts as stale again.
+                first_enabled_run_pending = NOW <= next_dt + 7200
+            except Exception:
+                first_enabled_run_pending = True
+        else:
+            first_enabled_run_pending = True
+    return all_paused, first_enabled_run_pending
 
 
-briefing_paused = smart_briefing_jobs_paused()
+briefing_paused, briefing_first_run_pending = smart_briefing_job_state()
 
 # Freshness / existence checks.
 check_file('/opt/data/daily-tom/task_state.json', max_age_h=72, max_size_kb=256)
 if briefing_paused:
     LINES.append('Smart briefing freshness: skipped because smart briefing cron jobs are paused')
+    check_file('/opt/data/slack_business_brief_latest.md', max_size_kb=512)
+elif briefing_first_run_pending:
+    LINES.append('Smart briefing freshness: skipped because first enabled smart briefing run is still pending')
     check_file('/opt/data/slack_business_brief_latest.md', max_size_kb=512)
 else:
     check_file('/opt/data/slack_business_brief_latest.md', max_age_h=72, max_size_kb=512)
@@ -87,7 +112,7 @@ LINES.append(f"Archived smart briefings: {len(briefs)}")
 if briefs:
     age = age_hours(briefs[-1])
     LINES.append(f"Latest archived briefing: {briefs[-1].name}, age {age:.1f}h")
-    if not briefing_paused and age is not None and age > 96:
+    if not briefing_paused and not briefing_first_run_pending and age is not None and age > 96:
         ISSUES.append(f"Latest archived briefing is stale: {age:.1f}h")
 
 # Context generation must include all major sections.

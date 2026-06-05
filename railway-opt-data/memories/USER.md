@@ -1,15 +1,13 @@
-User wants monitors silent on OK/actionable on alert; cron listings in plain English, not cron syntax.
+User prefers monitor outputs silent on OK/actionable on alert; cron listings in plain English; product design via fast interview/pitter-patter rather than giant questionnaires.
 §
-User's highest-priority Hermes use case is monitoring Slack messages/channels in the Flow workspace and surfacing important activity proactively.
-§
-User wants Slack monitoring via DJ user-level OAuth, twice daily, with Slack business brief deliveries going to Telegram alerts topic 5.
+User's highest-priority Hermes use case is Flow Slack monitoring with smart business briefings delivered to Telegram Briefings topic 4, not alerts.
 §
 User prefers explicit approval before recurring monitors/side effects. For Google, read/search/summarize only when requested; never send/reply/forward, invite, share, notify, or modify externally—draft-only unless policy changes.
 §
-Primary model: anthropic/claude-sonnet-4-6 (set May 27 2026). CF blocked openai-codex ~May 26 2026. OPENAI_CODEX env exists; restore openai-codex as primary when Hermes patches CF.
+User expects direct CLI execution when access exists; keep building/verifying/deploying until done or blocked; clarify ambiguous design/live changes first.
 §
-User wants smart briefing in EST to Telegram alerts topic 5: ToM-aware Slack + personal/166-2nd email, MENA/revenue/blockers/mentions/DMs/MPIMs, DJ actions, suggested ToM additions—never write ToM without approval.
+Health app prefs: fast BMAD interview before build; Today-first mobile PWA; custom lifting progression; workout UX prefilled reps/weights, tap sets done, edit exceptions only; sleep target 7h; Apple/Oura planned.
 §
-User needs multi-person Slack DMs included in Slack business briefings; mpim coverage is required, not optional.
+Health app requirements: speed-first LLM text meal logging (no photos), calories+protein/carbs/fat, manual daily weight, recomp phase, manual Apple Watch calories-out with TDEE fallback.
 §
-User expects exact integration troubleshooting and direct CLI execution when access is available, but wants ambiguous integration/design requests clarified before live workflow changes are made.
+DJ podcast prefs: score episodes not shows; daily wide-net text; weekly tightly tuned audio; keep storage lean by persisting durable taste/idea patterns, not daily artifacts. Follow Benedict Evans for calibration/filtering.

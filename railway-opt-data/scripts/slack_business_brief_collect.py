@@ -39,6 +39,11 @@ PRIORITY_TERMS = [
     'DJ', 'dj', '<@U05FS0SE77F>'
 ]
 
+# Recent DM/MPIM refresh — a fresh short lookback for direct/group messages,
+# independent of the broad last_ts watermark, so recent DMs are not missed
+# when the broad workspace search advances last_ts with high-volume channel noise.
+DM_REFRESH_LOOKBACK_HOURS = int(os.getenv('SLACK_BRIEF_DM_REFRESH_LOOKBACK_HOURS', '48'))
+
 NOISE_SUBTYPES = {'channel_join', 'channel_leave', 'bot_message'}
 
 
@@ -122,7 +127,7 @@ async def slack_call_with_rate_limit(fn, **kwargs):
         raise
 
 
-async def collect_search(client, query, seen, user_id, max_seen_ts, min_ts):
+async def collect_search(client, query, seen, user_id, max_seen_ts, min_ts, include_seen: bool = False):
     matches = []
     total = None
     page = 1
@@ -156,7 +161,7 @@ async def collect_search(client, query, seen, user_id, max_seen_ts, min_ts):
         cid = channel.get('id') or ''
         key = f'{cid}:{ts}'
         max_seen_ts = max(max_seen_ts, msg_ts)
-        if not ts or key in seen or (min_ts and msg_ts <= min_ts):
+        if not ts or ((not include_seen) and key in seen) or (min_ts and msg_ts <= min_ts):
             continue
         text = clean_text(m.get('text'))
         if not text:
@@ -381,6 +386,21 @@ async def main():
             all_items.extend(items)
         except SlackApiError as e:
             totals[label] = f"error:{e.response.get('error')}"
+
+    # Explicit DM/MPIM refresh: use a fixed recent lookback independent of
+    # last_ts so direct/group messages are not missed when broad workspace search
+    # has advanced last_ts with high-volume channel noise.
+    dm_refresh_min_ts = max(0, now - DM_REFRESH_LOOKBACK_HOURS * 60 * 60)
+    dm_refresh_date = (datetime.fromtimestamp(dm_refresh_min_ts, timezone.utc).date() - timedelta(days=1)).isoformat()
+    for query in [f'is:dm after:{dm_refresh_date}', f'is:mpim after:{dm_refresh_date}']:
+        try:
+            items, total, max_seen_ts = await collect_search(
+                client, query, seen, user_id, max_seen_ts, dm_refresh_min_ts, include_seen=True
+            )
+            totals[f'dm_refresh:{query.split()[0]}'] = total
+            all_items.extend(items)
+        except SlackApiError as e:
+            totals[f'dm_refresh:{query.split()[0]}'] = f"error:{e.response.get('error')}"
 
     im_last = state.get('im_last_ts', {})
     mpim_last = state.get('mpim_last_ts', {})

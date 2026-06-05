@@ -24,6 +24,7 @@ from pathlib import Path
 
 LATEST = Path('/opt/data/slack_business_brief_latest.md')
 MAX_ITEMS = 22
+MAX_ITEMS_CHANNEL_PULSE = 15   # additional lower-score items for business pulse
 MAX_CONTEXT_LINES_PER_ITEM = 8   # Increased — DMs need more context to interpret
 MAX_TEXT_LEN = 750
 
@@ -230,16 +231,38 @@ def render(header, ranked):
 
 def main():
     if not LATEST.exists():
-        print('# Filtered Slack Business Brief Evidence\nNo Slack collection file found.')
+        print('# Filtered Slack Business Brief Evidence\\nNo Slack collection file found.')
         return
     header, items = parse(LATEST.read_text(errors='ignore'))
-    ranked = []
+
+    high_signal = []
+    channel_pulse = []
+
     for item in items:
         value, tier, reasons = classify(item)
         if value >= 105:
-            ranked.append((value, tier, reasons, item))
-    ranked.sort(key=lambda x: x[0], reverse=True)
-    print(render(header, ranked[:MAX_ITEMS]))
+            high_signal.append((value, tier, reasons, item))
+        elif value >= 20 and tier != 'Low confidence':
+            # Include lower-scoring items as business-pulse context so the model
+            # can synthesize what's happening across the workspace — not just DMs.
+            channel_pulse.append((value, tier, reasons, item))
+
+    high_signal.sort(key=lambda x: x[0], reverse=True)
+    channel_pulse.sort(key=lambda x: x[0], reverse=True)
+
+    # Dedup channel_pulse against high_signal by channel (keep at most 1 rep per channel)
+    seen_channels_pulse = {item['channel'] for _, _, _, item in high_signal}
+    deduped_pulse = []
+    for entry in channel_pulse:
+        ch = entry[3].get('channel', '')
+        if ch not in seen_channels_pulse:
+            seen_channels_pulse.add(ch)
+            deduped_pulse.append(entry)
+        if len(deduped_pulse) >= MAX_ITEMS_CHANNEL_PULSE:
+            break
+
+    ranked = high_signal[:MAX_ITEMS] + deduped_pulse
+    print(render(header, ranked))
 
 
 if __name__ == '__main__':

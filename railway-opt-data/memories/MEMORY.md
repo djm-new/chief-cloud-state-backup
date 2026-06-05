@@ -1,8 +1,8 @@
-Podcast/audio generation preference: character labels in scripts are speaker directions and must not be read aloud; use distinct voices per character; prefer ElevenLabs or similarly high-quality TTS; output should feel like a real conversation, not one narrator reading labels.
+Podcast prefs: labels not read aloud; distinct high-quality voices. Podcast intel: daily text + weekly 15–20m two-host audio; discover beyond subscriptions. Focus top money managers/CEOs/AI leaders/frontier thinkers; reference tastes include Dwarkesh, Invest Like the Best, Conversations w/ Tyler, Acquired/All-In/Marc&Ben. Skip news/politics/energy/climate/celebrity/VC fluff; select for actions/frameworks/toolkit.
 §
-Environment: python3-pip and edge-tts are installed; /root/.local/bin/edge-tts can synthesize selectable Edge neural voices for multi-speaker podcast assembly when ElevenLabs is unavailable.
+Env: python3-pip and edge-tts are installed; /root/.local/bin/edge-tts supports selectable neural voices.
 §
-Environment: xurl is installed at /usr/local/bin/xurl, but no X app/OAuth credentials are registered; unauthenticated reads via xurl return 401 until user completes xurl auth setup.
+Health app design prefs: PWA+login, Today dashboard, fast LLM meal logging, custom lifting, 7-day calories/weight/sleep/workouts, Google Sheets backup.
 §
 User's production Hermes environment runs on Railway/Chief with a persistent /opt/data Railway volume and Railway env/secrets; do not treat local/session /opt/data as canonical for persistent integrations. The chief-cloud-state-backup repo selectively snapshots Railway /opt/data and intentionally excludes secrets, auth.json, OAuth/token JSON files, Google credential/token JSON files, sessions, logs, and caches.
 §

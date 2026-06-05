@@ -20,15 +20,15 @@
       "schedule_display": "15 7 * * *",
       "repeat": {
         "times": null,
-        "completed": 22
+        "completed": 23
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-12T19:59:22.529154+00:00",
-      "next_run_at": "2026-06-05T07:15:00+00:00",
-      "last_run_at": "2026-06-03T07:15:25.687596+00:00",
+      "next_run_at": "2026-06-06T07:15:00+00:00",
+      "last_run_at": "2026-06-04T07:15:51.905742+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -57,15 +57,15 @@
       "schedule_display": "0 */3 * * *",
       "repeat": {
         "times": null,
-        "completed": 1051
+        "completed": 1059
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-12T20:42:58.485236+00:00",
-      "next_run_at": "2026-06-04T09:00:00+00:00",
-      "last_run_at": "2026-06-04T06:01:46.274691+00:00",
+      "next_run_at": "2026-06-05T09:00:00+00:00",
+      "last_run_at": "2026-06-05T06:01:57.981502+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -77,7 +77,7 @@
     {
       "id": "b84c63dd0926",
       "name": "Daily Chief morning health summary",
-      "prompt": "Run the Railway Chief health check and send DJ a concise morning status report in plain English.\n\nRun exactly:\nCHIEF_HEALTH_ALWAYS_REPORT=1 /opt/data/scripts/chief_health_check.sh\n\nReport in 3-5 lines. Include:\n- Memory usage (amount used / total / percent)\n- Railway volume disk usage\n- Gateway status (running or not)\n- Last backup status if visible in /opt/data/health/last_status.txt or the health output\n- One-line verdict using these meanings:\n  - \"All clear\" only when checks are OK.\n  - \"Hermes follow-up logged\" when the output says DJ action is none / issues are not DJ-actionable.\n  - \"DJ action needed\" only when the output explicitly says DJ action is required or the gateway/resources are unhealthy.\n\nDo not say \"attention needed\" if the recommended DJ action is none. Keep it friendly and brief.",
+      "prompt": "Run the Railway Chief health check and send DJ a concise daily Chief/Railway health update in plain English.\n\nRun exactly:\nCHIEF_HEALTH_ALWAYS_REPORT=1 /opt/data/scripts/chief_health_check.sh\n\nReport in a compact, human-readable format. Include:\n- One-line verdict using these meanings:\n  - \"All clear\" only when checks are OK.\n  - \"Hermes follow-up logged\" when the output says DJ action is none / issues are not DJ-actionable.\n  - \"DJ action needed\" only when the output explicitly says DJ action is required or the gateway/resources are unhealthy.\n- A \"Useful context\" section with:\n  - Memory usage: amount used / total / percent\n  - Railway volume usage: amount used / total / percent\n  - Gateway status: running or not\n  - Any operational issue details if present\n- Last backup status if visible in /opt/data/health/last_status.txt or the health output.\n- DJ action line.\n\nRules:\n- Do not say \"attention needed\" if the recommended DJ action is none.\n- Do not dump raw logs unless there is a real failure.\n- Keep it friendly and brief: roughly 5-8 short lines.",
       "skills": [],
       "skill": null,
       "model": "claude-haiku-4-5",
@@ -94,15 +94,15 @@
       "schedule_display": "0 12 * * *",
       "repeat": {
         "times": null,
-        "completed": 23
+        "completed": 24
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-12T21:10:04.711555+00:00",
-      "next_run_at": "2026-06-04T12:00:00+00:00",
-      "last_run_at": "2026-06-03T12:00:54.818598+00:00",
+      "next_run_at": "2026-06-05T12:00:00+00:00",
+      "last_run_at": "2026-06-04T12:01:20.108395+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -131,15 +131,15 @@
       "schedule_display": "55 12,20 * * *",
       "repeat": {
         "times": null,
-        "completed": 3
+        "completed": 5
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-18T00:29:40.815074+00:00",
-      "next_run_at": "2026-06-04T12:55:00+00:00",
-      "last_run_at": "2026-05-19T14:58:33.388837+00:00",
+      "next_run_at": "2026-06-05T12:55:00+00:00",
+      "last_run_at": "2026-06-04T20:56:15.054966+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -156,9 +156,11 @@
     {
       "id": "d85ba3927717",
       "name": "Smart business briefing",
-      "prompt": "You are writing DJ Mauch's single smart executive business briefing for Flow. You have one job: protect DJ's attention by surfacing only what he actually needs to act on or know.\n\n## Inputs injected before this prompt\nThe pre-run script injects:\n1. Daily ToM priority context (read from Google Doc \u2014 today's active tasks by priority).\n2. Gmail context from personal (dj.mauch@gmail.com) and 166-2nd (dj@1662nd.com) \u2014 bounded, ToM-weighted.\n3. Filtered Slack evidence \u2014 already pre-filtered by an executive-relevance filter (v3). What remains passed a strict threshold: DMs/MPIMs, ToM entities, deal/project channels, tour/prospect signals, notable engineering items.\n4. Rolling open topics from /opt/data/slack_brief_archive/open_topics.md.\n\n## Mandatory rules\n\n### The DJ relevance test\nEvery item in the briefing must answer: \"Why does DJ need to know this, and what decision or action follows?\"\nIf the answer is weak \u2192 downgrade to \"Worth knowing\" or exclude entirely. Do not fill the briefing with items that merely exist.\n\n### DM / group-DM handling\n- DMs and MPIMs are always surface \u2014 but you MUST read the full context (prior messages in the thread or preceding messages) before drawing any conclusion.\n- Never quote one line of a DM out of context and guess what it's about.\n- If you see a message like \"great. let's wind him down...\" \u2014 look at ALL the context lines provided. Identify the subject (who), the task (wind down what), and the relevant party. Report: \"[Name] will be wound down the week after next per group-DM with Thasan and Samin. Context: [description from thread].\"\n- If context is insufficient to interpret, say: \"Group DM mentions a wind-down decision \u2014 insufficient context to identify subject. Link: [url].\" Do not guess.\n\n### False inference rule\n- Never connect unrelated items as if they are related. Example: Vercel access approval for a MENA app does NOT mean MENA KPI/Hubspot/revenue diagnostic work is unblocked \u2014 they may be completely unrelated.\n- Only connect items when the connection is explicit in the source material.\n\n### App install requests\n- Never include Slackbot app install requests. These are IT-handled and irrelevant to DJ. They are already excluded by the filter, but if any slip through, drop them.\n\n### Leasing channel signals\n- Include leasing/tour signals (people waiting for tours, prospect visits, staffing issues at tours). These ARE valuable to DJ.\n- Keep them brief: one line + context, flag only if it represents a pattern or needs DJ attention.\n\n### Engineering items\n- Include notable engineering items when they involve a named ToM entity (e.g., \"Society Wynwood\" \u2192 \"Flow Wynwood\" naming), a product decision, or a blocker.\n- Exclude low-context engineering chatter (random PR merges, minor code comments, test results).\n\n### No false state assertions\n- Never assert that something is \"resolved\" or \"closed\" unless the source explicitly says it is.\n- Never assert that an action is complete unless you have evidence.\n- When uncertain: say \"unclear\" or \"no explicit confirmation found.\"\n\n### ToM additions\n- Suggest specific ToM additions when the evidence is clear. Always ask DJ directly for approval: \"Do you approve adding [X] to the ToM?\"\n- Never write to the ToM doc without explicit DJ approval.\n\n## Output format\n\n### Executive summary\n3\u20135 bullets maximum. Only the highest-signal items. Start with the most important.\n\n### Needs DJ attention\nItems with a clear decision, action, or response required. Be opinionated: tell DJ what you recommend.\n\n### Worth knowing / monitor\nNo action needed today, but worth having in the picture. Keep brief.\n\n### Deliberately excluded\nOne-liner list of what was filtered and why. Gives DJ confidence the filter is working.\n\n### Suggested ToM additions \u2014 approval required\nSpecific, formatted ToM entries you recommend adding. Ask DJ directly for approval.\n\n### Watchlist / carry-forward\nItems staying open from rolling state.\n\n## What NOT to do\n- Do not list things that merely exist without a reason they matter to DJ.\n- Do not assert causation between unrelated items.\n- Do not include app install requests.\n- Do not write anything to the ToM doc.\n- Do not send, reply, or forward any email or Slack message.\n- Do not trigger any external notifications.\n\n## Archiving\nAfter generating the briefing:\n1. Save to /opt/data/slack_brief_archive/YYYY-MM-DD-HHMM.md (use current UTC time).\n2. Update /opt/data/slack_brief_archive/open_topics.md: carry forward unresolved items, mark resolved ones, add new ones.\n3. Do NOT save review copies or draft copies to the archive directory.",
-      "skills": [],
-      "skill": null,
+      "prompt": "Write DJ Mauch's single smart executive business briefing for Flow using the pre-run script context.\n\nUse the loaded daily-business-briefing skill as binding policy. Apply the latest DJ calibration strictly:\n\n- Every item must pass: why does DJ need to know this, and what action/decision follows?\n- The briefing must cover TWO layers: (1) direct/group-DM actions for DJ, and (2) business pulse \u2014 what actually happened across the Slack workspace since the last collection. DJ explicitly said getting zero channel business context is not acceptable.\n- Consolidate multiple messages from the same thread into one executive item. Never list duplicate messages from the same conversation separately.\n- Do not surface stale carry-forward just because it exists. If the event already happened (e.g. a board meeting is over, a resolved thread), mark it resolved or drop it.\n- Exclude resolved low-priority DMs where someone said they got help elsewhere and no DJ action is needed.\n- Never tag named people as \"VIPs.\" The signal comes from message content and context, not from who sent it.\n- Never write to Daily ToM, send/reply/forward, invite/share/comment/notify, or trigger external side effects.\n\nOutput exactly these sections:\n1. **Executive summary** \u2014 3-5 bullets, most important first. Decisive.\n2. **Needs DJ attention** \u2014 real decisions/actions only. Opinionated: tell DJ what to do.\n3. **Business pulse / worth knowing** \u2014 what happened across the workspace. Summarize channel activity, notable discussions, signals that don't require a DJ action today but matter. This section must not be empty if there was any channel activity.\n4. **Deliberately excluded** \u2014 concise list showing stale, noise, or resolved items excluded and why.\n5. **Suggested ToM additions** \u2014 approval required only; ask DJ directly.\n6. **Watchlist / carry-forward** \u2014 compact and pruned; close/drop stale items explicitly.\n\nArchive the final briefing to /opt/data/slack_brief_archive/YYYY-MM-DD-HHMM.md and update /opt/data/slack_brief_archive/open_topics.md compactly. Final response should be the briefing only.",
+      "skills": [
+        "daily-business-briefing"
+      ],
+      "skill": "daily-business-briefing",
       "model": "claude-sonnet-4-6",
       "provider": "anthropic",
       "base_url": null,
@@ -173,19 +175,19 @@
       "schedule_display": "5 13,21 * * *",
       "repeat": {
         "times": null,
-        "completed": 0
+        "completed": 2
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-19T14:57:13.733402+00:00",
-      "next_run_at": "2026-06-04T13:05:00+00:00",
-      "last_run_at": null,
-      "last_status": null,
+      "next_run_at": "2026-06-05T13:05:00+00:00",
+      "last_run_at": "2026-06-04T21:09:35.474906+00:00",
+      "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
-      "deliver": "telegram:-1003956828149:5",
+      "deliver": "telegram:-1003956828149:3",
       "origin": {
         "platform": "telegram",
         "chat_id": "-1003956828149",
@@ -218,15 +220,15 @@
       "schedule_display": "0 9,10 * * *",
       "repeat": {
         "times": null,
-        "completed": 62
+        "completed": 64
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-26T16:48:41.225755+00:00",
-      "next_run_at": "2026-06-04T09:00:00+00:00",
-      "last_run_at": "2026-06-03T10:00:58.565618+00:00",
+      "next_run_at": "2026-06-05T09:00:00+00:00",
+      "last_run_at": "2026-06-04T10:00:00.477837+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -241,49 +243,47 @@
       "workdir": null
     },
     {
-      "id": "71f28ceed919",
-      "name": "Pause smart business briefing trial after tomorrow",
-      "prompt": "One-shot cleanup after DJ's June 4, 2026 smart business briefing trial. Pause these two cron jobs, and do not create any new cron jobs: 60e7cd4fcf43 (Smart business briefing data collection) and d85ba3927717 (Smart business briefing). After pausing both, final response should be a concise local note confirming both were paused.",
+      "id": "3738adc5c390",
+      "name": "HealthOS nightly Google Sheets backup",
+      "prompt": "Run the HealthOS nightly Google Sheets backup script. The script outputs nothing on success and prints an error only on failure.",
       "skills": [],
       "skill": null,
       "model": null,
       "provider": null,
       "base_url": null,
-      "script": null,
-      "no_agent": false,
+      "script": "healthos-nightly-backup.sh",
+      "no_agent": true,
       "context_from": null,
       "schedule": {
-        "kind": "once",
-        "run_at": "2026-06-04T21:20:00+00:00",
-        "display": "once at 2026-06-04 21:20"
+        "kind": "cron",
+        "expr": "0 3 * * *",
+        "display": "0 3 * * *"
       },
-      "schedule_display": "once at 2026-06-04 21:20",
+      "schedule_display": "0 3 * * *",
       "repeat": {
-        "times": 1,
-        "completed": 0
+        "times": null,
+        "completed": 1
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
-      "created_at": "2026-06-04T01:58:14.378744+00:00",
-      "next_run_at": "2026-06-04T21:20:00+00:00",
-      "last_run_at": null,
-      "last_status": null,
+      "created_at": "2026-06-04T18:28:24.334811+00:00",
+      "next_run_at": "2026-06-06T03:00:00+00:00",
+      "last_run_at": "2026-06-05T03:00:41.832148+00:00",
+      "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
-      "deliver": "local",
+      "deliver": "origin",
       "origin": {
         "platform": "telegram",
         "chat_id": "-1003956828149",
         "chat_name": "Chief Group - Hermes",
-        "thread_id": "5"
+        "thread_id": "7"
       },
-      "enabled_toolsets": [
-        "cronjob"
-      ],
+      "enabled_toolsets": null,
       "workdir": null
     }
   ],
-  "updated_at": "2026-06-04T07:15:48.894821+00:00"
+  "updated_at": "2026-06-05T07:15:00.657845+00:00"
 }

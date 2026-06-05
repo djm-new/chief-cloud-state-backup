@@ -4,26 +4,26 @@
     "created_at": "2026-05-27T12:08:01.270884+00:00",
     "created_by": "agent",
     "last_patched_at": "2026-06-04T02:02:20.563632+00:00",
-    "last_used_at": "2026-06-04T01:57:47.959382+00:00",
-    "last_viewed_at": "2026-06-04T01:57:47.950097+00:00",
+    "last_used_at": "2026-06-04T16:02:11.703331+00:00",
+    "last_viewed_at": "2026-06-04T16:02:11.697919+00:00",
     "patch_count": 5,
     "pinned": false,
     "state": "active",
-    "use_count": 9,
-    "view_count": 9
+    "use_count": 12,
+    "view_count": 12
   },
   "daily-business-briefing": {
     "archived_at": null,
     "created_at": "2026-05-26T21:01:01.030914+00:00",
     "created_by": null,
-    "last_patched_at": "2026-05-29T12:25:41.484566+00:00",
-    "last_used_at": "2026-06-04T01:57:47.962489+00:00",
-    "last_viewed_at": "2026-06-04T01:57:47.954762+00:00",
-    "patch_count": 12,
+    "last_patched_at": "2026-06-04T16:03:32.178738+00:00",
+    "last_used_at": "2026-06-04T21:05:50.650574+00:00",
+    "last_viewed_at": "2026-06-04T16:56:43.914603+00:00",
+    "patch_count": 17,
     "pinned": false,
     "state": "active",
-    "use_count": 11,
-    "view_count": 11
+    "use_count": 18,
+    "view_count": 17
   },
   "legal-document-analysis": {
     "archived_at": null,
@@ -42,13 +42,39 @@
     "archived_at": null,
     "created_at": "2026-05-21T10:13:38.632370+00:00",
     "created_by": "agent",
-    "last_patched_at": "2026-05-21T11:45:59.991401+00:00",
-    "last_used_at": "2026-06-02T19:38:26.440542+00:00",
-    "last_viewed_at": "2026-06-02T19:38:26.421454+00:00",
-    "patch_count": 7,
+    "last_patched_at": "2026-06-04T16:58:14.567777+00:00",
+    "last_used_at": "2026-06-04T16:56:39.090241+00:00",
+    "last_viewed_at": "2026-06-04T16:56:39.084864+00:00",
+    "patch_count": 9,
     "pinned": false,
     "state": "active",
-    "use_count": 3,
-    "view_count": 3
+    "use_count": 4,
+    "view_count": 4
+  },
+  "podcast-intelligence-digest": {
+    "archived_at": null,
+    "created_at": "2026-06-04T16:57:48.542313+00:00",
+    "created_by": "agent",
+    "last_patched_at": "2026-06-05T00:21:35.558372+00:00",
+    "last_used_at": "2026-06-05T00:21:18.498759+00:00",
+    "last_viewed_at": "2026-06-05T00:21:18.494158+00:00",
+    "patch_count": 18,
+    "pinned": false,
+    "state": "active",
+    "use_count": 9,
+    "view_count": 9
+  },
+  "railway-app-deployment": {
+    "archived_at": null,
+    "created_at": "2026-06-04T15:54:08.698228+00:00",
+    "created_by": "agent",
+    "last_patched_at": "2026-06-04T21:36:51.934420+00:00",
+    "last_used_at": "2026-06-04T21:36:01.200925+00:00",
+    "last_viewed_at": "2026-06-04T21:36:01.195410+00:00",
+    "patch_count": 6,
+    "pinned": false,
+    "state": "active",
+    "use_count": 5,
+    "view_count": 5
   }
 }

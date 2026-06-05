@@ -24,6 +24,7 @@ Gmail, Calendar, Drive, Contacts, Sheets, and Docs — through Hermes-managed OA
 ## References
 
 - `references/gmail-search-syntax.md` — Gmail search operators (is:unread, from:, newer_than:, etc.)
+- `references/drive-last-editor.md` — Direct Drive API snippet for lastModifyingUser/last editor metadata when the wrapper omits fields.
 
 ## Scripts
 
@@ -223,6 +224,10 @@ $GAPI drive search "mimeType='application/pdf'" --raw-query --max 5
 
 # Get metadata for a single file
 $GAPI drive get FILE_ID
+
+# If you need metadata fields not exposed by `drive get` (for example last editor),
+# call Drive API directly with googleapiclient and fields=lastModifyingUser,modifiedTime.
+# See `references/drive-last-editor.md` for a reusable snippet.
 
 # Upload a local file (auto-detects MIME type)
 $GAPI drive upload /path/to/report.pdf

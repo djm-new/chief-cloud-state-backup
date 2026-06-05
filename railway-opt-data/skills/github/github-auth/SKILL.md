@@ -171,12 +171,46 @@ gh auth login
 
 ### Token-Based Login (Headless / SSH Servers)
 
+### Token-Based Login (Headless / SSH Servers)
+
 ```bash
 echo "<THEIR_TOKEN>" | gh auth login --with-token
 
 # Set up git credentials through gh
 gh auth setup-git
 ```
+
+**Headless/PTY fallback rule:** In Telegram, CI, SSH, or other bridged terminals, interactive `gh auth login --web` can stall on prompts such as protocol selection or "Authenticate Git with your GitHub credentials?". Do not keep restarting device-login loops. Try the web/device flow once; if prompt input is unreliable or the device code expires, kill stale `gh auth login` waiters, verify `gh auth status`, and switch to token auth (`GH_TOKEN`/`GITHUB_TOKEN` piped to `gh auth login --with-token`). Keep the user-facing ask concrete: request a PAT with `repo`, `workflow`, and `read:org`; never print tokens back.
+
+Cleanup pattern after a failed interactive auth attempt:
+
+```bash
+pkill -f 'gh auth login' || true
+gh auth status 2>&1 || true
+ps -ef | grep -E 'gh auth|railway login' | grep -v grep || true
+```
+
+### Verify
+
+```bash
+gh auth status
+```
+
+```bash
+# Start once, capture the code/URL in the foreground, and relay it clearly.
+gh auth login --hostname github.com --git-protocol https --web
+# User opens https://github.com/login/device and enters the printed one-time code.
+
+# After approval, verify before doing repo work.
+gh auth status
+gh auth setup-git
+```
+
+Pitfalls:
+- PTY prompts such as “Authenticate Git with your GitHub credentials? (Y/n)” can appear stuck in automation. If so, kill the process and prefer `--with-token`.
+- Backgrounding `gh auth login --web` can lose the printed device code from logs; capture and relay the code before waiting.
+- If a timed foreground login exits while waiting, the device code may still be valid briefly, but a restarted login creates a new code. Tell the user which code is current.
+- Do not proceed to `gh repo create`, `git push`, or deployment until `gh auth status` confirms authentication.
 
 ### Verify
 

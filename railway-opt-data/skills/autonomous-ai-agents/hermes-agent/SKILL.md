@@ -796,9 +796,13 @@ and logs — avoids shell-escaping backslashes in bash.
 ## Troubleshooting
 
 ### Voice not working
-1. Check `stt.enabled: true` in config.yaml
-2. Verify provider: `pip install faster-whisper` or set API key
-3. In gateway: `/restart`. In CLI: exit and relaunch.
+1. Check `stt.enabled: true` in config.yaml and confirm the selected provider (`local`, `groq`, `openai`, or `mistral`).
+2. Verify provider setup:
+   - Local STT: install Faster Whisper into the Hermes runtime. If `/opt/hermes/.venv/bin/python -m pip` is unavailable because the installed venv is stripped, use uv instead: `uv pip install --python /opt/hermes/.venv/bin/python faster-whisper`.
+   - Groq/OpenAI/Mistral STT: set `GROQ_API_KEY`, `VOICE_TOOLS_OPENAI_KEY`, or `MISTRAL_API_KEY` respectively.
+3. If a voice note arrived before STT was configured, look for cached audio under `$HERMES_HOME/cache/audio/` or `$HERMES_HOME/audio_cache/` and transcribe the newest `.ogg` after setup rather than asking the user to repeat themselves.
+4. In gateway: `/restart`. In CLI: exit and relaunch.
+5. If the user was mid-task when transcription failed, continue the task in text with the last known state rather than stalling on STT setup.
 
 ### Tool not available
 1. `hermes tools` — check if toolset is enabled for your platform

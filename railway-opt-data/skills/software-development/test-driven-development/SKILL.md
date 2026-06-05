@@ -282,6 +282,17 @@ Can't check all boxes? You skipped TDD. Start over.
 
 ## Hermes Agent Integration
 
+### Active Execution for Approved Projects
+
+When the user has already approved a software project/build, do **not** stop after each green slice to ask “what next?” Keep cycling through the next highest-value RED → GREEN → REFACTOR slice until one of these stop conditions occurs:
+
+- The stated project scope is complete and verified.
+- A real external blocker requires user action (auth, payment, credential, irreversible production side effect).
+- A design/product ambiguity would materially change the implementation.
+- Verification fails and further progress requires a debugging branch.
+
+For this user, progress reports should be concise checkpoints, not permission gates. Say what you are doing, then immediately do it with tools. After each slice: run tests/typecheck/build as appropriate, commit, then continue to the next slice unless a stop condition is hit.
+
 ### Running Tests
 
 Use the `terminal` tool to run tests at each step:
@@ -332,6 +343,8 @@ Never fix bugs without a test.
 - **Testing implementation details** — test behavior/results, not internal method calls
 - **Happy path only** — always test edge cases, errors, and boundaries
 - **Brittle tests** — tests should verify behavior, not structure; refactoring shouldn't break them
+- **Assumed fixture values** — when writing tests against seed/fixture data that already exists (e.g. a JSON seed file, a database fixture), READ THE FIXTURE FIRST before hardcoding expected values. A test that asserts `exerciseName: 'Bench Press'` when the seed file says `'Barbell Bench Press'` will fail at the assertion level, not at the missing-implementation level, obscuring whether the implementation is wrong or the expectation is wrong. Pattern: `read_file(fixture)` → extract exact values → write test expectations from those values.
+- **Arithmetic expectations written by hand** — for aggregate calculations (calorie balance, totals, averages), work the math explicitly on paper/inline before writing the assertion. A test that asserts `-1800` when the actual correct answer from the test inputs is `-1400` wastes one full RED→fix-test→verify-RED cycle before you can start on GREEN.
 
 ## Final Rule
 

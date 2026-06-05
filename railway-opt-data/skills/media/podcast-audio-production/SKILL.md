@@ -7,7 +7,7 @@ license: MIT
 metadata:
   hermes:
     tags: [podcast, audio, tts, ffmpeg, media-production, telegram]
-    related_skills: [songwriting-and-ai-music, songsee]
+    related_skills: [podcast-intelligence-digest, songwriting-and-ai-music, songsee]
 ---
 
 # Podcast Audio Production
@@ -30,6 +30,7 @@ Don't use for:
 - Pure music generation from lyrics/tags — use `songwriting-and-ai-music` or `heartmula` instead.
 - Audio analysis/spectrogram/feature extraction — use `songsee`.
 - YouTube transcript extraction/summarization — use `youtube-content` first, then this skill if audio output is requested.
+- Selecting/ranking podcast episodes for a digest — use `podcast-intelligence-digest` first, then this skill for the final audio production.
 
 ## Default Workflow
 

@@ -17,6 +17,8 @@ Use when configuring, debugging, or running DJ's single integrated smart busines
 
 There is **one** business briefing, not separate Slack/email/ToM reports. The briefing reads DJ's Daily ToM first and uses it as the priority lens for Slack + email review.
 
+Delivery: smart business briefings belong in the Telegram **Briefings** topic (`telegram:-1003956828149:3`), not the alerts topic. Alerts topic 5 is for operational alerts/health checks.
+
 ## Safety rules
 
 1. Never send, reply, forward, invite, share, comment, or notify anyone.
@@ -66,6 +68,11 @@ See `references/slack-filter-calibration.md` for detailed content filtering rule
 ### The DJ relevance test
 Every item must answer: **"Why does DJ need to know this, and what decision or action follows?"**
 If the answer is weak → downgrade to "Worth knowing" or exclude. Do not fill the briefing with items that merely exist.
+
+### Feedback ingestion rule
+When DJ returns a reviewed briefing with inline comments, treat each comment as calibration data and update the filter/prompt before generating another version. Convert corrections into explicit rules, not just one-off fixes. Common examples from prior calibration: Slackbot app-install requests are irrelevant; DM snippets require surrounding context; tour feedback/leasing wait-time signals can be useful; low-context engineering chatter should be excluded but notable engineering/product decisions should be included.
+
+Latest calibration: do **not** surface old/stale carry-forward just because it exists. If the board meeting already happened, board-meeting preparation items are stale unless there is a fresh explicit decision/action. Resolved low-priority DMs (e.g. someone says they got help elsewhere and does not need DJ) should be excluded, not reported as "worth knowing." Do not tag people as VIPs; prioritize messages by whether they carry actions or information DJ needs, across both DMs/MPIMs and workspace channels.
 
 ### Hard exclusions (never include)
 - **Slackbot app install requests** — DJ is a workspace super admin and receives these automatically. They are IT's job. Hard-exclude at filter level, never surface in briefing.
@@ -154,6 +161,11 @@ Operational health is checked by:
 `/opt/data/scripts/chief_operational_health.py`
 
 It verifies ToM state, Slack latest crawl, email context, filtered Slack context, full context generation, key file sizes, and archive/open-topic presence.
+
+Smart briefing freshness checks must account for lifecycle state:
+- if smart briefing jobs are paused, stale briefing artifacts are expected and should not alert;
+- if a previously paused briefing has just been enabled and its first scheduled briefing run is still pending, stale prior artifacts are also expected and should not alert;
+- only treat stale latest/archive files as issues after an enabled briefing has had a real chance to run.
 
 Daily ToM run/debug details, including the expected context marker, manual run command, manual task additions, Google Docs style preservation, Google runtime venv, and DST-safe schedule shape, are in `references/daily-tom-troubleshooting.md`.
 

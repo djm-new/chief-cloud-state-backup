@@ -141,6 +141,51 @@ search_files("function_name(", path="src/", file_glob="*.py")
 search_files("variable_name\\s*=", path="src/", file_glob="*.py")
 ```
 
+### 6. For Web Apps, Verify the Deployed Client Code
+
+When the symptom is "button does nothing", "form submits nowhere", or a browser-side action appears inert:
+
+- First confirm whether the backend/API works with a direct request.
+- Then inspect the deployed HTML/JS assets to verify the expected client handler is actually deployed.
+- Do not infer client interactivity from server-rendered HTML alone; React/Next event handlers are in JS chunks, not literal `onSubmit` attributes in the HTML.
+- Check for uncommitted/staged-only local changes if production is missing code you expected to be live.
+
+Example probe:
+
+```bash
+python3 - <<'PY'
+import re, urllib.request
+base='https://example.app'
+html=urllib.request.urlopen(base+'/login', timeout=30).read().decode('utf-8','replace')
+for src in re.findall(r'<script[^>]+src="([^"]+\.js)"', html):
+    js=urllib.request.urlopen(base+src, timeout=30).read().decode('utf-8','replace')
+    if '/api/auth/login' in js or 'window.location.assign' in js:
+        print('found login handler in', src)
+PY
+```
+
+### 7. For DB-Backed API 500s, Inspect Provider Logs and Normalize Payloads
+
+When a form displays a generic save failure but the API returns a blank 500:
+
+- Reproduce the exact API request with an authenticated session and record status/body.
+- Pull provider/runtime logs before patching; ORMs often put the real validation error there when the HTTP response is empty.
+- Compare frontend payload shape, validation schema, and ORM model field types.
+- Do not pass raw validated browser payloads directly into ORM `create`/`update` if they contain presentation-format fields (for example `YYYY-MM-DD` date strings for `DateTime` columns). Build a DB-specific data object instead.
+- For upserts, check both `create` and `update` branches; it is common to normalize one branch but accidentally leave the raw value in the other.
+
+### Phase 1 Completion Checklist
+
+When a browser form shows a generic failure but the API returns 500:
+
+- Reproduce the request directly with the same session/cookies and a minimal payload matching the UI action.
+- Pull server logs before patching; Prisma/ORM validation errors often identify the exact field/value mismatch.
+- Trace transformations at every boundary: form values → JSON payload → validation schema → ORM `create`/`update` data.
+- Do not pass raw validated client data directly to an ORM write if it contains fields that need normalization, derived values, or should not be writable. Destructure/normalize first and use a sanitized `data` object.
+- In upserts, check both `create` and `update`; it is common for `create` to normalize a field correctly while `update` still receives the raw client value.
+
+Example: for a DateTime column, a date input may send `YYYY-MM-DD`. Convert once (`new Date(`${dateString}T00:00:00.000Z`)`) and ensure neither `create` nor `update` receives the raw date-only string.
+
 ### Phase 1 Completion Checklist
 
 - [ ] Error messages fully read and understood
@@ -355,6 +400,11 @@ When fixing bugs:
 2. Debug systematically to find root cause
 3. Fix the root cause (GREEN)
 4. The test proves the fix and prevents regression
+
+## References
+
+- `references/nextjs-prisma-api-500.md` — minimal reproduction and fix pattern for Next.js API routes whose form payload validates but Prisma/ORM writes fail, especially date-only strings sent to DateTime fields or raw parsed data used in upsert updates.
+- `references/nextjs-app-router-server-refresh.md` — fix pattern for client-side mutations that save successfully but leave server-rendered App Router dashboard cards stale until `router.refresh()` or a full reload.
 
 ## Real-World Impact
 
