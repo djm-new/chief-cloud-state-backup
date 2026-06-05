@@ -71,9 +71,9 @@ Maintain a three-ring source universe:
 
 1. **Ring 1 — calibration subscriptions**: shows DJ already values. Use these to understand taste and baseline signal.
 2. **Ring 2 — high-signal shows**: shows likely to host relevant CEOs, investors, AI leaders, and framework thinkers.
-3. **Ring 3 — global guest discovery**: do not rely only on known shows. Search podcast indexes/web for watchlist people appearing anywhere.
+3. **Ring 3 — semantic global discovery**: do not rely only on known shows, exact guest watchlists, or exact topic keywords. Use DJ's named people/topics as positive examples of an underlying taste manifold: market shapers, original framework builders, AI/platform thinkers, elite allocators/operators, and unusually high-leverage intellectuals. Search podcast indexes/web for both watchlist people and *similar* people/topics that fit the same pattern.
 
-Keep a guest/watchlist file as the strongest identity signal, but do not let a guest name in unrelated footer/link text dominate ranking.
+Keep the guest/watchlist file as seed examples and calibration anchors, not a closed list. A person like Naval Ravikant should be discovered because he is semantically adjacent to DJ's guidance even if not explicitly named. Do not let a guest name in unrelated footer/link text dominate ranking.
 
 ## Default Workflow
 
@@ -86,9 +86,16 @@ Keep a guest/watchlist file as the strongest identity signal, but do not let a g
    - Record unresolved feeds explicitly rather than silently dropping them.
    - Patch obvious wrong/broken feed entries as part of calibration.
 
-3. **Collect recent episodes.**
+3. **Collect recent episodes from known feeds.**
    - Pull a configurable lookback window, usually 1 day for daily digest and 7 days for weekly/prototype runs.
    - Store title, show, description, publication time, URL/audio URL, and source ring.
+
+3a. **Run semantic global discovery.**
+   - Required for production daily briefings. Do not treat the known RSS feed list as "the podcast world."
+   - Use DJ's named people/topics as examples of a taste manifold, not a closed list.
+   - Generate adjacent people/topics/queries, search podcast indexes/web, parse candidate feeds, and insert semantically relevant episodes as `ring3_semantic_discovery`.
+   - Current script: `/opt/data/scripts/podcast_semantic_discovery.py --days 1`.
+   - The daily footer should separately count known channels scanned and semantic discovery queries/feeds/candidates.
 
 4. **Metadata-rank broadly.**
    - Score by guest/watchlist hits, show quality, title/description concepts, recency, and skip penalties.
@@ -200,6 +207,16 @@ Rules:
 - Keep monitor outputs silent on OK/actionable on alert if health checks are added.
 - Do not send emails or external notifications as part of this workflow.
 - Use persistent `/opt/data` locations in DJ's production Hermes/Railway environment for durable state; avoid relying on `/tmp` for long-lived assets.
+- For DJ's Telegram Hermes group, production podcast digest outputs belong in **Briefings** (`telegram:-1003956828149:4` as of the current Chief setup). Pipeline failures/health alerts belong in **Alerts** (`telegram:-1003956828149:5`). Experiments/test runs should go to a coding/sandbox topic or stay local until DJ asks to see them.
+
+### One-time preview run pattern
+
+When DJ asks to see the podcast digest “today” at a specific time:
+1. Confirm current local time with `date` and convert requested ET time to UTC.
+2. Create or use a script-only wrapper that prints the final digest on success and an actionable failure message on failure.
+3. Run the workflow: collect known feeds → semantic discovery → Qwen scoring → daily digest render.
+4. Schedule a one-shot cron job (`repeat=1`) with `deliver=telegram:-1003956828149:4` unless DJ gives another destination.
+5. Verify with cron list; describe the schedule in plain English, not raw cron.
 
 ## Commands and File Conventions
 
