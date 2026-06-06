@@ -141,7 +141,27 @@ Use this skill when deploying or troubleshooting a web app on Railway, especiall
    curl -fsS https://<deployed-domain>/api/health
    ```
 
-   Then verify a real app action if possible: login, create a record, and check DB-backed dashboard output.
+   Health can return 200 while Railway is still building/deploying a new frontend bundle and the old page assets are still being served. For UI/CSS/Next.js changes, wait until `railway status` no longer shows `Building`/`Deploying`, then verify the actual route HTML and linked CSS/JS contain a unique marker from the change.
+
+   Example frontend rollout probe:
+
+   ```bash
+   python3 - <<'PY'
+   import re, urllib.request
+   base='https://<deployed-domain>'
+   html=urllib.request.urlopen(base+'/meals?date=2026-06-04', timeout=30).read().decode('utf-8','replace')
+   assert 'unique-new-class-or-copy' in html
+   for href in re.findall(r'href="([^\"]+\.css[^\"]*)"', html):
+       css=urllib.request.urlopen(base+href, timeout=30).read().decode('utf-8','replace')
+       if 'unique-new-css-class' in css:
+           break
+   else:
+       raise SystemExit('new CSS not served yet')
+   print('frontend rollout verified')
+   PY
+   ```
+
+   Then verify a real app action if possible: login, create/edit/delete a record, and check DB-backed dashboard output.
 
 ## `railway.toml` Template
 
@@ -164,6 +184,7 @@ restartPolicyMaxRetries = 3
 - **CLI token variable differs by version.** Railway CLI v5 uses `RAILWAY_API_TOKEN`; normalize `RAILWAY_TOKEN` into it when users paste a token under the older name.
 - **Linked service display can be misleading.** `railway status` may show a linked service that differs from the service you intend to mutate. Before changing volumes/variables, confirm the target service by command output or use service-specific flags where supported.
 - **Deploy only after local verification.** Tests/typecheck/build should pass before `railway up`.
+- **Health 200 is not proof that a frontend fix is live.** Railway can keep the old deployment serving while the new one builds/deploys. For UI fixes, wait for status to clear `Building`/`Deploying` and verify the route HTML plus linked CSS/JS contains a unique marker from the change.
 - **Secrets must be set as Railway variables, not committed.** Keep OAuth tokens/client secrets on persistent volumes or Railway secret storage.
 - **Postgres must be provisioned before Prisma deploy.** `DATABASE_URL` needs to exist in the app service.
 - **Health check path must exist.** Add a simple `/api/health` route before setting `healthcheckPath`.

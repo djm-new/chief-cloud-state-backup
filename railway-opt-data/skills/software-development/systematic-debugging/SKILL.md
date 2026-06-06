@@ -186,6 +186,40 @@ When a browser form shows a generic failure but the API returns 500:
 
 Example: for a DateTime column, a date input may send `YYYY-MM-DD`. Convert once (`new Date(`${dateString}T00:00:00.000Z`)`) and ensure neither `create` nor `update` receives the raw date-only string.
 
+### 8. For Mobile UI Bugs, Inspect Layout at the Component/CSS Level
+
+When the symptom is "inputs are smushed," "values are clipped," "horizontal scroll exists but is unusable," or a mobile screenshot shows a table/form that technically renders but is illegible:
+
+- Identify the exact component and CSS/layout rules producing the mobile view.
+- Do not treat `overflow-x: auto` as sufficient for mobile editing UX; table auto-layout can shrink input controls until values are hidden.
+- Check whether the bug is a data issue, a rendering issue, or a responsive breakpoint issue.
+- Prefer a minimal responsive fix: stacked editable cards on mobile and the dense table only above a tablet/desktop breakpoint.
+- Verify production by checking the actual route HTML plus linked CSS/JS for unique new classes/copy, not only by hitting `/api/health`.
+
+### 9. For Wrong AI/Estimator Outputs, Debug the Workflow, Not Just the Value
+
+When a user says an AI-derived output is wrong (nutrition estimates, extraction, classification, summaries, scoring, etc.):
+
+- Trace the whole pipeline: UI text → API payload → model/provider path → prompt/tool availability → fallback path → stored raw response/source metadata.
+- Compare the implemented workflow against the user's trusted manual workflow. If the product replaced "ask a capable LLM that can look things up" with "cheap no-search guess," that is a workflow regression, not a single bad answer.
+- Do not treat a one-off hardcoded override as the class-level fix. Use it only as a temporary guardrail while fixing routing/source validation.
+- For branded/official-source domains (restaurant nutrition, product specs, prices, legal terms), verify whether the model can and did search authoritative sources. Prefer official sources over third-party mirrors and reject/flag low-confidence sources when official data is expected.
+- If a fallback fires, make that visible in raw/source metadata and keep it conservative; avoid fake high-confidence baselines.
+- Add regression tests for both routing (which model/tool path is called) and representative output values.
+
+### Phase 1 Completion Checklist
+### 9. For AI/Heuristic Estimation Bugs, Identify the Real Engine
+
+When the symptom is "this estimate seems wrong" or a user compares an AI-generated value against an authoritative source:
+
+- Trace UI payload → API route → estimator → model/provider/fallback → persisted metadata before changing prompts.
+- Check production env/config to see whether the intended model is actually active; a fallback heuristic may be the real engine.
+- Reproduce with the exact user phrase through the same API endpoint the UI uses.
+- For branded/restaurant items, prefer official published nutrition/data over model guesses.
+- For quantified simple inputs, parse quantities conservatively in fallback and never add a generic default baseline.
+- Add regression tests for the exact bad estimate and for source-priority behavior.
+- See `references/nutrition-estimator-debugging.md` for the food/nutrition estimator pattern.
+
 ### Phase 1 Completion Checklist
 
 - [ ] Error messages fully read and understood
@@ -405,6 +439,7 @@ When fixing bugs:
 
 - `references/nextjs-prisma-api-500.md` — minimal reproduction and fix pattern for Next.js API routes whose form payload validates but Prisma/ORM writes fail, especially date-only strings sent to DateTime fields or raw parsed data used in upsert updates.
 - `references/nextjs-app-router-server-refresh.md` — fix pattern for client-side mutations that save successfully but leave server-rendered App Router dashboard cards stale until `router.refresh()` or a full reload.
+- `references/app-day-timezone-debugging.md` — debugging and fix pattern for apps that show/log the wrong day because server UTC date keys are used instead of the product timezone/app day.
 
 ## Real-World Impact
 

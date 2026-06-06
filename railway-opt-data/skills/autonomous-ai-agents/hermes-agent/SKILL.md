@@ -186,6 +186,18 @@ hermes webhook remove NAME  Remove a subscription
 hermes webhook test NAME    Send a test POST
 ```
 
+### Dashboard
+
+Hermes includes an out-of-the-box web UI dashboard for Kanban and related runtime views:
+
+```bash
+hermes dashboard              # Start web UI dashboard (port 9119)
+hermes dashboard --status     # List running dashboard processes
+hermes dashboard --stop       # Stop running dashboard processes
+```
+
+If the user asks "how do I see my Hermes dashboard," do **not** say there is no web UI. Check `hermes dashboard --status` and whether port 9119 is reachable. On Railway/server deployments the dashboard may be bound to localhost only; access generally requires an SSH tunnel or exposing the service/port intentionally. Confirm before starting/exposing anything.
+
 ### Profiles
 
 ```
@@ -213,6 +225,7 @@ hermes auth reset PROVIDER  Clear exhaustion status
 
 ```
 hermes insights [--days N]  Usage analytics
+hermes dashboard [--status|--stop]  Web UI dashboard (default port 9119)
 hermes update               Update to latest version
 hermes pairing list/approve/revoke  DM authorization
 hermes plugins list/install/remove  Plugin management
@@ -657,6 +670,8 @@ User docs: https://hermes-agent.nousresearch.com/docs/user-guide/features/cron
 
 **Output discipline:** cron jobs that emit verbose status on every tick are noise. DJ expects silence on OK and actionable alerts only. Load the `cron-job-design` skill when writing or fixing cron scripts — it has the fingerprint-dedup pattern, alert format, and status-file pattern that match DJ's preferences.
 
+**Local capture/synthesis systems:** when building a dedicated Telegram/Slack capture channel that writes markdown artifacts and scheduled syntheses, follow `references/thought-capture-systems.md`. It covers append-only repo layout, gateway bypass hooks, Telegram topic matching, DST-safe cron guards, and verification.
+
 ### Curator (skill lifecycle)
 
 Background maintenance for agent-created skills. Tracks usage, marks
@@ -873,6 +888,27 @@ Common gateway problems:
 - **Discord bot silent**: Must enable **Message Content Intent** in Bot → Privileged Gateway Intents.
 - **Slack bot only works in DMs**: Must subscribe to `message.channels` event. Without it, the bot ignores public channels.
 - **Windows-specific issues** (`Alt+Enter` newline, WinError 10106, UTF-8 BOM config, test suite, line endings): see the dedicated **Windows-Specific Quirks** section above.
+
+### Telegram groups with topics: mapping and cleanup
+
+When DJ asks about the Hermes Telegram group/topic setup, keep the answer short and inspect current state before proposing structure. Telegram terminology:
+- **Group** = shared chat where Hermes runs.
+- **Topic/thread** = a named forum thread inside the group; Hermes delivery targets use `telegram:<chat_id>:<message_thread_id>`.
+- **Channel** = broadcast feed; usually not what DJ means for Hermes.
+
+Current target discovery via `send_message(action="list")` may show only `topic N`, not human-readable names. To build a durable map:
+1. List messaging targets and cron deliveries.
+2. If names are unknown, send one short marker to each known topic target: `ID check: topic N`.
+3. Ask DJ for one screenshot or a typed mapping from marker → visible topic name.
+4. Save the resulting `chat_id/topic_id/name` map to memory.
+5. Use `editForumTopic` through Telegram Bot API to rename topics when requested, if the bot has rights. `TOPIC_NOT_MODIFIED` means the name was already correct.
+6. Update scheduled jobs with exact `deliver=telegram:<chat_id>:<topic_id>` destinations, then verify with `hermes cron list` / cron tool.
+7. To change the default/home Telegram topic, update `TELEGRAM_HOME_CHANNEL_THREAD_ID` in the active gateway env/config location and restart/reload gateway only if the user approved or requested immediate effect.
+
+For DJ's Chief Group - Hermes, prefer minimal repurposing over creating/deleting topics: keep history, rename existing topics, and archive old-purpose topics instead of removing them.
+
+- **Windows-specific issues** (`Alt+Enter` newline, WinError 10106, UTF-8 BOM config, test suite, line endings): see the dedicated **Windows-Specific Quirks** section above.
+
 
 ### Auxiliary models not working
 If `auxiliary` tasks (vision, compression, session_search) fail silently, the `auto` provider can't find a backend. Either set `OPENROUTER_API_KEY` or `GOOGLE_API_KEY`, or explicitly configure each auxiliary task's provider:

@@ -20,15 +20,15 @@
       "schedule_display": "15 7 * * *",
       "repeat": {
         "times": null,
-        "completed": 23
+        "completed": 24
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-12T19:59:22.529154+00:00",
-      "next_run_at": "2026-06-06T07:15:00+00:00",
-      "last_run_at": "2026-06-04T07:15:51.905742+00:00",
+      "next_run_at": "2026-06-07T07:15:00+00:00",
+      "last_run_at": "2026-06-05T07:15:04.154473+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -57,15 +57,15 @@
       "schedule_display": "0 */3 * * *",
       "repeat": {
         "times": null,
-        "completed": 1059
+        "completed": 1067
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-12T20:42:58.485236+00:00",
-      "next_run_at": "2026-06-05T09:00:00+00:00",
-      "last_run_at": "2026-06-05T06:01:57.981502+00:00",
+      "next_run_at": "2026-06-06T09:00:00+00:00",
+      "last_run_at": "2026-06-06T06:01:22.121132+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -94,15 +94,15 @@
       "schedule_display": "0 12 * * *",
       "repeat": {
         "times": null,
-        "completed": 24
+        "completed": 25
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-12T21:10:04.711555+00:00",
-      "next_run_at": "2026-06-05T12:00:00+00:00",
-      "last_run_at": "2026-06-04T12:01:20.108395+00:00",
+      "next_run_at": "2026-06-06T12:00:00+00:00",
+      "last_run_at": "2026-06-05T12:01:43.294565+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -131,15 +131,15 @@
       "schedule_display": "55 12,20 * * *",
       "repeat": {
         "times": null,
-        "completed": 5
+        "completed": 7
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-18T00:29:40.815074+00:00",
-      "next_run_at": "2026-06-05T12:55:00+00:00",
-      "last_run_at": "2026-06-04T20:56:15.054966+00:00",
+      "next_run_at": "2026-06-06T12:55:00+00:00",
+      "last_run_at": "2026-06-05T20:56:03.566675+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -175,19 +175,19 @@
       "schedule_display": "5 13,21 * * *",
       "repeat": {
         "times": null,
-        "completed": 2
+        "completed": 4
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-19T14:57:13.733402+00:00",
-      "next_run_at": "2026-06-05T13:05:00+00:00",
-      "last_run_at": "2026-06-04T21:09:35.474906+00:00",
+      "next_run_at": "2026-06-06T13:05:00+00:00",
+      "last_run_at": "2026-06-05T21:09:41.897195+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
-      "deliver": "telegram:-1003956828149:3",
+      "deliver": "telegram:-1003956828149:4",
       "origin": {
         "platform": "telegram",
         "chat_id": "-1003956828149",
@@ -220,15 +220,15 @@
       "schedule_display": "0 9,10 * * *",
       "repeat": {
         "times": null,
-        "completed": 64
+        "completed": 66
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-26T16:48:41.225755+00:00",
-      "next_run_at": "2026-06-05T09:00:00+00:00",
-      "last_run_at": "2026-06-04T10:00:00.477837+00:00",
+      "next_run_at": "2026-06-06T09:00:00+00:00",
+      "last_run_at": "2026-06-05T10:00:22.248948+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -262,19 +262,19 @@
       "schedule_display": "0 3 * * *",
       "repeat": {
         "times": null,
-        "completed": 1
+        "completed": 2
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-04T18:28:24.334811+00:00",
-      "next_run_at": "2026-06-06T03:00:00+00:00",
-      "last_run_at": "2026-06-05T03:00:41.832148+00:00",
+      "next_run_at": "2026-06-07T03:00:00+00:00",
+      "last_run_at": "2026-06-06T03:00:10.247871+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
-      "deliver": "origin",
+      "deliver": "telegram:-1003956828149:5",
       "origin": {
         "platform": "telegram",
         "chat_id": "-1003956828149",
@@ -283,7 +283,217 @@
       },
       "enabled_toolsets": null,
       "workdir": null
+    },
+    {
+      "id": "6399898065a4",
+      "name": "Thoughts daily rollup",
+      "prompt": "",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "thoughts_cron_daily_rollup.py",
+      "no_agent": true,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "5 4,5 * * *",
+        "display": "5 4,5 * * *"
+      },
+      "schedule_display": "5 4,5 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 2
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-05T19:42:57.893480+00:00",
+      "next_run_at": "2026-06-07T04:05:00+00:00",
+      "last_run_at": "2026-06-06T05:05:17.248247+00:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "telegram:-1003956828149:6",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "-1003956828149",
+        "chat_name": "Chief Group - Hermes",
+        "thread_id": "6"
+      },
+      "enabled_toolsets": null,
+      "workdir": null
+    },
+    {
+      "id": "233ac067b175",
+      "name": "Thoughts morning replay",
+      "prompt": "",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "thoughts_cron_morning_replay.py",
+      "no_agent": true,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 11,12 * * *",
+        "display": "0 11,12 * * *"
+      },
+      "schedule_display": "0 11,12 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-05T19:42:58.899916+00:00",
+      "next_run_at": "2026-06-06T11:00:00+00:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "telegram:-1003956828149:6",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "-1003956828149",
+        "chat_name": "Chief Group - Hermes",
+        "thread_id": "6"
+      },
+      "enabled_toolsets": null,
+      "workdir": null
+    },
+    {
+      "id": "0defdc100e19",
+      "name": "Thoughts weekly synthesis",
+      "prompt": "",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "thoughts_cron_synthesize.py weekly",
+      "no_agent": true,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "30 9,10 * * 1",
+        "display": "30 9,10 * * 1"
+      },
+      "schedule_display": "30 9,10 * * 1",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-05T19:42:59.905515+00:00",
+      "next_run_at": "2026-06-08T09:30:00+00:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "telegram:-1003956828149:6",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "-1003956828149",
+        "chat_name": "Chief Group - Hermes",
+        "thread_id": "6"
+      },
+      "enabled_toolsets": null,
+      "workdir": null
+    },
+    {
+      "id": "5769c212e559",
+      "name": "Thoughts monthly synthesis",
+      "prompt": "",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "thoughts_cron_synthesize.py monthly",
+      "no_agent": true,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 13,14 1 * *",
+        "display": "0 13,14 1 * *"
+      },
+      "schedule_display": "0 13,14 1 * *",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-05T19:43:06.338251+00:00",
+      "next_run_at": "2026-07-01T13:00:00+00:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "telegram:-1003956828149:6",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "-1003956828149",
+        "chat_name": "Chief Group - Hermes",
+        "thread_id": "6"
+      },
+      "enabled_toolsets": null,
+      "workdir": null
+    },
+    {
+      "id": "e957cb0a7b26",
+      "name": "Thoughts quarterly synthesis",
+      "prompt": "",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "thoughts_cron_synthesize.py quarterly",
+      "no_agent": true,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 13,14 1 1,4,7,10 *",
+        "display": "0 13,14 1 1,4,7,10 *"
+      },
+      "schedule_display": "0 13,14 1 1,4,7,10 *",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-05T19:43:07.344378+00:00",
+      "next_run_at": "2026-07-01T13:00:00+00:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "telegram:-1003956828149:6",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "-1003956828149",
+        "chat_name": "Chief Group - Hermes",
+        "thread_id": "6"
+      },
+      "enabled_toolsets": null,
+      "workdir": null
     }
   ],
-  "updated_at": "2026-06-05T07:15:00.657845+00:00"
+  "updated_at": "2026-06-06T07:15:24.916892+00:00"
 }

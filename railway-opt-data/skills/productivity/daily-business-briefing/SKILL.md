@@ -27,6 +27,22 @@ Delivery: smart business briefings belong in the Telegram **Briefings** topic (`
 4. Do not persist raw Slack/email contents to Hermes memory.
 5. Keep durable facts/preferences in Hermes memory; keep operational rolling state in files.
 
+## Approved Action list → Daily ToM updates
+
+When DJ explicitly approves adding briefing action-list items to the ToM document, act immediately — this is a permitted Google Docs edit under DJ's policy. Do not ask for another confirmation. Place items where they belong in the current Daily ToM section:
+
+- Flow/company/capital/HR/product items → `Professional`
+- MENA/SICO/Olaya/Riyadh/UAE/Saudization items → `Professional - MENA`
+- Other workstreams that do not fit the main company list → `Professional - Others`
+- Personal items → `Personal`
+
+Operational rules:
+1. First inspect the live current ToM via `/opt/data/scripts/daily-tom-context.py` so you can avoid duplicates and understand current sections.
+2. Preserve DJ's ToM conventions: `[n:<id>]` IDs, `*` / `**` / `***` priority suffixes, and current section names exactly.
+3. Insert newly approved items near the top of their section so they are visible, but keep existing high-priority items intact.
+4. Verify with `/opt/data/scripts/daily-tom-context.py` after writing and report only the added items grouped by section.
+5. If the direct Google scripts fail because Google API packages are unavailable in system Python, run the one-off Docs API script through `uv run --with google-api-python-client --with google-auth-oauthlib --with google-auth-httplib2 python ...` rather than installing system packages.
+
 ## Current files
 
 - Daily ToM sync: `/opt/data/scripts/daily-tom-sync.py`
@@ -55,11 +71,11 @@ Delivery: smart business briefings belong in the Telegram **Briefings** topic (`
 Six sections, always in this order:
 
 1. **Executive summary** — 3-5 bullets max. Most important first. Decisive, not neutral.
-2. **Needs DJ attention** — items requiring a decision, response, or action. Opinionated: tell DJ what to do.
-3. **Worth knowing / monitor** — brief. No action today. One paragraph or less per item.
+2. **Action list additions** — the single consolidated action section. Include everything that should be added to DJ's ToM/action list: decisions needed, suggested ToM additions, monitor/watchlist items that require active follow-up, and carry-forward actions. Opinionated: tell DJ exactly what to do; ask approval for any ToM writes.
+3. **Worth knowing / monitor** — brief context only; no action today. One paragraph or less per item.
 4. **Deliberately excluded** — one-liner list showing what the filter caught and why. Builds trust.
-5. **Suggested ToM additions — approval required** — formatted ToM-style entries. Ask DJ directly for each.
-6. **Watchlist / carry-forward** — compact rolling state for next briefing.
+5. **Carry-forward context** — optional, compact non-action rolling context only. Do not duplicate items already in Action list additions.
+6. **Appendix / links** — optional links or provenance if needed.
 
 See `references/slack-filter-calibration.md` for detailed content filtering rules.
 
@@ -120,12 +136,13 @@ Do not present items neutrally as "this exists." Tell DJ what to do about it.
 ### Briefing output structure (enforced)
 ```
 ## Executive summary          ← 3-5 bullets max, most important first, decisive
-## Needs DJ attention         ← decision/action required; opinionated recommendation
-## Worth knowing / monitor    ← brief, no action today
+## Action list additions      ← ONE consolidated action section: decisions needed, ToM additions, active follow-ups, watchlist/carry-forward actions; ask approval before writing ToM
+## Worth knowing / monitor    ← context only; no action today; do not duplicate action items
 ## Deliberately excluded      ← one-liner list, shows filter is working
-## Suggested ToM additions    ← ask DJ directly for approval on each item
-## Watchlist / carry-forward  ← compact rolling state going into next briefing
+## Carry-forward context      ← optional non-action rolling context only; no duplicate action list items
 ```
+
+Do **not** split action-like items across “Suggested top of mind,” “watchlist,” “carry forward,” “action/decision needed,” and “monitor.” Those collapse into **Action list additions** when they imply DJ should add, decide, follow up, or track something actively.
 
 ## Slack filter reference
 
