@@ -10,4 +10,4 @@ Railway Chief Google Workspace is configured for three account slots on the pers
 §
 DJ's Google policy: read/search/summarize OK; create/edit/delete Calendar/Docs/Sheets/Drive files when requested; never send Gmail/reply/forward or trigger external notifications. Outbound email/share/invite content is draft-only unless DJ changes policy. ToM: fix thoughts-system Google Calendar integration later, not now.
 §
-Telegram “Chief Group - Hermes” chat -1003956828149 topics: 1 General/home, 3 Archive/Old Chief, 4 Briefings, 5 Alerts, 6 Daily Brain Dump, 7 Coding 1, 8 Coding 2. Briefings cron delivers to 4; Alerts/health/cron success to 5.
+Telegram Chief -1003956828149: topics 1 General, 3 Archive, 4 Briefings, 5 Alerts, 6 Brain Dump, 7/8 Coding. Models: openai-codex gpt-5.4-mini default; 7/8 gpt-5.5; fallback: openrouter deepseek-v4-pro → anthropic (last resort). Avoid Anthropic unless DJ approves. OPENROUTER_API_KEY on Railway.

@@ -361,7 +361,7 @@ def read_daily(target: date | None = None) -> str:
 
 def prompt_llm(prompt: str, timeout: int = 300) -> str:
     if HERMES.exists():
-        cp = run([str(HERMES), "chat", "-q", prompt, "--provider", "openai", "--model", "gpt-5.2"], cwd=repo())
+        cp = run([str(HERMES), "chat", "-q", prompt], cwd=repo())
         if cp.returncode == 0 and cp.stdout.strip(): return cp.stdout.strip()
     return fallback_synthesis(prompt)
 

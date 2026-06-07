@@ -225,9 +225,13 @@ hermes auth reset PROVIDER  Clear exhaustion status
 
 ```
 hermes insights [--days N]  Usage analytics
+hermes spend [provider|model|project|channel|source|session|recent]
+                             Model spend/token ledger by provider, project, channel, etc.
 hermes dashboard [--status|--stop]  Web UI dashboard (default port 9119)
 hermes update               Update to latest version
-hermes pairing list/approve/revoke  DM authorization
+```
+
+Spend-monitor implementation notes: `references/spend-monitor-ledger.md`.
 hermes plugins list/install/remove  Plugin management
 hermes honcho setup/status  Honcho memory integration (requires honcho plugin)
 hermes memory setup/status/off  Memory provider config
@@ -357,12 +361,35 @@ $HERMES_HOME/skills/        Installed skills
 
 Profiles use `~/.hermes/profiles/<name>/` with the same layout.
 
-### Config Sections
+### Providers
 
-Edit with `hermes config edit` or `hermes config set section.key value`.
+20+ providers supported. Set via `hermes model` or `hermes setup`.
 
-| Section | Key options |
-|---------|-------------|
+### Purpose-based model routing
+
+DJ prefers model selection to be driven by the *work being done*, not by provider names. Maintain a living activity→model register and use it as the default decision aid for daily brain dump, daily business briefing, coding projects, and open-source reasoning tasks.
+
+Key preferences:
+- Default lightweight OpenAI: `gpt-5.4-mini`
+- Strongest OpenAI: `gpt-5.5`
+- Open-source thinking default: DeepSeek V4 Pro
+- Open-source alternate: Qwen
+- Coding default: `gpt-5.5`, fallback Anthropic `sonnet`
+- High-polish editorial work: `opus`
+- Avoid `haiku` in the default routing taxonomy; prefer DeepSeek V4 Pro instead for lightweight/open-source work.
+
+Support file: `references/model-routing-dynamic.md`
+
+Use provider choice as a *task-class routing decision*, not a one-time global pick. Keep a small mental map of:
+
+- **Cheap/light**: daily brain dump, cleanup, summaries, simple drafting
+- **Standard**: normal chat, most assistant work
+- **Strong reasoning/coding**: hard debugging, architecture, ambiguous analysis
+
+When the user says the work is low-stakes or wants to avoid SOTA token burn, prefer the cheapest acceptable model/provider and switch immediately without debate. When they ask for “best thinking,” route to the strongest available model. Keep both directions easy to invoke in-session.
+
+| Provider | Auth | Key env var |
+|----------|------|-------------|
 | `model` | `default`, `provider`, `base_url`, `api_key`, `context_length` |
 | `agent` | `max_turns` (90), `tool_use_enforcement` |
 | `terminal` | `backend` (local/docker/ssh/modal), `cwd`, `timeout` (180) |
@@ -380,6 +407,75 @@ Full config reference: https://hermes-agent.nousresearch.com/docs/user-guide/con
 ### Providers
 
 20+ providers supported. Set via `hermes model` or `hermes setup`.
+
+### Purpose-based model routing
+
+DJ prefers model selection to be driven by the *work being done*, not by provider names. Maintain a living activity→model register and use it as the default decision aid for daily brain dump, daily business briefing, coding projects, and open-source reasoning tasks.
+
+Key preferences:
+- Default lightweight OpenAI: `gpt-5.4-mini`
+- Strongest OpenAI: `gpt-5.5`
+- Open-source thinking default: DeepSeek V4 Pro
+- Open-source alternate: Qwen
+- Coding default: `gpt-5.5`, fallback Anthropic `sonnet`
+- High-polish editorial work: `opus`
+- Avoid `haiku` in the default routing taxonomy; prefer DeepSeek V4 Pro instead for lightweight/open-source work.
+
+Support file: `references/model-routing-dynamic.md`
+
+Use provider choice as a *task-class routing decision*, not a one-time global pick. Keep a small mental map of:
+
+- **Cheap/light**: daily brain dump, cleanup, summaries, simple drafting
+- **Standard**: normal chat, most assistant work
+- **Strong reasoning/coding**: hard debugging, architecture, ambiguous analysis
+
+When the user says the work is low-stakes or wants to avoid SOTA token burn, prefer the cheapest acceptable model/provider and switch immediately without debate. When they ask for “best thinking,” route to the strongest available model. Keep both directions easy to invoke in-session.
+
+| Provider | Auth | Key env var |
+|----------|------|-------------|
+DJ prefers model selection to be driven by the *work being done*, not by provider names. Maintain a living activity→model register and use it as the default decision aid for daily brain dump, daily business briefing, coding projects, and open-source reasoning tasks.
+
+Key preferences:
+- Default lightweight OpenAI: `gpt-5.4-mini`
+- Strongest OpenAI: `gpt-5.5`
+- Open-source thinking default: DeepSeek V4 Pro
+- Open-source alternate: Qwen
+- Coding default: `gpt-5.5`, fallback Anthropic `sonnet`
+- High-polish editorial work: `opus`
+- Avoid `haiku` in the default routing taxonomy; prefer DeepSeek V4 Pro instead for lightweight/open-source work.
+
+Support file: `references/model-routing-taxonomy.md`
+
+Use provider choice as a *task-class routing decision*, not a one-time global pick. Keep a small mental map of:
+
+- **Cheap/light**: daily brain dump, cleanup, summaries, simple drafting
+- **Standard**: normal chat, most assistant work
+### Providers
+
+20+ providers supported. Set via `hermes model` or `hermes setup`.
+
+### Purpose-based model routing
+
+DJ prefers model selection to be driven by the *work being done*, not by provider names. Maintain a living activity→model register and use it as the default decision aid for daily brain dump, daily business briefing, coding projects, and open-source reasoning tasks.
+
+Key preferences:
+- Default lightweight OpenAI: `gpt-5.4-mini`
+- Strongest OpenAI: `gpt-5.5`
+- Open-source thinking default: DeepSeek V4 Pro
+- Open-source alternate: Qwen
+- Coding default: `gpt-5.5`, fallback Anthropic `sonnet`
+- High-polish editorial work: `opus`
+- Avoid `haiku` in the default routing taxonomy; prefer DeepSeek V4 Pro instead for lightweight/open-source work.
+
+Support file: `references/model-routing-dynamic.md`
+
+Use provider choice as a *task-class routing decision*, not a one-time global pick. Keep a small mental map of:
+
+- **Cheap/light**: daily brain dump, cleanup, summaries, simple drafting
+- **Standard**: normal chat, most assistant work
+- **Strong reasoning/coding**: hard debugging, architecture, ambiguous analysis
+
+When the user says the work is low-stakes or wants to avoid SOTA token burn, prefer the cheapest acceptable model/provider and switch immediately without debate. When they ask for “best thinking,” route to the strongest available model. Keep both directions easy to invoke in-session.
 
 | Provider | Auth | Key env var |
 |----------|------|-------------|
@@ -406,14 +502,39 @@ Full config reference: https://hermes-agent.nousresearch.com/docs/user-guide/con
 | Custom endpoint | Config | `model.base_url` + `model.api_key` in config.yaml |
 | GitHub Copilot ACP | External | `COPILOT_CLI_PATH` or Copilot CLI |
 
+See `references/model-routing-dynamic.md` for a compact routing policy and examples.
+
 Full provider docs: https://hermes-agent.nousresearch.com/docs/integrations/providers
 
-### Toolsets
+### Providers
 
-Enable/disable via `hermes tools` (interactive) or `hermes tools enable/disable NAME`.
+20+ providers supported. Set via `hermes model` or `hermes setup`.
 
-| Toolset | What it provides |
-|---------|-----------------|
+### Purpose-based model routing
+
+DJ prefers model selection to be driven by the *work being done*, not by provider names. Maintain a living activity→model register and use it as the default decision aid for daily brain dump, daily business briefing, coding projects, and open-source reasoning tasks.
+
+Key preferences:
+- Default lightweight OpenAI: `gpt-5.4-mini`
+- Strongest OpenAI: `gpt-5.5`
+- Open-source thinking default: DeepSeek V4 Pro
+- Open-source alternate: Qwen
+- Coding default: `gpt-5.5`, fallback Anthropic `sonnet`
+- High-polish editorial work: `opus`
+- Avoid `haiku` in the default routing taxonomy; prefer DeepSeek V4 Pro instead for lightweight/open-source work.
+
+Support file: `references/model-routing-dynamic.md`
+
+Use provider choice as a *task-class routing decision*, not a one-time global pick. Keep a small mental map of:
+
+- **Cheap/light**: daily brain dump, cleanup, summaries, simple drafting
+- **Standard**: normal chat, most assistant work
+- **Strong reasoning/coding**: hard debugging, architecture, ambiguous analysis
+
+When the user says the work is low-stakes or wants to avoid SOTA token burn, prefer the cheapest acceptable model/provider and switch immediately without debate. When they ask for “best thinking,” route to the strongest available model. Keep both directions easy to invoke in-session.
+
+| Provider | Auth | Key env var |
+|----------|------|-------------|
 | `web` | Web search and content extraction |
 | `search` | Web search only (subset of `web`) |
 | `browser` | Browser automation (Browserbase, Camofox, or local Chromium) |
@@ -527,12 +648,35 @@ stt:
   provider: local        # local, groq, openai, mistral
   local:
     model: base          # tiny, base, small, medium, large-v3
-```
+### Providers
 
-### TTS (Text → Voice)
+20+ providers supported. Set via `hermes model` or `hermes setup`.
 
-| Provider | Env var | Free? |
-|----------|---------|-------|
+### Purpose-based model routing
+
+DJ prefers model selection to be driven by the *work being done*, not by provider names. Maintain a living activity→model register and use it as the default decision aid for daily brain dump, daily business briefing, coding projects, and open-source reasoning tasks.
+
+Key preferences:
+- Default lightweight OpenAI: `gpt-5.4-mini`
+- Strongest OpenAI: `gpt-5.5`
+- Open-source thinking default: DeepSeek V4 Pro
+- Open-source alternate: Qwen
+- Coding default: `gpt-5.5`, fallback Anthropic `sonnet`
+- High-polish editorial work: `opus`
+- Avoid `haiku` in the default routing taxonomy; prefer DeepSeek V4 Pro instead for lightweight/open-source work.
+
+Support file: `references/model-routing-dynamic.md`
+
+Use provider choice as a *task-class routing decision*, not a one-time global pick. Keep a small mental map of:
+
+- **Cheap/light**: daily brain dump, cleanup, summaries, simple drafting
+- **Standard**: normal chat, most assistant work
+- **Strong reasoning/coding**: hard debugging, architecture, ambiguous analysis
+
+When the user says the work is low-stakes or wants to avoid SOTA token burn, prefer the cheapest acceptable model/provider and switch immediately without debate. When they ask for “best thinking,” route to the strongest available model. Keep both directions easy to invoke in-session.
+
+| Provider | Auth | Key env var |
+|----------|------|-------------|
 | Edge TTS | None | Yes (default) |
 | ElevenLabs | `ELEVENLABS_API_KEY` | Free tier |
 | OpenAI | `VOICE_TOOLS_OPENAI_KEY` | Paid |
@@ -896,7 +1040,7 @@ When DJ asks about the Hermes Telegram group/topic setup, keep the answer short 
 - **Topic/thread** = a named forum thread inside the group; Hermes delivery targets use `telegram:<chat_id>:<message_thread_id>`.
 - **Channel** = broadcast feed; usually not what DJ means for Hermes.
 
-Current target discovery via `send_message(action="list")` may show only `topic N`, not human-readable names. To build a durable map:
+Current target discovery via `send_message(action="list")` may show only `topic N`, not human-readable names. For DJ-facing explanations and reports, **do not refer to topics by numeric labels** like “topic 5”; use the actual human-readable topic names DJ has given. If the mapping is unknown, say the topic name is unresolved and build a durable map rather than presenting the number as the label. To build a durable map:
 1. List messaging targets and cron deliveries.
 2. If names are unknown, send one short marker to each known topic target: `ID check: topic N`.
 3. Ask DJ for one screenshot or a typed mapping from marker → visible topic name.
@@ -905,7 +1049,13 @@ Current target discovery via `send_message(action="list")` may show only `topic 
 6. Update scheduled jobs with exact `deliver=telegram:<chat_id>:<topic_id>` destinations, then verify with `hermes cron list` / cron tool.
 7. To change the default/home Telegram topic, update `TELEGRAM_HOME_CHANNEL_THREAD_ID` in the active gateway env/config location and restart/reload gateway only if the user approved or requested immediate effect.
 
+**Pitfall: interactive chat vs capture-only topic.** If a Telegram topic is being used as the live Daily Brain Dump chat, do *not* let the thought-capture integration silently consume ordinary messages. Keep the capture channel separate, or make capture *non-blocking* for that topic: capture first, then emit a lightweight `✓` ack and let the message fall through to the normal Hermes conversation so DJ gets a real reply in-topic. Retrieval-style prompts can still be routed directly to the thoughts repo.
+
+If the topic is intentionally capture-only, keep it silent on success. If DJ expects conversation, do not “fix” the problem by disabling thoughts globally; fix the handler so capture and chat can coexist.
+
 For DJ's Chief Group - Hermes, prefer minimal repurposing over creating/deleting topics: keep history, rename existing topics, and archive old-purpose topics instead of removing them.
+
+See `references/telegram-thoughts-routing-pitfall.md` for the interactive-chat vs capture-only split that bit the Daily Brain Dump topic.
 
 - **Windows-specific issues** (`Alt+Enter` newline, WinError 10106, UTF-8 BOM config, test suite, line endings): see the dedicated **Windows-Specific Quirks** section above.
 
@@ -1015,10 +1165,15 @@ run_conversation():
   1. Build system prompt
   2. Loop while iterations < max:
      a. Call LLM (OpenAI-format messages + tool schemas)
-     b. If tool_calls → dispatch each via handle_function_call() → append results → continue
-     c. If text response → return
+     b. Normalize response usage and update token/cost counters
+     c. If tool_calls → dispatch each via handle_function_call() → append results → continue
+     d. If text response → return
   3. Context compression triggers automatically near token limit
 ```
+
+### Model Spend / Cost Ledger
+
+When adding or fixing Hermes spend tracking, instrument the central response-usage block, not transcripts after the fact. The durable pattern is an event-level SQLite ledger under `$HERMES_HOME/spend.db`: one row per successful model response, using `agent.usage_pricing.normalize_usage()` and `estimate_usage_cost()` for provider-normalized tokens and cost. Keep writes best-effort so accounting never breaks chat/tool execution. See `references/spend-monitor-ledger.md` for schema, CLI shape, tests, and pitfalls.
 
 ### Testing
 

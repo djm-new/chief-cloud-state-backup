@@ -195,6 +195,7 @@ Then make each cron script output its own concise self-identifying line, e.g. `C
 - **Never emit verbose output unconditionally.** Even "looks good" summaries are noise when they arrive 48 times a day.
 - **Don't schedule daily jobs hourly just to handle time zones.** DJ explicitly pushed back on hourly wakeups for a once-daily Daily ToM job. For a daily local-time job with DST, prefer a narrow UTC candidate schedule (for ET 5AM: `0 9,10 * * *`) plus an in-script local-time/date guard so only one candidate performs work and the other exits silently.
 - **Don't suppress logs** — write full detail to a status file so Hermes can read it on-demand; just don't push it to Telegram automatically.
+- **If a user message in a Telegram topic seems to get no response, first verify whether it is a live gateway conversation vs. a cron delivery.** Cron jobs are intentionally silent on OK and may only emit output on failure; a live topic reply should come from the gateway session, not the cron runner.
 - **CHIEF_HEALTH_ALWAYS_REPORT=1** can be set to force output for debugging without changing the script's default behavior.
 - **Clear the fingerprint on resolution** — if you only clear it when issues appear, a persistent-then-resolved-then-recurring issue will be silenced on second occurrence.
 - **Rate-limit is per-issue-fingerprint, not per-script** — different issue combinations get separate alerting behavior automatically because the fingerprint changes.
@@ -204,3 +205,4 @@ Then make each cron script output its own concise self-identifying line, e.g. `C
 ## References
 
 - `references/chief-health-check-design.md` — the specific Railway Chief health check implementation and the DJ feedback that shaped this pattern.
+- `references/telegram-vs-cron-replies.md` — how to tell a live Telegram topic reply from a silent cron delivery when a user says a topic is "not replying."

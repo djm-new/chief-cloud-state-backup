@@ -1,11 +1,15 @@
-User prefers concise direct answers; for Hermes/Telegram setup, describe current state before restructuring. Monitors silent on OK/actionable on alert; cron listings plain English.
+User prefers concise direct answers and current-state-first Hermes/Telegram explanations; monitors should be silent on OK and alert-only on actionables.
 §
-DJ wants Flow Slack smart briefings in Telegram Briefings topic 4; briefing action-like sections must be consolidated into one “Action list additions” section.
+DJ wants Flow Slack briefings in Telegram Briefings topic 4; action items go in one Action list additions section.
 §
-User prefers explicit approval before recurring monitors/side effects. For Google, read/search/summarize only when requested; never send/reply/forward, invite, share, notify, or modify externally—draft-only unless policy changes.
+User prefers explicit approval before recurring monitors; Google is read-only unless DJ explicitly requests edits or sends.
 §
 User expects direct CLI execution when access exists; keep building/verifying/deploying until done or blocked; clarify ambiguous design/live changes first.
 §
-Health app prefs/reqs: daily ledger date flipping/history, finalize yesterday, clean editable meal macro rows, workouts tap-done/edit exceptions; fast LLM text meal logging, branded/restaurant uses web search + official nutrition; manual weight, recomp, Apple Watch calories-out w/ TDEE fallback.
+Health app prefs: daily ledger history, finalize yesterday, editable meals, tap-done workouts with edits, fast text meal logging, web lookups for brands/restaurants, manual weight, Apple Watch calories with TDEE fallback.
 §
-DJ podcast prefs: score episodes not shows; daily wide-net text; weekly tightly tuned audio; keep storage lean by persisting durable taste/idea patterns, not daily artifacts. Follow Benedict Evans for calibration/filtering.
+DJ podcast prefs: score episodes not shows; daily wide-net text; weekly tightly tuned audio; keep storage lean and preserve durable taste patterns. Follow Benedict Evans for calibration.
+§
+DJ wants dynamic on-the-fly model switching and prefers DeepSeek V4 Pro over Haiku for lightweight/open-source tasks.
+§
+User does not want Telegram topics referred to by numeric topic IDs (e.g., “topic 5”); use the actual human-readable topic names the user has given instead.
