@@ -30,12 +30,12 @@
     "created_at": "2026-05-26T21:01:01.030914+00:00",
     "created_by": null,
     "last_patched_at": "2026-06-08T12:26:26.415255+00:00",
-    "last_used_at": "2026-06-08T12:18:16.875133+00:00",
+    "last_used_at": "2026-06-08T13:05:37.540895+00:00",
     "last_viewed_at": "2026-06-08T12:18:16.870283+00:00",
     "patch_count": 22,
     "pinned": false,
     "state": "active",
-    "use_count": 27,
+    "use_count": 28,
     "view_count": 20
   },
   "devops/cron-job-design": {

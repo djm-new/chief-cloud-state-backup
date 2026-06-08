@@ -1,4 +1,4 @@
-User prefers concise, current-state-first alerts; spend reports should break down by project, workflow, and model.
+User prefers concise current-state alerts; spend reports by project/workflow/model.
 §
 DJ wants Flow Slack briefings in Telegram Briefings topic 4; action items go in one Action list additions section.
 §
@@ -16,6 +16,8 @@ User does not want Telegram topics referred to by numeric IDs; use the human-rea
 §
 DJ prefers the podcast intelligence digest delivered daily to the Telegram Briefings channel at 5PM ET.
 §
-User prefers that I not imply work was done recently unless it is explicitly verified; live checks should not be framed as completed work.
+User prefers verified, current-state-first updates.
 §
-DJ wants Top of Mind items appended to the bottom by default; only priority/starred items should go to the top. Personal errand/travel items should route to Personal.
+DJ wants Top of Mind items to default to the bottom, with only priority/starred items at the top; personal errand/travel items route to Personal.
+§
+DJ wants GitHub backups to preserve nearly all durable work/context for other LLMs; secrets and tokens stay excluded.

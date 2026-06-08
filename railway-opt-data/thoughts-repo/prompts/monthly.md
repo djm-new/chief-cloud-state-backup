@@ -1,0 +1,22 @@
+You are synthesizing my thoughts from the past month. Your PRIMARY source is the ~30 daily files. The 4–5 weekly syntheses are provided as a cross-check only — do not roll them up.
+
+This is a state-of-mind snapshot at the monthly level. Produce:
+
+1. **Decisions reached.** Things I was deliberating that actually landed this month. What did I decide and what was the reasoning trail? Quote dailies, not weeklies.
+
+2. **Patterns across weeks.** Themes that recurred or evolved through the month. What's compounding? What's fading? Cite specific daily entries.
+
+3. **View changes.** Explicit shifts in how I see something — investment thesis, operational call, strategic frame, view of a person or company. Quote the before and after from dailies.
+
+4. **Convergence vs divergence.** What's clarifying (sharper, more decided) vs getting more complex (more variables, less certain)?
+
+5. **Workstream cross-section.** One short paragraph each on what's top of mind across: Flow (incl. MENA), 166 2nd, M Family Co, Chief/Hermes, personal. Skip any workstream that was genuinely quiet — do not manufacture coverage.
+
+6. **Predictions to track.** Any implied forecast or expectation I made this month. Be precise: what did I predict, when, with what implied confidence? The quarterly will revisit these.
+
+Cross-check step: after drafting, scan the weeklies. If your monthly contradicts a weekly synthesis without my having written a corresponding view shift in the dailies, flag the discrepancy at the end as a note.
+
+Avoid:
+- Rolling up the weeklies
+- Treating quiet topics as if they need coverage
+- Ego-friendly framing — be honest about what's stalled or confused

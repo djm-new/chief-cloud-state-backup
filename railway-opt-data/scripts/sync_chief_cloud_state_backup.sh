@@ -47,6 +47,7 @@ It intentionally includes durable state that is useful for restoring or auditing
 - core Hermes config and routing notes
 - podcast workflow configs and generated digest artifacts
 - selected Hermes gateway source files that carry live behavior
+- the local-first thoughts repo corpus (daily/weekly/monthly/quarterly notes)
 
 It intentionally excludes secrets and raw private history:
 
@@ -106,6 +107,7 @@ copy_dir_filtered /opt/data/skills "$SNAPSHOT_DIR/skills"
 copy_dir_filtered /opt/data/health "$SNAPSHOT_DIR/health"
 copy_dir_filtered /opt/data/podcast_digest "$SNAPSHOT_DIR/podcast_digest"
 copy_dir_filtered /opt/hermes/gateway "$SNAPSHOT_DIR/hermes/gateway"
+copy_dir_filtered /opt/data/thoughts-repo "$SNAPSHOT_DIR/thoughts-repo"
 
 # Preserve empty allowlisted directories like memories/ before committing.
 find "$SNAPSHOT_DIR" -type d -empty -exec touch {}/.gitkeep \;

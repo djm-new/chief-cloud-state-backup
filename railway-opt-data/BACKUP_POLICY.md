@@ -13,6 +13,7 @@ It intentionally includes durable state that is useful for restoring or auditing
 - core Hermes config and routing notes
 - podcast workflow configs and generated digest artifacts
 - selected Hermes gateway source files that carry live behavior
+- the local-first thoughts repo corpus (daily/weekly/monthly/quarterly notes)
 
 It intentionally excludes secrets and raw private history:
 

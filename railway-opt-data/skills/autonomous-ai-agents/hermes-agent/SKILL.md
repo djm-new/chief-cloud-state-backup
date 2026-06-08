@@ -816,6 +816,8 @@ User docs: https://hermes-agent.nousresearch.com/docs/user-guide/features/cron
 
 **Output discipline:** cron jobs that emit verbose status on every tick are noise. DJ expects silence on OK and actionable alerts only. Load the `cron-job-design` skill when writing or fixing cron scripts — it has the fingerprint-dedup pattern, alert format, and status-file pattern that match DJ's preferences.
 
+**Cloud-state backups:** when durable runtime state should be viewable by other LLMs and preserved in GitHub, use the selective cloud-state backup pattern. It snapshots config/routing notes, scripts, skills, memories, cron jobs, health state, `SOUL.md`, selected gateway source, and durable podcast artifacts while excluding secrets, tokens, SQLite DBs, sessions, logs, and caches. See `references/cloud-state-backup.md`.
+
 **Local capture/synthesis systems:** when building a dedicated Telegram/Slack capture channel that writes markdown artifacts and scheduled syntheses, follow `references/thought-capture-systems.md`. It covers append-only repo layout, gateway bypass hooks, Telegram topic matching, DST-safe cron guards, and verification.
 
 ### Curator (skill lifecycle)
