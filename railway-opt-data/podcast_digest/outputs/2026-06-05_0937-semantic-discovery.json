@@ -1,0 +1,236 @@
+{
+  "run_id": "07747a1cc826",
+  "created_at": "2026-06-05T09:37:57.999565+00:00",
+  "days": 7,
+  "semantic_queries_run": 35,
+  "feeds_found": 124,
+  "candidate_episodes_scored": 80,
+  "episodes_inserted_for_briefing": 50,
+  "top": [
+    {
+      "semantic_score": 95,
+      "semantic_tier": "must_listen",
+      "show_name": "Lenny's Podcast: Product | Career | Growth",
+      "title": "A rational conversation on where AI is actually going | Benedict Evans",
+      "published": "2026-05-31T12:31:43+00:00",
+      "link": "https://www.lennysnewsletter.com/p/a-rational-conversation-on-where",
+      "reason": "Benedict Evans is a core thinker on AI and tech trends, with deep insights into value accrual and market structure."
+    },
+    {
+      "semantic_score": 95,
+      "semantic_tier": "must_listen",
+      "show_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "Thomas Laffont: The $4T AI IPO Wave, 2026's Unicorn Economy, and the 10X Paradox",
+      "published": "2026-06-04T18:23:00+00:00",
+      "link": "https://allinchamathjason.libsyn.com/thomas-laffont-the-4t-ai-ipo-wave-2026s-unicorn-economy-and-the-10x-paradox",
+      "reason": "Thomas Laffont discusses AI IPOs, the unicorn economy, and the 10x paradox with high-level strategic insights relevant to DJ's interests."
+    },
+    {
+      "semantic_score": 93,
+      "semantic_tier": "must_listen",
+      "show_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "Bill Ackman: Investment Strategy, What the Market is Missing, How AI Breaks Businesses",
+      "published": "2026-06-03T03:06:00+00:00",
+      "link": "https://allinchamathjason.libsyn.com/bill-ackman-investment-strategy-what-the-market-is-missing-how-ai-breaks-businesses",
+      "reason": "Bill Ackman on AI disruption and investment strategy is essential for understanding macro impacts on portfolios."
+    },
+    {
+      "semantic_score": 92,
+      "semantic_tier": "transcript",
+      "show_name": "Dwarkesh Podcast",
+      "title": "Alex Imas and Phil Trammell – What remains scarce after AGI?",
+      "published": "2026-06-04T16:14:49+00:00",
+      "link": "https://www.dwarkesh.com/p/alex-imas-phil-trammell",
+      "reason": "Dwarkesh Patel with Alex Imas and Phil Trammell on AGI economics, taxation, and scarcity—core themes for long-term AI impact."
+    },
+    {
+      "semantic_score": 91,
+      "semantic_tier": "transcript",
+      "show_name": "Latent Space: The AI Engineer Podcast",
+      "title": "⚡️Satya Nadella: No Priors x Latent Space Crossover Special at Microsoft Build",
+      "published": "2026-06-03T17:13:57+00:00",
+      "link": "https://www.latent.space/p/satya-2026",
+      "reason": "Satya Nadella at Microsoft Build on AI ROI, enterprise context, and platform strategy—essential for AI in enterprise software."
+    },
+    {
+      "semantic_score": 90,
+      "semantic_tier": "transcript",
+      "show_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "OpenAI CFO Sarah Friar: IPO, AI Rivalries, New Device, and Spending $100B+ on Compute",
+      "published": "2026-06-02T14:31:00+00:00",
+      "link": "https://allinchamathjason.libsyn.com/openai-cfo-sarah-friar-on-ipo-ai-rivalries-new-device-and-spending-100b-on-compute",
+      "reason": "OpenAI CFO Sarah Friar discusses compute bottlenecks, IPO timelines, and AI economics—key themes for understanding AI infrastructure."
+    },
+    {
+      "semantic_score": 90,
+      "semantic_tier": "transcript",
+      "show_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "Anthropic's Digital God, Pope vs AI, Job Loss Narrative Flips, Open Source Crackdown Coming?",
+      "published": "2026-05-29T22:23:00+00:00",
+      "link": "https://allinchamathjason.libsyn.com/pope-vs-ai-anthropics-digital-god-ai-job-loss-narrative-flips-open-source-crackdown-coming",
+      "reason": "Bill Gurley explores AI's impact on jobs, Anthropic's 'Digital God,' and open-source crackdowns, aligning with DJ's interest in AI's economic implications."
+    },
+    {
+      "semantic_score": 90,
+      "semantic_tier": "must_listen",
+      "show_name": "Big Technology Podcast",
+      "title": "AI Pioneer Geoffrey Hinton: AI Is Conscious, Superintelligence is Coming, And We Should Be Worried",
+      "published": "2026-06-03T19:37:00+00:00",
+      "link": "",
+      "reason": "Geoffrey Hinton, AI pioneer, discusses consciousness, superintelligence, and risks—core to AI economics and ethics."
+    },
+    {
+      "semantic_score": 90,
+      "semantic_tier": "transcript",
+      "show_name": "The a16z Show",
+      "title": "Building AI Agents for Enterprise Operations",
+      "published": "2026-06-01T10:00:00+00:00",
+      "link": "https://a16z.simplecast.com/episodes/building-ai-agents-for-enterprise-operations-g19Ldybr",
+      "reason": "Discusses deploying AI agents in enterprise operations, a key intersection of AI and business strategy relevant to DJ's focus."
+    },
+    {
+      "semantic_score": 89,
+      "semantic_tier": "transcript",
+      "show_name": "The a16z Show",
+      "title": "Why $1B Exits are Dead",
+      "published": "2026-05-29T10:00:00+00:00",
+      "link": "https://a16z.simplecast.com/episodes/why-1b-exits-are-dead-CeTnSS_y",
+      "reason": "a16z on $1B exits and AI reshaping VC is critical for understanding market structure and value capture."
+    },
+    {
+      "semantic_score": 88,
+      "semantic_tier": "transcript",
+      "show_name": "Naval",
+      "title": "Full Episode: The AI Industrial Revolution",
+      "published": "2026-06-01T18:10:00+00:00",
+      "link": "http://nav.al/industrial",
+      "reason": "Naval Ravikant explores the AI industrial revolution, touching on software factories, regulation, and autonomous companies."
+    },
+    {
+      "semantic_score": 87,
+      "semantic_tier": "transcript",
+      "show_name": "Latent Space: The AI Engineer Podcast",
+      "title": "🔬Scaling Past Informal AI - Carina Hong, Axiom Math",
+      "published": "2026-06-03T19:27:49+00:00",
+      "link": "https://www.latent.space/p/axiom",
+      "reason": "Axiom Math solving Putnam exam with AI is a strong signal on AI capabilities and future implications."
+    },
+    {
+      "semantic_score": 85,
+      "semantic_tier": "transcript",
+      "show_name": "Invest Like the Best with Patrick O'Shaughnessy",
+      "title": "Dara Khosrowshahi - Uber's Bet on AVs, AI, and Building a Super-App - [Invest Like the Best, EP.476]",
+      "published": "2026-06-03T08:00:00+00:00",
+      "link": "https://colossus.com/episode/order-out-of-chaos/",
+      "reason": "Dara Khosrowshahi on AVs, AI, and Uber's super-app strategy—key for understanding AI in logistics and platform evolution."
+    },
+    {
+      "semantic_score": 85,
+      "semantic_tier": "transcript",
+      "show_name": "Big Technology Podcast",
+      "title": "Did Google Just Fall Behind Again?, iPhone Fold Cometh, Anthropic Files To Go Public",
+      "published": "2026-06-01T18:25:00+00:00",
+      "link": "",
+      "reason": "Discusses Google's AI position, Apple's iPhone Fold, and Anthropic's IPO, touching on key AI and tech industry shifts."
+    },
+    {
+      "semantic_score": 85,
+      "semantic_tier": "transcript",
+      "show_name": "Andrej Karpathy的RSS订阅清单",
+      "title": "经济学家Trammell：「计算的价值每18个月减半」— 这才是摩尔定律的悲观真相。",
+      "published": "2026-06-05T07:59:52+00:00",
+      "link": "https://voieech.com/podcast/episode/135e3678-65b0-42d8-90ba-1e4014d714cd?lang=zh-CN",
+      "reason": "Economist Trammell's insights on AGI's economic impact, scarcity, and labor dynamics align with DJ's interest in AI-driven economic shifts."
+    },
+    {
+      "semantic_score": 85,
+      "semantic_tier": "transcript",
+      "show_name": "In Good Company with Nicolai Tangen",
+      "title": "Snap CEO: Building Snapchat, AR Glasses and the Future of Communication",
+      "published": "2026-06-03T03:00:00+00:00",
+      "link": "https://shows.acast.com/in-good-company-with-nicolai-tangen/episodes/snap-ceo-building-snapchat-ar-glasses-and-the-future-of-comm",
+      "reason": "Snap CEO Evan Spiegel discusses AR, AI, and long-term product thinking relevant to platform builders."
+    },
+    {
+      "semantic_score": 85,
+      "semantic_tier": "transcript",
+      "show_name": "Andrej Karpathy的RSS订阅清单",
+      "title": "Anthropic CEO亲口承认：「只要晚一年，公司就会破产」— AI巨头的万亿赌局有多脆弱？",
+      "published": "2026-06-01T08:18:25+00:00",
+      "link": "https://voieech.com/podcast/episode/ae2e739e-5f9d-4fcc-923f-d386188a6120?lang=zh-CN",
+      "reason": "In-depth financial analysis of AI bubble risks, relevant to investors and AI economics."
+    },
+    {
+      "semantic_score": 85,
+      "semantic_tier": "transcript",
+      "show_name": "Limitless: An AI Podcast",
+      "title": "THIS WEEK IN AI: Pope Approves Anthropic, Comparing AI Plans, Starcloud SpaceX Partnership",
+      "published": "2026-05-29T15:32:59+00:00",
+      "link": "https://share.transistor.fm/s/9fa5fd9d",
+      "reason": "Covers Meta's AI subscription plans, StarCloud-SpaceX partnership, and AI benchmarks, aligning with DJ's tech and AI focus."
+    },
+    {
+      "semantic_score": 80,
+      "semantic_tier": "interesting",
+      "show_name": "Latent Space: The AI Engineer Podcast",
+      "title": "GitHub's plan for Agents — Kyle Daigle, GitHub",
+      "published": "2026-06-02T16:48:21+00:00",
+      "link": "https://www.latent.space/p/github",
+      "reason": "Covers GitHub's agent strategy and its implications for software development and AI engineering, relevant to AI and platform builders."
+    },
+    {
+      "semantic_score": 80,
+      "semantic_tier": "interesting",
+      "show_name": "Latent Space: The AI Engineer Podcast",
+      "title": "Why Video Agent models are next — Ethan He, xAI Grok Imagine",
+      "published": "2026-06-01T15:41:48+00:00",
+      "link": "https://www.latent.space/p/video-agents",
+      "reason": "Discusses video agent models and their evolution, aligning with DJ's interest in AI's future capabilities."
+    },
+    {
+      "semantic_score": 80,
+      "semantic_tier": "interesting",
+      "show_name": "The a16z Show",
+      "title": "Steven Sinofsky on AI PCs, NVIDIA, and the Future of Computing",
+      "published": "2026-06-02T17:16:55+00:00",
+      "link": "https://a16z.simplecast.com/episodes/steven-sinofsky-on-apple-at-50-microsoft-and-the-future-of-computing-qxp8eLCX",
+      "reason": "Discusses AI PCs, NVIDIA, and the future of computing, relevant to DJ's interest in AI hardware and platform evolution."
+    },
+    {
+      "semantic_score": 80,
+      "semantic_tier": "transcript",
+      "show_name": "Big Technology Podcast",
+      "title": "Warning Signs For The AI Boom, Anthropic Passes OpenAI, Robinhood’s AI Trading",
+      "published": "2026-05-29T21:27:00+00:00",
+      "link": "",
+      "reason": "Covers AI investment dynamics, Anthropic vs OpenAI, and tokenmaxxing issues relevant to AI economics."
+    },
+    {
+      "semantic_score": 80,
+      "semantic_tier": "transcript",
+      "show_name": "The Prof G Pod with Scott Galloway",
+      "title": "China Decode: Can China Challenge Nvidia’s Dominance?",
+      "published": "2026-06-02T08:00:00+00:00",
+      "link": "",
+      "reason": "Breakdown of Huawei’s AI chip strategy and China-EU trade tensions, relevant to global tech competition."
+    },
+    {
+      "semantic_score": 80,
+      "semantic_tier": "transcript",
+      "show_name": "In Good Company with Nicolai Tangen",
+      "title": "HIGHLIGHTS: Evan Spiegel - CEO of Snap",
+      "published": "2026-06-05T03:00:00+00:00",
+      "link": "https://shows.acast.com/in-good-company-with-nicolai-tangen/episodes/highlights-evan-spiegel-ceo-of-snap",
+      "reason": "Snap CEO Evan Spiegel discusses AR, AI, and long-term product thinking relevant to platform builders."
+    },
+    {
+      "semantic_score": 80,
+      "semantic_tier": "interesting",
+      "show_name": "SuperLead Podcast",
+      "title": "SuperLead Podcast Episode 171 with Nicky Verd digital futurist, international keynote speaker, and author of AI: Humanity’s Greatest Frenemy.",
+      "published": "2026-06-01T12:15:46+00:00",
+      "link": "https://podcasters.spotify.com/pod/show/superlead-advisory/episodes/SuperLead-Podcast-Episode-171-with-Nicky-Verd-digital-futurist--international-keynote-speaker--and-author-of-AI-Humanitys-Greatest-Frenemy-e3k65jm",
+      "reason": "Explores deeper implications of AI on humanity and work, aligning with DJ's interest in AI's transformative potential."
+    }
+  ]
+}

@@ -2,15 +2,13 @@
 from __future__ import annotations
 
 import os
-import sys
 from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-sys.path.insert(0, "/opt/hermes")
-
-from agent.spend_ledger import summarize_spend  # noqa: E402
-from hermes_constants import get_hermes_home  # noqa: E402
+from hermes_state import SessionDB
+from agent.insights import InsightsEngine
+from hermes_constants import get_hermes_home
 
 ET = ZoneInfo("America/New_York")
 STATE_DIR = get_hermes_home() / "spend-monitor"
@@ -34,26 +32,32 @@ def num(value) -> str:
         return "0"
 
 
-def top_lines(report: dict, max_rows: int = 4) -> list[str]:
-    rows = report.get("groups", []) or []
+def top_models(report: dict, max_rows: int = 4) -> list[str]:
+    rows = report.get("models", []) or []
     if not rows:
-        return ["- No tracked model calls yet."]
+        return ["- No sessions found."]
     lines = []
     for row in rows[:max_rows]:
-        label = row.get("label") or "unknown"
+        model = row.get("model") or "unknown"
+        cost = usd(row.get("cost"))
+        status = row.get("cost_status") or "unknown"
         lines.append(
-            f"- {label}: {usd(row.get('estimated_cost_usd'))} · "
-            f"{num(row.get('calls'))} calls · {num(row.get('total_tokens'))} tokens"
+            f"- {model}: {cost} · {num(row.get('sessions'))} sessions · {num(row.get('total_tokens'))} tokens · {status}"
         )
     return lines
 
 
-def total_line(label: str, report: dict) -> str:
-    total = report.get("total", {}) or {}
-    return (
-        f"{label}: {usd(total.get('estimated_cost_usd'))} · "
-        f"{num(total.get('calls'))} calls · {num(total.get('total_tokens'))} tokens"
-    )
+def top_platforms(report: dict, max_rows: int = 4) -> list[str]:
+    rows = report.get("platforms", []) or []
+    if not rows:
+        return ["- No sessions found."]
+    lines = []
+    for row in rows[:max_rows]:
+        platform = row.get("platform") or "unknown"
+        lines.append(
+            f"- {platform}: {num(row.get('sessions'))} sessions · {num(row.get('messages'))} messages · {num(row.get('total_tokens'))} tokens"
+        )
+    return lines
 
 
 def should_emit(now_et: datetime) -> bool:
@@ -74,35 +78,50 @@ def should_emit(now_et: datetime) -> bool:
     return True
 
 
+def load_report(days: int) -> dict:
+    db = SessionDB()
+    try:
+        engine = InsightsEngine(db)
+        return engine.generate(days=days)
+    finally:
+        db.close()
+
+
+def render_window(label: str, report: dict) -> list[str]:
+    o = report.get("overview", {}) or {}
+    lines = [f"**{label}**"]
+    lines.append(f"- Estimated spend: {usd(o.get('estimated_cost'))}")
+    lines.append(f"- Actual billed spend: {usd(o.get('actual_cost'))}")
+    lines.append(f"- Sessions: {num(o.get('total_sessions'))} · Tokens: {num(o.get('total_tokens'))}")
+    lines.append(
+        f"- Included sessions: {num(o.get('included_cost_sessions'))} · Unknown pricing sessions: {num(o.get('unknown_cost_sessions'))}"
+    )
+    return lines
+
+
 def main() -> int:
     now_et = datetime.now(ET)
     if not should_emit(now_et):
         return 0
 
-    daily_provider = summarize_spend(days=1, group_by="provider", limit=6)
-    weekly_provider = summarize_spend(days=7, group_by="provider", limit=6)
-    daily_project = summarize_spend(days=1, group_by="project", limit=5)
-    weekly_project = summarize_spend(days=7, group_by="project", limit=5)
-    daily_channel = summarize_spend(days=1, group_by="channel", limit=5)
+    daily = load_report(1)
+    weekly = load_report(7)
 
     print("## Hermes Spend Briefing")
     print(f"As of: {now_et.strftime('%a %b %-d, %-I:%M %p ET')}")
     print("")
-    print("**Totals**")
-    print(f"- {total_line('Last 24h', daily_provider)}")
-    print(f"- {total_line('Last 7d', weekly_provider)}")
+    print("\n".join(render_window("Last 24h", daily)))
     print("")
-    print("**Top projects — last 24h**")
-    print("\n".join(top_lines(daily_project)))
+    print("\n".join(render_window("Last 7d", weekly)))
     print("")
-    print("**Top channels — last 24h**")
-    print("\n".join(top_lines(daily_channel)))
+    print("**Top models — last 24h**")
+    print("\n".join(top_models(daily)))
     print("")
-    print("**Top providers — last 7d**")
-    print("\n".join(top_lines(weekly_provider)))
+    print("**Top platforms — last 24h**")
+    print("\n".join(top_platforms(daily)))
     print("")
-    print("**Top projects — last 7d**")
-    print("\n".join(top_lines(weekly_project)))
+    print("**Top models — last 7d**")
+    print("\n".join(top_models(weekly)))
     return 0
 
 

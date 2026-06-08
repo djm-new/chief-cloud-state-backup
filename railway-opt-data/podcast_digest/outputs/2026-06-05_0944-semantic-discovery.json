@@ -1,0 +1,528 @@
+{
+  "run_id": "4ec5edba65ab",
+  "created_at": "2026-06-05T09:44:31.420468+00:00",
+  "days": 1,
+  "semantic_queries_run": 35,
+  "feeds_found": 123,
+  "candidate_episodes_scored": 19,
+  "episodes_inserted_for_briefing": 9,
+  "generated_people": [
+    {
+      "name": "Ben Thompson",
+      "why": "Exemplifies market/business shaping analysis through tech strategy and platform dynamics",
+      "archetype": "market/business shapers"
+    },
+    {
+      "name": "Benedict Evans",
+      "why": "Tech analyst with deep insights into mobile, AI, and platform shifts shaping business and society",
+      "archetype": "high-leverage tech philosophers"
+    },
+    {
+      "name": "Naval Ravikant",
+      "why": "Framework builder around wealth creation, startup thinking, and value accrual",
+      "archetype": "original framework builders"
+    },
+    {
+      "name": "Marc Andreessen",
+      "why": "Tech visionary who shaped platform thinking and investor perspective on future industries",
+      "archetype": "market/business shapers"
+    },
+    {
+      "name": "Ben Horowitz",
+      "why": "Operator and investor with deep insights into company-building and leadership frameworks",
+      "archetype": "platform strategy thinkers"
+    },
+    {
+      "name": "Dwarkesh Patel",
+      "why": "Interviewer and synthesizer of elite thinkers across AI, economics, and strategy",
+      "archetype": "rational AI economics and value-accrual analysts"
+    },
+    {
+      "name": "Tyler Cowen",
+      "why": "Economic thinker who connects AI, productivity, and market structures",
+      "archetype": "original framework builders"
+    },
+    {
+      "name": "Stanley Druckenmiller",
+      "why": "Elite allocator with deep macro insights relevant to tech and market structure",
+      "archetype": "elite allocators/operators"
+    },
+    {
+      "name": "Paul Tudor Jones",
+      "why": "Macro investor with tech and market structure implications",
+      "archetype": "elite allocators/operators"
+    },
+    {
+      "name": "Bill Ackman",
+      "why": "High-profile investor with strategic and operational insights into public and private markets",
+      "archetype": "elite allocators/operators"
+    },
+    {
+      "name": "Howard Marks",
+      "why": "Value investor with frameworks around risk, cycles, and market psychology",
+      "archetype": "capital allocation and market structure analysts"
+    },
+    {
+      "name": "Gavin Baker",
+      "why": "Tech-focused investor with deep insights into AI and platform economics",
+      "archetype": "rational AI economics and value-accrual analysts"
+    },
+    {
+      "name": "Philippe Laffont",
+      "why": "Investor with tech and AI implications for capital allocation and market structure",
+      "archetype": "capital allocation and market structure analysts"
+    },
+    {
+      "name": "Ray Dalio",
+      "why": "Macro thinker with frameworks on markets, systems, and leadership",
+      "archetype": "original framework builders"
+    },
+    {
+      "name": "Ken Griffin",
+      "why": "Operator and allocator with insights into tech-driven finance and market structure",
+      "archetype": "elite allocators/operators"
+    },
+    {
+      "name": "Satya Nadella",
+      "why": "Platform builder and strategic thinker in enterprise and AI transformation",
+      "archetype": "platform strategy thinkers"
+    },
+    {
+      "name": "Brian Chesky",
+      "why": "Operator who built a platform business and navigated disruption",
+      "archetype": "platform strategy thinkers"
+    },
+    {
+      "name": "Jensen Huang",
+      "why": "AI infrastructure visionary and platform builder",
+      "archetype": "AI leaders/frontier thinkers"
+    },
+    {
+      "name": "Patrick Collison",
+      "why": "Operator who built a platform and thinks deeply about economic growth and innovation",
+      "archetype": "platform strategy thinkers"
+    },
+    {
+      "name": "Dara Khosrowshahi",
+      "why": "Operator navigating platform dynamics and global market structures",
+      "archetype": "platform strategy thinkers"
+    },
+    {
+      "name": "Alex Karp",
+      "why": "Philosophical thinker on tech, power, and society with investor/operator lens",
+      "archetype": "high-leverage tech philosophers"
+    },
+    {
+      "name": "Jamie Dimon",
+      "why": "Operator with strategic insights into market structure and platform economics",
+      "archetype": "platform strategy thinkers"
+    },
+    {
+      "name": "Sam Altman",
+      "why": "AI frontier thinker with deep implications for business models and labor",
+      "archetype": "AI leaders/frontier thinkers"
+    },
+    {
+      "name": "Dario Amodei",
+      "why": "AI safety and business implications thinker, especially around alignment and value accrual",
+      "archetype": "AI leaders/frontier thinkers"
+    },
+    {
+      "name": "Demis Hassabis",
+      "why": "AI research and business strategy leader shaping future platforms",
+      "archetype": "AI leaders/frontier thinkers"
+    },
+    {
+      "name": "Andrej Karpathy",
+      "why": "Technical and strategic AI thinker with implications for software and labor",
+      "archetype": "AI leaders/frontier thinkers"
+    },
+    {
+      "name": "Richard Sutton",
+      "why": "Reinforcement learning pioneer with implications for automation and productivity",
+      "archetype": "AI leaders/frontier thinkers"
+    },
+    {
+      "name": "Fei-Fei Li",
+      "why": "AI research and ethics leader with business implications for AI deployment",
+      "archetype": "AI leaders/frontier thinkers"
+    },
+    {
+      "name": "Nick Bostrom",
+      "why": "Philosopher of AI and existential risk with implications for business and strategy",
+      "archetype": "high-leverage tech philosophers"
+    },
+    {
+      "name": "Michael Pollan",
+      "why": "Framework builder around systems thinking, behavior, and transformation",
+      "archetype": "original framework builders"
+    },
+    {
+      "name": "Byrne Hobart",
+      "why": "Business and market structure analyst with deep tech and investor framing",
+      "archetype": "capital allocation and market structure analysts"
+    },
+    {
+      "name": "Eugene Wei",
+      "why": "Platform thinking and product strategy analyst with deep implications for company-building",
+      "archetype": "platform strategy thinkers"
+    },
+    {
+      "name": "Matthew Ball",
+      "why": "Metaverse and platform economics thinker with implications for future business models",
+      "archetype": "rational AI economics and value-accrual analysts"
+    },
+    {
+      "name": "Patrick McKenzie",
+      "why": "Business model and SaaS strategist with implications for AI-driven software",
+      "archetype": "platform strategy thinkers"
+    },
+    {
+      "name": "Balaji Srinivasan",
+      "why": "Tech philosopher with implications for decentralized systems and future of work",
+      "archetype": "high-leverage tech philosophers"
+    },
+    {
+      "name": "Reid Hoffman",
+      "why": "Operator and investor with frameworks around network effects and platform growth",
+      "archetype": "platform strategy thinkers"
+    },
+    {
+      "name": "Elad Gil",
+      "why": "Operator and investor with frameworks for scaling companies and AI integration",
+      "archetype": "platform strategy thinkers"
+    }
+  ],
+  "generated_topics": [
+    {
+      "topic": "platform economics",
+      "why": "Central to understanding modern business models and value accrual"
+    },
+    {
+      "topic": "AI-driven productivity",
+      "why": "Key to understanding labor, ownership, and economic shifts"
+    },
+    {
+      "topic": "capital allocation in AI era",
+      "why": "Essential for understanding investment and operational strategy"
+    },
+    {
+      "topic": "network effects and scaling",
+      "why": "Core to platform strategy and market dominance"
+    },
+    {
+      "topic": "macro investing and tech",
+      "why": "Link between global markets and tech-driven business shifts"
+    },
+    {
+      "topic": "AI alignment and business risk",
+      "why": "Critical for understanding governance and operational risk"
+    },
+    {
+      "topic": "software transformation",
+      "why": "Core to understanding how AI reshapes industries"
+    },
+    {
+      "topic": "market structure analysis",
+      "why": "Key to understanding how platforms and capital shape competition"
+    },
+    {
+      "topic": "investor frameworks",
+      "why": "Helps understand how top allocators think about value and risk"
+    },
+    {
+      "topic": "AI and labor economics",
+      "why": "Essential for understanding future workforce and productivity"
+    },
+    {
+      "topic": "platform governance",
+      "why": "Critical for understanding regulation, power, and business models"
+    },
+    {
+      "topic": "company-building in AI era",
+      "why": "Central to understanding how startups and scale-ups operate now"
+    },
+    {
+      "topic": "reinforcement learning applications",
+      "why": "Key to understanding automation and decision-making frameworks"
+    },
+    {
+      "topic": "economic frameworks for AI",
+      "why": "Helps understand how AI changes value creation and accrual"
+    },
+    {
+      "topic": "systems thinking in business",
+      "why": "Essential for understanding complex market and product dynamics"
+    },
+    {
+      "topic": "tech-driven finance",
+      "why": "Link between AI, markets, and capital allocation"
+    },
+    {
+      "topic": "product-led growth",
+      "why": "Core to understanding modern platform and SaaS strategies"
+    },
+    {
+      "topic": "AI and ownership models",
+      "why": "Key to understanding future business and legal structures"
+    },
+    {
+      "topic": "decentralized systems",
+      "why": "Emerging alternative to traditional platform models"
+    },
+    {
+      "topic": "AI and scarcity economics",
+      "why": "Helps understand how AI changes resource allocation and value"
+    },
+    {
+      "topic": "macroeconomic implications of AI",
+      "why": "Critical for understanding global investment and policy implications"
+    },
+    {
+      "topic": "investor decision-making frameworks",
+      "why": "Essential for understanding how top allocators think"
+    },
+    {
+      "topic": "AI and enterprise transformation",
+      "why": "Central to understanding how large companies adapt to AI"
+    },
+    {
+      "topic": "platform competition",
+      "why": "Key to understanding market dominance and disruption"
+    },
+    {
+      "topic": "AI and software architecture",
+      "why": "Helps understand how AI reshapes product and engineering"
+    },
+    {
+      "topic": "AI and business model innovation",
+      "why": "Critical for understanding future revenue and strategy"
+    },
+    {
+      "topic": "economic moats in AI era",
+      "why": "Helps understand sustainable competitive advantages"
+    },
+    {
+      "topic": "AI and organizational design",
+      "why": "Essential for understanding how teams and workflows evolve"
+    },
+    {
+      "topic": "AI and global market structure",
+      "why": "Key to understanding cross-border business and investment"
+    },
+    {
+      "topic": "AI and regulatory frameworks",
+      "why": "Critical for understanding governance and compliance risks"
+    }
+  ],
+  "queries": [
+    "Ben Thompson podcast",
+    "Benedict Evans podcast",
+    "Naval Ravikant podcast",
+    "Marc Andreessen podcast",
+    "Ben Horowitz podcast",
+    "Dwarkesh Patel podcast",
+    "Tyler Cowen podcast",
+    "Stanley Druckenmiller podcast",
+    "Paul Tudor Jones podcast",
+    "Bill Ackman podcast",
+    "Howard Marks podcast",
+    "Gavin Baker podcast",
+    "Philippe Laffont podcast",
+    "Ray Dalio podcast",
+    "Ken Griffin podcast",
+    "Satya Nadella podcast",
+    "Brian Chesky podcast",
+    "Jensen Huang podcast",
+    "Patrick Collison podcast",
+    "Dara Khosrowshahi podcast",
+    "Alex Karp podcast",
+    "Jamie Dimon podcast",
+    "Sam Altman podcast",
+    "Dario Amodei podcast",
+    "Demis Hassabis podcast",
+    "Andrej Karpathy podcast",
+    "Richard Sutton podcast",
+    "Fei-Fei Li podcast",
+    "Nick Bostrom podcast",
+    "Michael Pollan podcast",
+    "Byrne Hobart podcast",
+    "Eugene Wei podcast",
+    "Matthew Ball podcast",
+    "Patrick McKenzie podcast",
+    "Balaji Srinivasan podcast"
+  ],
+  "top": [
+    {
+      "semantic_score": 95,
+      "semantic_tier": "must_listen",
+      "show_name": "Dwarkesh Podcast",
+      "title": "Alex Imas and Phil Trammell – What remains scarce after AGI?",
+      "published": "2026-06-04T16:14:49+00:00",
+      "link": "https://www.dwarkesh.com/p/alex-imas-phil-trammell",
+      "reason": "Features Alex Imas and Phil Trammell discussing AGI economics, touching on taxation, inequality, and scarcity—core themes for strategic investors and AI economists."
+    },
+    {
+      "semantic_score": 92,
+      "semantic_tier": "must_listen",
+      "show_name": "All-In with Chamath, Jason, Sacks & Friedberg",
+      "title": "Thomas Laffont: The $4T AI IPO Wave, 2026's Unicorn Economy, and the 10X Paradox",
+      "published": "2026-06-04T18:23:00+00:00",
+      "link": "https://allinchamathjason.libsyn.com/thomas-laffont-the-4t-ai-ipo-wave-2026s-unicorn-economy-and-the-10x-paradox",
+      "reason": "Thomas Laffont discusses the $4T AI IPO wave, unicorn scaling, and the 10x paradox—directly relevant to capital allocators and platform strategy thinkers."
+    },
+    {
+      "semantic_score": 88,
+      "semantic_tier": "transcript",
+      "show_name": "Latent Space: The AI Engineer Podcast",
+      "title": "Reality: The Final Eval — Lukas Petersson and Axel Backlund of Andon Labs",
+      "published": "2026-06-04T20:39:18+00:00",
+      "link": "https://www.latent.space/p/andon",
+      "reason": "Discusses real-world AI evals like Vending Bench, tying into how models perform in live environments—an important angle for AI engineering and business impact."
+    },
+    {
+      "semantic_score": 85,
+      "semantic_tier": "transcript",
+      "show_name": "Andrej Karpathy的RSS订阅清单",
+      "title": "经济学家Trammell：「计算的价值每18个月减半」— 这才是摩尔定律的悲观真相。",
+      "published": "2026-06-05T07:59:52+00:00",
+      "link": "https://voieech.com/podcast/episode/135e3678-65b0-42d8-90ba-1e4014d714cd?lang=zh-CN",
+      "reason": "Translated version of the Imas/Trammell AGI economics episode, still valuable for understanding labor, demand elasticity, and policy implications in the AGI era."
+    },
+    {
+      "semantic_score": 78,
+      "semantic_tier": "interesting",
+      "show_name": "Everyday AI Podcast – An AI and ChatGPT Podcast",
+      "title": "Ep 791: Microsoft Build Recap: 4 New AI Features That Stood Out",
+      "published": "2026-06-04T13:00:00+00:00",
+      "link": "",
+      "reason": "Microsoft Build AI recap with implications for enterprise and consumer AI adoption, though surface-level compared to deeper strategy podcasts."
+    },
+    {
+      "semantic_score": 75,
+      "semantic_tier": "interesting",
+      "show_name": "In Good Company with Nicolai Tangen",
+      "title": "HIGHLIGHTS: Evan Spiegel - CEO of Snap",
+      "published": "2026-06-05T03:00:00+00:00",
+      "link": "https://shows.acast.com/in-good-company-with-nicolai-tangen/episodes/highlights-evan-spiegel-ceo-of-snap",
+      "reason": "Evan Spiegel discusses AI in software development and AR strategy—relevant for platform builders and long-term tech visionaries."
+    },
+    {
+      "semantic_score": 70,
+      "semantic_tier": "interesting",
+      "show_name": "Brew Markets",
+      "title": "SpaceX’s Unorthodox IPO & The Honeywell Spinoffs",
+      "published": "2026-06-04T21:03:00+00:00",
+      "link": "",
+      "reason": "Discusses SpaceX IPO dynamics and Honeywell spinoffs—relevant for market watchers but not deeply strategic."
+    },
+    {
+      "semantic_score": 68,
+      "semantic_tier": "interesting",
+      "show_name": "The Prof G Pod with Scott Galloway",
+      "title": "The Week: AI, GLP-1s, and Scott's Iran War Reversal",
+      "published": "2026-06-05T08:00:00+00:00",
+      "link": "",
+      "reason": "Covers AI ROI concerns and GLP-1 drugs—broadly interesting but lacks deep operator or investment framing."
+    },
+    {
+      "semantic_score": 60,
+      "semantic_tier": "interesting",
+      "show_name": "The Pomp Podcast",
+      "title": "Why Is Bitcoin Digital Credit So Important? | Matt Cole",
+      "published": "2026-06-04T21:00:00+00:00",
+      "link": "https://podcasters.spotify.com/pod/show/anthony-pompliano3/episodes/Why-Is-Bitcoin-Digital-Credit-So-Important---Matt-Cole-e3kb22r",
+      "reason": "Discusses Bitcoin digital credit—relevant for crypto allocators but leans promotional and speculative."
+    },
+    {
+      "semantic_score": 58,
+      "semantic_tier": "interesting",
+      "show_name": "Thinking Crypto News & Interviews",
+      "title": "Institutional & AI Agent Adoption is Surging on Coinbase's Base! | Xen Baynham Herd",
+      "published": "2026-06-04T12:01:14+00:00",
+      "link": "https://youtu.be/h6Clbb4UyOk",
+      "reason": "Covers AI agent adoption on Coinbase's Base—technically interesting but vendor-promotional."
+    },
+    {
+      "semantic_score": 55,
+      "semantic_tier": "interesting",
+      "show_name": "Don't Worry About the Vase Podcast",
+      "title": "AI #171: False Flag",
+      "published": "2026-06-04T16:43:33+00:00",
+      "link": "https://dwatvpodcast.substack.com/p/ai-171-false-flag",
+      "reason": "AI news roundtable with mixed depth—some useful framing but often meandering."
+    },
+    {
+      "semantic_score": 50,
+      "semantic_tier": "interesting",
+      "show_name": "Squawk Pod",
+      "title": "Cheating in Chess with Ben Mezrich, Taxing AI with Andrew Yang 6/4/26",
+      "published": "2026-06-04T16:19:06+00:00",
+      "link": "https://www.cnbc.com",
+      "reason": "Andrew Yang on AI taxation and Ben Mezrich on chess cheating—entertaining but not strategically deep."
+    },
+    {
+      "semantic_score": 48,
+      "semantic_tier": "interesting",
+      "show_name": "The Meb Faber Show - Better Investing",
+      "title": "Charley Ellis on How America Actually Got Built (Investing in America Series) | #633",
+      "published": "2026-06-05T08:30:00+00:00",
+      "link": "",
+      "reason": "Charley Ellis on historical US investments—interesting for context but not forward-looking strategy."
+    },
+    {
+      "semantic_score": 30,
+      "semantic_tier": "skip",
+      "show_name": "The Documentary Podcast",
+      "title": "The Missionary Soldier",
+      "published": "2026-06-05T00:36:00+00:00",
+      "link": "http://www.bbc.co.uk/programmes/p0nq718j",
+      "reason": "Missionary soldier narrative—morally complex but off-topic for DJ’s strategic radar."
+    },
+    {
+      "semantic_score": 28,
+      "semantic_tier": "skip",
+      "show_name": "Prof G Markets",
+      "title": "Hillary Clinton: Iran Has Only Gotten Stronger",
+      "published": "2026-06-05T08:15:00+00:00",
+      "link": "",
+      "reason": "Hillary Clinton on Iran and politics—off-topic and lacks business or AI framing."
+    },
+    {
+      "semantic_score": 25,
+      "semantic_tier": "skip",
+      "show_name": "Mbagu Podcast: Sports, News, Tech Talk and Entertainment",
+      "title": "[ Finance ] Bloomberg Retracts Story on RBI Gold Reserves After Analysis Error",
+      "published": "2026-06-05T02:27:55+00:00",
+      "link": "https://mbagu-podcast-sports-news-tech-talk-and-entertainment-1.castos.com/episodes/finance-bloomberg-retracts-story-on-rbi-gold-reserves-after-analysis-error",
+      "reason": "Bloomberg retraction on RBI gold reserves—low strategic value and narrow in scope."
+    },
+    {
+      "semantic_score": 22,
+      "semantic_tier": "skip",
+      "show_name": "What Next: TBD | Tech, power, and the future",
+      "title": "Gradu-AI-tion Day",
+      "published": "2026-06-05T07:00:00+00:00",
+      "link": "https://shows.acast.com/whatnext-tbd-tech-power-and-the-future/episodes/gradu-ai-tion-day",
+      "reason": "Education system grappling with AI—important but shallow and policy-focused without operator lens."
+    },
+    {
+      "semantic_score": 20,
+      "semantic_tier": "skip",
+      "show_name": "Slate News",
+      "title": "What Next: TBD | Tech, power, and the future - Gradu-AI-tion Day",
+      "published": "2026-06-05T07:00:00+00:00",
+      "link": "https://shows.acast.com/whatnext-tbd-tech-power-and-the-future/episodes/gradu-ai-tion-day",
+      "reason": "Duplicate of education AI episode—no added value."
+    },
+    {
+      "semantic_score": 18,
+      "semantic_tier": "skip",
+      "show_name": "What Next | Daily News and Analysis",
+      "title": "Gradu-AI-tion Day",
+      "published": "2026-06-05T07:00:00+00:00",
+      "link": "https://shows.acast.com/whatnext-tbd-tech-power-and-the-future/episodes/gradu-ai-tion-day",
+      "reason": "Duplicate education AI episode—no added value."
+    }
+  ]
+}

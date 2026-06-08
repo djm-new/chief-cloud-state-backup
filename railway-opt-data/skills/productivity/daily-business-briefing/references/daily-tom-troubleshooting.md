@@ -81,15 +81,17 @@ Be careful with Google Docs insertion indexes: fetch the live doc, find today's 
 
 DJ uses fast keyboard shorthands in the Google Doc:
 
-- leading `x`, `x `, `X `, or `[x]` means completed and should be converted to `✅ `
-- leading `>`, `> `, or `[>]` means in-progress and should be converted to `↗️ `
+- leading `x`, `x `, `X `, or `[x]` means completed and should be converted to `✅ ` in the source day
+- leading `>`, `> `, or `[>]` means in-progress and should be converted to `↗️ ` while the item is active, but the marker should *not* carry into the next day
 
 Important implementation details:
 
-- `daily-tom-sync.py` must treat lowercase no-space `xTask` as completed but avoid treating uppercase task names such as `XM comp` as completed. The conservative regex is `x(?=[A-Z0-9])` for no-space lowercase `x`, plus spaced `[xX]\\s+`.
-- Preserve visible in-progress markers when carrying tasks forward: `>Task` / `↗️ Task` should become and remain `↗️ Task` in future generated days.
+- `daily-tom-sync.py` must treat lowercase no-space `xTask` as completed but avoid treating uppercase task names such as `XM comp` as completed. The conservative regex is `x(?=[A-Z0-9])` for no-space lowercase `x`, plus spaced `[xX]\s+`.
+- Completed tasks should be removed from rollover *and* rewritten in-place to `✅ ...` in the source paragraph so the historical day visibly shows completion.
+- Preserve visible in-progress markers on the source day, but strip them from the next day's carried-forward section so `>Task` / `↗️ Task` becomes plain `Task` on rollover.
 - If existing historical paragraphs have raw markers, batch-rewrite the live Google Doc via Docs API by replacing only the paragraph content prefix; skip date lines, `[Next date]`, `[Parking Lot]`, and `[Section]` headings. Verify there are zero remaining task paragraphs matching raw `x`/`>` prefixes.
 - The Daily ToM context extractor should also recognize the same completion shorthand so `xTask` does not leak into briefing context before the next sync/cleanup pass.
+- Regression tests should cover both sides of the behavior: source-day rewrite to `✅` and next-day carry-forward without `x`/`↗️` markers.
 
 ## Verification checklist
 

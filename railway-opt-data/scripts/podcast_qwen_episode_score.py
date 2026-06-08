@@ -5,6 +5,7 @@ from pathlib import Path
 from datetime import datetime, timezone, timedelta
 from openrouter_spend import openrouter_post_json
 
+BASE = Path('/opt/data/podcast_digest')
 DB = BASE / 'episodes.sqlite'
 OUTDIR = BASE / 'outputs'
 MODEL = os.getenv('PODCAST_OSS_MODEL', 'qwen/qwen3-235b-a22b')

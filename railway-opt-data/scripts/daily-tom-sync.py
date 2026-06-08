@@ -5,8 +5,8 @@ Replaces the old Notion-backed daily-sync for the core Google Doc workflow:
 - Fetch structured Google Doc content
 - Find latest dated section near top
 - Carry forward active tasks
-- Strip in-progress markers
-- Drop completed tasks
+- Strip in-progress markers on rollover
+- Mark completed tasks with ✅ in the source day and drop them from rollover
 - Handle simple parking markers
 - Maintain lightweight task_state.json
 - Insert a new dated section after [Next date] / Parking Lot
@@ -225,6 +225,16 @@ def clean_task_line(line: str) -> tuple[str, bool, bool, int, str | None, int | 
     return t, is_done, is_progress, priority, task_id, park_days
 
 
+def completion_replace_request(raw_line: str, clean_text: str) -> dict[str, Any]:
+    """Replace a completed task's leading x/[x] with ✅ in the source doc."""
+    return {
+        "replaceAllText": {
+            "containsText": {"text": raw_line, "matchCase": True},
+            "replaceText": f"✅ {clean_text}",
+        }
+    }
+
+
 def infer_group(current_section: str | None, task_text: str) -> str | None:
     if current_section in GROUP_ORDER:
         return current_section
@@ -235,9 +245,10 @@ def infer_group(current_section: str | None, task_text: str) -> str | None:
     return current_section
 
 
-def parse_tasks(paras: list[Para], start_idx: int, end_idx: int, today: dt.date, state: dict[str, Any]) -> tuple[list[Task], list[str], list[str], list[Task]]:
+def parse_tasks(paras: list[Para], start_idx: int, end_idx: int, today: dt.date, state: dict[str, Any]) -> tuple[list[Task], list[str], list[dict[str, Any]], list[str], list[Task]]:
     tasks: list[Task] = []
     completed: list[str] = []
+    completed_replacements: list[dict[str, Any]] = []
     in_progress: list[str] = []
     newly_parked: list[Task] = []
     section = None
@@ -266,6 +277,7 @@ def parse_tasks(paras: list[Para], start_idx: int, end_idx: int, today: dt.date,
                 text = f"{text} [n:{task_id}]"
         if is_done:
             completed.append(task_id)
+            completed_replacements.append(completion_replace_request(raw, text))
             state.setdefault("tasks", {}).setdefault(task_id, {})
             state["tasks"][task_id].update({"text": re.sub(ID_RE, "", text).strip(), "group": group, "status": "completed", "completed_date": today.isoformat(), "last_seen": today.isoformat(), "priority": priority})
             continue
@@ -282,7 +294,7 @@ def parse_tasks(paras: list[Para], start_idx: int, end_idx: int, today: dt.date,
             newly_parked.append(task)
             continue
         tasks.append(task)
-    return tasks, completed, in_progress, newly_parked
+    return tasks, completed, completed_replacements, in_progress, newly_parked
 
 
 def parse_parking(paras: list[Para], parking_idx: int | None, parking_end: int | None, today: dt.date) -> tuple[list[Task], list[str]]:
@@ -343,9 +355,9 @@ def build_section(today: dt.date, carried: list[Task], returning: list[Task], st
         lines.append("")
         lines.append(f"[{group}]")
         for task in sorted(by_group.get(group, []), key=priority_sort_key):
-            # Ensure completed markers are stripped and ID exists. Preserve
-            # in-progress markers so `>`/`↗️` carries forward visibly.
-            text = DONE_PREFIX_RE.sub("", task.text).strip()
+            # Ensure completed and in-progress markers are stripped on rollover.
+            text = DONE_PREFIX_RE.sub("", task.text)
+            text = PROGRESS_PREFIX_RE.sub("", text).strip()
             if "[n:" not in text:
                 text = f"{text} [n:{task.id}]"
             lines.append(text)
@@ -399,7 +411,7 @@ def main() -> int:
         return 0
 
     state = load_state()
-    carried, completed, in_progress, newly_parked = parse_tasks(paras, latest_idx, next_date_idx, today, state)
+    carried, completed, completed_replacements, in_progress, newly_parked = parse_tasks(paras, latest_idx, next_date_idx, today, state)
     returning, staying_parked = parse_parking(paras, parking_idx, parking_end, today)
     slack_tasks, slack_raw_items = (load_slack_intake() if args.include_slack_suggestions else ([], []))
     new_section = build_section(today, carried + slack_tasks, returning, state)
@@ -413,6 +425,7 @@ def main() -> int:
     inserted_text = new_section + "\n"
     requests = [{"insertText": {"location": {"index": insertion_index}, "text": inserted_text}}]
     requests.extend(style_requests_for_inserted_section(insertion_index, inserted_text))
+    requests.extend(completed_replacements)
 
     summary = {
         "status": "dry_run" if not args.apply else "applied",

@@ -11,6 +11,7 @@ import feedparser, yaml
 from openrouter_spend import openrouter_post_json
 from bs4 import BeautifulSoup
 
+BASE = Path('/opt/data/podcast_digest')
 DB = BASE / 'episodes.sqlite'
 DISCOVERY_DB = BASE / 'semantic_discovery.sqlite'
 OUT = BASE / 'outputs'
@@ -79,7 +80,7 @@ def gateway_env_key(name='OPENROUTER_API_KEY'):
     return None
 
 
-def call_openrouter(messages, max_tokens=2500, temperature=0.2):
+def call_openrouter(messages, max_tokens=2500, temperature=0.2, *, stage='semantic_discovery', metadata=None):
     resp = openrouter_post_json(
         path='chat/completions',
         model=MODEL,
@@ -91,7 +92,11 @@ def call_openrouter(messages, max_tokens=2500, temperature=0.2):
         platform='cron',
         project_slug='podcast-intelligence-digest',
         workdir='/opt/data/podcast_digest',
-        metadata={'workflow': 'podcast-intelligence-digest', 'stage': 'semantic_discovery'},
+        metadata={
+            'workflow': 'podcast-intelligence-digest',
+            'stage': stage,
+            **(metadata or {}),
+        },
     )
     return resp
 
@@ -113,7 +118,7 @@ Constraints:
 - Include people not explicitly listed if semantically adjacent.
 - Queries should be podcast-discovery friendly, not too broad.
 """
-    resp = call_openrouter([{'role':'user','content':prompt}], max_tokens=4500, temperature=0.35)
+    resp = call_openrouter([{'role':'user','content':prompt}], max_tokens=4500, temperature=0.35, stage='semantic_query_generation')
     txt = resp['choices'][0]['message']['content'].strip()
     m = re.search(r'\{.*\}', txt, re.S)
     data = json.loads(m.group(0) if m else txt)
@@ -221,7 +226,7 @@ Be strict. Penalize generic news, narrow vendor promo, and low-signal episodes.
         payload=[]
         for c in batch:
             payload.append({'id':c['episode_id'],'show':c['show_name'],'title':c['title'],'published':c['published'],'summary':c['summary'][:900],'discovery_query':c['query']})
-        resp=call_openrouter([{'role':'system','content':system},{'role':'user','content':'/no_think\nEpisodes:\n'+json.dumps(payload,ensure_ascii=False)+'\nReturn JSON array only.'}], max_tokens=3500, temperature=0.15)
+        resp=call_openrouter([{'role':'system','content':system},{'role':'user','content':'/no_think\nEpisodes:\n'+json.dumps(payload,ensure_ascii=False)+'\nReturn JSON array only.'}], max_tokens=3500, temperature=0.15, stage='semantic_candidate_filter', metadata={'batch_size': len(batch)})
         txt=resp['choices'][0]['message']['content'].strip()
         m=re.search(r'\[.*\]', txt, re.S)
         arr=json.loads(m.group(0) if m else txt)

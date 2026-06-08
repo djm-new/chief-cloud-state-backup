@@ -20,7 +20,7 @@
       "schedule_display": "15 7 * * *",
       "repeat": {
         "times": null,
-        "completed": 26
+        "completed": 27
       },
       "enabled": true,
       "state": "scheduled",
@@ -28,7 +28,7 @@
       "paused_reason": null,
       "created_at": "2026-05-12T19:59:22.529154+00:00",
       "next_run_at": "2026-06-09T07:15:00+00:00",
-      "last_run_at": "2026-06-07T07:15:45.497376+00:00",
+      "last_run_at": "2026-06-08T07:15:41.166316+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -57,15 +57,15 @@
       "schedule_display": "0 */3 * * *",
       "repeat": {
         "times": null,
-        "completed": 1083
+        "completed": 1085
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-12T20:42:58.485236+00:00",
-      "next_run_at": "2026-06-08T09:00:00+00:00",
-      "last_run_at": "2026-06-08T06:01:35.335031+00:00",
+      "next_run_at": "2026-06-08T15:00:00+00:00",
+      "last_run_at": "2026-06-08T12:01:07.765779+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -94,15 +94,15 @@
       "schedule_display": "0 12 * * *",
       "repeat": {
         "times": null,
-        "completed": 27
+        "completed": 28
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-12T21:10:04.711555+00:00",
-      "next_run_at": "2026-06-08T12:00:00+00:00",
-      "last_run_at": "2026-06-07T12:03:26.582277+00:00",
+      "next_run_at": "2026-06-09T12:00:00+00:00",
+      "last_run_at": "2026-06-08T12:01:17.269837+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -131,15 +131,15 @@
       "schedule_display": "55 12,20 * * *",
       "repeat": {
         "times": null,
-        "completed": 11
+        "completed": 12
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-18T00:29:40.815074+00:00",
-      "next_run_at": "2026-06-08T12:55:00+00:00",
-      "last_run_at": "2026-06-07T20:56:14.078126+00:00",
+      "next_run_at": "2026-06-08T20:55:00+00:00",
+      "last_run_at": "2026-06-08T12:56:02.069588+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -220,15 +220,15 @@
       "schedule_display": "0 9,10 * * *",
       "repeat": {
         "times": null,
-        "completed": 70
+        "completed": 72
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-26T16:48:41.225755+00:00",
-      "next_run_at": "2026-06-08T09:00:00+00:00",
-      "last_run_at": "2026-06-07T10:00:53.667310+00:00",
+      "next_run_at": "2026-06-09T09:00:00+00:00",
+      "last_run_at": "2026-06-08T10:00:53.142614+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -346,15 +346,15 @@
       "schedule_display": "0 11,12 * * *",
       "repeat": {
         "times": null,
-        "completed": 4
+        "completed": 6
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-05T19:42:58.899916+00:00",
-      "next_run_at": "2026-06-08T11:00:00+00:00",
-      "last_run_at": "2026-06-07T12:00:59.121603+00:00",
+      "next_run_at": "2026-06-09T11:00:00+00:00",
+      "last_run_at": "2026-06-08T12:00:03.138926+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -377,7 +377,7 @@
       "model": null,
       "provider": null,
       "base_url": null,
-      "script": "thoughts_cron_synthesize.py weekly",
+      "script": "thoughts_cron_synthesize_weekly.sh",
       "no_agent": true,
       "context_from": null,
       "schedule": {
@@ -388,16 +388,16 @@
       "schedule_display": "30 9,10 * * 1",
       "repeat": {
         "times": null,
-        "completed": 0
+        "completed": 2
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-05T19:42:59.905515+00:00",
-      "next_run_at": "2026-06-08T09:30:00+00:00",
-      "last_run_at": null,
-      "last_status": null,
+      "next_run_at": "2026-06-15T09:30:00+00:00",
+      "last_run_at": "2026-06-08T10:30:54.488071+00:00",
+      "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
       "deliver": "telegram:-1003956828149:6",
@@ -419,7 +419,7 @@
       "model": null,
       "provider": null,
       "base_url": null,
-      "script": "thoughts_cron_synthesize.py monthly",
+      "script": "thoughts_cron_synthesize_monthly.sh",
       "no_agent": true,
       "context_from": null,
       "schedule": {
@@ -461,7 +461,7 @@
       "model": null,
       "provider": null,
       "base_url": null,
-      "script": "thoughts_cron_synthesize.py quarterly",
+      "script": "thoughts_cron_synthesize_quarterly.sh",
       "no_agent": true,
       "context_from": null,
       "schedule": {
@@ -556,16 +556,16 @@
       "schedule_display": "0 9,10 * * *",
       "repeat": {
         "times": null,
-        "completed": 0
+        "completed": 2
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-08T01:32:21.927028+00:00",
-      "next_run_at": "2026-06-08T09:00:00+00:00",
-      "last_run_at": null,
-      "last_status": null,
+      "next_run_at": "2026-06-09T09:00:00+00:00",
+      "last_run_at": "2026-06-08T10:00:53.194794+00:00",
+      "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
       "deliver": "telegram:-1003956828149:4",
@@ -577,7 +577,49 @@
       },
       "enabled_toolsets": null,
       "workdir": null
+    },
+    {
+      "id": "f94a7adb55ec",
+      "name": "Weekly Hermes spend briefing \u2014 5AM ET",
+      "prompt": "",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "hermes_weekly_spend_briefing.py",
+      "no_agent": true,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9,10 * * 1",
+        "display": "0 9,10 * * 1"
+      },
+      "schedule_display": "0 9,10 * * 1",
+      "repeat": {
+        "times": null,
+        "completed": 1
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-08T09:46:20.622643+00:00",
+      "next_run_at": "2026-06-15T09:00:00+00:00",
+      "last_run_at": "2026-06-08T10:00:53.202245+00:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "telegram:-1003956828149:4",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "-1003956828149",
+        "chat_name": "Chief Group - Hermes",
+        "thread_id": "4"
+      },
+      "enabled_toolsets": null,
+      "workdir": null
     }
   ],
-  "updated_at": "2026-06-08T07:15:37.806520+00:00"
+  "updated_at": "2026-06-08T12:56:02.070343+00:00"
 }

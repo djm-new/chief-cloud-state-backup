@@ -184,7 +184,7 @@ Smart briefing freshness checks must account for lifecycle state:
 - if a previously paused briefing has just been enabled and its first scheduled briefing run is still pending, stale prior artifacts are also expected and should not alert;
 - only treat stale latest/archive files as issues after an enabled briefing has had a real chance to run.
 
-Daily ToM run/debug details, including the expected context marker, manual run command, manual task additions, Google Docs style preservation, Google runtime venv, and DST-safe schedule shape, are in `references/daily-tom-troubleshooting.md`.
+Daily ToM run/debug details, including the expected context marker, manual run command, manual task additions, Google Docs style preservation, Google runtime venv, marker normalization (✅ for completed, stripped rollover for ↗️), and DST-safe schedule shape, are in `references/daily-tom-troubleshooting.md`.
 
 ### Daily ToM context marker troubleshooting
 

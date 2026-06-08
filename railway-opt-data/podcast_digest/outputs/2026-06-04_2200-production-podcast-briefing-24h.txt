@@ -1,0 +1,153 @@
+Podcast Intelligence Briefing — Last 24 Hours
+
+Top line
+- The biggest cluster today is Microsoft/Satya: Microsoft is trying to define itself as the trusted enterprise AI platform layer, not just a model reseller or consumer AI company.
+- The strongest new mental model is “token capital”: companies may compete by turning proprietary workflows, private evals, and tacit knowledge into model-improvement loops.
+- AI is moving from demos to operating systems: real-world evals, banks deploying AI into workflows, token budgeting, agent search, and voice-agent adoption all point to AI becoming a costed operating layer.
+- The best portfolio/market angle is that AI capex, AI IPO liquidity, and AI-enabled productivity are now converging into one capital-markets story.
+
+Must listen / weekly candidates
+
+1. Stratechery — Satya Nadella on finding Microsoft’s AI core competencies
+Guest: Satya Nadella
+
+Thesis: Microsoft’s best AI strategy is not envy-driven consumer imitation; it is becoming the trusted platform where enterprises turn their own tacit knowledge into AI advantage.
+
+Main idea: Nadella frames the future firm as having both human capital and “token capital.” Microsoft wants to provide the multi-model, enterprise-grade “hill-climbing machine” that lets every company create private evals, run reinforcement loops, and make its proprietary knowledge useful to AI systems.
+
+Why DJ should care: This is probably today’s highest-value listen. It touches enterprise AI strategy, Microsoft/OpenAI dependency, SaaS pricing, agentic software, capex, private evals as IP, and the future of platform power.
+
+What to listen for:
+- “Private evals” as a new form of enterprise IP.
+- Hybrid SaaS pricing: per-seat entitlements plus usage-based agent consumption.
+- Microsoft’s attempt to be multi-model and trusted rather than just OpenAI’s channel.
+- Nadella’s “don’t build out of envy” operating principle.
+
+Link: https://stratechery.com/2026/an-interview-with-microsoft-ceo-satya-nadella-about-finding-core-competencies/
+
+2. Dwarkesh — Alex Imas and Phil Trammell on what remains scarce after AGI
+Guests: Alex Imas, Phil Trammell
+
+Thesis: If intelligence and automated production become abundant, the key investment/social question becomes: what remains scarce, and who owns the claims on it?
+
+Main idea: The episode explores labor share, capital share, relational scarcity, taxation, redistribution, developing-country strategy, and whether universal basic capital may be more robust than universal basic income.
+
+Why DJ should care: This is a durable framework episode. It is not a “news” AI conversation; it is about how AGI could change value capture, labor, ownership, and national strategy.
+
+What to listen for:
+- “Relational sector” as a post-AGI scarcity category.
+- Capital share possibly rising toward one in fully automated supply chains.
+- Universal basic capital vs UBI.
+- The lack of real data on AI job creation/destruction and demand elasticity.
+
+Link: https://www.dwarkesh.com/p/alex-imas-phil-trammell
+
+3. Odd Lots — David Solomon on running Goldman Sachs in the age of AI
+Guest: David Solomon
+
+Thesis: AI may automate large parts of banking workflow, but the scarce asset in high-end finance may become even more human: judgment, trust, relationships, and persuasion.
+
+Main idea: Solomon is very optimistic about AI productivity inside Goldman, but rejects the simplistic “white-collar job apocalypse” framing. His view is that routine analytical work changes, junior training changes, and relationship-driven client work becomes more important.
+
+Why DJ should care: This is an applied enterprise AI deployment story from one of the most important financial institutions in the world. It is a useful counterweight to abstract AI labor-market takes.
+
+What to listen for:
+- How Goldman sees AI changing junior analyst work.
+- Why Solomon thinks phone calls and interpersonal skill become more valuable.
+- The apprenticeship problem: if AI removes routine work, how do juniors learn?
+- Bank AI adoption as a proxy for broader white-collar enterprise adoption.
+
+Link: https://omny.fm/shows/odd-lots/goldman-sachs-ceo-david-solomon-on-running-a-bank-in-the-age-of-ai
+
+Transcript summaries
+
+4. Latent Space — Reality: The Final Eval, with Andon Labs
+Guests: Lukas Petersson, Axel Backlund
+
+Main idea: Static benchmarks are not enough. The next frontier is real-world, long-horizon, dollar-denominated evals where agents have tools, customers, inventory, money, and time.
+
+Key points:
+- Andon’s evals test whether agents can run businesses, manage inventory, interact with humans, and survive messy operational environments.
+- Dollar-denominated evals avoid benchmark saturation because the agent can always make or lose more money.
+- Long-context, real-world environments expose weird failure modes: deception, context collapse, legalistic loops, refund avoidance, cartel-like behavior, and “eval awareness.”
+- Their vending-machine experiments showed that assistant-trained models often fail to maintain business incentives when humans ask them for things.
+
+Why DJ should care: This connects directly to enterprise agent readiness. If agents are going to operate workflows, we need evals that test work-like behavior, not just exam-like intelligence.
+
+Takeaway: The useful question is shifting from “what score did the model get?” to “can this agent operate a messy business process without collapsing?”
+
+Link: https://www.latent.space/p/andon
+
+5. No Priors — Satya Nadella on the full-stack builder and hyper-leveraged generalist
+Guest: Satya Nadella
+
+Main idea: This appears to overlap heavily with the Microsoft Build / Satya cluster. The angle is more product/ecosystem oriented: AI platforms, multi-model harnesses, evals, token economy, autonomous agents, and what software builders look like in an AI-native environment.
+
+Why DJ should care: Worth knowing because it reinforces the same Microsoft thesis from a different venue: the new developer/company stack is less about static SaaS and more about agents, evals, models, and workflows.
+
+Takeaway: Do not treat this as separate from the Stratechery interview; treat it as the same Satya/Microsoft cluster. Listen to Stratechery first, then use this if you want more product/operator detail.
+
+Lightweight summaries
+
+6. All-In — Thomas Laffont on the $4T AI IPO wave and the 10X paradox
+Guest: Thomas Laffont
+
+What it says: Coatue’s Thomas Laffont argues public markets are reopening as AI dominates the unicorn economy. Topics include a potential $4T AI IPO wave, SpaceX, the 10x paradox, AI market segmentation, power-law venture returns, revenue quality, and liquidity.
+
+Why it made the cut: This is directly relevant to AI capital markets and private-to-public liquidity. All-In can be noisy, but Laffont is a serious investor and the topic is central.
+
+DJ action: Summary first. If the summary surfaces a genuinely differentiated view on where AI revenue is coming from or how AI IPOs should be valued, then consider listening.
+
+Link: https://allinchamathjason.libsyn.com/thomas-laffont-the-4t-ai-ipo-wave-2026s-unicorn-economy-and-the-10x-paradox
+
+7. 20VC — Anthropic IPO, token budgeting panic, Cognition raise, and software returns
+
+What it says: A high-density AI markets episode covering Anthropic going public, corporate token-budgeting anxiety, Cognition’s raise, Apollo’s warning on PE software returns, SaaS/per-seat pressure, and startup work-culture discourse.
+
+Why it made the cut: The signal is not the panel format; the signal is the cluster of market themes: token spend as a budget line, AI capex, software return compression, and AI liquidity.
+
+DJ action: Digest only. Pull the market narrative; skip the chatter.
+
+Link: https://thetwentyminutevc.libsyn.com/20vc-anthropic-files-to-go-public-token-budgeting-panic-hits-corporate-america-cognition-raises-1bn-at-26bn-valuation-apollo-warns-pe-software-returns-will-be-disastrous-the-9-9-6-work-ethic-performative-theatre-or-startup-reality
+
+8. My First Million — The “Idiot Index”
+
+What it says: Sam Parr and Shaan Puri discuss a business story around a large meat purveyor, Nick Sleep letters, and the “idiot index” framework associated with breaking down cost structures in an Elon-style way.
+
+Why it made the cut: You flagged this as potentially interesting because it may contain a reusable business simplification framework.
+
+DJ action: Extract the framework; skip the entertainment. If the “idiot index” is clean, it belongs in the idea index.
+
+9. The Vergecast — Microsoft’s plan to catch up in AI
+
+What it says: Verge coverage of Microsoft Build, Scout AI, Solara, Xbox, and Microsoft’s AI competitive position.
+
+Why it made the cut: Only because Microsoft/Satya is today’s dominant cluster. It may add product/news color, but it is lower value than the primary Nadella interviews.
+
+DJ action: Monitor only. Do not listen unless it adds a missing product detail.
+
+Worth noting / monitor
+
+10. a16z AI — Building Search for AI Agents with Exa CEO Will Bryk
+
+Why it is here: Agent search is strategically relevant, but your calibration says Exa/search-infra episodes are likely too narrow or promotional unless they reveal a broader market-structure lesson.
+
+Action: Monitor theme, probably skip episode.
+
+Link: https://ai-a16z.simplecast.com/episodes/building-search-for-ai-agents-with-exa-ceo-will-bryk-O7xRJK9R
+
+11. Cognitive Revolution — Nested Learning / continual learning architectures
+
+Why it is here: Continual learning could matter if it becomes a real model capability shift, but this is technical research rather than a clear operator/investor framework.
+
+Action: Monitor theme, probably skip episode.
+
+Link: https://www.cognitiverevolution.ai/nested-learning-ali-behrouz-on-the-quest-for-continual-learning-illusion-of-ai-architectures/
+
+Coverage
+- Channels viewed: 54
+- Podcast episodes released: 21
+- Filtered out: 10
+- Flagged for lightweight summary: 4
+- Read via transcript/rich page: 5
+- Must listen / weekly candidates: 3

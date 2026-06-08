@@ -361,9 +361,26 @@ def read_daily(target: date | None = None) -> str:
 
 def prompt_llm(prompt: str, timeout: int = 300) -> str:
     if HERMES.exists():
-        cp = run([str(HERMES), "chat", "-q", prompt], cwd=repo())
-        if cp.returncode == 0 and cp.stdout.strip(): return cp.stdout.strip()
+        cp = run([str(HERMES), "chat", "-Q", "--source", "cron", "-q", prompt], cwd=repo())
+        if cp.returncode == 0 and cp.stdout.strip(): return clean_hermes_cli_output(cp.stdout)
     return fallback_synthesis(prompt)
+
+
+def clean_hermes_cli_output(text: str) -> str:
+    """Keep only the assistant's final prose from non-interactive Hermes CLI output."""
+    text = re.sub(r"\x1b\[[0-9;?]*[A-Za-z]", "", text)
+    text = re.sub(r"[╭╮╰╯│─]+", "", text)
+    markers = ["Resume this session with:", "Session:"]
+    for marker in markers:
+        if marker in text:
+            text = text.split(marker, 1)[0]
+    lines = []
+    for line in text.splitlines():
+        stripped = line.strip()
+        if not stripped or stripped in {"⚕ Hermes", "Initializing agent..."}:
+            continue
+        lines.append(line.rstrip())
+    return "\n".join(lines).strip()
 
 
 def fallback_synthesis(context: str) -> str:

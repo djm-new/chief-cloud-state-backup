@@ -1,0 +1,202 @@
+# Podcast Intelligence source universe — v0.1
+# Purpose: discover conversations DJ should know about, not merely summarize subscribed shows.
+# Status: draft seed list; RSS/feed URL resolution comes next.
+
+rings:
+  ring1_dj_reference_shows:
+    description: Shows DJ already listens to or named as calibration signals. Always monitor unless moved to excluded.
+    shows:
+      - name: Bloomberg Surveillance
+        priority: baseline
+        rationale: Macro/markets baseline; filter hard for actual guest insight vs news recap.
+      - name: Conversations with Tyler
+        priority: high
+        rationale: Deep intellectual conversations; useful framework generator.
+      - name: Dwarkesh Podcast
+        priority: high
+        rationale: AI/frontier/labs/deep technical and intellectual conversations.
+      - name: Honestly with Bari Weiss
+        priority: medium
+        rationale: Only surface business/intellectual guests; avoid politics/culture-war episodes.
+      - name: Invest Like the Best
+        priority: high
+        rationale: Strong fit for investors, founders, frameworks, capital allocation.
+      - name: Lenny's Podcast
+        priority: medium
+        rationale: Product/company-building; surface only high-caliber operator/founder episodes.
+      - name: Odd Lots
+        priority: medium
+        rationale: Markets/macro; filter for structural market/business insight, not news recap.
+      - name: Plain English with Derek Thompson
+        priority: medium
+        rationale: Surface only business/tech/economics framework episodes.
+      - name: RenMac
+        priority: medium
+        rationale: Markets/macro; filter for non-obvious allocator/business insight.
+      - name: Sharp Tech
+        priority: medium
+        rationale: Tech strategy; surface when AI/platform/business model relevance is high.
+      - name: Stratechery
+        priority: high
+        rationale: Tech/business strategy; strong calibration source.
+      - name: NYT Book Review
+        priority: low
+        rationale: Only surface books/authors with strong intellectual framework relevance.
+      - name: Dishcast with Andrew Sullivan
+        priority: low
+        rationale: Usually skip politics; only surface major thinkers/framework conversations.
+      - name: Ezra Klein Show
+        priority: medium
+        rationale: Surface non-political framework/AI/business/economics conversations only.
+      - name: The Gray Area with Sean Illing
+        priority: low
+        rationale: Surface major philosophy/framework episodes only.
+      - name: The Knowledge Project
+        priority: high
+        rationale: Mental models, operators, investors, decision-making.
+      - name: New Yorker Radio Hour
+        priority: low
+        rationale: Mostly low fit; surface rare intellectual/business-relevant conversations.
+      - name: The Tim Ferriss Show
+        priority: medium
+        rationale: Surface only exceptional operators/investors/framework thinkers; skip wellness/celebrity fluff.
+
+  ring2_high_signal_business_ai_operator_shows:
+    description: Shows DJ may not follow but should be monitored for occasional high-signal guests/conversations.
+    shows:
+      - name: All-In Podcast
+        priority: high
+        rationale: Often noisy, but must catch episodes with market/business/AI relevance.
+      - name: The Ben & Marc Show
+        aliases: [Marc and Ben Show, Ben & Marc]
+        priority: high
+        rationale: Horowitz/Andreessen perspectives on tech, AI, markets, company building.
+      - name: Acquired
+        priority: high
+        rationale: Deep company/business history; surface important strategic/company episodes.
+      - name: a16z Podcast
+        priority: high
+        rationale: AI, company-building, technology markets; filter against house-view fluff.
+      - name: a16z Live / AI + a16z variants
+        priority: high
+        rationale: Catch AI/frontier industry conversations.
+      - name: BG2Pod
+        priority: high
+        rationale: Tech/markets/operators; often high relevance.
+      - name: The Logan Bartlett Show
+        priority: high
+        rationale: Venture/founder/operator conversations; filter for top-tier guests.
+      - name: 20VC
+        priority: medium
+        rationale: Often VC-heavy; surface only top-caliber guests with real insight.
+      - name: The Twenty Minute VC
+        priority: medium
+        rationale: Same as 20VC; avoid generic fund/promotional episodes.
+      - name: Greymatter
+        priority: medium
+        rationale: Greylock/founder/tech conversations; filter for AI/company-building signal.
+      - name: Cerebral Valley Podcast
+        priority: medium
+        rationale: AI startup/frontier conversations.
+      - name: Latent Space
+        priority: high
+        rationale: AI engineering/foundation model ecosystem; surface business-relevant frontier episodes.
+      - name: The Cognitive Revolution
+        priority: high
+        rationale: AI frontier and practical implications.
+      - name: No Priors
+        priority: high
+        rationale: AI investors/researchers/operators.
+      - name: Training Data
+        priority: medium
+        rationale: AI interviews; filter for leaders/frontier thinkers.
+      - name: Eye on AI
+        priority: medium
+        rationale: AI leaders; filter for depth.
+      - name: Possible
+        priority: medium
+        rationale: Reid Hoffman/AI/business conversations; filter for high-signal guests.
+      - name: Masters of Scale
+        priority: medium
+        rationale: Founder/operator lessons; avoid generic promo.
+      - name: Founder’s Field Guide
+        priority: high
+        rationale: Patrick O'Shaughnessy adjacent; operators/investors/frameworks.
+      - name: Business Breakdowns
+        priority: medium
+        rationale: Useful company/industry primers; surface if relevant to DJ's world.
+      - name: Founders
+        priority: medium
+        rationale: Historical business lessons; include only if current framework relevance is clear.
+      - name: Naval
+        aliases: [Naval Ravikant Podcast, The Naval Podcast]
+        priority: high
+        rationale: Naval Ravikant on wealth, leverage, startups, philosophy, AI; surface all episodes.
+      - name: My First Million
+        priority: low
+        rationale: Often entertainment/noisy; surface only exceptional business idea episodes.
+      - name: Colossus / Colossus Review ecosystem
+        priority: high
+        rationale: Investor/operator network; broad discovery source.
+      - name: Capital Allocators
+        priority: high
+        rationale: Allocators, money managers, investment frameworks.
+      - name: Infinite Loops
+        priority: medium
+        rationale: Markets/mental models/intellectual conversations.
+      - name: The Meb Faber Show
+        priority: medium
+        rationale: Markets/investing; filter for top-tier guests.
+      - name: The Knowledge Project adjacent interviews
+        priority: medium
+        rationale: Discovery pattern, not a specific feed.
+      - name: The David Rubenstein Show / Bloomberg Wealth-style interviews
+        priority: medium
+        rationale: CEOs/investors; filter against soft profiles.
+      - name: The Prof G Pod
+        priority: low
+        rationale: Surface only strong business/AI/operator conversations.
+      - name: Decoder with Nilay Patel
+        priority: medium
+        rationale: CEOs/platform strategy; surface important business model conversations.
+      - name: Big Technology Podcast
+        priority: medium
+        rationale: Tech/AI business; filter for guests and depth.
+      - name: Hard Fork
+        priority: low
+        rationale: Often newsy; surface only exceptional AI/business episodes.
+      - name: The Vergecast
+        priority: low
+        rationale: Usually skip unless major CEO/platform episode.
+      - name: Lex Fridman Podcast
+        priority: medium
+        rationale: Long-form frontier guests; filter hard for business/AI/framework relevance.
+      - name: EconTalk
+        priority: medium
+        rationale: Intellectual/economics frameworks; surface non-political/high-framework episodes.
+      - name: People I Mostly Admire
+        priority: low
+        rationale: Interesting thinkers; surface framework episodes only.
+      - name: The James Altucher Show
+        priority: low
+        rationale: Noisy; surface rare top-tier guests only.
+      - name: The Breakdown with NLW
+        priority: low
+        rationale: Mostly news; include only if AI/business strategic conversation.
+
+  ring3_discovery_queries:
+    description: Search/discovery patterns for conversations beyond known shows.
+    queries:
+      - '"{guest}" podcast'
+      - '"{guest}" "Apple Podcasts"'
+      - '"{guest}" "Spotify" podcast'
+      - '"{guest}" "YouTube" interview'
+      - '"{guest}" "Invest Like the Best" OR "Acquired" OR "All-In" OR "a16z"'
+      - '"CEO" "podcast" "AI" "capital allocation"'
+      - '"hedge fund" "podcast" "AI"'
+      - '"venture capital" "podcast" "foundation models"'
+      - '"asset manager" "podcast" "markets" "AI"'
+
+feed_resolution:
+  status: pending
+  next_step: Resolve RSS URLs using Podcast Index, Apple Podcasts pages, Spotify/public podcast pages, and direct show websites.

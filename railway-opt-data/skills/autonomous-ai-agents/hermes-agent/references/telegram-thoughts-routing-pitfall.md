@@ -1,33 +1,28 @@
 # Telegram thoughts-routing pitfall
 
-This session exposed a useful routing lesson for Hermes Telegram setups:
+This note captures two related gotchas from the Daily Brain Dump / Top of Mind flow.
 
-- A topic configured as the `thoughts` capture channel can intercept ordinary messages before the normal LLM conversation.
-- That is fine for a dedicated ingest thread, but it is wrong for an interactive Daily Brain Dump topic if DJ expects normal replies there.
-- The safe pattern is to split the duties:
-  - one Telegram topic for **interactive chat**
-  - one separate topic or channel for **capture-only ingestion**
+## 1) "Add to top of mind" means the Google Doc, not the session todo list
 
-## Two valid behaviors
+When DJ says things like:
 
-1. **Capture-only thread**
-   - capture the message
-   - keep success silent or minimally acknowledged
-   - do not forward to the normal conversation loop
+- `add to top of mind XM comp`
+- `add XM comp to top of mind`
+- `top of mind: ...`
 
-2. **Interactive capture thread**
-   - capture the message first
-   - reply with a lightweight `✓` ack
-   - let the message fall through so the normal Hermes LLM still answers
-   - reserve direct-thoughts retrieval queries for the repo/search path
+the action should be to update the Daily ToM Google Doc via the deterministic helper (`/opt/data/scripts/daily-tom-add.py`) and then confirm the actual Google Docs result. Do **not** satisfy the request by only adding a temporary in-session todo or by saying it is "added" when the document was not touched.
 
-## What to check
+Useful behaviors:
 
-- `thoughts.enabled` in `/opt/data/config.yaml`
-- `thoughts.telegram.chat_id` and `thoughts.telegram.thread_id`
-- whether the topic name in Telegram matches the capture semantics
-- whether the integration returns a sentinel/ack that the gateway interprets as “reply and continue” rather than “consume and stop”
+- If the item already exists, report `already_present` and say it is already in the document.
+- If the item is new, write to the correct group (`Professional`, `Professional - MENA`, `Personal`, etc.) and return the doc-side confirmation.
+- Keep the session todo board separate; it is only a working scratchpad.
 
-## Rule of thumb
+## 2) Live Daily Brain Dump vs capture-only topics
 
-If DJ says “this topic should talk back,” do not keep capture-only interception on that same thread. Make capture non-blocking instead of disabling thoughts globally.
+If a Telegram topic is being used as the live Daily Brain Dump chat, do not let capture logic silently swallow the message and leave DJ without a reply. The channel should either:
+
+- capture and then fall through to the normal Hermes conversation, or
+- be explicitly capture-only and stay silent by design.
+
+Avoid mixing the two modes without an explicit bridge, because it creates the impression that the assistant ignored the message even when the capture succeeded.

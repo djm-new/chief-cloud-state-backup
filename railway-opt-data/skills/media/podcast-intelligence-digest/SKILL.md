@@ -125,6 +125,8 @@ Keep the guest/watchlist file as seed examples and calibration anchors, not a cl
    - Keep Hermes orchestration separate from the filter model: the script can call OpenRouter directly while the agent coordinates the run.
    - For broad daily calibration, use a compact per-episode schema: `{score, tier, reason, confidence}` where tier is `skip | scan | digest | listen` and reason is one short sentence.
    - Run a smoke test first, report token usage/cost, and keep output verbosity low.
+   - Prefer the shared helper in `/opt/data/scripts/openrouter_spend.py` (`openrouter_post_json(...)` + `record_openrouter_usage(...)`) instead of hand-rolled `requests.post(...)` calls.
+   - If the workflow uses raw HTTP calls, record each OpenRouter response into the Hermes spend ledger and backfill historical artifacts once so the report is complete.
 
 8b. **Daily 24-hour digest runs.**
    - When DJ asks for "today" or a daily run, use a strict last-24-hours `published` window unless he says calendar day.
@@ -196,6 +198,7 @@ Rules:
 - **Footer/link spam**: guest watchlist names can appear in unrelated show notes, newsletters, cross-promos, or previous episode links. Score only when the name appears in title, guest field, primary description, or transcript context.
 - **OpenRouter/Qwen JSON quirks**: if `response_format: {type: json_object}` produces strange thinking/garbled output, remove JSON mode and add `/no_think` plus "Return only JSON". Prefer a smoke test before full scoring.
 - **Railway redeploy env visibility**: after DJ adds `OPENROUTER_API_KEY`, terminal subprocesses may not see it even though the gateway does. Check `/proc/1/environ` without printing secrets before declaring the key missing.
+- **Direct OpenRouter scripts bypass Hermes spend**: podcast scoring/rendering scripts can call OpenRouter directly and report usage from the API response. Hermes `spend.db` will miss those tokens unless the script emits its own accounting.
 - **Under-ranking CEOs/operators**: a CEO interview with modest metadata can be more valuable than a keyword-rich panel.
 - **Duplicate interview clusters**: same event/interview may appear in multiple feeds. Collapse before presenting.
 - **Panel/news formats**: high topicality but often low durable insight. Penalize unless the guests are exceptional or the conversation reveals a reusable framework.
@@ -207,6 +210,7 @@ Rules:
 - Keep monitor outputs silent on OK/actionable on alert if health checks are added.
 - Do not send emails or external notifications as part of this workflow.
 - Use persistent `/opt/data` locations in DJ's production Hermes/Railway environment for durable state; avoid relying on `/tmp` for long-lived assets.
+- When reporting spend for podcast work, separate Hermes-session spend from direct OpenRouter script spend instead of assuming `spend.db` is complete.
 - For DJ's Telegram Hermes group, production podcast digest outputs belong in **Briefings** (`telegram:-1003956828149:4` as of the current Chief setup). Pipeline failures/health alerts belong in **Alerts** (`telegram:-1003956828149:5`). Experiments/test runs should go to a coding/sandbox topic or stay local until DJ asks to see them.
 
 ### One-time preview run pattern
@@ -243,6 +247,9 @@ These paths are conventions, not universal facts. Verify them before editing.
 
 - `references/prototype-radar-notes.md` — condensed notes from the first DJ prototype run, including source model, scoring lessons, and calibration findings.
 - `references/openrouter-qwen-episode-scoring.md` — OpenRouter/Qwen setup notes, Railway env visibility quirk, compact scoring schema, and observed cost from the 100-episode calibration pass.
+- `references/openrouter-spend-attribution.md` — how to attribute OpenRouter usage from the podcast scripts into Hermes spend reporting, including backfill keys and stage names.
+- `references/openrouter-direct-accounting.md` — legacy/raw HTTP accounting notes for podcast scripts, plus the reason to prefer the shared helper for new code.
+- `references/openrouter-shared-helper.md` — shared helper API, rollout pattern, and verification checklist for new podcast scripts.
 - `references/daily-digest-calibration.md` — 24h daily digest workflow, funnel reporting requirements, DJ editorial calibration, and first-run lessons.
 - `references/last48h-run-notes.md` — June 2026 ad hoc 48h run notes, interpreter pitfall, and successful digest shape.
 - `scripts/qwen_daily_digest.py` — starter script that turns Qwen episode scores into a calibrated daily markdown digest.

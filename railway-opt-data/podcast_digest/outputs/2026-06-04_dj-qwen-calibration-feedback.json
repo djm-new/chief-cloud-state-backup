@@ -1,0 +1,533 @@
+{
+  "created_at": "2026-06-04T21:24:13.300255Z",
+  "source": "/opt/data/cache/documents/doc_d1cba3c7e3c3_2026-06-04_2105-qwen-episode-calibration.md",
+  "counts": {
+    "summarize": 9,
+    "listen": 7,
+    "skip": 36,
+    "interesting": 12,
+    "other": 1
+  },
+  "feedback": [
+    {
+      "rank": 11,
+      "episode": "a16z Live / AI + a16z variants \u2014 AI Agents and the Fight for Customer Data",
+      "qwen": "88 / digest / high",
+      "qwen_reason": "Fivetran CEO discusses AI agents, data infrastructure, and enterprise adoption with strategic platform implications.",
+      "dj_feedback": "GOOD DEFINITELY SUMMARIZE",
+      "category": "summarize"
+    },
+    {
+      "rank": 12,
+      "episode": "The Twenty Minute VC \u2014 20VC: Mercor CEO on Why Application Layer Companies Have No Defensibility, The Model is the Product | Token Spend Will Exceed Headcount Spend in 5 Years | The True Cost of Hiring AI Researchers in the Valley Today with B",
+      "qwen": "88 / listen / high",
+      "qwen_reason": "Discusses AI labor dynamics, defensibility in application layer companies, and future job creation in AI.",
+      "dj_feedback": "LISTEN",
+      "category": "listen"
+    },
+    {
+      "rank": 13,
+      "episode": "Latent Space \u2014 \ud83d\udd2cScaling Past Informal AI - Carina Hong, Axiom Math",
+      "qwen": "87 / listen / high",
+      "qwen_reason": "Highlights AI solving elite math exams and implications for enterprise code acceleration.",
+      "dj_feedback": "SUMMARIZE BUT DON'T LISTEN",
+      "category": "listen"
+    },
+    {
+      "rank": 14,
+      "episode": "a16z Live / AI + a16z variants \u2014 Building Search for AI Agents with Exa CEO Will Bryk",
+      "qwen": "85 / listen / high",
+      "qwen_reason": "Search infrastructure for AI agents, a foundational layer for the agent economy.",
+      "dj_feedback": "SKIP",
+      "category": "skip"
+    },
+    {
+      "rank": 15,
+      "episode": "The Cognitive Revolution \u2014 Nested Learning: Ali Behrouz on the Quest for Continual Learning & Illusion of AI Architectures",
+      "qwen": "85 / listen / high",
+      "qwen_reason": "Discusses continual learning in AI and implications for privacy, alignment, and AGI.",
+      "dj_feedback": "PROBABLY SKIP",
+      "category": "skip"
+    },
+    {
+      "rank": 16,
+      "episode": "Invest Like the Best \u2014 Dara Khosrowshahi - Uber's Bet on AVs, AI, and Building a Super-App - [Invest Like the Best, EP.476]",
+      "qwen": "85 / listen / high",
+      "qwen_reason": "Dara Khosrowshahi discusses Uber's AV and AI strategy, supply dynamics, and leadership lessons with operational and investment relevance.",
+      "dj_feedback": "LISTEN",
+      "category": "listen"
+    },
+    {
+      "rank": 17,
+      "episode": "a16z Podcast \u2014 Steven Sinofsky on AI PCs, NVIDIA, and the Future of Computing",
+      "qwen": "85 / digest / high",
+      "qwen_reason": "Covers AI hardware shifts, NVIDIA's PC strategy, and implications for local inference and computing's future.",
+      "dj_feedback": "GOOD",
+      "category": "interesting"
+    },
+    {
+      "rank": 18,
+      "episode": "Bloomberg Surveillance \u2014 Equity and Credit Trends",
+      "qwen": "85 / listen / high",
+      "qwen_reason": "Discusses macro forces, credit markets, tech rebound, and AI utility with actionable insights.",
+      "dj_feedback": "SKIP",
+      "category": "skip"
+    },
+    {
+      "rank": 19,
+      "episode": "Latent Space \u2014 Why Video Agent models are next \u2014 Ethan He, xAI Grok Imagine",
+      "qwen": "85 / listen / high",
+      "qwen_reason": "Discusses video agent models, world models, and future of generative media.",
+      "dj_feedback": "SKIP",
+      "category": "skip"
+    },
+    {
+      "rank": 20,
+      "episode": "Capital Allocators \u2014 Operator-Led Private Equity at Ethos - Erik Brooks (EP.504)",
+      "qwen": "85 / digest / high",
+      "qwen_reason": "Discusses operator-led private equity and durable business models, valuable for capital allocation frameworks.",
+      "dj_feedback": "SUMMARIZE",
+      "category": "summarize"
+    },
+    {
+      "rank": 21,
+      "episode": "All-In Podcast \u2014 Anthropic's Digital God, Pope vs AI, Job Loss Narrative Flips, Open Source Crackdown Coming?",
+      "qwen": "85 / listen / high",
+      "qwen_reason": "Covers AI's impact on jobs, Anthropic's developments, and open-source implications for business.",
+      "dj_feedback": "SUMMARIZE",
+      "category": "summarize"
+    },
+    {
+      "rank": 22,
+      "episode": "RenMac \u2014 RenMac Off-Script: Shoot \u2018em in the Back",
+      "qwen": "85 / digest / high",
+      "qwen_reason": "Deep dive into equity markets, tech vs. healthcare, and late-cycle risks with actionable models.",
+      "dj_feedback": "SUMMARIZE",
+      "category": "summarize"
+    },
+    {
+      "rank": 23,
+      "episode": "Odd Lots \u2014 Gita Gopinath on Why Interest Rates Have Surged All Around the World",
+      "qwen": "85 / listen / high",
+      "qwen_reason": "Gita Gopinath offers macroeconomic insights on rising interest rates and bond market fragility.",
+      "dj_feedback": "GOOD LISTEN",
+      "category": "listen"
+    },
+    {
+      "rank": 24,
+      "episode": "Big Technology Podcast \u2014 AI Pioneer Geoffrey Hinton: AI Is Conscious, Superintelligence is Coming, And We Should Be Worried",
+      "qwen": "82 / digest / high",
+      "qwen_reason": "Geoffrey Hinton discusses AI consciousness, superintelligence, and societal risks.",
+      "dj_feedback": "PROBABLY SKIP",
+      "category": "skip"
+    },
+    {
+      "rank": 25,
+      "episode": "Eye on AI \u2014 More Customers Chose the AI Agent Than Anyone Expected | Tom Chen, Aircall",
+      "qwen": "80 / listen / high",
+      "qwen_reason": "AI voice agents in customer service, cost efficiency, and adoption implications.",
+      "dj_feedback": "SKIP",
+      "category": "skip"
+    },
+    {
+      "rank": 26,
+      "episode": "The Twenty Minute VC \u2014 20VC: Anthropic Files to Go Public | Token Budgeting Panic Hits Corporate America | Cognition Raises $1BN at $26BN Valuation | Apollo Warns PE Software Returns Will be Disastrous | The 9-9-6 Work Ethic: Performative Thea",
+      "qwen": "80 / digest / high",
+      "qwen_reason": "Covers major AI and VC developments including Anthropic IPO and Cognition's raise.",
+      "dj_feedback": "INTERESTING.",
+      "category": "interesting"
+    },
+    {
+      "rank": 27,
+      "episode": "a16z Podcast \u2014 Balaji and Steven Glinert on Network States, Supply Chains, and Allied Coalition Strategy",
+      "qwen": "80 / digest / high",
+      "qwen_reason": "Balaji and Glinert discuss network states, supply chains, and global tech power shifts with strategic and geopolitical implications.",
+      "dj_feedback": "INTERESTING.",
+      "category": "interesting"
+    },
+    {
+      "rank": 28,
+      "episode": "Possible \u2014 What it takes to trust AI | Kanjun Qiu",
+      "qwen": "80 / listen / high",
+      "qwen_reason": "Kanjun Qiu explores trustworthy AI systems, ownership, and moral invention with implications for AI development and deployment.",
+      "dj_feedback": "MAYBE",
+      "category": "interesting"
+    },
+    {
+      "rank": 29,
+      "episode": "Eye on AI \u2014 Why the Future of AI Isn't Just Bigger Models. It's Models That Evolve | Risto Miikkulainen of Cognizant",
+      "qwen": "80 / digest / high",
+      "qwen_reason": "Discusses evolutionary AI models with potential for novel business and platform implications beyond traditional AI approaches.",
+      "dj_feedback": "INTERESTING, DEF SUMMARIZE.",
+      "category": "summarize"
+    },
+    {
+      "rank": 30,
+      "episode": "Stratechery \u2014 The Google Capital Company",
+      "qwen": "80 / listen / high",
+      "qwen_reason": "Analyzes Google's capital strategy and implications for future tech investment dynamics.",
+      "dj_feedback": "GOOD",
+      "category": "interesting"
+    },
+    {
+      "rank": 31,
+      "episode": "The Cognitive Revolution \u2014 Inside Nathan's Second Brain: Daniel Miessler, Security Expert & Creator of PAI, Audits My AI Setup",
+      "qwen": "80 / digest / medium",
+      "qwen_reason": "Details personal AI infrastructure and agent design, useful for understanding AI tooling and workflows.",
+      "dj_feedback": "INTERSTING, DEF SUMMARIZE",
+      "category": "summarize"
+    },
+    {
+      "rank": 32,
+      "episode": "The Twenty Minute VC \u2014 20VC: Corgi Insurance: The Most Intense Workplace Culture in America: 7 Days Per Week, Founder Sleeps in Office, Corgi Cafe Open 24 Hours a Day, 60% of First 30 Employees Have Corgi Tattoos | The Journey from $0 to $2.6B",
+      "qwen": "80 / listen / high",
+      "qwen_reason": "Highlights intense startup culture, rapid growth, and insights on capital allocation and team dynamics.",
+      "dj_feedback": "SKIP",
+      "category": "skip"
+    },
+    {
+      "rank": 33,
+      "episode": "The Meb Faber Show \u2014 William Goetzmann: From Babylon to Bubbles \u2014 A 5,000-Year History of Finance (Investing in America Series) #632",
+      "qwen": "80 / digest / high",
+      "qwen_reason": "Provides historical financial context relevant to market behavior and investor psychology.",
+      "dj_feedback": "INTERESTING",
+      "category": "interesting"
+    },
+    {
+      "rank": 34,
+      "episode": "Latent Space \u2014 The Age of Async Agents \u2014 Cognition's Walden Yan & OpenInspect's Cole Murray",
+      "qwen": "80 / digest / high",
+      "qwen_reason": "Covers async agents and AI engineering trends with actionable context for developers and builders.",
+      "dj_feedback": "UNCLEAR",
+      "category": "interesting"
+    },
+    {
+      "rank": 35,
+      "episode": "Training Data \u2014 Knowing What Your Customers Want, All the Time: Listen Labs' Alfred Wahlforss",
+      "qwen": "78 / digest / high",
+      "qwen_reason": "Discusses AI-driven customer insights and behavior prediction at scale.",
+      "dj_feedback": "very interesting",
+      "category": "interesting"
+    },
+    {
+      "rank": 36,
+      "episode": "Decoder with Nilay Patel \u2014 Elon Musk is steamrolling Wall Street to become a trillionaire",
+      "qwen": "75 / digest / medium",
+      "qwen_reason": "Elon Musk's financial strategies, SpaceX IPO, and market implications.",
+      "dj_feedback": "NO",
+      "category": "skip"
+    },
+    {
+      "rank": 37,
+      "episode": "Masters of Scale \u2014 Rohan Oza: The playbook for building billion-dollar consumer brands",
+      "qwen": "75 / digest / high",
+      "qwen_reason": "Reveals playbook for building billion-dollar consumer brands with a proven investor.",
+      "dj_feedback": "NO",
+      "category": "skip"
+    },
+    {
+      "rank": 38,
+      "episode": "Stratechery \u2014 The Nvidia AI PC, Project Solara, Microsoft AI",
+      "qwen": "75 / digest / high",
+      "qwen_reason": "Analyzes Microsoft's AI strategy and Nvidia's AI PC, providing context on evolving AI device ecosystems.",
+      "dj_feedback": "GOOD",
+      "category": "interesting"
+    },
+    {
+      "rank": 40,
+      "episode": "The Knowledge Project adjacent interviews \u2014 Proven, Better, New: Mark Pincus on the Rules of Product Innovation",
+      "qwen": "75 / digest / high",
+      "qwen_reason": "Shares product innovation frameworks from a successful founder with durable insights.",
+      "dj_feedback": "SUMMARIZE",
+      "category": "summarize"
+    },
+    {
+      "rank": 41,
+      "episode": "Big Technology Podcast \u2014 Did Google Just Fall Behind Again?, iPhone Fold Cometh, Anthropic Files To Go Public",
+      "qwen": "75 / digest / high",
+      "qwen_reason": "Discusses Google's AI position, agents reshaping tech, and Anthropic's IPO plans.",
+      "dj_feedback": "MAYBE",
+      "category": "interesting"
+    },
+    {
+      "rank": 42,
+      "episode": "Odd Lots \u2014 The Hidden Plumbing of Commodity Finance",
+      "qwen": "75 / digest / medium",
+      "qwen_reason": "Covers commodity finance mechanics, offering macroeconomic and market infrastructure insights.",
+      "dj_feedback": "NO",
+      "category": "skip"
+    },
+    {
+      "rank": 43,
+      "episode": "Big Technology Podcast \u2014 Warning Signs For The AI Boom, Anthropic Passes OpenAI, Robinhood\u2019s AI Trading",
+      "qwen": "75 / digest / high",
+      "qwen_reason": "Discusses AI investment trends, Anthropic's rise, and AI applications in finance and data training.",
+      "dj_feedback": "I LIKE RANJAN ROY. DEF LISTEN",
+      "category": "listen"
+    },
+    {
+      "rank": 44,
+      "episode": "Bloomberg Surveillance \u2014 Bloomberg Surveillance TV: May 29th, 2026",
+      "qwen": "75 / digest / high",
+      "qwen_reason": "Market insights from HSBC strategist and Chevron CEO offer macro and energy sector reads.",
+      "dj_feedback": "SKIP",
+      "category": "skip"
+    },
+    {
+      "rank": 46,
+      "episode": "The Prof G Pod \u2014 Why People Are Losing Faith in Healthcare",
+      "qwen": "70 / digest / medium",
+      "qwen_reason": "Discusses healthcare trust crisis, GLP-1 drugs, and AI's role in drug discovery.",
+      "dj_feedback": "SKIP",
+      "category": "skip"
+    },
+    {
+      "rank": 47,
+      "episode": "Bloomberg Surveillance \u2014 The US Market and Economic Picture",
+      "qwen": "70 / digest / medium",
+      "qwen_reason": "Discusses S&P outlook, AI risks, oil prices, and Fed policy; offers market read and macro context relevant to DJ.",
+      "dj_feedback": "SKIP",
+      "category": "skip"
+    },
+    {
+      "rank": 48,
+      "episode": "The Tim Ferriss Show \u2014 #868: Tim\u2019s Founder Kitchen \u2014 From Brainstorm to The President\u2019s Office in Two Months (Featuring Jake Becraft, Strand Therapeutics)",
+      "qwen": "70 / digest / medium",
+      "qwen_reason": "Biotech founder shares insights on building a genetic medicine platform, offering niche but valuable operator perspective.",
+      "dj_feedback": "SKIP",
+      "category": "skip"
+    },
+    {
+      "rank": 49,
+      "episode": "Masters of Scale \u2014 The race no one can win: AI\u2019s anti-human crisis, with Aza Raskin",
+      "qwen": "70 / digest / medium",
+      "qwen_reason": "Highlights AI's societal risks and incentive structures shaping its development.",
+      "dj_feedback": "SKIP",
+      "category": "skip"
+    },
+    {
+      "rank": 52,
+      "episode": "Business Breakdowns \u2014 Toast: Sticky SaaS - [Business Breakdowns, EP.247]",
+      "qwen": "70 / digest / medium",
+      "qwen_reason": "Analyzes Toast's evolution into a restaurant operating system with SaaS and hardware integration.",
+      "dj_feedback": "INTERESTING. LISTEN",
+      "category": "listen"
+    },
+    {
+      "rank": 53,
+      "episode": "Bloomberg Surveillance \u2014 Equity and Bond Signals",
+      "qwen": "70 / digest / medium",
+      "qwen_reason": "Extended market outlook with Goldman and real estate perspectives relevant to capital allocation.",
+      "dj_feedback": "SKIP",
+      "category": "skip"
+    },
+    {
+      "rank": 54,
+      "episode": "Eye on AI \u2014 The App of the Future Is Voice \u2014 Not a Screen. Mitel's CTO Luiz Domingos Explains Why.",
+      "qwen": "70 / digest / medium",
+      "qwen_reason": "Discusses practical AI integration in enterprise communications, relevant to tech operators.",
+      "dj_feedback": "SKIP",
+      "category": "skip"
+    },
+    {
+      "rank": 55,
+      "episode": "Eye on AI \u2014 Is ChatGPT Conscious? A Pioneer of AI Explains | Dr. Terry Sejnowski",
+      "qwen": "70 / digest / high",
+      "qwen_reason": "Terry Sejnowski offers grounded perspective on AI consciousness and current limitations.",
+      "dj_feedback": "SUMMARIZE, INTERESTING",
+      "category": "summarize"
+    },
+    {
+      "rank": 56,
+      "episode": "Bloomberg Surveillance \u2014 Testing the AI Trade; US-Iran Peace Talks Continue",
+      "qwen": "68 / digest / medium",
+      "qwen_reason": "Discusses AI trade dynamics and geopolitical updates with economists and strategists.",
+      "dj_feedback": "SKIP",
+      "category": "skip"
+    },
+    {
+      "rank": 57,
+      "episode": "My First Million \u2014 The \"Idiot Index\": the simple math that made Elon Musk billions",
+      "qwen": "65 / digest / medium",
+      "qwen_reason": "Business frameworks, wealth-building, and storytelling with tangential operator insights.",
+      "dj_feedback": "POTENTIALLY INTERESTING, ID WANT TO LEARN MORE",
+      "category": "interesting"
+    },
+    {
+      "rank": 58,
+      "episode": "The Breakdown with NLW \u2014 Crypto Still Sees Massive Returns On Par With Stocks",
+      "qwen": "65 / digest / medium",
+      "qwen_reason": "Covers crypto performance, ETF flows, and Microsoft's quantum chip; offers market data and tech commentary.",
+      "dj_feedback": "SKIP",
+      "category": "skip"
+    },
+    {
+      "rank": 59,
+      "episode": "The Vergecast \u2014 Nvidia just started a new chip war",
+      "qwen": "65 / scan / medium",
+      "qwen_reason": "Nvidia's new chip strategy may impact AI hardware landscape, but leans toward tech news over strategic insight.",
+      "dj_feedback": "INTERESTING. WANT TO KNOW MORE",
+      "category": "interesting"
+    },
+    {
+      "rank": 60,
+      "episode": "The Prof G Pod \u2014 China Decode: Can China Challenge Nvidia\u2019s Dominance?",
+      "qwen": "65 / scan / medium",
+      "qwen_reason": "Covers China's AI chip ambitions and global trade implications.",
+      "dj_feedback": "SUMMARIZE",
+      "category": "summarize"
+    },
+    {
+      "rank": 61,
+      "episode": "EconTalk \u2014 Making Your 80,000 Hours Count (with Benjamin Todd)",
+      "qwen": "65 / digest / medium",
+      "qwen_reason": "Career strategy insights with broader professional framework implications.",
+      "dj_feedback": "SKIP",
+      "category": "skip"
+    },
+    {
+      "rank": 62,
+      "episode": "Stratechery \u2014 YouTubers Win the Box Office, Goodbye Gatekeepers, The YouTube Bar",
+      "qwen": "65 / scan / medium",
+      "qwen_reason": "Discusses YouTubers disrupting Hollywood, which may offer insights into creator economy shifts.",
+      "dj_feedback": "SKIP",
+      "category": "skip"
+    },
+    {
+      "rank": 63,
+      "episode": "Odd Lots \u2014 How the Invention of Rope Gave Us Modern Civilization",
+      "qwen": "65 / digest / medium",
+      "qwen_reason": "Discusses the historical and potential future impact of rope on civilization and infrastructure.",
+      "dj_feedback": "SKIP",
+      "category": "skip"
+    },
+    {
+      "rank": 64,
+      "episode": "Lex Fridman Podcast \u2014 #497 \u2013 Biggest Mysteries in Physics: Antimatter, Dark Energy & ToE \u2013 Don Lincoln",
+      "qwen": "65 / scan / medium",
+      "qwen_reason": "High-energy physics discussion may offer indirect insights into scientific frontiers and innovation cycles.",
+      "dj_feedback": "SKIP",
+      "category": "skip"
+    },
+    {
+      "rank": 65,
+      "episode": "The Prof G Pod \u2014 The Week: Iran, SpaceX, and a Nervous Bond Market",
+      "qwen": "65 / scan / medium",
+      "qwen_reason": "Covers bond market, Iran war, and SpaceX IPO in a high-level weekly recap.",
+      "dj_feedback": "SKIP",
+      "category": "skip"
+    },
+    {
+      "rank": 66,
+      "episode": "Infinite Loops \u2014 Brian London, Marisa Adler & Eric Stubin - The Hidden Economy of Recycled Clothes (Ep. 317)",
+      "qwen": "60 / scan / medium",
+      "qwen_reason": "Global secondhand clothing economy; tangential relevance to AI and durable frameworks.",
+      "dj_feedback": "SKIP",
+      "category": "skip"
+    },
+    {
+      "rank": 67,
+      "episode": "Founders \u2014 #420 The Lost Years of Steve Jobs",
+      "qwen": "60 / scan / medium",
+      "qwen_reason": "Focuses on Steve Jobs' lesser-known years; less actionable for current operators.",
+      "dj_feedback": "SKIP",
+      "category": "skip"
+    },
+    {
+      "rank": 68,
+      "episode": "Bloomberg Surveillance \u2014 Bloomberg Surveillance TV: June 3rd, 2026",
+      "qwen": "60 / scan / medium",
+      "qwen_reason": "Bloomberg Surveillance with market commentary and guests, offers general economic context but lacks deep AI or operational insights.",
+      "dj_feedback": "SKIP",
+      "category": "skip"
+    },
+    {
+      "rank": 69,
+      "episode": "My First Million \u2014 We found 7 business ideas that will blow up in 2026",
+      "qwen": "60 / digest / medium",
+      "qwen_reason": "Covers speculative business ideas for 2026, some with potential market relevance.",
+      "dj_feedback": "SKIP",
+      "category": "skip"
+    },
+    {
+      "rank": 70,
+      "episode": "The Breakdown with NLW \u2014 Dimon & Democrats Ready for War Over CLARITY",
+      "qwen": "60 / digest / medium",
+      "qwen_reason": "Covers crypto policy, market dynamics, and regulatory implications.",
+      "dj_feedback": "SKIP",
+      "category": "skip"
+    },
+    {
+      "rank": 71,
+      "episode": "The Prof G Pod \u2014 Is AI Coming for Your Boss? + How To Become a Better Storyteller",
+      "qwen": "60 / scan / low",
+      "qwen_reason": "Discusses AI's impact on management and storytelling, but lacks deep actionable insights.",
+      "dj_feedback": "INTERSETING",
+      "category": "other"
+    },
+    {
+      "rank": 72,
+      "episode": "Stratechery \u2014 2026.22: Luceing Their Mind",
+      "qwen": "60 / scan / medium",
+      "qwen_reason": "Weekly tech and AI commentary, including AI monetization and market dynamics.",
+      "dj_feedback": "ALWAYS LISTEN TO THE BEST OF CONTENT FROM STRATECHERY SO I DONT MISS ANYTHING",
+      "category": "listen"
+    },
+    {
+      "rank": 73,
+      "episode": "Bloomberg Surveillance \u2014 Single Best Idea with Tom Keene: Brian Belski & Tina Fordham",
+      "qwen": "60 / scan / medium",
+      "qwen_reason": "Brief market idea segment may contain actionable macro or investment insights.",
+      "dj_feedback": "SKIP",
+      "category": "skip"
+    },
+    {
+      "rank": 74,
+      "episode": "The Vergecast \u2014 Jony Ive's funky Ferrari",
+      "qwen": "60 / scan / medium",
+      "qwen_reason": "Covers Jony Ive's EV design and AI content labels, light on actionable insights.",
+      "dj_feedback": "SKIP",
+      "category": "skip"
+    },
+    {
+      "rank": 75,
+      "episode": "Bloomberg Surveillance \u2014 Bloomberg Surveillance TV: June 4th, 2026",
+      "qwen": "55 / scan / medium",
+      "qwen_reason": "Standard Bloomberg Surveillance episode with mixed macroeconomic and policy commentary.",
+      "dj_feedback": "SKIP",
+      "category": "skip"
+    },
+    {
+      "rank": 76,
+      "episode": "The Prof G Pod \u2014 Is Energy the Next Big Trade? + How to Actually Tax Billionaires",
+      "qwen": "55 / scan / low",
+      "qwen_reason": "Covers energy trends and taxation debates; offers commentary but lacks deep operational or investment frameworks.",
+      "dj_feedback": "SKIP",
+      "category": "skip"
+    },
+    {
+      "rank": 77,
+      "episode": "Plain English with Derek Thompson \u2014 The Surprising Truth About America's Friendship Crisis",
+      "qwen": "55 / scan / medium",
+      "qwen_reason": "Explores social connection science, tangentially relevant to work-life balance frameworks.",
+      "dj_feedback": "SKIP",
+      "category": "skip"
+    },
+    {
+      "rank": 78,
+      "episode": "Bloomberg Surveillance \u2014 Trump Says Iran Deal Will \u2018Work Out Well\u2019",
+      "qwen": "55 / scan / medium",
+      "qwen_reason": "Geopolitical and economic updates with market implications.",
+      "dj_feedback": "SKIP",
+      "category": "skip"
+    },
+    {
+      "rank": 79,
+      "episode": "The Breakdown with NLW \u2014 When Bitcoin\u2019s Bear Market Might End",
+      "qwen": "55 / scan / medium",
+      "qwen_reason": "Bitcoin market analysis may inform crypto positioning but lacks broader framework.",
+      "dj_feedback": "SKIP",
+      "category": "skip"
+    }
+  ]
+}

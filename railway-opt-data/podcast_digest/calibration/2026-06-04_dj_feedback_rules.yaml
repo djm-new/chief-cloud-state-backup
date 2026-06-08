@@ -1,0 +1,110 @@
+# DJ podcast calibration feedback from Qwen episode-level pass — 2026-06-04
+# Source: /opt/data/podcast_digest/outputs/2026-06-04_2105-qwen-episode-calibration.md
+
+core_adjustments:
+  - Qwen was too generous: 23 listen / 37 digest is too broad for listen tier.
+  - Daily text should still cast a wider net, but "listen" must be reserved for episodes DJ explicitly would listen to or likely high-payoff originals.
+  - Many technical AI episodes should be summarized, not listened to, and some should be skipped despite high AI relevance.
+  - Show priors matter only as priors; episode-level judgment remains authoritative.
+  - Stratechery weekly/best-of content should be included/listened to so DJ does not miss it.
+
+positive_listen_examples:
+  - episode: "20VC: Mercor CEO on defensibility, token spend, AI researcher costs"
+    signal: "AI labor market / model-vs-application layer economics / frontier lab supply chain."
+  - episode: "Invest Like the Best — Dara Khosrowshahi on Uber AVs, AI, super-app"
+    signal: "Major operator/CEO strategy with marketplace and AV implications."
+  - episode: "Odd Lots — Gita Gopinath on global interest rates"
+    signal: "Top macro thinker, bond-market fragility, AI capex/inflationary pressure."
+  - episode: "Big Technology — Ranjan Roy on warning signs for AI boom"
+    signal: "DJ likes Ranjan Roy; AI spend discipline and circular investment critique."
+  - episode: "Business Breakdowns — Toast: Sticky SaaS"
+    signal: "Company/business model breakdown with investor/operating relevance."
+  - episode: "Stratechery best-of weekly content"
+    signal: "Always include/listen so DJ does not miss Ben Thompson's best content."
+
+positive_summarize_examples:
+  - episode: "a16z AI Agents and the Fight for Customer Data"
+    signal: "Enterprise data infrastructure / Fivetran/dbt / systems-of-record and agent access."
+  - episode: "Latent Space — Scaling Past Informal AI / Axiom Math"
+    signal: "Summarize but don't listen: technically notable, not necessarily original-audio-worthy."
+  - episode: "Capital Allocators — Operator-Led Private Equity at Ethos"
+    signal: "Capital allocation / PE operating model; summary sufficient."
+  - episode: "All-In — Anthropic Digital God / jobs / open-source crackdown"
+    signal: "Summarize current AI discourse, not necessarily listen."
+  - episode: "RenMac Off-Script"
+    signal: "Macro/market model summary can be useful."
+  - episode: "Eye on AI — evolutionary AI models"
+    signal: "Interesting technical paradigm; summarize."
+  - episode: "Cognitive Revolution — Nathan's Second Brain / AI setup"
+    signal: "Personal AI workflow/tooling; summarize."
+  - episode: "Knowledge Project — Mark Pincus product innovation"
+    signal: "Founder/product framework; summarize."
+  - episode: "Terry Sejnowski on AI consciousness"
+    signal: "Interesting foundational perspective; summarize."
+  - episode: "Prof G — China challenging Nvidia"
+    signal: "AI chip geopolitics/competition; summarize."
+
+positive_interesting_scan_examples:
+  - episode: "Meb Faber — William Goetzmann 5,000-year financial history"
+    signal: "Historical finance/framework; interesting."
+  - episode: "Training Data — Listen Labs customer insight AI"
+    signal: "Very interesting: AI-driven customer research."
+  - episode: "Vergecast — Nvidia chip war"
+    signal: "Low-priority show but episode is interesting; want to know more."
+  - episode: "My First Million — Idiot Index"
+    signal: "Potentially interesting business framework; learn more before ranking."
+  - episode: "Prof G — AI coming for your boss / storytelling"
+    signal: "Potentially interesting despite low initial score."
+
+negative_skip_examples:
+  - episode: "a16z / Exa search for AI agents"
+    reason: "Too narrow/infrastructure promo despite high model score."
+  - episode: "Cognitive Revolution — Nested Learning / continual learning"
+    reason: "Too technical/researchy; probably skip."
+  - episode: "Bloomberg Surveillance generic market episodes"
+    reason: "Usually skip unless specific guest/topic is exceptional."
+  - episode: "Latent Space — video agent models / xAI Grok Imagine"
+    reason: "Technical/generative media; not DJ-relevant enough."
+  - episode: "Geoffrey Hinton consciousness/superintelligence worry"
+    reason: "Foundational but too generic/alarmist; probably skip."
+  - episode: "Aircall AI agent customer service"
+    reason: "Too vertical/vendor-ish."
+  - episode: "20VC Corgi Insurance intense culture"
+    reason: "Promotional/extreme startup culture story; skip."
+  - episode: "Decoder Elon/SpaceX Wall Street"
+    reason: "Elon/media narrative; no."
+  - episode: "Masters of Scale Rohan Oza brand playbook"
+    reason: "Consumer brand playbook not enough fit."
+  - episode: "Odd Lots commodity finance / rope history"
+    reason: "Interesting intellectually but low current professional payoff."
+  - episode: "Tim Ferriss biotech Founder Kitchen"
+    reason: "Skip unless directly relevant or exceptional."
+  - episode: "Masters of Scale Aza Raskin AI risk"
+    reason: "AI risk incentive commentary too generic."
+  - episode: "Eye on AI voice app / Aircall / Mitel / elder care"
+    reason: "Vertical enterprise AI/vendor stories generally too narrow unless strong strategic lesson."
+  - episode: "Crypto price/regulatory chatter"
+    reason: "Skip."
+  - episode: "Career advice / sports / creator economy / physics / politics"
+    reason: "Skip absent direct business/market/toolkit relevance."
+
+scoring_implications:
+  listen:
+    description: "Original audio likely worth DJ's time. Use sparingly."
+    target_daily_count: "3-8 max before transcript/refinement; 1-3 in final daily must-listen."
+  digest:
+    description: "Worth summarizing in daily text; original audio optional or unnecessary."
+    target_daily_count: "10-20 broad-net items."
+  scan:
+    description: "Mention briefly or investigate further if metadata is intriguing."
+  skip:
+    description: "Do not surface except calibration/debug logs."
+
+prompt_guidance:
+  - Benedict Evans / Ben Evans appearances: high-priority for rational AI economics, tech strategy, market structure, and value-accrual frameworks.
+  - Do not equate AI technical novelty with listen-worthy.
+  - Promote major market/macro thinkers, scaled CEOs/operators, capital allocators, AI economics, and business model implications.
+  - Prefer summaries for technical AI research, vendor/product episodes, and news-panel episodes unless they contain a unique strategic frame.
+  - Penalize vertical enterprise AI vendor stories unless they generalize to a broader business model/platform lesson.
+  - Penalize Bloomberg/news recaps unless the named guest/topic is exceptional.
+  - Always treat Stratechery weekly/best-of content as at least digest/listen candidate.

@@ -5,6 +5,7 @@ from pathlib import Path
 from datetime import datetime, timezone
 from openrouter_spend import openrouter_post_json
 
+MODEL=os.getenv('PODCAST_OSS_MODEL','qwen/qwen3-235b-a22b')
 
 def gateway_env_key(name='OPENROUTER_API_KEY'):
     if os.getenv(name): return os.getenv(name)
@@ -59,7 +60,7 @@ Funnel/cost line.
 Each included item: show — episode; what was said; why DJ should care; recommendation; link.
 Be concise but useful. No tables."""
     user="/no_think\nGenerate today's digest for this 24h window. Window start: %s. Window end: %s. Episodes JSON:\n%s" % (args.window_start,args.window_end,json.dumps(episodes,ensure_ascii=False))
-    data = openrouter_post_json(
+    resp = openrouter_post_json(
         path='chat/completions',
         model=MODEL,
         title='Hermes Podcast Daily Digest',
@@ -82,8 +83,8 @@ Be concise but useful. No tables."""
             'window_end': args.window_end,
         },
     )
-    content=data['choices'][0]['message']['content'].strip()
-    usage=data.get('usage',{})
+    content=resp['choices'][0]['message']['content'].strip()
+    usage=resp.get('usage',{})
     est=usage.get('cost')
     stamp=datetime.now(timezone.utc).strftime('%Y-%m-%d_%H%M')
     out=Path('/opt/data/podcast_digest/outputs')/f'{stamp}-daily-podcast-digest-24h.md'

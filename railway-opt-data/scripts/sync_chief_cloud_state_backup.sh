@@ -34,15 +34,19 @@ mkdir -p "$SNAPSHOT_DIR"
 cat > "$SNAPSHOT_DIR/BACKUP_POLICY.md" <<'POLICY'
 # Railway `/opt/data` backup policy
 
-This folder is a selective snapshot from Railway Chief's persistent `/opt/data` volume.
+This folder is a selective snapshot from Railway Chief's persistent state and a few
+critical app files used to run and explain the system.
 
-It intentionally includes runtime state that is useful for restoring Chief:
+It intentionally includes durable state that is useful for restoring or auditing Chief:
 
 - cron job definitions
 - sync/maintenance scripts
 - curated memory markdown files
 - installed/learned skills
 - `SOUL.md` if present
+- core Hermes config and routing notes
+- podcast workflow configs and generated digest artifacts
+- selected Hermes gateway source files that carry live behavior
 
 It intentionally excludes secrets and raw private history:
 
@@ -81,6 +85,8 @@ copy_dir_filtered() {
       --exclude='*.log' \
       --exclude='*.db' \
       --exclude='*.db-*' \
+      --exclude='*.sqlite' \
+      --exclude='*.sqlite-*' \
       --exclude='.env' \
       --exclude='auth.json' \
       --exclude='google_token.json' \
@@ -92,10 +98,14 @@ copy_dir_filtered() {
 
 copy_file /opt/data/SOUL.md "$SNAPSHOT_DIR/SOUL.md"
 copy_file /opt/data/cron/jobs.json "$SNAPSHOT_DIR/cron/jobs.json"
+copy_file /opt/data/config.yaml "$SNAPSHOT_DIR/config.yaml"
+copy_file /opt/data/model-routing-register.md "$SNAPSHOT_DIR/model-routing-register.md"
 copy_dir_filtered /opt/data/scripts "$SNAPSHOT_DIR/scripts"
 copy_dir_filtered /opt/data/memories "$SNAPSHOT_DIR/memories"
 copy_dir_filtered /opt/data/skills "$SNAPSHOT_DIR/skills"
 copy_dir_filtered /opt/data/health "$SNAPSHOT_DIR/health"
+copy_dir_filtered /opt/data/podcast_digest "$SNAPSHOT_DIR/podcast_digest"
+copy_dir_filtered /opt/hermes/gateway "$SNAPSHOT_DIR/hermes/gateway"
 
 # Preserve empty allowlisted directories like memories/ before committing.
 find "$SNAPSHOT_DIR" -type d -empty -exec touch {}/.gitkeep \;
@@ -109,6 +119,9 @@ find "$SNAPSHOT_DIR" -type f \( \
   -name '*.db' -o \
   -name '*.db-shm' -o \
   -name '*.db-wal' -o \
+  -name '*.sqlite' -o \
+  -name '*.sqlite-shm' -o \
+  -name '*.sqlite-wal' -o \
   -name '*.log' \
 \) -delete
 

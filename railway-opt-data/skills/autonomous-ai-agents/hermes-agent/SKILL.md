@@ -232,6 +232,8 @@ hermes update               Update to latest version
 ```
 
 Spend-monitor implementation notes: `references/spend-monitor-ledger.md`.
+Direct OpenRouter HTTP scripts: `references/openrouter-direct-http-spend-capture.md`.
+Workflow attribution and reporting shape: `references/openrouter-workflow-attribution.md`.
 hermes plugins list/install/remove  Plugin management
 hermes honcho setup/status  Honcho memory integration (requires honcho plugin)
 hermes memory setup/status/off  Memory provider config
@@ -1055,6 +1057,9 @@ If the topic is intentionally capture-only, keep it silent on success. If DJ exp
 
 For DJ's Chief Group - Hermes, prefer minimal repurposing over creating/deleting topics: keep history, rename existing topics, and archive old-purpose topics instead of removing them.
 
+See `references/top-of-mind-routing.md` for Daily ToM routing/ordering rules and the personal-vs-professional heuristics.
+See `references/telegram-thoughts-routing-pitfall.md` for the Daily Brain Dump vs capture-only split and the "add to top of mind" doc-vs-todo pitfall.
+
 See `references/telegram-thoughts-routing-pitfall.md` for the interactive-chat vs capture-only split that bit the Daily Brain Dump topic.
 
 - **Windows-specific issues** (`Alt+Enter` newline, WinError 10106, UTF-8 BOM config, test suite, line endings): see the dedicated **Windows-Specific Quirks** section above.
@@ -1173,7 +1178,7 @@ run_conversation():
 
 ### Model Spend / Cost Ledger
 
-When adding or fixing Hermes spend tracking, instrument the central response-usage block, not transcripts after the fact. The durable pattern is an event-level SQLite ledger under `$HERMES_HOME/spend.db`: one row per successful model response, using `agent.usage_pricing.normalize_usage()` and `estimate_usage_cost()` for provider-normalized tokens and cost. Keep writes best-effort so accounting never breaks chat/tool execution. See `references/spend-monitor-ledger.md` for schema, CLI shape, tests, and pitfalls.
+When adding or fixing Hermes spend tracking, instrument the central response-usage block, not transcripts after the fact. The durable pattern is an event-level SQLite ledger under `$HERMES_HOME/spend.db`: one row per successful model response, using `agent.usage_pricing.normalize_usage()` and `estimate_usage_cost()` for provider-normalized tokens and cost. Keep writes best-effort so accounting never breaks chat/tool execution. See `references/spend-monitor-ledger.md` for schema, CLI shape, tests, and pitfalls. For direct OpenRouter HTTP scripts, also see `references/openrouter-direct-http-spend-capture.md` and `references/openrouter-workflow-attribution.md`. When users ask for spend reports, prefer project totals, then model totals, then workflow/stage totals when available; provider-only rollups are usually too coarse.
 
 ### Testing
 

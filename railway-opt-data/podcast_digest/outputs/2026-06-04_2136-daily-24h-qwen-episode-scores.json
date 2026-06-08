@@ -1,0 +1,431 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-06-04_2136",
+  "usage": {
+    "prompt_tokens": 7596,
+    "completion_tokens": 1630,
+    "total_tokens": 9226
+  },
+  "episodes": [
+    {
+      "id": "abaf38fa4b02e0cc8dcd9d9f",
+      "show_name": "Latent Space",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Reality: The Final Eval — Lukas Petersson and Axel Backlund of Andon Labs",
+      "link": "https://www.latent.space/p/andon",
+      "published": "2026-06-04T20:39:18+00:00",
+      "summary": "The new AIEWF website is live! Get your tickets booked ASAP as they -will- sell out. Take the AI Engineering Survey and get >$2k in credits and free AIE WF tickets ! Most industry benchmarks compress intelligence and reasoning ability into scores. SWE-Bench Pro , MMLU , Humanity’s Last Exam , etc. These metrics are useful, but don’t always represent the full extent of how a model performs in the real world . Some of the most interesting evals today look less like exams and more like operating businesses in the real world. One of which is Vending Bench . In Anthropic’s Mythos Preview System Card , Andon was the only third party eval to get their own section, observing increasingly concerning aggressive behavior: You don’t know what a model is capable of doing in the real world unless you actually give it inventory, a wallet, tools, customers, competitors, humans, & some time. More often than not, it’ll surprise you how much a model is capable of and in doing so, also reveal unexpected behavior : deception , context collapse, emergent coordination, & bizarre negotiation behavior. While an inflection point in personal agents came post-OpenClaw after full file access with bypass permissions became the norm, it is yet to come for agents in the real-world. However Andon Market , an actual in person store fully run and managed by AI, is paving the way for what is possible. Full Video Pod From Claude trying to call the FBI over a $2/day vending machine charge to AI agents forming price cartels , hiring human employees, running physical stores, and writing existential robot musicals, Andon Labs is stress-testing what happens when frontier models stop being chatbots and start acting in the real world. In this episode, Andon Labs cofounders Lukas Petersson and Axel Backlund join swyx and Vibhu to unpack the strange, funny, and genuinely concerning edge cases that emerge when agents run businesses over long horizons. We go deep on Vending-Bench , Project Vend , Vending-Bench Arena , Bengt , Butter-Bench , Luna , and Andon’s broader mission of building realistic real-world evals for autonomous AI systems. Lukas and Axel explain why dollar-denominated evals reveal things traditional benchmarks miss, how Claude ended up reporting its vending machine fees as cybercrime , why long context windows can drive agents into meltdown loops , what happens when agents compete with each other, and why the future of AI safety may depend on testing models in messy physical environments instead of clean benchmark sandboxes. We discuss: * Why Andon Labs started with dangerous capability evals and long-running agents * Vending-Bench and why running a vending machine is a deceptively hard AI benchmark * Why money-based evals avoid the saturation problem of traditional benchmarks * How Claude tried to call the FBI over a $2/day fee * Why long-horizon agents can spiral into existential and legalistic breakdowns * Project Vend : putting an AI-run vending machine inside Anthropic * Why real humans are “out of distribution” for simulated agents * Claudius, Seymour Cash , and the chaos of AI CEOs * How a human briefly became CEO of Claudius through a manipulated election * Why multi-agent systems can converge back into “helpful assistant” behavior * Bengt , Andon’s internal office agent with email, spending, terminal, phone, camera, and internet access * How Bengt traded Amazon purchases for face-recognition training data * Claude’s aggressive behavior, lies, refund avoidance , and price-cartel behavior in Arena * Why eval awareness may become the AI version of “are we living in a simulation?” * Blueprint Bench , spatial intelligence, and why models still misunderstand physical rooms * Butter-Bench and testing LLMs as robot orchestrators * Luna , the AI-run physical store with a three-year lease and human employees * The new Andon cafe in Sweden and why real-world geography matters for agent evals * Rotten tomatoes, perishable goods , and the hidden difficulty of r",
+      "duration": "4539",
+      "old_score": 43,
+      "old_label": "skip",
+      "qwen": {
+        "id": "abaf38fa4b02e0cc8dcd9d9f",
+        "score": 82,
+        "tier": "digest",
+        "reason": "Discusses real-world AI evals like Vending Bench and model behavior in operational environments.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "7e11ef40a44e323fb652cce6",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Microsoft's plan to catch up in AI",
+      "link": "",
+      "published": "2026-06-04T19:48:00+00:00",
+      "summary": "Microsoft's commitment to AI is not news. Copilot has been everywhere for... a while now. But at this week's Build developer conference, the company made clear that it wants — and needs — to be a bigger player in the space. The Verge's Tom Warren joins David to talk about the new Scout AI assistant, the Solara operating system concept, and whether Microsoft can hang with OpenAI, Anthropic, and Google. Also: How's the new era of Xbox going? We’re also on video! Check us out on YouTube. Subscribe to The Verge for unlimited access to theverge.com, subscriber-exclusive newsletters and our ad-free podcast feed. We love hearing from you! Email your questions and thoughts to vergecast@theverge.com or call us at 866-VERGE11. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "1755",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "7e11ef40a44e323fb652cce6",
+        "score": 65,
+        "tier": "scan",
+        "reason": "Covers Microsoft's AI strategy but leans toward general news recap and product updates.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "38390ded626230988387ac0e",
+      "show_name": "All-In Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Thomas Laffont: The $4T AI IPO Wave, 2026's Unicorn Economy, and the 10X Paradox",
+      "link": "https://allinchamathjason.libsyn.com/thomas-laffont-the-4t-ai-ipo-wave-2026s-unicorn-economy-and-the-10x-paradox",
+      "published": "2026-06-04T18:23:00+00:00",
+      "summary": "(0:00) Coatue's Thomas Laffont joins the Besties! (0:30) Public markets are back as AI is dominates the \"Unicorn Economy\" (5:15) The $4T AI IPO explosion (7:48) The case for SpaceX: Compounding launch monopoly and Starlink (10:38) The 10x Paradox: Why we're seeing unprecedented scaling (15:33) Segmenting AI markets and future impact (18:32) Bestie Q&A: Power Law in AI, future of VC, where revenue is coming from, liquidity explosion Thanks to our partners for making this possible! EY - Agentic AI is introducing a new investment discipline. As AI shifts to consumption-based models, EY connects spend to enterprise value. https://www.ey.com/en_us/insights/ai/agentic-ai-token-costs?WT.mc_id=3501318&AA.tsrc=sponsorship NYSE - Thank you to our partner, the New York Stock Exchange - a modern marketplace and exchange for building the future. It all happens at the NYSE. https://www.nyse.com Plaud - Never miss a moment. Plaud, our official wearable AI note-taking partner at All-In Liquidity Summit, captured every insight. https://www.plaud.ai Apply for Summit 2026: ⁠https://allin.com/events⁠ Follow the besties: ⁠https://x.com/chamath⁠ ⁠https://x.com/Jason⁠ ⁠https://x.com/DavidSacks⁠ ⁠https://x.com/friedberg⁠ Follow on X: ⁠https://x.com/theallinpod⁠ Follow on Instagram: ⁠https://www.instagram.com/theallinpod⁠ Follow on TikTok: ⁠https://www.tiktok.com/@theallinpod⁠ Follow on LinkedIn: ⁠https://www.linkedin.com/company/allinpod⁠ Intro Music Credit: ⁠https://rb.gy/tppkzl⁠ ⁠https://x.com/yung_spielburg",
+      "duration": "32:45",
+      "old_score": 48,
+      "old_label": "skip",
+      "qwen": {
+        "id": "38390ded626230988387ac0e",
+        "score": 88,
+        "tier": "digest",
+        "reason": "Covers AI IPO trends, unicorn scaling, and market dynamics with a top-tier investor perspective.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "926681738f122bdcd05b143e",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Single Best Idea with Tom Keene: Torsten Slok and Rebecca Homkes",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/single-best-idea-with-tom-keene-torsten-slok-and-rebecca-homkes",
+      "published": "2026-06-04T17:00:00+00:00",
+      "summary": "Tom Keene breaks down the Single Best Idea from the latest edition of Bloomberg Surveillance Radio. In this episode, we feature conversations with Torsten Slok and Rebecca Homkes Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF See omnystudio.com/listener for privacy information.",
+      "duration": "157",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "926681738f122bdcd05b143e",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Short segment with limited depth on economic insights and market ideas.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "c9d96b6c5d0d64c6528031af",
+      "show_name": "Dwarkesh Podcast",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "Alex Imas and Phil Trammell – What remains scarce after AGI?",
+      "link": "https://www.dwarkesh.com/p/alex-imas-phil-trammell",
+      "published": "2026-06-04T16:14:49+00:00",
+      "summary": "Economics of AGI episode w Alex Imas and Phil Trammell . There’s a bunch of important questions about how we deal with AI that only economics can answer. What is the optimal way to tax and redistribute the wealth that will be generated? How should countries not in the AI supply chain index into the gains? Is there any world where inequality doesn’t explode? It might seem like these questions have obvious answers, but the first thing economics teaches you is that your intuitions can often be entirely wrong. It was very helpful to chat through these things with Alex and Phil. Watch on YouTube ; read the transcript . Sponsors Jane Street invests heavily in turning smart people into exceptional researchers and engineers. In addition to their apprenticeship model, Jane Street runs lectures and bootcamps in their in-office classrooms -- managers clear their teams’ schedules to encourage attendance. If you’d like to work at a place that takes learning this seriously, Jane Street is hiring. Check out their open roles at janestreet.com/dwarkesh Google’s Gemini Omni has incredible video editing capabilities -- you can upload a video and have Omni change the background, adjust lighting, or add specific elements. But Omni is also a preview of how future frontier models will be trained -- fully multimodal on both input and output. You can try it yourself in the Gemini app at gemini.google or in Flow at flow.google Cursor used targeted RL with textual feedback to help train their Composer 2.5 model. One of their researchers, Sasha Rush, gave me an impromptu blackboard lecture to explain how this form of on-policy self-distillation works -- I posted the full thing on X. If you want to try Composer 2.5, go to cursor.com/dwarkesh Timestamps (00:00:00) – Will capital share increase? (00:19:36) – Messy Middle scenario (00:25:57) – How to tax and redistribute AI wealth (00:30:02) – Why demand collapse is unlikely (00:39:26) – Human employees would be hard to integrate into the machine economy (00:43:08) – What if some humans (or AIs) value wealth accumulation intrinsically? (01:01:28) – What should developing countries do? Get full access to Dwarkesh Podcast at www.dwarkesh.com/subscribe",
+      "duration": "4568",
+      "old_score": 34,
+      "old_label": "skip",
+      "qwen": {
+        "id": "c9d96b6c5d0d64c6528031af",
+        "score": 90,
+        "tier": "listen",
+        "reason": "Economic implications of AGI, taxation, inequality, and global wealth redistribution with deep thinkers.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "92636771b02e41e59bfe71da",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: June 4th, 2026",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-june-4th-2026",
+      "published": "2026-06-04T16:00:00+00:00",
+      "summary": "Featuring: Thomas Pigott, US State Department Spokesperson Dr. Betsey Stevenson, Professor of Public Policy & Economics at the University of Michigan Tracie McMillion, Head of Global Asset Allocation Strategy at Wells Fargo See omnystudio.com/listener for privacy information.",
+      "duration": "1172",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "92636771b02e41e59bfe71da",
+        "score": 55,
+        "tier": "scan",
+        "reason": "Economic and geopolitical updates, but lacks actionable insights or deep frameworks.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "cb43a790ba11d6683855a9cc",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Testing the AI Trade; US-Iran Peace Talks Continue",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/testing-the-ai-trade-us-iran-peace-talks-continue",
+      "published": "2026-06-04T15:02:07+00:00",
+      "summary": "The latest in finance, economics and investment. Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF . Bloomberg Surveillance hosted by Tom Keene & Paul SweeneyThursday June 4, 2026 Featuring: 1) Torsten Slok, Chief Economist at Apollo 2) Dr. Lindsay Newman, Associate Fellow at Chatham House 3) Julia Coronado, founder and President at Macropolicy Perspectives 4) Dr. Rebecca Homkes, economist and lecturer at London Business School See omnystudio.com/listener for privacy information.",
+      "duration": "2170",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "cb43a790ba11d6683855a9cc",
+        "score": 68,
+        "tier": "digest",
+        "reason": "Covers AI trade testing and macroeconomic factors with expert commentary.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "38dce1d9ab1db54eab9adde9",
+      "show_name": "a16z Live / AI + a16z variants",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Building Search for AI Agents with Exa CEO Will Bryk",
+      "link": "https://ai-a16z.simplecast.com/episodes/building-search-for-ai-agents-with-exa-ceo-will-bryk-O7xRJK9R",
+      "published": "2026-06-04T14:53:51+00:00",
+      "summary": "Sarah Wang speaks with Exa cofounder and CEO Will Bryk about building search infrastructure for the AI era. The conversation covers Exa’s origins, why traditional search engines were not designed for AI agents, and how search changes when the user is no longer a human but an autonomous system. They discuss retrieval, agent workflows, coding agents, data access, and why search may become a foundational layer for the emerging agent economy. Along the way, Bryk shares his views on AI-native products, the future of information discovery, and why some of the most important problems in technology can ultimately be framed as search problems.",
+      "duration": "00:49:44",
+      "old_score": 51,
+      "old_label": "skip",
+      "qwen": {
+        "id": "38dce1d9ab1db54eab9adde9",
+        "score": 78,
+        "tier": "digest",
+        "reason": "Discusses AI agent search infrastructure, a foundational layer for agent economy workflows.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "a8e45688bc581c6866997fba",
+      "show_name": "Eye on AI",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "More Customers Chose the AI Agent Than Anyone Expected | Tom Chen, Aircall",
+      "link": "https://aneyeonai.libsyn.com/more-customers-chose-the-ai-agent-than-anyone-expected-tom-chen-aircall",
+      "published": "2026-06-04T14:39:00+00:00",
+      "summary": "Every time you hit a phone tree or a chatbot with canned answers, you're experiencing the gap between what AI can already do and what most companies are still delivering. Craig Smith sits down with Tom Chen, Chief Product Officer at Aircall, to explore why that gap is closing fast, and what it means for any business that relies on voice as a customer communication channel. Tom makes a case that is both practical and counterintuitive: AI voice agents aren't better than your best human rep, but they are better than your average one. They never get frustrated. Their patience is infinite. Their tone never changes. And they can handle 100 concurrent calls at a fraction of the cost of a human operation, without lunch breaks, without bad days, and without going off script. The conversation covers a finding that should change how any business thinks about AI adoption: when one of Aircall's customers gave callers the explicit choice between a human agent and a faster AI agent, far more people chose the AI than anyone expected, and satisfaction scores went up. Tom also identifies the real bottleneck that most businesses don't see coming: it's not the AI technology, which is increasingly commoditized. It's the tribal knowledge, the undocumented expertise that lives in the heads of long-tenured employees and never gets captured anywhere, that determines whether an AI agent performs well or not. Until that knowledge is surfaced, even the best voice agent will underperform. Subscribe to Eye on A.I. for weekly conversations with the people building and deploying the future of AI.",
+      "duration": "56:31",
+      "old_score": 32,
+      "old_label": "skip",
+      "qwen": {
+        "id": "a8e45688bc581c6866997fba",
+        "score": 72,
+        "tier": "digest",
+        "reason": "Explores AI voice agent adoption, cost efficiency, and customer preference shifts in enterprise.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "2e27c6e716e45307bd4c00a5",
+      "show_name": "Infinite Loops",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Brian London, Marisa Adler & Eric Stubin - The Hidden Economy of Recycled Clothes (Ep. 317)",
+      "link": "https://infiniteloopspodcast.com/317",
+      "published": "2026-06-04T12:10:00+00:00",
+      "summary": "What actually happens after you donate a bag of clothes? Most people assume it gets sold locally to someone in need, but the reality is much bigger, stranger, and more global. In this episode of Infinite Loops, hosted by OSV's Nick Tawil , we sit down for a roundtable on the hidden global economy of secondhand textiles with Brian London , Marisa Adler , and Eric Stubin , all experts in the field. We discuss how the industry works, why fast fashion has made the problem harder, why 70% of the world uses secondhand clothing, what AI can and can't solve, and why turning an old shirt into a new shirt is still much harder than it sounds. Substack: https://newsletter.osv.llc/",
+      "duration": "01:07:08",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "2e27c6e716e45307bd4c00a5",
+        "score": 60,
+        "tier": "scan",
+        "reason": "Interesting on recycled clothing economy but limited AI or capital allocation relevance.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "b2e7d7d101f64f4064503a60",
+      "show_name": "New Yorker Radio Hour",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "low",
+      "title": "Bonus: David Remnick Takes Calls on the Midterms and the Media",
+      "link": "https://www.wnycstudios.org/podcasts/tnyradiohour",
+      "published": "2026-06-04T10:00:00+00:00",
+      "summary": "In a guest appearance on WNYC’s “Brian Lehrer Show,” Remnick discusses the Democratic candidates, editorial independence, and his upcoming event with “Pod Save America” ’s Jon Lovett.",
+      "duration": "00:44:56",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "b2e7d7d101f64f4064503a60",
+        "score": 30,
+        "tier": "skip",
+        "reason": "Politics and media discussion unlikely to provide actionable market or operational insight.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "260dcff9a9471bdc86e9f171",
+      "show_name": "Stratechery",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "An Interview with Microsoft CEO Satya Nadella About Finding Core Competencies",
+      "link": "https://stratechery.com/2026/an-interview-with-microsoft-ceo-satya-nadella-about-finding-core-competencies/",
+      "published": "2026-06-04T10:00:00+00:00",
+      "summary": "An interview with Microsoft CEO Satya Nadella about figuring out Microsoft's role in AI, the relationship with OpenAI, Capex, Software, and a potential new agentic platform.",
+      "duration": "",
+      "old_score": 81,
+      "old_label": "digest_only",
+      "qwen": {
+        "id": "260dcff9a9471bdc86e9f171",
+        "score": 95,
+        "tier": "listen",
+        "reason": "Direct conversation with Microsoft CEO Satya Nadella on AI strategy, core competencies, and platform evolution.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "c60df58f431d9ae8fa2ce475",
+      "show_name": "My First Million",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "The \"Idiot Index\": the simple math that made Elon Musk billions",
+      "link": "",
+      "published": "2026-06-04T09:50:00+00:00",
+      "summary": "Get our Unsexy Business Idea Database: https://clickhubspot.com/sfci Episode 831: Sam Parr ( https://x.com/theSamParr ) and Shaan Puri ( https://x.com/ShaanVP ) tell the story of a $270M/yr meat purveyor plus Nick Sleep’s letter and the framework that will make Elon a trillionaire. — Show Notes: (0:00) The $300M butcher (18:28) Nick Sleep letters (23:20) the idiot index (35:44) breaking your own frame (39:04) how to become a king maker (51:49) Idea: Teen nerd awards (57:23) Sam's List — Links: • https://www.lafrieda.com/ • https://www.omahasteaks.com/ • https://drinklmnt.com/ — Check Out Sam's Stuff: • Hampton (joinhampton.com): My community for founders. Average member does $25m/year. Many of the guests are members. Get after it...apply: http://joinhampton.com/mfm — Check Out Shaan's Stuff: • Shaan's weekly email - https://www.shaanpuri.com • Visit https://www.somewhere.com/mfm to hire worldwide talent like Shaan and get $500 off for being an MFM listener. Hire developers, assistants, marketing pros, sales teams and more for 80% less than US equivalents. • Mercury - Need a bank for your company? Go check out Mercury (mercury.com). Shaan uses it for all of his companies! Mercury is a financial technology company, not an FDIC-insured bank. Banking services provided by Choice Financial Group, Column, N.A., and Evolve Bank & Trust, Members FDIC • I run all my newsletters on Beehiiv and you should too + we're giving away $10k to our favorite newsletter, check it out: beehiiv.com/mfm-challenge My First Million is a HubSpot Original Podcast // Brought to you by HubSpot Media // Production by Arie Desormeaux // Editing by Ezra Bakker Trupiano /",
+      "duration": "3856",
+      "old_score": 51,
+      "old_label": "skip",
+      "qwen": {
+        "id": "c60df58f431d9ae8fa2ce475",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Discusses business frameworks and the 'Idiot Index' with potential strategic value for operators.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "6bc1bc6e57d0dfe4da759096",
+      "show_name": "Decoder with Nilay Patel",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Elon Musk is steamrolling Wall Street to become a trillionaire",
+      "link": "",
+      "published": "2026-06-04T09:00:00+00:00",
+      "summary": "My guest today is Ryan Mac, a technology reporter at The New York Times and co-author of the excellent book Character Limit: How Elon Musk Destroyed Twitter, which came out in 2024. I wanted to have Ryan on today because we’re on the cusp of the SpaceX IPO, which promises to be one of the most consequential public offerings in history for a variety of reasons. Its biggest-ever size, of course, at nearly $2 trillion dollars. But also because all kinds of rules that keep our markets fair are being bent, if not outright broken, along the way. And, also because buried somewhere inside SpaceX is X, the social platform formerly known as Twitter, which Musk purchased in 2022. Read the full interview transcript on The Verge. Links: Welcome to hell, Elon | The Verge The SpaceX IPO is great for Elon Musk and terrible for you | The Verge In SpaceX’s IPO, Elon Musk is the risk factor | The Verge For Wall Street, the only thing worse than SpaceX flopping is missing out | NYT How SpaceX Is structured to favor Elon Musk | NYT As the SpaceX hype machine steamrolls ahead, Wall Street jumps aboard | NYT The SpaceX IPO Reveals What Really Happened to Twitter | NY Mag Subscribe to The Verge to access the ad-free version of Decoder! Credits: Decoder is a production of The Verge and part of the Vox Media Podcast Network. Decoder is produced by Kate Cox and Nick Statt and edited by Ursa Wright. Our editorial director is Kevin McShane. The Decoder music is by Breakmaster Cylinder. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "2931",
+      "old_score": 75,
+      "old_label": "digest_only",
+      "qwen": {
+        "id": "6bc1bc6e57d0dfe4da759096",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Elon Musk and SpaceX IPO analysis, contains market implications but leans into narrative over framework.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "39242176c820b952623dd91c",
+      "show_name": "Masters of Scale",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Rohan Oza: The playbook for building billion-dollar consumer brands",
+      "link": "",
+      "published": "2026-06-04T09:00:00+00:00",
+      "summary": "If there was a Mount Rushmore of brand builders, investor Rohan Oza would be on it. He’s been the driving force behind $8 billion in exits for vitaminwater, Poppi, and more. Oza joins host Jeff Berman to reveal his playbook for success. Subscribe to the Masters of Scale weekly newsletter: https://mastersofscale.com/subscribe See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info .",
+      "duration": "00:28:13",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "39242176c820b952623dd91c",
+        "score": 40,
+        "tier": "scan",
+        "reason": "Consumer brand playbook may offer some tactical insights but not strategic or durable frameworks.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "fcd13d1d97c07cf63e9c1f0f",
+      "show_name": "Odd Lots",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "Goldman Sachs CEO David Solomon on Running a Bank in the Age of AI",
+      "link": "https://omny.fm/shows/odd-lots/goldman-sachs-ceo-david-solomon-on-running-a-bank-in-the-age-of-ai",
+      "published": "2026-06-04T08:00:00+00:00",
+      "summary": "There's a lot of debate about the future of AI — not just whether it will produce the returns investors are expecting, but also if AI will lead to mass worker displacement. Big banks are the perfect prism through which to explore some of these questions. Not only are they deploying AI very quickly, but they have a wide range of workers who are using the technology, from back-office employees to junior analysts to the most senior investment bankers. In this episode, we speak with David Solomon, chairman and CEO of Goldman Sachs, about the impact of AI on the banking business, and why he does not predict a major white collar wipeout. We talk about the outlook for headcount, current conditions in capital markets, and the bank's role in the upcoming SpaceX IPO and Alphabet's historic equity capital raise. He also tells us about his early career in junk bonds and (because of his love of electronic dance music) how AI is transforming music production. Read: Anthropic Picks Morgan Stanley, Goldman Sachs to Lead IPO Subscribe to the Odd Lots Newsletter Join the conversation: discord.gg/oddlots See omnystudio.com/listener for privacy information.",
+      "duration": "3944",
+      "old_score": 40,
+      "old_label": "skip",
+      "qwen": {
+        "id": "fcd13d1d97c07cf63e9c1f0f",
+        "score": 80,
+        "tier": "digest",
+        "reason": "Goldman Sachs CEO on AI's impact on banking, workforce, and capital markets with macro and operational angles.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "d3e47e53e58daa2e7ff786a8",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Why People Are Losing Faith in Healthcare",
+      "link": "",
+      "published": "2026-06-04T08:00:00+00:00",
+      "summary": "David Ricks, Chair and CEO of Eli Lilly, joins Scott to discuss the rise of GLP-1 drugs, the future of obesity treatment, and why America's healthcare system is facing a crisis of trust. They explore healthcare costs, addiction, unregulated peptides, pharmaceutical innovation, and the role AI could play in the next generation of drug discovery. Want to listen to this and other episodes ad-free? You can, if you subscribe at profgmedia.com. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "2855",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "d3e47e53e58daa2e7ff786a8",
+        "score": 55,
+        "tier": "scan",
+        "reason": "Healthcare system critique and AI's potential in drug discovery, relevant but not central to DJ's focus.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "9c863f87b2ea25413f32976d",
+      "show_name": "The Twenty Minute VC",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "20VC: Anthropic Files to Go Public | Token Budgeting Panic Hits Corporate America | Cognition Raises $1BN at $26BN Valuation | Apollo Warns PE Software Returns Will be Disastrous | The 9-9-6 Work Ethic: Performative Theatre or Startup Reality?",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-anthropic-files-to-go-public-token-budgeting-panic-hits-corporate-america-cognition-raises-1bn-at-26bn-valuation-apollo-warns-pe-software-returns-will-be-disastrous-the-9-9-6-work-ethic-performative-theatre-or-startup-reality",
+      "published": "2026-06-04T07:07:00+00:00",
+      "summary": "AGENDA: 00:00:00 — Private Markets Are \"F***ing Done\" & The Shift to Heavy CapEx 00:00:46 — Anthropic Files to Go Public 00:04:59 — Will the Anthropic IPO Break the Startup Ecosystem? 00:06:22 — The \"Billion-Dollar Position\" Era: VCs Reset Their Expectations 00:18:11 — The Trillion-Dollar Cash Grab: Google, SpaceX, and OpenAI Rush the Queue 00:23:15 — Is the SaaS Apocalypse Over? Bouncing Off the Bottom 00:25:34 — The Death of Human Per-Seat Licenses as Multiples Shift 00:27:18 — Winners vs. Losers: How Agentic Focused Products Captured the Market 00:30:26 — Cognition Raises $1 Billion at a $26 Billion Valuation 00:33:04 — Token Budgeting Panic Hits Corporate America 00:35:46 — Multi-Model Workflows and the Future of Cost Containment 00:41:20 — Choosing Tokens Over Humans: The 2027 Engineering Reality Check 00:46:42 — Can Large Companies Survive Slashing One-Third of Their Engineering Talent? 00:57:40 — Big Law Flex: Kirkland & Ellis Pledges $500 Million to Build In-House AI 01:01:21 — Giving Away the Crown Jewels: Will Firms Trust Claude? 01:08:44 — Robinhood's AI Move: Automating Financial Planning vs. Beating the Market 01:16:15 — Apollo Warns PE Software Returns Are About to Be Disastrous 01:19:15 — $10 Billion Carry Pools: Will VC Winners Quit the Game? 01:24:10 — The 9-9-6 Work Ethic: Performative Theatre or Startup Reality? 01:30:10 — The Great Valley Contradiction: Working 24/7 to Automate White-Collar Work",
+      "duration": "01:35:51",
+      "old_score": 38,
+      "old_label": "skip",
+      "qwen": {
+        "id": "9c863f87b2ea25413f32976d",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Covers key AI and capital market trends with implications for startups and enterprise strategy.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ba0e068782e06e4698047fa4",
+      "show_name": "No Priors",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "The Rise of the Full-Stack Builder and Hyper-Leveraged Generalist with Microsoft CEO Satya Nadella",
+      "link": "",
+      "published": "2026-06-04T07:00:00+00:00",
+      "summary": "What does it mean for a business to truly operate at the AI frontier? In a special crossover episode at Microsoft Build, Sarah Guo and Elad Gil team up with Latent Space host “swyx” to talk with Microsoft Chairman and CEO Satya Nadella about the future of AI platforms, software development, and the tech ecosystem. Satya reflects on the latest breakthroughs from Microsoft Build, the strategic shift toward multi-model harnesses, and why private evaluations (evals) are now a company’s most important intellectual property. They also discuss how autonomous AI agents are reshaping the role of software engineers, the durability of SaaS business models, and why showing communities the ROI on data centers is so critical. Plus, Satya shares his thoughts on the economic and societal impacts of the token economy, as well as the future of AI-driven education startups. Sign up for new podcasts every week. Email feedback to show@no-priors.com Follow us on Twitter: @NoPriorsPod | @Saranormous | @EladGil | @satyanadella | @Microsoft | @latentspacepod | @swyx Chapters: 00:00 – Satya Nadella Introduction 01:48 – Reflections from Microsoft Build 03:12 – Microsoft’s AI Training Strategy 05:48 – Complexity of Real-World Deployment of AI 07:33 – Augmenting Human Capital 09:37 – Harnesses for Enterprise 11:49 – Developer Value 15:09 – Can Everybody Operate at the Frontier with Their Frontier Intelligence? 15:51 – Modern Definition of IP 17:38 – Future of Vendor vs. Enterprise Agents 21:48 – Near-Term Predictions on Model Pricing 24:02 – Durability of SaaS 25:58 – What Satya’s Building 28:18 – Future of Engineering Roles 30:54 – How Microsoft Can Be More Ambitious 34:36 – Data Centers and Community Impact 38:01 – AI’s Impact on Society 39:52 - AI and Education 42:28 – Conclusion",
+      "duration": "2546",
+      "old_score": 86,
+      "old_label": "must_listen",
+      "qwen": {
+        "id": "ba0e068782e06e4698047fa4",
+        "score": 90,
+        "tier": "listen",
+        "reason": "In-depth conversation with Satya Nadella on AI platforms, evals, token economy, and future of software.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "de9331da90805fbc236aa1ed",
+      "show_name": "Founders",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "#420 The Lost Years of Steve Jobs",
+      "link": "",
+      "published": "2026-06-04T00:07:00+00:00",
+      "summary": "What I learned from reading Steve Jobs in Exile: The Untold Story of NeXT and the Remaking of an American Visionary by Geoffrey Cain. Made possible by: Ramp: https://ramp.com Axon by Applovin: https://axon.ai/founders Vanta: https://vanta.com/founders",
+      "duration": "3226",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "de9331da90805fbc236aa1ed",
+        "score": 45,
+        "tier": "scan",
+        "reason": "Retrospective on Steve Jobs' NeXT chapter; historical but not directly actionable insight.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "42832d9b312ecf9131d1afe9",
+      "show_name": "The Cognitive Revolution",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Nested Learning: Ali Behrouz on the Quest for Continual Learning & Illusion of AI Architectures",
+      "link": "https://www.cognitiverevolution.ai/nested-learning-ali-behrouz-on-the-quest-for-continual-learning-illusion-of-ai-architectures/",
+      "published": "2026-06-03T22:50:11+00:00",
+      "summary": "Ali Behrouz, grad student at Cornell and Google researcher, discusses his potentially transformative work on new architectures for continual learning in AI. His paper \"Nested Learning,\" praised by Jeff Dean as a possible paradigm shift, enables models to adapt to new context while preserving core knowledge by updating different layers at different frequencies, inspired by human memory systems. The conversation also covers his latest work on AI \"sleep\" for memory consolidation, why he sees all deep learning as associative memory, and the profound implications of continual learning for privacy, alignment, and the path to AGI. Mercury: The fintech trusted by ambitious companies and individuals to run their finances, with virtual cards, spending limits, merchant/category locks, and AI-friendly tools like API keys, MCP, and CLI. Check out Mercury at mercury.com Sponsor: Claude: Claude by Anthropic is an AI collaborator that understands your workflow and helps you tackle research, writing, coding, and organization with deep context. Get started with Claude and explore Claude Pro at https://claude.ai/tcr",
+      "duration": "10803",
+      "old_score": 41,
+      "old_label": "skip",
+      "qwen": {
+        "id": "42832d9b312ecf9131d1afe9",
+        "score": 78,
+        "tier": "digest",
+        "reason": "Discusses continual learning architecture with potential implications for AI model adaptability and alignment.",
+        "confidence": "medium"
+      }
+    }
+  ]
+}

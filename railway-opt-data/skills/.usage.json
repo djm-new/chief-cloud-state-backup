@@ -16,27 +16,27 @@
     "archived_at": null,
     "created_at": "2026-05-27T12:08:01.270884+00:00",
     "created_by": "agent",
-    "last_patched_at": "2026-06-07T12:39:48.255042+00:00",
-    "last_used_at": "2026-06-08T01:31:12.516849+00:00",
-    "last_viewed_at": "2026-06-08T01:31:12.511614+00:00",
-    "patch_count": 9,
+    "last_patched_at": "2026-06-08T12:19:01.587858+00:00",
+    "last_used_at": "2026-06-08T12:19:17.370551+00:00",
+    "last_viewed_at": "2026-06-08T12:19:17.365983+00:00",
+    "patch_count": 19,
     "pinned": false,
     "state": "active",
-    "use_count": 18,
-    "view_count": 18
+    "use_count": 23,
+    "view_count": 23
   },
   "daily-business-briefing": {
     "archived_at": null,
     "created_at": "2026-05-26T21:01:01.030914+00:00",
     "created_by": null,
-    "last_patched_at": "2026-06-05T14:23:52.149537+00:00",
-    "last_used_at": "2026-06-07T21:05:59.561478+00:00",
-    "last_viewed_at": "2026-06-05T14:12:51.738373+00:00",
-    "patch_count": 20,
+    "last_patched_at": "2026-06-08T12:26:26.415255+00:00",
+    "last_used_at": "2026-06-08T12:18:16.875133+00:00",
+    "last_viewed_at": "2026-06-08T12:18:16.870283+00:00",
+    "patch_count": 22,
     "pinned": false,
     "state": "active",
-    "use_count": 26,
-    "view_count": 19
+    "use_count": 27,
+    "view_count": 20
   },
   "devops/cron-job-design": {
     "archived_at": null,
@@ -94,14 +94,27 @@
     "archived_at": null,
     "created_at": "2026-06-04T16:57:48.542313+00:00",
     "created_by": "agent",
-    "last_patched_at": "2026-06-07T12:39:44.466719+00:00",
-    "last_used_at": "2026-06-07T12:39:53.025677+00:00",
-    "last_viewed_at": "2026-06-07T12:39:53.004837+00:00",
-    "patch_count": 23,
+    "last_patched_at": "2026-06-08T10:47:34.899266+00:00",
+    "last_used_at": "2026-06-08T10:46:58.021956+00:00",
+    "last_viewed_at": "2026-06-08T10:46:58.014094+00:00",
+    "patch_count": 34,
     "pinned": false,
     "state": "active",
-    "use_count": 13,
-    "view_count": 13
+    "use_count": 20,
+    "view_count": 20
+  },
+  "productivity:daily-business-briefing": {
+    "archived_at": null,
+    "created_at": "2026-06-08T12:25:56.522717+00:00",
+    "created_by": null,
+    "last_patched_at": null,
+    "last_used_at": "2026-06-08T12:25:56.528098+00:00",
+    "last_viewed_at": "2026-06-08T12:25:56.522741+00:00",
+    "patch_count": 0,
+    "pinned": false,
+    "state": "active",
+    "use_count": 1,
+    "view_count": 1
   },
   "railway-app-deployment": {
     "archived_at": null,
@@ -115,5 +128,18 @@
     "state": "active",
     "use_count": 6,
     "view_count": 6
+  },
+  "software-development/systematic-debugging": {
+    "archived_at": null,
+    "created_at": "2026-06-08T12:34:46.109076+00:00",
+    "created_by": null,
+    "last_patched_at": null,
+    "last_used_at": "2026-06-08T12:34:46.133736+00:00",
+    "last_viewed_at": "2026-06-08T12:34:46.109125+00:00",
+    "patch_count": 0,
+    "pinned": false,
+    "state": "active",
+    "use_count": 1,
+    "view_count": 1
   }
 }

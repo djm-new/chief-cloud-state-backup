@@ -25,20 +25,6 @@ MODEL = os.getenv("PODCAST_OSS_MODEL", "qwen/qwen3-235b-a22b")
 BATCH_SIZE = int(os.getenv("PODCAST_SCORE_BATCH_SIZE", "10"))
 
 
-def get_openrouter_key():
-    val = os.getenv("OPENROUTER_API_KEY")
-    if val:
-        return val
-    # Railway gateway quirk: terminal subprocess env can be stale after redeploy.
-    try:
-        for item in Path("/proc/1/environ").read_bytes().split(b"\0"):
-            if item.startswith(b"OPENROUTER_API_KEY="):
-                return item.split(b"=", 1)[1].decode()
-    except Exception:
-        pass
-    return None
-
-
 def clean(text, limit=1000):
     if not text:
         return ""

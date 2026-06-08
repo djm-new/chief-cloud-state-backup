@@ -23,8 +23,25 @@ Guidance for writing cron scripts and cron job configurations that are genuinely
 A cron job that fires every N minutes and delivers verbose stats even when nothing is wrong is noise. The right model:
 
 - **Silent when OK.** Output nothing. The cron delivery system only sends output to Telegram (or wherever) if the script prints something.
-- **Alert only when something actionable is happening.** The output must answer: *what broke, what context do I need to understand it, and what (if anything) should DJ do?*
+- **Use exactly three states when you do alert:**
+  1. **OK** — everything is fine; no DJ action.
+  2. **Warning** — something is off but not broken; say what is wrong and what DJ needs to do.
+  3. **Broken** — something is broken; say what is broken and what DJ needs to do now.
+- **Alert only when something actionable is happening.** The output must answer: *what broke, what context do I need to understand it, and what exact action does DJ need to take?* If the action is for Hermes, say `DJ action: none. Hermes should ...` explicitly.
 - **Never send a raw status block** — not memory/disk/process stats, not file ages, not check counts. Those belong in a status file written to disk for later inspection, not pushed to the user proactively.
+
+## Report jobs: daily + weekly, with truthful zeroes
+
+Spend-style report jobs are not health alerts. They should be designed as **explicit daily and weekly summaries** with stable cadence and unambiguous windows.
+
+Rules:
+- **Daily and weekly should both exist** when the user asks for both. Do not assume a daily job covers the weekly need.
+- **Report the actual ledger result, even if it is zero.** If spend is `0.0000` or the pricing source is `included`, say that plainly instead of implying failure or activity.
+- **Do not infer work happened from the existence of a scheduled run.** A successful cron wakeup is not evidence that any spend events occurred.
+- **Call out pricing caveats explicitly.** If `estimated_cost_usd` is zero because the provider or pricing path is still unresolved, the report should surface that as a caveat, not hide it.
+- **Use the same source of truth for both cadence variants** so the daily and weekly numbers reconcile (same ledger, different window).
+
+For spend reports, the primary question is: *what did the ledger record in the window?* Not: *did the job run?*
 
 ---
 
@@ -61,16 +78,35 @@ Key rules:
 - "Useful context" = metrics only when the issue could be caused by resource pressure.
 - Never combine "needs attention" with "DJ action: none." That is contradictory and DJ explicitly rejected it.
 
-## Long-running multi-step cron pipelines
+## LLM-backed cron jobs: use the shared accounting helper
 
-Some workflows look like a single cron job on paper but are really a pipeline of independent steps (collect -> enrich -> score -> render -> deliver). If the full chain can exceed a small shell timeout, do *not* keep retrying the monolithic wrapper blindly.
+When a cron job calls OpenRouter directly from a script, prefer the shared helper pattern used by Hermes-owned scripts instead of hand-rolling `requests.post(...)` plus ad hoc usage logging.
 
-Prefer one of these patterns:
-- split the work into separate jobs with persisted artifacts between steps;
-- run the heavy part in a background process and verify the final artifact before delivery;
-- shorten the pipeline by reusing cached collection/scoring artifacts when the user only wants a recent-window digest.
+Guideline:
+- centralize request + spend recording in a shared helper;
+- attach stable metadata like `project_slug`, `source`, `platform`, and a stage name;
+- verify the rollout by compiling the changed scripts and searching for lingering direct OpenRouter URL calls in the active script tree.
 
-Verification tip: the most useful success signal is usually the final artifact path or the delivered markdown, not just a zero exit code from the first stage.
+This keeps token tracking, cost estimation, and ledger attribution aligned across future projects.
+
+## Spend reports: use the session insights path, not the raw ledger
+
+For Hermes daily/weekly spend reporting, the authoritative reporting source is the *session insights* path (`SessionDB` + `InsightsEngine`), not the narrower `agent.spend_ledger` table alone.
+
+Why:
+- the raw ledger can show only a partial view of spend attribution;
+- `InsightsEngine.generate(days=...)` already exposes `estimated_cost` and `actual_cost` plus session/model/platform breakdowns;
+- daily and weekly reports should answer: estimated spend, actual billed spend, sessions, tokens, and the top models/platforms driving cost.
+
+Recommended reporting shape:
+- *Daily*: last 24h estimated spend, actual billed spend, sessions, tokens, included sessions, unknown pricing sessions, top models, top platforms.
+- *Weekly*: last 7d estimated spend, actual billed spend, sessions, tokens, included sessions, unknown pricing sessions, top models, top platforms.
+
+If a spend report prints `$0.0000`, do not assume the report is healthy. Check whether the data path is using the session insights engine or a ledger that undercounts/omits the relevant fields.
+
+Support files:
+- `references/spend-reporting.md`
+- `references/chief-alert-triage.md`
 
 Repeated identical alerts are noise. Use a fingerprint+cooldown pattern in bash scripts:
 
@@ -199,6 +235,7 @@ Then make each cron script output its own concise self-identifying line, e.g. `C
 
 ## Pitfalls
 
+- **`script` is a path, not a shell command.** Do not set cron `script` to values like `foo.py weekly` or `foo.sh --flag`; Hermes resolves the whole string as a filename under `/opt/data/scripts/` and will fail with `Script not found`. Create a tiny wrapper script (`foo_weekly.sh`) that calls the underlying command with arguments, then set `script` to that wrapper path.
 - **Never emit verbose output unconditionally.** Even "looks good" summaries are noise when they arrive 48 times a day.
 - **Don't schedule daily jobs hourly just to handle time zones.** DJ explicitly pushed back on hourly wakeups for a once-daily Daily ToM job. For a daily local-time job with DST, prefer a narrow UTC candidate schedule (for ET 5AM: `0 9,10 * * *`) plus an in-script local-time/date guard so only one candidate performs work and the other exits silently.
 - **Don't suppress logs** — write full detail to a status file so Hermes can read it on-demand; just don't push it to Telegram automatically.
@@ -213,3 +250,4 @@ Then make each cron script output its own concise self-identifying line, e.g. `C
 
 - `references/chief-health-check-design.md` — the specific Railway Chief health check implementation and the DJ feedback that shaped this pattern.
 - `references/telegram-vs-cron-replies.md` — how to tell a live Telegram topic reply from a silent cron delivery when a user says a topic is "not replying."
+- `references/spend-reporting.md` — daily/weekly spend report lessons: truthful zeroes, pricing caveats, and ledger-first reporting.

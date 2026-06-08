@@ -1,17 +1,21 @@
-User prefers concise direct answers and current-state-first Hermes/Telegram explanations; monitors should be silent on OK and alert-only on actionables.
+User prefers concise, current-state-first alerts; spend reports should break down by project, workflow, and model.
 §
 DJ wants Flow Slack briefings in Telegram Briefings topic 4; action items go in one Action list additions section.
 §
-User prefers explicit approval before recurring monitors; Google is read-only unless DJ explicitly requests edits or sends.
+User prefers explicit approval before recurring monitors; Google is read-only unless DJ requests edits or sends.
 §
-User expects direct CLI execution when access exists; keep building/verifying/deploying until done or blocked; clarify ambiguous design/live changes first.
+User expects direct execution when possible and clear verification before saying work is complete.
 §
-Health app prefs: daily ledger history, finalize yesterday, editable meals, tap-done workouts with edits, fast text meal logging, web lookups for brands/restaurants, manual weight, Apple Watch calories with TDEE fallback.
+Health app prefs: daily ledger history; finalize yesterday; editable meals/workouts; fast text meal logging; web lookups for brands/restaurants; manual weight; Apple Watch calories with TDEE fallback.
 §
-DJ podcast prefs: score episodes not shows; daily wide-net text; weekly tightly tuned audio; keep storage lean and preserve durable taste patterns. Follow Benedict Evans for calibration.
+DJ podcast prefs: score episodes over shows; keep storage lean.
 §
 DJ wants dynamic on-the-fly model switching and prefers DeepSeek V4 Pro over Haiku for lightweight/open-source tasks.
 §
-User does not want Telegram topics referred to by numeric topic IDs (e.g., “topic 5”); use the actual human-readable topic names the user has given instead.
+User does not want Telegram topics referred to by numeric IDs; use the human-readable topic names instead.
 §
 DJ prefers the podcast intelligence digest delivered daily to the Telegram Briefings channel at 5PM ET.
+§
+User prefers that I not imply work was done recently unless it is explicitly verified; live checks should not be framed as completed work.
+§
+DJ wants Top of Mind items appended to the bottom by default; only priority/starred items should go to the top. Personal errand/travel items should route to Personal.

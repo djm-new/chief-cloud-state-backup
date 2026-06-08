@@ -55,15 +55,36 @@ if ! pgrep -af 'hermes gateway run' >/dev/null 2>&1; then
 fi
 
 operational_health=""
+operational_issues=""
 if [ -x /opt/data/scripts/chief_operational_health.py ]; then
   if ! operational_health="$(/opt/data/scripts/chief_operational_health.py 2>&1)"; then
-    issues+=("Chief operational health checks found issues.")
+    operational_issues="$(printf '%s\n' "$operational_health" | grep '^Issue:' | sed 's/^Issue: //')"
+    if [ -n "$operational_issues" ]; then
+      while IFS= read -r issue; do
+        [ -n "$issue" ] && issues+=("$issue")
+      done <<EOF
+$operational_issues
+EOF
+      dj_action_required=1
+    else
+      issues+=("Chief operational health checks found issues.")
+      dj_action_required=1
+    fi
   fi
 fi
 
 recent_errors=""
 if [ -f /opt/data/logs/gateway.log ]; then
-  recent_errors="$(tail -300 /opt/data/logs/gateway.log | grep -Ei '^[0-9-]+ [0-9:,]+ (ERROR|CRITICAL) |Traceback|OutOfMemory|killed process' | tail -10 || true)"
+  recent_errors="$(tail -300 /opt/data/logs/gateway.log \
+    | grep -Ei '^[0-9-]+ [0-9:,]+ (ERROR|CRITICAL) |Traceback|OutOfMemory|killed process' \
+    | awk '
+        /Another gateway instance \(PID 1\) started during our startup\. Exiting to avoid double-running\./ { next }
+        /slash-confirm callback failed:/ && index($0, "Can\047t parse entities: can\047t find end of the entity starting at byte offset") { skip_tb=1; next }
+        skip_tb && /^Traceback \(most recent call last\):$/ { skip_tb=0; next }
+        skip_tb { next }
+        { print }
+      ' \
+    | tail -10 || true)"
   if [ -n "$recent_errors" ]; then
     issues+=("Recent severe gateway log lines were found.")
     dj_action_required=1
@@ -94,6 +115,41 @@ fi
   fi
 } > "$STATUS_FILE"
 
+action_for_issue() {
+  case "$1" in
+    "Memory is high:"*)
+      echo "Reduce memory use or restart the largest memory-hungry process."
+      ;;
+    "Railway volume disk usage is high:"*)
+      echo "Free disk space under /opt/data by pruning old logs, caches, or artifacts."
+      ;;
+    "Could not find a running 'hermes gateway run' process."*)
+      echo "Restart the Hermes gateway process."
+      ;;
+    "Recent severe gateway log lines were found."*)
+      echo "Open /opt/data/logs/gateway.log and inspect the matching ERROR/CRITICAL lines."
+      ;;
+    "Missing file:"*)
+      echo "Create or restore the missing file named above."
+      ;;
+    "File appears empty:"*)
+      echo "Regenerate the empty file named above."
+      ;;
+    "Stale file:"*)
+      echo "Regenerate or refresh the stale file named above."
+      ;;
+    "Hot file too large:"*)
+      echo "Trim, archive, or rotate the oversized file named above."
+      ;;
+    "* failed:"*)
+      echo "Run the named check again and fix the underlying failure it reports."
+      ;;
+    *)
+      echo "Inspect the issue details above and fix the named problem."
+      ;;
+  esac
+}
+
 emit_actionable_alert() {
   if [ "${#issues[@]}" -eq 0 ]; then
     echo "✅ Chief OK"
@@ -104,11 +160,7 @@ emit_actionable_alert() {
     return
   fi
 
-  if [ "$dj_action_required" -eq 1 ]; then
-    echo "⚠️ Chief needs DJ attention"
-  else
-    echo "ℹ️ Chief Hermes follow-up logged"
-  fi
+  echo "⚠️ Chief needs DJ attention"
   echo "Time: $now_utc"
   echo ""
   echo "What changed:"
@@ -131,11 +183,13 @@ emit_actionable_alert() {
     fi
   fi
   echo ""
-  if [ "$dj_action_required" -eq 1 ]; then
-    echo "DJ action: review/respond if this blocks expected operation."
-  else
-    echo "DJ action: none. Hermes should investigate/fix if this is not expected."
-  fi
+  echo "DJ action:"
+  for issue in "${issues[@]}"; do
+    action="$(action_for_issue "$issue")"
+    if [ -n "$action" ]; then
+      printf -- '- %s\n' "$action"
+    fi
+  done
 }
 
 if [ "${CHIEF_HEALTH_ALWAYS_REPORT:-0}" = "1" ]; then

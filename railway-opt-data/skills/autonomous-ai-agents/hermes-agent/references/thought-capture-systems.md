@@ -28,8 +28,9 @@ thoughts:
 ```
 
 - Hook early in `BasePlatformAdapter.handle_message()` before normal session locking/LLM dispatch. Return `(handled, response)` semantics: captures are silent on success; retrieval-style questions return excerpts.
+- For command-like requests in the thought-capture topic, parse and handle them before generic capture. Example: Daily ToM quick-add phrases such as `add to top of mind "XM comp check"`, `add "XM comp check" to top of mind`, or `tom: XM comp check` should call a deterministic Google Docs updater and return a confirmation, not fall through to ordinary thought capture. Keep parsers conservative and exact-prefix based so normal thoughts are not accidentally converted into commands.
 - Match by platform + chat_id + optional thread/topic id. For Telegram forum topics, delivery/capture targets use `telegram:<chat_id>:<message_thread_id>` and `SessionSource.thread_id`.
-- Restart the gateway after code-hook changes; config-only changes generally still need gateway reload/restart if the module/config is already loaded.
+- Restart the gateway after code-hook changes; config-only changes generally still need gateway reload/restart if the module/config is already loaded. In Railway/container gateways where PID 1 is the gateway, CLI `hermes gateway restart` may not replace the live process cleanly; report code/config as staged until the container/gateway is restarted or a verified replacement run is active.
 
 ## Cron pattern
 

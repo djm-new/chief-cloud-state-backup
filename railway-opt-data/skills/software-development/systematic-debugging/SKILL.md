@@ -51,6 +51,8 @@ Use for ANY technical issue:
 - You're in a hurry (rushing guarantees rework)
 - Someone wants it fixed NOW (systematic is faster than thrashing)
 
+**Important interaction rule:** if the user says the product is broken or a bug is obvious, do *not* ask permission to fix it. Start investigation and repair immediately. Only ask a clarifying question when the scope is genuinely ambiguous or the action would be destructive.
+
 ## The Four Phases
 
 You MUST complete each phase before proceeding to the next.
@@ -440,8 +442,9 @@ When fixing bugs:
 - `references/nextjs-prisma-api-500.md` — minimal reproduction and fix pattern for Next.js API routes whose form payload validates but Prisma/ORM writes fail, especially date-only strings sent to DateTime fields or raw parsed data used in upsert updates.
 - `references/nextjs-app-router-server-refresh.md` — fix pattern for client-side mutations that save successfully but leave server-rendered App Router dashboard cards stale until `router.refresh()` or a full reload.
 - `references/app-day-timezone-debugging.md` — debugging and fix pattern for apps that show/log the wrong day because server UTC date keys are used instead of the product timezone/app day.
+- `references/nutrition-estimator-debugging.md` — debugging and fix pattern for food/nutrition estimator bugs.
+- `references/nutrition-estimator-quantity-language.md` — serving/scoop language pitfall for protein powders and supplements.
 
-## Real-World Impact
 
 From debugging sessions:
 - Systematic approach: 15-30 minutes to fix
