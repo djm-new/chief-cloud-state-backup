@@ -13,6 +13,7 @@ DJ wants the Chief cloud-state GitHub backup to preserve essentially all durable
 - `SOUL.md`
 - selected Hermes gateway source files when they carry live behavior
 - podcast workflow configs and generated digest artifacts when they are durable reference material
+- redacted session exports when the goal is to preserve conversational history without raw secret-bearing session files
 
 ## Exclude
 - secrets and auth material
@@ -22,6 +23,7 @@ DJ wants the Chief cloud-state GitHub backup to preserve essentially all durable
 - `sessions/`
 - `logs/`
 - caches and build artifacts
+- raw session transcripts; export them into a redacted corpus instead
 
 ## Implementation notes
 - Prefer a selective snapshot, not a blind copy of all data.

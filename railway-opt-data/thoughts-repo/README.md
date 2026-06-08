@@ -8,6 +8,8 @@ This repository is local-first with a private GitHub remote as the approved back
 
 Sensitive directories (`daily/`, `weekly/`, `monthly/`, `quarterly/`, `attachments/`) contain private thought-capture material. Treat the GitHub remote as confidential infrastructure and do not add external collaborators without explicit approval.
 
+Redacted session exports live under `exports/sessions-redacted/` and are regenerated from the local session store so the conversational history can be preserved in GitHub without the raw secret-bearing session files.
+
 This decision was documented before the first commit, per the build spec, and updated after DJ confirmed GitHub should be used for this system.
 
 ## GitHub remote setup

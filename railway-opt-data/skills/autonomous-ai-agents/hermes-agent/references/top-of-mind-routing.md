@@ -8,15 +8,22 @@ Use this when a Telegram or thought-capture message contains an explicit instruc
 - Do **not** treat this as only a session todo / memory note.
 - If the user gives a direct instruction inside a thought-capture message, log the thought and also apply the ToM change.
 
-## Routing heuristics
+## Routing policy
 
-Default routing is conservative:
+Default routing is model-assisted, with explicit prefix overrides first and a deterministic fallback second.
 
-- Personal / travel / errands → `Personal`
-- MENA-specific business items → `Professional - MENA`
-- Everything else → `Professional`
+1. If the item is explicitly prefixed, honor it:
+   - `Personal: ...`
+   - `MENA: ...`
+   - `Other:` / `Others:`
+2. Otherwise, use the lightweight router model (`gpt-5.4-mini`) to choose one of:
+   - `Personal`
+   - `Professional - MENA`
+   - `Professional - Others`
+   - `Professional`
+3. If the model is unavailable, fall back to conservative heuristics.
 
-Useful Personal cues include:
+Useful Personal cues for the fallback include:
 
 - ticket(s)
 - flight(s)
@@ -24,6 +31,10 @@ Useful Personal cues include:
 - travel
 - trip
 - `book ... ticket/flight/hotel/travel/trip`
+
+Append new items to the **bottom** of the target group by default.
+
+Priority / starred items (`*` or `!`) still go to the top.
 
 If the user explicitly prefixes the item, honor it:
 

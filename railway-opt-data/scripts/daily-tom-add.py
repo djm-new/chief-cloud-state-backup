@@ -6,8 +6,8 @@ Designed for low-friction Telegram commands such as:
 
 Default behavior:
 - writes to the latest dated section in the Daily ToM Google Doc;
-- infers group from prefixes (Personal:, MENA:) or defaults to Professional;
-- inserts near the top of the chosen group;
+- smart-routes group from explicit prefixes plus a lightweight model, with a deterministic fallback;
+- appends new items to the bottom of the chosen group;
 - adds a stable [n:xxxxx] id used by the daily carry-forward sync;
 - exits with JSON suitable for gateway confirmation.
 """
@@ -19,6 +19,7 @@ import json
 import os
 import random
 import re
+import subprocess
 import sys
 from dataclasses import dataclass
 from pathlib import Path
@@ -49,6 +50,7 @@ DATE_RE = re.compile(
 SECTION_RE = re.compile(r"^\[(.+?)\]$")
 ID_RE = re.compile(r"\[n:([A-Za-z0-9]{4,12})\]")
 GROUP_ORDER = ["Professional", "Professional - MENA", "Professional - Others", "Personal"]
+HERMES_BIN = Path(os.environ.get("HERMES_BIN", "/opt/hermes/.venv/bin/hermes"))
 PERSONAL_HINTS = (
     r"\bticket(s)?\b",
     r"\bflight(s)?\b",
@@ -103,6 +105,58 @@ def normalize_task_text(text: str) -> str:
     return re.sub(r"\s+", " ", text).strip()
 
 
+def smart_route_group(text: str) -> str | None:
+    """Ask a lightweight model to route an item to the right ToM group.
+
+    Returns one of GROUP_ORDER or None if the model call fails.
+    """
+    if not HERMES_BIN.exists():
+        return None
+
+    prompt = f"""You route short personal/work items into Daily Top of Mind sections.
+
+Choose exactly one of:
+- Professional
+- Professional - MENA
+- Professional - Others
+- Personal
+
+Rules:
+- Personal = errands, travel, family, personal logistics, tickets, flights, hotels, trips.
+- Professional - MENA = MENA-specific business or regional items.
+- Professional - Others = explicit "other" work items.
+- Professional = everything else.
+
+Return strict JSON only in this format:
+{{"group":"Personal","confidence":"high"}}
+
+Item: {text!r}
+"""
+    try:
+        cp = subprocess.run(
+            [str(HERMES_BIN), "chat", "-q", "-Q", prompt, "--model", "gpt-5.4-mini"],
+            text=True,
+            capture_output=True,
+            timeout=25,
+        )
+    except Exception:
+        return None
+
+    if cp.returncode != 0:
+        return None
+
+    out = (cp.stdout or "").strip()
+    m = re.search(r"\{.*?\}", out, flags=re.S)
+    if not m:
+        return None
+    try:
+        data = json.loads(m.group(0))
+    except Exception:
+        return None
+    group = data.get("group")
+    return group if group in GROUP_ORDER else None
+
+
 def infer_group(raw_text: str, explicit_group: str | None = None) -> tuple[str, str]:
     text = raw_text.strip()
     if explicit_group:
@@ -121,6 +175,11 @@ def infer_group(raw_text: str, explicit_group: str | None = None) -> tuple[str, 
     m = re.match(r"^(other|others):\s*(.+)$", text, flags=re.I)
     if m:
         return "Professional - Others", m.group(2).strip()
+
+    routed = smart_route_group(text)
+    if routed:
+        return routed, text
+
     if any(re.search(pattern, text, flags=re.I) for pattern in PERSONAL_HINTS):
         return "Personal", text
     return "Professional", text

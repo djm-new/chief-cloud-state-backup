@@ -97,6 +97,9 @@ copy_dir_filtered() {
   fi
 }
 
+# Generate redacted session transcripts inside the thoughts repo before snapshotting.
+python3 /opt/data/scripts/export_redacted_sessions.py >/dev/null
+
 copy_file /opt/data/SOUL.md "$SNAPSHOT_DIR/SOUL.md"
 copy_file /opt/data/cron/jobs.json "$SNAPSHOT_DIR/cron/jobs.json"
 copy_file /opt/data/config.yaml "$SNAPSHOT_DIR/config.yaml"
