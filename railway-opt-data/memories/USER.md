@@ -13,3 +13,5 @@ DJ podcast prefs: score episodes not shows; daily wide-net text; weekly tightly 
 DJ wants dynamic on-the-fly model switching and prefers DeepSeek V4 Pro over Haiku for lightweight/open-source tasks.
 §
 User does not want Telegram topics referred to by numeric topic IDs (e.g., “topic 5”); use the actual human-readable topic names the user has given instead.
+§
+DJ prefers the podcast intelligence digest delivered daily to the Telegram Briefings channel at 5PM ET.

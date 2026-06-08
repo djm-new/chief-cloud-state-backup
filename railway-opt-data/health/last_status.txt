@@ -1,21 +1,21 @@
-Chief Railway health check: 2026-06-07T06:00:37Z
-Memory: 1643MB / 22888MB (7%)
-Railway volume disk: 1481MB / 46627MB (4%)
+Chief Railway health check: 2026-06-08T06:00:30Z
+Memory: 1558MB / 22888MB (6%)
+Railway volume disk: 1487MB / 46627MB (4%)
 Gateway process: 1 /opt/hermes/.venv/bin/python3 /opt/hermes/.venv/bin/hermes gateway run
 Operational checks:
-  Chief operational health: 2026-06-07T06:01:39.779081+00:00
-  Check: /opt/data/daily-tom/task_state.json: 16428 bytes, age 21.0h
-  Check: /opt/data/slack_business_brief_latest.md: 110059 bytes, age 9.1h
-  Check: /opt/data/slack_brief_archive/open_topics.md: 5869 bytes, age 8.9h
-  Check: /opt/data/slack_brief_archive/BRIEFING_POLICY.md: 1290 bytes, age 272.0h
-  Check: /opt/data/google-accounts/SECURITY_POLICY.md: 2340 bytes, age 279.5h
-  Check: /opt/data/security/ATTACK_VECTOR_CHECKLIST.md: 1489 bytes, age 273.8h
-  Check: Archived smart briefings: 12
-  Check: Latest archived briefing: 2026-06-06-2100.md, age 8.9h
+  Chief operational health: 2026-06-08T06:01:34.855004+00:00
+  Check: /opt/data/daily-tom/task_state.json: 16997 bytes, age 21.0h
+  Check: /opt/data/slack_business_brief_latest.md: 42364 bytes, age 9.1h
+  Check: /opt/data/slack_brief_archive/open_topics.md: 6935 bytes, age 8.9h
+  Check: /opt/data/slack_brief_archive/BRIEFING_POLICY.md: 1290 bytes, age 296.0h
+  Check: /opt/data/google-accounts/SECURITY_POLICY.md: 2340 bytes, age 303.5h
+  Check: /opt/data/security/ATTACK_VECTOR_CHECKLIST.md: 1489 bytes, age 297.8h
+  Check: Archived smart briefings: 14
+  Check: Latest archived briefing: 2026-06-07-2100.md, age 8.9h
   Check: Daily ToM context: OK (2105 chars)
   Check: Email ToM context: OK (2964 chars)
-  Check: Filtered Slack context: OK (31240 chars)
-  Check: Full smart brief context: OK (47373 chars)
+  Check: Filtered Slack context: OK (16472 chars)
+  Check: Full smart brief context: OK (33659 chars)
   Status: OK
 Status: DJ ACTION NEEDED
 Issue: Recent severe gateway log lines were found.

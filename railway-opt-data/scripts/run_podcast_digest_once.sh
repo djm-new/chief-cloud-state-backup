@@ -10,17 +10,24 @@ mkdir -p "$OUTDIR"
 
 export PYTHONUNBUFFERED=1
 export PODCAST_SCORE_BATCH_SIZE="${PODCAST_SCORE_BATCH_SIZE:-10}"
+PY="${PY:-/opt/hermes/.venv/bin/python3}"
+
+# Daily 5PM ET guard: cron fires on UTC candidate hours 21/22, but only the
+# 5PM America/New_York candidate should actually do work.
+if [[ "$(TZ=America/New_York date +%H)" != "17" ]]; then
+  exit 0
+fi
 
 log="$OUTDIR/$(date -u +%Y-%m-%d_%H%M)-podcast-digest-run.log"
 
 {
   echo "Podcast digest run started: $(date -u +%Y-%m-%dT%H:%M:%SZ)"
   echo "Step 1: collect known feeds"
-  python3 /opt/data/scripts/podcast_resolve_collect_rank.py collect --days 1
+  "$PY" /opt/data/scripts/podcast_resolve_collect_rank.py collect --days 1
   echo "Step 2: semantic discovery"
-  python3 /opt/data/scripts/podcast_semantic_discovery.py --days 1
+  "$PY" /opt/data/scripts/podcast_semantic_discovery.py --days 1
   echo "Step 3: Qwen episode scoring"
-  python3 /opt/data/scripts/podcast_qwen_episode_score.py --since-hours 24 --tag daily-24h
+  "$PY" /opt/data/scripts/podcast_qwen_episode_score.py --since-hours 24 --tag daily-24h
 } > "$log" 2>&1
 
 scores_json="$(grep '^JSON=' "$log" | tail -1 | sed 's/^JSON=//')"
@@ -33,7 +40,7 @@ if [[ -z "${scores_json:-}" || ! -f "$scores_json" ]]; then
 fi
 
 digest_log="$OUTDIR/$(date -u +%Y-%m-%d_%H%M)-podcast-digest-render.log"
-python3 /opt/data/scripts/podcast_daily_digest_qwen.py "$scores_json" \
+"$PY" /opt/data/scripts/podcast_daily_digest_qwen.py "$scores_json" \
   --window-start "$(date -u -d '24 hours ago' +%Y-%m-%dT%H:%M:%SZ)" \
   --window-end "$(date -u +%Y-%m-%dT%H:%M:%SZ)" > "$digest_log" 2>&1
 

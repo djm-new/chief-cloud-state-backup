@@ -244,8 +244,9 @@ These paths are conventions, not universal facts. Verify them before editing.
 - `references/prototype-radar-notes.md` — condensed notes from the first DJ prototype run, including source model, scoring lessons, and calibration findings.
 - `references/openrouter-qwen-episode-scoring.md` — OpenRouter/Qwen setup notes, Railway env visibility quirk, compact scoring schema, and observed cost from the 100-episode calibration pass.
 - `references/daily-digest-calibration.md` — 24h daily digest workflow, funnel reporting requirements, DJ editorial calibration, and first-run lessons.
-- `scripts/qwen_episode_score.py` — reusable starter script for compact OpenRouter/Qwen episode-level scoring against the prototype SQLite episode store.
+- `references/last48h-run-notes.md` — June 2026 ad hoc 48h run notes, interpreter pitfall, and successful digest shape.
 - `scripts/qwen_daily_digest.py` — starter script that turns Qwen episode scores into a calibrated daily markdown digest.
+- `scripts/qwen_episode_score.py` — reusable starter script for compact OpenRouter/Qwen episode-level scoring against the prototype SQLite episode store.
 
 ## Verification Checklist
 

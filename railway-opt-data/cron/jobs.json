@@ -20,15 +20,15 @@
       "schedule_display": "15 7 * * *",
       "repeat": {
         "times": null,
-        "completed": 25
+        "completed": 26
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-12T19:59:22.529154+00:00",
-      "next_run_at": "2026-06-08T07:15:00+00:00",
-      "last_run_at": "2026-06-06T07:15:27.674707+00:00",
+      "next_run_at": "2026-06-09T07:15:00+00:00",
+      "last_run_at": "2026-06-07T07:15:45.497376+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -57,15 +57,15 @@
       "schedule_display": "0 */3 * * *",
       "repeat": {
         "times": null,
-        "completed": 1075
+        "completed": 1083
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-12T20:42:58.485236+00:00",
-      "next_run_at": "2026-06-07T09:00:00+00:00",
-      "last_run_at": "2026-06-07T06:01:39.803895+00:00",
+      "next_run_at": "2026-06-08T09:00:00+00:00",
+      "last_run_at": "2026-06-08T06:01:35.335031+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -94,15 +94,15 @@
       "schedule_display": "0 12 * * *",
       "repeat": {
         "times": null,
-        "completed": 26
+        "completed": 27
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-12T21:10:04.711555+00:00",
-      "next_run_at": "2026-06-07T12:00:00+00:00",
-      "last_run_at": "2026-06-06T12:01:25.978273+00:00",
+      "next_run_at": "2026-06-08T12:00:00+00:00",
+      "last_run_at": "2026-06-07T12:03:26.582277+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -131,15 +131,15 @@
       "schedule_display": "55 12,20 * * *",
       "repeat": {
         "times": null,
-        "completed": 9
+        "completed": 11
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-18T00:29:40.815074+00:00",
-      "next_run_at": "2026-06-07T12:55:00+00:00",
-      "last_run_at": "2026-06-06T20:56:22.239468+00:00",
+      "next_run_at": "2026-06-08T12:55:00+00:00",
+      "last_run_at": "2026-06-07T20:56:14.078126+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -175,15 +175,15 @@
       "schedule_display": "5 13,21 * * *",
       "repeat": {
         "times": null,
-        "completed": 6
+        "completed": 8
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-19T14:57:13.733402+00:00",
-      "next_run_at": "2026-06-07T13:05:00+00:00",
-      "last_run_at": "2026-06-06T21:10:03.848266+00:00",
+      "next_run_at": "2026-06-08T13:05:00+00:00",
+      "last_run_at": "2026-06-07T21:09:58.511792+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -220,15 +220,15 @@
       "schedule_display": "0 9,10 * * *",
       "repeat": {
         "times": null,
-        "completed": 68
+        "completed": 70
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-26T16:48:41.225755+00:00",
-      "next_run_at": "2026-06-07T09:00:00+00:00",
-      "last_run_at": "2026-06-06T10:00:39.950036+00:00",
+      "next_run_at": "2026-06-08T09:00:00+00:00",
+      "last_run_at": "2026-06-07T10:00:53.667310+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -262,15 +262,15 @@
       "schedule_display": "0 3 * * *",
       "repeat": {
         "times": null,
-        "completed": 3
+        "completed": 4
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-04T18:28:24.334811+00:00",
-      "next_run_at": "2026-06-08T03:00:00+00:00",
-      "last_run_at": "2026-06-07T03:00:30.759287+00:00",
+      "next_run_at": "2026-06-09T03:00:00+00:00",
+      "last_run_at": "2026-06-08T03:00:26.677009+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -304,15 +304,15 @@
       "schedule_display": "5 4,5 * * *",
       "repeat": {
         "times": null,
-        "completed": 4
+        "completed": 6
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-05T19:42:57.893480+00:00",
-      "next_run_at": "2026-06-08T04:05:00+00:00",
-      "last_run_at": "2026-06-07T05:05:33.891588+00:00",
+      "next_run_at": "2026-06-09T04:05:00+00:00",
+      "last_run_at": "2026-06-08T05:05:28.953497+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -346,15 +346,15 @@
       "schedule_display": "0 11,12 * * *",
       "repeat": {
         "times": null,
-        "completed": 2
+        "completed": 4
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-05T19:42:58.899916+00:00",
-      "next_run_at": "2026-06-07T11:00:00+00:00",
-      "last_run_at": "2026-06-06T12:00:36.931119+00:00",
+      "next_run_at": "2026-06-08T11:00:00+00:00",
+      "last_run_at": "2026-06-07T12:00:59.121603+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -493,7 +493,91 @@
       },
       "enabled_toolsets": null,
       "workdir": null
+    },
+    {
+      "id": "422803a6b82f",
+      "name": "Daily podcast intelligence digest \u2014 5PM ET",
+      "prompt": "",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "run_podcast_digest_once.sh",
+      "no_agent": true,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 21,22 * * *",
+        "display": "0 21,22 * * *"
+      },
+      "schedule_display": "0 21,22 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-08T01:27:36.970151+00:00",
+      "next_run_at": "2026-06-08T21:00:00+00:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "telegram:-1003956828149:4",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "-1003956828149",
+        "chat_name": "Chief Group - Hermes",
+        "thread_id": "1"
+      },
+      "enabled_toolsets": null,
+      "workdir": null
+    },
+    {
+      "id": "05ebe3213ab3",
+      "name": "Daily Hermes spend briefing \u2014 5AM ET",
+      "prompt": "Script-only daily Hermes spend briefing. Runs at UTC candidate times for 5:00 AM America/New_York and the script emits only at the actual 5 AM ET tick, once per ET date. Output includes last-24h and last-7d spend/tokens plus top projects, channels, and providers. Deliver to Briefings.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "hermes_spend_briefing.py",
+      "no_agent": true,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9,10 * * *",
+        "display": "0 9,10 * * *"
+      },
+      "schedule_display": "0 9,10 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 0
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-08T01:32:21.927028+00:00",
+      "next_run_at": "2026-06-08T09:00:00+00:00",
+      "last_run_at": null,
+      "last_status": null,
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "telegram:-1003956828149:4",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "-1003956828149",
+        "chat_name": "Chief Group - Hermes",
+        "thread_id": "7"
+      },
+      "enabled_toolsets": null,
+      "workdir": null
     }
   ],
-  "updated_at": "2026-06-07T07:15:42.760856+00:00"
+  "updated_at": "2026-06-08T07:15:37.806520+00:00"
 }

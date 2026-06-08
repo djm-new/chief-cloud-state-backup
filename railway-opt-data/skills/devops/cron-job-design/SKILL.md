@@ -61,9 +61,16 @@ Key rules:
 - "Useful context" = metrics only when the issue could be caused by resource pressure.
 - Never combine "needs attention" with "DJ action: none." That is contradictory and DJ explicitly rejected it.
 
----
+## Long-running multi-step cron pipelines
 
-## Alert dedup / rate-limiting pattern
+Some workflows look like a single cron job on paper but are really a pipeline of independent steps (collect -> enrich -> score -> render -> deliver). If the full chain can exceed a small shell timeout, do *not* keep retrying the monolithic wrapper blindly.
+
+Prefer one of these patterns:
+- split the work into separate jobs with persisted artifacts between steps;
+- run the heavy part in a background process and verify the final artifact before delivery;
+- shorten the pipeline by reusing cached collection/scoring artifacts when the user only wants a recent-window digest.
+
+Verification tip: the most useful success signal is usually the final artifact path or the delivered markdown, not just a zero exit code from the first stage.
 
 Repeated identical alerts are noise. Use a fingerprint+cooldown pattern in bash scripts:
 
