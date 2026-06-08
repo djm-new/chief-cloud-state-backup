@@ -3,9 +3,8 @@
 import argparse, json, os, re, sqlite3, time, html
 from pathlib import Path
 from datetime import datetime, timezone, timedelta
-import requests
+from openrouter_spend import openrouter_post_json
 
-BASE = Path('/opt/data/podcast_digest')
 DB = BASE / 'episodes.sqlite'
 OUTDIR = BASE / 'outputs'
 MODEL = os.getenv('PODCAST_OSS_MODEL', 'qwen/qwen3-235b-a22b')
@@ -87,25 +86,30 @@ confidence: one of low, medium, high."""
             'summary': clean(e['summary'], 1000),
         })
     user = "/no_think\nScore these podcast episodes for DJ using the schema. Remember: episode-by-episode, daily digest should cast a wider net. Return only JSON.\n" + json.dumps(payload_items, ensure_ascii=False)
-    r = requests.post(
-        'https://openrouter.ai/api/v1/chat/completions',
-        headers={
-            'Authorization': f'Bearer {api_key}',
-            'Content-Type': 'application/json',
-            'HTTP-Referer': 'https://hermes-agent.local/podcast-digest',
-            'X-Title': 'Hermes Podcast Intelligence',
-        },
-        json={
+    data = openrouter_post_json(
+        path='chat/completions',
+        model=MODEL,
+        title='Hermes Podcast Intelligence',
+        referer='https://hermes-agent.local/podcast-digest',
+        timeout=120,
+        api_key=api_key,
+        payload={
             'model': MODEL,
             'messages': [{'role': 'system', 'content': system}, {'role': 'user', 'content': user}],
             'temperature': 0.1,
             'max_tokens': 1800,
         },
-        timeout=120,
+        source='cron',
+        platform='cron',
+        project_slug='podcast-intelligence-digest',
+        workdir='/opt/data/podcast_digest',
+        metadata={
+            'workflow': 'podcast-intelligence-digest',
+            'stage': 'episode_scoring',
+            'since_hours': args.since_hours,
+            'batch_size': len(batch),
+        },
     )
-    if r.status_code >= 400:
-        raise RuntimeError(f'OpenRouter HTTP {r.status_code}: {r.text[:1000]}')
-    data = r.json()
     content = data['choices'][0]['message']['content']
     try:
         parsed = json.loads(content)

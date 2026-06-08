@@ -7,10 +7,10 @@ not just exact watchlist matches or known RSS feeds.
 from __future__ import annotations
 import argparse, datetime as dt, hashlib, html, json, os, re, sqlite3, time, urllib.parse
 from pathlib import Path
-import requests, feedparser, yaml
+import feedparser, yaml
+from openrouter_spend import openrouter_post_json
 from bs4 import BeautifulSoup
 
-BASE = Path('/opt/data/podcast_digest')
 DB = BASE / 'episodes.sqlite'
 DISCOVERY_DB = BASE / 'semantic_discovery.sqlite'
 OUT = BASE / 'outputs'
@@ -80,15 +80,20 @@ def gateway_env_key(name='OPENROUTER_API_KEY'):
 
 
 def call_openrouter(messages, max_tokens=2500, temperature=0.2):
-    key = gateway_env_key()
-    if not key:
-        raise RuntimeError('OPENROUTER_API_KEY not found')
-    r = requests.post('https://openrouter.ai/api/v1/chat/completions',
-        headers={'Authorization':f'Bearer {key}','Content-Type':'application/json','HTTP-Referer':'https://hermes-agent.local/podcast-semantic-discovery','X-Title':'Hermes Podcast Semantic Discovery'},
-        json={'model':MODEL,'messages':messages,'temperature':temperature,'max_tokens':max_tokens}, timeout=180)
-    if r.status_code >= 400:
-        raise RuntimeError(r.text)
-    return r.json()
+    resp = openrouter_post_json(
+        path='chat/completions',
+        model=MODEL,
+        title='Hermes Podcast Semantic Discovery',
+        referer='https://hermes-agent.local/podcast-semantic-discovery',
+        timeout=180,
+        payload={'model': MODEL, 'messages': messages, 'temperature': temperature, 'max_tokens': max_tokens},
+        source='cron',
+        platform='cron',
+        project_slug='podcast-intelligence-digest',
+        workdir='/opt/data/podcast_digest',
+        metadata={'workflow': 'podcast-intelligence-digest', 'stage': 'semantic_discovery'},
+    )
+    return resp
 
 
 def generate_semantic_queries(limit_people=35, limit_topics=30):

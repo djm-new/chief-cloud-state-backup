@@ -10,11 +10,13 @@ import json
 import os
 import re
 import sqlite3
+import sys
 import time
 from pathlib import Path
 from datetime import datetime, timezone
 
-import requests
+sys.path.insert(0, "/opt/data/scripts")
+from openrouter_spend import openrouter_post_json
 
 BASE = Path(os.getenv("PODCAST_DIGEST_DIR", "/opt/data/podcast_digest"))
 DB = BASE / "episodes.sqlite"
@@ -71,24 +73,28 @@ Daily text digest should cast a wide net; weekly audio should be selective. Favo
         "summary": clean(e.get("summary"), 1000),
     } for e in batch]
     user = "/no_think\nScore these podcast episodes. Return only JSON.\n" + json.dumps(payload, ensure_ascii=False)
-    resp = requests.post(
-        "https://openrouter.ai/api/v1/chat/completions",
-        headers={
-            "Authorization": f"Bearer {api_key}",
-            "Content-Type": "application/json",
-            "HTTP-Referer": "https://hermes-agent.local/podcast-digest",
-            "X-Title": "Hermes Podcast Intelligence",
-        },
-        json={
+    data = openrouter_post_json(
+        path="chat/completions",
+        model=MODEL,
+        title="Hermes Podcast Intelligence",
+        referer="https://hermes-agent.local/podcast-digest",
+        timeout=120,
+        api_key=api_key,
+        payload={
             "model": MODEL,
             "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}],
             "temperature": 0.1,
             "max_tokens": 1800,
         },
-        timeout=120,
+        source="cron",
+        platform="cron",
+        project_slug="podcast-intelligence-digest",
+        workdir=str(BASE),
+        metadata={
+            "workflow": "podcast-intelligence-digest",
+            "stage": "episode_scoring",
+        },
     )
-    resp.raise_for_status()
-    data = resp.json()
     content = data["choices"][0]["message"]["content"]
     parsed = json.loads(re.search(r"\{.*\}", content, re.S).group(0))
     return parsed.get("results", []), data.get("usage", {})

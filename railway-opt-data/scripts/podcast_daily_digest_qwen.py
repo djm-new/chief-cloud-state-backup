@@ -3,9 +3,8 @@
 import json, os, re
 from pathlib import Path
 from datetime import datetime, timezone
-import requests
+from openrouter_spend import openrouter_post_json
 
-MODEL=os.getenv('PODCAST_OSS_MODEL','qwen/qwen3-235b-a22b')
 
 def gateway_env_key(name='OPENROUTER_API_KEY'):
     if os.getenv(name): return os.getenv(name)
@@ -60,12 +59,31 @@ Funnel/cost line.
 Each included item: show — episode; what was said; why DJ should care; recommendation; link.
 Be concise but useful. No tables."""
     user="/no_think\nGenerate today's digest for this 24h window. Window start: %s. Window end: %s. Episodes JSON:\n%s" % (args.window_start,args.window_end,json.dumps(episodes,ensure_ascii=False))
-    key=gateway_env_key()
-    if not key: raise SystemExit('missing OPENROUTER_API_KEY')
-    r=requests.post('https://openrouter.ai/api/v1/chat/completions',headers={'Authorization':f'Bearer {key}','Content-Type':'application/json','HTTP-Referer':'https://hermes-agent.local/podcast-digest','X-Title':'Hermes Podcast Daily Digest'},json={'model':MODEL,'messages':[{'role':'system','content':system},{'role':'user','content':user}],'temperature':0.2,'max_tokens':5000},timeout=180)
-    if r.status_code>=400: raise SystemExit(r.text)
-    resp=r.json(); content=resp['choices'][0]['message']['content'].strip()
-    usage=resp.get('usage',{})
+    data = openrouter_post_json(
+        path='chat/completions',
+        model=MODEL,
+        title='Hermes Podcast Daily Digest',
+        referer='https://hermes-agent.local/podcast-digest',
+        timeout=180,
+        payload={
+            'model': MODEL,
+            'messages': [{'role': 'system', 'content': system}, {'role': 'user', 'content': user}],
+            'temperature': 0.2,
+            'max_tokens': 5000,
+        },
+        source='cron',
+        platform='cron',
+        project_slug='podcast-intelligence-digest',
+        workdir='/opt/data/podcast_digest',
+        metadata={
+            'workflow': 'podcast-intelligence-digest',
+            'stage': 'daily_digest_render',
+            'window_start': args.window_start,
+            'window_end': args.window_end,
+        },
+    )
+    content=data['choices'][0]['message']['content'].strip()
+    usage=data.get('usage',{})
     est=usage.get('cost')
     stamp=datetime.now(timezone.utc).strftime('%Y-%m-%d_%H%M')
     out=Path('/opt/data/podcast_digest/outputs')/f'{stamp}-daily-podcast-digest-24h.md'

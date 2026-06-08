@@ -10,10 +10,12 @@ import argparse
 import json
 import os
 import re
+import sys
 from pathlib import Path
 from datetime import datetime, timezone
 
-import requests
+sys.path.insert(0, "/opt/data/scripts")
+from openrouter_spend import openrouter_post_json
 
 MODEL = os.getenv("PODCAST_OSS_MODEL", "qwen/qwen3-235b-a22b")
 OUTDIR = Path(os.getenv("PODCAST_DIGEST_DIR", "/opt/data/podcast_digest")) / "outputs"
@@ -79,27 +81,29 @@ Output markdown with no tables: title, window/funnel/cost placeholder, Executive
         f"Window start: {args.window_start}. Window end: {args.window_end}. "
         "Return only markdown. Episodes JSON:\n" + json.dumps(episodes, ensure_ascii=False)
     )
-    key = get_openrouter_key()
-    if not key:
-        raise SystemExit("OPENROUTER_API_KEY not found")
-    resp = requests.post(
-        "https://openrouter.ai/api/v1/chat/completions",
-        headers={
-            "Authorization": f"Bearer {key}",
-            "Content-Type": "application/json",
-            "HTTP-Referer": "https://hermes-agent.local/podcast-digest",
-            "X-Title": "Hermes Podcast Daily Digest",
-        },
-        json={
+    data = openrouter_post_json(
+        path="chat/completions",
+        model=MODEL,
+        title="Hermes Podcast Daily Digest",
+        referer="https://hermes-agent.local/podcast-digest",
+        timeout=180,
+        payload={
             "model": MODEL,
             "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}],
             "temperature": 0.2,
             "max_tokens": 5000,
         },
-        timeout=180,
+        source="cron",
+        platform="cron",
+        project_slug="podcast-intelligence-digest",
+        workdir=str(Path(os.getenv("PODCAST_DIGEST_DIR", "/opt/data/podcast_digest"))),
+        metadata={
+            "workflow": "podcast-intelligence-digest",
+            "stage": "daily_digest_render",
+            "window_start": args.window_start,
+            "window_end": args.window_end,
+        },
     )
-    resp.raise_for_status()
-    data = resp.json()
     content = data["choices"][0]["message"]["content"].strip()
     usage = data.get("usage", {})
     OUTDIR.mkdir(parents=True, exist_ok=True)
