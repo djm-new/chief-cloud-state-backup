@@ -54,9 +54,48 @@ REPO=$(echo "$OWNER_REPO" | cut -d/ -f2)
 
 ---
 
+## 0. Railway + GitHub: Verify Before Assuming Auto-Deploy
+
+**Never assume a Railway service is connected to GitHub.** Railway services can be deployed via CLI (`railway up`) without any GitHub connection — in that case, pushing to the repo does nothing to the running service.
+
+**Verify the running service, not just the repo.** For a production push-to-deploy claim, do a no-op commit, push it, and watch the live app for an actual change.
+
+**Quick verification pattern:**
+1. Confirm the branch is already in sync with GitHub.
+2. Create and push a harmless empty commit:
+   ```bash
+   git commit --allow-empty -m "chore: trigger deploy verification"
+   git push origin main
+   ```
+3. Poll the live app for a few minutes and compare a stable marker (HTML build ID, script chunk hashes, or another response detail that should change on deploy).
+4. If the push lands on GitHub but the live app stays identical, the Railway GitHub connection is not active.
+
+**Connection clues:**
+- In Railway settings, a connected service shows a repo/branch; a "Connect Repo" prompt means it is not wired.
+- If the service env exposes repo metadata and the owner field is empty, treat that as strong evidence the GitHub connection is missing.
+
+**Always check repo sync before connecting:**
+```bash
+# Check local repo status vs remote
+cd /path/to/project && git status && git log --oneline -5
+# Shows if local is ahead of origin — means GitHub may be stale
+```
+
+**Setup flow when not connected:**
+1. First push all local commits to GitHub: `git push origin main`
+2. Then connect in Railway Settings → Connect Repo → select repo → branch `main`
+3. Railway will immediately deploy from current `main`, then auto-deploy on every future push
+
+**Pitfall:** if local checkout is ahead of GitHub (e.g. many commits), connecting the repo before pushing means Railway deploys stale code. Always check `git status` first.
+
+For a repeatable verification recipe, see `references/railway-github-deploy-verification.md`.
+
 ## 1. Cloning Repositories
 
 Cloning is pure `git` — works identically either way:
+
+For a quick repo/push readiness checklist in Hermes environments, see `references/repo-push-auth.md`.
+For repo-role and location discovery in Hermes environments, see `references/local-repo-discovery.md`.
 
 ```bash
 # Clone via HTTPS (works with credential helper or token-embedded URL)

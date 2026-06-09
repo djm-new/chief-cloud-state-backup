@@ -1,13 +1,21 @@
-Podcast prefs: labels not read aloud; distinct high-quality voices. Podcast intel: daily text + weekly 15–20m two-host audio; discover beyond subscriptions. Focus top money managers/CEOs/AI leaders/frontier thinkers; reference tastes include Dwarkesh, Invest Like the Best, Conversations w/ Tyler, Acquired/All-In/Marc&Ben. Skip news/politics/energy/climate/celebrity/VC fluff; select for actions/frameworks/toolkit.
+Podcast prefs: labels not read aloud; distinct high-quality voices. Daily text + weekly 15–20m two-host audio. Focus top money managers/CEOs/AI leaders/frontier thinkers; skip news/politics/celebrity/VC fluff.
 §
 Env: python3-pip and edge-tts are installed; /root/.local/bin/edge-tts supports selectable neural voices.
 §
 Health app design prefs: PWA+login, Today dashboard, fast LLM meal logging, custom lifting, 7-day calories/weight/sleep/workouts, Google Sheets backup.
 §
-User's production Hermes environment runs on Railway/Chief with a persistent /opt/data Railway volume and Railway env/secrets; do not treat local/session /opt/data as canonical for persistent integrations. The chief-cloud-state-backup repo (djm-new/chief-cloud-state-backup) selectively snapshots scripts/skills/cron/memories — operational state only. thoughts-repo is intentionally excluded; it has its own private remote: djm-new/hermes-thoughts. GITHUB_TOKEN is a Railway env var (not in filesystem).
+Production Hermes uses a persistent /opt/data volume on Railway/Chief; chief-cloud-state-backup is runtime-state backup, and thoughts-repo has its own private remote.
 §
-Railway Chief Google Workspace is configured for three account slots on the persistent volume: personal -> /opt/data/google-accounts/personal (dj.mauch@gmail.com), 166-2nd -> /opt/data/google-accounts/166-2nd (dj@1662nd.com), flow -> /opt/data/google-accounts/flow (dj@flow.life). Use /opt/data/scripts/google-account {personal|166-2nd|flow} ... to access the corresponding Google APIs.
+Railway Chief Google Workspace uses three persistent account slots (personal, 166-2nd, flow); access them via /opt/data/scripts/google-account {personal|166-2nd|flow} ...
 §
 DJ's Google policy: read/search/summarize OK; create/edit/delete Calendar/Docs/Sheets/Drive files when requested; never send Gmail/reply/forward or trigger external notifications. Outbound email/share/invite content is draft-only unless DJ changes policy. ToM: fix thoughts-system Google Calendar integration later, not now.
 §
-Telegram Chief topics: General, Archive, Briefings, Alerts, Brain Dump, Coding. Models: default gpt-5.4-mini; Coding gpt-5.5; fallback OpenRouter DeepSeek V4 Pro → Anthropic. Brain Dump “add to top of mind …” = add to Daily ToM via /opt/data/scripts/daily-tom-add.py and confirm.
+Telegram Chief topics: General (1), Archive (3), Briefings (4), Alerts (5), Brain Dump (6), Coding (7), General/ad-hoc (8). Models: default gpt-5.4-mini; topic 7 (Coding) gpt-5.5; topic 8 varies by session request. Fallback OpenRouter DeepSeek V4 Pro → Anthropic. Topic overrides in config.yaml persist across /new — must be manually removed to revert.
+§
+User prefers GitHub as the source of truth for code; Railway is runtime/deployment only, and Railway console containers should not be assumed to contain the editable repository checkout.
+§
+HealthOS Railway deploys require the GitHub repo to be linked in Railway Settings before push-to-deploy works.
+§
+Persistent automation auth is stored in /opt/data/.env, and GitHub git authentication is persisted via /opt/data/.git-credentials with git credential.helper pointing there.
+§
+Persistent automation auth lives in /opt/data/.env and /opt/data/.git-credentials and is intended for all projects, not just HealthOS.

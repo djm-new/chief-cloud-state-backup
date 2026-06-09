@@ -268,6 +268,33 @@ fi
 
 ---
 
+## Railway / Headless Server: No gh, No git-credentials
+
+On Railway (and similar server environments), the most common state is:
+- `gh` not installed
+- No `~/.git-credentials` file
+- No credential helper set
+- GitHub token not in `.env`
+
+**Diagnosis:**
+```bash
+ls ~/.git-credentials 2>/dev/null && echo "exists" || echo "no git-credentials file"
+git config --global credential.helper 2>/dev/null || echo "no credential helper set"
+command -v gh &>/dev/null && gh auth status || echo "gh not available"
+```
+
+**Fastest fix for a one-time push:** embed the PAT directly in the remote URL:
+```bash
+git remote set-url origin https://<username>:<token>@github.com/<owner>/<repo>.git
+git push origin main
+# Optionally restore the clean URL after pushing:
+git remote set-url origin https://github.com/<owner>/<repo>.git
+```
+
+**For persistent access:** use `git config --global credential.helper store` and trigger a credential prompt once (via `git ls-remote`), which saves to `~/.git-credentials`.
+
+**Note:** `openai-codex` provider on Railway is Cloudflare-blocked — this is a separate issue from GitHub auth and unrelated to git push operations.
+
 ## Troubleshooting
 
 | Problem | Solution |

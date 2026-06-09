@@ -8,8 +8,8 @@ This keeps the live cron venv working without the external bs4 package.
 """
 from __future__ import annotations
 
-import html as _html
 import re
+import html as _html
 
 
 class BeautifulSoup:

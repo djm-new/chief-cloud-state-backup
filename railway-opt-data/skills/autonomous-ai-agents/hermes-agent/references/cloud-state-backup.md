@@ -28,4 +28,5 @@ DJ wants the Chief cloud-state GitHub backup to preserve essentially all durable
 ## Implementation notes
 - Prefer a selective snapshot, not a blind copy of all data.
 - Keep the backup repo human/auditable and safe for other LLMs to read.
+- Generate redacted session exports before snapshotting so conversational history is preserved without raw session files.
 - If the backup policy changes, update the policy file in the repo and the sync script together.

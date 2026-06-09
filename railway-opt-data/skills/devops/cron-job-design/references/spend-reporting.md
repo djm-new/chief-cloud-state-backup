@@ -32,6 +32,8 @@ Why:
 - Unknown pricing sessions
 - Top models
 - Top platforms
+- Project totals for the work done in the window
+- Workflow/stage totals when available
 
 ## Recommended weekly report fields
 
@@ -43,6 +45,8 @@ Why:
 - Unknown pricing sessions
 - Top models
 - Top platforms
+- Project totals for the work done in the window
+- Workflow/stage totals when available
 
 ## Verification
 

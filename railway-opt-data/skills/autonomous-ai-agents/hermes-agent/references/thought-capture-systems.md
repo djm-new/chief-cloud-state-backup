@@ -54,6 +54,8 @@ If creating review calendar blocks from synthesis output, create events without 
 
 When DJ approves GitHub for a local thought-capture repo, use a private GitHub remote only. If GitHub auth is not already available, add a checked-in setup helper under the repo (for example `scripts/setup_github_remote.py`) that requires `GITHUB_TOKEN`/`GH_TOKEN` with `repo` scope at runtime, creates or reuses the private repo, sets `origin`, pushes the local branch to `main`, and never prints the token. Document the private-remote decision and setup command in `README.md`. Do not auto-run the helper from cron or synthesis jobs.
 
+If the goal is to preserve conversation history for cloud backup, export a redacted session corpus into the thought repo before syncing (for example `exports/sessions-redacted/` plus an index file). Keep raw session JSON local; GitHub should receive the redacted derivative, not the secret-bearing source files.
+
 ## Model/provider verification pitfall
 
 Changing `model.provider`/`model.default` in Hermes config is not the same as verifying the provider can run. When switching a job/system to OpenAI, run a tiny `hermes chat -q ... --provider openai --model <model>` smoke test. If it falls back because auth is missing, report that config is changed but OpenAI execution is blocked until `OPENAI_API_KEY` is configured.

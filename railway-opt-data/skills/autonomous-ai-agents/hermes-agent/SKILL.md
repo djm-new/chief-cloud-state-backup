@@ -816,7 +816,9 @@ User docs: https://hermes-agent.nousresearch.com/docs/user-guide/features/cron
 
 **Output discipline:** cron jobs that emit verbose status on every tick are noise. DJ expects silence on OK and actionable alerts only. Load the `cron-job-design` skill when writing or fixing cron scripts — it has the fingerprint-dedup pattern, alert format, and status-file pattern that match DJ's preferences.
 
-**Cloud-state backups:** when durable runtime state should be viewable by other LLMs and preserved in GitHub, use the selective cloud-state backup pattern. It snapshots config/routing notes, scripts, skills, memories, cron jobs, health state, `SOUL.md`, selected gateway source, and durable podcast artifacts while excluding secrets, tokens, SQLite DBs, sessions, logs, and caches. See `references/cloud-state-backup.md`.
+**Chief project map:** for the full picture of what lives where (repos, live brain, workflows), see `references/chief-project-map.md`.
+
+**Cloud-state backups:** when durable runtime state should be viewable by other LLMs and preserved in GitHub, use the selective cloud-state backup pattern. It snapshots config/routing notes, scripts, skills, memories, cron jobs, health state, `SOUL.md`, selected gateway source, durable podcast artifacts, and *redacted session exports* while excluding secrets, tokens, SQLite DBs, raw sessions, logs, and caches. See `references/cloud-state-backup.md` and `references/redacted-session-exports.md`.
 
 **Local capture/synthesis systems:** when building a dedicated Telegram/Slack capture channel that writes markdown artifacts and scheduled syntheses, follow `references/thought-capture-systems.md`. It covers append-only repo layout, gateway bypass hooks, Telegram topic matching, DST-safe cron guards, and verification.
 
@@ -1059,7 +1061,8 @@ If the topic is intentionally capture-only, keep it silent on success. If DJ exp
 
 For DJ's Chief Group - Hermes, prefer minimal repurposing over creating/deleting topics: keep history, rename existing topics, and archive old-purpose topics instead of removing them.
 
-See `references/top-of-mind-routing.md` for Daily ToM routing/ordering rules and the personal-vs-professional heuristics.
+See `references/telegram-topic-model-routing.md` for per-topic model overrides, Opus fast mode constraints, and the topic→name map for DJ's Chief Group.
+See `references/chief-project-map.md` for where DJ's major projects live (HealthOS, podcast digest, daily business briefing, cloud-state backup) across GitHub repos, local paths, and Railway services.
 See `references/telegram-thoughts-routing-pitfall.md` for the Daily Brain Dump vs capture-only split and the "add to top of mind" doc-vs-todo pitfall.
 
 See `references/telegram-thoughts-routing-pitfall.md` for the interactive-chat vs capture-only split that bit the Daily Brain Dump topic.

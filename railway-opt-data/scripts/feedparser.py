@@ -1,4 +1,4 @@
-"""Minimal local feedparser-compatible shim for Hermes scripts.
+"""Minimal local feedparser-compatible shim for Hermes podcast scripts.
 
 Supports the subset of the third-party `feedparser` API used by our podcast
 collection scripts:
@@ -14,7 +14,8 @@ from __future__ import annotations
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
-from typing import Any
+from types import SimpleNamespace
+from typing import Any, Iterable
 from urllib.parse import urlparse
 import xml.etree.ElementTree as ET
 
@@ -154,6 +155,7 @@ def parse(source: str) -> FeedResult:
                 if _strip_ns(item.tag).lower() == 'entry':
                     entries.append(_build_entry(item))
         else:
+            # Best-effort: treat direct children named item/entry as feed items.
             for item in list(root):
                 if _strip_ns(item.tag).lower() in {'item', 'entry'}:
                     entries.append(_build_entry(item))

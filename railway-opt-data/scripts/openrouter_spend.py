@@ -13,9 +13,70 @@ from pathlib import Path
 from typing import Any, Optional
 
 import requests
+from types import SimpleNamespace
 
-from agent.spend_ledger import SpendEvent, record_spend_event
-from agent.usage_pricing import estimate_usage_cost, normalize_usage
+try:
+    from agent.spend_ledger import SpendEvent, record_spend_event
+except Exception:  # pragma: no cover - optional accounting dependency
+    @dataclass(frozen=True)
+    class SpendEvent:  # type: ignore[no-redef]
+        provider: str = ""
+        model: str = ""
+        api_mode: str = ""
+        base_url: str = ""
+        session_id: str = ""
+        parent_session_id: str = ""
+        source: str = ""
+        platform: str = ""
+        chat_id: str = ""
+        chat_name: str = ""
+        chat_type: str = ""
+        thread_id: str = ""
+        channel_label: str = ""
+        gateway_session_key: str = ""
+        workdir: str = ""
+        project_slug: str = ""
+        input_tokens: int = 0
+        output_tokens: int = 0
+        cache_read_tokens: int = 0
+        cache_write_tokens: int = 0
+        reasoning_tokens: int = 0
+        prompt_tokens: int = 0
+        total_tokens: int = 0
+        request_count: int = 0
+        estimated_cost_usd: float | None = None
+        cost_status: str = "unknown"
+        cost_source: str = "unknown"
+        pricing_version: str = ""
+        latency_ms: int | None = None
+        success: bool = True
+        provider_request_id: str = ""
+        raw_usage: Any = None
+        metadata: dict[str, Any] | None = None
+        created_at: float | None = None
+
+    def record_spend_event(*_args, **_kwargs):
+        return None
+
+try:
+    from agent.usage_pricing import estimate_usage_cost, normalize_usage
+except Exception:  # pragma: no cover - optional accounting dependency
+    def normalize_usage(usage: dict[str, Any] | None, provider: str = "openrouter", api_mode: str = DEFAULT_API_MODE):
+        usage = usage or {}
+        return SimpleNamespace(
+            input_tokens=int(usage.get("prompt_tokens") or usage.get("input_tokens") or 0),
+            output_tokens=int(usage.get("completion_tokens") or usage.get("output_tokens") or 0),
+            cache_read_tokens=int(usage.get("cache_read_tokens") or 0),
+            cache_write_tokens=int(usage.get("cache_write_tokens") or 0),
+            reasoning_tokens=int(usage.get("reasoning_tokens") or 0),
+            prompt_tokens=int(usage.get("prompt_tokens") or 0),
+            total_tokens=int(usage.get("total_tokens") or 0),
+            request_count=1,
+            raw_usage=usage,
+        )
+
+    def estimate_usage_cost(*_args, **_kwargs):
+        return SimpleNamespace(amount_usd=None, status="unknown", source="unavailable", pricing_version="")
 
 DEFAULT_PROJECT_SLUG = "podcast-intelligence-digest"
 DEFAULT_SOURCE = "cron"

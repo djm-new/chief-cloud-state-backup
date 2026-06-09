@@ -57,11 +57,24 @@ Use this skill when deploying or troubleshooting a web app on Railway, especiall
    export RAILWAY_API_TOKEN="${RAILWAY_API_TOKEN:-${RAILWAY_TOKEN:-}}"
    ```
 
-   Some CLI versions also accept interactive/token login commands, but do not rely on them in headless contexts:
+   In headless or chat-driven sessions, prefer env-var auth over interactive login flows. `railway login` only offers browserless auth in this CLI, so token-based automation should be done by exporting `RAILWAY_API_TOKEN` (or `RAILWAY_TOKEN` for older scripts) before running CLI commands.
+
+   Verify auth immediately before any Railway API or deploy action:
 
    ```bash
-   railway login --token "$RAILWAY_API_TOKEN"
+   railway whoami
    ```
+
+   If `whoami` fails, fix the token first; do not spend time probing repo links or GraphQL mutations until auth is valid.
+
+   For headless or non-interactive sessions, prefer a persisted token in `/opt/data/.env` as `RAILWAY_API_TOKEN` (or `RAILWAY_TOKEN` for older scripts). In this environment, the Railway CLI can still report `Unauthorized` even when the token is valid, so treat direct GraphQL reads as the source of truth when CLI auth is flaky.
+
+   If `whoami` is inconclusive but you have a fresh token, do a direct GraphQL read against `https://backboard.railway.com/graphql/v2` with `Authorization: Bearer <token>` and a browser-like `User-Agent` to confirm the token actually works for API reads. See `references/railway-auth-verification.md`.
+
+   Common GraphQL operations for automation:
+   - `serviceConnect` — attach a GitHub repo to a Railway service
+   - `serviceInstanceAutoDeployStatus` — confirm auto-deploy is enabled
+   - `deployments` — list/poll deployment status and build IDs
 
 3. **Avoid repeated browserless auth loops**
 
@@ -182,9 +195,15 @@ restartPolicyMaxRetries = 3
 
 - **Browserless login is not enough in headless chat environments.** If it waits/spins or expires, switch to `RAILWAY_API_TOKEN`; do not loop.
 - **CLI token variable differs by version.** Railway CLI v5 uses `RAILWAY_API_TOKEN`; normalize `RAILWAY_TOKEN` into it when users paste a token under the older name.
+- **`railway whoami` is the fastest auth gate.** Run it before GraphQL/API work; if it fails, treat the token as the problem and stop investigating repo linking or deployment state until auth succeeds.
 - **Linked service display can be misleading.** `railway status` may show a linked service that differs from the service you intend to mutate. Before changing volumes/variables, confirm the target service by command output or use service-specific flags where supported.
+- **GitHub deploys require a connected repo.** If the Railway service has no GitHub repo attached in Settings, pushing to GitHub will not change the running service. Push local commits first, then connect the repo, then verify the deployment history.
+- **Use GraphQL to verify linkage, not just the dashboard.** For a definitive answer, query `project { services { repoTriggers } }` and confirm a `provider: github` trigger for the expected `owner/repo` and branch. Dashboard UI can lag or hide the exact state.
+- **Service shell is not the repo checkout.** A Railway app console can be the running container only; verify the checkout with `pwd`, `ls`, and `git rev-parse --show-toplevel` before telling the user to run git commands there. See `references/railway-shell-vs-repo.md`.
+- **Give one direct execution path.** When the user asks where to run commands, answer with the exact place + exact command sequence + one verification check, not a menu of alternatives.
 - **Deploy only after local verification.** Tests/typecheck/build should pass before `railway up`.
 - **Health 200 is not proof that a frontend fix is live.** Railway can keep the old deployment serving while the new one builds/deploys. For UI fixes, wait for status to clear `Building`/`Deploying` and verify the route HTML plus linked CSS/JS contains a unique marker from the change.
+- **The service console is runtime, not source.** If the console starts in `/app` and `git remote -v` says the repo is missing, you are inside the deployed image only. Use the service **Settings** or **Deployments** view to find the connected GitHub source. See `references/railway-source-vs-runtime.md`.
 - **Secrets must be set as Railway variables, not committed.** Keep OAuth tokens/client secrets on persistent volumes or Railway secret storage.
 - **Postgres must be provisioned before Prisma deploy.** `DATABASE_URL` needs to exist in the app service.
 - **Health check path must exist.** Add a simple `/api/health` route before setting `healthcheckPath`.
@@ -203,3 +222,4 @@ restartPolicyMaxRetries = 3
 ## References
 
 - `references/nextjs-login-debug.md` — Railway + Next.js production login probes for staged-only fixes, deployed JS chunk inspection, API/session verification, and CLI v5 token quirks.
+- `references/railway-source-vs-runtime.md` — how to tell whether a Railway service is actually connected to GitHub and why pushes may appear to do nothing until the repo is linked.

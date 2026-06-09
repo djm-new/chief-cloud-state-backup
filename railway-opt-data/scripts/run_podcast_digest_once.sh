@@ -26,6 +26,20 @@ log="$OUTDIR/$(date -u +%Y-%m-%d_%H%M)-podcast-digest-run.log"
   "$PY" /opt/data/scripts/podcast_resolve_collect_rank.py collect --days 1
   echo "Step 2: semantic discovery"
   "$PY" /opt/data/scripts/podcast_semantic_discovery.py --days 1
+  episode_count="$($PY - <<'PY'
+import sqlite3
+from datetime import datetime, timezone, timedelta
+from pathlib import Path
+DB = Path('/opt/data/podcast_digest/episodes.sqlite')
+con = sqlite3.connect(DB)
+since = (datetime.now(timezone.utc) - timedelta(hours=24)).isoformat()
+count = con.execute('select count(*) from episodes where published >= ?', (since,)).fetchone()[0]
+print(count)
+PY
+)"
+  if [[ "$episode_count" -eq 0 ]]; then
+    exit 0
+  fi
   echo "Step 3: Qwen episode scoring"
   "$PY" /opt/data/scripts/podcast_qwen_episode_score.py --since-hours 24 --tag daily-24h
 } > "$log" 2>&1
