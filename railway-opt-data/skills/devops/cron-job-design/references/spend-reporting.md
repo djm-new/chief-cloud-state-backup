@@ -21,6 +21,7 @@ Why:
   - included/unknown pricing session counts
   - model/platform breakdowns
 - It is the same source used by the built-in `hermes insights` command.
+- Caveat: `overview.actual_cost` is not always a trustworthy billed-cost source. If it is missing, null, or zero in a window that clearly contains paid usage, render billed spend as `unavailable` and reconcile with the provider’s billing API instead of printing `$0.0000`.
 
 ## Recommended daily report fields
 

@@ -222,6 +222,16 @@ When the symptom is "this estimate seems wrong" or a user compares an AI-generat
 - Add regression tests for the exact bad estimate and for source-priority behavior.
 - See `references/nutrition-estimator-debugging.md` for the food/nutrition estimator pattern.
 
+### 10. For Model Usage / Spend Mismatches, Trace the Side-Channel
+
+When a usage dashboard or spend report undercounts Hermes model usage:
+
+- Trace both the main session path *and* auxiliary paths such as compression, title generation, session search, vision, or web extraction.
+- Compare the visible session ledger against any event-level spend store; main sessions often miss auxiliary Anthropic/Codex calls if they are not explicitly recorded.
+- Inspect config and logs together: `config.yaml` auxiliary provider/model overrides often explain why Sonnet/Haiku appears even when the chat session model is different.
+- Treat ledger writes as best-effort instrumentation, but make the capture path explicit so side-channel usage is not lost.
+- Add a regression test or probe that proves the auxiliary call writes a spend event.
+
 ### Phase 1 Completion Checklist
 
 - [ ] Error messages fully read and understood

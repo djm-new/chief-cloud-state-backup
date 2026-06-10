@@ -6,8 +6,7 @@ from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-from hermes_state import SessionDB
-from agent.insights import InsightsEngine
+from agent.spend_ledger import summarize_spend
 from hermes_constants import get_hermes_home
 
 ET = ZoneInfo("America/New_York")
@@ -35,28 +34,84 @@ def num(value) -> str:
 def top_models(report: dict, max_rows: int = 4) -> list[str]:
     rows = report.get("models", []) or []
     if not rows:
-        return ["- No sessions found."]
+        return ["- No model usage yet."]
     lines = []
     for row in rows[:max_rows]:
         model = row.get("model") or "unknown"
-        cost = usd(row.get("cost"))
-        status = row.get("cost_status") or "unknown"
-        lines.append(
-            f"- {model}: {cost} · {num(row.get('sessions'))} sessions · {num(row.get('total_tokens'))} tokens · {status}"
-        )
+        report_cost_value = float(row.get("cost") or 0)
+        raw_cost_value = float(row.get("raw_cost", row.get("cost")) or 0)
+        report_cost = usd(report_cost_value)
+        raw_cost = usd(raw_cost_value)
+        status_flags = row.get("status_flags") or []
+        status = ",".join(status_flags) if status_flags else (row.get("cost_status") or "unknown")
+        calibration_factor = float(row.get("calibration_factor") or 1.0)
+        parts = [report_cost, f"{num(row.get('total_tokens'))} tokens", status]
+        if abs(raw_cost_value - report_cost_value) > 1e-9:
+            parts.insert(1, f"raw {raw_cost}")
+        if calibration_factor != 1.0:
+            parts.insert(2, f"calib x{calibration_factor:.4f}")
+        lines.append(f"- {model}: " + " · ".join(parts))
     return lines
 
 
-def top_platforms(report: dict, max_rows: int = 4) -> list[str]:
-    rows = report.get("platforms", []) or []
+def top_workstreams(report: dict, max_rows: int = 4, model_rows: int = 2) -> list[str]:
+    rows = report.get("workstreams", []) or []
     if not rows:
-        return ["- No sessions found."]
+        return ["- No workstreams found."]
     lines = []
     for row in rows[:max_rows]:
-        platform = row.get("platform") or "unknown"
-        lines.append(
-            f"- {platform}: {num(row.get('sessions'))} sessions · {num(row.get('messages'))} messages · {num(row.get('total_tokens'))} tokens"
-        )
+        label = row.get("workstream") or "unclassified"
+        cost = usd(row.get("cost"))
+        tokens = num(row.get("total_tokens"))
+        parts = [cost, f"{tokens} tokens"]
+        models = row.get("top_models", []) or []
+        if models:
+            model_bits = []
+            for m in models[:model_rows]:
+                model_bits.append(f"{m.get('model') or 'unknown'} {usd(m.get('cost'))}")
+            parts.append("models: " + ", ".join(model_bits))
+        lines.append(f"- {label}: " + " · ".join(parts))
+    return lines
+
+
+def top_channels(report: dict, max_rows: int = 4) -> list[str]:
+    rows = report.get("channels", []) or []
+    if not rows:
+        return ["- No channel/topic labels captured yet."]
+    lines = []
+    for row in rows[:max_rows]:
+        label = row.get("channel") or "unlabeled"
+        cost = usd(row.get("cost"))
+        tokens = num(row.get("total_tokens"))
+        lines.append(f"- {label}: {cost} · {tokens} tokens")
+    return lines
+
+
+def top_telegram_topics(report: dict, max_rows: int = 8) -> list[str]:
+    rows = report.get("channels", []) or []
+    known_topics = {
+        "General/home",
+        "Archive/Old Chief",
+        "Briefings",
+        "Alerts",
+        "Daily Brain Dump",
+        "Coding",
+        "General (ad-hoc/conversational)",
+    }
+    rows = [
+        row for row in rows
+        if (row.get("channel") or "") in known_topics
+        or (row.get("channel") or "").startswith("Chief Group - Hermes /")
+        or (row.get("channel") or "").startswith("topic ")
+    ]
+    if not rows:
+        return ["- No Telegram topic labels captured yet."]
+    lines = []
+    for row in rows[:max_rows]:
+        label = row.get("channel") or "unlabeled"
+        cost = usd(row.get("cost"))
+        tokens = num(row.get("total_tokens"))
+        lines.append(f"- {label}: {cost} · {tokens} tokens")
     return lines
 
 
@@ -79,23 +134,14 @@ def should_emit(now_et: datetime) -> bool:
 
 
 def load_report(days: int) -> dict:
-    db = SessionDB()
-    try:
-        engine = InsightsEngine(db)
-        return engine.generate(days=days)
-    finally:
-        db.close()
+    return summarize_spend(days=days)
 
 
 def render_window(label: str, report: dict) -> list[str]:
     o = report.get("overview", {}) or {}
     lines = [f"**{label}**"]
     lines.append(f"- Estimated spend: {usd(o.get('estimated_cost'))}")
-    lines.append(f"- Actual billed spend: {usd(o.get('actual_cost'))}")
-    lines.append(f"- Sessions: {num(o.get('total_sessions'))} · Tokens: {num(o.get('total_tokens'))}")
-    lines.append(
-        f"- Included sessions: {num(o.get('included_cost_sessions'))} · Unknown pricing sessions: {num(o.get('unknown_cost_sessions'))}"
-    )
+    lines.append(f"- Tokens: {num(o.get('total_tokens'))}")
     return lines
 
 
@@ -114,11 +160,23 @@ def main() -> int:
     print("")
     print("\n".join(render_window("Last 7d", weekly)))
     print("")
+    print("**By workstream — last 24h**")
+    print("\n".join(top_workstreams(daily, max_rows=5)))
+    print("")
+    print("**By Telegram topic — last 24h**")
+    print("\n".join(top_telegram_topics(daily)))
+    print("")
+    print("**By topic/channel — last 24h**")
+    print("\n".join(top_channels(daily)))
+    print("")
     print("**Top models — last 24h**")
     print("\n".join(top_models(daily)))
     print("")
-    print("**Top platforms — last 24h**")
-    print("\n".join(top_platforms(daily)))
+    print("**By workstream — last 7d**")
+    print("\n".join(top_workstreams(weekly, max_rows=6)))
+    print("")
+    print("**By Telegram topic — last 7d**")
+    print("\n".join(top_telegram_topics(weekly)))
     print("")
     print("**Top models — last 7d**")
     print("\n".join(top_models(weekly)))

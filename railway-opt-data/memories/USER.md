@@ -1,6 +1,6 @@
 User prefers concise current-state alerts and complete one-shot execution.
 §
-DJ wants Flow Slack briefings in Telegram Briefings topic 4; action items go in one Action list additions section.
+Flow briefings go to Telegram Briefings.
 §
 User prefers explicit approval before recurring monitors; Google is read-only unless DJ requests edits or sends.
 §
@@ -16,10 +16,10 @@ User does not want Telegram topics referred to by numeric IDs; use the human-rea
 §
 DJ prefers the podcast intelligence digest delivered daily to the Telegram Briefings channel at 5PM ET.
 §
-User prefers verified, current-state-first updates; use Eastern Time.
+User prefers verified, current-state-first updates and wants time references in America/New_York (ET) unless asked otherwise.
 §
 DJ wants Top of Mind items to default to the bottom, with only priority/starred items at the top; personal errand/travel items route to Personal.
 §
 DJ wants GitHub backups to preserve durable context while excluding secrets.
 §
-User wants spend reports broken down by project, workflow, and model instead of generic aggregate token buckets.
+DJ wants all Hermes Telegram activity captured in the spend tracker; Anthropic Sonnet 4-6 is fallback-only.

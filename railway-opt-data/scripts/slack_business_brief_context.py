@@ -32,15 +32,20 @@ else:
     print('## Open / rolling topics from prior briefs')
     print('No rolling topics file found.')
 
-# Include the last 2 archived final briefs, if any, as lightweight continuity.
-# Exclude review drafts so DJ feedback artifacts do not pollute future synthesis.
+# Include only the rolling tail of the last 2 archived final briefs.
+# This preserves continuity without re-injecting old executive-summary prose,
+# which can contain stale time ranges or other unsupported details.
 briefs = [p for p in sorted(archive.glob('20*-*.md'), key=lambda p: p.name) if '-review' not in p.name]
 briefs = briefs[-2:]
 if briefs:
-    print('\n## Recent final brief archive')
+    print('\n## Recent final brief archive (rolling tail only)')
     for p in briefs:
-        print(f'\n### {p.name}')
-        print(p.read_text(errors='ignore')[:2500])
+        text = p.read_text(errors='ignore')
+        marker = '## Carry-forward topics'
+        tail = text[text.find(marker):] if marker in text else ''
+        if tail:
+            print(f'\n### {p.name}')
+            print(tail[:7000])
 
 print('\n# Latest Slack Collection Evidence')
 try:

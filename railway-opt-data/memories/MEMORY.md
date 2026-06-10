@@ -16,6 +16,4 @@ User prefers GitHub as the source of truth for code; Railway is runtime/deployme
 §
 HealthOS Railway deploys require the GitHub repo to be linked in Railway Settings before push-to-deploy works.
 §
-Persistent automation auth is stored in /opt/data/.env, and GitHub git authentication is persisted via /opt/data/.git-credentials with git credential.helper pointing there.
-§
-Persistent automation auth lives in /opt/data/.env and /opt/data/.git-credentials and is intended for all projects, not just HealthOS.
+Hermes spend reconciliation must assume mixed-provider sessions and per-call attribution. Current calibration applies only to Anthropic; OpenAI Codex and OpenRouter/Qwen/DeepSeek stay raw per-call estimates unless externally anchored.

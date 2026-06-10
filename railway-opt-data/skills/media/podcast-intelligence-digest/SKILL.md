@@ -7,7 +7,7 @@ license: private
 metadata:
   hermes:
     tags: [podcasts, digest, briefing, discovery, rss, ranking, audio-briefing]
-    related_skills: [podcast-audio-production, youtube-content, daily-business-briefing]
+    related_skills: [youtube-content, daily-business-briefing]
 ---
 
 # Podcast Intelligence Digest
@@ -145,7 +145,40 @@ Keep the guest/watchlist file as seed examples and calibration anchors, not a cl
 10. **For weekly audio.**
    - Select the week's 3–5 highest-signal clusters.
    - Write a conversational two-host script that synthesizes ideas rather than reciting rankings.
-   - Then invoke `podcast-audio-production` to generate the MP3. Speaker labels are script directions, not spoken words.
+   - Then invoke the audio production workflow in this skill to generate the MP3. Speaker labels are script directions, not spoken words.
+
+## Audio production workflow
+
+Use this path when the user wants to turn a script, outline, article, or weekly digest outline into a podcast-style audio file.
+
+1. **Prepare a clean production script.**
+   - Strip speaker labels from spoken TTS text; keep them only for voice assignment.
+   - Remove or convert bracketed cues like `[BEAT]`, `[laughs]`, and `[INTRO MUSIC]` into actual pauses or music beds.
+   - If the script is dialogue, preserve it as structured segments so each speaker can be synthesized independently.
+
+2. **Chunk long scripts before TTS.**
+   - Split by paragraph or speaker turn into chunks of roughly 2,000–3,500 characters.
+   - Smaller chunks make retries cheap and reduce provider failures.
+
+3. **Generate TTS.**
+   - Prefer premium or highest-quality configured TTS first.
+   - Use distinct, stable voices for recurring speakers.
+   - Keep successful chunks and retry only the failed chunk if one segment errors.
+
+4. **Assemble with ffmpeg.**
+   - Normalize all chunks to the same sample rate and channel count before concatenation.
+   - Add short silence between chunks and place music beds where the script asks for them.
+   - Default to MP3 for broad support; use OGG/Opus when a voice-note style delivery is preferred.
+
+5. **Verify before delivery.**
+   - Run `ffprobe` on the final file to confirm codec, duration, channels, and sample rate.
+   - Ensure all intended segments are present.
+
+6. **Deliver.**
+   - On Telegram, include `MEDIA:/absolute/path/to/file` in the final response.
+   - Note briefly what was produced and whether it is a polished production or a fallback rendering.
+
+See `references/multi-speaker-dialogue.md` for the structured segment pattern and dialogue pitfalls.
 
 ## Output Shape
 
@@ -212,6 +245,7 @@ Rules:
 - Use persistent `/opt/data` locations in DJ's production Hermes/Railway environment for durable state; avoid relying on `/tmp` for long-lived assets.
 - When reporting spend for podcast work, separate Hermes-session spend from direct OpenRouter script spend instead of assuming `spend.db` is complete.
 - For DJ's Telegram Hermes group, production podcast digest outputs belong in **Briefings** (`telegram:-1003956828149:4` as of the current Chief setup). Pipeline failures/health alerts belong in **Alerts** (`telegram:-1003956828149:5`). Experiments/test runs should go to a coding/sandbox topic or stay local until DJ asks to see them.
+- Daily podcast delivery wrappers should be bounded: if collection/discovery is slow, time-box those stages, keep semantic discovery optional or separate, and prefer a partial valid digest over a cron timeout. See `references/podcast-digest-cron-fix.md`.
 
 ### One-time preview run pattern
 
@@ -252,6 +286,7 @@ These paths are conventions, not universal facts. Verify them before editing.
 - `references/openrouter-shared-helper.md` — shared helper API, rollout pattern, and verification checklist for new podcast scripts.
 - `references/daily-digest-calibration.md` — 24h daily digest workflow, funnel reporting requirements, DJ editorial calibration, and first-run lessons.
 - `references/last48h-run-notes.md` — June 2026 ad hoc 48h run notes, interpreter pitfall, and successful digest shape.
+- `references/multi-speaker-dialogue.md` — structured dialogue-segment notes for producing multi-voice podcast audio.
 - `scripts/qwen_daily_digest.py` — starter script that turns Qwen episode scores into a calibrated daily markdown digest.
 - `scripts/qwen_episode_score.py` — reusable starter script for compact OpenRouter/Qwen episode-level scoring against the prototype SQLite episode store.
 

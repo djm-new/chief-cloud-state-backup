@@ -5,11 +5,8 @@ model:
   contextlength: 60000
 providers: {}
 fallback_providers:
-- provider: openrouter
-  model: deepseek/deepseek-v4-pro
-  base_url: ''
 - provider: anthropic
-  model: claude-opus-4-6
+  model: claude-sonnet-4-6
   base_url: ''
 credential_pool_strategies: {}
 toolsets:
@@ -180,15 +177,15 @@ auxiliary:
     timeout: 360
     extra_body: {}
   compression:
-    provider: anthropic
-    model: claude-sonnet-4-6
+    provider: openai-codex
+    model: gpt-5.4-mini
     base_url: ''
     api_key: ''
     timeout: 120
     extra_body: {}
   session_search:
-    provider: anthropic
-    model: claude-haiku-4-5
+    provider: openai-codex
+    model: gpt-5.4-mini
     base_url: ''
     api_key: ''
     timeout: 30
@@ -216,8 +213,8 @@ auxiliary:
     timeout: 30
     extra_body: {}
   title_generation:
-    provider: anthropic
-    model: claude-haiku-4-5
+    provider: openai-codex
+    model: gpt-5.4-mini
     base_url: ''
     api_key: ''
     timeout: 30

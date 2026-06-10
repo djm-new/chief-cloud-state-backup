@@ -40,6 +40,7 @@ Rules:
 - **Do not infer work happened from the existence of a scheduled run.** A successful cron wakeup is not evidence that any spend events occurred.
 - **Call out pricing caveats explicitly.** If `estimated_cost_usd` is zero because the provider or pricing path is still unresolved, the report should surface that as a caveat, not hide it.
 - **Use the same source of truth for both cadence variants** so the daily and weekly numbers reconcile (same ledger, different window).
+- **If a report belongs with a health check, prefer a single combined daily wrapper over two separate Telegram messages.** The wrapper should run the health probe first, then the report, and send one scan-friendly message when healthy. Keep the dedicated report job only if it serves a different audience or cadence.
 
 For spend reports, the primary question is: *what did the ledger record in the window?* Not: *did the job run?*
 
@@ -96,18 +97,29 @@ For Hermes daily/weekly spend reporting, the authoritative reporting source is t
 Why:
 - the raw ledger can show only a partial view of spend attribution;
 - `InsightsEngine.generate(days=...)` already exposes `estimated_cost` and `actual_cost` plus session/model/platform breakdowns;
-- daily and weekly reports should answer: estimated spend, actual billed spend, sessions, tokens, and the top models/platforms driving cost.
+- daily and weekly reports should answer: estimated spend, billed spend status, sessions, tokens, and the top models/platforms driving cost.
 
 Recommended reporting shape:
-- *Daily*: last 24h estimated spend, actual billed spend, sessions, tokens, included sessions, unknown pricing sessions, top models, top platforms.
-- *Weekly*: last 7d estimated spend, actual billed spend, sessions, tokens, included sessions, unknown pricing sessions, top models, top platforms.
+- *Daily*: last 24h estimated spend, billed spend status, sessions, tokens, included sessions, unknown pricing sessions, top models, top platforms.
+- *Weekly*: last 7d estimated spend, billed spend status, sessions, tokens, included sessions, unknown pricing sessions, top models, top platforms.
 - *Attribution*: when asked for "what used the tokens," include project totals and model totals, and if available break out workflow/stage labels instead of collapsing everything into a single bucket.
+
+Billed-spend caveat:
+- If `actual_cost` is missing, null, or zero in a window that clearly contains paid usage, render billed spend as `unavailable` rather than `$0.0000`.
+- If a user or provider dashboard shows billed spend that disagrees with the local estimate, treat the local report as incomplete and reconcile against the provider billing/admin source before publishing a billed total.
+- Numeric billed totals should come from a real billing source, not a placeholder session field.
 
 If a spend report prints `$0.0000`, do not assume the report is healthy. Check whether the data path is using the session insights engine or a ledger that undercounts/omits the relevant fields.
 
+For Anthropic specifically, remember that the dashboard’s Usage chart may include **both API and Console** usage under the same API-key filter. When Hermes-local estimates disagree with Anthropic’s dashboard, reconcile against the Anthropic dashboard export or the Usage/Cost Admin API before concluding the local tracker is the source of truth.
+
+Support file:
+- `references/spend-billing-reconciliation.md`
+
 Support files:
 - `references/spend-reporting.md`
-- `references/chief-alert-triage.md`
+- `references/anthropic-usage-reconciliation.md` — how to reconcile Hermes estimates against Anthropic dashboard/API-key usage (dashboard includes Console + API).
+- `references/cron-failure-triage.md`
 
 Repeated identical alerts are noise. Use a fingerprint+cooldown pattern in bash scripts:
 
@@ -228,6 +240,20 @@ Exit nonzero if issues found; the bash wrapper treats nonzero as issues.
 
 Hermes wraps cron deliveries by default with `Cronjob Response`, `job_id`, divider, and a "To stop or manage this job..." footer. DJ flagged that footer/job metadata as extraneous for daily health-style updates. If a job's script/agent already prints the exact user-facing message, disable wrapping globally with:
 
+**Combined health + report pattern**
+- When a daily health check and a spend briefing should ship together, make a small wrapper script that:
+  - forces the health script into report mode (`CHIEF_HEALTH_ALWAYS_REPORT=1`);
+  - forces the spend script into emit mode (`HERMES_SPEND_REPORT_FORCE=1`);
+  - prints one combined Telegram-ready message with the health section first and the spend section second;
+  - keeps its own once-per-day ET guard so the cron's UTC candidate wakeups don't double-send across DST.
+- Prefer this pattern when the spend update is a *supporting section* of the daily health check, not a separate product.
+
+If you need a reusable implementation example, see `references/daily-health-spend-wrapper.md`.
+
+```bash
+/opt/hermes/.venv/bin/hermes config set cron.wrap_response false
+```
+
 ```bash
 /opt/hermes/.venv/bin/hermes config set cron.wrap_response false
 ```
@@ -242,6 +268,7 @@ Then make each cron script output its own concise self-identifying line, e.g. `C
 - **Don't suppress logs** — write full detail to a status file so Hermes can read it on-demand; just don't push it to Telegram automatically.
 - **If a user message in a Telegram topic seems to get no response, first verify whether it is a live gateway conversation vs. a cron delivery.** Cron jobs are intentionally silent on OK and may only emit output on failure; a live topic reply should come from the gateway session, not the cron runner.
 - **Legitimate empty windows are silent success.** If a batch/collector/scorer runs cleanly but there is nothing new to report in the requested window, exit `0` and send nothing rather than treating the absence of items as a failure.
+- **Bound long-running delivery pipelines.** If a cron wrapper chains collection, discovery, scoring, and rendering, time-box the earlier stages and make non-essential stages optional so the final deliverable can still ship inside the cron budget. Prefer a partial-but-valid artifact over a timeout.
 - **Shared helper modules may be imported in stripped-down cron environments.** If a support module depends on optional accounting or telemetry packages, guard imports with `try/except` and provide no-op fallbacks so the main pipeline can still run.
 - **CHIEF_HEALTH_ALWAYS_REPORT=1** can be set to force output for debugging without changing the script's default behavior.
 - **Clear the fingerprint on resolution** — if you only clear it when issues appear, a persistent-then-resolved-then-recurring issue will be silenced on second occurrence.
@@ -257,4 +284,5 @@ Support files:
 - `references/chief-health-check-design.md` — the specific Railway Chief health check implementation and the DJ feedback that shaped this pattern.
 - `references/telegram-vs-cron-replies.md` — how to tell a live Telegram topic reply from a silent cron delivery when a user says a topic is "not replying."
 - `references/spend-reporting.md` — daily/weekly spend report lessons: truthful zeroes, pricing caveats, attribution shape, and ledger/session-insights reporting.
+- `references/spend-billing-reconciliation.md` — when billed spend is missing/zero, how to label it and where to reconcile real Anthropic billing.
 - `references/cron-failure-triage.md` — step-by-step debugging flow for failed cron jobs and wrapper logs.

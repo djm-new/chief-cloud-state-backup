@@ -1,20 +1,20 @@
-Chief Railway health check: 2026-06-09T06:00:53Z
-Memory: 1788MB / 22888MB (7%)
-Railway volume disk: 1649MB / 46627MB (4%)
+Chief Railway health check: 2026-06-10T06:00:01Z
+Memory: 2668MB / 22888MB (11%)
+Railway volume disk: 1720MB / 46627MB (4%)
 Gateway process: 1 /opt/hermes/.venv/bin/python3 /opt/hermes/.venv/bin/hermes gateway run
 Operational checks:
-  Chief operational health: 2026-06-09T06:01:56.855639+00:00
-  Check: /opt/data/daily-tom/task_state.json: 19825 bytes, age 17.1h
-  Check: /opt/data/slack_business_brief_latest.md: 80982 bytes, age 9.1h
-  Check: /opt/data/slack_brief_archive/open_topics.md: 9253 bytes, age 8.8h
-  Check: /opt/data/slack_brief_archive/BRIEFING_POLICY.md: 1290 bytes, age 320.0h
-  Check: /opt/data/google-accounts/SECURITY_POLICY.md: 2340 bytes, age 327.5h
-  Check: /opt/data/security/ATTACK_VECTOR_CHECKLIST.md: 1489 bytes, age 321.8h
-  Check: Archived smart briefings: 16
-  Check: Latest archived briefing: 2026-06-08-2100.md, age 8.9h
-  Check: Daily ToM context: OK (2044 chars)
-  Check: Email ToM context: OK (2745 chars)
-  Check: Filtered Slack context: OK (19555 chars)
-  Check: Full smart brief context: OK (38744 chars)
+  Chief operational health: 2026-06-10T06:01:06.973598+00:00
+  Check: /opt/data/daily-tom/task_state.json: 20952 bytes, age 21.0h
+  Check: /opt/data/slack_business_brief_latest.md: 80254 bytes, age 9.1h
+  Check: /opt/data/slack_brief_archive/open_topics.md: 8503 bytes, age 8.8h
+  Check: /opt/data/slack_brief_archive/BRIEFING_POLICY.md: 1487 bytes, age 15.7h
+  Check: /opt/data/google-accounts/SECURITY_POLICY.md: 2340 bytes, age 351.4h
+  Check: /opt/data/security/ATTACK_VECTOR_CHECKLIST.md: 1489 bytes, age 345.8h
+  Check: Archived smart briefings: 18
+  Check: Latest archived briefing: 2026-06-09-2100.md, age 8.8h
+  Check: Daily ToM context: OK (2062 chars)
+  Check: Email ToM context: OK (2811 chars)
+  Check: Filtered Slack context: OK (23412 chars)
+  Check: Full smart brief context: OK (36924 chars)
   Status: OK
 Status: OK

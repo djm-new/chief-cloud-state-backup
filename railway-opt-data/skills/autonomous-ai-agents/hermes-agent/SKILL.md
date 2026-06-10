@@ -232,9 +232,25 @@ hermes update               Update to latest version
 ```
 
 Spend-monitor implementation notes: `references/spend-monitor-ledger.md`.
+Reporting dimensions and anti-misread rules: `references/spend-reporting-dimensions.md`.
+Auxiliary spend capture pattern (compression/title generation/session search side-channel usage): `references/spend-capture-auxiliary-models.md`.
 Direct OpenRouter HTTP scripts: `references/openrouter-direct-http-spend-capture.md`.
 Workflow attribution and reporting shape: `references/openrouter-workflow-attribution.md`.
-hermes plugins list/install/remove  Plugin management
+Canonical main-response usage capture note: the primary response hook must also write a best-effort spend event after `normalize_usage(...)` + `estimate_usage_cost(...)` so OpenAI/Codex usage is not missed when it bypasses auxiliary helpers.
+
+Mixed-session attribution lesson: some Telegram and CLI sessions switch providers mid-stream. If a session's final row says `openai-codex`, that does *not* prove earlier Anthropic or OpenRouter Qwen/DeepSeek calls were Codex. Use per-call spend events (`llm_usage_events`) or rotated logs for reconciliation when provider dashboards disagree.
+
+Spend-reporting lesson: if the system has *no real billed feed*, do not print `0` as “actual billed spend” just because a field exists. Mark it unavailable/unknown and keep the local estimate clearly labeled so the report does not imply a false reconciliation.
+
+Cost-estimation lesson: subscription-included routes should still emit an estimated API-equivalent cost in the ledger. Do not collapse them to `included`/`$0` if the user wants spend visibility by model, workflow, or session.
+
+Reporting anti-misread rule: every model row should expose raw cost, reported/calibrated cost, calibration factor, pricing source/version, and status flags. Keep the raw ledger intact; calibration is a report-layer view only.
+
+Auxiliary-routing hygiene: when a user says an Anthropic model should be fallback-only, audit *all* auxiliary slots in `config.yaml` (`compression`, `session_search`, `title_generation`, vision/web helpers, etc.), not just the visible chat provider. Hidden spend often comes from those side channels. Keep the fallback chain explicit and ensure the fallback model is the only Anthropic path unless the user asks otherwise.
+
+Reporting shape: prefer event-ledger rollups (`provider`, `model`, `project`, `platform`, `session_id`) over session-state aggregates. Session rows are useful metadata, but they are not authoritative when provider switching happens mid-conversation or when auxiliary helpers use a different backend.
+
+Telegram spend reporting: when topic/thread metadata is missing from the ledger, recover `session_id -> thread_id` from gateway logs before rendering the report. Use human-readable Chief Group names (`General/home`, `Briefings`, `Alerts`, `Daily Brain Dump`, `Coding`, etc.) and add a dedicated `By Telegram topic` section alongside the generic `By topic/channel` rollup. See `references/telegram-topic-spend-labels.md`.hermes plugins list/install/remove  Plugin management
 hermes honcho setup/status  Honcho memory integration (requires honcho plugin)
 hermes memory setup/status/off  Memory provider config
 hermes completion bash|zsh  Shell completions

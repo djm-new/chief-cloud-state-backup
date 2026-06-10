@@ -10,6 +10,7 @@ Preferred architecture:
 1. **Local event ledger**: record one SQLite row per successful model response.
 2. **Use existing token/cost normalization**: Hermes already normalizes provider usage and estimates costs in `agent.usage_pricing`.
 3. **Provider reconciliation later**: OpenRouter/Anthropic/OpenAI reported totals can be pulled periodically, but local events remain the source of attribution.
+4. **Capture the canonical main-response path too**: do not rely on auxiliary-side instrumentation alone. The primary model response path must also write a best-effort spend event after `normalize_usage(...)` + `estimate_usage_cost(...)`, so OpenAI/Codex usage is not missed when it bypasses side-channel helpers.
 
 ## Implementation pattern
 
@@ -91,4 +92,6 @@ python3 -m py_compile agent/spend_ledger.py hermes_cli/spend.py run_agent.py her
 - Do not rely on provider dashboards for channel/project attribution.
 - Do not append numeric Telegram thread/topic IDs to user-facing channel labels for DJ.
 - Do not let accounting writes affect model calls; ledger persistence must be best-effort.
+- If the platform does not expose a true billed-cost feed, label billed spend as unavailable instead of `0` to avoid misleading reconciliation.
+- Subscription-included routes should still be costed with an estimated API-equivalent USD amount when the goal is visibility by model/workflow/session.
 - `argparse` parent/default values can leak into subcommands. For `hermes spend project`, prefer the subcommand name over a hidden parent `--by` default when deciding group-by dimension.

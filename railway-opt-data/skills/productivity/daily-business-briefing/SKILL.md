@@ -73,11 +73,13 @@ Six sections, always in this order:
 1. **Executive summary** — 3-5 bullets max. Most important first. Decisive, not neutral.
 2. **Action list additions** — the single consolidated action section. Include everything that should be added to DJ's ToM/action list: decisions needed, suggested ToM additions, monitor/watchlist items that require active follow-up, and carry-forward actions. Opinionated: tell DJ exactly what to do; ask approval for any ToM writes.
 3. **Worth knowing / monitor** — brief context only; no action today. One paragraph or less per item.
-4. **Deliberately excluded** — one-liner list showing what the filter caught and why. Builds trust.
-5. **Carry-forward context** — optional, compact non-action rolling context only. Do not duplicate items already in Action list additions.
-6. **Appendix / links** — optional links or provenance if needed.
+4. **Carry-forward context** — optional, compact non-action rolling context only. Do not duplicate items already in Action list additions.
+5. **Appendix / links** — optional links or provenance if needed.
+
+Do **not** include a dedicated "Deliberately excluded" section in the final briefing by default. Exclusions already create clutter; if DJ explicitly asks what was filtered out, answer in one sentence inline or in a separate follow-up, not as a standing section.
 
 See `references/slack-filter-calibration.md` for detailed content filtering rules.
+See `references/briefing-staleness-guards.md` for the archive-reuse / stale timestamp guard that prevents old executive-summary prose from being recycled into new briefs.
 
 ## Calibration rules (v3 — validated 2026-05-27)
 
@@ -138,8 +140,8 @@ Do not present items neutrally as "this exists." Tell DJ what to do about it.
 ## Executive summary          ← 3-5 bullets max, most important first, decisive
 ## Action list additions      ← ONE consolidated action section: decisions needed, ToM additions, active follow-ups, watchlist/carry-forward actions; ask approval before writing ToM
 ## Worth knowing / monitor    ← context only; no action today; do not duplicate action items
-## Deliberately excluded      ← one-liner list, shows filter is working
 ## Carry-forward context      ← optional non-action rolling context only; no duplicate action list items
+## Appendix / links           ← optional links or provenance if needed
 ```
 
 Do **not** split action-like items across “Suggested top of mind,” “watchlist,” “carry forward,” “action/decision needed,” and “monitor.” Those collapse into **Action list additions** when they imply DJ should add, decide, follow up, or track something actively.
