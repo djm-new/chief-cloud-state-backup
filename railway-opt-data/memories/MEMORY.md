@@ -6,8 +6,6 @@ Health app design prefs: PWA+login, Today dashboard, fast LLM meal logging, cust
 §
 Production Hermes uses a persistent /opt/data volume on Railway/Chief; chief-cloud-state-backup is runtime-state backup, and thoughts-repo has its own private remote.
 §
-Railway Chief Google Workspace uses three persistent account slots (personal, 166-2nd, flow); access them via /opt/data/scripts/google-account {personal|166-2nd|flow} ...
-§
 DJ's Google policy: read/search/summarize OK; create/edit/delete Calendar/Docs/Sheets/Drive files when requested; never send Gmail/reply/forward or trigger external notifications. Outbound email/share/invite content is draft-only unless DJ changes policy. ToM: fix thoughts-system Google Calendar integration later, not now.
 §
 Telegram Chief topics: General (1), Archive (3), Briefings (4), Alerts (5), Brain Dump (6), Coding (7), General/ad-hoc (8). Models: default gpt-5.4-mini; topic 7 (Coding) gpt-5.5; topic 8 varies by session request. Fallback OpenRouter DeepSeek V4 Pro → Anthropic. Topic overrides in config.yaml persist across /new — must be manually removed to revert.

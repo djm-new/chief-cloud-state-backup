@@ -55,7 +55,7 @@ def load_episodes(since_hours=None):
     return [dict(r) for r in rows]
 
 
-def call_openrouter(api_key, batch, attempt=1):
+def call_openrouter(api_key, batch, attempt=1, since_hours=None):
     system = """You are DJ Mauch's podcast episode filter. Score EPISODES, not shows. Shows are only source priors.
 DJ wants a daily text digest that casts a wider net summarizing what was said, while the weekly audio podcast-of-podcasts is finely tuned.
 Favor episodes likely to provide: market read, capital allocation implication, CEO/operator insight, AI platform/business model insight, durable framework, or personal/professional toolkit addition.
@@ -107,7 +107,7 @@ confidence: one of low, medium, high."""
         metadata={
             'workflow': 'podcast-intelligence-digest',
             'stage': 'episode_scoring',
-            'since_hours': args.since_hours,
+            'since_hours': since_hours,
             'batch_size': len(batch),
         },
     )
@@ -159,7 +159,7 @@ def main():
         batch = episodes[i:i+BATCH_SIZE]
         for attempt in range(1,4):
             try:
-                results, usage = call_openrouter(api_key, batch, attempt)
+                results, usage = call_openrouter(api_key, batch, attempt, args.since_hours)
                 break
             except Exception as e:
                 if attempt == 3:

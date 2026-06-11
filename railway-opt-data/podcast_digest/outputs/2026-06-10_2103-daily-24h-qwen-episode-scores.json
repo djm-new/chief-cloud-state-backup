@@ -1,0 +1,351 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-06-10_2103",
+  "usage": {
+    "prompt_tokens": 5879,
+    "completion_tokens": 1271,
+    "total_tokens": 7150
+  },
+  "episodes": [
+    {
+      "id": "d1859044321749c7eab53613",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Your biggest questions from Apple's WWDC",
+      "link": "",
+      "published": "2026-06-10T19:30:00+00:00",
+      "summary": "Now that we've had a couple of days to digest all the Siri AI updates, the new corner radii, and everything else Apple announced at its developer conference, we spend the episode answering all your most burning questions. What non-AI stuff are we excited about? How much catching up did Siri really do this week? And wait: what about the HomePod? Further reading: ⁠WWDC 2026: All the news from Apple’s developers conference⁠ ⁠5 things I already love from the iOS 27 beta⁠ ⁠Subscribe to The Verge⁠ for unlimited access to ⁠theverge.com⁠, subscriber-exclusive newsletters, and our ⁠ad-free podcast feed⁠.We love hearing from you! Email your questions and thoughts to ⁠vergecast@theverge.com⁠ or call us at 866-VERGE11. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "2311",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "d1859044321749c7eab53613",
+        "score": 45,
+        "tier": "scan",
+        "reason": "Apple WWDC updates are relevant but not critical for capital allocation or market read.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "5bd07d20f479723c6cbc17eb",
+      "show_name": "Big Technology Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "What Should An AI Device Look Like? — With Alex Himel",
+      "link": "",
+      "published": "2026-06-10T18:12:00+00:00",
+      "summary": "Alex Himel is Meta’s VP of Wearables. Himel joins Big Technology Podcast to discuss the future of AI wearables and why Meta believes glasses could become the next major computing platform. Tune in to hear how AI assistants might help with daily tasks, meetings, reminders, fitness, photos, and real-world context without pulling people out of the moment. We also cover the competition from OpenAI, Google, Apple, and Amazon; the privacy questions around facial recognition; on-device AI; and the story of how Mark Zuckerberg pushed Meta to turn Ray-Ban glasses into an AI product. Hit play for a sharp look at whether smart glasses are finally ready to break through, and what they could mean for the future of personal AI. --- Enjoying Big Technology Podcast? Please rate us five stars ⭐⭐⭐⭐⭐ in your podcast app of choice. Want a discount for Big Technology on Substack + Discord? Here’s 25% off for the first year: https://www.bigtechnology.com/subscribe?coupon=0843016b Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "duration": "3649",
+      "old_score": 67,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "5bd07d20f479723c6cbc17eb",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Insight into Meta's AI wearables strategy and implications for future computing platforms.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "b2a6924e3e8da0fc746906e9",
+      "show_name": "All-In Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Senators John Fetterman and Dave McCormick: Bipartisanship, Money in DC, Datacenters, Graham Platner",
+      "link": "https://allinchamathjason.libsyn.com/senators-john-fetterman-and-dave-mccormick-bipartisanship-money-in-dc-datacenters-graham-platner",
+      "published": "2026-06-10T18:05:00+00:00",
+      "summary": "(0:00) PA Senators Fetterman and McCormick join the Besties (0:33) Bipartisanship in 2026, rejecting extremism (6:37) All-time unpopularity in the Senate, the filibuster question, tribalism (13:33) Fixing wealth concentration in the US (19:51) Graham Platner, why extremism wins primaries, and what it means for the future (28:12) How AI and energy are playing a part in PA's blue collar boom, dark money funding misinformation (41:05) Insane level of money in politics, fixing the broken system Follow Senator Fetterman: https://x.com/SenFettermanPA Follow Senator McCormick: https://x.com/SenMcCormickPA Thanks to our partners for making this possible! EY - EY helps private equity firms turn market insight into action, navigating complexity and unlocking new paths to growth and long-term value. https://www.ey.com/en_us/industries/private-equity?WT.mc_id=3501315&AA.tsrc=sponsorship NYSE - Thank you to our partner, the New York Stock Exchange - a modern marketplace and exchange for building the future. It all happens at the NYSE. https://www.nyse.com Plaud - Never miss a moment. Plaud, our official wearable AI note-taking partner at All-In Liquidity Summit, captured every insight. https://www.plaud.ai Follow the besties: https://x.com/chamath https://x.com/Jason https://x.com/DavidSacks https://x.com/friedberg Follow on X: https://x.com/theallinpod Follow on Instagram: https://www.instagram.com/theallinpod Follow on TikTok: https://www.tiktok.com/@theallinpod Follow on LinkedIn: https://www.linkedin.com/company/allinpod Intro Music Credit: https://rb.gy/tppkzl https://x.com/yung_spielburg",
+      "duration": "43:23",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "b2a6924e3e8da0fc746906e9",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Discusses AI and energy in PA, but lacks deep market or capital allocation insight.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "47521332bf9c8df2004d0874",
+      "show_name": "Founders",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "#421 Jony Ive",
+      "link": "",
+      "published": "2026-06-10T16:15:00+00:00",
+      "summary": "What I learned from reading Jony Ive: The Genius Behind Apple's Greatest Products by Leander Kahney. Made possible by: Ramp: https://ramp.com Axon by Applovin: https://axon.ai/founders Vanta: https://vanta.com/founders",
+      "duration": "3165",
+      "old_score": 28,
+      "old_label": "skip",
+      "qwen": {
+        "id": "47521332bf9c8df2004d0874",
+        "score": 55,
+        "tier": "scan",
+        "reason": "Jony Ive's design philosophy is interesting but not directly actionable for DJ.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "98ec0af13a095b7baff3661b",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: June 10th, 2026",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-june-10th-2026",
+      "published": "2026-06-10T16:00:00+00:00",
+      "summary": "Featuring: Steve Chiavarone, Deputy CIO: Equities & Head: Multi-Asset at Federated Global Investment Management Dan Ives, Managing Director & Global Head: Technology Research at Wedbush Securities Tiffany Wilding, Managing Director & Economist at PIMCO See omnystudio.com/listener for privacy information.",
+      "duration": "1339",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "98ec0af13a095b7baff3661b",
+        "score": 60,
+        "tier": "digest",
+        "reason": "Includes expert commentary on markets and tech, relevant for macro and investment context.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "11a5394c20b95a390df16cd2",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "May CPI and Major IPOs",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/may-cpi-and-major-ipos",
+      "published": "2026-06-10T15:51:36+00:00",
+      "summary": "The latest in finance, economics and investment. Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF . Bloomberg Surveillance hosted by Tom Keene & Paul SweeneyWednesday, June 10, 2026 Featuring: 1) Lori Calvasina, Head of US Equity Strategy at RBC Capital Markets, Jeff Given, Head of Developed-Market Fixed Income and Fixed Income Portfolio Manager at Manulife Investment Management, and Ira Jersey, Chief US Interest Rate Strategist at Bloomberg Intelligence, react to CPI. 2) Ed Ludlow, host of Bloomberg Technology, wraps the week in Apple's WWDC and the upcoming SpaceX and OpenAI IPOs. 3) Odeta Kushi, Deputy Chief Economist at First American, joins for a discussion on the housing market and outperforming and underperforming markets in the US. See omnystudio.com/listener for privacy information.",
+      "duration": "1918",
+      "old_score": 32,
+      "old_label": "skip",
+      "qwen": {
+        "id": "11a5394c20b95a390df16cd2",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Covers CPI, IPOs, and market dynamics critical for macroeconomic and investment decisions.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "4aa1bab2b5dd97b38420bf6c",
+      "show_name": "The Breakdown with NLW",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "BlackRock's Bitcoin ETF Is $13 Billion Underwater",
+      "link": "",
+      "published": "2026-06-10T13:32:00+00:00",
+      "summary": "BlackRock's IBIT is sitting about $13 billion underwater on its Bitcoin holdings. Every ETH ETF is in the red. David walks through which funds bought the top, which took profit, and what happens to crypto if ETF holders finally crack. Plus: a preview of DAS Asia and DAS London, and the SpaceX pre-IPO trade on Hyperliquid. TIMESTAMPS: (00:00) Intro (01:16) Crypto ETFs (15:54) DAS Events 2026 (18:07) SpaceX Perps FOLLOW THE SHOW › David — https://x.com/dcanellis › The Breakdown — https://x.com/TheBreakdownBW › The Breakdown Newsletter — https://blockworks.com/newsletter/the-breakdown Get top market insights and the latest in crypto news. Subscribe to the Blockworks Daily Newsletter: https://blockworks.co/newsletter/ DISCLAIMER As always, remember this podcast is for informational purposes only, and any views expressed by anyone on the show are solely their opinions, not financial advice.",
+      "duration": "1611",
+      "old_score": 4,
+      "old_label": "skip",
+      "qwen": {
+        "id": "4aa1bab2b5dd97b38420bf6c",
+        "score": 40,
+        "tier": "scan",
+        "reason": "Crypto ETF performance is niche and speculative, not core to DJ's focus.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "c8a07f7f6379bd89cc9dd8c1",
+      "show_name": "No Priors",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Biohub: The Future of Biology is Open-Source with Co-Founders Mark Zuckerberg, Priscilla Chan, and Head of Science Alex Rives",
+      "link": "",
+      "published": "2026-06-10T13:00:00+00:00",
+      "summary": "Biohub started with an ambitious goal of curing, preventing, and managing all disease by the end of the century. A decade later, thanks to the convergence of frontier AI and biological data, that goal may have been too conservative. In this episode, Elad Gil and Sarah Guo sit down with Biohub co-founders Mark Zuckerberg and Priscilla Chan, alongside Biohub Head of Science Alex Rives. Together, they discuss Biohub’s $500 million virtual biology initiative, which integrates frontier AI with wet-lab work to build predictive world models of cells, proteins, and systems. They also talk about their newly announced open-source engine for digital protein and antibody design, ESMFold2; why Biohub is a nonprofit rather than a venture-backed startup; and how hierarchical simulations will soon allow doctors to treat patients at an individual, mechanistic level. Sign up for new podcasts every week. Email feedback to show@no-priors.com Follow us on Twitter: @NoPriorsPod | @Saranormous | @EladGil | @Biohub | @finkd | @alexrives | @ChanZuckerberg Chapters: 00:00 – Cold Open 01:02 - Mark Zuckerberg, Priscilla Chan, and Alex Rives Introduction 01:26 – Why Biohub and Their Mission 08:27 – Integrating Frontier AI and Frontier Biology 09:45 – Micro to Macro Biological Modeling 14:22 – Mechanistic Interpretiability 16:58 – Why Biohub is a Non-Profit 21:41 – Understanding How Biology Works 24:23 – Timeline for Curing All Diseases 26:25 – Translating Research to Patient Impact 28:04 – Launch of ESMFold2 32:13 – Tackling Off-Target Effects and Edge Cases 38:39 – Putting the Tech in Individual Hands 41:06 – Talent at Biohub 44:25 – What’s Next After ESMFold2 46:10 – Connecting ESMFold2 to Agentic Systems 46:51 – The Virtual Cell 49:33 – Defining Success for Biohub 51:52 – Biohub Strategy Update 56:20 – Conclusion",
+      "duration": "3380",
+      "old_score": 94,
+      "old_label": "must_listen",
+      "qwen": {
+        "id": "c8a07f7f6379bd89cc9dd8c1",
+        "score": 80,
+        "tier": "digest",
+        "reason": "Biohub's AI-driven biology initiative has long-term implications for healthcare and innovation.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "7f6ad49b951d8cecb64caf8f",
+      "show_name": "My First Million",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Brutally honest guide to not losing money in the market",
+      "link": "",
+      "published": "2026-06-10T12:05:00+00:00",
+      "summary": "Get our Investment Guide: https://clickhubspot.com/klsr Episode 832: Sam Parr ( https://x.com/theSamParr ) and Shaan Puri ( https://x.com/ShaanVP ) talk to legendary fund manager Barry Ritholtz( https://x.com/Ritholtz ) about the behaviors that destroy returns for investors and how to avoid them. — Show Notes: (0:00) Intro (2:19) christmas tree portfolio (4:43) the cowboy account (9:51) day trading (11:09) Barry yells at Lloyd Blankfein (13:46) panic selling (16:45) sam picks a fight (18:46) direct indexing (21:43) Great investors (27:25) 90% of everything is crap (36:14) Elon's foray into PE (44:02) Predicting the housing crisis (46:01) spending a year as the dumbest guy on wall street (49:01) Why bubbles are good for the economy — Links: • How Not To Invest - https://www.hownottoinvestbook.com/ — Check Out Sam's Stuff: • Hampton (joinhampton.com): My community for founders. Average member does $25m/year. Many of the guests are members. Get after it...apply: http://joinhampton.com/mfm — Check Out Shaan's Stuff: • Shaan's weekly email - https://www.shaanpuri.com • Visit https://www.somewhere.com/mfm to hire worldwide talent like Shaan and get $500 off for being an MFM listener. Hire developers, assistants, marketing pros, sales teams and more for 80% less than US equivalents. • Mercury - Need a bank for your company? Go check out Mercury (mercury.com). Shaan uses it for all of his companies! Mercury is a financial technology company, not an FDIC-insured bank. Banking services provided by Choice Financial Group, Column, N.A., and Evolve Bank & Trust, Members FDIC • I run all my newsletters on Beehiiv and you should too + we're giving away $10k to our favorite newsletter, check it out: beehiiv.com/mfm-challenge My First Million is a HubSpot Original Podcast // Brought to you by HubSpot Media // Production by Arie Desormeaux // Editing by Ezra Bakker Trupiano /",
+      "duration": "3300",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "7f6ad49b951d8cecb64caf8f",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Valuable behavioral finance insights from a seasoned investor on avoiding common mistakes.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "4e80d3f4692836a2c3756028",
+      "show_name": "Conversations with Tyler",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "Katja Hoyer on Weimar, the GDR, and the German Character",
+      "link": "https://cowenconvos.libsyn.com/katja-hoyer-on-weimar-the-gdr-and-the-german-character",
+      "published": "2026-06-10T11:30:00+00:00",
+      "summary": "Katja Hoyer is a German-British historian who has made a career out of explaining Germany to the world—and, just as importantly, to Germans themselves. Born in East Germany in 1985 and now based in Britain, she has written acclaimed histories of the German Empire, the GDR, and most recently the Weimar Republic. Tyler and Katja discuss why communism made East Germans more loyal to the system while it bred dissidents in Poland and Hungary, how happy or unhappy life in the GDR actually was, Tyler's own bleak day-trip to East Berlin in 1984, the underrated literature of the GDR (Christa Wolf, Brigitte Reimann), whether Good Bye, Lenin! got the era right, why it's no coincidence that Richter and Polke came from the East, the strange coexistence of communist prudishness and Germany's nudist culture, what Merkel's East German background did and didn't give her as a chancellor, why East Germans remain dramatically underrepresented in leadership positions today, what makes Weimar the cultural and spiritual heart of Germany, why relatively few Jews ever settled there, how much the citizens of Weimar knew about Buchenwald, what actually killed the Weimar Constitution, how she'd rewrite the Treaty of Versailles, Hitler's citizenship problem, underrated German thinkers, the complacency behind Germany's current economic decline, which side of the Weißwurstäquator she'd choose to live on, and much more. Read a full transcript enhanced with helpful links, or watch the full video on the new dedicated Conversations with Tyler channel. Recorded March 30th, 2026 . Other ways to connect Follow us on X and Instagram Follow Tyler on X Follow Katja on X Sign up for our newsletter Join our Discord Email us: cowenconvos@mercatus.gmu.edu Learn more about Conversations with Tyler and other Mercatus Center podcasts here . Timestamps: 00:00:00 - Intro 00:05:34 - East German Artistic Creations 00:10:55 - Angela Merkel's East German Background 00:14:08 - East German Underrepresentation Today 00:17:02 - East Germans vs. West Germans 00:20:32 - Goethe and Weimar's Cultural Heritage 00:27:09 - What Weimar Knew About Buchenwald 00:31:10 - Why the Weimar Constitution Failed 00:35:21 - Prussia, Bavaria, and Where Nazism Took Root 00:38:23 - Rewriting the Treaty of Versailles 00:39:59 - Historical Antisemitism in Germany 00:42:27 - Hitler's Citizenship problem 00:45:14 - Weimar's Best Cultural Creations 00:47:02 - The Most Underrated German Thinker 00:49:07 - Improving Weimar 00:52:58 - Germany's Economic Malaise 00:55:38 - Living in Britain as a German Historian 01:00:49 - Outro",
+      "duration": "01:01:20",
+      "old_score": 25,
+      "old_label": "skip",
+      "qwen": {
+        "id": "4e80d3f4692836a2c3756028",
+        "score": 30,
+        "tier": "scan",
+        "reason": "Historical and cultural analysis is interesting but not relevant to DJ's focus areas.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "af2d9a2c9d2ff45eaa7ebbb6",
+      "show_name": "Stratechery",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "Fable 5, Anthropic Alignment, AI Tiers",
+      "link": "https://stratechery.com/2026/fable-5-anthropic-alignment-ai-tiers/",
+      "published": "2026-06-10T10:00:00+00:00",
+      "summary": "Fable 5 is the public version of Mythos, and while it is very capable it sets some troubling new precedents.",
+      "duration": "",
+      "old_score": 38,
+      "old_label": "skip",
+      "qwen": {
+        "id": "af2d9a2c9d2ff45eaa7ebbb6",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Fable 5 and AI alignment issues are relevant for understanding model development trends.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "1cc648774cd781f452fb6329",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
+      "link": "https://a16z.simplecast.com/episodes/ai-growth-and-the-future-of-healthcare-anish-acharya-sachin-jain-_b_Jk_N_",
+      "published": "2026-06-10T10:00:00+00:00",
+      "summary": "SCAN Health Plan CEO Sachin Jain speaks with a16z General Partner Anish Acharya about AI, healthcare, and what it takes for established organizations to adapt during periods of technological change. The conversation explores how AI is reshaping work, customer experience, software development, and organizational structure. Acharya argues that artificial intelligence is not simply another productivity tool, but a fundamentally new technology capable of performing work on behalf of people and organizations. They discuss AI adoption inside large enterprises, the future of customer support, software development, healthcare operations, and why curiosity, experimentation, and ambition may be the most important traits for organizations navigating the transition. Along the way, Acharya shares his views on economic growth, human flourishing, and the role AI could play in reducing healthcare costs and improving patient experiences. Resources: Follow Anish Acharya on X: https://x.com/illscience Follow Sachin Jain on X: https://x.com/sacjai Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:49:58",
+      "old_score": 47,
+      "old_label": "skip",
+      "qwen": {
+        "id": "1cc648774cd781f452fb6329",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Insight into AI's transformative impact on healthcare and enterprise adoption challenges.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "c410963ba83b71fc463272b8",
+      "show_name": "The Cognitive Revolution",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Babysitting the Machine: Glean's Rebecca Hinds on the Hidden Human Labor of AI at Work",
+      "link": "https://www.cognitiverevolution.ai/babysitting-the-machine-glean-s-rebecca-hinds-on-the-hidden-human-labor-of-ai-at-work/",
+      "published": "2026-06-10T09:08:03+00:00",
+      "summary": "Rebecca Hinds, author of \"Your Best Meeting Ever\" and Head of the Work AI Institute at Glean, breaks down the surprising findings from the new Work AI Index 2026 report surveying 6,000 workers. While 87% now use AI and report saving 13 hours per week, only 13% say their organization is performing significantly better—a paradox explained by two new concepts: \"botsitting\" (the hidden labor of making AI useful) and \"botshitting\" (delivering AI-generated work you can't defend). They discuss practical solutions including better-integrated AI systems, smarter AI detection policies, and aligning work to meaningful missions. LINKS: Rebecca Hinds Personal Website Glean Work AI Institute Your Best Meeting Ever Book Glean Enterprise AI Platform Stanford Future of Work Glean Enterprise Graph Pangram Labs AI Detection OpenAI ChatGPT Product Page Anthropic Claude Product Page Google Gemini Product Page Microsoft 365 Copilot Page Glean AI Transformation 100 Rebecca Hinds LinkedIn Profile Sponsor: Claude: Claude by Anthropic is an AI collaborator that understands your workflow and helps you tackle research, writing, coding, and organization with deep context. Get started with Claude and explore Claude Pro at https://claude.ai/tcr CHAPTERS: (00:00) About the Episode (03:22) Grounding AI adoption (06:46) Methodology and Glean (12:25) Productivity paradox emerges (Part 1) (20:31) Sponsor: Claude (22:22) Productivity paradox emerges (Part 2) (25:36) Bot sitting burden (34:00) Hidden time savings (39:56) Meaning versus automation (47:14) Enterprise graph potential (53:13) Detecting bot slop (01:00:32) Retention and incentives (01:07:54) Transformation and mission (01:20:06) AI teammate model (01:26:01) Future organizational design (01:32:31) Research and meetings (01:41:43) Episode Outro (01:45:07) Outro PRODUCED BY: https://aipodcast.ing",
+      "duration": "6380",
+      "old_score": 59,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "c410963ba83b71fc463272b8",
+        "score": 80,
+        "tier": "digest",
+        "reason": "Reveals hidden labor costs of AI in the workplace, critical for enterprise AI strategy.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "0672a9e870b1cf19d9910cee",
+      "show_name": "Training Data",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "LIVE: Jensen Huang on Building the Dynamo of the Intelligence Age",
+      "link": "",
+      "published": "2026-06-10T09:00:00+00:00",
+      "summary": "Jensen Huang, founder and CEO of NVIDIA, makes the case that computing is undergoing its biggest shift in 60 years: from retrieval, where data centers store files we look up, to generation, where every word, image, and video is produced in real time and customized for whoever is asking. He explains why NVIDIA's AI factories are the dynamos of this era: machines that take in electrons and send out tokens of intelligence, just as Siemens' dynamo once turned motion into electricity. Jensen frames intelligence as the third force to \"cocoon\" the planet after electricity and the internet. He describes the five-layer cake of AI investment—energy, chips, infrastructure, models, applications—and dismantles the fear that AI will erase jobs, using radiology and software engineering to show how automation raised labor demand instead of killing it. His bottom line: you won't lose your job to AI, but you might lose it to someone who uses AI. Hosted by Konstantine Buhler, Sequoia Capital",
+      "duration": "2480",
+      "old_score": 73,
+      "old_label": "digest_only",
+      "qwen": {
+        "id": "0672a9e870b1cf19d9910cee",
+        "score": 90,
+        "tier": "listen",
+        "reason": "Jensen Huang's vision on AI factories and economic transformation is foundational for DJ.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "4a9ae85ba76d92907d7a5dd8",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "The Story Behind Raging Moderates + Why Jeff Bezos Is Wrong About Taxes",
+      "link": "",
+      "published": "2026-06-10T08:00:00+00:00",
+      "summary": "Scott Galloway explains why Jeff Bezos' proposal to cut taxes for lower earners is a deflection from the real issue, shares the origin story behind Raging Moderates and how he met Jessica Tarlov, and breaks down how to tell the difference between a toxic workplace and one that just isn't the right fit. Want to be featured in a future episode? Send a voice recording to officehours@profgmedia.com, or drop your question in the r/ScottGalloway subreddit. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "1285",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "4a9ae85ba76d92907d7a5dd8",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Interesting commentary but lacks actionable insight for DJ's focus areas.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "60ff19980799d2f76f2ed74a",
+      "show_name": "All-In Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Dan Dreyfus: America's Critical Minerals Crisis is Here",
+      "link": "https://allinchamathjason.libsyn.com/dan-dreyfus-americas-critical-minerals-crisis-is-here",
+      "published": "2026-06-10T03:04:00+00:00",
+      "summary": "(0:00) Dan Dreyfus Presents: The Future of Critical Minerals (0:33) America's \"Capital Light Era\" is over, rapid supply/demand shocks (5:40) Impact of China cutting off the US from critical minerals (8:18) Copper's Rise: The next 18 years need as much as the last 10,000 (12:00) Dollar Debasement: $140T in debt and why hard assets win (13:50) The Grid is Dying: Blackouts, bottlenecks, and the craft labor crisis (19:10) How to invest in the commodity supercycle Follow Dan: https://x.com/dreyfd Thanks to our partners for making this possible! EY - Liquidity, growth, and what's next for organizations were front and center at the Summit. EY helps turn liquidity challenges into sustainable value. https://www.ey.com/en_us/services/strategy-transactions/liquidity-working-capital-advisory?WT.mc_id=3501316&AA.tsrc=sponsorship NYSE - Thank you to our partner, the New York Stock Exchange - a modern marketplace and exchange for building the future. It all happens at the NYSE. https://www.nyse.com Plaud - Never miss a moment. Plaud, our official wearable AI note-taking partner at All-In Liquidity Summit, captured every insight. https://www.plaud.ai Follow the besties: https://x.com/chamath https://x.com/Jason https://x.com/DavidSacks https://x.com/friedberg Follow on X: https://x.com/theallinpod Follow on Instagram: https://www.instagram.com/theallinpod Follow on TikTok: https://www.tiktok.com/@theallinpod Follow on LinkedIn: https://www.linkedin.com/company/allinpod Intro Music Credit: https://rb.gy/tppkzl https://x.com/yung_spielburg",
+      "duration": "24:37",
+      "old_score": 36,
+      "old_label": "skip",
+      "qwen": {
+        "id": "60ff19980799d2f76f2ed74a",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Critical minerals and infrastructure bottlenecks are key for commodity and energy trends.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "5dc1a5892a5379de58da3a03",
+      "show_name": "The Tim Ferriss Show",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "#869: Max Levchin, PayPal and Affirm — The Path from The Soviet Union to Building Multi-Billion Dollar Companies (Plus: Real-World Socialism vs. Capitalism)",
+      "link": "",
+      "published": "2026-06-09T23:30:00+00:00",
+      "summary": "Max Levchin ( @mlevchin ) is a serial entrepreneur and investor in 100+ startups. He's the founder and CEO of Affirm , the payment network powering consumer purchases and merchant growth. An original PayPal co-founder, Max served as CTO until its 2002 acquisition by eBay. This episode is brought to you by: ProLon : science-backed Fasting Mimicking Diet that helps activate cellular renewal through fasting, while still eating nourishing meals: ProlonLife.com/Tim Monarch track, budget, plan, and do more with your money: Monarch.com/Tim Shopify global commerce platform, providing tools to start, grow, market, and manage a retail business: Shopify.com/tim Timestamps: [00:00:00] Start. [00:02:50] The Ronin line that rewired how Max makes every decision. [00:06:09] Paprika -style brain-computer interfaces. [00:09:09] PayPal's founders lived inside a Neal Stephenson novel. [00:19:21] Transformation via Neuromancer and Snow Crash . [00:23:40] The book that found Max his wife. [00:29:24] The real secret to a great marriage. [00:38:29] What's worth tracking, and what's not. [00:44:13] A scrawny kid, a clarinet, and a Kyiv velodrome. [00:46:55] What going all-out on a bike actually gives you. [00:51:02] The mantra by which Max rides. [00:53:02] A Soviet kid's fear of socialism. [01:02:48] Making a profit without destroying society. [01:04:31] What is Affirm, and why did every banker say it would fail? [01:20:18] Why the best mathematicians eschew the lending industry. [01:23:50] Does agentic commerce break Affirm, or supercharge it? [01:28:01] A PhD-level financial advisor in everyone's pocket. [01:29:58] How close are we to buying anything through one AI chat? [01:36:32] Improving your coffee: cheap, intermediate, and Bugatti options. [01:44:33] The books every first-time founder should actually read. [01:48:08] Claude Shannon, Ed Thorp, and the joy of playful genius. [01:51:00] Why physical books still beat every digital reading experience. [01:51:44] Parting thoughts. * For show notes and past guests on The Tim Ferriss Show , please visit tim.blog/podcast . For deals from sponsors of The Tim Ferriss Show , please visit tim.blog/podcast-sponsors Sign up for Tim’s email newsletter ( 5-Bullet Friday ) at tim.blog/friday . For transcripts of episodes, go to tim.blog/transcripts . Discover Tim’s books: tim.blog/books . Follow Tim: Twitter : twitter.com/tferriss Instagram : instagram.com/timferriss YouTube : youtube.com/timferriss Facebook : facebook.com/timferriss LinkedIn: linkedin.com/in/timferriss See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info .",
+      "duration": "01:58:03",
+      "old_score": 46,
+      "old_label": "skip",
+      "qwen": {
+        "id": "5dc1a5892a5379de58da3a03",
+        "score": 60,
+        "tier": "digest",
+        "reason": "Max Levchin's journey offers entrepreneurial insights, though not deeply technical or macro-focused.",
+        "confidence": "medium"
+      }
+    }
+  ]
+}

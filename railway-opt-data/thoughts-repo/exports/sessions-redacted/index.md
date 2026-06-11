@@ -4,14 +4,27 @@ Generated from `/opt/data/sessions/` and safe for cloud backup.
 
 ## Sessions
 
+- `cron_d85ba3927717_20260610_210557` | `2026-06-10` | `claude-sonnet-4-6` | `cron` | `6` messages | `exports/sessions-redacted/2026/06/cron_d85ba3927717_20260610_210557.md`
+- `cron_d85ba3927717_20260610_130534` | `2026-06-10` | `claude-sonnet-4-6` | `cron` | `6` messages | `exports/sessions-redacted/2026/06/cron_d85ba3927717_20260610_130534.md`
+- `cron_b84c63dd0926_20260610_120044` | `2026-06-10` | `claude-haiku-4-5` | `cron` | `7` messages | `exports/sessions-redacted/2026/06/cron_b84c63dd0926_20260610_120044.md`
+- `20260610_190838_8af932` | `2026-06-10` | `gpt-5.4-mini` | `telegram` | `40` messages | `exports/sessions-redacted/2026/06/20260610_190838_8af932.md`
+- `20260610_124131_9a3cb1` | `2026-06-10` | `gpt-5.4-mini` | `telegram` | `126` messages | `exports/sessions-redacted/2026/06/20260610_124131_9a3cb1.md`
+- `20260610_122046_3176ec` | `2026-06-10` | `gpt-5.4-mini` | `telegram` | `88` messages | `exports/sessions-redacted/2026/06/20260610_122046_3176ec.md`
+- `20260610_110416_66fc57` | `2026-06-10` | `gpt-5.4-mini` | `telegram` | `193` messages | `exports/sessions-redacted/2026/06/20260610_110416_66fc57.md`
+- `20260610_104845_c383d2` | `2026-06-10` | `gpt-5.4-mini` | `telegram` | `129` messages | `exports/sessions-redacted/2026/06/20260610_104845_c383d2.md`
+- `20260610_102748_53edeb` | `2026-06-10` | `gpt-5.4-mini` | `telegram` | `General` | `212` messages | `exports/sessions-redacted/2026/06/20260610_102748_53edeb.md`
+- `20260610_094756_46035e` | `2026-06-10` | `gpt-5.4-mini` | `telegram` | `20` messages | `exports/sessions-redacted/2026/06/20260610_094756_46035e.md`
+- `20260610_093622_7d1248` | `2026-06-10` | `gpt-5.4-mini` | `telegram` | `143` messages | `exports/sessions-redacted/2026/06/20260610_093622_7d1248.md`
+- `20260610_093309_b6455558` | `2026-06-10` | `gpt-5.4-mini` | `telegram` | `Coding 1` | `38` messages | `exports/sessions-redacted/2026/06/20260610_093309_b6455558.md`
 - `20260610_023053_d824a3` | `2026-06-10` | `gpt-5.4-mini` | `telegram` | `138` messages | `exports/sessions-redacted/2026/06/20260610_023053_d824a3.md`
-- `20260608_133729_8d1962f5` | `2026-06-10` | `gpt-5.4-mini` | `telegram` | `General` | `132` messages | `exports/sessions-redacted/2026/06/20260608_133729_8d1962f5.md`
-- `20260608_131537_8894faf0` | `2026-06-10` | `gpt-5.4-mini` | `telegram` | `Daily Brain Dump` | `15` messages | `exports/sessions-redacted/2026/06/20260608_131537_8894faf0.md`
+- `20260608_133729_8d1962f5` | `2026-06-10` | `gpt-5.4-mini` | `telegram` | `192` messages | `exports/sessions-redacted/2026/06/20260608_133729_8d1962f5.md`
+- `20260608_131537_8894faf0` | `2026-06-10` | `gpt-5.4-mini` | `telegram` | `Daily Brain Dump` | `122` messages | `exports/sessions-redacted/2026/06/20260608_131537_8894faf0.md`
+- `20260608_122612_0b92fb62` | `2026-06-10` | `gpt-5.4-mini` | `telegram` | `Alerts` | `12` messages | `exports/sessions-redacted/2026/06/20260608_122612_0b92fb62.md`
 - `cron_d85ba3927717_20260609_210622` | `2026-06-09` | `claude-sonnet-4-6` | `cron` | `8` messages | `exports/sessions-redacted/2026/06/cron_d85ba3927717_20260609_210622.md`
 - `cron_d85ba3927717_20260609_130625` | `2026-06-09` | `claude-sonnet-4-6` | `cron` | `6` messages | `exports/sessions-redacted/2026/06/cron_d85ba3927717_20260609_130625.md`
 - `cron_b84c63dd0926_20260609_120045` | `2026-06-09` | `claude-haiku-4-5` | `cron` | `9` messages | `exports/sessions-redacted/2026/06/cron_b84c63dd0926_20260609_120045.md`
 - `20260609_215623_9bac2f` | `2026-06-09` | `gpt-5.4-mini` | `telegram` | `30` messages | `exports/sessions-redacted/2026/06/20260609_215623_9bac2f.md`
-- `20260609_215313_853a7f` | `2026-06-09` | `gpt-5.4-mini` | `telegram` | `Coding 1` | `24` messages | `exports/sessions-redacted/2026/06/20260609_215313_853a7f.md`
+- `20260609_215313_853a7f` | `2026-06-09` | `gpt-5.4-mini` | `telegram` | `24` messages | `exports/sessions-redacted/2026/06/20260609_215313_853a7f.md`
 - `20260609_201652_6b0bfe` | `2026-06-09` | `gpt-5.4-mini` | `curator` | `23` messages | `exports/sessions-redacted/2026/06/20260609_201652_6b0bfe.md`
 - `20260609_182248_c26176` | `2026-06-09` | `gpt-5.4-mini` | `telegram` | `77` messages | `exports/sessions-redacted/2026/06/20260609_182248_c26176.md`
 - `20260609_180621_643f23` | `2026-06-09` | `gpt-5.4-mini` | `telegram` | `145` messages | `exports/sessions-redacted/2026/06/20260609_180621_643f23.md`

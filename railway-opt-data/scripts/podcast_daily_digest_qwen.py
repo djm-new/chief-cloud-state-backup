@@ -27,8 +27,10 @@ def main():
     ap.add_argument('scores_json')
     ap.add_argument('--window-start', default='')
     ap.add_argument('--window-end', default='')
+    ap.add_argument('--tag', default='')
     args=ap.parse_args()
     data=json.loads(Path(args.scores_json).read_text())
+    window_label = args.tag or '24h'
     episodes=[]
     for e in data['episodes']:
         q=e['qwen']
@@ -36,7 +38,7 @@ def main():
             'show': e['show_name'], 'title': e['title'], 'published': e['published'], 'link': e.get('link'),
             'summary': clean(e.get('summary'),900), 'qwen_score': q['score'], 'qwen_tier': q['tier'], 'qwen_reason': q['reason'], 'confidence': q['confidence']
         })
-    system="""You write DJ Mauch's daily podcast intelligence digest.
+    system=f"""You write DJ Mauch's daily podcast intelligence digest.
 Use ONLY the provided episode metadata and Qwen scores. Do not invent details beyond metadata.
 Calibrated taste:
 - Score/evaluate episodes, not shows.
@@ -50,7 +52,7 @@ Calibrated taste:
 - Penalize narrow AI infrastructure promo, technical research without business implication, vertical vendor stories, generic Bloomberg/news recaps, Elon/media narrative, consumer brand playbooks, politics.
 - Stratechery best-of/Ben Thompson content is important; include if present.
 Output markdown with:
-# Daily Podcast Intelligence Digest — last 24 hours
+# Daily Podcast Intelligence Digest — last {window_label} hours
 Funnel/cost line.
 ## Executive read
 ## Listen
@@ -59,7 +61,7 @@ Funnel/cost line.
 ## Skipped noise
 Each included item: show — episode; what was said; why DJ should care; recommendation; link.
 Be concise but useful. No tables."""
-    user="/no_think\nGenerate today's digest for this 24h window. Window start: %s. Window end: %s. Episodes JSON:\n%s" % (args.window_start,args.window_end,json.dumps(episodes,ensure_ascii=False))
+    user="/no_think\nGenerate today's digest for this %sh window. Window start: %s. Window end: %s. Episodes JSON:\n%s" % (window_label,args.window_start,args.window_end,json.dumps(episodes,ensure_ascii=False))
     resp = openrouter_post_json(
         path='chat/completions',
         model=MODEL,
@@ -87,7 +89,7 @@ Be concise but useful. No tables."""
     usage=resp.get('usage',{})
     est=usage.get('cost')
     stamp=datetime.now(timezone.utc).strftime('%Y-%m-%d_%H%M')
-    out=Path('/opt/data/podcast_digest/outputs')/f'{stamp}-daily-podcast-digest-24h.md'
+    out=Path('/opt/data/podcast_digest/outputs')/f'{stamp}-daily-podcast-digest-{window_label}.md'
     header=f'<!-- model={MODEL}; usage={usage}; cost={est} -->\n'
     out.write_text(header+content+'\n',encoding='utf-8')
     print(out)

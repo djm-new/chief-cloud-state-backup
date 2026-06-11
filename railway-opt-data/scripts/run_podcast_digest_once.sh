@@ -10,13 +10,14 @@ mkdir -p "$OUTDIR"
 
 export PYTHONUNBUFFERED=1
 export PODCAST_SCORE_BATCH_SIZE="${PODCAST_SCORE_BATCH_SIZE:-20}"
-export PODCAST_RUN_SEMANTIC_DISCOVERY="${PODCAST_RUN_SEMANTIC_DISCOVERY:-0}"
-export PODCAST_COLLECT_TIMEOUT_SECONDS="${PODCAST_COLLECT_TIMEOUT_SECONDS:-90}"
+export PODCAST_COLLECT_TIMEOUT_SECONDS="${PODCAST_COLLECT_TIMEOUT_SECONDS:-900}"
+export PODCAST_SEMANTIC_TIMEOUT_SECONDS="${PODCAST_SEMANTIC_TIMEOUT_SECONDS:-600}"
 PY="${PY:-/opt/hermes/.venv/bin/python3}"
 
 # Daily 5PM ET guard: cron fires on UTC candidate hours 21/22, but only the
 # 5PM America/New_York candidate should actually do work.
-if [[ "$(TZ=America/New_York date +%H)" != "17" ]]; then
+# PODCAST_FORCE_RUN=1 bypasses the guard for manual verification.
+if [[ "${PODCAST_FORCE_RUN:-0}" != "1" ]] && [[ "$(TZ=America/New_York date +%H)" != "17" ]]; then
   exit 0
 fi
 
@@ -28,13 +29,9 @@ log="$OUTDIR/$(date -u +%Y-%m-%d_%H%M)-podcast-digest-run.log"
   if ! timeout "$PODCAST_COLLECT_TIMEOUT_SECONDS" "$PY" /opt/data/scripts/podcast_resolve_collect_rank.py collect --days 1; then
     echo "Step 1 note: collection hit the time budget; continuing with cached episodes."
   fi
-  if [[ "$PODCAST_RUN_SEMANTIC_DISCOVERY" == "1" ]]; then
-    echo "Step 2: semantic discovery"
-    if ! timeout 20s "$PY" /opt/data/scripts/podcast_semantic_discovery.py --days 1; then
-      echo "Step 2 note: semantic discovery skipped or timed out."
-    fi
-  else
-    echo "Step 2: semantic discovery skipped (set PODCAST_RUN_SEMANTIC_DISCOVERY=1 to enable)"
+  echo "Step 2: semantic discovery"
+  if ! timeout "$PODCAST_SEMANTIC_TIMEOUT_SECONDS" "$PY" /opt/data/scripts/podcast_semantic_discovery.py --days 1; then
+    echo "Step 2 note: semantic discovery skipped or timed out."
   fi
   episode_count="$($PY - <<'PY'
 import sqlite3

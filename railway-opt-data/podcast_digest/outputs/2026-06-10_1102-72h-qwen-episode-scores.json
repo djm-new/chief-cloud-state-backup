@@ -1,0 +1,751 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-06-10_1102",
+  "usage": {
+    "prompt_tokens": 13403,
+    "completion_tokens": 2896,
+    "total_tokens": 16299
+  },
+  "episodes": [
+    {
+      "id": "af2d9a2c9d2ff45eaa7ebbb6",
+      "show_name": "Stratechery",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "Fable 5, Anthropic Alignment, AI Tiers",
+      "link": "https://stratechery.com/2026/fable-5-anthropic-alignment-ai-tiers/",
+      "published": "2026-06-10T10:00:00+00:00",
+      "summary": "Fable 5 is the public version of Mythos, and while it is very capable it sets some troubling new precedents.",
+      "duration": "",
+      "old_score": 38,
+      "old_label": "skip",
+      "qwen": {
+        "id": "af2d9a2c9d2ff45eaa7ebbb6",
+        "score": 85,
+        "tier": "digest",
+        "reason": "Stratechery deep dive on Fable 5 and AI alignment issues, relevant to platform and business model analysis.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "1cc648774cd781f452fb6329",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
+      "link": "https://a16z.simplecast.com/episodes/ai-growth-and-the-future-of-healthcare-anish-acharya-sachin-jain-_b_Jk_N_",
+      "published": "2026-06-10T10:00:00+00:00",
+      "summary": "SCAN Health Plan CEO Sachin Jain speaks with a16z General Partner Anish Acharya about AI, healthcare, and what it takes for established organizations to adapt during periods of technological change. The conversation explores how AI is reshaping work, customer experience, software development, and organizational structure. Acharya argues that artificial intelligence is not simply another productivity tool, but a fundamentally new technology capable of performing work on behalf of people and organizations. They discuss AI adoption inside large enterprises, the future of customer support, software development, healthcare operations, and why curiosity, experimentation, and ambition may be the most important traits for organizations navigating the transition. Along the way, Acharya shares his views on economic growth, human flourishing, and the role AI could play in reducing healthcare costs and improving patient experiences. Resources: Follow Anish Acharya on X: https://x.com/illscience Follow Sachin Jain on X: https://x.com/sacjai Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:49:58",
+      "old_score": 47,
+      "old_label": "skip",
+      "qwen": {
+        "id": "1cc648774cd781f452fb6329",
+        "score": 78,
+        "tier": "digest",
+        "reason": "a16z healthcare AI discussion offers insights into enterprise adoption and organizational transformation through AI.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "c410963ba83b71fc463272b8",
+      "show_name": "The Cognitive Revolution",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Babysitting the Machine: Glean's Rebecca Hinds on the Hidden Human Labor of AI at Work",
+      "link": "https://www.cognitiverevolution.ai/babysitting-the-machine-glean-s-rebecca-hinds-on-the-hidden-human-labor-of-ai-at-work/",
+      "published": "2026-06-10T09:08:03+00:00",
+      "summary": "Rebecca Hinds, author of \"Your Best Meeting Ever\" and Head of the Work AI Institute at Glean, breaks down the surprising findings from the new Work AI Index 2026 report surveying 6,000 workers. While 87% now use AI and report saving 13 hours per week, only 13% say their organization is performing significantly better—a paradox explained by two new concepts: \"botsitting\" (the hidden labor of making AI useful) and \"botshitting\" (delivering AI-generated work you can't defend). They discuss practical solutions including better-integrated AI systems, smarter AI detection policies, and aligning work to meaningful missions. LINKS: Rebecca Hinds Personal Website Glean Work AI Institute Your Best Meeting Ever Book Glean Enterprise AI Platform Stanford Future of Work Glean Enterprise Graph Pangram Labs AI Detection OpenAI ChatGPT Product Page Anthropic Claude Product Page Google Gemini Product Page Microsoft 365 Copilot Page Glean AI Transformation 100 Rebecca Hinds LinkedIn Profile Sponsor: Claude: Claude by Anthropic is an AI collaborator that understands your workflow and helps you tackle research, writing, coding, and organization with deep context. Get started with Claude and explore Claude Pro at https://claude.ai/tcr CHAPTERS: (00:00) About the Episode (03:22) Grounding AI adoption (06:46) Methodology and Glean (12:25) Productivity paradox emerges (Part 1) (20:31) Sponsor: Claude (22:22) Productivity paradox emerges (Part 2) (25:36) Bot sitting burden (34:00) Hidden time savings (39:56) Meaning versus automation (47:14) Enterprise graph potential (53:13) Detecting bot slop (01:00:32) Retention and incentives (01:07:54) Transformation and mission (01:20:06) AI teammate model (01:26:01) Future organizational design (01:32:31) Research and meetings (01:41:43) Episode Outro (01:45:07) Outro PRODUCED BY: https://aipodcast.ing",
+      "duration": "6380",
+      "old_score": 59,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "c410963ba83b71fc463272b8",
+        "score": 90,
+        "tier": "listen",
+        "reason": "Glean's Work AI Index reveals critical bottlenecks in enterprise AI use—directly relevant to labor and model economics.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "0672a9e870b1cf19d9910cee",
+      "show_name": "Training Data",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "LIVE: Jensen Huang on Building the Dynamo of the Intelligence Age",
+      "link": "",
+      "published": "2026-06-10T09:00:00+00:00",
+      "summary": "Jensen Huang, founder and CEO of NVIDIA, makes the case that computing is undergoing its biggest shift in 60 years: from retrieval, where data centers store files we look up, to generation, where every word, image, and video is produced in real time and customized for whoever is asking. He explains why NVIDIA's AI factories are the dynamos of this era: machines that take in electrons and send out tokens of intelligence, just as Siemens' dynamo once turned motion into electricity. Jensen frames intelligence as the third force to \"cocoon\" the planet after electricity and the internet. He describes the five-layer cake of AI investment—energy, chips, infrastructure, models, applications—and dismantles the fear that AI will erase jobs, using radiology and software engineering to show how automation raised labor demand instead of killing it. His bottom line: you won't lose your job to AI, but you might lose it to someone who uses AI. Hosted by Konstantine Buhler, Sequoia Capital",
+      "duration": "2480",
+      "old_score": 73,
+      "old_label": "digest_only",
+      "qwen": {
+        "id": "0672a9e870b1cf19d9910cee",
+        "score": 92,
+        "tier": "listen",
+        "reason": "Jensen Huang's live keynote frames AI as a generational shift in computing with implications for infrastructure and investment.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "4a9ae85ba76d92907d7a5dd8",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "The Story Behind Raging Moderates + Why Jeff Bezos Is Wrong About Taxes",
+      "link": "",
+      "published": "2026-06-10T08:00:00+00:00",
+      "summary": "Scott Galloway explains why Jeff Bezos' proposal to cut taxes for lower earners is a deflection from the real issue, shares the origin story behind Raging Moderates and how he met Jessica Tarlov, and breaks down how to tell the difference between a toxic workplace and one that just isn't the right fit. Want to be featured in a future episode? Send a voice recording to officehours@profgmedia.com, or drop your question in the r/ScottGalloway subreddit. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "1285",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "4a9ae85ba76d92907d7a5dd8",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Galloway commentary on Bezos and workplace culture lacks durable frameworks or AI/business model insights.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "60ff19980799d2f76f2ed74a",
+      "show_name": "All-In Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Dan Dreyfus: America's Critical Minerals Crisis is Here",
+      "link": "https://allinchamathjason.libsyn.com/dan-dreyfus-americas-critical-minerals-crisis-is-here",
+      "published": "2026-06-10T03:04:00+00:00",
+      "summary": "(0:00) Dan Dreyfus Presents: The Future of Critical Minerals (0:33) America's \"Capital Light Era\" is over, rapid supply/demand shocks (5:40) Impact of China cutting off the US from critical minerals (8:18) Copper's Rise: The next 18 years need as much as the last 10,000 (12:00) Dollar Debasement: $140T in debt and why hard assets win (13:50) The Grid is Dying: Blackouts, bottlenecks, and the craft labor crisis (19:10) How to invest in the commodity supercycle Follow Dan: https://x.com/dreyfd Thanks to our partners for making this possible! EY - Liquidity, growth, and what's next for organizations were front and center at the Summit. EY helps turn liquidity challenges into sustainable value. https://www.ey.com/en_us/services/strategy-transactions/liquidity-working-capital-advisory?WT.mc_id=3501316&AA.tsrc=sponsorship NYSE - Thank you to our partner, the New York Stock Exchange - a modern marketplace and exchange for building the future. It all happens at the NYSE. https://www.nyse.com Plaud - Never miss a moment. Plaud, our official wearable AI note-taking partner at All-In Liquidity Summit, captured every insight. https://www.plaud.ai Follow the besties: https://x.com/chamath https://x.com/Jason https://x.com/DavidSacks https://x.com/friedberg Follow on X: https://x.com/theallinpod Follow on Instagram: https://www.instagram.com/theallinpod Follow on TikTok: https://www.tiktok.com/@theallinpod Follow on LinkedIn: https://www.linkedin.com/company/allinpod Intro Music Credit: https://rb.gy/tppkzl https://x.com/yung_spielburg",
+      "duration": "24:37",
+      "old_score": 36,
+      "old_label": "skip",
+      "qwen": {
+        "id": "60ff19980799d2f76f2ed74a",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Critical minerals and infrastructure bottlenecks are material to AI and energy investment themes.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "5dc1a5892a5379de58da3a03",
+      "show_name": "The Tim Ferriss Show",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "#869: Max Levchin, PayPal and Affirm — The Path from The Soviet Union to Building Multi-Billion Dollar Companies (Plus: Real-World Socialism vs. Capitalism)",
+      "link": "",
+      "published": "2026-06-09T23:30:00+00:00",
+      "summary": "Max Levchin ( @mlevchin ) is a serial entrepreneur and investor in 100+ startups. He's the founder and CEO of Affirm , the payment network powering consumer purchases and merchant growth. An original PayPal co-founder, Max served as CTO until its 2002 acquisition by eBay. This episode is brought to you by: ProLon : science-backed Fasting Mimicking Diet that helps activate cellular renewal through fasting, while still eating nourishing meals: ProlonLife.com/Tim Monarch track, budget, plan, and do more with your money: Monarch.com/Tim Shopify global commerce platform, providing tools to start, grow, market, and manage a retail business: Shopify.com/tim * For show notes and past guests on The Tim Ferriss Show , please visit tim.blog/podcast . For deals from sponsors of The Tim Ferriss Show , please visit tim.blog/podcast-sponsors Sign up for Tim’s email newsletter ( 5-Bullet Friday ) at tim.blog/friday . For transcripts of episodes, go to tim.blog/transcripts . Discover Tim’s books: tim.blog/books . Follow Tim: Twitter : twitter.com/tferriss Instagram : instagram.com/timferriss YouTube : youtube.com/timferriss Facebook : facebook.com/timferriss LinkedIn: linkedin.com/in/timferriss See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info .",
+      "duration": "01:58:03",
+      "old_score": 44,
+      "old_label": "skip",
+      "qwen": {
+        "id": "5dc1a5892a5379de58da3a03",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Max Levchin's entrepreneurial journey offers operator insights, though not AI-specific or time-sensitive.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "0d4bf3663eae530aa3bc4678",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "How Steve Jobs became Steve Jobs",
+      "link": "",
+      "published": "2026-06-09T19:20:00+00:00",
+      "summary": "Long before Steve Jobs was the unstoppable force of nature atop Apple, shipping hit product after hit product, he was practically run out of the company after a series of bad product and management decisions. But as Geoffrey Cain argues in his new book, Steve Jobs in Exile: The Untold Story of NeXT and the Remaking of an American Visionary, the 12 years Jobs spent outside of Apple turned him into the leader the world came to know. Cain joins the show to talk about Jobs' experiences at NeXT and Pixar, how Jobs learned to be a successful leader, and the true power — and danger — of the reality distortion field. Further reading: Steve Jobs in Exile Subscribe to The Verge for unlimited access to theverge.com, subscriber-exclusive newsletters, and our ad-free podcast feed.We love hearing from you! Email your questions and thoughts to vergecast@theverge.com or call us at 866-VERGE11. (Timestamps are approximate.) 00:01:30 Intro 00:01:56 90 Seconds on The Verge 00:03:46 Interview with Geoffrey Cain Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "2594",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "0d4bf3663eae530aa3bc4678",
+        "score": 60,
+        "tier": "scan",
+        "reason": "Steve Jobs leadership arc is interesting but not directly relevant to current AI or capital allocation themes.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "43020855fef76ef752375ae2",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: June 9th, 2026",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-june-9th-2026",
+      "published": "2026-06-09T16:00:00+00:00",
+      "summary": "Featuring: Jack Caffrey, Equity Portfolio Manager at JP Morgan Investment Management Jennifer Huddleston, Senior Research Fellow at the Cato Institute Gil Luria, Managing Director & Head: Technology Research at DA Davidson See omnystudio.com/listener for privacy information.",
+      "duration": "1453",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "43020855fef76ef752375ae2",
+        "score": 55,
+        "tier": "scan",
+        "reason": "Bloomberg Surveillance likely contains generic market commentary, low signal for DJ's focus.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "36362a86d301b42603bb5801",
+      "show_name": "All-In Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
+      "link": "https://allinchamathjason.libsyn.com/bill-maris-how-google-could-crush-ai-competitors-why-small-funds-win-and-ais-atari-stage",
+      "published": "2026-06-09T15:07:00+00:00",
+      "summary": "(0:00) Bill Maris joins the Besties! (0:33) Four critical lessons from a career in technology (5:58) Building Google Ventures with data and machine learning (9:51) Why small VC funds beat big ones on average (14:36) OpenAI's valuation problem and the AI price war (19:09) AI's \"Atari Stage\": what comes next? (25:23) VC's broken incentives and the future of deep tech Thanks to our partners for making this possible! EY - Agentic AI is introducing a new investment discipline. As AI shifts to consumption-based models, EY connects spend to enterprise value. https://www.ey.com/en_us/insights/ai/agentic-ai-token-costs?WT.mc_id=3501318&AA.tsrc=sponsorship NYSE - Thank you to our partner, the New York Stock Exchange - a modern marketplace and exchange for building the future. It all happens at the NYSE. https://www.nyse.com Plaud - Never miss a moment. Plaud, our official wearable AI note-taking partner at All-In Liquidity Summit, captured every insight. https://www.plaud.ai Follow the besties: https://x.com/chamath https://x.com/Jason https://x.com/DavidSacks https://x.com/friedberg Follow on X: https://x.com/theallinpod Follow on Instagram: https://www.instagram.com/theallinpod Follow on TikTok: https://www.tiktok.com/@theallinpod Follow on LinkedIn: https://www.linkedin.com/company/allinpod Intro Music Credit: https://rb.gy/tppkzl https://x.com/yung_spielburg",
+      "duration": "28:42",
+      "old_score": 44,
+      "old_label": "skip",
+      "qwen": {
+        "id": "36362a86d301b42603bb5801",
+        "score": 80,
+        "tier": "digest",
+        "reason": "Bill Maris offers VC and AI development insights, including Google's strategic positioning and AI's current stage.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "1178948bfd201376c3512c33",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "US Economic Outlook and Bond Signals",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/us-economic-outlook-and-bond-signals",
+      "published": "2026-06-09T13:55:05+00:00",
+      "summary": "The latest in finance, economics and investment. Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF . Bloomberg Surveillance hosted by Tom Keene & Paul SweeneyTuesday, June 9, 2026 Featuring: 1) David Seif, Chief Economist for Developed Markets at Nomura, discusses the Fed and outlook for the US economy. 2) Amrita Sen, founder and director at Energy Aspects, talks about moves in the energy markets amid President Trump's floating a deal with Iran. 3) Liz Ann Sonders, Chief Investment Strategist at Charles Schwab, joins to discuss her midyear outlook and the market driving higher. 4) Nisha Patel, SMA Fixed Income Portfolio Manager at Parametric, joins for a discussion on munis and the broader bond portfolio. See omnystudio.com/listener for privacy information.",
+      "duration": "1743",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "1178948bfd201376c3512c33",
+        "score": 65,
+        "tier": "scan",
+        "reason": "Discusses Fed policy and bond markets, relevant for macroeconomic context but not deeply actionable.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "ed46e2f9ffed807da7dced4d",
+      "show_name": "New Yorker Radio Hour",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "low",
+      "title": "Seeing the Dark Side of the Moon on NASA’s Artemis II Mission",
+      "link": "https://www.wnycstudios.org/podcasts/tnyradiohour",
+      "published": "2026-06-09T10:00:00+00:00",
+      "summary": "In April, the four crew members of NASA’s Artemis II mission were the first humans to ever glimpse something that cannot be seen from Earth—the so-called dark side of the moon. The mission’s commander, the former Navy captain Reid Wiseman, is fifty years old, which also makes him the oldest person ever to travel beyond low Earth orbit. Wiseman sat down recently with the New Yorker contributor David W. Brown. They talked about the challenge of NASA returning to the moon after many decades, Wiseman’s struggle to parent his two daughters while training, and the strangeness and beauty of returning to Earth. “One thing that really did surprise me was how quickly Earth gets so small out the window,” Wiseman explains. “It’s like a fingernail, almost; the size of a quarter. It’s just impossibly tiny out there. There’s a little tiny super-bright crescent of an Earth.” Further reading and listening: “ The Leader of NASA’s Artemis II Mission Is Still Moonstruck ,” by David W. Brown “ What Will the Artemis II Moon Mission Teach Us? ,” by David W. Brown “ A New Era of Moon Exploration Is Upon Us ,” by David W. Brown New episodes of The New Yorker Radio Hour drop every Tuesday and Friday. Join host David Remnick as he discusses the latest in politics, news, and current events in conversation with political leaders, newsmakers, innovators, New Yorker staff writers, authors, actors, and musicians. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:24:17",
+      "old_score": 0,
+      "old_label": "skip",
+      "qwen": {
+        "id": "ed46e2f9ffed807da7dced4d",
+        "score": 30,
+        "tier": "skip",
+        "reason": "Space exploration story, low relevance to capital allocation or AI/platform economics.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "c52863e81f574b5e93e028bd",
+      "show_name": "Plain English with Derek Thompson",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "How Modern Fatherhood Is Changing Men’s Brains",
+      "link": "",
+      "published": "2026-06-09T10:00:00+00:00",
+      "summary": "Humans are unusual dads. Across the animal kingdom, dads are often absent from child-rearing altogether. But among humans, fatherhood takes many forms, and in the last half century, it has changed dramatically. College-educated American fathers now spend nearly four times as much time caring for their children as they did in the 1960s. And according to new research, this new type of fatherhood doesn't just change a man's schedule or priorities—it can literally change his brain. Today, Derek talks with USC psychologist Darby Saxbe, author of 'Dad Brain,' about the science of modern fatherhood. They discuss how active parenting affects men's psychology and how changing expectations around fatherhood are reshaping families and men themselves. Subscribe to our YouTube channel here:https://www.youtube.com/@PlainEnglishwithDerekThompson If you have questions, observations, or ideas for future episodes, email us at PlainEnglish@Spotify.com. Host: Derek ThompsonGuest: Darby SaxbeProducer: Devon BaroldiAdditional Production Support: Ben Glicksman Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "3867",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "c52863e81f574b5e93e028bd",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Interesting behavioral science, but limited direct relevance to markets or AI business models.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "70badd5fc12b91acd4c84f3f",
+      "show_name": "Stratechery",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "The iPhone’s Last Stand",
+      "link": "https://stratechery.com/2026/the-iphones-last-stand/",
+      "published": "2026-06-09T10:00:00+00:00",
+      "summary": "Siri isn't state of the art, but as long as it works — and it appears it does — it's good enough for the consumer market.",
+      "duration": "",
+      "old_score": 18,
+      "old_label": "skip",
+      "qwen": {
+        "id": "70badd5fc12b91acd4c84f3f",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Apple strategy and consumer tech trends are relevant for AI adoption and platform economics.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "80391ac75b0bb7263bb9a56d",
+      "show_name": "The Knowledge Project adjacent interviews",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Mental Models That Change How You Think | Bill Gurley",
+      "link": "https://fs.blog/knowledge-project-podcast/bill-gurley/",
+      "published": "2026-06-09T10:00:00+00:00",
+      "summary": "Bill Gurley spent years on Wall Street, built his career as a partner at Benchmark, worked through Uber’s hypergrowth era, and now serves on the board of the Santa Fe Institute, where he studies complexity and systems thinking. In this episode, Bill shares the mental models he returns to most, including systems thinking, second- and third-order effects, and the importance of understanding both the bedrock of your field and the bleeding edge. He explains what separates great founders, why storytelling and product instincts matter, how he uses AI across different models, and what he sees coming in open source, China, stablecoins, tokenization, payments, and venture capital. ------ Timestamps: (00:00) Key Mental Models (02:02) Investing Journey and Key Players (05:21) Knowing the Bedrock of the Industry (08:50) Obsessive Learning in Founders (10:04) The Silent Edge (11:44) Surprising AI Use (13:13) The Future of AI Models (14:17) Global AI Regulation (18:12) Impacts of AI on Investing (19:53) Are There Limitations on Training AI Models? (23:04) Would You Sit in the Back Seat While Your Tesla Drives? (24:15) Non-Consensus Opinions (24:53) Are We Overfunding this Buildout? (29:40) The Role of Retail Investors and Tokenization (34:26) What is a Stablecoin? (37:58) Competitive Mode: Visa and Mastercard (39:55) AI and Debt Analysis (45:05) The Craft of Storytelling and Writing (48:07) Founder Advantage: Product Instinct (50:12) Real World Lessons from Working With Uber (52:10) Inside Benchmark’s Success (59:42) What is Success for You? ------ Newsletter: The Brain Food newsletter delivers actionable insights and thoughtful ideas every Sunday. It takes 5 minutes to read, and it’s completely free. Learn more and sign up at ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠fs.blog/newsletter⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ ------ Follow Shane Parrish: X: ⁠⁠⁠⁠⁠⁠https://x.com/shaneparrish⁠ Insta: ⁠https://www.instagram.com/farnamstreet/⁠ LinkedIn: ⁠https://www.linkedin.com/in/shane-parrish-050a2183/⁠ Follow Bill Gurley LinkedIn: https://www.linkedin.com/in/billgurley/ X: https://x.com/bgurley?lang=en Check out Runnin’ Down a Dream: How to Thrive in a Career You Actually Love ------ Thank you to the sponsors for this episode: +CoinShares: Delivering Reason to Digital Asset Investing. ⁠https://coinshares.com/⁠ +Granola AI, The AI notepad for people in back-to-back meetings: https://www.granola.ai/shane Check out the Granola Notes +HeyGen is a message-first AI video platform that helps people and AI agents turn ideas into professional video in minutes. Try for free at https://www.heygen.com/ +LMNT: My go-to zero sugar electrolytes — get a free LMNT Sample Pack here: DrinkLMNT.com/TKP Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "duration": "3739",
+      "old_score": 87,
+      "old_label": "must_listen",
+      "qwen": {
+        "id": "80391ac75b0bb7263bb9a56d",
+        "score": 90,
+        "tier": "listen",
+        "reason": "Bill Gurley shares high-value mental models, AI insights, and venture capital implications.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "3f9bb202874ea0ebb7bd94a0",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Tyler Cowen & Alex Tabarrok on AI, Jobs, and Economic Growth",
+      "link": "https://a16z.simplecast.com/episodes/tyler-cowen-alex-tabarrok-on-ai-jobs-and-economic-growth-ga2nsz31",
+      "published": "2026-06-09T10:00:00+00:00",
+      "summary": "Wyatt Thomson of OpenAI speaks with economists Tyler Cowen and Alex Tabarrok about AI, labor markets, and the future of economic growth. The conversation explores one of the most common fears surrounding AI: that increasingly capable systems will eliminate jobs. Cowen and Tabarrok argue instead that economic growth remains the key variable. Throughout history, productivity-enhancing technologies have transformed work, created new industries, and expanded living standards, even as they disrupted existing jobs and institutions. They discuss automation, comparative advantage, inequality, education, healthcare, energy, and the kinds of work that may become more valuable in an AI-driven economy. Along the way, they examine longer-term questions about abundance, ownership, AI agents, and how societies can adapt to rapid technological change. Resources: Follow Tyler on X: https://x.com/tylercowen Follow Alex on X: https://x.com/ATabarrok Follow Wyatt on X: https://x.com/dataWyatt Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:59:17",
+      "old_score": 53,
+      "old_label": "skip",
+      "qwen": {
+        "id": "3f9bb202874ea0ebb7bd94a0",
+        "score": 85,
+        "tier": "listen",
+        "reason": "Cowen and Tabarrok offer deep economic analysis of AI's impact on jobs and growth.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "c21c86b332844aa94075e8c3",
+      "show_name": "Ezra Klein Show",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "What’s the Left’s Vision for Foreign Policy After Trump?",
+      "link": "https://www.nytimes.com/2026/06/09/opinion/ezra-klein-podcast-matt-duss.html",
+      "published": "2026-06-09T09:00:00+00:00",
+      "summary": "The Democratic Party is in the middle of a rupture over foreign policy – with Israel and Palestine at the center. In recent weeks, the Democratic senators Brian Schatz and Chris Van Hollen both called for a break with the Biden administration’s policies toward Israel. Schatz said the next administration needs “a whole new crop of foreign policy staffers,” while Van Hollen went further, accusing Biden’s senior decision makers of “complicity.” And Gaza has become a central issue splitting Democrats in primaries around the country. It’s become such a profound fault line, it reminds me of how the Iraq war remade the Democratic Party years ago. And Democrats face huge foreign policy questions beyond Gaza, too. Trump has taken a wrecking ball to the rules-based order, and the American public has become increasingly cynical about U.S. interventions abroad. Do Democrats want to try to restore what came before Trump? Is that even possible? Or is there a vision for something new? Matt Duss is at the center of foreign policy thinking on the left. He’s the executive vice president at the Center for International Policy, previously served as Senator Bernie Sanders’s foreign policy adviser and is currently advising Representative Alexandria Ocasio-Cortez. So I thought he’d be the perfect person to ask: What would a left foreign policy actually look like? What would it try to do in the world?Mentioned: “ The Hard Truth My Party Needs to Face ” by Chris Van Hollen “ Democrats Can’t Avoid a Reckoning With Gaza ” by Matthew Duss “ Why We Need a Progressive Foreign Policy ” by Chris Murphy “ Congressman Jason Crow’s New Vision for American Foreign Policy ” by Jason Crow Book Recommendations: Crisis of the Common Good by Chris Murphy From Life Itself by Suzy Hansen Book of Mercy by Leonard Cohen Thoughts? Guest suggestions? Email us at ezrakleinshow@nytimes.com. You can find transcripts (posted midday) and more episodes of “The Ezra Klein Show” at nytimes.com/ezra-klein-podcast , and you can find Ezra on Twitter @ezraklein. Book recommendations from all our guests are listed at https://www.nytimes.com/article/ezra-klein-show-book-recs . This episode of “The Ezra Klein Show” was produced by Rollin Hu. Fact-checking by Michelle Harris with Julie Beer and Mary Marge Locker. Our senior engineer is Jeff Geld, with additional mixing by Isaac Jones and Johnny Simon. Our recording engineer is Johnny Simon. Our executive producer is Claire Gordon. The show’s production team also includes Marie Cascione, Annie Galvin, Kristin Lin, Emma Kehlbeck, Jack McCordick, Marina King and Jan Kobal. Original music by Pat McCusker. Audience strategy by Shannon Busta. The director of New York Times Opinion Shows is Annie-Rose Strasser. Subscribe today at nytimes.com/podcasts or on Apple Podcasts and Spotify. You can also subscribe via your favorite podcast app here https://www.nytimes.com/activate-access/audio?source=podcatcher . For more podcasts and narrated articles, download The New York Times app at nytimes.com/app. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "01:33:49",
+      "old_score": 0,
+      "old_label": "skip",
+      "qwen": {
+        "id": "c21c86b332844aa94075e8c3",
+        "score": 40,
+        "tier": "skip",
+        "reason": "Foreign policy discussion, not aligned with DJ's focus on markets or tech frameworks.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "b35955bd05e1e1f03d131b9a",
+      "show_name": "Masters of Scale",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "World Cup kickoff: Goals, greed, and geopolitics, with ESPN’s Sam Borden",
+      "link": "",
+      "published": "2026-06-09T09:00:00+00:00",
+      "summary": "As the World Cup kicks off this Thursday, scrutiny surrounds ticket prices, disrupted fan travel, potential ICE activity, and FIFA’s murky dealings. ESPN Global Sports Correspondent Sam Borden has covered this tournament from Brazil to Qatar, and he joins Rapid Response to break down the USA's real chance, what Iran's presence on American soil actually means, and whether hosting the world's biggest sporting event is a blessing or a liability right now. Plus, Borden makes the most passionate case you'll hear for why the World Cup matters more than any scoreline. Visit the Rapid Response website here: https://www.rapidresponseshow.com/ See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info .",
+      "duration": "00:32:06",
+      "old_score": 0,
+      "old_label": "skip",
+      "qwen": {
+        "id": "b35955bd05e1e1f03d131b9a",
+        "score": 35,
+        "tier": "skip",
+        "reason": "Sports geopolitics, not directly relevant to capital allocation or AI insights.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "88a5c49f15f5e4ea8cc7bf4a",
+      "show_name": "Invest Like the Best",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "Alex Sacerdote - How to Invest Through Technology Cycles - [Invest Like the Best, EP.477]",
+      "link": "https://colossus.com/episode/investing-on-the-s-curve/",
+      "published": "2026-06-09T08:00:00+00:00",
+      "summary": "My guest today is Alex Sacerdote, founder of Whale Rock Capital Management. Whale Rock is a technology focused investment firm that manages more than $17 billion across hedge fund, long only, and hybrid strategies. Over the past three years it has been one of the best performing hedge funds, compounding at roughly 44 percent a year. Alex invests through a single lens that he has refined over twenty years. He looks for technology S-curves, durable competitive advantages, and underappreciated earnings power. This conversation is a tour through how he applies that framework right now. We start with his highest conviction position, which is Anthropic, and use it to work through the entire AI stack from chips to models to applications. Please enjoy my conversation with Alex Sacerdote. For the full show notes, transcript, and links to mentioned content, check out the episode page ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠here⁠⁠⁠⁠⁠. ----- Become a Colossus member to get our quarterly print magazine and private audio experience, including exclusive profiles and early access to select episodes. Subscribe at ⁠colossus.com/subscribe⁠. ----- ⁠Ramp’s⁠ mission is to help companies manage their spend in a way that reduces expenses and frees up time for teams to work on more valuable projects. Go to⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ ⁠ramp.com/invest⁠⁠ to sign up for free and get a $250 welcome bonus. ----- Trusted by thousands of businesses, ⁠Vanta⁠ continuously monitors your security posture and streamlines audits so you can win enterprise deals and build customer trust without the traditional overhead. Invest Like the Best listeners get a special offer of $1,000 off Vanta when you go to ⁠vanta.com/invest⁠. ----- WorkOS⁠ is the infrastructure B2B and AI-native companies use to sell to enterprise. It covers everything enterprise security requires: SSO, SCIM, RBAC, Audit Logs, AI governance, and more. Trusted by 2,000+ fast-growing companies, including OpenAI, Anthropic, Cursor, and Vercel. ----- Rogo is the AI platform for finance. They're building agents for Wall Street that are trained to understand how bankers and investors actually do work: from diligence and modeling, to turning analysis into deliverables. To learn more, visit rogo.ai/invest. ----- ⁠Ridgeline⁠ has built a complete, real-time, modern operating system for investment managers. It handles trading, portfolio management, compliance, customer reporting, and much more through an all-in-one real-time cloud platform. Visit⁠ ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ridgelineapps.com⁠. ----- Editing and post-production work for this episode was provided by The Podcast Consultant (⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠https://thepodcastconsultant.com⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠). Timestamps: (00:00:00) Welcome to Invest Like The Best (00:00:00) Welcome to Invest Like The Best (00:02:29) Alex Sacerdote (00:03:08) Anthropic: Highest Conviction Position (00:13:23) Investing in Private Markets at Scale (00:19:08) S-Curves: The Full Framework (00:25:08) When to Buy Tech Companies (00:30:20) Identifying the Leader from the Pack (00:34:04) Anthropic & OpenAI's Competitive Moats (00:37:31) AI's Threat to Enterprise Software (00:43:18) Network Effects in the Agent Era (00:44:22) The Hardware Renaissance: Chips & Infrastructure (00:53:56) Why So Few Investors Get This Right (00:55:36) Key Risks to the AI Bull Case (00:57:47) The Application Layer (00:59:40) How AI Is Changing Research at WhaleRock (01:02:53) The Role of Investor Networks & Idea Sharing (01:03:40) Building a Multi-Product Firm (01:07:58) WhaleRock as a Learning Machine (01:09:15) The Kindest Thing",
+      "duration": "4311",
+      "old_score": 50,
+      "old_label": "skip",
+      "qwen": {
+        "id": "88a5c49f15f5e4ea8cc7bf4a",
+        "score": 92,
+        "tier": "listen",
+        "reason": "Alex Sacerdote offers actionable insights into investing in AI tech cycles and competitive advantages.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "eed05035f98085494bf1c095",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "China Decode: The AI Race Just Took a Stunning Turn",
+      "link": "",
+      "published": "2026-06-09T08:00:00+00:00",
+      "summary": "Alice Han and James Kynge break down reports that a Chinese robotics startup has topped a leading international benchmark for embodied AI, raising new questions about whether China is pulling ahead in one of the most important technological competitions of the decade. They also examine Xi Jinping's first trip to North Korea since 2019 and what it reveals about China's evolving relationships with Kim Jong Un, Vladimir Putin, and Donald Trump amid growing geopolitical tensions. Plus, China's government launches a sweeping crackdown on \"ghost kitchens\" after regulators uncovered tens of thousands of fake restaurants operating on major food delivery platforms. Subscribe to China Decode on Substack for weekly analysis, livestreams, and deep dives into the biggest story shaping the global economy: chinadecode.profgmedia.com Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "2794",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "eed05035f98085494bf1c095",
+        "score": 70,
+        "tier": "digest",
+        "reason": "China's AI progress and geopolitical moves are relevant to global tech competition.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "475c030f97ce7918fe07f5ec",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Siri AI, Screen Time, and the rest of WWDC 2026: The Vergecast Livestream",
+      "link": "",
+      "published": "2026-06-08T22:41:00+00:00",
+      "summary": "Apple's annual developer conference keynote was a strange one this year. The company breezed by its normal slew of operating system upgrades, and talked instead about helping people manage their relationships with their devices, and AI. Lots and lots of AI. On this post-keynote livestream, David Pierce, Hayden Field, and Jake Kastrenakes give their first takes on Siri AI, the Apple Intelligence features coming this fall, Apple's new Screen Time design, and everything else we liked and disliked from the keynote. Including the corner radii. Further reading: ⁠Apple WWDC 2026: The 7 biggest announcements⁠ Subscribe to The Verge for unlimited access to theverge.com, subscriber-exclusive newsletters, and our ad-free podcast feed.We love hearing from you! Email your questions and thoughts to vergecast@theverge.com or call us at 866-VERGE11. (Timestamps are approximate.) 00:00:00 Intro 00:03:00 Why This Keynote Felt Chaotic 00:05:00 AI Takes Center Stage 00:06:00 Apple Plays Catch Up 00:09:00 Privacy and Private Cloud 00:12:00 Useful Versus Creepy AI 00:18:00 Why Apple Went All In 00:25:00 New Siri Voice 00:33:00 Siri App Intents 00:37:00 Vibe Coding Shortcuts 00:39:00 Siri Goes Orb Mode 00:41:00 Too Many Siri Gestures 00:42:00 Apple Trust and Screen Time 00:46:00 Kids Safety and App Responsibility 00:50:00 App Store Dissonance and Regulation 00:52:00 OS 27 Device Cutoffs 00:59:00 Favorite Features and Liquid Glass 01:04:00 Dictation Confusion and Wrap Up Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "3937",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "475c030f97ce7918fe07f5ec",
+        "score": 72,
+        "tier": "digest",
+        "reason": "Apple's AI strategy at WWDC 2026 matters for platform economics and developer ecosystems.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "446d0bb574cab775037d0abc",
+      "show_name": "All-In Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Nikesh Arora: Mythos is Real, Analytical SaaS is Dead, and Google can be a $10T company",
+      "link": "https://allinchamathjason.libsyn.com/nikesh-arora-mythos-is-real-analytical-saas-is-dead-and-google-can-be-a-10t-company",
+      "published": "2026-06-08T19:34:00+00:00",
+      "summary": "(0:00) Palo Alto Networks CEO Nikesh Arora joins the Besties! (0:47) Claude Mythos found years of vulnerabilities in Palo Alto's code in weeks (5:15) Are cyber defenders losing the race against AI attackers? (6:50) Analytical SaaS is dead, so what survives the AI wave? (14:06) If models become a utility, where will the money be made? (20:35) Armchair CEO: Nikesh rates Waymo, Google, and OpenAI (28:22) Palo Alto's M&A playbook and the path to $1 trillion Thanks to our partners for making this possible! EY - AI ambition isn't enough. EY.ai Value Blueprints move organizations beyond pilots embedding measurable business value by design. https://www.ey.com/en_us/services/ai/value-blueprints?WT.mc_id=3501320&AA.tsrc=sponsorship NYSE - Thank you to our partner, the New York Stock Exchange - a modern marketplace and exchange for building the future. It all happens at the NYSE. https://www.nyse.com Plaud - Never miss a moment. Plaud, our official wearable AI note-taking partner at All-In Liquidity Summit, captured every insight. https://www.plaud.ai Follow Nikesh: https://x.com/nikesharora Follow the besties: https://x.com/chamath https://x.com/Jason https://x.com/DavidSacks https://x.com/friedberg Follow on X: https://x.com/theallinpod Follow on Instagram: https://www.instagram.com/theallinpod Follow on TikTok: https://www.tiktok.com/@theallinpod Follow on LinkedIn: https://www.linkedin.com/company/allinpod Intro Music Credit: https://rb.gy/tppkzl https://x.com/yung_spielburg",
+      "duration": "31:22",
+      "old_score": 36,
+      "old_label": "skip",
+      "qwen": {
+        "id": "446d0bb574cab775037d0abc",
+        "score": 85,
+        "tier": "listen",
+        "reason": "Nikesh Arora offers sharp insights on AI's impact on cybersecurity, SaaS, and enterprise value capture.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "bcaf2bc5a3179bc214c0eb0b",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Single Best Idea with Tom Keene: Nathan Sheets & Ed Ludlow",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/single-best-idea-with-tom-keene-nathan-sheets-ed-ludlow",
+      "published": "2026-06-08T17:00:00+00:00",
+      "summary": "Tom Keene breaks down the Single Best Idea from the latest edition of Bloomberg Surveillance Radio. In this episode, we feature conversations with Citi’s Nathan Sheets & Ed Ludlow of Bloomberg News. Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF See omnystudio.com/listener for privacy information.",
+      "duration": "200",
+      "old_score": 4,
+      "old_label": "skip",
+      "qwen": {
+        "id": "bcaf2bc5a3179bc214c0eb0b",
+        "score": 55,
+        "tier": "scan",
+        "reason": "Brief macroeconomic insights from Nathan Sheets may inform market read, but limited depth.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "352a46e10f1c77f408b74b1b",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: June 8th, 2026",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-june-8th-2026",
+      "published": "2026-06-08T16:00:00+00:00",
+      "summary": "Featuring: Cameron Dawson, Chief Investment Officer at Newedge Wealth Mark Esper, Chairman: National Security Practice at Red Cell Partners Andrew Watterson, Chief Operating Officer at Southwest Airlines See omnystudio.com/listener for privacy information.",
+      "duration": "1351",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "352a46e10f1c77f408b74b1b",
+        "score": 60,
+        "tier": "scan",
+        "reason": "Market and economic commentary from CIO and corporate leaders offers baseline context.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "4fd098f9e748091a2e9d41f7",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Trump Urges End to Fighting After Iran, Israel Trade Missiles",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/trump-urges-end-to-fighting-after-iran-israel-trade-missiles",
+      "published": "2026-06-08T13:56:49+00:00",
+      "summary": "The latest in finance, economics and investment. Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF .Bloomberg Surveillance hosted by Tom Keene & Paul SweeneyMonday, June 8th, 2026 Featuring: 1) Nathan Sheets, Global Chief Economist at Citi, examines how the Fed is weighing inflationary pressures. 2) Ethan Bronner, Bloomberg News Israel Bureau Chief, discusses the latest Iran headlines. 3) Collin Martin, Chief Fixed Income Strategist at Charles Schwab, on why income still matters for bond investors. 4) Jennifer Lawless, Professor of Politics at the University of Virginia, assesses domestic pushback to continued conflict in the Middle East. See omnystudio.com/listener for privacy information.",
+      "duration": "1408",
+      "old_score": 0,
+      "old_label": "skip",
+      "qwen": {
+        "id": "4fd098f9e748091a2e9d41f7",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Geopolitical and Fed policy discussion is relevant but generic for macro listeners.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "a24bbd49860a1b5f0a0988dc",
+      "show_name": "The Breakdown with NLW",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Inside Pump.fun's New Bounty Platform",
+      "link": "",
+      "published": "2026-06-08T13:25:00+00:00",
+      "summary": "Pump.fun just rolled out Pump.fun Go — a bounty platform that pays you crypto for filming yourself doing… well, whatever. David on why this might actually matter for the next retail cycle. Plus: the coins quietly pumping through the bear, and the stablecoin chart suggesting we're still months from a bottom. TIMESTAMPS: (00:00) Intro (01:09) Pump.Fun Bounties (14:48) Token Winners (24:36) Stablecoins FOLLOW THE SHOW › David — https://x.com/dcanellis › The Breakdown — https://x.com/TheBreakdownBW › The Breakdown Newsletter — https://blockworks.com/newsletter/the-breakdown Get top market insights and the latest in crypto news. Subscribe to the Blockworks Daily Newsletter: https://blockworks.co/newsletter/ DISCLAIMER As always, remember this podcast is for informational purposes only, and any views expressed by anyone on the show are solely their opinions, not financial advice.",
+      "duration": "1823",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "a24bbd49860a1b5f0a0988dc",
+        "score": 45,
+        "tier": "skip",
+        "reason": "Crypto bounties and pump dynamics lack durable framework or institutional relevance.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "f419abbef09f51c2f5eaf1ef",
+      "show_name": "The Meb Faber Show",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Charley Ellis on How America Actually Got Built (Investing in America Series) | #633",
+      "link": "",
+      "published": "2026-06-08T13:02:00+00:00",
+      "summary": "My guest today is Charles Ellis, founder of Greenwich Associates, longtime member of Yale’s investment committee, and author of more than 20 books, including the classic Winning the Loser’s Game. In today’s episode, Charley reflects on writing the first major book on share repurchases 50 years ago, when the idea was so foreign that Goldman mailed it to 1,000 corporations as a “legitimizer.” Charley also walks us through his new book, Great American Investments: A History of the Bold Initiatives that Shaped a Nation, covering 14 audacious public investments from the Louisiana Purchase to the Marshall Plan. He explains how each came down to one or two obsessed individuals, why Alaska turned out to be the bargain of the century, and how Frances Perkins muscled Social Security into law. As the episode winds down, he shares the lunch with Sandy Gottesman in the early 1970s that led him to buy Berkshire Hathaway at $700 a share — and hold it ever since. (0:00) Starts (1:54) Charley on stock buybacks (8:06) Current state of investing and behavioral economics (11:37) Advice for young investors and long-term strategies (16:41) Charley's new book: Great American Investments: A History of the Bold Initiatives that Shaped a Nation (25:42) The origins of social Security (32:46) American entrepreneurship (36:43) Will AI be the next great American investment? (42:34) Most memorable investment ----- Sponsor: ⁠Ivy Invest ⁠- To learn more about Ivy Invest's SEC-registered endowment-style fund, view the prospectus, and learn how to invest, visit ⁠ivyinvest.co/fund ----- Follow Meb on X, LinkedIn and YouTube For detailed show notes, click here To learn more about our funds and follow us, subscribe to our mailing list or visit us at cambriainvestments.com ----- Follow The Idea Farm: X | LinkedIn | Instagram | TikTok ----- Interested in sponsoring the show? Email us at Feedback@TheMebFaberShow.com ----- Past guests include Ed Thorp, Richard Thaler, Jeremy Grantham, Joel Greenblatt, Campbell Harvey, Ivy Zelman, Kathryn Kaminski, Jason Calacanis, Whitney Baker, Aswath Damodaran, Howard Marks, Tom Barton, and many more. ----- Meb's invested in some awesome startups that have passed along discounts to our listeners. Check them out here! -----Editing and post-production work for this episode was provided by The Podcast Consultant (https://thepodcastconsultant.com). Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "duration": "3265",
+      "old_score": 59,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "f419abbef09f51c2f5eaf1ef",
+        "score": 78,
+        "tier": "digest",
+        "reason": "Charley Ellis offers historical investing frameworks and long-term capital allocation wisdom.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "e95d6f26fb64be56cb558e71",
+      "show_name": "EconTalk",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "The Self, the Crowd, and Social Contagion (with Luke Burgis)",
+      "link": "https://www.econtalk.org/the-self-the-crowd-and-social-contagion-with-luke-burgis/",
+      "published": "2026-06-08T10:30:00+00:00",
+      "summary": "Finding community can be difficult. But author Luke Burgis thinks the real challenge begins once we've found it and we're subject to social pressures to conform. Listen as Burgis and EconTalk's Russ Roberts trace the tension between individuals and their tribes through the foundational frameworks, such as family and school, that help forge our identities. Burgis argues that the disappearance of traditional rites of passage bodes ill for major life commitments such as marriage, and recounts his personal journey from Wall Street through the Great Books in search of a strong, differentiated self. He also draws lessons for today's communities from Saint Benedict's 1,500-year-old guide for monastic life and describes the moving ritual he practiced with his father before he died.",
+      "duration": "01:11:06",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "e95d6f26fb64be56cb558e71",
+        "score": 58,
+        "tier": "scan",
+        "reason": "Philosophical take on identity and community offers personal insight but limited market relevance.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "9688d91137ecd0ea9e478e29",
+      "show_name": "Stratechery",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "Google Buys Compute From SpaceX, Broadcom’s Outlook, Apple’s AI Politics",
+      "link": "https://stratechery.com/2026/google-buys-compute-from-spacex-broadcoms-outlook-apples-ai-politics/",
+      "published": "2026-06-08T10:00:00+00:00",
+      "summary": "Google's deal with SpaceX, and Broadcom's earnings, both seem bullish for Nvidia. Then, what I'm looking for at WWDC.",
+      "duration": "",
+      "old_score": 30,
+      "old_label": "skip",
+      "qwen": {
+        "id": "9688d91137ecd0ea9e478e29",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Google's compute strategy and Apple's AI politics offer timely tech industry analysis.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "b6c4294c4c6ff2f99c33f379",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "AI Eats the World? A Reality Check with Benedict Evans",
+      "link": "https://a16z.simplecast.com/episodes/ai-eats-the-world-a-reality-check-with-benedict-evans-GVzr9ZaX",
+      "published": "2026-06-08T10:00:00+00:00",
+      "summary": "Erik Torenberg speaks with tech analyst Benedict Evans about the current state of AI, what has changed over the past year, and which questions remain unanswered. The conversation covers coding agents, foundation models, AI infrastructure spending, software economics, and the tension between today's AI excitement and the long-term realities of technology adoption. Evans discusses why coding has emerged as AI's first breakout use case, how previous platform shifts can help frame the current moment, and why many of the most important questions about AI remain unresolved. Along the way, they explore the future of software, enterprise adoption, consumer behavior, and whether AI models ultimately capture value themselves or become infrastructure for the next generation of applications. Resources: Follow Benedict Evans on X: https://x.com/benedictevans Follow Erik Torenberg on X: https://x.com/eriktorenberg Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "01:01:18",
+      "old_score": 45,
+      "old_label": "skip",
+      "qwen": {
+        "id": "b6c4294c4c6ff2f99c33f379",
+        "score": 88,
+        "tier": "listen",
+        "reason": "Benedict Evans provides grounded, strategic AI analysis with durable economic and platform implications.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "5ba6e1867c0d081d2089e3c9",
+      "show_name": "Decoder with Nilay Patel",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Microsoft AI chief thinks superintelligence is near, but won't take your job",
+      "link": "",
+      "published": "2026-06-08T09:00:00+00:00",
+      "summary": "Today I’m talking with Mustafa Suleyman, the CEO of Microsoft AI. This is a real burner of an episode. We covered everything from his approach to training new models to his criticisms of Anthropic talking about Claude as though it is conscious. Of course, we also talked about Microsoft’s relationship with OpenAI, how Mustafa is thinking about all the negative polling and political pushback around AI right now, and whether any of the consumer products are good enough to overcome it. Like I said, it’s a burner. Links: Microsoft and OpenAI broke up — now they’re ready to fight | The Verge Microsoft Build 2026: The 7 biggest announcements | The Verge Microsoft’s first advanced reasoning AI is here | The Verge Microsoft’s new ‘superintelligence’ game plan is all about business | The Verge Here’s how the new Microsoft and OpenAI deal breaks down | The Verge Microsoft AI chief says 18 months until white-collar tasks automated by AI | FT Subscribe to The Verge to access the ad-free version of Decoder! Credits: Decoder is a production of The Verge and part of the Vox Media Podcast Network. Decoder is produced by Kate Cox and Nick Statt and edited by Ursa Wright. Our editorial director is Kevin McShane. The Decoder music is by Breakmaster Cylinder. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "4563",
+      "old_score": 44,
+      "old_label": "skip",
+      "qwen": {
+        "id": "5ba6e1867c0d081d2089e3c9",
+        "score": 88,
+        "tier": "listen",
+        "reason": "Mustafa Suleyman discusses Microsoft AI's strategy, superintelligence timelines, and political pushback—key insights for AI and market implications.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "b43575b15b2e16d5bab8cea4",
+      "show_name": "Capital Allocators",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Contrarian Quality at GQG Partners – Rajiv Jain (EP.505)",
+      "link": "https://tedseides.libsyn.com/contrarian-quality-at-gqg-partners-rajiv-jain-ep505",
+      "published": "2026-06-08T08:00:00+00:00",
+      "summary": "Rajiv Jain is the Chairman and CIO of GQG Partners, a global equity manager he founded in 2016 that has soared to $160 billion in assets, rebuffing the challenging decade for active managers. Our conversation covers Rajiv's path from trading in India to his long tenure at Vontobel and founding of GQG. We discuss the periodic crisis lessons that shaped his approach, his definition of quality, team dynamics, and portfolio construction to avoid losses. We then turn to Rajiv's contrarian views, including current significant positions in energy, utilities, steel, tobacco, and emerging markets, avoidance of hyperscalers and semiconductors, and nimbleness to change his mind. Learn More Follow Ted on Twitter at @tseides or LinkedIn Subscribe to the mailing list Access Transcript with Premium Membership",
+      "duration": "01:04:57",
+      "old_score": 40,
+      "old_label": "skip",
+      "qwen": {
+        "id": "b43575b15b2e16d5bab8cea4",
+        "score": 82,
+        "tier": "digest",
+        "reason": "Rajiv Jain shares contrarian quality investing insights and portfolio strategies—valuable for capital allocation frameworks.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "e583b65132249bdac7596b7a",
+      "show_name": "Odd Lots",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "How CoreWeave Sees the Market for Compute Right Now",
+      "link": "https://omny.fm/shows/odd-lots/how-coreweave-sees-the-market-for-compute-right-now",
+      "published": "2026-06-08T08:00:00+00:00",
+      "summary": "When we last spoke to Brannin McBee, the co-founder and chief development officer of cloud company CoreWeave, his business was not yet public and sourcing GPUs was a key constraint on growth. But three years later, things look pretty different. CoreWeave IPOed and has been raising money in the bond market too, as well as signing more deals with chipmaker Nvidia. In fact, investors have basically been throwing money at all-things-AI. But there are persistent bottlenecks to further growth. Chip supply is still scarce, but so are transformers and electricity. In this episode, we catch up with Brannin on everything he's seeing in the market for compute right now, including leases, Nvidia's new Vera Rubin systems, demand for training versus inference, and the possibility of standardizing the market for compute. Read more: Trump Officials Worry US Loophole Let Chinese Firms Buy Nvidia Blackwell Chips Broadcom Slides Most Since January 2025 on AI Outlook Miss Only http://Bloomberg.com subscribers can get the Odd Lots newsletter in their inbox each week, plus unlimited access to the site and app. Subscribe at bloomberg.com/subscriptions/oddlots Subscribe to the Odd Lots Newsletter Join the conversation: discord.gg/oddlots See omnystudio.com/listener for privacy information.",
+      "duration": "3050",
+      "old_score": 32,
+      "old_label": "skip",
+      "qwen": {
+        "id": "e583b65132249bdac7596b7a",
+        "score": 85,
+        "tier": "listen",
+        "reason": "CoreWeave's CDO discusses compute market dynamics, Nvidia partnerships, and infrastructure bottlenecks—critical for AI platform economics.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "f63121a46da1666c8ddfb103",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "How to Fix the Tax Code + the Problem With Corporate Jargon",
+      "link": "",
+      "published": "2026-06-08T08:00:00+00:00",
+      "summary": "Scott Galloway explains why a national sales tax sounds fair but always hits the wrong people, makes the case for saying less and listening more as a manager, and advises a 25-year-old in London on whether to cut his contract short for love. Want to be featured in a future episode? Send a voice recording to officehours@profgmedia.com, or drop your question in the r/ScottGalloway subreddit. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "1023",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "f63121a46da1666c8ddfb103",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Galloway covers tax policy and corporate jargon—broadly relevant but lacks deep AI or operational insights.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "9096ee0d20af32939c60a0df",
+      "show_name": "The Twenty Minute VC",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "20VC: Nebius Co-Founder on AI Infrastructure Bubbles | The Real Impact of Open Source on OpenAI & Anthropic | How Price Elastic is Demand for Compute | Could Nebius Sell 10x More Compute If They Had It & more with Roman Chernin",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-nebius-co-founder-on-ai-infrastructure-bubbles-the-real-impact-of-open-source-on-openai-anthropic-how-price-elastic-is-demand-for-compute-could-nebius-sell-10x-more-compute-if-they-had-it-more-with-roman-chernin",
+      "published": "2026-06-08T07:07:00+00:00",
+      "summary": "Roman Chernin is Co-Founder and Chief Business Officer of Nebius , one of the fastest-growing AI infrastructure companies in the world. Today, Nebius operates some of the largest AI compute clusters globally and serves leading AI labs, enterprises, and developers. Today, Nebius has a market cap of $57BN. AGENDA: 00:00 — Why AI Infrastructure Is Not a Bubble 05:00 — The Real Impact of Open Source on OpenAI & Anthropic 11:00 — Jevons Paradox: Why Cheaper AI Creates More Demand 13:00 — The Four Layers of AI Infrastructure Explained 19:00 — If Nebius Had 10x More Capacity Tomorrow 26:00 — The Shift from Training to Inference and Agents 31:00 — How Token Factory Cuts AI Costs by 70% 44:00 — Sovereign AI, Europe, and the Future of Model Building 49:00 — Competing Against Hyperscalers with 10x More Capital 59:00 — The Biggest Threat to Nebius Isn't Competition—It's Consolidation",
+      "duration": "01:06:40",
+      "old_score": 42,
+      "old_label": "skip",
+      "qwen": {
+        "id": "9096ee0d20af32939c60a0df",
+        "score": 90,
+        "tier": "listen",
+        "reason": "Nebius Co-Founder discusses AI infrastructure economics, open source impact, and compute elasticity—essential for understanding AI business models.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "083aedf741ac7b5bd4348fae",
+      "show_name": "All-In Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Inside the Private Stock Market Boom: SpaceX, Anthropic, OpenAI & the Rise of Secondaries",
+      "link": "https://allinchamathjason.libsyn.com/inside-the-private-stock-market-boom-spacex-anthropic-openai-the-rise-of-secondaries",
+      "published": "2026-06-07T18:14:00+00:00",
+      "summary": "(0:00) Brad Gerstner, Gavin Baker, and Kelly Rodriques join the Besties! (0:47) Secondary Markets are Booming & Competing with IPOs (3:10) Why Companies are Staying Private So Long? (9:22) SPVs, the Forge-Schwab Deal, Democratizing Private Market Access (13:28) Secondary Markets as Exit Liquidity for VCs (27:00) The Private Market Bubble? (32:03) Hottest Secondary Companies Right Now Thanks to our partners for making this possible! EY - Agentic AI is introducing a new investment discipline. As AI shifts to consumption-based models, EY connects spend to enterprise value. https://www.ey.com/en_us/insights/ai/agentic-ai-token-costs?WT.mc_id=3501318&AA.tsrc=sponsorship NYSE - Thank you to our partner, the New York Stock Exchange - a modern marketplace and exchange for building the future. It all happens at the NYSE. https://www.nyse.com Plaud - Never miss a moment. Plaud, our official wearable AI note-taking partner at All-In Liquidity Summit, captured every insight. https://www.plaud.ai Follow Brad: https://x.com/altcap Follow Gavin: https://x.com/GavinSBaker Follow Kelly: https://www.linkedin.com/in/kelly-rodriques-9b49418 Follow the besties: https://x.com/chamath https://x.com/Jason https://x.com/DavidSacks https://x.com/friedberg Follow on X: https://x.com/theallinpod Follow on Instagram: https://www.instagram.com/theallinpod Follow on TikTok: https://www.tiktok.com/@theallinpod Follow on LinkedIn: https://www.linkedin.com/company/allinpod Intro Music Credit: https://rb.gy/tppkzl https://x.com/yung_spielburg",
+      "duration": "39:38",
+      "old_score": 85,
+      "old_label": "must_listen",
+      "qwen": {
+        "id": "083aedf741ac7b5bd4348fae",
+        "score": 78,
+        "tier": "digest",
+        "reason": "Discusses private market boom, secondary liquidity, and implications for venture capital and exits—relevant for market structure and capital trends.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "8589eec8d3bb944e8637ecd9",
+      "show_name": "Lenny's Podcast",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "Father of the iPod and iPhone on building taste, judgment, and creativity in the AI era | Tony Fadell",
+      "link": "https://www.lennysnewsletter.com/p/father-of-the-ipod-and-iphone-on",
+      "published": "2026-06-07T12:31:29+00:00",
+      "summary": "Tony Fadell created the iPod, co-created the iPhone, and founded Nest (which he sold to Google for $3.2 billion). He’s co-authored over 300 patents, was part of the legendary team at General Magic, and wrote one of the most important and inspiring books for builders, called Build . In our in-depth conversation, we discuss: 1. The heated internal debates about whether the iPhone should have a physical keyboard 2. Why opinion-based decisions are essential for v1 products 3. Why marketing matters as much as the product itself, and how the iPod almost failed 4. Why voice will eventually become the primary interface with AI 5. Why cognitive surrender to AI is the biggest risk facing product builders today — Brought to you by: WorkOS —Make your app enterprise-ready, with SSO, SCIM, RBAC, and more: https://workos.com/lenny Vanta —Automate compliance, manage risk, and accelerate trust with AI: https://vanta.com/lenny — Episode transcript: https://www.lennysnewsletter.com/p/father-of-the-ipod-and-iphone-on — Archive of all Lenny's Podcast transcripts: https://www.dropbox.com/scl/fo/yxi4s2w998p1gvtpu4193/AMdNPR8AOw0lMklwtnC0TrQ?rlkey=j06x0nipoti519e0xgm23zsn9&st=ahz0fj11&dl=0 — Where to find Tony Fadell: • X: https://x.com/tfadell • LinkedIn: https://www.linkedin.com/in/tonyfadell • Website: https://www.buildc.com — Where to find Lenny: • Newsletter: https://www.lennysnewsletter.com • X: https://twitter.com/lennysan • LinkedIn: https://www.linkedin.com/in/lennyrachitsky/ — In this episode, we cover: (00:00) Introduction to Tony Fadell (02:23) The Blackberry vs. iPhone keyboard debate (07:50) Micromanaging vs. kind lies: what great products actually need (15:57) The Nest thermostat and smoke alarm story (21:22) How to decide what’s worth building: pain plus new technology (27:36) The three-generation rule: why nothing works the first time (34:20) The full customer journey: why marketing defines your product (40:53) The power of storytelling and the press-release-first approach (48:37) The evolution of product management and the builder role (50:27) Why AI-generated code creates brittle, unmaintainable products (58:00) Storytelling techniques (1:05:45) The next iPhone (1:13:15) Hardware is back (1:17:01) What Tony is most excited about (1:21:38) Working with Tony (1:25:36) Ethics, morals, and the responsibility of product builders (1:32:40) How to connect with Tony and Build Collective — References: https://www.lennysnewsletter.com/p/father-of-the-ipod-and-iphone-on — Production and marketing by https://penname.co/ . For inquiries about sponsoring the podcast, email podcast@lennyrachitsky.com . — Lenny may be an investor in the companies discussed. To hear more, visit www.lennysnewsletter.com",
+      "duration": "5707",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "8589eec8d3bb944e8637ecd9",
+        "score": 80,
+        "tier": "digest",
+        "reason": "Tony Fadell shares product-building frameworks and AI-era creativity insights—useful for professional toolkit and innovation strategy.",
+        "confidence": "high"
+      }
+    }
+  ]
+}

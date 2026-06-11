@@ -93,6 +93,13 @@ Important implementation details:
 - The Daily ToM context extractor should also recognize the same completion shorthand so `xTask` does not leak into briefing context before the next sync/cleanup pass.
 - Regression tests should cover both sides of the behavior: source-day rewrite to `✅` and next-day carry-forward without `x`/`↗️` markers.
 
+## Parking lot behavior
+
+- `[Parking Lot]` is still part of the live Google Doc workflow.
+- `daily-tom-sync.py` preserves and reuses parking content instead of assuming Notion-era behavior.
+- Supported markers include relative parking like `[3d]` and absolute return dates like `[6/12]`.
+- Verify parking by checking the live context extractor output, not by relying on memory.
+
 ## Verification checklist
 
 - `bash -n /opt/data/scripts/daily-tom-daily-5am-et.sh`

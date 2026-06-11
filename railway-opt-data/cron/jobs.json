@@ -20,15 +20,15 @@
       "schedule_display": "15 7 * * *",
       "repeat": {
         "times": null,
-        "completed": 28
+        "completed": 29
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-12T19:59:22.529154+00:00",
-      "next_run_at": "2026-06-11T07:15:00+00:00",
-      "last_run_at": "2026-06-09T07:16:16.486526+00:00",
+      "next_run_at": "2026-06-12T07:15:00+00:00",
+      "last_run_at": "2026-06-10T07:15:25.395398+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -57,52 +57,15 @@
       "schedule_display": "0 */3 * * *",
       "repeat": {
         "times": null,
-        "completed": 1099
+        "completed": 1107
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-12T20:42:58.485236+00:00",
-      "next_run_at": "2026-06-10T09:00:00+00:00",
-      "last_run_at": "2026-06-10T06:01:06.994369+00:00",
-      "last_status": "ok",
-      "last_error": null,
-      "last_delivery_error": null,
-      "deliver": "telegram:-1003956828149:5",
-      "origin": null,
-      "enabled_toolsets": null,
-      "workdir": null
-    },
-    {
-      "id": "b84c63dd0926",
-      "name": "Daily Chief morning health summary",
-      "prompt": "Run the Railway Chief health check and send DJ a concise daily Chief/Railway health update in plain English.\n\nRun exactly:\nCHIEF_HEALTH_ALWAYS_REPORT=1 /opt/data/scripts/chief_health_check.sh\n\nReport in a compact, human-readable format. Include:\n- One-line verdict using these meanings:\n  - \"All clear\" only when checks are OK.\n  - \"Hermes follow-up logged\" when the output says DJ action is none / issues are not DJ-actionable.\n  - \"DJ action needed\" only when the output explicitly says DJ action is required or the gateway/resources are unhealthy.\n- A \"Useful context\" section with:\n  - Memory usage: amount used / total / percent\n  - Railway volume usage: amount used / total / percent\n  - Gateway status: running or not\n  - Any operational issue details if present\n- Last backup status if visible in /opt/data/health/last_status.txt or the health output.\n- DJ action line.\n\nRules:\n- Do not say \"attention needed\" if the recommended DJ action is none.\n- Do not dump raw logs unless there is a real failure.\n- Keep it friendly and brief: roughly 5-8 short lines.",
-      "skills": [],
-      "skill": null,
-      "model": "claude-haiku-4-5",
-      "provider": "anthropic",
-      "base_url": null,
-      "script": null,
-      "no_agent": false,
-      "context_from": null,
-      "schedule": {
-        "kind": "cron",
-        "expr": "0 12 * * *",
-        "display": "0 12 * * *"
-      },
-      "schedule_display": "0 12 * * *",
-      "repeat": {
-        "times": null,
-        "completed": 29
-      },
-      "enabled": true,
-      "state": "scheduled",
-      "paused_at": null,
-      "paused_reason": null,
-      "created_at": "2026-05-12T21:10:04.711555+00:00",
-      "next_run_at": "2026-06-10T12:00:00+00:00",
-      "last_run_at": "2026-06-09T12:01:32.478832+00:00",
+      "next_run_at": "2026-06-11T09:00:00+00:00",
+      "last_run_at": "2026-06-11T06:01:55.662635+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -131,15 +94,15 @@
       "schedule_display": "55 12,20 * * *",
       "repeat": {
         "times": null,
-        "completed": 15
+        "completed": 17
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-18T00:29:40.815074+00:00",
-      "next_run_at": "2026-06-10T12:55:00+00:00",
-      "last_run_at": "2026-06-09T20:56:47.402136+00:00",
+      "next_run_at": "2026-06-11T12:55:00+00:00",
+      "last_run_at": "2026-06-10T20:56:27.549888+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -175,15 +138,15 @@
       "schedule_display": "5 13,21 * * *",
       "repeat": {
         "times": null,
-        "completed": 12
+        "completed": 14
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-19T14:57:13.733402+00:00",
-      "next_run_at": "2026-06-10T13:05:00+00:00",
-      "last_run_at": "2026-06-09T21:11:30.557731+00:00",
+      "next_run_at": "2026-06-11T13:05:00+00:00",
+      "last_run_at": "2026-06-10T21:11:23.273508+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -220,15 +183,15 @@
       "schedule_display": "0 9,10 * * *",
       "repeat": {
         "times": null,
-        "completed": 74
+        "completed": 76
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-26T16:48:41.225755+00:00",
-      "next_run_at": "2026-06-10T09:00:00+00:00",
-      "last_run_at": "2026-06-09T10:00:39.806445+00:00",
+      "next_run_at": "2026-06-11T09:00:00+00:00",
+      "last_run_at": "2026-06-10T10:00:40.058226+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -262,15 +225,15 @@
       "schedule_display": "0 3 * * *",
       "repeat": {
         "times": null,
-        "completed": 6
+        "completed": 7
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-04T18:28:24.334811+00:00",
-      "next_run_at": "2026-06-11T03:00:00+00:00",
-      "last_run_at": "2026-06-10T03:00:55.561356+00:00",
+      "next_run_at": "2026-06-12T03:00:00+00:00",
+      "last_run_at": "2026-06-11T03:00:47.520190+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -304,15 +267,15 @@
       "schedule_display": "5 4,5 * * *",
       "repeat": {
         "times": null,
-        "completed": 10
+        "completed": 12
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-05T19:42:57.893480+00:00",
-      "next_run_at": "2026-06-11T04:05:00+00:00",
-      "last_run_at": "2026-06-10T05:05:59.688432+00:00",
+      "next_run_at": "2026-06-12T04:05:00+00:00",
+      "last_run_at": "2026-06-11T05:05:49.965398+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -346,15 +309,15 @@
       "schedule_display": "0 11,12 * * *",
       "repeat": {
         "times": null,
-        "completed": 8
+        "completed": 10
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-05T19:42:58.899916+00:00",
-      "next_run_at": "2026-06-10T11:00:00+00:00",
-      "last_run_at": "2026-06-09T12:00:45.440295+00:00",
+      "next_run_at": "2026-06-11T11:00:00+00:00",
+      "last_run_at": "2026-06-10T12:00:45.036767+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -514,15 +477,15 @@
       "schedule_display": "0 21,22 * * *",
       "repeat": {
         "times": null,
-        "completed": 4
+        "completed": 6
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-08T01:27:36.970151+00:00",
-      "next_run_at": "2026-06-10T21:00:00+00:00",
-      "last_run_at": "2026-06-09T22:00:32.590089+00:00",
+      "next_run_at": "2026-06-11T21:00:00+00:00",
+      "last_run_at": "2026-06-10T22:00:25.186122+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -556,15 +519,15 @@
       "schedule_display": "0 9,10 * * *",
       "repeat": {
         "times": null,
-        "completed": 4
+        "completed": 6
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-08T01:32:21.927028+00:00",
-      "next_run_at": "2026-06-10T09:00:00+00:00",
-      "last_run_at": "2026-06-09T10:00:40.017672+00:00",
+      "next_run_at": "2026-06-11T09:00:00+00:00",
+      "last_run_at": "2026-06-10T10:00:40.107620+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -621,5 +584,5 @@
       "workdir": null
     }
   ],
-  "updated_at": "2026-06-10T07:15:09.666385+00:00"
+  "updated_at": "2026-06-11T07:15:58.382868+00:00"
 }

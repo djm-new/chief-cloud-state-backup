@@ -1,27 +1,25 @@
-# Podcast digest cron fix notes
+# Podcast digest cron fix
 
-## What changed
-The podcast digest wrapper succeeded end-to-end only after two durable fixes:
+This reference captures the durable lessons from fixing the podcast digest pipeline.
 
-1. **Shared OpenRouter helper must tolerate stripped-down cron environments.**
-   - `openrouter_spend.py` imported accounting modules that were not always present in the live runtime.
-   - The durable pattern is to wrap optional imports in `try/except` and provide no-op fallbacks for accounting helpers so the actual data pipeline can continue.
+## Root causes
+- Some podcast feeds exposed fresh episodes only through raw RSS `pubDate` strings, while `feedparser` left `published` empty.
+- The daily wrapper treated an empty 24h window as absence of new content, so it exited before scoring/rendering.
+- The digest renderer was hard-coded to `24h`, which made longer-window runs awkward to label and verify.
 
-2. **Legitimate empty windows are silent success, not failure.**
-   - The digest pipeline can collect and discover successfully while finding no episodes in the requested time window.
-   - In that case, the wrapper should exit `0` without emitting a Telegram delivery.
-   - Empty windows should not be treated as broken scoring or broken rendering.
+## Fix pattern
+1. Parse `pubDate` / RFC 2822 from the raw RSS as a fallback when parsed dates are missing.
+2. Keep the normal ET guard, but allow a manual bypass flag for verification.
+3. Preserve semantic discovery in the daily path, but bound it with a timeout instead of removing it.
+4. Use window-aware scoring/rendering tags (`72h`, `24h`, etc.) so output filenames and headings reflect the actual run.
+5. Save both artifacts: the scored JSON and the final rendered markdown.
 
-## Verification pattern
-- Run the wrapper end-to-end.
-- Confirm collect/discovery succeeds.
-- Check whether the target time window contains any episodes before invoking scoring.
-- If there are none, exit silently with status `0`.
-- If there are episodes, require the scoring stage to emit a JSON path and the render stage to emit a digest markdown path.
+## Verification checklist
+- Collector run shows nonzero `collected_or_updated` for fresh feeds.
+- Latest episodes in the DB have valid `published` timestamps.
+- Scoring JSON exists for the requested window.
+- Final digest markdown exists and its header matches the requested window.
+- The digest includes the expected sections: Executive read, Listen, Summarize in digest, Scan / maybe, Skipped noise.
 
-## Related code areas
-- `/opt/data/scripts/openrouter_spend.py`
-- `/opt/data/scripts/run_podcast_digest_once.sh`
-- `/opt/data/scripts/podcast_resolve_collect_rank.py`
-- `/opt/data/scripts/podcast_semantic_discovery.py`
-- `/opt/data/scripts/podcast_qwen_episode_score.py`
+## Common pitfall
+If the 24h window looks empty, verify raw feed dates before assuming there was no new content. The collector may be missing items because the parser did not populate `published`.

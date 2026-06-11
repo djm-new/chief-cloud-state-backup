@@ -418,6 +418,7 @@ security:
 cron:
   wrap_response: false
   max_parallel_jobs: null
+  script_timeout_seconds: 1800
 kanban:
   dispatch_in_gateway: true
   dispatch_interval_seconds: 60

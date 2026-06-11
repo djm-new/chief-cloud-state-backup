@@ -269,13 +269,17 @@ Then make each cron script output its own concise self-identifying line, e.g. `C
 - **If a user message in a Telegram topic seems to get no response, first verify whether it is a live gateway conversation vs. a cron delivery.** Cron jobs are intentionally silent on OK and may only emit output on failure; a live topic reply should come from the gateway session, not the cron runner.
 - **Legitimate empty windows are silent success.** If a batch/collector/scorer runs cleanly but there is nothing new to report in the requested window, exit `0` and send nothing rather than treating the absence of items as a failure.
 - **Bound long-running delivery pipelines.** If a cron wrapper chains collection, discovery, scoring, and rendering, time-box the earlier stages and make non-essential stages optional so the final deliverable can still ship inside the cron budget. Prefer a partial-but-valid artifact over a timeout.
+- **If the wrapper still hits the outer cron limit, raise the cron scheduler budget instead of deleting intended work.** Hermes cron enforces a script timeout at the scheduler layer; use `cron.script_timeout_seconds` / `HERMES_CRON_SCRIPT_TIMEOUT` for jobs that are meant to run the full designed workflow, then keep inner `timeout` guards around substeps for safety.
+- **Some podcast feeds only expose fresh episodes through raw RSS `pubDate`.** If `feedparser` leaves `published` blank, fall back to raw XML parsing and RFC 2822 date decoding before concluding the window is empty.
+- **Use window-aware tags for report jobs.** If the job is rerun for 72h or another horizon, the scoring JSON and rendered digest filenames should reflect that window (and the heading should match), instead of staying hard-coded to 24h.
+- **Use test-only bypass flags sparingly.** A flag like `PODCAST_FORCE_RUN=1` is useful for manual verification outside the normal ET guard, but the scheduled job should keep its local-time guard intact.
 - **Shared helper modules may be imported in stripped-down cron environments.** If a support module depends on optional accounting or telemetry packages, guard imports with `try/except` and provide no-op fallbacks so the main pipeline can still run.
 - **CHIEF_HEALTH_ALWAYS_REPORT=1** can be set to force output for debugging without changing the script's default behavior.
 - **Clear the fingerprint on resolution** — if you only clear it when issues appear, a persistent-then-resolved-then-recurring issue will be silenced on second occurrence.
 - **Rate-limit is per-issue-fingerprint, not per-script** — different issue combinations get separate alerting behavior automatically because the fingerprint changes.
 
 Support files:
-- `references/podcast-digest-cron-fix.md` — podcast digest wrapper lessons: optional import fallbacks and silent zero-result runs.
+- `references/podcast-digest-cron-fix.md` — podcast digest wrapper lessons: optional import fallbacks, silent zero-result runs, and the outer cron timeout fix.
 
 ---
 

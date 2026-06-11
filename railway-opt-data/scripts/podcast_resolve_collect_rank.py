@@ -2,8 +2,10 @@
 """Resolve podcast feeds, collect recent episodes, and metadata-rank for DJ podcast intelligence prototype."""
 from __future__ import annotations
 import argparse, datetime as dt, hashlib, html, json, os, re, sqlite3, sys, time, urllib.parse
+from email.utils import parsedate_to_datetime
 from pathlib import Path
 import requests, yaml, feedparser
+import xml.etree.ElementTree as ET
 from bs4 import BeautifulSoup
 
 BASE = Path('/opt/data/podcast_digest')
@@ -39,6 +41,42 @@ def clean(s):
     if not s: return ''
     s = BeautifulSoup(html.unescape(str(s)), 'html.parser').get_text(' ', strip=True)
     return re.sub(r'\s+', ' ', s).strip()
+
+def parse_date_text(v):
+    if not v:
+        return None
+    try:
+        return dt.datetime.fromisoformat(str(v).replace('Z', '+00:00'))
+    except Exception:
+        pass
+    try:
+        parsed = parsedate_to_datetime(str(v))
+        if parsed is not None:
+            return parsed.astimezone(dt.timezone.utc) if parsed.tzinfo else parsed.replace(tzinfo=dt.timezone.utc)
+    except Exception:
+        pass
+    return None
+
+def load_raw_pubdates(feed_url):
+    try:
+        r = requests.get(feed_url, headers={'User-Agent': UA}, timeout=20)
+        r.raise_for_status()
+        root = ET.fromstring(r.content)
+        ch = root.find('channel')
+        if ch is None:
+            return {}
+        out = {}
+        for item in ch.findall('item'):
+            raw_pub = item.findtext('pubDate') or item.findtext('{http://purl.org/dc/elements/1.1/}date') or item.findtext('date')
+            if not raw_pub:
+                continue
+            keys = [item.findtext('guid'), item.findtext('link'), clean(item.findtext('title'))]
+            for key in keys:
+                if key:
+                    out[str(key).strip()] = raw_pub.strip()
+        return out
+    except Exception:
+        return {}
 
 def load_show_names():
     data = yaml.safe_load(FEEDS_YAML.read_text())
@@ -104,12 +142,21 @@ def parse_date(entry):
     st = entry.get('published_parsed') or entry.get('updated_parsed')
     if st:
         return dt.datetime(*st[:6], tzinfo=dt.timezone.utc)
-    for k in ['published','updated']:
-        v=entry.get(k)
-        if v:
-            try:
-                return dt.datetime.fromisoformat(v.replace('Z','+00:00'))
-            except: pass
+    for k in ['published', 'updated', 'pubDate', 'date', 'created']:
+        v = entry.get(k)
+        if not v:
+            continue
+        parsed = parse_date_text(v)
+        if parsed is not None:
+            return parsed
+    # Some feed parsers expose structured or alternate date fields.
+    for key in entry.keys():
+        if 'date' in key.lower() or 'pub' in key.lower() or 'updated' in key.lower():
+            v = entry.get(key)
+            if isinstance(v, str) and v:
+                parsed = parse_date_text(v)
+                if parsed is not None:
+                    return parsed
     return None
 
 def get_audio(entry):
@@ -166,11 +213,18 @@ def collect(days=3):
         feed=sh.get('feed_url')
         if not feed: continue
         try:
+            raw_pubdates = load_raw_pubdates(feed)
             fp=feedparser.parse(feed)
             if fp.bozo and not fp.entries:
                 errors.append(f"{sh['name']}: {fp.bozo_exception}"); continue
             for e in fp.entries[:30]:
                 pub=parse_date(e)
+                if pub is None:
+                    for candidate in (e.get('id'), e.get('link'), clean(e.get('title'))):
+                        raw_pub = raw_pubdates.get(str(candidate).strip()) if candidate else None
+                        pub = parse_date_text(raw_pub)
+                        if pub is not None:
+                            break
                 if pub and pub < cutoff: continue
                 title=clean(e.get('title'))
                 summary=clean(e.get('summary') or e.get('description'))[:4000]

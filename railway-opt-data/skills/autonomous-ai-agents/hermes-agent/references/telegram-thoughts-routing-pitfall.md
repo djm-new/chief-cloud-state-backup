@@ -12,6 +12,8 @@ When DJ says things like:
 
 the action should be to update the Daily ToM Google Doc via the deterministic helper (`/opt/data/scripts/daily-tom-add.py`) and then confirm the actual Google Docs result. Do **not** satisfy the request by only adding a temporary in-session todo or by saying it is "added" when the document was not touched.
 
+Formatting rule: normalize ToM entries to proper capitalization before writing them, even if the source message is lowercase.
+
 Useful behaviors:
 
 - If the item already exists, report `already_present` and say it is already in the document.

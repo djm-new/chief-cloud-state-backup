@@ -5,8 +5,10 @@ Use this when a Telegram or thought-capture message contains an explicit instruc
 ## Canonical action
 
 - Use `daily-tom-add.py --apply` to update the Google Doc.
+- Treat explicit “add to Top of Mind / ToM” instructions as a **doc-sync request**, not just a local scratchpad note.
 - Do **not** treat this as only a session todo / memory note.
-- If the user gives a direct instruction inside a thought-capture message, log the thought and also apply the ToM change.
+- If the user gives a direct instruction inside a thought-capture message, log the thought **and** apply the ToM change.
+- If Google auth or the doc write path is unavailable, say so plainly and do not imply the item was synced.
 
 ## Routing policy
 
@@ -33,6 +35,8 @@ Useful Personal cues for the fallback include:
 - `book ... ticket/flight/hotel/travel/trip`
 
 Append new items to the **bottom** of the target group by default.
+
+Normalize entries to proper capitalization before writing them.
 
 Priority / starred items (`*` or `!`) still go to the top.
 

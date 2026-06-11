@@ -156,6 +156,8 @@ Load this when debugging the filter, tuning thresholds, or adding new channels.
 
 ## Rolling state discipline
 
+Parking lot state is live ToM state, not legacy Notion state. If you need to debug it, inspect `/opt/data/scripts/daily-tom-sync.py` and the current context output before assuming the feature is gone.
+
 `open_topics.md` should stay compact and operational:
 
 - carry-forward topics

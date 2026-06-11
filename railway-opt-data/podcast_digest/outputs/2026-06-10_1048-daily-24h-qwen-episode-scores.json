@@ -1,0 +1,231 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-06-10_1048",
+  "usage": {
+    "prompt_tokens": 3864,
+    "completion_tokens": 850,
+    "total_tokens": 4714
+  },
+  "episodes": [
+    {
+      "id": "af2d9a2c9d2ff45eaa7ebbb6",
+      "show_name": "Stratechery",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "Fable 5, Anthropic Alignment, AI Tiers",
+      "link": "https://stratechery.com/2026/fable-5-anthropic-alignment-ai-tiers/",
+      "published": "2026-06-10T10:00:00+00:00",
+      "summary": "Fable 5 is the public version of Mythos, and while it is very capable it sets some troubling new precedents.",
+      "duration": "",
+      "old_score": 38,
+      "old_label": "skip",
+      "qwen": {
+        "id": "af2d9a2c9d2ff45eaa7ebbb6",
+        "score": 85,
+        "tier": "digest",
+        "reason": "Stratechery on Fable 5 and AI alignment offers strategic framework for evaluating models.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "1cc648774cd781f452fb6329",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "AI, Growth, and the Future of Healthcare | Anish Acharya & Sachin Jain",
+      "link": "https://a16z.simplecast.com/episodes/ai-growth-and-the-future-of-healthcare-anish-acharya-sachin-jain-_b_Jk_N_",
+      "published": "2026-06-10T10:00:00+00:00",
+      "summary": "SCAN Health Plan CEO Sachin Jain speaks with a16z General Partner Anish Acharya about AI, healthcare, and what it takes for established organizations to adapt during periods of technological change. The conversation explores how AI is reshaping work, customer experience, software development, and organizational structure. Acharya argues that artificial intelligence is not simply another productivity tool, but a fundamentally new technology capable of performing work on behalf of people and organizations. They discuss AI adoption inside large enterprises, the future of customer support, software development, healthcare operations, and why curiosity, experimentation, and ambition may be the most important traits for organizations navigating the transition. Along the way, Acharya shares his views on economic growth, human flourishing, and the role AI could play in reducing healthcare costs and improving patient experiences. Resources: Follow Anish Acharya on X: https://x.com/illscience Follow Sachin Jain on X: https://x.com/sacjai Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:49:58",
+      "old_score": 47,
+      "old_label": "skip",
+      "qwen": {
+        "id": "1cc648774cd781f452fb6329",
+        "score": 78,
+        "tier": "digest",
+        "reason": "a16z on AI reshaping healthcare with implications for enterprise adoption and organizational change.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "c410963ba83b71fc463272b8",
+      "show_name": "The Cognitive Revolution",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Babysitting the Machine: Glean's Rebecca Hinds on the Hidden Human Labor of AI at Work",
+      "link": "https://www.cognitiverevolution.ai/babysitting-the-machine-glean-s-rebecca-hinds-on-the-hidden-human-labor-of-ai-at-work/",
+      "published": "2026-06-10T09:08:03+00:00",
+      "summary": "Rebecca Hinds, author of \"Your Best Meeting Ever\" and Head of the Work AI Institute at Glean, breaks down the surprising findings from the new Work AI Index 2026 report surveying 6,000 workers. While 87% now use AI and report saving 13 hours per week, only 13% say their organization is performing significantly better—a paradox explained by two new concepts: \"botsitting\" (the hidden labor of making AI useful) and \"botshitting\" (delivering AI-generated work you can't defend). They discuss practical solutions including better-integrated AI systems, smarter AI detection policies, and aligning work to meaningful missions. LINKS: Rebecca Hinds Personal Website Glean Work AI Institute Your Best Meeting Ever Book Glean Enterprise AI Platform Stanford Future of Work Glean Enterprise Graph Pangram Labs AI Detection OpenAI ChatGPT Product Page Anthropic Claude Product Page Google Gemini Product Page Microsoft 365 Copilot Page Glean AI Transformation 100 Rebecca Hinds LinkedIn Profile Sponsor: Claude: Claude by Anthropic is an AI collaborator that understands your workflow and helps you tackle research, writing, coding, and organization with deep context. Get started with Claude and explore Claude Pro at https://claude.ai/tcr CHAPTERS: (00:00) About the Episode (03:22) Grounding AI adoption (06:46) Methodology and Glean (12:25) Productivity paradox emerges (Part 1) (20:31) Sponsor: Claude (22:22) Productivity paradox emerges (Part 2) (25:36) Bot sitting burden (34:00) Hidden time savings (39:56) Meaning versus automation (47:14) Enterprise graph potential (53:13) Detecting bot slop (01:00:32) Retention and incentives (01:07:54) Transformation and mission (01:20:06) AI teammate model (01:26:01) Future organizational design (01:32:31) Research and meetings (01:41:43) Episode Outro (01:45:07) Outro PRODUCED BY: https://aipodcast.ing",
+      "duration": "6380",
+      "old_score": 59,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "c410963ba83b71fc463272b8",
+        "score": 82,
+        "tier": "digest",
+        "reason": "Glean's research reveals hidden labor costs in enterprise AI adoption; practical insights for operators.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "0672a9e870b1cf19d9910cee",
+      "show_name": "Training Data",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "LIVE: Jensen Huang on Building the Dynamo of the Intelligence Age",
+      "link": "",
+      "published": "2026-06-10T09:00:00+00:00",
+      "summary": "Jensen Huang, founder and CEO of NVIDIA, makes the case that computing is undergoing its biggest shift in 60 years: from retrieval, where data centers store files we look up, to generation, where every word, image, and video is produced in real time and customized for whoever is asking. He explains why NVIDIA's AI factories are the dynamos of this era: machines that take in electrons and send out tokens of intelligence, just as Siemens' dynamo once turned motion into electricity. Jensen frames intelligence as the third force to \"cocoon\" the planet after electricity and the internet. He describes the five-layer cake of AI investment—energy, chips, infrastructure, models, applications—and dismantles the fear that AI will erase jobs, using radiology and software engineering to show how automation raised labor demand instead of killing it. His bottom line: you won't lose your job to AI, but you might lose it to someone who uses AI. Hosted by Konstantine Buhler, Sequoia Capital",
+      "duration": "2480",
+      "old_score": 73,
+      "old_label": "digest_only",
+      "qwen": {
+        "id": "0672a9e870b1cf19d9910cee",
+        "score": 90,
+        "tier": "listen",
+        "reason": "Jensen Huang's vision of AI as a generative dynamo with implications for energy and infrastructure.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "4a9ae85ba76d92907d7a5dd8",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "The Story Behind Raging Moderates + Why Jeff Bezos Is Wrong About Taxes",
+      "link": "",
+      "published": "2026-06-10T08:00:00+00:00",
+      "summary": "Scott Galloway explains why Jeff Bezos' proposal to cut taxes for lower earners is a deflection from the real issue, shares the origin story behind Raging Moderates and how he met Jessica Tarlov, and breaks down how to tell the difference between a toxic workplace and one that just isn't the right fit. Want to be featured in a future episode? Send a voice recording to officehours@profgmedia.com, or drop your question in the r/ScottGalloway subreddit. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "1285",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "4a9ae85ba76d92907d7a5dd8",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Galloway commentary on Bezos and taxes; light on durable frameworks or operator insight.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "60ff19980799d2f76f2ed74a",
+      "show_name": "All-In Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Dan Dreyfus: America's Critical Minerals Crisis is Here",
+      "link": "https://allinchamathjason.libsyn.com/dan-dreyfus-americas-critical-minerals-crisis-is-here",
+      "published": "2026-06-10T03:04:00+00:00",
+      "summary": "(0:00) Dan Dreyfus Presents: The Future of Critical Minerals (0:33) America's \"Capital Light Era\" is over, rapid supply/demand shocks (5:40) Impact of China cutting off the US from critical minerals (8:18) Copper's Rise: The next 18 years need as much as the last 10,000 (12:00) Dollar Debasement: $140T in debt and why hard assets win (13:50) The Grid is Dying: Blackouts, bottlenecks, and the craft labor crisis (19:10) How to invest in the commodity supercycle Follow Dan: https://x.com/dreyfd Thanks to our partners for making this possible! EY - Liquidity, growth, and what's next for organizations were front and center at the Summit. EY helps turn liquidity challenges into sustainable value. https://www.ey.com/en_us/services/strategy-transactions/liquidity-working-capital-advisory?WT.mc_id=3501316&AA.tsrc=sponsorship NYSE - Thank you to our partner, the New York Stock Exchange - a modern marketplace and exchange for building the future. It all happens at the NYSE. https://www.nyse.com Plaud - Never miss a moment. Plaud, our official wearable AI note-taking partner at All-In Liquidity Summit, captured every insight. https://www.plaud.ai Follow the besties: https://x.com/chamath https://x.com/Jason https://x.com/DavidSacks https://x.com/friedberg Follow on X: https://x.com/theallinpod Follow on Instagram: https://www.instagram.com/theallinpod Follow on TikTok: https://www.tiktok.com/@theallinpod Follow on LinkedIn: https://www.linkedin.com/company/allinpod Intro Music Credit: https://rb.gy/tppkzl https://x.com/yung_spielburg",
+      "duration": "24:37",
+      "old_score": 36,
+      "old_label": "skip",
+      "qwen": {
+        "id": "60ff19980799d2f76f2ed74a",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Critical minerals and infrastructure bottlenecks relevant to AI supply chain and capital allocation.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "5dc1a5892a5379de58da3a03",
+      "show_name": "The Tim Ferriss Show",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "#869: Max Levchin, PayPal and Affirm — The Path from The Soviet Union to Building Multi-Billion Dollar Companies (Plus: Real-World Socialism vs. Capitalism)",
+      "link": "",
+      "published": "2026-06-09T23:30:00+00:00",
+      "summary": "Max Levchin ( @mlevchin ) is a serial entrepreneur and investor in 100+ startups. He's the founder and CEO of Affirm , the payment network powering consumer purchases and merchant growth. An original PayPal co-founder, Max served as CTO until its 2002 acquisition by eBay. This episode is brought to you by: ProLon : science-backed Fasting Mimicking Diet that helps activate cellular renewal through fasting, while still eating nourishing meals: ProlonLife.com/Tim Monarch track, budget, plan, and do more with your money: Monarch.com/Tim Shopify global commerce platform, providing tools to start, grow, market, and manage a retail business: Shopify.com/tim * For show notes and past guests on The Tim Ferriss Show , please visit tim.blog/podcast . For deals from sponsors of The Tim Ferriss Show , please visit tim.blog/podcast-sponsors Sign up for Tim’s email newsletter ( 5-Bullet Friday ) at tim.blog/friday . For transcripts of episodes, go to tim.blog/transcripts . Discover Tim’s books: tim.blog/books . Follow Tim: Twitter : twitter.com/tferriss Instagram : instagram.com/timferriss YouTube : youtube.com/timferriss Facebook : facebook.com/timferriss LinkedIn: linkedin.com/in/timferriss See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info .",
+      "duration": "01:58:03",
+      "old_score": 44,
+      "old_label": "skip",
+      "qwen": {
+        "id": "5dc1a5892a5379de58da3a03",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Max Levchin shares entrepreneurial lessons and contrasts capitalism and socialism from lived experience.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "0d4bf3663eae530aa3bc4678",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "How Steve Jobs became Steve Jobs",
+      "link": "",
+      "published": "2026-06-09T19:20:00+00:00",
+      "summary": "Long before Steve Jobs was the unstoppable force of nature atop Apple, shipping hit product after hit product, he was practically run out of the company after a series of bad product and management decisions. But as Geoffrey Cain argues in his new book, Steve Jobs in Exile: The Untold Story of NeXT and the Remaking of an American Visionary, the 12 years Jobs spent outside of Apple turned him into the leader the world came to know. Cain joins the show to talk about Jobs' experiences at NeXT and Pixar, how Jobs learned to be a successful leader, and the true power — and danger — of the reality distortion field. Further reading: Steve Jobs in Exile Subscribe to The Verge for unlimited access to theverge.com, subscriber-exclusive newsletters, and our ad-free podcast feed.We love hearing from you! Email your questions and thoughts to vergecast@theverge.com or call us at 866-VERGE11. (Timestamps are approximate.) 00:01:30 Intro 00:01:56 90 Seconds on The Verge 00:03:46 Interview with Geoffrey Cain Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "2594",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "0d4bf3663eae530aa3bc4678",
+        "score": 60,
+        "tier": "scan",
+        "reason": "Jobs' leadership evolution; some takeaways but not AI or capital allocation focused.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "43020855fef76ef752375ae2",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: June 9th, 2026",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-june-9th-2026",
+      "published": "2026-06-09T16:00:00+00:00",
+      "summary": "Featuring: Jack Caffrey, Equity Portfolio Manager at JP Morgan Investment Management Jennifer Huddleston, Senior Research Fellow at the Cato Institute Gil Luria, Managing Director & Head: Technology Research at DA Davidson See omnystudio.com/listener for privacy information.",
+      "duration": "1453",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "43020855fef76ef752375ae2",
+        "score": 45,
+        "tier": "scan",
+        "reason": "Bloomberg Surveillance with general market commentary; light on actionable insight.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "36362a86d301b42603bb5801",
+      "show_name": "All-In Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Bill Maris: How Google Could Crush AI Competitors, Why Small Funds Win, and AI's Atari Stage",
+      "link": "https://allinchamathjason.libsyn.com/bill-maris-how-google-could-crush-ai-competitors-why-small-funds-win-and-ais-atari-stage",
+      "published": "2026-06-09T15:07:00+00:00",
+      "summary": "(0:00) Bill Maris joins the Besties! (0:33) Four critical lessons from a career in technology (5:58) Building Google Ventures with data and machine learning (9:51) Why small VC funds beat big ones on average (14:36) OpenAI's valuation problem and the AI price war (19:09) AI's \"Atari Stage\": what comes next? (25:23) VC's broken incentives and the future of deep tech Thanks to our partners for making this possible! EY - Agentic AI is introducing a new investment discipline. As AI shifts to consumption-based models, EY connects spend to enterprise value. https://www.ey.com/en_us/insights/ai/agentic-ai-token-costs?WT.mc_id=3501318&AA.tsrc=sponsorship NYSE - Thank you to our partner, the New York Stock Exchange - a modern marketplace and exchange for building the future. It all happens at the NYSE. https://www.nyse.com Plaud - Never miss a moment. Plaud, our official wearable AI note-taking partner at All-In Liquidity Summit, captured every insight. https://www.plaud.ai Follow the besties: https://x.com/chamath https://x.com/Jason https://x.com/DavidSacks https://x.com/friedberg Follow on X: https://x.com/theallinpod Follow on Instagram: https://www.instagram.com/theallinpod Follow on TikTok: https://www.tiktok.com/@theallinpod Follow on LinkedIn: https://www.linkedin.com/company/allinpod Intro Music Credit: https://rb.gy/tppkzl https://x.com/yung_spielburg",
+      "duration": "28:42",
+      "old_score": 44,
+      "old_label": "skip",
+      "qwen": {
+        "id": "36362a86d301b42603bb5801",
+        "score": 80,
+        "tier": "digest",
+        "reason": "Bill Maris on AI's 'Atari Stage,' VC dynamics, and OpenAI's valuation challenges; solid strategic insight.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "1178948bfd201376c3512c33",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "US Economic Outlook and Bond Signals",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/us-economic-outlook-and-bond-signals",
+      "published": "2026-06-09T13:55:05+00:00",
+      "summary": "The latest in finance, economics and investment. Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF . Bloomberg Surveillance hosted by Tom Keene & Paul SweeneyTuesday, June 9, 2026 Featuring: 1) David Seif, Chief Economist for Developed Markets at Nomura, discusses the Fed and outlook for the US economy. 2) Amrita Sen, founder and director at Energy Aspects, talks about moves in the energy markets amid President Trump's floating a deal with Iran. 3) Liz Ann Sonders, Chief Investment Strategist at Charles Schwab, joins to discuss her midyear outlook and the market driving higher. 4) Nisha Patel, SMA Fixed Income Portfolio Manager at Parametric, joins for a discussion on munis and the broader bond portfolio. See omnystudio.com/listener for privacy information.",
+      "duration": "1743",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "1178948bfd201376c3512c33",
+        "score": 65,
+        "tier": "scan",
+        "reason": "Economic outlook and bond market signals; relevant but not deeply strategic or technical.",
+        "confidence": "medium"
+      }
+    }
+  ]
+}

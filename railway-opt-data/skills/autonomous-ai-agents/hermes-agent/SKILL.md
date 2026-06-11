@@ -1075,11 +1075,14 @@ Current target discovery via `send_message(action="list")` may show only `topic 
 
 If the topic is intentionally capture-only, keep it silent on success. If DJ expects conversation, do not “fix” the problem by disabling thoughts globally; fix the handler so capture and chat can coexist.
 
+For the Daily Brain Dump channel specifically: when DJ sends a directive that should be acted on, prefer a native reaction-style acknowledgment (`👀` on receipt, `✅` on completion) rather than a text reply, unless DJ asks a direct question. Direct questions should be answered normally.
+
 For DJ's Chief Group - Hermes, prefer minimal repurposing over creating/deleting topics: keep history, rename existing topics, and archive old-purpose topics instead of removing them.
 
 See `references/telegram-topic-model-routing.md` for per-topic model overrides, Opus fast mode constraints, and the topic→name map for DJ's Chief Group.
 See `references/chief-project-map.md` for where DJ's major projects live (HealthOS, podcast digest, daily business briefing, cloud-state backup) across GitHub repos, local paths, and Railway services.
 See `references/telegram-thoughts-routing-pitfall.md` for the Daily Brain Dump vs capture-only split and the "add to top of mind" doc-vs-todo pitfall.
+See `references/top-of-mind-routing.md` for the canonical Daily ToM sync rule: explicit Top of Mind instructions must update the Google Doc, not just the session todo list.
 
 See `references/telegram-thoughts-routing-pitfall.md` for the interactive-chat vs capture-only split that bit the Daily Brain Dump topic.
 
