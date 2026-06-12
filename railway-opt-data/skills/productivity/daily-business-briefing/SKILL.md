@@ -205,6 +205,7 @@ If Chief alerts that Daily ToM context output is missing an expected markdown ma
    ```
    Then ensure `/opt/data/scripts/google-account` invokes `/opt/data/google-accounts/.venv/bin/python` when present, falling back to `python3` only if the venv is absent.
 5. Verify with `/opt/data/scripts/chief_operational_health.py`; expected final line is `Status: OK`.
+6. If recent `>` items are missing `↗️`, normalize the live source day with exact Docs API `replaceAllText` requests for the raw lines, then re-run `/opt/data/scripts/daily-tom-context.py` to confirm the marker appears in context.
 
 ## Attack-vector review
 

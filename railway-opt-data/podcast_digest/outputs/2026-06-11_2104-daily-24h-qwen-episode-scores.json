@@ -1,0 +1,251 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-06-11_2104",
+  "usage": {
+    "prompt_tokens": 3944,
+    "completion_tokens": 891,
+    "total_tokens": 4835
+  },
+  "episodes": [
+    {
+      "id": "12cf7963624da345560aab38",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "YouTube is taking over Hollywood",
+      "link": "",
+      "published": "2026-06-11T18:22:00+00:00",
+      "summary": "Movies directed by YouTubers are suddenly blowing up at the box office. Backrooms and Obsession are both smash hits, and The Amazing Digital Circus had a big debut last week. Is this the moment YouTube truly takes over Hollywood? Julia Alexander, media correspondent at Puck, walks us through the much longer history of YouTube on the big screen, and helps us figure out where this all goes next. Is the future just really, really big YouTube videos? Further reading: ⁠Backrooms is at the forefront of horror’s YouTube wave⁠ ⁠Iron Lung’s path to theaters was unique, even if the movie isn’t⁠ ⁠YouTube is everything and everything is YouTube⁠ Subscribe to The Verge for unlimited access to theverge.com, subscriber-exclusive newsletters, and our ad-free podcast feed.We love hearing from you! Email your questions and thoughts to vergecast@theverge.com or call us at 866-VERGE11. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "2016",
+      "old_score": 4,
+      "old_label": "skip",
+      "qwen": {
+        "id": "12cf7963624da345560aab38",
+        "score": 45,
+        "tier": "scan",
+        "reason": "Interesting cultural shift but lacks market or business model insight.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "6fd2ea16a7b16444ec4abe37",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: June 11th, 2026",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-june-11th-2026",
+      "published": "2026-06-11T16:00:00+00:00",
+      "summary": "Featuring: Frances Donald, Chief Economist at RBC Ed Mills, Washington Policy Analyst at Raymond James Ted Mortonson, Managing Director: Technology at Baird See omnystudio.com/listener for privacy information.",
+      "duration": "1206",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "6fd2ea16a7b16444ec4abe37",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Low duration and sparse summary; potential macro insights but unclear depth.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "98d005d70afd59454a7ea04c",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Inflation Data and Market Bullishness",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/inflation-data-and-market-bullishness",
+      "published": "2026-06-11T15:40:42+00:00",
+      "summary": "The latest in finance, economics and investment. Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF . Bloomberg Surveillance hosted by Tom Keene & Paul SweeneyThursday, June 11, 2026 Featuring: 1) Jay Hatfield, CEO at Infrastructure Capital Management, brings us into PPI and discusses his inflation outlook and bullish S&P call. 2) Iain Stealey, International Head of Fixed Income at JPMorgan, discusses the US macro picture and the bond market. 3) Bailey Lipschultz, Senior Reporter with Bloomberg News, on the SpaceX IPO. 4) Julia Wilson, Principal: Consumer & Retail Strategy at KPMG, talks about the consumer feeling squeezed and summer travel season. See omnystudio.com/listener for privacy information.",
+      "duration": "1823",
+      "old_score": 28,
+      "old_label": "skip",
+      "qwen": {
+        "id": "98d005d70afd59454a7ea04c",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Covers inflation, markets, and SpaceX IPO; relevant for capital allocation context.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "c4963a1b9d9c0e32b549f17a",
+      "show_name": "Infinite Loops",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Revan Lazarus - How AI is Rebuilding the Creator Economy (Ep. 318)",
+      "link": "https://infiniteloopspodcast.com/318",
+      "published": "2026-06-11T12:10:00+00:00",
+      "summary": "AI is no longer just a tool creators use to make content faster. It is beginning to reshape the entire creator economy. Revan Lazarus is the founder of Jamie, an AI platform for podcast networks and digital sales teams. He joins Infinite Loops, guest-hosted by Nick Tawil, to discuss how AI is changing podcasting, media sales, audience analytics, creator monetization, brand deals, and the future of content itself. Important Links: Learn more about Jamie AI: https://www.jamie-ai.com/",
+      "duration": "54:58",
+      "old_score": 28,
+      "old_label": "skip",
+      "qwen": {
+        "id": "c4963a1b9d9c0e32b549f17a",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Discusses AI reshaping the creator economy; relevant to platform and business model trends.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "2076cca883e603a0152d3a10",
+      "show_name": "Stratechery",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "An Interview with Ben Bajarin About Apple, AI, and Compute",
+      "link": "https://stratechery.com/2026/an-interview-with-ben-bajarin-about-apple-ai-and-compute/",
+      "published": "2026-06-11T10:00:00+00:00",
+      "summary": "An interview with Ben Bajarin about WWDC and the status of the AI compute industry.",
+      "duration": "",
+      "old_score": 38,
+      "old_label": "skip",
+      "qwen": {
+        "id": "2076cca883e603a0152d3a10",
+        "score": 80,
+        "tier": "listen",
+        "reason": "Apple and AI compute insights from Stratechery; high DJ reference value.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "134d5a742b2a5718ea2945ed",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Designing the Physical World with AI",
+      "link": "https://a16z.simplecast.com/episodes/designing-the-physical-world-with-ai-4Yt_NF_r-pmHb0Dmc",
+      "published": "2026-06-11T10:00:00+00:00",
+      "summary": "Erin Price-Wright speaks with Alex Modon, cofounder and CEO at Unlimited Industries, and Davide Asnaghi, CEO at Diode Computers, about how AI is moving from software into the physical world. They discuss automating construction and electronics design, using code and simulation to model real-world systems, and how incentives and manufacturing constraints shape adoption. They also examine what it takes to scale infrastructure, reduce build times, and unlock more abundant industrial capacity in the United States. Resources: Follow Alex on X: https://x.com/alexmodon Follow Davide on X: https://x.com/davideasnaghi Follow Erin on X: https://x.com/espricewright Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:50:05",
+      "old_score": 43,
+      "old_label": "skip",
+      "qwen": {
+        "id": "134d5a742b2a5718ea2945ed",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Covers AI in physical design and infrastructure; actionable operator insights.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "020bcc476e82561f1c74a448",
+      "show_name": "Decoder with Nilay Patel",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Condé Nast CEO Roger Lynch on AI, the Met Gala & his secret succession plan",
+      "link": "",
+      "published": "2026-06-11T09:00:00+00:00",
+      "summary": "Hey! Nilay here. It’s conference season, so I’m traveling across the country and around the world a lot more than usual. Stay tuned for some very special Decoder episodes we have coming up soon, starting on Monday. In the meantime, I wanted to share a conversation between my friend Peter Kafka and Condé Nast CEO Roger Lynch on the excellent Channels podcast. Lynch says he’s told his teams to assume that traffic will be zero from now on — that’s what I’ve been calling Google Zero. Roger also shares his thoughts on AI, the growing influence of the creator economy, and more. Links: Channels with Peter Kafka | Apple Podcasts Condé Nast CEO: Plan As If Search Traffic Will Be Zero | Search Engine Journal Sundar Pichai on AI, the future of search, and what’s happening to the web | Decoder Google Zero is here — now what? | Decoder Google admits the open web is in ‘rapid decline’ | The Verge Credits: Decoder is a production of The Verge and part of the Vox Media Podcast Network. Decoder is produced by Kate Cox and Nick Statt and edited by Ursa Wright. Our editorial director is Kevin McShane. The Decoder music is by Breakmaster Cylinder. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "3273",
+      "old_score": 36,
+      "old_label": "skip",
+      "qwen": {
+        "id": "020bcc476e82561f1c74a448",
+        "score": 60,
+        "tier": "scan",
+        "reason": "Condé Nast CEO on AI and creator economy; some relevance but secondhand content.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "0a546a0273431082786b1c53",
+      "show_name": "Masters of Scale",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "The future of EVs, with Rivian’s RJ Scaringe",
+      "link": "",
+      "published": "2026-06-11T09:00:00+00:00",
+      "summary": "RJ Scaringe is the founder and CEO of Rivian Automotive. Host Jeff Berman digs into how Scaringe thinks about competing with Tesla, the hard won lessons of building a company that makes both vehicles and software, and how the company is scaling to fuel the highly anticipated launch of its newest electric vehicle: The R2. This Masters of Scale Live event, sponsored by Atlassian, was recorded at Atlassian Team 2026 in Anaheim. Subscribe to the Masters of Scale weekly newsletter: https://mastersofscale.com/subscribe See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info .",
+      "duration": "00:40:41",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "0a546a0273431082786b1c53",
+        "score": 65,
+        "tier": "digest",
+        "reason": "EV strategy and scaling insights from Rivian CEO; durable business lessons.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "bac8fa0cfd2ec4f268417521",
+      "show_name": "Training Data",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Google DeepMind's Logan Kilpatrick: Why the Model Eats the Harness",
+      "link": "",
+      "published": "2026-06-11T09:00:00+00:00",
+      "summary": "The entire startup ecosystem is racing to build agent harnesses. Logan Kilpatrick, who leads Google AI Studio and the Gemini API, argues that scramble has a roughly 12-month shelf life. Models will absorb the scaffolding and run it natively, so the edge moves elsewhere. Google's own bet runs in parallel: a single agent harness, born from the Windsurf team and now called Antigravity, has become the connective tissue across search, the Gemini app, Cloud, and AI Studio — the role Gemini-the-model used to play. Logan makes the case that coding already feels like narrow superintelligence, and that \"jagged\" vertical superintelligence (in math, finance, and science) will arrive well before AGI. He argues Google's real goal is maximizing outcomes for users, not eyeball time. He unpacks Omni, the single model built to replace multiple separate systems Google once trained for text, audio, music, image, and video. His throughline: AI is an accelerant for human ambition, not a substitute for it. Hosted by Sonya Huang, Sequoia Capital",
+      "duration": "3069",
+      "old_score": 36,
+      "old_label": "skip",
+      "qwen": {
+        "id": "bac8fa0cfd2ec4f268417521",
+        "score": 85,
+        "tier": "listen",
+        "reason": "Deep technical and strategic AI insights from Google's Logan Kilpatrick.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "b9dbb2cb46e48b8e620ef929",
+      "show_name": "Odd Lots",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "Why Tomatoes Are the Most Expensive They've Been in Four Decades",
+      "link": "https://omny.fm/shows/odd-lots/why-tomatoes-are-the-most-expensive-theyve-been-in-four-decades",
+      "published": "2026-06-11T08:00:00+00:00",
+      "summary": "In April, the price of tomatoes was around $2.69 per pound — the highest seen in some four decades. And tomatoes aren't the only food getting more expensive. From cauliflower to lettuce, fresh produce is spiking all over the place. So what's driving the price spike? And what can tomatoes teach us teach about America's political economy including changes in trade and tariffs? Our guest today is Jacob Krempel, senior vice president of procurement and merchandising at the wholesale food distributor Baldor, and an expert in securing fresh produce. We talk to him about where America's tomato supply actually comes from, why consumers are paying more and more, how restaurants navigate price fluctuations, and the influx of novel new tomato varieties. Read more: The Recipe for a Power Restaurant Has Changed The Latest Snack Innovations Are Basically Just Creamsicles and Chex Mix Only Bloomberg - Business News, Stock Markets, Finance, Breaking & World News subscribers can get the Odd Lots newsletter in their inbox each week, plus unlimited access to the site and app. Subscribe at bloomberg.com/subscriptions/oddlots Subscribe to the Odd Lots Newsletter Join the conversation: discord.gg/oddlots See omnystudio.com/listener for privacy information.",
+      "duration": "3295",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "b9dbb2cb46e48b8e620ef929",
+        "score": 55,
+        "tier": "scan",
+        "reason": "Food inflation analysis; some macro relevance but not core DJ focus.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "7a6fe0c9a29f19a040c43e9b",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "The New Rules of Power — with Anne Applebaum and Fiona Hill",
+      "link": "",
+      "published": "2026-06-11T08:00:00+00:00",
+      "summary": "For our 400th episode, Scott is joined by Anne Applebaum and Fiona Hill to discuss the wars in Ukraine and Iran, the future of global power, and what these conflicts reveal about America's role in the world. They explore whether Ukraine is changing the future of warfare, how Vladimir Putin's position has evolved over the last year, and what might come next for Iran. They also discuss the strengths and weaknesses of authoritarian regimes, the importance of alliances, and why soft power may matter more than military power in the years ahead. Want to listen to this and other episodes ad-free? You can, if you subscribe at profgmedia.com. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "3920",
+      "old_score": 0,
+      "old_label": "skip",
+      "qwen": {
+        "id": "7a6fe0c9a29f19a040c43e9b",
+        "score": 40,
+        "tier": "scan",
+        "reason": "Geopolitical focus; not aligned with DJ's primary market or tech interests.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "36080a116844a8a090c2d8bf",
+      "show_name": "The Twenty Minute VC",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "20VC: SpaceX Launches Largest Ever IPO | OpenAI Files to Go Public | Uber Cuts 23% of HR | Lovable Hits $500M ARR | Founders Revolt Against VCs: The Fundraising Horror Stories Going Viral",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-spacex-launches-largest-ever-ipo-openai-files-to-go-public-uber-cuts-23-of-hr-lovable-hits-500m-arr-founders-revolt-against-vcs-the-fundraising-horror-stories-going-viral",
+      "published": "2026-06-11T07:07:00+00:00",
+      "summary": "AGENDA: 00:00 – SpaceX Launches the Largest IPO Roadshow in History at $1.77T Valuation 05:00 – Did Elon Break the IPO Playbook? The High-Risk Pricing Strategy Explained 12:00 – Will SpaceX Create a New Generation of Venture Billionaires? 17:00 – OpenAI Files to Go Public as the AI IPO Race Officially Begins 19:00 – Sam Altman's Vision: Why AI Is Becoming Always-On Infrastructure 22:00 – Apple Admits Defeat on Siri and Turns to Google AI 25:00 – Uber Cuts 23% of HR as AI Reshapes White-Collar Work 31:00 – Founders Revolt Against VCs: The Fundraising Horror Stories Going Viral 38:00 – Lovable Hits $500M ARR: The Rise of the 100-Person Billion-Dollar Company 48:00 – Elon's Masterstroke: Why the Cursor Acquisition Could Be the Deal of the Year",
+      "duration": "01:13:26",
+      "old_score": 81,
+      "old_label": "digest_only",
+      "qwen": {
+        "id": "36080a116844a8a090c2d8bf",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Summarizes key tech and fundraising trends; useful for market read.",
+        "confidence": "high"
+      }
+    }
+  ]
+}

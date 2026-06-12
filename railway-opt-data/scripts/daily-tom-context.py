@@ -50,7 +50,7 @@ def main():
             continue
         priority = max([len(m.group(0)) for m in PRIORITY_RE.finditer(t)] or [0])
         task_id = (ID_RE.search(t).group(1) if ID_RE.search(t) else '')
-        clean = re.sub(r'^(?:↗️\s*|\[>\]\s*|>\s*)', '', t).strip()
+        clean = re.sub(r'^(?:↗️\s*|\[>\]\s*|>\s*)', '↗️ ', t).strip()
         by_section[section].append({'text': clean, 'priority': priority, 'id': task_id})
 
     print('## Daily Top of Mind Context')

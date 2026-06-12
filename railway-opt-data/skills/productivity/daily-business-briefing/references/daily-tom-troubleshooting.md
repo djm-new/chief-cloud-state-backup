@@ -88,8 +88,11 @@ Important implementation details:
 
 - `daily-tom-sync.py` must treat lowercase no-space `xTask` as completed but avoid treating uppercase task names such as `XM comp` as completed. The conservative regex is `x(?=[A-Z0-9])` for no-space lowercase `x`, plus spaced `[xX]\s+`.
 - Completed tasks should be removed from rollover *and* rewritten in-place to `✅ ...` in the source paragraph so the historical day visibly shows completion.
+- If a task is both parked and marked `x` on the active day, completion wins: the item should be marked complete in the source day and should not roll forward.
+- If a task is already inside `[Parking Lot]`, `x` should be treated cautiously; verify the actual section before assuming the parking item was completed.
 - Preserve visible in-progress markers on the source day, but strip them from the next day's carried-forward section so `>Task` / `↗️ Task` becomes plain `Task` on rollover.
 - If existing historical paragraphs have raw markers, batch-rewrite the live Google Doc via Docs API by replacing only the paragraph content prefix; skip date lines, `[Next date]`, `[Parking Lot]`, and `[Section]` headings. Verify there are zero remaining task paragraphs matching raw `x`/`>` prefixes.
+- If `>` items are missing the expected `↗️` in the most recent update, do a source-doc normalization pass with exact `replaceAllText` requests for the raw `>` lines, then re-run the context extractor to verify it now preserves `↗️`.
 - The Daily ToM context extractor should also recognize the same completion shorthand so `xTask` does not leak into briefing context before the next sync/cleanup pass.
 - Regression tests should cover both sides of the behavior: source-day rewrite to `✅` and next-day carry-forward without `x`/`↗️` markers.
 

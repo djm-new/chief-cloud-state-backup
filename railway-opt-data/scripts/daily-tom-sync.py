@@ -235,6 +235,16 @@ def completion_replace_request(raw_line: str, clean_text: str) -> dict[str, Any]
     }
 
 
+def progress_replace_request(raw_line: str, clean_text: str) -> dict[str, Any]:
+    """Replace a task's leading > with ↗️ in the source doc."""
+    return {
+        "replaceAllText": {
+            "containsText": {"text": raw_line, "matchCase": True},
+            "replaceText": f"↗️ {clean_text}",
+        }
+    }
+
+
 def infer_group(current_section: str | None, task_text: str) -> str | None:
     if current_section in GROUP_ORDER:
         return current_section
@@ -250,6 +260,7 @@ def parse_tasks(paras: list[Para], start_idx: int, end_idx: int, today: dt.date,
     completed: list[str] = []
     completed_replacements: list[dict[str, Any]] = []
     in_progress: list[str] = []
+    in_progress_replacements: list[dict[str, Any]] = []
     newly_parked: list[Task] = []
     section = None
     existing_ids = set(state.get("tasks", {}).keys())
@@ -283,6 +294,7 @@ def parse_tasks(paras: list[Para], start_idx: int, end_idx: int, today: dt.date,
             continue
         if is_prog:
             in_progress.append(task_id)
+            in_progress_replacements.append(progress_replace_request(raw, text))
             if not PROGRESS_PREFIX_RE.match(text):
                 text = f"↗️ {text}"
         task = Task(text=text, group=group, id=task_id, priority=priority, original_order=order)
@@ -294,7 +306,7 @@ def parse_tasks(paras: list[Para], start_idx: int, end_idx: int, today: dt.date,
             newly_parked.append(task)
             continue
         tasks.append(task)
-    return tasks, completed, completed_replacements, in_progress, newly_parked
+    return tasks, completed, completed_replacements, in_progress, in_progress_replacements, newly_parked
 
 
 def parse_parking(paras: list[Para], parking_idx: int | None, parking_end: int | None, today: dt.date) -> tuple[list[Task], list[str]]:
@@ -411,7 +423,7 @@ def main() -> int:
         return 0
 
     state = load_state()
-    carried, completed, completed_replacements, in_progress, newly_parked = parse_tasks(paras, latest_idx, next_date_idx, today, state)
+    carried, completed, completed_replacements, in_progress, in_progress_replacements, newly_parked = parse_tasks(paras, latest_idx, next_date_idx, today, state)
     returning, staying_parked = parse_parking(paras, parking_idx, parking_end, today)
     slack_tasks, slack_raw_items = (load_slack_intake() if args.include_slack_suggestions else ([], []))
     new_section = build_section(today, carried + slack_tasks, returning, state)
@@ -425,6 +437,7 @@ def main() -> int:
     inserted_text = new_section + "\n"
     requests = [{"insertText": {"location": {"index": insertion_index}, "text": inserted_text}}]
     requests.extend(style_requests_for_inserted_section(insertion_index, inserted_text))
+    requests.extend(in_progress_replacements)
     requests.extend(completed_replacements)
 
     summary = {
