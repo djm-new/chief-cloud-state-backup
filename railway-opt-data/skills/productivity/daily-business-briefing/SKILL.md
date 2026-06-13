@@ -65,6 +65,9 @@ Operational rules:
 - Email/ToM/Slack context extraction: deterministic scripts.
 - Final executive synthesis: heavier model (`anthropic/claude-sonnet-4-6`) because it requires judgment.
 - Simple health summaries: lightweight model (`anthropic/claude-haiku-4-5`).
+- Spend reporting must treat briefing runs as LLM usage even when the spend-event table is sparse; session-level usage in the state DB may be authoritative.
+
+See `references/spend-accounting.md` for the merged-session/spend-ledger detail and the dedupe rule.
 
 ## Briefing structure
 

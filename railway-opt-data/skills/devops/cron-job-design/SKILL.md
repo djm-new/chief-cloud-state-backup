@@ -280,6 +280,7 @@ Then make each cron script output its own concise self-identifying line, e.g. `C
 
 Support files:
 - `references/podcast-digest-cron-fix.md` — podcast digest wrapper lessons: optional import fallbacks, silent zero-result runs, and the outer cron timeout fix.
+- `references/spend-accounting-reconciliation.md` — how to reconcile cron-delivered LLM work against the spend ledger when tokens appear missing.
 
 ---
 
