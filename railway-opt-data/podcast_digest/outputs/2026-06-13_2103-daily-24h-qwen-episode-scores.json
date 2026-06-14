@@ -1,0 +1,171 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-06-13_2103",
+  "usage": {
+    "prompt_tokens": 3168,
+    "completion_tokens": 627,
+    "total_tokens": 3795
+  },
+  "episodes": [
+    {
+      "id": "7af1bd47395316ae899083ae",
+      "show_name": "The Cognitive Revolution",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "AI in the AM — Week 2 Highlights (June 2026)",
+      "link": "https://www.cognitiverevolution.ai/ai-in-the-am-week-2-highlights-june-2026/",
+      "published": "2026-06-13T13:37:13+00:00",
+      "summary": "Week 2 highlights follows Anthropic’s Fable launch in real workflows, from safety gates and API refusals to autonomous coding, 3D world-building, and a Claude-run Twitter experiment. Geoffrey Irving and Daniel Murfet argue for alignment theory and guarantees before recursive self-improvement, while prinz tests Fable on legal reasoning and monitoring. Rahul Sonwalkar, Shlok Khemani, Tom McGrath, and Andrew Moore add field reports on data agents, hybrid authorship, interpretability, context systems, token economics, and power concentration. Mercury: Run your finances with virtual cards, spending limits, merchant/category locks, and AI-friendly tools like API keys, MCP, and CLI. Check out Mercury at https://mercury.com LINKS: Claude Fable 5 announcement Julius AI platform Rahul Sonwalkar homepage Nate Jones homepage Shlok Khemani homepage FrontierCode benchmark blog Lovelace AI company Andrew Moore Wikipedia profile Geoffrey Irving homepage Daniel Murfet LessWrong profile Sequent Research announcement Timaeus research organization Automated Alignment paper Goodfire AI company Tom McGrath homepage Predictive data debugging tool prinzbench legal benchmark Unit distance conjecture disproof Dario Amodei policy essay Vending-Bench 2 benchmark Andon Labs site Recursive Superintelligence startup Sakana AI company PostTrainBench benchmark Thoughtful Lab company Unit distance conjecture arXiv Glean Work AI Index AI Treaty open letter Karina Nguyen homepage Sponsor: Claude: Claude by Anthropic is an AI collaborator that understands your workflow and helps you tackle research, writing, coding, and organization with deep context. Get started with Claude and explore Claude Pro at https://claude.ai/tcr",
+      "duration": "6287",
+      "old_score": 88,
+      "old_label": "must_listen",
+      "qwen": {
+        "id": "7af1bd47395316ae899083ae",
+        "score": 92,
+        "tier": "listen",
+        "reason": "Deep technical and business insights on Fable launch, agent workflows, alignment theory, and token economics from top operators.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "11e763e2d068d1fa4189edb7",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "No Mercy / No Malice: The Weight",
+      "link": "",
+      "published": "2026-06-13T08:05:00+00:00",
+      "summary": "As read by George Hahn. https://profgmedia.substack.com/p/the-weight Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "941",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "11e763e2d068d1fa4189edb7",
+        "score": 15,
+        "tier": "skip",
+        "reason": "Short read-by episode with no original content or actionable insights.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "a69ae8c76704dd4d8b130123",
+      "show_name": "Odd Lots",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "Anjney Midha's Plan to Radically Lower the Price of Compute",
+      "link": "https://omny.fm/shows/odd-lots/anjney-midhas-plan-to-radically-lower-the-price-of-compute",
+      "published": "2026-06-13T08:00:00+00:00",
+      "summary": "Anjney Midha wrote the first check to Anthropic. He teaches a viral course at Stanford on how AI works. And he was, until recently, a partner at a16z. In other words, he is AI-industry royalty. Midha's new project is AMP PBC, a company that believes it can radically lower the price of compute. To accomplish that, he is working on building a compute grid that turns GPUs into a standardized utility. But right now, compute is too fragmented. It's too heterogeneous. And given the way contracts are structured, he says that labs are being forced to spend money on capacity that often goes unused. In other words, small labs are forced to pay up for big, long-term contracts, even though their own demand (particularly during model training) may be very spiky. On this episode, Midha explains how the market for compute currently works and why he believes there's a software solution that could significantly improve compute utilization. He also tells us why he does not anticipate one company will emerge as the dominate player and that instead we'll have a wide range of models, each optimally used in specific applications. Read more: Amazon Says Its Data Centers Use 2.5 Billion Gallons of Water Oracle Falls Most in Six Months on Mounting Data Center Costs Only http://Bloomberg.com subscribers can get the Odd Lots newsletter in their inbox each week, plus unlimited access to the site and app. Subscribe at bloomberg.com/subscriptions/oddlots Subscribe to the Odd Lots Newsletter Join the conversation: discord.gg/oddlots See omnystudio.com/listener for privacy information.",
+      "duration": "3021",
+      "old_score": 36,
+      "old_label": "skip",
+      "qwen": {
+        "id": "a69ae8c76704dd4d8b130123",
+        "score": 85,
+        "tier": "digest",
+        "reason": "Anjney Midha's compute grid vision addresses critical AI infrastructure inefficiencies with market implications.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "2ea848d0ff2958b775c5434b",
+      "show_name": "The Twenty Minute VC",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "20VC: Who Wins the Model War: OpenAI, Anthropic or Open-Source | Token Maxing, AI Hangovers & The Coming ROI Reckoning | Labour Displacement Fears are BS & Overblown | From Physicist to Sequoia Founder with Matan Grinberg, Founder @ Factory",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-who-wins-the-model-war-openai-anthropic-or-open-source-token-maxing-ai-hangovers-the-coming-roi-reckoning-labour-displacement-fears-are-bs-overblown-from-physicist-to-sequoia-founder-with-matan-grinberg-founder-factory",
+      "published": "2026-06-13T07:07:00+00:00",
+      "summary": "Matan Grinberg is the Founder and CEO @ Factory, an AI research lab, bringing autonomy to software engineering. Matan has raised over $220M for the company from the likes of Sequoia, Khosla, NEA, Evantic and 20VC. Last round valued the company at a whopping $1.5BN. AGENDA: 00:00 – Why AI Means Everyone Will Become a Builder 04:55 – Will AI Finally Break the 200-Year GDP Growth Ceiling? 06:45 – The Rise of the 100x Engineer & Load-Bearing Talent 08:00 – The New Executive Job: Allocating Tokens Like Capital 10:35 – Kirkland's $500M AI Bet: Brilliant or Delusional? 12:45 – The AI Value War: Models vs Applications vs Infrastructure 18:45 – Token Maxing, AI Hangovers & The Coming ROI Reckoning 22:00 – Why AI Spend Could Soon Exceed Developer Salaries 24:00 – Open Source Can Already Replace 80–90% of Frontier Model Work 28:00 – What Makes a Great Engineer in the Age of Agents? 35:00 – Jobs That Will Disappear First Because of AI 40:00 – Why Matan Isn't Worried About AI Taking Jobs Long-Term 46:00 – From String Theory to Startup Founder: The Sequoia Origin Story 52:00 – The Meeting That Led to Sequoia's First Check 58:00 – Why America's Lack of Frontier Open Models Is Embarrassing 1:08:00 – What Matan Looks for in Every New Employee 1:12:00 – Why Elite Companies Will Treat Employees Like NBA Athletes 1:16:00 – The Most Important Prediction Matan Has Changed His Mind On",
+      "duration": "01:21:24",
+      "old_score": 38,
+      "old_label": "skip",
+      "qwen": {
+        "id": "2ea848d0ff2958b775c5434b",
+        "score": 88,
+        "tier": "digest",
+        "reason": "Matan Grinberg discusses AI-driven GDP ceilings, token economics, and labor displacement with Sequoia-level operator perspective.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "136b046ecc52a41a7ad06932",
+      "show_name": "The James Altucher Show",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "From the Archive: Your Money Blueprint: Why You Keep Earning and Losing the Same Amount | T. Harv Eker",
+      "link": "https://art19.com/shows/the-james-altucher-pod/episodes/8f5d1738-6211-4db3-a33b-e6771519ecdc",
+      "published": "2026-06-13T07:00:00+00:00",
+      "summary": "Episode Description: In this episode from the early days of The James Altucher Show , James sits down with T. Harv Eker, author of Secrets of the Millionaire Mind , to examine why earning money, keeping money, and feeling secure about money are three very different skills. Harv recounts cycling through 14 jobs and 12 businesses before building a successful chain of fitness stores—and then losing much of what he had earned. That experience forced him to confront what he calls a person’s “money blueprint”: the beliefs about wealth, work, success, and self-worth that are often absorbed long before we recognize them. Although this conversation was originally recorded years ago, Harv’s advice still applies today. He explains how to separate your identity from your financial results, challenge inherited beliefs, create income that does not depend entirely on your time, and recognize the thoughts that quietly keep you inside your comfort zone. What You’ll Learn: Why making money and keeping money require different skills How childhood experiences can shape your unconscious expectations about wealth A four-step process for replacing beliefs that no longer support you Why Harv believes active income should eventually be converted into passive income How the words “Thank you for sharing” can interrupt an unhelpful thought before it controls your behavior Timestamped Chapters: [01:07] How your childhood creates a financial blueprint [02:57] Harv’s 14 jobs, 12 businesses, and repeated failures [04:42] Persistence, entrepreneurship, and learning inside another business [06:44] Building and selling a chain of fitness stores [10:52] The difference between making money and keeping it [12:21] What happens when self-worth becomes tied to net worth [13:53] Recognizing the financial patterns inherited from his father [14:39] The family crisis that forced Harv to change [17:41] Why a lack of money may be a symptom rather than the problem [18:10] Studying conditioning, biofeedback, and behavioral change [20:02] Harv’s experience with Zen practice [21:46] Reconciling spirituality, generosity, ambition, and wealth [23:47] Awareness, understanding, disassociation, and reconditioning [26:32] Challenging the belief that wealthy people are inherently bad [30:00] How new evidence can weaken an old belief [31:35] Why Harv prioritizes passive income [35:13] The business formula: model, systemize, and duplicate [39:49] The four words Harv uses to interrupt negative thinking [43:07] How to respond to negative friends and family members [45:58] Growing from informal coaching to an international training company [50:07] Three questions for deciding what you genuinely want [56:15] Final thoughts Additional Resources: T. Harv Eker’s official website Secrets of the Millionaire Mind: Mastering the Inner Game of Wealth — Harv’s book about identifying and revising the unconscious beliefs that shape financial behavior. Success Resources — The personal-development events company that acquired Peak Potentials Training in 2011. Entrepreneur — The business publication Harv recalls reading at the beginning of his entrepreneurial career American Gigolo — The Richard Gere film referenced during the discussion of inversion boots See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info .",
+      "duration": "00:58:41",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "136b046ecc52a41a7ad06932",
+        "score": 40,
+        "tier": "scan",
+        "reason": "Archived personal finance advice lacks AI or current market relevance despite host pedigree.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "0d581c58be537950c0655030",
+      "show_name": "All-In Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Anthropic's Fable Backlash, Nationalizing AI, Inflation Heats Up & California's Broken Elections",
+      "link": "https://allinchamathjason.libsyn.com/anthropics-fable-backlash-nationalizing-ai-inflation-heats-up-californias-broken-elections",
+      "published": "2026-06-13T04:51:00+00:00",
+      "summary": "(0:00) Besties are back! (0:19) Anthropic gets massive backlash over secret Fable nerfing and privacy concerns (29:16) The AI regulatory capture trap, pragmatic safety solutions (37:59) Nationalizing AI: Trump/Sanders, justifications, and AI's \"Capitalist Cucks\" (59:22) Liquidity recap: Best moments and takeaways (1:05:39) Inflation heats up: CPI and PPI see 3+ year highs (1:12:27) California's loose election laws creating integrity doubts Apply for Summit 2026: https://allin.com/events Follow the besties: https://x.com/chamath https://x.com/Jason https://x.com/DavidSacks https://x.com/friedberg Follow on X: https://x.com/theallinpod Follow on Instagram: https://www.instagram.com/theallinpod Follow on TikTok: https://www.tiktok.com/@theallinpod Follow on LinkedIn: https://www.linkedin.com/company/allinpod Intro Music Credit: https://rb.gy/tppkzl https://x.com/yung_spielburg Intro Video Credit: https://x.com/TheZachEffect Referenced in the show: https://www.anthropic.com/news/claude-fable-5-mythos-5 https://x.com/Scobleizer/status/2064641097310335294 https://x.com/GergelyOrosz/status/2064618497150210391 https://x.com/cremieuxrecueil/status/2064433331970720187 https://x.com/Yuchenj_UW/status/2064524668208545955 https://stratechery.com https://x.com/peter_szilagyi/status/2064620043896291671 https://darioamodei.com/post/policy-on-the-ai-exponential https://screendna.org https://x.com/DavidSacks/status/2065120386660880765 https://www.nytimes.com/2026/06/01/opinion/artificial-intelligence-bernie-sanders.html https://polymarket.com/event/ipos-before-2027 https://polymarket.com/event/how-high-will-inflation-get-in-2026 https://polymarket.com/event/fed-rate-hike-in-2026 https://x.com/robbystarbuck/status/2063602942637158423 https://www.justice.gov/opa/pr/california-man-pleads-guilty-orchestrating-270m-medication-reimbursement-fraud-scheme https://www.dol.gov/newsroom/releases/osec/osec20260218 https://www.secretservice.gov/newsroom/behind-the-shades/2025/05/secret-service-cracks-down-ebt-fraud-southern-california-sweep https://www.justice.gov/usao-cdca/pr/8-arrested-health-care-fraud-takedown-including-owners-hospices-billed-taxpayers https://www.foxnews.com/us/california-man-arrested-allegedly-stealing-millions-homeless-funds https://x.com/californiapost/status/2064362900098048386",
+      "duration": "01:42:00",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "0d581c58be537950c0655030",
+        "score": 78,
+        "tier": "digest",
+        "reason": "Discusses Fable backlash, AI regulation, and inflation impacts with strong industry commentary.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "d6d903533fd74c322e821df2",
+      "show_name": "People I Mostly Admire",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "26. Memory Champion Nelson Dellis Helps Steve Train His Brain",
+      "link": "https://www.siriusxm.com",
+      "published": "2026-06-13T00:00:00+00:00",
+      "summary": "He’s one of the world’s leading competitors, having won four U.S. memory tournaments and holding the record for most names memorized in 15 minutes (235!). But Nelson Dellis claims he was born with an average memory and that anyone can learn his tricks. Steve gives Nelson’s techniques a shot, without much hope — and is surprised by the result. This episode originally aired on May 7, 2021. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:35:18",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "d6d903533fd74c322e821df2",
+        "score": 25,
+        "tier": "skip",
+        "reason": "Memory training episode irrelevant to market, AI, or capital allocation focus.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "2cd58fb335f09e55ab7cc700",
+      "show_name": "Big Technology Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "SpaceX’s IPO Triumph, Anthropic’s Fable Fumble, OpenAI’s Price War",
+      "link": "",
+      "published": "2026-06-12T23:27:00+00:00",
+      "summary": "Ranjan Roy from Margins is back for our weekly discussion of the latest tech news. We cover: 1) SpaceX's massive IPO 2) What SpaceX's success means for its AI competitors, OpenAI and Anthropic 3) Is SpaceX's outsized valuation a feature, not a bug? 4) Goldman Sachs eats Big Bang burritos 5) Anthropic's flubbed Fable rollout 6) Does the gaffe mean Anthropic really believes in the power of Mythos? 7) A fun Fable conspiracy theory 8) OpenAI may drastically lower prices 9) Are AI models a commodity? 10) Wait, does Siri work now? --- Enjoying Big Technology Podcast? Please rate us five stars ⭐⭐⭐⭐⭐ in your podcast app of choice. Want a discount for Big Technology on Substack + Discord? Here’s 25% off for the first year: https://www.bigtechnology.com/subscribe?coupon=0843016b Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "duration": "3393",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "2cd58fb335f09e55ab7cc700",
+        "score": 80,
+        "tier": "digest",
+        "reason": "Roy covers SpaceX IPO, Fable rollout missteps, and AI model commoditization with sharp market analysis.",
+        "confidence": "high"
+      }
+    }
+  ]
+}
