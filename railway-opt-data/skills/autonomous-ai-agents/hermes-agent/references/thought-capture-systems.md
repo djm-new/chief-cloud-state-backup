@@ -9,12 +9,13 @@ Use this when building a dedicated low-friction capture channel (Telegram/Slack/
 - Capture: append-only daily files; never rewrite historical entries. Corrections are new entries (`correction:`), not edits.
 - Intensity: a leading `!` should be carried into storage and ranking/synthesis as a weight signal only, not a tag/category.
 - Voice: preserve original audio under `attachments/YYYY/MM/DD/`; pass `config/vocab.txt` to Whisper `initial_prompt`; run `config/corrections.json` regex cleanup after transcription.
-- URLs/images: preserve source artifacts where possible; append extracted/summarized text with explicit markers (`[link]`, `[image]`).
+- URLs/images: preserve source artifacts where possible; append extracted/summarized text with explicit markers (`[link]`, `[image]`). For screenshots/images, keep the original file in `attachments/` and, if available, OCR/extract text into the daily note so weekly/monthly syntheses can reference both the artifact and its meaning.
 - Retrieval: return underlying excerpts with date/time/context even when offering synthesis; rank exact matches before intensity flags before semantic matches.
 
 ## Hermes integration pattern
 
 - Put reusable logic in a standalone script (e.g. `thoughts_system.py`) with subcommands for `init`, `capture`, `rollup`, `replay`, `synthesize`, and `retrieve`.
+- Daily Brain Dump capture should preserve the raw thought locally first, then separately apply any explicit Top of Mind instruction to the Google Doc.
 - Add a small gateway hook module that checks a config section such as:
 
 ```yaml

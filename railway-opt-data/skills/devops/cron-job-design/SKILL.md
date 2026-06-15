@@ -27,8 +27,9 @@ A cron job that fires every N minutes and delivers verbose stats even when nothi
   1. **OK** — everything is fine; no DJ action.
   2. **Warning** — something is off but not broken; say what is wrong and what DJ needs to do.
   3. **Broken** — something is broken; say what is broken and what DJ needs to do now.
-- **Alert only when something actionable is happening.** The output must answer: *what broke, what context do I need to understand it, and what exact action does DJ need to take?* If the action is for Hermes, say `DJ action: none. Hermes should ...` explicitly.
-- **Never send a raw status block** — not memory/disk/process stats, not file ages, not check counts. Those belong in a status file written to disk for later inspection, not pushed to the user proactively.
+- Alert only when something actionable is happening. The output must answer: *what broke, what context do I need to understand it, and what exact action does DJ need to take?* If the action is for Hermes, say `DJ action: none. Hermes should ...` explicitly.
+- Never send a raw status block — not memory/disk/process stats, not file ages, not check counts. Those belong in a status file written to disk for later inspection, not pushed to the user proactively.
+- Sanitize any upstream context that will be concatenated into a cron prompt or briefing. Invisible Unicode (especially `U+FEFF`) in copied email/snippet text can trip the injection scanner before the agent runs.
 
 ## Report jobs: daily + weekly, with truthful zeroes
 

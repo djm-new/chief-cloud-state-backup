@@ -26,6 +26,9 @@ Delivery: smart business briefings belong in the Telegram **Briefings** topic (`
 3. Suggested ToM additions are approval-required suggestions only.
 4. Do not persist raw Slack/email contents to Hermes memory.
 5. Keep durable facts/preferences in Hermes memory; keep operational rolling state in files.
+6. Sanitize upstream context before prompt assembly; invisible Unicode in source snippets can trigger the cron injection scanner.
+
+See `references/invisible-unicode-prompt-blocking.md` for the failure pattern and sanitizer.
 
 ## Approved Action list → Daily ToM updates
 
@@ -169,6 +172,19 @@ Parking lot state is live ToM state, not legacy Notion state. If you need to deb
 - resolved/recently closed items
 
 Do not include raw Slack/email dumps. Keep under 12 KB preferred.
+
+### Pruning rule for `open_topics.md`
+
+When the file grows or the user flags stale content, prune surgically instead of rewriting from scratch.
+
+- Remove items once they are explicitly resolved, closed, or no longer actionable.
+- Drop dated items after the deadline passes unless there is a fresh signal that they are still live.
+- Deduplicate items across sections: a topic should usually live in only one of carry-forward, pending decisions, or suggested additions.
+- If an item has become pure history, move it out of the live file rather than leaving it in carry-forward.
+- Preserve only the minimum context needed for the next briefing cycle; the file is a live operational state, not an archive.
+- After pruning, verify the file still reads as a compact action surface, not a transcript.
+
+See `references/open-topics-pruning.md` for a concrete pruning checklist and examples.
 
 ## Archive discipline
 

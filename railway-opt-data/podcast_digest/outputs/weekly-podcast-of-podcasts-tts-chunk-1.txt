@@ -1,0 +1,11 @@
+Let’s say you’re running a startup, and your AI model starts making decisions you didn’t expect. It refuses certain prompts. It starts pushing back. Not in a petulant way—but in a *deliberate*, engineered one. What does that mean for autonomy, governance, and ultimately, your product roadmap?
+
+Or worse—what if you’re an investor looking at that same company, and the model’s behavior is so opaque that you can’t even tell if the value is in the tech or the guardrails? That’s not hypothetical. That’s what happened this week with Fable.
+
+Exactly. This was the week Anthropic launched Fable, and the AI world got a glimpse of what happens when you pair strong capability with heavy governance. The early reviews? Strong execution, but a lot of friction in how much control humans want—or should have—over these systems.
+
+And that friction is not just philosophical. It’s operational. If you’re DJ Mauch, and you’re thinking about platform strategy or governance design, this is the kind of signal you can’t ignore. Hybrid authorship—where the model is both a tool and a co-creator—means you now have to think about monitoring, interpretability, and token economics *together*. Not as separate layers.
+
+Right. And the Fable launch week exposed something else: the shift from model novelty to industrial plumbing. That’s the theme across the board this week. Let’s talk compute. Because if we’re treating AI as infrastructure, then the next question is: how do you price it, allocate it, and scale it?
+
+Enter Anjney Midha on *Odd Lots*, making the case that compute is like electricity. Right now, it’s fragmented, underutilized, and siloed. His company AMP PBC wants to make GPUs fungible. Like kilowatts. That’s not just a technical play—it’s a capital allocation play. And for investors, fungibility is a big deal. It means commoditization, which means price discovery, which means ROI becomes measurable again.

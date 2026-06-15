@@ -5,7 +5,15 @@ This intentionally includes curated rolling memory/open topics plus the latest
 collector evidence. It does not print raw archive dumps beyond bounded recent files.
 """
 from pathlib import Path
+import re
 import subprocess
+
+
+_INVISIBLE_RE = re.compile(r'[\u200b\u200c\u200d\u2060\ufeff]')
+
+
+def sanitize(text: str) -> str:
+    return _INVISIBLE_RE.sub('', text or '')
 
 archive = Path('/opt/data/slack_brief_archive')
 open_topics = archive / 'open_topics.md'
@@ -15,19 +23,19 @@ print('# Rolling Slack Brief Context')
 print()
 print('# Daily ToM Priority Lens')
 try:
-    print(subprocess.check_output(['/opt/data/scripts/daily-tom-context.py'], text=True, timeout=120))
+    print(sanitize(subprocess.check_output(['/opt/data/scripts/daily-tom-context.py'], text=True, timeout=120)))
 except Exception as e:
     print(f'Unable to load Daily ToM context: {type(e).__name__}')
 print()
 print('# Lightweight Email Context')
 try:
-    print(subprocess.check_output(['/opt/data/scripts/email-tom-context.py'], text=True, timeout=180))
+    print(sanitize(subprocess.check_output(['/opt/data/scripts/email-tom-context.py'], text=True, timeout=180)))
 except Exception as e:
     print(f'Unable to load email context: {type(e).__name__}')
 print()
 if open_topics.exists():
     print('## Open / rolling topics from prior briefs')
-    print(open_topics.read_text(errors='ignore')[:12000])
+    print(sanitize(open_topics.read_text(errors='ignore')[:12000]))
 else:
     print('## Open / rolling topics from prior briefs')
     print('No rolling topics file found.')
@@ -44,8 +52,8 @@ if briefs:
         marker = '## Carry-forward topics'
         tail = text[text.find(marker):] if marker in text else ''
         if tail:
-            print(f'\n### {p.name}')
-            print(tail[:7000])
+            print(sanitize(f'\n### {p.name}'))
+            print(sanitize(tail[:7000]))
 
 print('\n# Latest Slack Collection Evidence')
 try:
@@ -53,6 +61,6 @@ try:
 except Exception as e:
     print(f'Unable to filter Slack evidence: {type(e).__name__}')
     if latest.exists():
-        print(latest.read_text(errors='ignore')[:20000])
+        print(sanitize(latest.read_text(errors='ignore')[:20000]))
     else:
         print('No Slack collection file found at /opt/data/slack_business_brief_latest.md')

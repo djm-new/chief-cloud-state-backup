@@ -287,6 +287,7 @@ These paths are conventions, not universal facts. Verify them before editing.
 - `references/daily-digest-calibration.md` — 24h daily digest workflow, funnel reporting requirements, DJ editorial calibration, and first-run lessons.
 - `references/last48h-run-notes.md` — June 2026 ad hoc 48h run notes, interpreter pitfall, and successful digest shape.
 - `references/multi-speaker-dialogue.md` — structured dialogue-segment notes for producing multi-voice podcast audio.
+- `references/weekly-audio-pipeline.md` — working recipe for DJ's weekly original audio briefing, including chunking, TTS, ffmpeg re-encode, and Telegram delivery.
 - `scripts/qwen_daily_digest.py` — starter script that turns Qwen episode scores into a calibrated daily markdown digest.
 - `scripts/qwen_episode_score.py` — reusable starter script for compact OpenRouter/Qwen episode-level scoring against the prototype SQLite episode store.
 

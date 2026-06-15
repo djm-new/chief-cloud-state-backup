@@ -1080,9 +1080,11 @@ For the Daily Brain Dump channel specifically: when DJ sends a directive that sh
 For DJ's Chief Group - Hermes, prefer minimal repurposing over creating/deleting topics: keep history, rename existing topics, and archive old-purpose topics instead of removing them.
 
 See `references/telegram-topic-model-routing.md` for per-topic model overrides, Opus fast mode constraints, and the topic→name map for DJ's Chief Group.
-See `references/chief-project-map.md` for where DJ's major projects live (HealthOS, podcast digest, daily business briefing, cloud-state backup) across GitHub repos, local paths, and Railway services.
 See `references/telegram-thoughts-routing-pitfall.md` for the Daily Brain Dump vs capture-only split and the "add to top of mind" doc-vs-todo pitfall.
-See `references/top-of-mind-routing.md` for the canonical Daily ToM sync rule: explicit Top of Mind instructions must update the Google Doc, not just the session todo list.
+
+See `references/top-of-mind-routing.md` for the canonical Daily ToM sync rule: explicit Top of Mind instructions must update the Google Doc, not just the session todo list, and stored items should be normalized to clean human-readable capitalization rather than copied verbatim in all-lowercase.
+
+See `references/thought-capture-systems.md` for the capture pipeline that preserves text + screenshots/media in the daily brain dump before any ToM sync.
 
 See `references/telegram-thoughts-routing-pitfall.md` for the interactive-chat vs capture-only split that bit the Daily Brain Dump topic.
 

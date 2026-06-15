@@ -1,22 +1,20 @@
-Chief Railway health check: 2026-06-14T06:00:21Z
-Memory: 2110MB / 22888MB (9%)
-Railway volume disk: 1771MB / 46627MB (4%)
+Chief Railway health check: 2026-06-15T06:00:41Z
+Memory: 2056MB / 22888MB (8%)
+Railway volume disk: 1795MB / 46627MB (4%)
 Gateway process: 1 /opt/hermes/.venv/bin/python3 /opt/hermes/.venv/bin/hermes gateway run
 Operational checks:
-  Chief operational health: 2026-06-14T06:01:24.088371+00:00
-  Check: /opt/data/daily-tom/task_state.json: 25309 bytes, age 21.0h
-  Check: /opt/data/slack_business_brief_latest.md: 47640 bytes, age 9.1h
-  Check: /opt/data/slack_brief_archive/open_topics.md: 12658 bytes, age 40.8h
-  Check: /opt/data/slack_brief_archive/BRIEFING_POLICY.md: 1487 bytes, age 111.7h
-  Check: /opt/data/google-accounts/SECURITY_POLICY.md: 2340 bytes, age 447.5h
-  Check: /opt/data/security/ATTACK_VECTOR_CHECKLIST.md: 1489 bytes, age 441.8h
-  Check: Archived smart briefings: 23
-  Check: Latest archived briefing: 2026-06-12-1305.md, age 40.9h
+  Chief operational health: 2026-06-15T06:01:49.525206+00:00
+  Check: /opt/data/daily-tom/task_state.json: 25865 bytes, age 21.0h
+  Check: /opt/data/slack_business_brief_latest.md: 39663 bytes, age 9.1h
+  Check: /opt/data/slack_brief_archive/open_topics.md: 10014 bytes, age 8.8h
+  Check: /opt/data/slack_brief_archive/BRIEFING_POLICY.md: 1487 bytes, age 135.7h
+  Check: /opt/data/google-accounts/SECURITY_POLICY.md: 2340 bytes, age 471.5h
+  Check: /opt/data/security/ATTACK_VECTOR_CHECKLIST.md: 1489 bytes, age 465.8h
+  Check: Archived smart briefings: 24
+  Check: Latest archived briefing: 2026-06-14-2107.md, age 8.9h
   Check: Daily ToM context: OK (1699 chars)
-  Check: Email ToM context: OK (4660 chars)
-  Check: Filtered Slack context: OK (27460 chars)
-  Check: Full smart brief context: OK (46040 chars)
-  Status: ATTENTION NEEDED
-  Issue: Hot file too large: /opt/data/slack_brief_archive/open_topics.md 12.4KB > 12KB
-Status: DJ ACTION NEEDED
-Issue: Hot file too large: /opt/data/slack_brief_archive/open_topics.md 12.4KB > 12KB
+  Check: Email ToM context: OK (3250 chars)
+  Check: Filtered Slack context: OK (11075 chars)
+  Check: Full smart brief context: OK (26084 chars)
+  Status: OK
+Status: OK

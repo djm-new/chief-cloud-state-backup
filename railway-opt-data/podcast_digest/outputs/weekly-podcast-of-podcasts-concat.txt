@@ -1,0 +1,3 @@
+file '/opt/data/podcast_digest/outputs/weekly-podcast-of-podcasts-chunk-1.ogg'
+file '/opt/data/podcast_digest/outputs/weekly-podcast-of-podcasts-chunk-2.ogg'
+file '/opt/data/podcast_digest/outputs/weekly-podcast-of-podcasts-chunk-3.ogg'

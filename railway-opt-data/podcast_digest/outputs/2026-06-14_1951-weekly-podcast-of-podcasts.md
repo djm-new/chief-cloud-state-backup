@@ -1,0 +1,119 @@
+**[MUSIC FADES OUT]**
+
+**MAYA:**  
+Welcome back to *The Mauch Report*, the podcast where we cut through the noise and bring you the signal from the week’s top tech and strategy conversations. I’m Maya.
+
+**SAM:**  
+And I’m Sam. We’re here to give DJ Mauch — and all of you — the distilled insights that matter, framed through the lens of platform strategy, capital allocation, and the real economics of AI.
+
+**MAYA:**  
+This week, we’ve got a lineup that spans from the industrial plumbing of AI to the geopolitical undercurrents shaping its future. And as always, we’ll close with what DJ should be watching next week.
+
+---
+
+**SAM:**  
+Let’s start with the big one: Jensen Huang’s *Training Data* interview. This is a must-listen for any exec or investor trying to get a grip on where AI is headed.
+
+**MAYA:**  
+Right. Huang is framing AI not as a tech trend, but as the third great cocooning force in history — after electricity and the internet. That’s a bold claim, but he’s backing it up with NVIDIA’s vision of AI factories.
+
+**SAM:**  
+Exactly. He’s talking about a shift from retrieval to generation — not just in computing, but in how we build economic value. These AI factories are the new dynamos, and they’re going to power everything from energy to enterprise apps.
+
+**MAYA:**  
+And he breaks it down into five layers of AI investment: hardware, infrastructure, models, applications, and governance. That’s a framework that investors and founders can actually work with.
+
+**SAM:**  
+And he debunks the job loss fear. Says AI isn’t replacing jobs — it’s redefining them. Which brings us to our next topic.
+
+---
+
+**MAYA:**  
+From *The Cognitive Revolution*, we get this stat: 87% of workers use AI, but only 13% report improved performance. That’s a huge gap.
+
+**SAM:**  
+Yeah, and the reason? “Botsitting” and “botshitting.” Workers are spending so much time babysitting AI tools or cleaning up their output that they’re not seeing real productivity gains.
+
+**MAYA:**  
+This is a critical insight for enterprise leaders. If you’re not seeing ROI from AI tools, it might not be the tools — it could be the hidden labor cost of managing them.
+
+**SAM:**  
+Exactly. This is the plumbing problem of enterprise AI. It’s not just about deploying models — it’s about integrating them into workflows without creating new bottlenecks.
+
+---
+
+**SAM:**  
+Switching gears, *All-In* had Dan Dreyfus on to talk about the critical minerals crisis. And this is a big one for the AI supply chain.
+
+**MAYA:**  
+Right. China’s dominance in rare earths and other critical minerals is creating a bottleneck for everything from EVs to AI chips. And the U.S. infrastructure to mine and refine these materials is decades behind.
+
+**SAM:**  
+This isn’t just a tech story — it’s a national security and economic strategy story. If you can’t source the minerals, you can’t build the compute.
+
+**MAYA:**  
+And that’s a huge risk for the AI supercycle. If we’re betting on AI to power the next economic era, we need to make sure we’re not dependent on geopolitical rivals for the raw materials.
+
+---
+
+**SAM:**  
+Over at *Stratechery*, Ben Thompson dives into Fable 5 — formerly Mythos — and the alignment challenges of building powerful AI models.
+
+**MAYA:**  
+He’s not just talking about technical alignment, like making sure models follow instructions. He’s talking about strategic alignment — how model capabilities and safety trade-offs shape the broader AI ecosystem.
+
+**SAM:**  
+And this is where the plumbing meets the policy. If we’re building AI factories, we need to make sure they’re governed by systems that can scale with them.
+
+---
+
+**MAYA:**  
+Finally, from *a16z Podcast*, a deep dive into AI’s role in healthcare. Anish Acharya and Sachin Jain talk about how AI is transforming everything from clinical operations to cost structures.
+
+**SAM:**  
+This is a great example of AI’s real-world impact. It’s not just about flashy models — it’s about solving real enterprise problems in a regulated, high-stakes environment.
+
+**MAYA:**  
+And the challenges they’re seeing in healthcare — like integration, trust, and workflow disruption — mirror what we’re seeing in other industries. AI adoption is still early, and it’s messy.
+
+---
+
+**SAM:**  
+So what’s the big picture here?
+
+**MAYA:**  
+AI is shifting from model novelty to industrial plumbing. The real value isn’t in the next big model release — it’s in how companies are building, governing, and integrating AI into their operations.
+
+**SAM:**  
+And that means the next wave of winners will be the ones who understand capital allocation, operating leverage, and governance — not just model performance.
+
+**MAYA:**  
+Exactly. It’s not about the rocket science anymore — it’s about the rocket fuel logistics.
+
+---
+
+**SAM:**  
+Alright, what should DJ be watching next week?
+
+**MAYA:**  
+Keep an eye on NVIDIA’s ecosystem plays — especially around data centers and energy. If AI factories are the future, the energy demands are going to be massive.
+
+**SAM:**  
+Also, watch for more movement on critical minerals. There’s going to be pressure on the U.S. to invest in domestic mining and refining capacity. That’s a long-term play with short-term urgency.
+
+**MAYA:**  
+And finally, look for more enterprise AI tools that focus on reducing “botsitting” — the next wave of AI productivity gains will come from better integration, not just smarter models.
+
+**SAM:**  
+That’s it for this week. Thanks for tuning in to *The Mauch Report*. If you’re enjoying the show, hit subscribe and leave us a review.
+
+**MAYA:**  
+And if you’re DJ Mauch, don’t forget to send us a voice note next week — we’ll read it on air.
+
+**SAM:**  
+Until next time, stay sharp.
+
+**MAYA:**  
+Stay curious.
+
+**[MUSIC FADES IN, THEN OUT]**

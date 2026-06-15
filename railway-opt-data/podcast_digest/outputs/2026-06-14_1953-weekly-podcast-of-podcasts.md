@@ -1,0 +1,72 @@
+**[COLD OPEN – MUSIC FADING OUT]**
+
+**MAYA:**  
+Alright, DJ, it’s been a week of big shifts in the AI world. Not just more models, not more hype—but real signs that the industry is maturing. The focus is moving from *what* the models can do to *how* they’ll actually be built, governed, and scaled in the real world.
+
+**SAM:**  
+Exactly. It’s like the plumbing is finally getting the attention it deserves. No more “look at my 100-trillion-parameter model” and more “how do I actually run this thing at scale without burning through my entire Series B?”
+
+**MAYA:**  
+Right. And that’s the theme we’re leaning into this week: AI is no longer just about model novelty. It’s about industrialization—capital allocation, governance, and operating leverage. The real meaty stuff that separates vaporware from value creation.
+
+**SAM:**  
+Let’s start with the big one. Jensen Huang’s live interview on *Training Data*. He dropped a ton of strategic framing—AI as the third “cocooning force” after electricity and the internet. That’s not just a catchy metaphor. That’s positioning AI as the next infrastructure layer of the global economy.
+
+**MAYA:**  
+Yeah, and he didn’t just talk about the tech. He laid out NVIDIA’s vision of the “AI factory”—a full-stack industrial model from energy to applications. He also called out five layers of AI investment: energy, compute, infrastructure, models, and apps. That’s a roadmap for capital deployment, not just innovation.
+
+**SAM:**  
+And he debunked the job loss narrative. He said, “AI doesn’t replace workers—it replaces work.” That’s a subtle but powerful shift. It reframes AI as a force multiplier, not a job killer. That kind of messaging is critical for enterprise adoption and policy alignment.
+
+**MAYA:**  
+Totally. And speaking of infrastructure bottlenecks, we can’t ignore the *All-In Podcast* episode with Dan Dreyfus on the critical minerals crisis. If AI is the new electricity, then rare earths and minerals are the oil. And right now, China controls the supply chain.
+
+**SAM:**  
+Exactly. And this isn’t just a tech story—it’s a national security story. If you can’t get the raw materials to build the chips, you can’t build the AI factories. It’s a hard constraint on the whole ecosystem. And it’s not just about mining—it’s about refining, logistics, and policy.
+
+**MAYA:**  
+Right. So while the AI layer cake is forming up, the base layers are still shaky. And that’s a huge risk for investors and operators alike. If you’re building an AI company and you don’t have a sourcing or geopolitical strategy, you might be building on sand.
+
+**SAM:**  
+Which brings us to *The Cognitive Revolution*. Rebecca Hinds from Glean dropped a bombshell: 87% of workers are using AI, but only 13% say it’s actually improving their performance. Why? Because of “botsitting” and “botshitting.”
+
+**MAYA:**  
+(laughs) Love those terms. But the point is serious. Just because you’ve deployed AI doesn’t mean it’s delivering value. In fact, it might be creating more work—reviewing outputs, correcting hallucinations, managing workflows. That’s a huge hidden cost in enterprise AI.
+
+**SAM:**  
+And it’s a critical lens for evaluating AI productivity claims. If your AI tool isn’t reducing cognitive load and increasing throughput, it’s not a tool—it’s a liability. That’s a must-watch for any CEO or investor trying to separate real enterprise value from shiny demos.
+
+**MAYA:**  
+Absolutely. And speaking of real enterprise value, *Stratechery* had a deep dive on Fable 5—formerly Mythos—and the alignment trade-offs in model development. Ben Thompson pointed out that as models get more powerful, the cost of alignment goes up.
+
+**SAM:**  
+Right. And that’s a strategic inflection point. If you can’t align your model with your business goals or regulatory environment, you can’t deploy it at scale. So alignment isn’t just a technical problem—it’s a governance and go-to-market issue.
+
+**MAYA:**  
+And finally, the *a16z Podcast* episode on AI in healthcare. Anish Acharya and Sachin Jain made a strong case that AI is not just a nice-to-have in healthcare—it’s a must-have. From optimizing operations to reducing costs, AI is starting to show real ROI in one of the most complex verticals.
+
+**SAM:**  
+And that’s the key—vertical integration. AI isn’t just a horizontal layer anymore. It’s being embedded into specific industries with unique constraints and opportunities. That’s where the operating leverage kicks in.
+
+**MAYA:**  
+So DJ, what should you be watching next week?
+
+**SAM:**  
+First, the NVIDIA ecosystem. They’re not just a chip company anymore—they’re building the full stack. Watch for more moves in infrastructure, energy, and enterprise tooling.
+
+**MAYA:**  
+Second, critical minerals and supply chain policy. If you’re investing in AI, you need to know where the materials are coming from. That’s not just a footnote—it’s a core dependency.
+
+**SAM:**  
+Third, enterprise AI adoption metrics. Look for companies that are measuring not just usage, but performance lift. The botsitting era is ending—real productivity gains are what matter now.
+
+**MAYA:**  
+And finally, alignment and governance frameworks. As models get bigger and more regulated, the companies that figure out how to align AI with business and societal goals will win.
+
+**SAM:**  
+So that’s it for this week’s *Podcast of Podcasts*. If you’re a CEO, investor, or AI leader, this is the stuff you need to be thinking about—not just the next model release, but the industrial plumbing that makes AI real.
+
+**MAYA:**  
+Until next time, DJ—stay sharp, stay strategic.
+
+**[OUTRO MUSIC FADES IN]**

@@ -5,9 +5,10 @@ Use this when a Telegram or thought-capture message contains an explicit instruc
 ## Canonical action
 
 - Use `daily-tom-add.py --apply` to update the Google Doc.
-- Treat explicit “add to Top of Mind / ToM” instructions as a **doc-sync request**, not just a local scratchpad note.
 - Do **not** treat this as only a session todo / memory note.
 - If the user gives a direct instruction inside a thought-capture message, log the thought **and** apply the ToM change.
+- Treat Daily Brain Dump capture as the raw inbox layer; Top of Mind is the curated action layer.
+- Normalize stored ToM text to clean human-readable capitalization even if the input arrives in lowercase.
 - If Google auth or the doc write path is unavailable, say so plainly and do not imply the item was synced.
 
 ## Routing policy

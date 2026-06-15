@@ -37,7 +37,9 @@ def run_json(cmd, timeout=90):
 
 
 def clean(s: str, n=220) -> str:
-    s = re.sub(r'\s+', ' ', s or '').strip()
+    s = (s or '').replace('\ufeff', '')
+    s = re.sub(r'[\u200b\u200c\u200d\u2060\ufeff]', '', s)
+    s = re.sub(r'\s+', ' ', s).strip()
     return s[:n-1].rstrip() + '…' if len(s) > n else s
 
 

@@ -20,15 +20,15 @@
       "schedule_display": "15 7 * * *",
       "repeat": {
         "times": null,
-        "completed": 32
+        "completed": 33
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-12T19:59:22.529154+00:00",
-      "next_run_at": "2026-06-15T07:15:00+00:00",
-      "last_run_at": "2026-06-13T07:16:07.226706+00:00",
+      "next_run_at": "2026-06-16T07:15:00+00:00",
+      "last_run_at": "2026-06-14T07:15:41.894540+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -57,15 +57,15 @@
       "schedule_display": "0 */3 * * *",
       "repeat": {
         "times": null,
-        "completed": 1131
+        "completed": 1139
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-12T20:42:58.485236+00:00",
-      "next_run_at": "2026-06-14T09:00:00+00:00",
-      "last_run_at": "2026-06-14T06:01:24.115339+00:00",
+      "next_run_at": "2026-06-15T09:00:00+00:00",
+      "last_run_at": "2026-06-15T06:01:49.543839+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -94,15 +94,15 @@
       "schedule_display": "55 12,20 * * *",
       "repeat": {
         "times": null,
-        "completed": 23
+        "completed": 25
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-18T00:29:40.815074+00:00",
-      "next_run_at": "2026-06-14T12:55:00+00:00",
-      "last_run_at": "2026-06-13T20:56:22.048269+00:00",
+      "next_run_at": "2026-06-15T12:55:00+00:00",
+      "last_run_at": "2026-06-14T20:56:30.881780+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -138,17 +138,17 @@
       "schedule_display": "5 13,21 * * *",
       "repeat": {
         "times": null,
-        "completed": 20
+        "completed": 22
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-19T14:57:13.733402+00:00",
-      "next_run_at": "2026-06-14T13:05:00+00:00",
-      "last_run_at": "2026-06-13T21:05:44.982739+00:00",
-      "last_status": "error",
-      "last_error": "Blocked: prompt contains invisible unicode U+FEFF (possible injection).",
+      "next_run_at": "2026-06-15T13:05:00+00:00",
+      "last_run_at": "2026-06-14T21:10:59.176909+00:00",
+      "last_status": "ok",
+      "last_error": null,
       "last_delivery_error": null,
       "deliver": "telegram:-1003956828149:4",
       "origin": {
@@ -183,15 +183,15 @@
       "schedule_display": "0 9,10 * * *",
       "repeat": {
         "times": null,
-        "completed": 82
+        "completed": 84
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-05-26T16:48:41.225755+00:00",
-      "next_run_at": "2026-06-14T09:00:00+00:00",
-      "last_run_at": "2026-06-13T10:00:16.358359+00:00",
+      "next_run_at": "2026-06-15T09:00:00+00:00",
+      "last_run_at": "2026-06-14T10:00:50.098153+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -225,15 +225,15 @@
       "schedule_display": "0 3 * * *",
       "repeat": {
         "times": null,
-        "completed": 10
+        "completed": 11
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-04T18:28:24.334811+00:00",
-      "next_run_at": "2026-06-15T03:00:00+00:00",
-      "last_run_at": "2026-06-14T03:00:16.334822+00:00",
+      "next_run_at": "2026-06-16T03:00:00+00:00",
+      "last_run_at": "2026-06-15T03:00:41.163258+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -267,15 +267,15 @@
       "schedule_display": "5 4,5 * * *",
       "repeat": {
         "times": null,
-        "completed": 18
+        "completed": 20
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-05T19:42:57.893480+00:00",
-      "next_run_at": "2026-06-15T04:05:00+00:00",
-      "last_run_at": "2026-06-14T05:05:18.329946+00:00",
+      "next_run_at": "2026-06-16T04:05:00+00:00",
+      "last_run_at": "2026-06-15T05:05:39.215488+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -309,15 +309,15 @@
       "schedule_display": "0 11,12 * * *",
       "repeat": {
         "times": null,
-        "completed": 16
+        "completed": 18
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-05T19:42:58.899916+00:00",
-      "next_run_at": "2026-06-14T11:00:00+00:00",
-      "last_run_at": "2026-06-13T12:00:21.589537+00:00",
+      "next_run_at": "2026-06-15T11:00:00+00:00",
+      "last_run_at": "2026-06-14T12:00:55.099198+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -477,15 +477,15 @@
       "schedule_display": "0 21,22 * * *",
       "repeat": {
         "times": null,
-        "completed": 12
+        "completed": 14
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-08T01:27:36.970151+00:00",
-      "next_run_at": "2026-06-14T21:00:00+00:00",
-      "last_run_at": "2026-06-13T22:00:47.910154+00:00",
+      "next_run_at": "2026-06-15T21:00:00+00:00",
+      "last_run_at": "2026-06-14T22:00:01.629728+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -519,15 +519,15 @@
       "schedule_display": "0 9,10 * * *",
       "repeat": {
         "times": null,
-        "completed": 12
+        "completed": 14
       },
       "enabled": true,
       "state": "scheduled",
       "paused_at": null,
       "paused_reason": null,
       "created_at": "2026-06-08T01:32:21.927028+00:00",
-      "next_run_at": "2026-06-14T09:00:00+00:00",
-      "last_run_at": "2026-06-13T10:00:16.391863+00:00",
+      "next_run_at": "2026-06-15T09:00:00+00:00",
+      "last_run_at": "2026-06-14T10:00:50.130425+00:00",
       "last_status": "ok",
       "last_error": null,
       "last_delivery_error": null,
@@ -582,7 +582,52 @@
       },
       "enabled_toolsets": null,
       "workdir": null
+    },
+    {
+      "id": "9c37d1be6716",
+      "name": "Weekly podcast of podcasts",
+      "prompt": "Generate DJ Mauch's weekly original podcast-of-podcasts audio. The script reads recent daily podcast digest artifacts, picks the week's strongest episodes, drafts an original two-host script, synthesizes it into audio, and prints a Telegram-deliverable MEDIA tag for the final audio file. This is the weekly podcast-of-podcasts delivery job for Briefings.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "podcast_weekly_audio.py",
+      "no_agent": true,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 21,22 * * 0",
+        "display": "0 21,22 * * 0"
+      },
+      "schedule_display": "0 21,22 * * 0",
+      "repeat": {
+        "times": null,
+        "completed": 2
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-14T19:52:29.455883+00:00",
+      "next_run_at": "2026-06-21T21:00:00+00:00",
+      "last_run_at": "2026-06-14T22:00:01.616399+00:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "telegram:-1003956828149:4",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "-1003956828149",
+        "chat_name": "Chief Group - Hermes",
+        "thread_id": "5"
+      },
+      "enabled_toolsets": [
+        "terminal",
+        "file"
+      ],
+      "workdir": "/opt/data/scripts"
     }
   ],
-  "updated_at": "2026-06-14T07:15:27.227128+00:00"
+  "updated_at": "2026-06-15T07:15:52.233932+00:00"
 }

@@ -1,0 +1,87 @@
+[PODCAST COLD OPEN: “DJ’S WEEKLY DIGEST”]
+
+MAYA:  
+Welcome to *DJ’s Weekly Digest*, the podcast where we unpack the week’s most consequential tech and strategy conversations — so you don’t have to. I’m Maya.
+
+SAM:  
+And I’m Sam. We’re your two-host AI and strategy concierge, serving up the signal from the noise. This week? The AI hype is settling — and what’s emerging is a lot more interesting.
+
+MAYA:  
+That’s right. We’re seeing a shift from flashy models to the real plumbing of AI: capital allocation, governance, and industrial-scale deployment. It’s not about the next big model anymore — it’s about who can actually *run* the factory.
+
+SAM:  
+Exactly. And this week, Jensen Huang gave us a masterclass on how NVIDIA sees that factory being built — and it’s not just about chips. He’s framing AI as the third great cocooning force in history, after electricity and the internet.
+
+MAYA:  
+Let’s start there. On *Training Data*, Huang gave a live talk that laid out a clear vision: AI is no longer a research play — it’s industrial infrastructure. He described five layers of AI investment: energy, compute, data, models, and applications.
+
+SAM:  
+And he’s not just selling GPUs — he’s selling the narrative that NVIDIA is the platform for the entire stack. That’s the move of a true platform strategist. He’s positioning NVIDIA as the Dynamo of the Intelligence Age.
+
+MAYA:  
+And that’s not just metaphor. He’s talking about AI factories — physical, energy-intensive facilities that generate intelligence the way power plants generate electricity.
+
+SAM:  
+Which brings us to a very real constraint: critical minerals. On the *All-In Podcast*, Dan Dreyfus dropped a sobering reality check on the supply chain for rare earths and other critical minerals.
+
+MAYA:  
+China controls the refining. The U.S. has the raw materials but no infrastructure to process them. And the demand is spiking — not just for EVs and batteries, but for AI hardware.
+
+SAM:  
+This is a strategic bottleneck. If you can’t get the minerals, you can’t build the chips. If you can’t build the chips, you can’t run the models. And if you can’t run the models, you’re not in the game.
+
+MAYA:  
+And even if you *do* have the chips, that doesn’t mean your AI is paying off. On *The Cognitive Revolution*, Rebecca Hinds from Glean shared a shocking stat: 87% of workers use AI tools, but only 13% report improved performance.
+
+SAM:  
+Why? Because they’re babysitting the bots. Or worse — the bots are making things worse. She calls it “botsitting” and “botshitting.” It’s a productivity paradox.
+
+MAYA:  
+So the enterprise AI adoption story is not as rosy as the headlines suggest. There’s a hidden labor cost — and a real friction in integration. That’s a big signal for investors and operators.
+
+SAM:  
+And it’s not just about integration. It’s about alignment. On *Stratechery*, Ben Thompson broke down Fable 5 — the rebranded Mythos model — and the alignment challenges in building powerful AI systems.
+
+MAYA:  
+He’s pointing out that as models get more capable, the trade-offs between safety, performance, and usability get harder. And that’s not just a technical issue — it’s a governance issue.
+
+SAM:  
+Exactly. The future of AI isn’t just about building smarter models. It’s about building systems that can *safely* and *predictably* scale. That’s where the real winners will be separated from the hype.
+
+MAYA:  
+And nowhere is that more apparent than in healthcare. On the *a16z Podcast*, Anish Acharya and Sachin Jain talked about AI’s role in transforming healthcare delivery — from back-office automation to clinical decision support.
+
+SAM:  
+Healthcare is a perfect example of where AI has massive upside — but also massive inertia. Legacy systems, regulatory hurdles, and misaligned incentives. But if you can crack it, the value is huge.
+
+MAYA:  
+So what’s the big picture here? This week’s conversations are telling a story: AI is moving from the lab to the factory floor. And that means the real challenges — and opportunities — are in capital allocation, supply chains, governance, and operational leverage.
+
+SAM:  
+Exactly. The era of the AI startup with a cool model is over. Now it’s about who can build the durable frameworks, the scalable platforms, and the sustainable ecosystems.
+
+MAYA:  
+Which means the next big question for DJ and his audience is: Who’s building the plumbing? Who’s securing the minerals? Who’s aligning the models? And who’s actually delivering real ROI?
+
+SAM:  
+And next week, we’ll be watching for more signals on how these pieces are coming together — especially on the capital side. We’re expecting more clarity on how top VCs and institutional investors are thinking about AI’s next phase.
+
+MAYA:  
+Also, keep an eye out for Jensen’s next moves — NVIDIA’s not just building chips, they’re building an entire stack. That’s going to have ripple effects across the ecosystem.
+
+SAM:  
+And finally, watch for more on enterprise AI adoption — especially in regulated industries like healthcare and finance. That’s where the rubber meets the road.
+
+MAYA:  
+So DJ — if you want to stay ahead of the curve, follow the capital, follow the minerals, and follow the governance frameworks.
+
+SAM:  
+Because the future isn’t about the next big model. It’s about who can actually *run* the business of intelligence.
+
+MAYA:  
+That’s it for this week’s *DJ’s Weekly Digest*. Thanks for listening.
+
+SAM:  
+Catch you next time.
+
+[OUTRO MUSIC FADES IN]

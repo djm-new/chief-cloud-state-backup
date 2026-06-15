@@ -1,0 +1,51 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-06-14_2104",
+  "usage": {
+    "prompt_tokens": 1212,
+    "completion_tokens": 173,
+    "total_tokens": 1385
+  },
+  "episodes": [
+    {
+      "id": "163972a2bb59ef2611b81ea2",
+      "show_name": "Lenny's Podcast",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "The hidden pattern behind successful products | Mark Pincus (founder of Zynga)",
+      "link": "https://www.lennysnewsletter.com/p/the-common-pattern-behind-successful",
+      "published": "2026-06-14T12:31:44+00:00",
+      "summary": "Mark Pincus founded Zynga—the company behind Words With Friends, FarmVille, and Zynga Poker—and has arguably created more hit consumer products than anyone in history. At Zynga, eight of 10 major game launches became massive hits, reaching over a billion players. Over the past five years, Mark has been synthesizing everything he’s learned about building successful consumer products and turning it into a book, Life at the Speed of Play , which comes out on June 23. This is the first interview he’s done about the book. In our in-depth conversation, we discuss: 1. His “Proven, Better, New” framework: copy what’s proven, make it better so that 10 out of 10 people say “f*ck yes, I’ll use this”—then add something new 2. Why being less ambitious is the path to the most ambitious ideas 3. His rule of thumb that your instincts are right 95% of the time, but your ideas are wrong 75% of the time 4. “Kill hope before hope kills you” 5. How to raise kids in the age of AI — Brought to you by: WorkOS —Make your app enterprise-ready, with SSO, SCIM, RBAC, and more Vanta —Automate compliance, manage risk, and accelerate trust with AI — Episode transcript: https://www.lennysnewsletter.com/p/the-common-pattern-behind-successful — Archive of all Lenny's Podcast transcripts: https://www.dropbox.com/scl/fo/yxi4s2w998p1gvtpu4193/AMdNPR8AOw0lMklwtnC0TrQ?rlkey=j06x0nipoti519e0xgm23zsn9&st=ahz0fj11&dl=0 — Where to find Mark Pincus: • X: https://x.com/markpinc • LinkedIn: https://www.linkedin.com/in/markpincus • Website: https://www.lifeatthespeedofplay.com — Where to find Lenny: • Newsletter: https://www.lennysnewsletter.com • X: https://twitter.com/lennysan • LinkedIn: https://www.linkedin.com/in/lennyrachitsky/ — In this episode, we cover: (00:00) Introduction to Mark Pincus (02:46) The Proven Better New framework overview (07:29) Earning the right to innovate (08:30) What “better” really means (12:03) Quick summary of the framework (12:40) Examples of the framework in action (13:30) How to use proven correctly on your platform (15:13) The moral arbitrage of copying (23:55) Be less ambitious (28:25) The Bolt.new story and staying humble (33:15) Kill hope before hope kills you (37:00) Using AI as a failure machine (40:08) Why Zynga’s games succeeded (it wasn’t virality) (48:36) The future of consumer social apps (57:05) How to know if your product is a B+ (1:01:25) Distribution in the age of AI (1:15:39) Make everyone a CEO (1:18:18) Stay close to the metal (1:21:35) Why Mark says micromanagement is beautiful (1:23:35) The expert witness (1:25:05) The number one job of a CEO is to be right (1:26:35) What Mark is teaching his five kids (1:35:14) Mark’s “why” (1:37:08) Mark’s new book: Life at The Speed of Play — Referenced: • Tribe.net : https://en.wikipedia.org/wiki/Tribe.net • Zynga: https://www.zynga.com • Sid Meier: https://en.wikipedia.org/wiki/Sid_Meier • Electronic Arts: https://www.ea.com • CityVille: https://en.wikipedia.org/wiki/CityVille • Words With Friends: https://wordswithfriends.com/ • Scrabble: https://playscrabble.com • Reddit: https://www.reddit.com • TED Radio Hour, MIT Media Lab founder, 1984 TED talk.: https://www.ted.com/talks/nicholas_negroponte_5_predictions_from_1984 • Peter Thiel on LinkedIn: https://www.linkedin.com/in/peterthiel • FarmVille: https://en.wikipedia.org/wiki/FarmVille • Craig Newmark: https://en.wikipedia.org/wiki/Craig_Newmark • How to consistently go viral: Nikita Bier’s playbook for winning at consumer apps (co-founder of TBH, Gas, advisor, investor): https://www.lennysnewsletter.com/p/how-to-consistently-go-viral-nikita-bier • Angry Birds: https://www.angrybirds.com/ • OMGPop: https://en.wikipedia.org/wiki/OMGPop • Draw Something: https://en.wikipedia.org/wiki/Draw_Something • Slack founder: Mental models for building products people love ft. Stewart Butterfield: https://www.lennysnewsletter.com/p/slack-founder-stewart-butterfield • Brian Chesky’s new playbook: https://www.lennysnewsletter.com/p/brian-chesk",
+      "duration": "5963",
+      "old_score": 100,
+      "old_label": "must_listen",
+      "qwen": {
+        "id": "163972a2bb59ef2611b81ea2",
+        "score": 82,
+        "tier": "digest",
+        "reason": "Mark Pincus offers a durable product framework from Zynga's hit-making playbook, worth summarizing for DJ's toolkit.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "9afc056c4f49459b4bf4820f",
+      "show_name": "Eye on AI",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "One Company Now Has More AI Agents Than Human Employees | Ryan Gavin of Slack",
+      "link": "https://aneyeonai.libsyn.com/one-company-now-has-more-ai-agents-than-human-employees-ryan-gavin-of-slack",
+      "published": "2026-06-13T22:00:00+00:00",
+      "summary": "One company now has more AI agents deployed in its organization than it has human employees. Slack's CMO Ryan Gavin dropped that stat into a conversation with Craig Smith, and then immediately identified the secondary problem it creates: when your digital workforce outnumbers your human one, how do employees know which agent to call for which task? That orchestration problem, and the conversational interface that solves it, is what this episode is really about. Gavin describes Slack bot's transformation from a notification tool into what he calls the ChatGPT moment for the enterprise, an AI that doesn't just understand the internet, but understands your business, your team, your customers, and your company's entire conversational history, all the way back to day one. The conversation covers the full arc of what this shift means in practice: a Salesforce executive walking into an unfamiliar meeting and being praised for their questions, because Slack bot had prepared them in minutes using the team's full history; a marketer who built his own data scientist agent over a weekend and is now completely unshackled from the bottleneck that was slowing him down; and Gavin's most honest admission, that he's been saying for years that AI won't replace jobs, but this is the first time he actually believes it, because the soul-crushing \"work of work\" is finally shrinking, and what's left is the kind of creative, high-energy output that people actually want to do. The inbox, he says, is a deathtrap in the AI era. The companies that figure out how to move beyond it will outperform their competitors by multiples. Subscribe to Eye on A.I. for weekly conversations with the people building and deploying the future of AI.",
+      "duration": "53:23",
+      "old_score": 32,
+      "old_label": "skip",
+      "qwen": {
+        "id": "9afc056c4f49459b4bf4820f",
+        "score": 88,
+        "tier": "listen",
+        "reason": "Slack's AI agent orchestration challenge provides actionable insight into enterprise AI adoption and labor economics.",
+        "confidence": "high"
+      }
+    }
+  ]
+}
