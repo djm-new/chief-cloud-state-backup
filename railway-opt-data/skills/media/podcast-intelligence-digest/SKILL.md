@@ -141,18 +141,41 @@ Keep the guest/watchlist file as seed examples and calibration anchors, not a cl
    - The review artifact should list every resolved source, not just winners: show name, subject/recent episode, guest if known, include/exclude recommendation, reason, confidence level, and links/feed.
    - Ask DJ what was useful/noisy and update scoring/watchlists/skip rules before recurring delivery.
    - Do not enable daily/weekly recurring jobs without explicit approval.
+## Weekly audio
 
-10. **For weekly audio.**
-   - Select the week's 3–5 highest-signal clusters.
-   - Write a conversational two-host script that synthesizes ideas rather than reciting rankings.
-   - Then invoke the audio production workflow in this skill to generate the MP3. Speaker labels are script directions, not spoken words.
+- Select the week's 3–5 highest-signal clusters.
+- Before scripting, enrich finalists with episode DB lookup + episode page text, and prefer transcript-like grounding when available.
+- The weekly script must be **episode-first, not theme-first**:
+  - open by naming the actual conversations/guests and their theses;
+  - start each main block with show name, episode title, guest, publication/window status, thesis, and why DJ should care;
+  - only synthesize cross-episode themes after grounding the listener in the specific episodes.
+- Extract the *interesting arguments*, not just the topic label:
+  - main claim;
+  - supporting evidence;
+  - counterargument / unresolved question;
+  - why DJ should care;
+  - the tradeoff or stake that makes the discussion worth hearing.
+- Write a conversational two-host script that guides DJ through named conversations rather than reciting rankings or debating an abstract essay topic.
+- Host dynamic: one host is the expert/reviewer who listened/read deeply; the other is the interlocutor whose job is to ask clarifying questions, draw out implications, challenge assumptions, and add useful background/context. Avoid two people taking turns reading the same formulaic summary template.
+- If the first draft feels too short or too summarized, expand the editorial analysis instead of compressing harder.
+- Report how many finalists were transcript-grounded so coverage is visible, and keep a source-notes artifact beside the script.
+- If including a strong calibration holdover outside the strict week/last-7-days window, label it explicitly as a holdover rather than implying it was in-window.
+- Then invoke the audio production workflow in this skill to generate the audio file. Speaker labels are script directions, not spoken words.
+- See `references/transcript-grounded-weekly-audio.md` for the working recipe and pitfalls.
+- See `references/weekly-editorial-calibration.md` for the current lesson on argument-first synthesis, not recap-first compression.
+- See `references/weekly-episode-first-digest.md` for DJ's correction that weekly audio must name shows/guests/theses and avoid abstract theme-essay structure.
+- See `references/weekly-audio-quality-calibration.md` for the latest host-dynamic and voice calibration: expert/interlocutor format, Kokoro `af_heart` approved for Maya, Piper/Edge judged too robotic.
+- See `references/local-tts-backends.md` for local backend notes; update with user calibration before treating any local voice as production-ready.
+- Current audio-only finalist path: `/opt/data/venvs/podcast-stt` contains `faster-whisper`/`ctranslate2`; `/opt/data/scripts/podcast_weekly_audio.py` downloads finalist audio, transcribes with `PODCAST_WEEKLY_STT_MODEL` (default `base`), stores transcripts under `/opt/data/podcast_digest/transcripts/`, extracts per-chunk evidence notes with OpenRouter/Qwen, and feeds those notes/excerpts into the weekly script. Leave `PODCAST_WEEKLY_STT_MAX_SECONDS=0` for full production transcription; use a small positive value only for smoke tests.
+- Voice calibration update: if Piper sounds robotic, prefer Edge neural voices or a premium cloud TTS. Content structure and host dynamic matter first; but do not assume Piper is better just because it is local. See `references/audio-transcribed-weekly-finalists.md` for the verification gates and pitfalls.
 
 ## Audio production workflow
 
 Use this path when the user wants to turn a script, outline, article, or weekly digest outline into a podcast-style audio file.
 
 1. **Prepare a clean production script.**
-   - Strip speaker labels from spoken TTS text; keep them only for voice assignment.
+   - Preserve dialogue structure first; do not flatten MAYA/SAM into one narration blob.
+   - Strip markdown bold and speaker labels from spoken TTS text; keep them only for voice assignment.
    - Remove or convert bracketed cues like `[BEAT]`, `[laughs]`, and `[INTRO MUSIC]` into actual pauses or music beds.
    - If the script is dialogue, preserve it as structured segments so each speaker can be synthesized independently.
 
@@ -162,23 +185,31 @@ Use this path when the user wants to turn a script, outline, article, or weekly 
 
 3. **Generate TTS.**
    - Prefer premium or highest-quality configured TTS first.
-   - Use distinct, stable voices for recurring speakers.
-   - Keep successful chunks and retry only the failed chunk if one segment errors.
+- Use distinct, stable voices for recurring speakers; a slight rate/pitch split helps avoid the "single narrator" effect.
+- If the voices still sound mechanical, fix voice identity and dialogue structure first; do not try to polish a bad pairing with more TTS tweaking.
+- Keep successful chunks and retry only the failed chunk if one segment errors.
+   - For local cost-effective production, prefer **Piper** over `edge-tts` when the goal is better-sounding voices without cloud spend.
+   - Use `edge-tts` only as a fallback when local synthesis is unavailable or unacceptably slow.
 
-4. **Assemble with ffmpeg.**
+
+4. **Normalize the spoken script before synthesis.**
+   - Do not rely on raw markdown labels; a script can arrive as `**MAYA:**`, `MAYA:`, or with blank spacer lines after each label.
+   - Strip emphasis markers and other inline markup before TTS.
+   - If speaker labels appear in the spoken text, regenerate the production pass so the labels are directions only.
+
+5. **Assemble with ffmpeg.**
    - Normalize all chunks to the same sample rate and channel count before concatenation.
    - Add short silence between chunks and place music beds where the script asks for them.
    - Default to MP3 for broad support; use OGG/Opus when a voice-note style delivery is preferred.
 
-5. **Verify before delivery.**
+6. **Verify before delivery.**
    - Run `ffprobe` on the final file to confirm codec, duration, channels, and sample rate.
    - Ensure all intended segments are present.
 
-6. **Deliver.**
+7. **Deliver.**
    - On Telegram, include `MEDIA:/absolute/path/to/file` in the final response.
    - Note briefly what was produced and whether it is a polished production or a fallback rendering.
 
-See `references/multi-speaker-dialogue.md` for the structured segment pattern and dialogue pitfalls.
 
 ## Output Shape
 
@@ -196,9 +227,10 @@ Must listen / weekly candidates
 - Highest-scoring episodes likely to feed the weekly podcast-of-podcasts.
 - Include: show, episode, guest if known, one-line thesis, why DJ should care, link.
 
-Transcript summaries
-- Subset of interesting episodes that were important enough to read via transcript.
+- Transcript summaries
+- Subset of interesting episodes that were important enough to read via transcripts.
 - Include the main idea, key supporting points, and action/framework/mental-model takeaway.
+- Prefer the episode's *interesting argument* over a compressed recap: what was claimed, what was contested, and what changed in the listener's understanding.
 
 Lightweight summaries
 - Interesting episodes where metadata/show notes were enough.
@@ -288,6 +320,11 @@ These paths are conventions, not universal facts. Verify them before editing.
 - `references/last48h-run-notes.md` — June 2026 ad hoc 48h run notes, interpreter pitfall, and successful digest shape.
 - `references/multi-speaker-dialogue.md` — structured dialogue-segment notes for producing multi-voice podcast audio.
 - `references/weekly-audio-pipeline.md` — working recipe for DJ's weekly original audio briefing, including chunking, TTS, ffmpeg re-encode, and Telegram delivery.
+- `references/transcript-grounded-weekly-audio.md` — transcript/page-grounded finalist workflow for deeper weekly audio.
+- `references/weekly-editorial-calibration.md` — current lesson on argument-first synthesis, not recap-first compression.
+- `references/weekly-episode-first-digest.md` — DJ's correction that weekly audio must be structured around named episodes/shows/guests/theses before cross-episode synthesis.
+- `references/local-tts-backends.md` — local TTS backend comparison and the practical Piper default.
+- `references/podcast-digest-cron-fix.md` — bounded cron wrapper and failure-mode notes for daily delivery.
 - `scripts/qwen_daily_digest.py` — starter script that turns Qwen episode scores into a calibrated daily markdown digest.
 - `scripts/qwen_episode_score.py` — reusable starter script for compact OpenRouter/Qwen episode-level scoring against the prototype SQLite episode store.
 
