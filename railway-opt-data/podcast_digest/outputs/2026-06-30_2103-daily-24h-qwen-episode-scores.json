@@ -1,0 +1,271 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-06-30_2103",
+  "usage": {
+    "prompt_tokens": 4793,
+    "completion_tokens": 963,
+    "total_tokens": 5756
+  },
+  "episodes": [
+    {
+      "id": "e089d06be77bd7e8216d1ae4",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Meet The Onion's new and improved InfoWars",
+      "link": "",
+      "published": "2026-06-30T19:45:00+00:00",
+      "summary": "The Onion's takeover of conspiracy show InfoWars isn't officially complete — but comedian Tim Heidecker, who's serving as creative director, won't let that stop him from building out a slate of comedy programming. Before the new InfoWars launches July 2, The Verge's Mia Sato interviews Tim about what drew him to the project, how long he can (or wants to) maintain an Alex Jones parody, and whether it's worth doing an interview with The Verge when you've already done one with Wired. Further reading: ⁠The Onion’s rebooted InfoWars is coming July 2nd⁠ ⁠The Onion’s acquisition of Infowars was blocked by a judge⁠ Subscribe to The Verge for unlimited access to theverge.com, subscriber-exclusive newsletters, and our ad-free podcast feed.We love hearing from you! Email your questions and thoughts to vergecast@theverge.com or call us at 866-VERGE11. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "2307",
+      "old_score": 4,
+      "old_label": "skip",
+      "qwen": {
+        "id": "e089d06be77bd7e8216d1ae4",
+        "score": 30,
+        "tier": "skip",
+        "reason": "Satirical content focused on media parody, not relevant to market or AI insights.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "af966d3098995d1b57d6bff5",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: June 30th, 2026",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-june-30th-2026",
+      "published": "2026-06-30T16:00:00+00:00",
+      "summary": "Featuring: John Stoltzfus, Managing Director & Chief Investment Strategist at Oppenheimer & Co. Dan Ives, Managing Director & Global Head: Technology Research at Wedbush Securities Rebecca Babin, Managing Director & Senior Equity Trader at CIBC Private Wealth Group See omnystudio.com/listener for privacy information.",
+      "duration": "1401",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "af966d3098995d1b57d6bff5",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Market commentary with potential macroeconomic insights, but generic format.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "1750107705ea548d217aec74",
+      "show_name": "Dwarkesh Podcast",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "Grant Sanderson – AI and the future of math",
+      "link": "https://www.dwarkesh.com/p/grant-sanderson-2",
+      "published": "2026-06-30T15:53:19+00:00",
+      "summary": "Always so much fun to chat with Grant . AI has been making much faster progress in math than in other fields. As a result, mathematics is showing us, very concretely, what AI progress in other fields will look like. Even within mathematics, there’s a jagged landscape. What does it look like? What is the nature of the most important conceptual breakthroughs in the history of mathematics, and how different are they from what AIs are currently able to do? Does AI (on net) increase or decrease human understanding of the field? How big is the overhang from having AIs systematically try to connect ideas already in the literature? And what advice does Grant have for aspiring mathematicians, coders, and other students who are passionate about fields that are being most transformed upon by AI? Watch on YouTube ; read the transcript . Sponsors * Gemini 3.5 Live Translate is what I wished I’d had on my last trip to China. It detects more than 70 languages and translates them in near real-time… and it preserves your original pacing and intonation. If you’re building an app that needs live translation, you should check out Gemini 3.5 Live Translate. Get started at ai.studio/live * Cursor ’s harness lets me use models for a huge range of tasks at the podcast. For example, Cursor cuts out the ads from each episode I produce so I can post them on Bilibili. It also helps me prep for interviews — I have a repo full of books and papers that Cursor sorts through to find the exact right file for any given question. Try Cursor yourself at cursor.com/dwarkesh * Jane Street sponsors 3Blue1Brown, so Grant has gotten to spend a lot of time with various Jane Streeters. He actually just recorded an interview with a few of them, so when we sat down for this episode, he told me about some of the things he learned, like how Jane Street keeps their role definitions fuzzy to make sure their people keep learning and growing. Go check out Grant’s full interview at 3b1b.co/janestreet Timestamps (00:00:00) – AI is discovering new proofs. Is that AGI? (00:11:32) – The verification loop on conceptual breakthroughs can be a century long (00:26:12) – Will we understand an AI proof of the Riemann hypothesis? (00:38:08) – Can AI find the hidden bridges between fields? (00:53:48) – Why real-world tasks don’t fit into RL environments (01:07:07) – Good writing requires theory of mind that AI still lacks (01:16:02) – Why learning will still depend on human curation Get full access to Dwarkesh Podcast at www.dwarkesh.com/subscribe",
+      "duration": "5619",
+      "old_score": 34,
+      "old_label": "skip",
+      "qwen": {
+        "id": "1750107705ea548d217aec74",
+        "score": 85,
+        "tier": "listen",
+        "reason": "Deep dive into AI's impact on mathematics with conceptual and educational implications.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "69830648ab8002cd84ef6545",
+      "show_name": "Invest Like the Best",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "Etched - Building AI Hardware to Make Inference Faster and Cheaper - [Invest Like the Best, EP.480]",
+      "link": "https://colossus.com/episode/the-future-of-ai-hardware/",
+      "published": "2026-06-30T15:00:00+00:00",
+      "summary": "My guests today are Gavin Uberti and Rob Wachen, the founders of Etched. A few years ago, when they set out to build a better AI chip than the largest companies in the world, almost everyone I called told me it could not be done. They have since done it, taping out a working chip on their first attempt and becoming the first hardware company founded after ChatGPT to do so. They already have more than a billion dollars of customer demand for their first product, and have raised eight hundred million dollars to build it. Etched builds chips and systems designed to run AI models faster and at lower cost. They started the company in 2023, and that product is a complete rack for inference, the chip along with the boards, the power delivery, the interconnects, and the manufacturing to produce it all. We talk about the technical bets behind their architecture, how they hired industry legends and paired them with elite 22 year-olds, and why they believe inference will become one of the largest markets in the world. I think you will find the story of what they have built hard to forget. Please enjoy my conversation with Gavin and Rob. For the full show notes, transcript, and links to mentioned content, check out the episode page ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠here⁠⁠⁠⁠⁠. ----- Become a Colossus member to get our quarterly print magazine and private audio experience, including exclusive profiles and early access to select episodes. Subscribe at ⁠colossus.com/subscribe⁠. ----- ⁠Ramp’s⁠ mission is to help companies manage their spend in a way that reduces expenses and frees up time for teams to work on more valuable projects. Go to⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ ⁠ramp.com/invest⁠⁠ to sign up for free and get a $250 welcome bonus. ----- Trusted by thousands of businesses, ⁠Vanta⁠ continuously monitors your security posture and streamlines audits so you can win enterprise deals and build customer trust without the traditional overhead. Invest Like the Best listeners get a special offer of $1,000 off Vanta when you go to ⁠vanta.com/invest⁠. ----- WorkOS⁠ is the infrastructure B2B and AI-native companies use to sell to enterprise. It covers everything enterprise security requires: SSO, SCIM, RBAC, Audit Logs, AI governance, and more. Trusted by 2,000+ fast-growing companies, including OpenAI, Anthropic, Cursor, and Vercel. ----- Rogo is the AI platform for finance. They're building agents for Wall Street that are trained to understand how bankers and investors actually do work: from diligence and modeling, to turning analysis into deliverables. To learn more, visit rogo.ai/invest. ----- ⁠Ridgeline⁠ has built a complete, real-time, modern operating system for investment managers. It handles trading, portfolio management, compliance, customer reporting, and much more through an all-in-one real-time cloud platform. Visit⁠ ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ridgelineapps.com⁠. ----- Editing and post-production work for this episode was provided by The Podcast Consultant. Timestamps: (00:00:00) Welcome to Invest Like The Best (00:02:07) Gavin Uberti and Rob Wachen (00:03:54) Two 21-Year-Olds Taking on NVIDIA (00:07:52) The Two Technical Bets Behind Their Architecture (00:14:15) Why Inference Becomes the Biggest Market (00:20:23) Rob and Gavin's Origins Stories (00:28:38) How They Recruit Industry Legends (00:36:30) Moving a Dozen Engineers to Bangalore for Six Months (00:38:01) Speed Wins (00:43:58) Getting More Concurrency Out of Every Megawatt (00:52:44) Vertical Integration (00:57:43) Hardest Obstacles to Overcome (01:01:09) Raising The Largest AI Chip Series A Ever (01:06:29) TSMC (01:13:20) Designing Gen 2 for Gigawatt-Scale Production (01:16:42) Why Machines Don't Think Like People (01:20:03) A Year of Compute Compressed Into a Month (01:23:44) The Trillion-Dollar Data Center (01:26:19) The Kindest Thing",
+      "duration": "5241",
+      "old_score": 54,
+      "old_label": "skip",
+      "qwen": {
+        "id": "69830648ab8002cd84ef6545",
+        "score": 90,
+        "tier": "listen",
+        "reason": "Hardware innovation in AI inference with technical and business model insights from successful startup founders.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "5b8857287b3946e1cad5e7d3",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "The US Macroeconomic Picture",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/the-us-macroeconomic-picture",
+      "published": "2026-06-30T14:20:39+00:00",
+      "summary": "The latest in finance, economics and investment. Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF . Bloomberg Surveillance hosted by Tom Keene & Paul SweeneyTuesday, June 30, 2026 Featuring: 1) Bob Michele, CIO: and Head of GFICC at JPMorgan Investment Management, talks about the probability of an economic expansion and the 10-year range 2) Chris Marangi, Co-CIO: Value at Gabelli Funds, joins for a discussion on value investing and the three T's in macro markets. 3) Ellen Wald, Senior Fellow at the Atlantic Council, discusses why oil dropped so fast, the president's accusations of price gouging, and why there isn't a lot of gasoline right now. 4) Tani Fukui, Senior Director of Economic & Market Strategy at MetLife Investment Management, talks market rebalancing and inflation threats amid a new Fed regime. See omnystudio.com/listener for privacy information.",
+      "duration": "1992",
+      "old_score": 28,
+      "old_label": "skip",
+      "qwen": {
+        "id": "5b8857287b3946e1cad5e7d3",
+        "score": 55,
+        "tier": "scan",
+        "reason": "Macroeconomic analysis relevant to capital allocation, but standard Bloomberg format.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "0a026e553a5fba0de79a20ab",
+      "show_name": "New Yorker Radio Hour",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "low",
+      "title": "From The Political Scene: Donald Trump’s Dangerous Politicization of America’s Spy Agencies",
+      "link": "https://www.wnycstudios.org/podcasts/tnyradiohour",
+      "published": "2026-06-30T10:00:00+00:00",
+      "summary": "The Washington Roundtable is joined by Jeff Stein, the veteran political reporter and founding editor of the newsletter “Spytalk,” to examine Donald Trump’s appointment of Bill Pulte as the new acting Director of National Intelligence, a position that, in theory, oversees the C.I.A., N.S.A., F.B.I., and fifteen other agencies. Pulte has no intelligence background and no national-security experience, but does have a track record of going after the President’s perceived enemies. Plus, the panel discusses a recent Washington Post investigation that raised new questions about the outgoing director, Tulsi Gabbard, and her alleged ties to a religious cult. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:36:51",
+      "old_score": 4,
+      "old_label": "skip",
+      "qwen": {
+        "id": "0a026e553a5fba0de79a20ab",
+        "score": 25,
+        "tier": "skip",
+        "reason": "Political content focused on U.S. spy agencies, not aligned with DJ's interests.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "341a1f3c940332a6e1556af1",
+      "show_name": "Plain English with Derek Thompson",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "A Surprising Theory About the Future of War",
+      "link": "",
+      "published": "2026-06-30T10:00:00+00:00",
+      "summary": "From the bombing campaigns of World War II to the precision strikes of the modern era, for 80 years air power has defined modern warfare. But today, a new technology is changing the battlefield: drones. From Ukraine to the Middle East, cheap drones are transforming how wars are fought, giving countries and even small groups capabilities that once belonged only to the world's most powerful militaries. They’re changing not just how wars are fought, but who can fight them. Today, Derek is joined by Erik Lin-Greenberg, an MIT professor and author of 'The Remote Revolution: Drones and Modern Statecraft,' to explore how drones are reshaping modern warfare and what this new era could mean for the future of conflict. Subscribe to our YouTube channel here:https://www.youtube.com/@PlainEnglishwithDerekThompson If you have questions, observations, or ideas for future episodes, email us at PlainEnglish@Spotify.com. Host: Derek Thompson Guest: Erik Lin-Greenberg Producer: Devon Baroldi Additional Production Support: Ben Glicksman Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "3382",
+      "old_score": 0,
+      "old_label": "skip",
+      "qwen": {
+        "id": "341a1f3c940332a6e1556af1",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Analysis of drone impact on modern warfare with strategic and technological implications.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "cfe75163218ada668cf6dde0",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Building AI for Creators | Luma & Phota Labs",
+      "link": "https://a16z.simplecast.com/episodes/building-ai-for-creators-luma-phota-labs-0nl9Q52H",
+      "published": "2026-06-30T10:00:00+00:00",
+      "summary": "Yoko Li speaks with Luma's Head of Applied Research Matt Tancik and Phota Labs cofounder and CTO Zach Xia about how AI is changing creativity, photography, and the tools people use to make art. The conversation explores the evolving relationship between artists and AI, from image generation and personalization to creative workflows, controllability, and agentic design tools. They discuss personalization, photography, creative software, model design, evaluation, and why the future of creative tools may depend less on generating content and more on helping people express ideas they couldn't easily realize before. Along the way, they explore AI agents, interfaces, and how creators are already using these tools in unexpected ways. Resources: Follow Matt on LinkedIn: https://www.linkedin.com/in/matthewtancik/ Follow Zach on LinkedIn: https://www.linkedin.com/in/zhihao-zach-xia/ Follow Yoko Li on X: https://x.com/stuffyokodraws Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:48:09",
+      "old_score": 43,
+      "old_label": "skip",
+      "qwen": {
+        "id": "cfe75163218ada668cf6dde0",
+        "score": 60,
+        "tier": "digest",
+        "reason": "Explores AI's role in creative workflows, relevant to content tools and creator economy.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "b6a66fc1c52d5790909693e1",
+      "show_name": "Ezra Klein Show",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "Chris Rufo Thinks the Right Can Control This. I Don’t.",
+      "link": "https://www.nytimes.com/2026/06/30/opinion/ezra-klein-podcast-chris-rufo.html",
+      "published": "2026-06-30T09:00:00+00:00",
+      "summary": "Christopher Rufo is arguably the most successful activist of the MAGA era. He rose to prominence fighting D.E.I. initiatives and critical race theory. In President Trump’s second term, he’s had a huge influence on policy, from Trump’s executive orders against D.E.I. and the attacks on the Department of Education to the ICE and C.B.P. deployments to Minneapolis. Rufo, helpfully, calls his shots. He has published a guide, “The New Right Activism: A Manifesto for the Counterrevolution,” in which he argued for the value of “agitprop” and counseled that “political life moves on narrative, emotion, scandal, anger, hope, and faith — on irrational, or at least subrational, feelings.” But more recently, in his writing and on the podcast he co-hosts, “Rufo & Lomez,” he seems worried about the new right he has helped build: its attraction to conspiracy theories, its racialist thinking, its internal fissures. So I wanted to have him on the show to talk about the problems he sees on his side, but also to interrogate whether he may have scored short-term victories while seeding profound long-term problems. Rufo is a senior fellow and director of the initiative on critical race theory at the Manhattan Institute. He’s a contributing editor of City Journal and the author of “America’s Cultural Revolution: How the Radical Left Conquered Everything.” This episode contains strong language. Mentioned: “ The New Right Activism ” by Christopher Rufo “ The Number ” by David D. Kirkpatrick “ The unraveling of a cat tale ” by Jacqueline Sweet Book recommendations Unmasking the Administrative State by John Marini The Revolutionary by Stacy Schiff The Managerial Revolution by James Burnham Thoughts? Guest suggestions? Email us at ezrakleinshow@nytimes.com. You can find transcripts (posted midday) and more episodes of “The Ezra Klein Show” at nytimes.com/ezra-klein-podcast , and you can find Ezra on Twitter @ezraklein. Book recommendations from all our guests are listed at https://www.nytimes.com/article/ezra-klein-show-book-recs . This episode of “The Ezra Klein Show” was produced by Jack McCordick. Fact-checking by Michelle Harris, with Kate Sinclair, Mary Marge Locker and Julie Beer. Our senior engineer is Jeff Geld. Mixing by Pat McCusker, Efim Shapiro, and Johnny Simon. Our recording engineer is Johnny Simon. Our executive producer is Claire Gordon. The show’s production team also includes Marie Cascione, Annie Galvin, Rollin Hu, Kristin Lin, Emma Kehlbeck, Marina King and Jan Kobal. Original music by Pat McCusker. Audience strategy by Shannon Busta. The director of New York Times Opinion Shows is Annie-Rose Strasser. Transcript editing by Kate Wilkinson and Marlaine Glicksman. Subscribe today at nytimes.com/podcasts or on Apple Podcasts and Spotify. You can also subscribe via your favorite podcast app here https://www.nytimes.com/activate-access/audio?source=podcatcher . For more podcasts and narrated articles, download The New York Times app at nytimes.com/app. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "02:04:31",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "b6a66fc1c52d5790909693e1",
+        "score": 35,
+        "tier": "skip",
+        "reason": "Political discourse focused on right-wing activism, not aligned with DJ's focus.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "d80db488771ce2f1aa99a585",
+      "show_name": "Masters of Scale",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Cannes Lions’ battle of the brands: Starbucks’ stumble, World Cup ads, and more",
+      "link": "",
+      "published": "2026-06-30T09:00:00+00:00",
+      "summary": "Every year at Cannes Lions, the advertising world takes stock of itself — what's working, what's not, and what it's pretending not to notice. Autodesk CMO Dara Treseder joins Rapid Response live from the festival to cut through the noise. She breaks down the industry's complicated relationship with AI, weighs in on the hottest and most overrated campaigns of the year including sharp takes on Nike, Adidas, and Starbucks, and explains why the path from CMO to CEO is suddenly the most interesting career move in business. Treseder also gets candid about the brand of Elon Musk post-IPO, what Autodesk's $350 million investment in the next generation of workers actually signals, and what separates a brand collaboration that breaks through from one that just breaks. Visit the Rapid Response website here: https://www.rapidresponseshow.com/ See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info .",
+      "duration": "00:31:28",
+      "old_score": 59,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "d80db488771ce2f1aa99a585",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Marketing and brand analysis with some insights on AI and business strategy.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "e70af2b23d3b3cdc5c602544",
+      "show_name": "My First Million",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "3 weird businesses doing $10M, $20M, $30M",
+      "link": "",
+      "published": "2026-06-30T09:00:00+00:00",
+      "summary": "Business Idea Database: https://clickhubspot.com/ecat Episode 837: Sam Parr ( https://x.com/theSamParr ) and Shaan Puri ( https://x.com/ShaanVP ) bring in 3 founders with weird businesses making $10M, $20M, and $30M. — Show Notes: (0:00) Intro (3:32) Alex Daniels, $10M real estate magazine (20:31) Josh Weissenstein, $20M camp ground business (38:36) The $1.8B App Copying Politicians & Hedge Funds — Links: • Haven Lifestyles - https://www.havenlifestyles.com/ • Team Outsider - https://www.teamoutsider.com/ • Autopilot - https://www.joinautopilot.com/ — Check Out Sam's Stuff: • Hampton (joinhampton.com): My community for founders. Average member does $25m/year. Many of the guests are members. Get after it...apply: http://joinhampton.com/mfm — Check Out Shaan's Stuff: • Shaan's weekly email - https://www.shaanpuri.com • Visit https://www.somewhere.com/mfm to hire worldwide talent like Shaan and get $500 off for being an MFM listener. Hire developers, assistants, marketing pros, sales teams and more for 80% less than US equivalents. • Mercury - Shaan uses Mercury for banking across all of his companies. you can too: http://mercury.com/ Mercury is a fintech company, not an FDIC-insured bank. Banking services provided by Choice Financial Group, Column, N.A., and Evolve Bank & Trust, Members FDIC • I run all my newsletters on Beehiiv and you should too + we're giving away $10k to our favorite newsletter, check it out: beehiiv.com/mfm-challenge My First Million is a HubSpot Original Podcast // Brought to you by HubSpot Media // Production by Arie Desormeaux // Editing by Ezra Bakker Trupiano /",
+      "duration": "4239",
+      "old_score": 28,
+      "old_label": "skip",
+      "qwen": {
+        "id": "e70af2b23d3b3cdc5c602544",
+        "score": 40,
+        "tier": "scan",
+        "reason": "Highlights unconventional businesses, but lacks depth on AI or durable frameworks.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "69e3cdbab296720071b93c70",
+      "show_name": "Training Data",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Why Hardware-Software Co-Design Is AI's Real 100x: Dylan Patel of SemiAnalysis",
+      "link": "",
+      "published": "2026-06-30T09:00:00+00:00",
+      "summary": "Dylan Patel, founder of SemiAnalysis, argues the biggest gains in AI don't come from faster chips, they come from software-hardware co-design. Optimizing the model, the kernels, and the silicon together turns a 2x here and a 2x there into 100x. He explains why DeepSeek's experts were shaped for Nvidia's Hopper (and why TPUs struggle to run it), why OpenAI's sparser models and Anthropic's denser ones pull them toward different hardware, and why the so-called CUDA moat was never really about CUDA. Dylan breaks down InferenceX, his living benchmark that runs the latest models on over $50M of donated hardware daily, tracking a roughly 60x annual drop in cost per unit of quality. He makes the case that inference will be a bigger market than oil, that the compute crunch persists because models expand the value of useful work faster than compute grows, and why Jensen Huang is bankrolling neoclouds to engineer a multipolar world. Hosted by Shaun Maguire and Sonya Huang, Sequoia Capital",
+      "duration": "4214",
+      "old_score": 73,
+      "old_label": "digest_only",
+      "qwen": {
+        "id": "69e3cdbab296720071b93c70",
+        "score": 95,
+        "tier": "listen",
+        "reason": "In-depth analysis of hardware-software co-design in AI with market and technical insights.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "076b66b959e2d9509d6d53c0",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "China Decode: Apple's China Chip Play, DeepSeek Seeking Billions, and the Californication of Chinese Food",
+      "link": "",
+      "published": "2026-06-30T08:00:00+00:00",
+      "summary": "Alice Han and James Kynge dig into why Apple is lobbying the Trump administration for permission to buy memory chips from a Chinese company on the Pentagon's military blacklist. With DRAM prices up nearly 100% in a single quarter — analysts are calling it \"RAMageddon\" — Apple already raised MacBook and iPad prices by up to 20%, and iPhones could be next. How far will Apple go to secure its supply chain, and what does it mean if Washington says yes? They also break down DeepSeek's landmark $7.4 billion funding round, which is the first time the Chinese AI startup has ever taken outside money. Tencent, CATL, and China's state-backed National AI Investment Fund are among the backers, and the valuation has jumped six-fold in six weeks to nearly $59 billion. DeepSeek built its reputation on doing more with less — so why does it need the money now? And finally: a new sign that China's middle class is changing what it puts on the table. The Economist calls it the \"Californication\" of Chinese diets: a growing appetite for organic, health-conscious food. Subscribe to China Decode on Substack for weekly analysis, livestreams, and deep dives into the biggest story shaping the global economy: chinadecode.profgmedia.com. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "2919",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "076b66b959e2d9509d6d53c0",
+        "score": 70,
+        "tier": "digest",
+        "reason": "China tech and supply chain analysis with implications for AI and global markets.",
+        "confidence": "medium"
+      }
+    }
+  ]
+}

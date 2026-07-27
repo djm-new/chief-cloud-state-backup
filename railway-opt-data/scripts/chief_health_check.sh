@@ -75,16 +75,44 @@ fi
 
 recent_errors=""
 if [ -f /opt/data/logs/gateway.log ]; then
-  recent_errors="$(tail -300 /opt/data/logs/gateway.log \
-    | grep -Ei '^[0-9-]+ [0-9:,]+ (ERROR|CRITICAL) |Traceback|OutOfMemory|killed process' \
-    | awk '
-        /Another gateway instance \(PID 1\) started during our startup\. Exiting to avoid double-running\./ { next }
-        /slash-confirm callback failed:/ && index($0, "Can\047t parse entities: can\047t find end of the entity starting at byte offset") { skip_tb=1; next }
-        skip_tb && /^Traceback \(most recent call last\):$/ { skip_tb=0; next }
-        skip_tb { next }
-        { print }
-      ' \
-    | tail -10 || true)"
+  recent_errors="$(python3 - <<'PY'
+from datetime import datetime, timezone, timedelta
+from pathlib import Path
+
+log = Path('/opt/data/logs/gateway.log')
+cutoff = datetime.now(timezone.utc) - timedelta(minutes=30)
+out = []
+carry_traceback = 0
+
+def parse_ts(line: str):
+    try:
+        stamp = line[:23]
+        return datetime.strptime(stamp, '%Y-%m-%d %H:%M:%S,%f').replace(tzinfo=timezone.utc)
+    except Exception:
+        return None
+
+for raw in log.read_text(errors='replace').splitlines():
+    ts = parse_ts(raw)
+    if ts is not None:
+        carry_traceback = 0
+        if ts < cutoff:
+            continue
+        if 'Another gateway instance (PID 1) started during our startup. Exiting to avoid double-running.' in raw:
+            continue
+        if any(token in raw for token in (' ERROR ', ' CRITICAL ', 'OutOfMemory', 'killed process')):
+            out.append(raw.split(' gateway.run:', 1)[-1].strip())
+            continue
+        if 'Traceback (most recent call last):' in raw:
+            out.append('Traceback (most recent call last):')
+            carry_traceback = 3
+            continue
+    elif carry_traceback > 0:
+        out.append(raw)
+        carry_traceback -= 1
+
+print('\n'.join(out[-10:]))
+PY
+    )"
   if [ -n "$recent_errors" ]; then
     issues+=("Recent severe gateway log lines were found.")
     dj_action_required=1

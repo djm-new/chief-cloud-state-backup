@@ -59,6 +59,26 @@ If the user explicitly prefixes the item, honor it:
 - If an item was placed in the wrong group, remove the mistaken doc entry first, then re-add it with the correct group.
 - After a move, verify the live Google Doc rather than trusting the helper's `already_present` response alone.
 
+## Rollover marker semantics (5AM ET sync, daily-tom-sync.py)
+
+The daily rollover only reads the **latest dated section**; tasks must sit under a
+`[Professional]` / `[Professional - MENA]` / `[Professional - Others]` / `[Personal]`
+header to be seen. Line markers:
+
+- `x ` / `[x]` / `✅` prefix → done: stamped ✅ in the source day, dropped from rollover
+- `> ` / `↗️` prefix → in progress: carried with the marker stripped
+- `[Nd]` anywhere in the line (e.g. `[18d]`) → parked N days: moved to the doc's
+  `[Parking Lot]` (created after `[Next date]` if missing) as `[M/D] text [n:id]`
+- `[M/D]` lines in the parking lot return to the new day section on their date and
+  are deleted from the lot
+- `*`–`***` → priority, sorts to top of the group
+- Manual lines without `[n:id]` get an ID minted at rollover; carried lines keep IDs
+
+Pitfall history (fixed 2026-07-17): parked tasks used to vanish from the doc entirely
+(never written to any lot), and the in-progress rewrite erased their `[Nd]` markers,
+hiding the cause. If items go missing at rollover, check the run summary's
+`newly_parked_from_latest` count and the `[Parking Lot]` first.
+
 ## Pitfalls
 
 - Do not confuse the session todo list with the actual Daily ToM Google Doc.

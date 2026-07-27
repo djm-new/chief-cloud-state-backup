@@ -1,0 +1,111 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-07-26_2104",
+  "usage": {
+    "prompt_tokens": 2155,
+    "completion_tokens": 394,
+    "total_tokens": 2549
+  },
+  "episodes": [
+    {
+      "id": "233712672e620be92507865a",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Ben Horowitz: The Fight Over Open Source AI",
+      "link": "https://a16z.simplecast.com/episodes/ben-horowitz-the-fight-over-open-source-ai-RnXTUEqk",
+      "published": "2026-07-26T13:15:04+00:00",
+      "summary": "Ben Horowitz joins Theo Jaffee and Sofia Puccini to discuss one of the biggest debates in AI today: the future of open-source models. They examine the growing push to restrict open models, why Ben believes open source is critical for security, innovation, and competition, and what happens if a handful of frontier labs come to dominate the AI ecosystem. They also discuss distillation, AI monopolies, China's role in open-source AI, robotics, manufacturing, the economics of frontier models, and why Ben believes the AI market is still in its earliest stages. The conversation closes with a look at AI-generated art, creativity, and whether new tools will spark the next cultural renaissance. Resources: Follow Ben Horowitz on X: https://x.com/bhorowitz Follow Theo Jaffee on X: https://x.com/theojaffee Follow Sofia Puccini on X: https://x.com/schisofrenia Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:32:35",
+      "old_score": 70,
+      "old_label": "digest_only",
+      "qwen": {
+        "id": "233712672e620be92507865a",
+        "score": 90,
+        "tier": "listen",
+        "reason": "Ben Horowitz on open-source AI, monopolies, and frontier model economics is directly relevant to DJ's interests.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "c9ee7fc485e50cc8fc20d322",
+      "show_name": "Lenny's Podcast",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "Anthropic’s first technical PM on token maxing, the jagged edge, and living in the future | Dianne Penn",
+      "link": "https://www.lennysnewsletter.com/p/anthropics-first-technical-pm-on",
+      "published": "2026-07-26T12:32:06+00:00",
+      "summary": "Dianne Penn is Head of Product for Anthropic’s AI Research and Labs teams. She joined in 2023 as Anthropic’s first technical product manager, when the entire product team was five engineers, and has since helped ship every model from Claude 2 through Fable, and helped incubate Claude Code, MCP, Skills, computer use, tool use, and reasoning. Before Anthropic, she helped build Alexa’s AI at Amazon and, before that, traded high-yield bonds at JP Morgan Chase. In our in-depth conversation, we discuss: 1. What Anthropic’s early days were like 2. The inflection points that turned Anthropic from an underdog into the fastest-growing company in history 3. How exactly Claude got so good at coding 4. The eval-driven development loop her team is pioneering 5. How to find joy in AI when everything is moving this fast 6. Why Claude’s willingness to push back is key to its success 7. Where human judgment remains irreplaceable — Brought to you by: WorkOS —Make your app enterprise-ready, with SSO, SCIM, RBAC, and more Mercury —Radically different banking, now with Command — Episode transcript: https://www.lennysnewsletter.com/p/anthropics-first-technical-pm-on — Archive of all Lenny's Podcast transcripts: https://www.dropbox.com/scl/fo/yxi4s2w998p1gvtpu4193/AMdNPR8AOw0lMklwtnC0TrQ?rlkey=j06x0nipoti519e0xgm23zsn9&st=ahz0fj11&dl=0 — Where to find Dianne Penn: • LinkedIn: linkedin.com/in/dianne-na-penn — Where to find Lenny: • Newsletter: https://www.lennysnewsletter.com • X: https://twitter.com/lennysan • LinkedIn: https://www.linkedin.com/in/lennyrachitsky/ — In this episode, we cover: (00:00) Introduction (02:31) Early Anthropic days (08:55) Big milestones (13:50) Inside the exponential (20:02) Token maxing (23:30) Anthropic Labs and the incubation model (27:30) How the research role works (31:35) How to become a top researcher (35:18) Frontier model safeguards (39:38) Hiring in the AI era (44:16) Building an eval set (47:48) Evals vs PRDs (49:55) The importance of hands-on leadership (52:46) Finding joy in AI (58:10) How Dianne uses Claude (01:01:05) Avoiding overreliance on AI (01:03:50) The constitution that makes Claude better (01:07:11) AI writing and verification (01:11:40) Where human brains will continue to be valuable (01:14:10) Navigating AI with kids (01:16:26) Alignment, the future of the PM role, and burnout (01:21:54) Lightning round and final thoughts — Referenced: • Anthropic: https://www.anthropic.com • Golden Gate Claude: https://www.anthropic.com/news/golden-gate-claude • Dario Amodei’s website: https://darioamodei.com • Scaling Laws and Interpretability of Learning from Repeated Data: https://www.anthropic.com/research/scaling-laws-and-interpretability-of-learning-from-repeated-data • Tokenmaxxing: How Top Builders Use AI To Do The Work Of 400 Engineers: https://www.ycombinator.com/library/Pa-tokenmaxxing-how-top-builders-use-ai-to-do-the-work-of-400-engineers • Garry Tan on X: https://x.com/garrytan • Anthropic co-founder on quitting OpenAI, AGI predictions, $100M talent wars, 20% unemployment, and the nightmare scenarios keeping him up at night | Ben Mann: https://www.lennysnewsletter.com/p/anthropic-co-founder-benjamin-mann • Anthropic’s CPO on what comes next | Mike Krieger (co-founder of Instagram): https://www.lennysnewsletter.com/p/anthropics-cpo-heres-what-comes-next • Introducing Labs: https://www.anthropic.com/news/introducing-anthropic-labs • Louis CK | about airplane Wi Fi: https://www.youtube.com/watch?v=me4BZBsHwZs • What happens after coding is solved? | Fiona Fung (Manager of the Claude Code and Cowork Teams): https://www.lennysnewsletter.com/p/building-the-most-ai-pilled-engineering • The Anthropic Hive Mind: https://steve-yegge.medium.com/the-anthropic-hive-mind-d01f768f3d7b • How to build a company that withstands any era | Eric Ries, Lean Startup author: https://www.lennysnewsletter.com/p/how-to-build-a-company-that-withstands • Fallout on Prime Video: https://www.amazon.com/dp/B0CN4GGGQ2 • Fallout (vide",
+      "duration": "5630",
+      "old_score": 73,
+      "old_label": "digest_only",
+      "qwen": {
+        "id": "c9ee7fc485e50cc8fc20d322",
+        "score": 85,
+        "tier": "listen",
+        "reason": "Anthropic's first technical PM shares insights on model development, eval loops, and AI coding advancements.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "d993eb8848234ec6668bfacc",
+      "show_name": "Odd Lots",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "How Financial Advisors Can Grow During the Great Wealth Transfer (Sponsored Content)",
+      "link": "https://omny.fm/shows/odd-lots/how-financial-advisors-can-grow-during-the-great-wealth-transfer-sponsored-content",
+      "published": "2026-07-26T10:00:00+00:00",
+      "summary": "Over the next two decades, more than $100 trillion will change hands in the greatest wealth transfer in history. This is a massive opportunity for financial advisors, both new and established. This conversation provides detailed, research-backed information and practical advice for financial advisors who are considering their next move. Produced by Bloomberg Media Studios and Prudential Financial, this roundtable discussion provides clear and honest perspectives on the changes that are coming. Guests on the show include: David Blanchett, Head of Retirement Research with Prudential Financial, and Portfolio Manager with PGIM Brittney Castro, CFP, AAMS, CRPC, Financial Expert and Speaker Chelsea Ransom-Cooper, Co-Founder and Chief Financial Planning Officer with Zenith Wealth Partners Maggie Lake, Financial Journalist Research sources: Cerulli Associates: U.S. High-Net-Worth and Ultra-High-Net-Worth Markets, 2024 Cerulli Associates: The Cerulli Edge, U.S. Retail Investor, 2023 Alliance for Lifetime Income: Protected Retirement Income and Planning Study, 2024 Prudential Communications: Global Retirement Pulse Survey, 2025 For more about this series visit us at: https://sponsored.bloomberg.com/media/prudential/the-great-client-transfer See omnystudio.com/listener for privacy information.",
+      "duration": "1077",
+      "old_score": 28,
+      "old_label": "skip",
+      "qwen": {
+        "id": "d993eb8848234ec6668bfacc",
+        "score": 40,
+        "tier": "scan",
+        "reason": "Sponsored content on wealth transfer not aligned with DJ's core focus areas.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "bac25b512ffcb269d5911314",
+      "show_name": "The James Altucher Show",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Dan Harris: Meditation for Fidgety Skeptics [From the Archive]",
+      "link": "https://art19.com/shows/the-james-altucher-pod/episodes/2c30a670-4ef2-42a6-b6e7-fc144fab535b",
+      "published": "2026-07-26T07:00:00+00:00",
+      "summary": "Episode Description: This is a From the Archive episode with Dan Harris. Dan Harris returns to the show for a wide-ranging conversation about meditation without the incense, jargon, or grandiose promises. James begins with Dan’s story: his work at ABC News, his public panic attack, his substance abuse, his reporting from war zones, and the recovery path that led him to meditation. Dan’s first book, 10% Happier , made the case that meditation could be useful even for skeptics, strivers, journalists, and people who do not identify with traditional spirituality. This episode focuses on the next step: how to actually start. Dan’s book Meditation for Fidgety Skeptics , written with meditation teacher Jeff Warren and Carlye Adler, tries to remove the usual excuses. You do not need to sit for an hour. You do not need a cushion. You do not need to clear your mind. You do not need to become a different person. You can start with one minute. James and Dan discuss the difference between useful self-reflection and useless rumination, why ambition and meditation are not opposites, and why mindfulness is really the ability to see what is happening in your head without automatically believing it or acting on it. They also get into the science. Dan is careful not to oversell it, but he explains why early research suggests meditation may affect attention, stress, compassion, self-awareness, and the brain’s capacity to change. James adds that the most important experiment is often the simplest one: try it for yourself and see whether your life is better in a month. The emotional center of the conversation is Dan’s relationship with his wife, Bianca. Dan describes how meditation helped him become less self-centered and more available, while Bianca found her own version of practice through Jeff Warren’s “Taking Back Lazy” approach. Her practice began inside real life: lying in the dark while putting their son to bed. The episode then expands into money, news, politics, and productivity. James argues that meditation can improve financial outcomes indirectly by freeing energy, reducing useless thought loops, increasing creativity, and making a person more useful to others. Dan talks about varied news diets, tribalism, and why mindfulness can help people disagree without becoming consumed by antagonism. The result is a practical archive conversation about mental training, not mystical transformation. Meditation will not solve everything. It may not make you 100% happier. But it can help you become 10% less reactive, 10% less self-absorbed, 10% more aware, and 10% more capable of dealing with the life you already have. Editorial Note: This is a From the Archive episode. References to Dan’s ABC role, the original 10% Happier app, user counts, current events, and the release timing of Meditation for Fidgety Skeptics reflect the original recording period. Dan’s current official site now directs listeners to his books, podcast, newsletter, and meditation app/community. The original app world has evolved since this archive conversation. What You’ll Learn: Why Dan Harris became a meditation advocate after his on-air panic attack. Why meditation does not require mystical language, spiritual identity, or long sessions. How mindfulness helps separate awareness from thinking. Why ambition and meditation can coexist. How meditation can reduce useless rumination without eliminating useful self-correction. Why Dan describes self-centeredness as a source of suffering. How “friendliness” can change the way you relate to anger, distraction, and failure during meditation. Why one minute of practice can be enough to start. How Jeff Warren helped Dan’s wife Bianca find a meditation practice that fit her real life. Why meditation can improve relationships by making people less owned by their own stress. How meditation may relate to money, creativity, and better decision-making. Why training the mind is broader than formal sitting practice. How neuroplasticity changes th",
+      "duration": "01:23:00",
+      "old_score": 0,
+      "old_label": "skip",
+      "qwen": {
+        "id": "bac25b512ffcb269d5911314",
+        "score": 30,
+        "tier": "skip",
+        "reason": "Meditation discussion is off-topic for DJ's professional interests.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "9733549111931408ed86a422",
+      "show_name": "Founders",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "#426 How Obsession Built Christopher Nolan",
+      "link": "",
+      "published": "2026-07-26T00:08:00+00:00",
+      "summary": "Obsession is the engine of Nolan’s career. This episode examines Christopher Nolan’s life, working methods, and philosophy through The Nolan Variations by Tom Shone. Made possible by: Ramp: ⁠⁠⁠https://ramp.com⁠⁠⁠ Applovin: ⁠⁠⁠https://www.applovin.com⁠ Vanta: ⁠⁠⁠https://vanta.com/founders⁠ ⁠Add your email here⁠ and I will send you my top 10 quotes from every episode: https://davidsenra.substack.com",
+      "duration": "3084",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "9733549111931408ed86a422",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Episode on Christopher Nolan's obsession may offer indirect creative insights but is not core to DJ's focus.",
+        "confidence": "low"
+      }
+    }
+  ]
+}

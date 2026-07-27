@@ -1,0 +1,171 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-06-27_2104",
+  "usage": {
+    "prompt_tokens": 3189,
+    "completion_tokens": 604,
+    "total_tokens": 3793
+  },
+  "episodes": [
+    {
+      "id": "91931ead2db4cb896322f30a",
+      "show_name": "Big Technology Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Anthropic’s Mythos is Back, OpenAI Releases GPT 5.6, Apple’s Price Increases",
+      "link": "",
+      "published": "2026-06-27T15:16:00+00:00",
+      "summary": "Ranjan Roy from Margins is back for our weekly discussion of the latest tech news. We cover: 1) Mythos is back 2) OpenAI releases GPT-5.6 to a small group 3) Should the government pick winners? 4) Is this a blessing to open source AI? 5) Is the gating of frontier models bad for these companies businesses? 6) Frontier lab customers are finding cheaper ways to do business 7) There's a bunch of overbilling happening in opaque AI systems 8) Is SpaceX's valuation frothy? 9) Apple's price raises: Greed or not? 10) Apple's impact on the memory space 11) Rest in peace, Om Malik --- Enjoying Big Technology Podcast? Please rate us five stars ⭐⭐⭐⭐⭐ in your podcast app of choice. Want a discount for Big Technology on Substack + Discord? Here’s 25% off for the first year: https://www.bigtechnology.com/subscribe?coupon=0843016b Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "duration": "3522",
+      "old_score": 32,
+      "old_label": "skip",
+      "qwen": {
+        "id": "91931ead2db4cb896322f30a",
+        "score": 78,
+        "tier": "digest",
+        "reason": "Covers OpenAI, Anthropic, and AI pricing dynamics with strategic implications.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "b2db675a0abdec4f9ea2a3e3",
+      "show_name": "The Cognitive Revolution",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "AI:AM #4: Cameron on Model Consciousness, Duvenaud's Gradual Disempowerment, swyx's AI-Eng Alpha",
+      "link": "https://www.cognitiverevolution.ai/ai-am-4-cameron-on-model-consciousness-duvenaud-s-gradual-disempowerment-swyx-s-ai-eng-alpha/",
+      "published": "2026-06-27T13:47:07+00:00",
+      "summary": "This AI:AM highlights cut brings together Cameron Berg, David Duvenaud, Michiel Bakker, Shawn “swyx” Wang, and Bing Xu to examine what we understand about frontier AI systems and what happens as more decisions move into their hands. Berg grounds model-consciousness debates in experiments on architecture, agency, valence, and welfare, while Duvenaud argues that even well-aligned AI could gradually disempower humans through ordinary economic choices. Bakker frames Europe’s AI challenge as a sovereignty problem, and swyx turns to practitioner stakes around agents, evals, maintainable code, and who owns the system of record. Xu closes the loop at the infrastructure layer, arguing that self-improving compute and GPU-kernel automation may deepen rather than weaken the CUDA moat. For full show notes, links, and references, read the episode page:https://www.cognitiverevolution.ai/ai-am-4-cameron-on-model-consciousness-duvenaud-s-gradual-disempowerment-swyx-s-ai-eng-alpha/ Mercury: Command is Mercury’s new conversational interface, giving you natural-language access to your finances and helping you take actions within your existing permissions and approval policies. Visit https://mercury.com to learn more and apply online in minutes. Sponsor: Claude: Claude by Anthropic is an AI collaborator that understands your workflow and helps you tackle research, writing, coding, and organization with deep context. Get started with Claude and explore Claude Pro at https://claude.ai/tcr CHAPTERS: (00:00) About the Episode (00:38) Special Sponsor (02:26) Model consciousness indicators (10:47) Valence inside models (Part 1) (17:09) Sponsor: Claude (19:01) Valence inside models (Part 2) (19:01) Misalignment and uncertainty (25:16) Gradual disempowerment threat (35:10) Slow zones and successors (47:41) Europe's AI bind (55:13) Frontier code benchmarks (01:01:59) Routing and memory (01:10:42) Agent infrastructure strain (01:16:25) Self improving infrastructure (01:27:56) Routing compute costs (01:35:39) Sovereign AI financing (01:42:24) Judging AI judges (01:47:26) Building AI DNA (01:52:38) Episode Outro (01:55:09) Outro PRODUCED BY: https://aipodcast.ing SOCIAL LINKS: Website: https://www.cognitiverevolution.ai Twitter (Podcast): https://x.com/cogrev_podcast Twitter (Nathan): https://x.com/labenz LinkedIn: https://linkedin.com/in/nathanlabenz/ Youtube: https://youtube.com/@CognitiveRevolutionPodcast Apple: https://podcasts.apple.com/de/podcast/the-cognitive-revolution-ai-builders-researchers-and/id1669813431 Spotify: https://open.spotify.com/show/6yHyok3M3BjqzR0VB5MSyk",
+      "duration": "6982",
+      "old_score": 59,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "b2db675a0abdec4f9ea2a3e3",
+        "score": 85,
+        "tier": "listen",
+        "reason": "Deep dive into AI consciousness, alignment risks, and infrastructure implications from credible voices.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "111786820b1c68fbc1c46800",
+      "show_name": "Masters of Scale",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Pioneers of AI: Reid Hoffman says the AI race is not a cage match",
+      "link": "",
+      "published": "2026-06-27T09:00:00+00:00",
+      "summary": "Anthropic and OpenAI’s plans to go public have set off waves of speculation about the ripple effects, and how they’ll stack up to the SpaceX IPO. What’s really driving the value of these companies? Does the timing of the IPOs matter? How might they impact the AI startup ecosystem? To process all this, Pioneers of AI phones a friend: Reid Hoffman. As co-founder of LinkedIn and Manas AI, a longtime Microsoft board member, investor in OpenAI and Anthropic, and so much more, Reid offers his take on the AI investing landscape. Rana and Reid break down the IPO headlines, sovereign wealth fund proposals for AI, and what’s defensible in AI today. Learn more about Pioneers of AI: http://pioneersof.ai/ Follow Pioneers of AI on all channels: https://linktr.ee/pioneersofai See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info .",
+      "duration": "00:35:42",
+      "old_score": 67,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "111786820b1c68fbc1c46800",
+        "score": 82,
+        "tier": "digest",
+        "reason": "Reid Hoffman offers rare insight into AI company valuations and IPO strategy.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "16d1ccf83a8323e7121c2b9b",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "No Mercy / No Malice: World Cup Experience",
+      "link": "",
+      "published": "2026-06-27T08:03:00+00:00",
+      "summary": "As read by George Hahn. https://profgmedia.substack.com/p/world-cup-experience Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "1015",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "16d1ccf83a8323e7121c2b9b",
+        "score": 40,
+        "tier": "scan",
+        "reason": "Substack read with unclear relevance to AI or capital allocation frameworks.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "281c05629066191975f10520",
+      "show_name": "Odd Lots",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "How Lenovo's CFO Is Allocating Capital During One of History's Biggest Booms",
+      "link": "https://omny.fm/shows/odd-lots/how-lenovos-cfo-is-allocating-capital-during-one-of-historys-biggest-booms",
+      "published": "2026-06-27T08:00:00+00:00",
+      "summary": "We know that companies around the world are investing heavily in AI. So intense is the race to win the AI battle, that it feels like there's almost no upward limit on how much you could spend on it. So how are CFOs thinking about capex in the AI age? In this episode we speak with Winston Cheng, CFO of Chinese-founded multinational tech firm Lenovo. Lenovo is known for its personal computers, especially its Thinkpad line of laptops, but they are making a push to move beyond its role as one of the leaders in personal computing, integrating AI agents into their devices and investing in building out an “AI Cloud” infrastructure alongside Nvidia. We talk to Cheng about how Lenovo's allocating capital during one of the biggest capex booms in history. We also discuss involution and market competition in China, and how Lenovo's been adapting its supply chain to tariffs. Read more: AI Sales Start to Justify Data-Center Spending Boom, Report Says Anthropic Accuses Alibaba of ‘Illicitly’ Accessing AI Models Only Bloomberg - Business News, Stock Markets, Finance, Breaking & World News subscribers can get the Odd Lots newsletter in their inbox each week, plus unlimited access to the site and app. Subscribe at bloomberg.com/subscriptions/oddlots Subscribe to the Odd Lots Newsletter Join the conversation: discord.gg/oddlots See omnystudio.com/listener for privacy information.",
+      "duration": "3372",
+      "old_score": 38,
+      "old_label": "skip",
+      "qwen": {
+        "id": "281c05629066191975f10520",
+        "score": 88,
+        "tier": "listen",
+        "reason": "Lenovo CFO discusses real-world capex decisions in AI hardware and global supply chains.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "b35f6174658d3dc8dc4f113f",
+      "show_name": "The Twenty Minute VC",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "20VC: How We Got Fred Wilson, Benchmark and Index to Invest $94M | Why Robinhood's Strategy is Wrong | Why 1-1s are BS and What Every Founder Gets Wrong About Equity | Why Taste Beats AI But How AI Kills Org Charts with Paul Erlanger, CEO @ fomo",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-how-we-got-fred-wilson-benchmark-and-index-to-invest-94m-why-robinhoods-strategy-is-wrong-why-1-1s-are-bs-and-what-every-founder-gets-wrong-about-equity-why-taste-beats-ai-but-how-ai-kills-org-charts-with-paul-erlanger-ceo-fomo",
+      "published": "2026-06-27T07:08:00+00:00",
+      "summary": "Paul Erlanger is the Co-Founder and CEO of FOMO, the social-first trading platform building the future of on-chain investing. Since founding the company in 2025, Paul has raised approximately $94 million, including a $17 million Series A led by Benchmark and a $75 million Series B led by Index Ventures with participation from USV, valuing the company at $550 million. Today, FOMO has grown to 600,000 users, processed over $4 billion in trading volume, and is adding thousands of new users every day—all with a team of just 17 people. AGENDA: 00:00 – Building a $550M Company with No Salaries, No Managers & No 1:1s 03:58 – Why Traditional Brokerages Will Lose in the Next 10 Years 09:30 – Why Robinhood's Strategy Is Wrong; The End of the Financial Super App? 13:05 – \"Markets Aren't a Casino\" — The Case for Retail Investors Fighting Wall Street 16:45 – The Radical Hiring Bet: Giving Employees Founder-Level Equity 23:40 – AI Kills Org Charts: Why FOMO Will Stay Under 25 Employees 29:30 – Why Taste Beats AI & The Biggest Mistake Most Consumer Startups Make 33:10 – The Social Media Playbook That Every Startup Gets Wrong 39:20 – How Benchmark, Index & USV Won the Deal—and the VC Advice Founders Need to Hear 46:10 – The Future of Investing: Social Trading, Creator Economies & Financial Networks",
+      "duration": "57:12",
+      "old_score": 46,
+      "old_label": "skip",
+      "qwen": {
+        "id": "b35f6174658d3dc8dc4f113f",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Interesting take on AI-driven org design and equity models in startups.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "44a93bfcade130731f7a7720",
+      "show_name": "People I Mostly Admire",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "28. Professor Carl Hart Argues All Drugs Should Be Legal — Can He Convince Steve?",
+      "link": "https://www.siriusxm.com",
+      "published": "2026-06-27T00:00:00+00:00",
+      "summary": "As a neuroscientist and psychology professor at Columbia University who studies the immediate and long-term effects of illicit substances, Carl Hart believes that all drugs — including heroin, methamphetamines, and cocaine — should be legalized. Steve talks to Carl about his new book, Drug Use for Grown-Ups , and Carl tells Steve why decriminalizing drugs is as American as apple pie. This episode originally aired on May 21st, 2021. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:44:32",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "44a93bfcade130731f7a7720",
+        "score": 30,
+        "tier": "skip",
+        "reason": "Drug policy discussion outside DJ's core interests in tech and capital allocation.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "69b117fafb3b771eba5c3fa7",
+      "show_name": "All-In Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Socialists Sweep NYC, China Catches Up in Coding, AI Memory Crunch, Micron's Blowout Quarter",
+      "link": "https://allinchamathjason.libsyn.com/socialists-sweep-nyc-china-catches-up-in-coding-ai-memory-crunch-microns-blowout-quarter",
+      "published": "2026-06-26T23:53:00+00:00",
+      "summary": "(0:00) Gavin Baker and Travis Kalanick join the show! (1:05) Mamdani-endorsed socialists sweep congressional primaries in NYC (22:51) Future of the Democratic Party, the Israel issue, social media bans (45:12) China's open-source AI catch up, distillation, OpenAI's new chip (1:01:46) Micron smashes earnings, AI's memory crunch hitting Apple and consumer hardware (1:10:17) The math behind distributed compute and datacenters in space (1:27:22) IPO update: Anthropic at $3T, SpaceX float, Cerebras drops after breaking deal price Follow Gavin: https://x.com/GavinSBaker Follow Travis: https://x.com/travisk Apply for Summit 2026: https://allin.com/events Follow the besties: https://x.com/chamath https://x.com/Jason https://x.com/DavidSacks https://x.com/friedberg Follow on X: https://x.com/theallinpod Follow on Instagram: https://www.instagram.com/theallinpod Follow on TikTok: https://www.tiktok.com/@theallinpod Follow on LinkedIn: https://www.linkedin.com/company/allinpod Intro Music Credit: https://rb.gy/tppkzl https://x.com/yung_spielburg Intro Video Credit: https://x.com/TheZachEffect Referenced in the show: https://abcnews.com/Politics/clean-sweep-3-candidates-endorsed-mamdani-win-primaries/story?id=134152579 https://polymarket.com/event/mamdani-team-sweeps-primaries-20260618232357710 https://x.com/thestustustudio/status/2067356255916536120 https://www.nbcnews.com/politics/2026-election/espaillat-ny-house-primary-loss-district-13-avila-chevalier-rcna351127 https://x.com/EndWokeness/status/2069645066252034288 https://x.com/america/status/2069622732279402804 https://x.com/realmaalouf/status/2069433391162798337 https://x.com/JoshBlockDC/status/2070108811851882691 https://x.com/EndWokeness/status/2069776474429624684 https://x.com/EndWokeness/status/2068829255786803368 https://www.pewresearch.org/short-reads/2026/04/07/negative-views-of-israel-netanyahu-continue-to-rise-among-americans-especially-young-people https://x.com/PirateWires/status/2069146641266094417 https://www.wsj.com/economy/the-data-center-boom-is-sparking-a-third-wave-of-inflation-926adc6e https://x.com/jietang/status/2067580270078030088",
+      "duration": "01:41:43",
+      "old_score": 44,
+      "old_label": "skip",
+      "qwen": {
+        "id": "69b117fafb3b771eba5c3fa7",
+        "score": 80,
+        "tier": "digest",
+        "reason": "Micron's AI memory trends and China's AI coding progress offer market insights.",
+        "confidence": "high"
+      }
+    }
+  ]
+}

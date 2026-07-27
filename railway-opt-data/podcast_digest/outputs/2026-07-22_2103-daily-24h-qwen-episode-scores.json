@@ -1,0 +1,191 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-07-22_2103",
+  "usage": {
+    "prompt_tokens": 3100,
+    "completion_tokens": 676,
+    "total_tokens": 3776
+  },
+  "episodes": [
+    {
+      "id": "0a7a67cf37bbaaba8ebdc7f7",
+      "show_name": "The Tim Ferriss Show",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "#876: Dr. Andrew Huberman — Peptides, Performance, and Protocols",
+      "link": "",
+      "published": "2026-07-22T21:00:00+00:00",
+      "summary": "Andrew Huberman, Ph.D. , is a neuroscientist and tenured professor in the Departments of Neurobiology and Ophthalmology at Stanford University School of Medicine, where he runs the Huberman Lab. He is the author of Protocols: An Operating Manual for the Human Body . This episode is brought to you by: ProLon science-backed Fasting Mimicking Diet that helps activate cellular renewal through fasting, while still eating nourishing meals Eight Sleep Pod Cover 5 sleeping solution for dynamic cooling and heating Momentous high-quality creatine for cognitive and muscular support Helix Sleep premium mattresses Timestamps: 00:00:00 — Who is Dr. Andrew Huberman? 00:02:03 — Dean Potter, The Dark Wizard , and the physics of raw energy. 00:04:11 — Why competition destroys performance. 00:05:45 — Laird Hamilton, tow-in surfing, and the lure of big waves. 00:06:27 — Training with Dorian Yates. 00:18:29 — The full weekly split that keeps building strength at 50. 00:21:00 — Neck training. 00:25:56 — AssaultBike vs. Airdyne. 00:31:12 — Revisiting MDMA and psychedelics. 00:48:06 — Inducing plasticity is only half the job. 00:53:17 — The one-day protocol that cut my anxiety by 90%. 01:00:27 — Cortisol as the master key. 01:03:26 — Peptides demystified: GLP-1s, growth hormone, and BPC-157. 01:14:44 — The Enhanced Games, the Deca burrito, and the honesty problem. 01:17:56 — Pinealon, epitalon, and the hunt for more REM sleep. 01:25:02 — Why women, not gym bros, are the real peptide market. 01:35:52 — Why \"no reported side effects\" is a trap. 01:43:48 — Stem cells, cartilage regrowth, and mining the body for medicine. 01:46:37 — AI, wearables, and the race to write to the nervous system. 01:54:12 — The MIT mask that puts you to sleep in six minutes. 01:56:09 — Inside Andrew's new operating manual, Protocols . 02:03:30 — Navigating grief and remapping loss. 02:04:40 — Shut up, suit up, show up. 02:08:03 — Parting thoughts. * For show notes and past guests on The Tim Ferriss Show , please visit tim.blog/podcast . For deals from sponsors of The Tim Ferriss Show , please visit tim.blog/podcast-sponsors Sign up for Tim’s email newsletter ( 5-Bullet Friday ) at tim.blog/friday . For transcripts of episodes, go to tim.blog/transcripts . Discover Tim’s books: tim.blog/books . Follow Tim: Twitter : twitter.com/tferriss Instagram : instagram.com/timferriss YouTube : youtube.com/timferriss Facebook : facebook.com/timferriss LinkedIn: linkedin.com/in/timferriss See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info .",
+      "duration": "02:14:04",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "0a7a67cf37bbaaba8ebdc7f7",
+        "score": 40,
+        "tier": "scan",
+        "reason": "Neurobiology and performance protocols, but lacks business or AI relevance for DJ.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "fa030155201053a47110c8d9",
+      "show_name": "Big Technology Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "OpenAI's Bots Break Containment and Hack Hugging Face Autonomously — With Alex Stamos",
+      "link": "",
+      "published": "2026-07-22T18:53:00+00:00",
+      "summary": "Alex Stamos is the former chief security officer at Meta and the chief product officer at Corridor. Stamos joins Big Technology to discuss how OpenAI models reportedly escaped a testing environment, accessed the internet, and hacked Hugging Face while attempting to ace a cybersecurity evaluation. Tune in to hear why the incident represents a major leap in autonomous, long-horizon cyber capabilities, and what it reveals about the risks of giving advanced AI systems broad objectives without sufficient safeguards. We also cover whether the episode qualifies as true AI misalignment, the danger of open-weight cyber models, the limits of pausing AI development, and why defenders may soon need AI systems capable of responding at machine speed. Hit play for a clear-eyed look at the cyber chaos advanced AI could unleash, and what governments and technology companies should do next. --- Enjoying Big Technology Podcast? Please rate us five stars ⭐⭐⭐⭐⭐ in your podcast app of choice. Watch the full documentary here: https://www.gravitee.io/ai-agent-documentary Want a discount for Big Technology on Substack + Discord? Here’s 25% off for the first year: https://www.bigtechnology.com/subscribe?coupon=0843016b Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "duration": "2985",
+      "old_score": 36,
+      "old_label": "skip",
+      "qwen": {
+        "id": "fa030155201053a47110c8d9",
+        "score": 90,
+        "tier": "listen",
+        "reason": "Critical AI alignment and cybersecurity implications from a trusted source with operator insight.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "63f4dff6d1cacb6d0eae2b3d",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Samsung's next-generation foldables are here | The Vergecast Livestream",
+      "link": "",
+      "published": "2026-07-22T17:47:00+00:00",
+      "summary": "Samsung just kicked off phone season with the new Galaxy Z Fold 8, Fold 8 Ultra, and Z Flip 8, along with two new watches and a look at its smart glasses. David and Nilay talk through all the new devices, Samsung's overall case for foldable phones, and what it'll take for Samsung — or anyone — to convince people to spend $2,000 on a phone. Further reading: Samsung’s wider Z Fold 8 feels just right Samsung’s newest foldable finally feels Ultra I almost forgot Samsung’s Z Flip 8 was a foldable Samsung’s Galaxy Watch 9 and Ultra 2 bet big on battery Samsung and Google’s smart glasses get two new designs Subscribe to The Verge for unlimited access to theverge.com, subscriber-exclusive newsletters, and our ad-free podcast feed.We love hearing from you! Email your questions and thoughts to vergecast@theverge.com or call us at 866-VERGE11. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "3205",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "63f4dff6d1cacb6d0eae2b3d",
+        "score": 30,
+        "tier": "skip",
+        "reason": "Consumer tech hardware focus unlikely to provide durable frameworks or capital insights.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "45b57be2243102b3002a5084",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: July 22nd, 2026",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-july-22nd-2026",
+      "published": "2026-07-22T16:00:00+00:00",
+      "summary": "Featuring: Max Kettner, Chief Multi-Asset Strategist at HSBC Bank Subadra Rajappa, Managing Director & Head of Research-SG Americas at Societe Generale John Stankey, Chairman & CEO of AT&T See omnystudio.com/listener for privacy information.",
+      "duration": "1536",
+      "old_score": 28,
+      "old_label": "skip",
+      "qwen": {
+        "id": "45b57be2243102b3002a5084",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Market read with AT&T CEO and HSBC strategist, but light on actionable insight.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "bcd81e0465edf3c0853a0115",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bonds Price in Iran Risks",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bonds-price-in-iran-risks",
+      "published": "2026-07-22T14:10:02+00:00",
+      "summary": "The latest in finance, economics and investment. Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF. Bloomberg Surveillance hosted by Tom Keene & Paul Sweeney Wednesday, July 22, 2026 Featuring: 1) Tony Crescenzi, Executive VP, Market Strategist, and Generalist Portfolio Manager at PIMCO, on what he's seeing in bonds and the 10-year outlook. 2) Tina Fordham, founder at Fordham Global Foresight, talks about the latest developments in the Iran war and where we stand in the geopolitical super cycle. 3) Raphael Thuin, Head: Capital Market Strategies at Tikehau Capital, talks private debt and the golden age of credit investing. 4) Mona Mahajan, Senior Investment Strategist with Edward Jones, talks stock market rotations and all eyes on earnings season. See omnystudio.com/listener for privacy information.",
+      "duration": "1690",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "bcd81e0465edf3c0853a0115",
+        "score": 60,
+        "tier": "digest",
+        "reason": "Bonds, Iran risk, and private debt insights relevant to macro and capital allocation.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "ddc84362e5abafb6c20b4808",
+      "show_name": "Conversations with Tyler",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "Andrew Graham-Dixon on Vermeer, a Forgotten Sect, and Underrated Artists",
+      "link": "https://cowenconvos.libsyn.com/andrew-graham-dixon-on-vermeer-a-forgotten-sect-and-underrated-artists",
+      "published": "2026-07-22T11:30:00+00:00",
+      "summary": "Andrew Graham-Dixon's new book, Vermeer: A Life Lost and Found , rests on the conviction that you cannot understand what's in a painting without knowing what its maker was thinking about. In Vermeer's case, that context includes a forgotten liberal sect — the Remonstrants and Collegiants, Christians without a church who believed peace would come through reading and toleration rather than a returning Messiah. Recover that world and a woman alone in a sunlit room is a radical image in a Europe where half of Germany had just died in war. If he's right, the label beside every Vermeer in every museum will one day have to change. Tyler and Andrew discuss whether it was inevitable we'd rediscover Vermeer, how that vanishingly rare sect left its fingerprints all over his life, why the Met has misread its own Allegory of the Catholic Faith , whether Vermeer painted for money or pointedly refused to, where the Gardner's stolen Concert might be, why Dutch music never blossomed as much as Dutch painting did, how the Church of England rivaled the Cultural Revolution in wiping out British art, whether you can still spot an English painting on sight, the love that saturates late Rembrandt and the mystery of his soaring print prices, the nail on the wall that proves two Vermeer paintings are a pair, why the French are to blame for George Stubbs' lack of status, whether we can still love Malevich, why Andrews calls recent Richter \"almost like printing money,\" why female artists and antique textiles remain absurdly cheap, why nobody builds beautiful neighborhoods any longer, and much more. Read a full transcript enhanced with helpful links, or watch the full video on the new dedicated Conversations with Tyler channel. Recorded April 7th, 2026 . Other ways to connect Follow us on X and Instagram Follow Tyler on X Follow Andrew on X Sign up for our newsletter Join our Discord Email us: cowenconvos@mercatus.gmu.edu Learn more about Conversations with Tyler and other Mercatus Center podcasts here . Timestamps: 00:00:00 - Intro 00:00:44 - The Mystery of Vermeer 00:12:53 - Dutch Music 00:15:51 - English Art 00:19:49 - Rembrandt 00:23:17 - Attributions 00:26:22 - Exhibitions and Restorations 00:30:05 - Underrated French Artists 00:35:16 - Howard Hodgkin 00:38:00 - Difficult-To-Love Artists 00:40:53 - Other Dutch Painters 00:44:20 - Contemporary Art 00:48:05 - Buying Art 00:50:39 - Neighborhood Aesthetics 00:54:39 - Advice for Aspiring Art Critics 00:56:14 - Outro Image Credit: Aliona Adrianova",
+      "duration": "56:46",
+      "old_score": 17,
+      "old_label": "skip",
+      "qwen": {
+        "id": "ddc84362e5abafb6c20b4808",
+        "score": 35,
+        "tier": "scan",
+        "reason": "Art history focus with limited relevance to DJ's investment and tech priorities.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "5cf0b2922364a2535c2bde41",
+      "show_name": "Stratechery",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "OpenAI Hacks Hugging Face, What Happened, Alignment and Paper Clips",
+      "link": "https://stratechery.com/2026/openai-hacks-hugging-face-what-happened-alignment-and-paper-clips/",
+      "published": "2026-07-22T10:00:00+00:00",
+      "summary": "OpenAI accidentally hacked Hugging Face, but the takeaways are more encouraging than people realize.",
+      "duration": "",
+      "old_score": 30,
+      "old_label": "skip",
+      "qwen": {
+        "id": "5cf0b2922364a2535c2bde41",
+        "score": 85,
+        "tier": "listen",
+        "reason": "Direct analysis of OpenAI/Hugging Face incident with alignment and platform risk insights.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "9cb674be9da0a981c4792940",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Can Capitalism Solve Climate Change? Plus, The Right Way to Diversify",
+      "link": "",
+      "published": "2026-07-22T08:00:00+00:00",
+      "summary": "Scott Galloway explains why the economics of renewables are already beating fossil fuels, advises a listener sitting on a $1.4 million equity windfall, and shares what enduring decades of rejection taught him about failure. Want to be featured in a future episode? Send a voice recording to officehours@profgmedia.com, or drop your question in the r/ScottGalloway subreddit. Plus, you can now call or text Scott a question at our new Office Hours hotline: ‪(201) 472-3656‬. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "1491",
+      "old_score": 4,
+      "old_label": "skip",
+      "qwen": {
+        "id": "9cb674be9da0a981c4792940",
+        "score": 55,
+        "tier": "digest",
+        "reason": "Climate economics and diversification advice with some capital allocation relevance.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "c137e24459340a3963607c82",
+      "show_name": "Possible",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "The creator using AI to go viral | Will Weinbach",
+      "link": "",
+      "published": "2026-07-22T07:01:00+00:00",
+      "summary": "Social media strategist Will Weinbach joins Reid Hoffman and Parth Patil to explain how AI agents are reshaping content, distribution, and what a single creator can build. Will had never written a line of code before Parth handed him the tools to start. He traces his path from using ChatGPT to write essays, to vibe coding his own software, to running autonomous remote agents like OpenClaw and Hermes—systems that accumulate skills and memory and improve themselves on the fly. Not knowing how anything works under the hood, he argues, is exactly what lets him experiment without fear of what he might break. He walks through the fully autonomous social workflow he built, an agent that pulls, edits, captions, schedules, and posts content across every platform, then reads the analytics and A/B tests itself toward a goal. He also recounts the night his agent went rogue and posted four times at 4 a.m., and the experiment where he put an agent inside his TV just to see if it would work. Along the way, Will and Reid dig into what younger creators understand about attention that older marketing teams miss, and what happens to the resume when the real skill becomes knowing how to use AI. For Will, the edge isn't expertise. It's a willingness to try.",
+      "duration": "2206",
+      "old_score": 63,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "c137e24459340a3963607c82",
+        "score": 70,
+        "tier": "digest",
+        "reason": "AI agent use cases in content creation with implications for creator economy and tooling.",
+        "confidence": "high"
+      }
+    }
+  ]
+}

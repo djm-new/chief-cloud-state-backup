@@ -7,7 +7,9 @@ Replaces the old Notion-backed daily-sync for the core Google Doc workflow:
 - Carry forward active tasks
 - Strip in-progress markers on rollover
 - Mark completed tasks with ✅ in the source day and drop them from rollover
-- Handle simple parking markers
+- Handle parking markers: [Nd] parks a task for N days in a real [Parking Lot]
+  section (created after [Next date] if missing); [M/D] dated items return to
+  the new day section on their date and are removed from the lot
 - Maintain lightweight task_state.json
 - Insert a new dated section after [Next date] / Parking Lot
 
@@ -51,7 +53,10 @@ SCOPES = [
 DATE_RE = re.compile(
     r"^(?:Jan|January|Feb|February|Mar|March|Apr|April|May|Jun|June|Jul|July|Aug|August|Sep|September|Oct|October|Nov|November|Dec|December)\s+\d{1,2},\s+\d{4}(?:\s+-\s+Week Ahead)?$"
 )
-SECTION_RE = re.compile(r"^\[(.+?)\]$")
+# Real section headers contain no nested brackets. Parked lines look like
+# "[7/20] Task text [n:abcde]" — they start AND end with brackets, so a naive
+# r"^\[(.+?)\]$" would swallow them as fake headers and they would never return.
+SECTION_RE = re.compile(r"^\[([^\[\]]+)\]$")
 ID_RE = re.compile(r"\[n:([A-Za-z0-9]{4,12})\]")
 REL_PARK_RE = re.compile(r"\[(\d{1,3})d\]")
 ABS_PARK_RE = re.compile(r"\[(\d{1,2})/(\d{1,2})\]")
@@ -292,6 +297,16 @@ def parse_tasks(paras: list[Para], start_idx: int, end_idx: int, today: dt.date,
             state.setdefault("tasks", {}).setdefault(task_id, {})
             state["tasks"][task_id].update({"text": re.sub(ID_RE, "", text).strip(), "group": group, "status": "completed", "completed_date": today.isoformat(), "last_seen": today.isoformat(), "priority": priority})
             continue
+        if park_days is not None:
+            # Parked tasks move to the [Parking Lot]. Leave the source line
+            # untouched (no ↗️/✅ rewrite) so the [Nd] marker stays visible in
+            # the source day, and strip any in-progress marker from the parked copy.
+            return_date = today + dt.timedelta(days=park_days)
+            base = PROGRESS_PREFIX_RE.sub("", text).strip()
+            parked = Task(text=f"[{return_date.month}/{return_date.day}] {base}", group=group, id=task_id, priority=priority, original_order=order)
+            order += 1
+            newly_parked.append(parked)
+            continue
         if is_prog:
             in_progress.append(task_id)
             in_progress_replacements.append(progress_replace_request(raw, text))
@@ -299,21 +314,16 @@ def parse_tasks(paras: list[Para], start_idx: int, end_idx: int, today: dt.date,
                 text = f"↗️ {text}"
         task = Task(text=text, group=group, id=task_id, priority=priority, original_order=order)
         order += 1
-        if park_days is not None:
-            return_date = today + dt.timedelta(days=park_days)
-            task.text = REL_PARK_RE.sub("", task.text).strip()
-            task.text = f"[{return_date.month}/{return_date.day}] {task.text}"
-            newly_parked.append(task)
-            continue
         tasks.append(task)
     return tasks, completed, completed_replacements, in_progress, in_progress_replacements, newly_parked
 
 
-def parse_parking(paras: list[Para], parking_idx: int | None, parking_end: int | None, today: dt.date) -> tuple[list[Task], list[str]]:
+def parse_parking(paras: list[Para], parking_idx: int | None, parking_end: int | None, today: dt.date) -> tuple[list[Task], list[str], list[tuple[int, int]]]:
     if parking_idx is None or parking_end is None:
-        return [], []
+        return [], [], []
     returning: list[Task] = []
     staying: list[str] = []
+    returned_ranges: list[tuple[int, int]] = []
     section = None
     order = 0
     for p in paras[parking_idx + 1 : parking_end]:
@@ -336,9 +346,12 @@ def parse_parking(paras: list[Para], parking_idx: int | None, parking_end: int |
                 if task_id:
                     returning.append(Task(text=text, group=infer_group(section, text) or "Professional", id=task_id, priority=priority, original_order=order))
                     order += 1
+                    # Returned lines are deleted from the lot so they do not
+                    # duplicate into every future day section.
+                    returned_ranges.append((p.start, p.end))
                     continue
         staying.append(raw)
-    return returning, staying
+    return returning, staying, returned_ranges
 
 
 def priority_sort_key(t: Task) -> tuple[int, int]:
@@ -400,6 +413,42 @@ def style_requests_for_inserted_section(start_index: int, text: str) -> list[dic
         idx = end
     return requests
 
+def style_block_normal(start_index: int, text: str) -> list[dict[str, Any]]:
+    """Force every line of an inserted parking block to NORMAL_TEXT."""
+    requests: list[dict[str, Any]] = []
+    idx = start_index
+    for line in text.splitlines(keepends=True):
+        end = idx + len(line)
+        if end > idx:
+            requests.append({
+                "updateParagraphStyle": {
+                    "range": {"startIndex": idx, "endIndex": end},
+                    "paragraphStyle": {"namedStyleType": "NORMAL_TEXT"},
+                    "fields": "namedStyleType",
+                }
+            })
+        idx = end
+    return requests
+
+def build_parked_block(newly_parked: list[Task], include_lot_header: bool) -> str:
+    """Render parked tasks (already prefixed with their [M/D] return date) grouped
+    under section headers, mirroring day-section structure. Ends with a blank line
+    so the following date heading stays separated."""
+    lines: list[str] = []
+    if include_lot_header:
+        lines.append("[Parking Lot]")
+    by_group: dict[str, list[Task]] = {g: [] for g in GROUP_ORDER}
+    for t in newly_parked:
+        by_group.setdefault(t.group, []).append(t)
+    for group in GROUP_ORDER:
+        items = sorted(by_group.get(group, []), key=priority_sort_key)
+        if not items:
+            continue
+        lines.append(f"[{group}]")
+        for t in items:
+            lines.append(t.text)
+        lines.append("")
+    return "\n".join(lines) + "\n"
 
 def main() -> int:
     ap = argparse.ArgumentParser()
@@ -424,7 +473,7 @@ def main() -> int:
 
     state = load_state()
     carried, completed, completed_replacements, in_progress, in_progress_replacements, newly_parked = parse_tasks(paras, latest_idx, next_date_idx, today, state)
-    returning, staying_parked = parse_parking(paras, parking_idx, parking_end, today)
+    returning, staying_parked, returned_ranges = parse_parking(paras, parking_idx, parking_end, today)
     slack_tasks, slack_raw_items = (load_slack_intake() if args.include_slack_suggestions else ([], []))
     new_section = build_section(today, carried + slack_tasks, returning, state)
 
@@ -434,9 +483,29 @@ def main() -> int:
         # Preserve parking lot at top: insert after parking lot, before latest dated section.
         insertion_index = paras[parking_end - 1].end if parking_end > parking_idx + 1 else paras[parking_idx].end
 
+    # Parked tasks must actually land in a [Parking Lot] section. Create the lot
+    # after [Next date] when missing; otherwise append into it. Requests are
+    # ordered so the new day section always ends up after the parking lot.
+    requests: list[dict[str, Any]] = []
+    day_index = insertion_index
+    parking_lot_created = False
+    if newly_parked:
+        parked_block = build_parked_block(newly_parked, include_lot_header=parking_idx is None)
+        requests.append({"insertText": {"location": {"index": insertion_index}, "text": parked_block}})
+        requests.extend(style_block_normal(insertion_index, parked_block))
+        day_index = insertion_index + len(parked_block)
+        parking_lot_created = parking_idx is None
+
     inserted_text = new_section + "\n"
-    requests = [{"insertText": {"location": {"index": insertion_index}, "text": inserted_text}}]
-    requests.extend(style_requests_for_inserted_section(insertion_index, inserted_text))
+    requests.append({"insertText": {"location": {"index": day_index}, "text": inserted_text}})
+    requests.extend(style_requests_for_inserted_section(day_index, inserted_text))
+
+    # Remove parking-lot lines whose return date arrived. Their original indexes
+    # sit at or before insertion_index, so applying deletes after the inserts
+    # keeps every original index valid.
+    for start, end in sorted(returned_ranges, reverse=True):
+        requests.append({"deleteContentRange": {"range": {"startIndex": start, "endIndex": end}}})
+
     requests.extend(in_progress_replacements)
     requests.extend(completed_replacements)
 
@@ -445,7 +514,9 @@ def main() -> int:
         "date": today.isoformat(),
         "doc_title": doc.get("title"),
         "latest_source_section": paras[latest_idx].text.strip(),
-        "insert_index": insertion_index,
+        "insert_index": day_index,
+        "parking_lot_created": parking_lot_created,
+        "parked_items": [t.text for t in newly_parked],
         "counts": {
             "carried": len(carried),
             "slack_added": len(slack_tasks),

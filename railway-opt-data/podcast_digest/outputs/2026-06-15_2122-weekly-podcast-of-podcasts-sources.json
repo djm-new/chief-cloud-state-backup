@@ -1,0 +1,20 @@
+[
+  {
+    "show": "Training Data",
+    "episode": "LIVE: Jensen Huang on Building the Dynamo of the Intelligence Age",
+    "link": "https://trainingdata.fm",
+    "audio_url": "https://pscrb.fm/rss/p/traffic.megaphone.fm/CPUAI6013959399.mp3",
+    "section": "Listen",
+    "what": "Huang describes a fundamental shift in computing from retrieval to generation, with NVIDIA's AI factories as the new dynamos. He outlines the five layers of AI investment and debunks fears of AI-driven job loss.",
+    "why": "This is a foundational narrative on how AI will power the next economic era — from energy to applications. Huang's framing of AI as the third cocooning force (after electricity and the internet) is strategic.",
+    "page_text": "",
+    "page_meta_description": "",
+    "page_transcript_like": false,
+    "page_status": "fetch_failed:ConnectionError",
+    "audio_transcript_status": "transcribed",
+    "audio_transcript_path": "/opt/data/podcast_digest/transcripts/a67121636f2c015f/transcript.txt",
+    "audio_transcript_notes": "### Chunk 1\n- [3.4–6.2] Unnamed speaker indicates a preference for using pre-talk camera setup, implying value in authenticity or preparation for the recorded content.  \n- [10.6–14.6] Speaker references examples of \"subtle nuance\" in AI behavior, suggesting advanced contextual understanding in models.  \n- [14.6–17.8] Speaker claims AI's \"world understanding\" is becoming evident through nuanced behavior.  \n- [17.8–23.6] Speaker gave a talk onstage with Tulsi (model team lead), indicating collaboration between execs and technical teams.  \n- [24.7–27.8] Speaker asked an audience member to edit a video, showing informal or real-time post-production engagement.  \n- [27.8–30.0] Audience member \"took the picture, added it with...\" — suggests rapid, ad-hoc editing capability by attendees.  \n\n**DJ-relevant takeaways:**\n- AI models are demonstrating emergent, nuanced understanding of the world.\n- Executives like Jensen (implied) collaborate closely with model teams (e.g., Tulsi).\n- Live events and audience interaction play a role in shaping AI demo content.",
+    "audio_transcript_excerpt": "[0.0-3.4] So we could edit this set, so it looks like we're okay. [3.4-6.2] Yeah, I want us where we were talking off camera, [6.2-7.8] like we should do that for the intro, [7.8-10.6] because I think it just like makes all this stuff more capable. [10.6-14.6] I've seen these examples of like such subtle nuance [14.6-17.8] that like make me appreciate that it's like the world understanding playing out. [17.8-23.6] I was giving a talk and was on stage with with my friend Tulsi, [23.6-24.7] who leads the model team. [24.7-27.8] I had mentioned to someone in the crowd to like edit the video, [27.8-30.0] and they literally like took the picture, added it with...",
+    "source_file": "2026-06-10_2104-daily-podcast-digest-24h.md"
+  }
+]

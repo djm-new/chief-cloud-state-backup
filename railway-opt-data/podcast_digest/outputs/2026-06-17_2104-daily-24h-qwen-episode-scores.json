@@ -1,0 +1,371 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-06-17_2104",
+  "usage": {
+    "prompt_tokens": 5667,
+    "completion_tokens": 1404,
+    "total_tokens": 7071
+  },
+  "episodes": [
+    {
+      "id": "87b86aad4806fe1070b92ecb",
+      "show_name": "The Cognitive Revolution",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Radically Better Reasoning: Elicit's Andreas Stuhlmüller & Jungwon Byun on World Models for Research",
+      "link": "https://www.cognitiverevolution.ai/radically-better-reasoning-elicit-s-andreas-stuhlmuller-jungwon-byun-on-world-models-for-research/",
+      "published": "2026-06-17T20:11:22+00:00",
+      "summary": "Andreas Stuhlmüller and Jungwon Byun return to discuss how Elicit is building trusted reasoning workflows for scientific research as frontier models grow more powerful but less transparent. They explain process supervision, domain-specific reasoning primitives, and world models that make evidence, causality, and counterfactuals more inspectable. The conversation also covers life sciences use cases, evaluating conflicting evidence, automated software engineering at Elicit, token costs, Gemini, and why legible reasoning may still beat neuralese. Mercury: Command is Mercury’s new conversational interface, giving you natural-language access to your finances and helping you take actions within your existing permissions and approval policies. Visit https://mercury.com to learn more and apply online in minutes. LINKS: Elicit Research Platform Andreas Stuhlmüller Personal Site Jungwon Byun X Profile Ought Research Organization Elicit Founders Previous Episode GPT-4 Technical Report Monitoring Reasoning Models Paper Ought ICE GitHub Repository Hard-to-Verify Tasks Essay Karpathy LLM Wiki Gist Obsidian Knowledge Base App Mixpanel Analytics Platform Amplitude Analytics Platform Anthropic Tracing Thoughts Research Claude AI Chat Assistant METR Long Tasks Measurement Pi Agent Scaffold Repository Personal AI Infrastructure Repository Elicit Claude Opus Evaluation Elicit API Documentation METR Developer Productivity Study Elicit Planning Is Unsolved Rich Sutton Bitter Lesson Meta Llama AI Models Recursive San Francisco Event zero.xyz Agent Tool Access Anthropic Dynamic Workflows Coverage Sponsor: Claude: Claude by Anthropic is an AI collaborator that understands your workflow and helps you tackle research, writing, coding, and organization with deep context. Get started with Claude and explore Claude Pro at https://claude.ai/tcr",
+      "duration": "6370",
+      "old_score": 51,
+      "old_label": "skip",
+      "qwen": {
+        "id": "87b86aad4806fe1070b92ecb",
+        "score": 95,
+        "tier": "listen",
+        "reason": "Elicit founders discuss reasoning workflows, world models, and evaluating frontier models—directly relevant to DJ's AI and capital allocation interests.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "8e71ad551f3fdfe1163e77cb",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Instant Reaction: Kevin Warsh's First News Conference as Fed Chair",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/instant-reaction-kevin-warshs-first-news-conference-as-fed-chair",
+      "published": "2026-06-17T19:59:35+00:00",
+      "summary": "Bloomberg's Lisa Abramowicz and Scarlet Fu discuss remarks from Fed Chair Kevin Warsh following the Federal Reserve's latest policy decision on a special edition of Bloomberg Surveillance. Warsh vowed to restore price stability following his first policy meeting since taking the helm of the US central bank, after officials left interest rates unchanged and signaled growing support for rate hikes this year. “Persistently high prices are a burden for the American people, but the recent past need not be prologue,” Warsh said in his debut press conference as chairman. Officials “are unambiguous and unanimous. This committee will deliver price stability.” See omnystudio.com/listener for privacy information.",
+      "duration": "1937",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "8e71ad551f3fdfe1163e77cb",
+        "score": 85,
+        "tier": "digest",
+        "reason": "Insights into Fed Chair Kevin Warsh's policy stance and implications for interest rates and capital allocation.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "3675ca42838e5d232e3e30e8",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "The best headphone mic we've ever tested",
+      "link": "",
+      "published": "2026-06-17T18:56:00+00:00",
+      "summary": "Your headphones' microphone matters. A lot. And yet we never know how we sound to others, or whether we're clear to our AI assistants! So from time to time, we like to grab a bunch of headphones and put their microphones through some tough real-world tests. This time, with the help of The Verge's John Higgins, we discover the best-sounding mic we've ever tested. And no, it's not on a pair of AirPods. Not even close. Further reading: Anker’s new earbuds have the best call quality I’ve ever heard AirPods Pro 3 review: tripling down on a good thing Sennheiser’s new Momentum 5 headphones have upgraded ANC and a replaceable battery The tech world is sleeping on the most exciting Bluetooth feature in years Subscribe to The Verge for unlimited access to theverge.com, subscriber-exclusive newsletters, and our ad-free podcast feed.We love hearing from you! Email your questions and thoughts to vergecast@theverge.com or call us at 866-VERGE11. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "1950",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "3675ca42838e5d232e3e30e8",
+        "score": 30,
+        "tier": "skip",
+        "reason": "Consumer tech review on headphones—low relevance to AI, business models, or capital allocation.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "5aafe860b2038c6a88ccc169",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Instant Reaction: The Fed Decides",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/instant-reaction-the-fed-decides-16",
+      "published": "2026-06-17T18:47:59+00:00",
+      "summary": "Bloomberg's Lisa Abramowicz and Scarlet Fu break down the Federal Reserve's latest policy decision on a special edition of Bloomberg Surveillance. Federal Reserve officials left interest rates unchanged and were split over whether they expect to raise rates this year. Policymakers’ new projections indicated nine officials foresee at least one quarter-point hike this year, with six anticipating at least two. Another nine expected no move or a cut. Notably, only 18 officials out of 19 entered their projections for rates at the end of 2026. The absence of an entry suggests new Chairman Kevin Warsh, who has been critical of so-called forward guidance, declined to submit a rate forecast. In its first gathering under Warsh’s leadership, the Federal Open Market Committee voted unanimously Wednesday to hold its benchmark federal funds rate in a range of 3.5% to 3.75%. See omnystudio.com/listener for privacy information.",
+      "duration": "1778",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "5aafe860b2038c6a88ccc169",
+        "score": 80,
+        "tier": "digest",
+        "reason": "Fed rate decision breakdown and implications for economic conditions and investing.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "c1d5486c15c7893c82bcbf36",
+      "show_name": "Latent Space",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "🔬 The Self-Driving Lab — Joseph Krause, Radical AI",
+      "link": "https://www.latent.space/p/radical-ai",
+      "published": "2026-06-17T17:58:06+00:00",
+      "summary": "On the Science pod, we’ve been covering a lot of the ground on how AI is revolutionizing STEM, but one of our favorite off the record topics since our launch is which field is harder to accelerate: math , bio , or physics ? Today we’re back in Materials Science land with Radical — Unlike biological molecules that can be represented (and predicted!) by token strings, the success of materials involve many more macro complex variables like supply chains, microstructures, and manufacturing processes . If you recall the LK99 drama of 2023 , while the basic ingredients were known, part of the confusion came from the lack of disclosure around manufacturing, and therefore defeated reproducibility. There is probably no \"one-shot\" model capable of designing a material that works perfectly at scale. How Radical is accelerating materials discovery >10x the pace of DARPA/GE MACH Joseph Krause is a materials scientist through and through. And after spending his career watching industries stall out waiting for better materials, he founded Radical AI to do something about it. We recently sat down with Joseph to talk about Radical AI , materials discovery, self-driving labs, and the future of AI science. Joseph did not sugar coat anything: accelerating the materials discovery pipeline is a hard problem. But it’s one that he strongly believes we need to invest in, for the future of consumer products, aerospace, computing, and defense, and get them into every day use: “We count it as a discovery when you pick up your phone and there’s a new material sitting inside of it.” How does Joseph plan on accelerating the rate of discovery? To understand this, it’s important to understand why this is such a hard problem in the first place. The first thing to keep in mind is that the material that is manufactured is far more than a chemical formula going into it. The process of mixing, annealing, growing, or generating the final material can result in wildly different outcomes. The entire materials discovery process, both from early discovery to large scale manufacturing, needs to be understood and characterized. The Self-Driving Lab This philosophy has grown into a key insight at Radical AI: The construction of the self-driving lab. This lab is one that is not just automated, but in fact uses an “AI scientist” that combines scientific knowledge, computational techniques, and human intuition to generate and test hypotheses in an automated lab. Creating an AI scientist was key to making Radical’s self-driving labs work, since Joseph argues that no single AI model can one-shot materials. “In materials, the ground truth is the material itself. You have to be able to test it and characterize it.” Joseph talked at length about the self-driving labs at Radical. Joseph argues that experimental data is the true “moat” in this industry. An SDL functions as a closed-loop system where an AI scientist generates hypotheses, and automated robotics synthesize and characterize materials, running research campaigns in parallel rather than serially . The successes here were both on the automation side and on the science side. Radical has managed to scale their alloy discovery pipeline up to producing and characterizing 1200 alloys in six months — this nearly 10x speedup over the DARPA/GE MACH program that aimed to create 500 new alloys in a year. Joseph claims they can scale this up even more and estimates they can produce a hundred new alloys tested and characterized in a day. A truly new paradigm in high-throughput alloy experimentation. On the science side, their AI scientist proposed and tested 300 new materials, ten of which were found to have novel state-of-the-art properties that are already being further developed for commercial applications. The robustness of this first materials campaign reinforces Joseph’s claim that the moat is the lab and data. “It’s moved into elemental families or alloy families no one has ever published on before.” Interestingly, Radical’s A",
+      "duration": "4610",
+      "old_score": 45,
+      "old_label": "skip",
+      "qwen": {
+        "id": "c1d5486c15c7893c82bcbf36",
+        "score": 88,
+        "tier": "digest",
+        "reason": "Radical's AI-driven materials discovery with implications for industrial innovation and capital-intensive sectors.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "fa87ecae6a373f4658637430",
+      "show_name": "Big Technology Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "AI Fact or Fiction: The Fable Ban, Tokenmaxxing, Saaspocolypse — With Ara Kharazian",
+      "link": "",
+      "published": "2026-06-17T16:31:00+00:00",
+      "summary": "Ara Kharazian is the lead economist at Ramp. Kharazian joins Big Technology to discuss how much companies are actually spending on AI and whether that spending is producing real value. Tune in to hear why Anthropic has overtaken OpenAI among businesses, how AI spending varies dramatically from company to company, and whether “tokenmaxing” is really happening. We also cover Anthropic’s clash with the White House, the resurgence of DeepSeek, Google’s underrated position in AI, and whether the predicted SaaS apocalypse is materializing. Hit play for a data-driven look at which AI narratives are real, which are exaggerated, and where business adoption goes next. Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "duration": "2901",
+      "old_score": 28,
+      "old_label": "skip",
+      "qwen": {
+        "id": "fa87ecae6a373f4658637430",
+        "score": 82,
+        "tier": "digest",
+        "reason": "Data-driven analysis of enterprise AI spending and adoption trends with implications for SaaS and AI startups.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "803497a148ca6873f01fe361",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: June 17th, 2026",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-june-17th-2026",
+      "published": "2026-06-17T16:26:36+00:00",
+      "summary": "Featuring: George Goncalves, Managing Director & Head: US Macro Strategy at MUFG Steven Cook, Senior Fellow: Middle East & Africa Studies at Council on Foreign Relations Eric Rosengren, Former Federal Reserve Bank of Boston President See omnystudio.com/listener for privacy information.",
+      "duration": "1055",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "803497a148ca6873f01fe361",
+        "score": 60,
+        "tier": "scan",
+        "reason": "General macro and geopolitical commentary—some relevance but low depth for DJ's focus areas.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "6f79965cc515b36a39bfe935",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Kevin Warsh's First FOMC Meeting as Fed Chair",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/kevin-warshs-first-fomc-meeting-as-fed-chair",
+      "published": "2026-06-17T14:29:15+00:00",
+      "summary": "The latest in finance, economics and investment. Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF . Bloomberg Surveillance hosted by Tom Keene & Paul SweeneyWednesday, June 17, 2026 Featuring: 1) Robert Kaplan, Vice Chairman at Goldman Sachs, talks about Kevin Warsh's first meeting as Fed chair, markets, and the US economy. 2) Mike Wilson, Chief US Equity Strategist & CIO at Morgan Stanley, talks his S&P target and how the Fed's decisions could ripple through markets in 2026. 3) Greg Peters, Co-CIO at PGIM Credit, discusses bond market moves and what it could signal today after the Fed meeting. 4) Raj Goyle, candidate for NY State Comptroller, talks about his candidacy, challenging Thomas DiNapoli, and state financial oversight. See omnystudio.com/listener for privacy information.",
+      "duration": "2298",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "6f79965cc515b36a39bfe935",
+        "score": 75,
+        "tier": "scan",
+        "reason": "Discussion on Fed policy and market reaction—moderately relevant for macro and investment strategy.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "6d8a15147f9464ef83890403",
+      "show_name": "The Breakdown with NLW",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "The History of Standard Chartered Megabullish Price Predictions",
+      "link": "",
+      "published": "2026-06-17T13:25:00+00:00",
+      "summary": "Standard Chartered just put a $100 price target on Uniswap by 2030 — a 40× move from current levels. David walks through the call, the tokenization thesis underpinning it, and how Standard Chartered's past calls on Bitcoin, ETH, XRP, BNB and AVAX have actually played out. FOLLOW THE SHOW › David — https://x.com/dcanellis › The Breakdown — https://x.com/TheBreakdownBW › The Breakdown Newsletter — https://blockworks.com/newsletter/the-breakdown Get top market insights and the latest in crypto news. Subscribe to the Blockworks Daily Newsletter: https://blockworks.co/newsletter/ DISCLAIMER As always, remember this podcast is for informational purposes only, and any views expressed by anyone on the show are solely their opinions, not financial advice.",
+      "duration": "1115",
+      "old_score": 4,
+      "old_label": "skip",
+      "qwen": {
+        "id": "6d8a15147f9464ef83890403",
+        "score": 40,
+        "tier": "skip",
+        "reason": "Crypto price prediction and commentary—too speculative and not aligned with DJ's durable insight focus.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "826f354c456f954665bb6c1d",
+      "show_name": "Conversations with Tyler",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "Dave Baszucki on Roblox, Teen Entrepreneurs, and the Future of Play",
+      "link": "https://cowenconvos.libsyn.com/dave-baszucki-on-roblox-teen-entrepreneurs-and-the-future-of-play",
+      "published": "2026-06-17T12:00:00+00:00",
+      "summary": "Dave Baszucki is co-founder and CEO of Roblox, the user-generated gaming platform where all the games are built by the community itself. With over 100 million daily active users and projected revenue bookings of $7 billion this year, it is one of the largest gaming economies in the world—and one that has made millionaires out of teenage developers in Argentina, South Korea, and everywhere in between. Tyler and Dave explore why Roblox decided early against prioritizing advertising revenue, why Dave thinks the main competition of Roblox is its own execution speed rather than Fortnite, whether every mega platform inevitably becomes an everything app, how falling token costs will change the platform, why he insists all the games on Roblox are beautiful, whether Robux should have a floating exchange rate, why admitting you have kids under 13 on your platform turns out to be a competitive advantage, why he's skeptical of blanket social media bans, what his son's experience with bipolar disorder taught him about metabolic health, his two-year sabbatical between companies that involved a motorhome trip across North America and a stint hosting talk radio in Santa Cruz, why Mutiny on the Bounty remains one of his favorite books, what he'll learn next, and much more. Read a full transcript enhanced with helpful links, or watch the full video on the new dedicated Conversations with Tyler channel. Recorded May 27th, 2026 . Other ways to connect Follow us on X and Instagram Follow Tyler on X Follow Dave on X Sign up for our newsletter Join our Discord Email us: cowenconvos@mercatus.gmu.edu Learn more about Conversations with Tyler and other Mercatus Center podcasts here . Timestamps: 00:00:00 - Intro 00:00:44 - Roblox by the Numbers 00:08:54 - Competition 00:12:13 - Everything Apps 00:19:50 - AI Language Translation 00:21:18 - Token Costs 00:24:01 - Beauty and Gaming 00:27:01 - Robux 00:29:28 - Social Media and Younger Audiences 00:40:56 - AI and Gaming 00:45:44 - Mutiny on the Bounty 00:47:38 - David's Earlier Companies 00:51:16 - Mentors 00:52:35 - Outro",
+      "duration": "53:05",
+      "old_score": 45,
+      "old_label": "skip",
+      "qwen": {
+        "id": "826f354c456f954665bb6c1d",
+        "score": 70,
+        "tier": "scan",
+        "reason": "Insights into Roblox’s platform and gaming economics—some relevance to user-generated content and platform models.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "6d29bb30fdc2f56d352da9d2",
+      "show_name": "Hard Fork",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "‘Hard Fork’ Live Part 2: Dylan Field on Standing Out in the A.I. Era",
+      "link": "https://www.nytimes.com/column/hard-fork",
+      "published": "2026-06-17T11:00:00+00:00",
+      "summary": "We’re back with more from our live event at the Yerba Buena Center for the Arts in San Francisco. In this episode, we sit down with Dylan Field, a founder and the chief executive of the design company Figma, for what he describes as a “roller coaster” of a conversation. We cover everything from the company’s “Design Is Dead” campaign to the sudden resignation of the Anthropic executive Mike Krieger from Figma’s board. Then, we close things out with a special musical performance by eight wooden robotic dolls that make up the Teenage Engineering Choir. One quick correction to note: In our interview with Field, he makes reference to the SpaceX S-1 filing and misstates what the company says their addressable market for A.I. enterprise applications is. Field says “$22.9 trillion,” but the correct number from the SpaceX filing is $22.7 trillion. The decimal point makes it look small, but it’s a difference of $200 billion. We’ll be back on Friday with our final installment of “Hard Fork” Live. Guests: Dylan Field, chief executive and co-founder of Figma. Dan Powell , robot conductor, New York Times music composer and “Hard Fork” theme-song creator. Teenage Engineering Choir Additional Reading: This Start-Up’s $20 Billion Sale Died. It Came Fighting Back. We want to hear from you. Email us at hardfork@nytimes.com. Find “Hard Fork” on YouTube and TikTok . Subscribe today at nytimes.com/podcasts or on Apple Podcasts and Spotify. You can also subscribe via your favorite podcast app here https://www.nytimes.com/activate-access/audio?source=podcatcher . For more podcasts and narrated articles, download The New York Times app at nytimes.com/app. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:31:14",
+      "old_score": 36,
+      "old_label": "skip",
+      "qwen": {
+        "id": "6d29bb30fdc2f56d352da9d2",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Live event with design and AI themes but lacks depth on durable frameworks or operator insights.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "41a1a1b02fd1e6d0b93c2eb0",
+      "show_name": "Stratechery",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "The State of Fable, The Jailbreak Problem, SpaceX Acquires Cursor",
+      "link": "https://stratechery.com/2026/the-state-of-fable-the-jailbreak-problem-spacex-acquires-cursor/",
+      "published": "2026-06-17T10:00:00+00:00",
+      "summary": "The administration is very likely wrong about Fable, but that is ultimately Anthropic's responsibility.",
+      "duration": "",
+      "old_score": 30,
+      "old_label": "skip",
+      "qwen": {
+        "id": "41a1a1b02fd1e6d0b93c2eb0",
+        "score": 78,
+        "tier": "digest",
+        "reason": "Analysis of Fable, AI regulation, and implications for AI startup governance and public policy.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "625dbb3cc86a47fa62e46a86",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "The Fintech Playbook for Latin America",
+      "link": "https://a16z.simplecast.com/episodes/the-fintech-playbook-for-latin-america-f1LXU6gD",
+      "published": "2026-06-17T10:00:00+00:00",
+      "summary": "Angela Strange and Gabriel Vásquez speak with Addi founder and CEO Santiago Suárez about building one of Latin America's largest financial platforms. What began as a buy now, pay later product has evolved into a broader ecosystem spanning payments, commerce, logistics, and now banking. Serving millions of consumers and tens of thousands of merchants, Addi sits at the intersection of financial services and commerce in Colombia. The conversation covers building in Latin America, lessons from scaling through multiple market cycles, the importance of technology infrastructure, and why Suárez believes financial inclusion and economic growth are deeply connected. They also discuss AI, organizational design, product strategy, and what it takes to build enduring companies outside Silicon Valley. Resources: Follow Santiago Suárez on X: https://x.com/SantiaSua Follow Angela Strange on X: https://x.com/astrange Follow Gabriel Vásquez on X: https://x.com/GEVS94 Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:48:57",
+      "old_score": 57,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "625dbb3cc86a47fa62e46a86",
+        "score": 83,
+        "tier": "digest",
+        "reason": "Fintech in Latin America with insights into scaling, infrastructure, and regional capital allocation.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "05d990d9d3f39ddf2901e0b1",
+      "show_name": "Capital Allocators",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "WTT: AI: Fundamentals, Valuation, and the Next Allocator Dilemma",
+      "link": "https://tedseides.libsyn.com/wtt-ai-fundamentals-valuation-and-the-next-allocator-dilemma",
+      "published": "2026-06-17T08:00:00+00:00",
+      "summary": "This WTT, AI: Fundamentals, Valuation, and the Next Allocator Dilemma takes on a high-level assessment of AI companies as late-stage private winners prepare to go public, and the next big challenge allocators face as a result. Read Ted's blog here . Editing and post-production work for this episode was provided by The Podcast Consultant ( ⁠ https://thepodcastconsultant.com ⁠ )",
+      "duration": "08:17",
+      "old_score": 40,
+      "old_label": "skip",
+      "qwen": {
+        "id": "05d990d9d3f39ddf2901e0b1",
+        "score": 76,
+        "tier": "scan",
+        "reason": "Overview of AI fundamentals and valuation challenges—relevant but high-level for allocators.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "3e981e283a783aa1ba0b4614",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Anthropic's Insane Valuation + The Future of Marketing",
+      "link": "",
+      "published": "2026-06-17T08:00:00+00:00",
+      "summary": "Scott Galloway breaks down why Anthropic is worth more than Walmart, whether we're in an AI bubble, and why traditional advertising careers are in freefall. Want to be featured in a future episode? Send a voice recording to officehours@profgmedia.com, or drop your question in the r/ScottGalloway subreddit. Plus, you can now call or text Scott a question at our new Office Hours hotline: ‪(201) 472-3656‬. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "1577",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "3e981e283a783aa1ba0b4614",
+        "score": 55,
+        "tier": "scan",
+        "reason": "Opinion-heavy on Anthropic valuation and marketing trends—less actionable insight for DJ.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "7802e44cb2a6bcba4b12ef87",
+      "show_name": "Possible",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "AI’s next big test: the public market",
+      "link": "",
+      "published": "2026-06-17T07:01:00+00:00",
+      "summary": "Reid and Aria explore what the coming wave of AI IPOs could mean for the future of technology, investing, and the broader economy. They discuss why public ownership may become an important way for society to participate in AI’s upside, where Reid sees the strongest long-term opportunities across the AI landscape, and why the next generation of software engineers will be defined by managing AI agents. They end the episode examining the rise of AI-generated music, what it means for creativity and copyright, and why AI should be viewed as a tool that expands human expression rather than replaces it. To watch Reid’s Pi Day music video: https://www.instagram.com/reel/DV3-Pw8EZ7x/?hl=en",
+      "duration": "1766",
+      "old_score": 28,
+      "old_label": "skip",
+      "qwen": {
+        "id": "7802e44cb2a6bcba4b12ef87",
+        "score": 87,
+        "tier": "digest",
+        "reason": "Reid Hoffman on AI IPOs, agent economics, and long-term frameworks relevant to DJ's focus areas.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "5baaf3b5e3977291aa899fdc",
+      "show_name": "The Tim Ferriss Show",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "#870: Sebastian Mallaby, Biographer of Demis Hassabis — Lessons from 100+ AI Insiders on The Race to Superintelligence, The Religion of AI, and Spotting Breakthroughs Early",
+      "link": "",
+      "published": "2026-06-16T22:30:00+00:00",
+      "summary": "Sebastian Mallaby ( @scmallaby ) is the Paul A. Volcker senior fellow for international economics at the Council on Foreign Relations, a two-time Pulitzer Prize finalist, and the author of six books, including More Money Than God , The Power Law , The Man Who Knew , and The World's Banker . His latest book is The Infinity Machine: Demis Hassabis, DeepMind, and the Quest for Superintelligence . This episode is brought to you by: Eight Sleep Pod Cover 5 sleeping solution for dynamic cooling and heating: EightSleep.com/Tim AG1 Pro all-in-one nutritional supplement: DrinkAG1.com/Tim Wealthfront high-yield cash account: Wealthfront.com/Tim Wealthfront disclaimer: New clients get 3.30% base APY from program banks + additional 0.75% boost for 3 months on your uninvested cash (max $150k balance). Terms and conditions apply. The Cash Account offered by Wealthfront Brokerage LLC (“WFB”) member FINRA/SIPC, not a bank. The base APY as of 1/30/26 is representative, can change, and requires no minimum. Tim Ferriss, a non-client, receives compensation from WFB for advertising and holds a non-controlling equity interest in the corporate parent of WFB, which creates a conflict of interest. Individual experiences and outcomes will differ. Instant withdrawals may be limited by your receiving firm and other factors. Investment advisory services provided by Wealthfront Advisers LLC, an SEC-registered investment adviser. Securities investments: not bank deposits, not bank-guaranteed or FDIC-insured, and may lose value. * Timestamps [00:00:00] Start. [00:02:11] The twinkly eyed polymath who became Sebastian's next book. [00:06:55] Picking the next book project the way a great VC picks a startup. [00:09:41] Why God keeps crashing the superintelligence party. [00:11:13] Shane Legg's grainy 2009 prophecy — and the nervous giggle. [00:13:11] Ilya Sutskever burns an effigy. [00:13:54] Demis at 4 a.m., hunting God's algorithm. [00:18:43] Super-abundance, Mad Max , and the China shock lesson. [00:22:39] The kitchen debate with Geoff Hinton that flipped Sebastian. [00:24:06] Why a zero-percent chance of doom is indefensible. [00:24:52] Will Washington seize the labs? The Mythos wake-up call. [00:27:18] Anthropic's bull case, bear case, and a dead parent's letter. [00:33:24] Where Sebastian and Benedict Evans part ways. [00:38:16] Is the SaaS apocalypse overdone? One word: Palantir. [00:39:53] The AI friend you'll never switch. [00:41:56] Does Google win consumer AI by default? [00:44:45] Four cities, eight days: China actually talks safety. [00:47:28] A Cold War non-proliferation playbook for AI. [00:49:45] Did the chip export controls actually work? [00:51:49] Burned doves: why Washington swears China won't talk. [00:54:56] \"By 2028, the race is over\" — one lab boss' bet. [00:59:11] Inside Hikvision: toddlers, sensors, and US sanctions. [01:01:07] Bill Gurley's Uber bet: venture capital perfected. [01:05:18] Luke Nosek bear-hugs DeepMind into existence. [01:10:52] Thiel's heresy: never invest by committee. [01:11:59] How Founders Fund nearly fumbled the deal of the century. [01:14:30] Selling to Google for $650M: a secret British heist? [01:16:41] The Traitorous Eight, gardening leave, and the UK's to-do list. [01:20:55] Ender's Game : \"That's really how I see myself.\" [01:23:42] Too dumb for Gödel, Escher, Bach ? Maybe an LLM can help. [01:25:19] If not Demis or Sam, then Dario. [01:26:04] My royalties cliff — and what dropped in late 2022. [01:27:47] Lila Sciences and the labs that run themselves. [01:31:13] Sebastian's billboard: \"Prepare your mind.\" [01:35:14] The one thing Sebastian will never outsource to AI. [01:40:09] Parting thoughts. For show notes and past guests on The Tim Ferriss Show , please visit tim.blog/podcast . For deals from sponsors of The Tim Ferriss Show , please visit tim.blog/podcast-sponsors Sign up for Tim’s email newsletter ( 5-Bullet Friday ) at tim.blog/friday . For transcripts of episodes, go to tim.blog/transcripts . Discov",
+      "duration": "01:46:06",
+      "old_score": 100,
+      "old_label": "must_listen",
+      "qwen": {
+        "id": "5baaf3b5e3977291aa899fdc",
+        "score": 89,
+        "tier": "listen",
+        "reason": "DeepMind biography and AI strategy insights—aligned with DJ’s interest in durable frameworks and operator lessons.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "e2ee94b5b2a91c7d9d88851f",
+      "show_name": "Cerebral Valley Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Ed Zitron’s AI Cult, Anthropic’s Fable Crisis, and Elon Musk Is Now a Trillionaire | Cerebral Valley Show #9",
+      "link": "https://podcasters.spotify.com/pod/show/cerebral-valley-show/episodes/Ed-Zitrons-AI-Cult--Anthropics-Fable-Crisis--and-Elon-Musk-Is-Now-a-Trillionaire--Cerebral-Valley-Show-9-e3kspe2",
+      "published": "2026-06-16T21:48:44+00:00",
+      "summary": "The Trump administration gave Anthropic 90 minutes to respond before pulling Fable, their most advanced AI model, from public access. In this episode, we break down the Fable shutdown and whether it was a real safety call or political retaliation, react to the SpaceX IPO and Elon becoming a trillionaire, debate whether AI will actually kill jobs, and get into why Codex might be quietly beating Claude Code. We also cover Apple's Siri AI launching in July, and close with Ed Zitron's impossible bar for AI. Cerebral Valley Show is a biweekly AI podcast hosted by journalist Eric Newcomer alongside founders Max Child and James Wilsterman. Each episode breaks down the biggest stories in AI and venture, debates who's winning and losing, and puts bold predictions on the record.",
+      "duration": "01:03:32",
+      "old_score": 63,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "e2ee94b5b2a91c7d9d88851f",
+        "score": 73,
+        "tier": "scan",
+        "reason": "Discussion of Fable, Elon, and AI hype—some relevance but light on frameworks and data.",
+        "confidence": "medium"
+      }
+    }
+  ]
+}

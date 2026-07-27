@@ -1,0 +1,191 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-06-20_2102",
+  "usage": {
+    "prompt_tokens": 3351,
+    "completion_tokens": 704,
+    "total_tokens": 4055
+  },
+  "episodes": [
+    {
+      "id": "b81648a78bf80efde5a3ba0c",
+      "show_name": "Eye on AI",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "AI Is Reading 15 Million X-Rays a Year With No Human in the Loop | Prashant Warier, Qure.ai",
+      "link": "https://aneyeonai.libsyn.com/ai-is-reading-15-million-x-rays-a-year-with-no-human-in-the-loop-prashant-warier-qureai",
+      "published": "2026-06-20T16:30:00+00:00",
+      "summary": "Eighty percent of lung cancer cases are diagnosed too late, not because the signals aren't there, but because nobody was looking at the right moment. Prashant Warier, co-founder and CEO of Qure.ai, joins Craig Smith to explain how his company is changing that using a tool most people already encounter: the routine chest X-ray. Cure's Lung Nodule Malignancy Risk Score - validated in the CREATE study - analyzes X-rays people get for unrelated reasons, identifies high-risk nodules, and flags which patients need follow-up CT scans. The result is a detection rate of 54 positive patients out of 100 flagged as high-risk, compared to the 2 out of 100 found by standard CT screening programs. That's not a marginal improvement. That's a different category of outcome. The conversation covers the full landscape of where AI diagnostics actually stands today: the 15 million TB screening X-rays that Cure reads autonomously every year across 70 countries with no radiologist in the loop, because in many of those countries there are only two radiologists for the entire nation; the 26 FDA clearances and 200-plus published studies that underpin the company's clinical credibility; and the regulatory barriers that currently prevent patients from uploading their own scans and getting an AI read directly. Warier also makes his sharpest prediction: within 5 to 10 years, primary care will be AI-first, the first conversation you have when something feels wrong won't be with a doctor, it will be with an AI. Based on what Cure is already doing at scale today, that timeline is harder to dismiss than it might sound. Subscribe to Eye on A.I. for weekly conversations with the people building and deploying the future of AI.",
+      "duration": "41:35",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "b81648a78bf80efde5a3ba0c",
+        "score": 85,
+        "tier": "digest",
+        "reason": "AI diagnostics in healthcare with real-world impact and operational scale across 70 countries.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "5137cb3bda724ec8272ec81d",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "No Mercy / No Malice: Europe IRL",
+      "link": "",
+      "published": "2026-06-20T10:00:00+00:00",
+      "summary": "As read by George Hahn. https://www.profgmedia.com/p/europe-irl Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "998",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "5137cb3bda724ec8272ec81d",
+        "score": 10,
+        "tier": "skip",
+        "reason": "Short, likely shallow summary of a European travelogue with no clear business or AI insight.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "00e91b14ea227308775d639c",
+      "show_name": "The Cognitive Revolution",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Dean Ball, on Joining OpenAI: New Power Centers, Frontier AI Policy, & Main Character Energy",
+      "link": "https://www.cognitiverevolution.ai/dean-ball-on-joining-openai-new-power-centers-frontier-ai-policy-main-character-energy/",
+      "published": "2026-06-20T09:58:27+00:00",
+      "summary": "Dean Ball, author of Hyperdimensional and until now a senior fellow at the Foundation for American Innovation, joins Nathan to announce he is joining OpenAI to build a team focused on frontier AI policy. They examine the first year of America’s AI Action Plan, Dean’s concerns about export controls and intelligence-community testing, and his broader argument against concentrating frontier AI decisions inside a small circle of government officials. The episode frames frontier labs as emerging centers of political and economic power, where consequential choices about internal deployments and recursive self-improvement may happen before public release or regulation. The stakes are who gets to shape AI governance as capabilities accelerate: federal agencies, states, labs, independent verifiers, households, or some fragile mix of them all. For full show notes, links, and references, read the episode page:https://www.cognitiverevolution.ai/dean-ball-on-joining-openai-new-power-centers-frontier-ai-policy-main-character-energy/ Mercury: Command is Mercury’s new conversational interface, giving you natural-language access to your finances and helping you take actions within your existing permissions and approval policies. Visit https://mercury.com to learn more and apply online in minutes. Sponsor: Claude: Claude by Anthropic is an AI collaborator that understands your workflow and helps you tackle research, writing, coding, and organization with deep context. Get started with Claude and explore Claude Pro at https://claude.ai/tcr PRODUCED BY: https://aipodcast.ing SOCIAL LINKS: Website: https://www.cognitiverevolution.ai Twitter (Podcast): https://x.com/cogrev_podcast Twitter (Nathan): https://x.com/labenz LinkedIn: https://linkedin.com/in/nathanlabenz/ Youtube: https://youtube.com/@CognitiveRevolutionPodcast Apple: https://podcasts.apple.com/de/podcast/the-cognitive-revolution-ai-builders-researchers-and/id1669813431 Spotify: https://open.spotify.com/show/6yHyok3M3BjqzR0VB5MSyk",
+      "duration": "9543",
+      "old_score": 41,
+      "old_label": "skip",
+      "qwen": {
+        "id": "00e91b14ea227308775d639c",
+        "score": 90,
+        "tier": "listen",
+        "reason": "OpenAI policy insider discusses frontier AI governance and emerging power centers in AI development.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "434b90968ca8eb7a0219d0a7",
+      "show_name": "Odd Lots",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "How Substack Creators Are Covering This Strange Markets Era",
+      "link": "https://omny.fm/shows/odd-lots/how-substack-creators-are-covering-this-strange-markets-era",
+      "published": "2026-06-20T08:00:00+00:00",
+      "summary": "We closed out our New York live show on May 28 with a panel that featured three of our favorite Substackers: James van Geelen of Citrini Research, Sam Ro, founder of The TKer, and journalist Jasmine Sun. They've all been Odd Lots guests before, and we wanted to get them together to discuss how journalists and analysts are supposed to cover this incredibly strange and highly pressurized moment in markets. Not only has AI basically infected every corner of the world, the media included, but there's just so much news that it's sometimes hard to figure out what the focus should be. But James, Sam, and Jasmine have all found their own niches, and cover AI in a really unique way. This panel discussion debates how the media has covered fears over the AI bubble and the possibility of mass job loss, if people in Silicon Valley are scared about the future of society, if AI can really mimic a writer's voice and personality, and (if they can) how writers can hedge against that future. Read more: Amazon in Talks to Sell Custom AI Chips in Bid to Undercut Nvidia AI Company Dream Triples Value to $3 Billion in Funding Round Only http://Bloomberg.com subscribers can get the Odd Lots newsletter in their inbox each week, plus unlimited access to the site and app. Subscribe at bloomberg.com/subscriptions/oddlots Subscribe to the Odd Lots Newsletter Join the conversation: discord.gg/oddlots See omnystudio.com/listener for privacy information.",
+      "duration": "1874",
+      "old_score": 36,
+      "old_label": "skip",
+      "qwen": {
+        "id": "434b90968ca8eb7a0219d0a7",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Discusses AI's impact on media and market narratives, with perspectives from Substack creators.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "0484f469ecf26f55495d4ac6",
+      "show_name": "The Twenty Minute VC",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "20VC: Why Remote Work is White Collar Fraud | Why Revenge and Patriotism are the Best Founder Traits | Two Questions Every Founder Needs to Ask | The Wild Story of Raising $1BN from Masa Son in an Hour Long Meeting with Ryan Peterson, Founder @ Flexport",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-why-remote-work-is-white-collar-fraud-why-revenge-and-patriotism-are-the-best-founder-traits-two-questions-every-founder-needs-to-ask-the-wild-story-of-raising-1bn-from-masa-son-in-an-hour-long-meeting-with-ryan-peterson-founder-flexport",
+      "published": "2026-06-20T07:07:00+00:00",
+      "summary": "Ryan Peterson is the Founder & CEO @ Flexport, the logistics darling of the venture capital world that has raised $900M+ with the last round valuing the company at $8BN. Today, the company does $450M in revenue growing 30% YoY. AGENDA: 00:00 — Why Does Ryan Petersen Call Remote Work \"White Collar Fraud\"? 08:30 — Does Having More Money Actually Make You a Better Founder? 11:40 — When Will Flexport IPO? What Price Would It Go Out At? 19:00 — Can AI Actually Automate Entire Companies or Is the Productivity Boom Overhyped? 22:00 — Which Jobs Will Exist in 5 Years That Don't Exist Today? 26:00 — OpenAI vs Anthropic: If Ryan Could Only Own One, Which Would He Buy? 27:45 — Are Chinese Open-Source Models a National Security Threat—or Is Silicon Valley Overreacting? 30:15 — The $500M Fundraising Mistake Ryan Wishes He Never Made 35:00 — Why Flexport Abandoned San Francisco & Remote Work Damaged Flexport's Culture 41:00 — Why Marketing Is the Hardest Executive Hire in Startups 43:00 — Do Great CEOs Hate HR? 46:00 — Why Most Startup Founders Hire Executives Too Early 48:00 — What Ryan Learned Investing Alongside the Greatest YC Founders 55:00 — The Single Biggest Mistake Founders Make When Fundraising 1:09:00 — Does Founder Brand Actually Drive Enterprise Value? 1:11:00 — What Makes a Great Board Member—and Why Most Boards Add Negative Value 1:13:00 — The Sports Team Ryan Dreams of Buying Just to Troll His Biggest Competitor",
+      "duration": "01:18:42",
+      "old_score": 38,
+      "old_label": "skip",
+      "qwen": {
+        "id": "0484f469ecf26f55495d4ac6",
+        "score": 80,
+        "tier": "digest",
+        "reason": "Insights from Flexport founder on remote work, AI automation, and founder traits with operational context.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "1626a615256b50dd60c1848c",
+      "show_name": "Founders",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "#422 Joseph Pulitzer",
+      "link": "",
+      "published": "2026-06-20T02:40:00+00:00",
+      "summary": "What I learned from reading Pulitzer: A Life in Politics, Print, and Power by James McGrath Morris. Made possible by: Ramp: ⁠https://ramp.com⁠ Applovin: ⁠https://www.applovin.com/⁠ Vanta: ⁠https://vanta.com/founders",
+      "duration": "3158",
+      "old_score": 4,
+      "old_label": "skip",
+      "qwen": {
+        "id": "1626a615256b50dd60c1848c",
+        "score": 40,
+        "tier": "scan",
+        "reason": "Historical analysis of Joseph Pulitzer; low relevance to current AI or market dynamics.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "2466084d7ac6d4add20dc479",
+      "show_name": "People I Mostly Admire",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "27. Daniel Kahneman on Why Our Judgment is Flawed — and What to Do About It",
+      "link": "https://www.siriusxm.com",
+      "published": "2026-06-20T00:00:00+00:00",
+      "summary": "Nobel laureate, best-selling author, and groundbreaking psychologist Daniel Kahneman is also a friend and former business partner of Steve’s. In discussing Danny’s new book Noise: A Flaw in Human Judgment, the two spar over inconsistencies in criminal sentencing and Danny tells Steve that “Your attitude is unusual” — no surprise there. This episode originally aired on May 14th, 2021. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:44:03",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "2466084d7ac6d4add20dc479",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Daniel Kahneman on judgment flaws and decision-making frameworks relevant to AI and investing.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "e83e1032a1e5c153e2571f81",
+      "show_name": "Big Technology Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Are AI Glasses Over?, Big Technology Audience Questions, Alex Stamos on AI Cybersecurity",
+      "link": "",
+      "published": "2026-06-19T23:24:00+00:00",
+      "summary": "Ranjan Roy from Margins is back for our weekly discussion of the latest tech news LIVE from Big Technology AI Summit. We cover: 1) Do Snapchat Specs signal the end of AR glasses 2) What should an AI device do? 3) Audience questions from the Big Technology AI Summit! 4) How should companies plan for such fast moving technology? 5) What's the ideal AI device form factor? 6) Can AI models be more useful for biology? 7) Can the U.S. and China get along on AI? 8) What responsibility do AI companies have to society? 9) Ex-Meta CSO Alex Stamos joins us to talk Fable's cyber-risks 10) Is it marketing or is it material? --- Enjoying Big Technology Podcast? Please rate us five stars ⭐⭐⭐⭐⭐ in your podcast app of choice. Want a discount for Big Technology on Substack + Discord? Here’s 25% off for the first year: https://www.bigtechnology.com/subscribe?coupon=0843016b Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "duration": "3450",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "e83e1032a1e5c153e2571f81",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Covers AI device form factors, cybersecurity, and U.S.-China AI dynamics with industry guests.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "14829f4c180d7e34b801beba",
+      "show_name": "All-In Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "World's First Trillionaire, Anthropic Fable Banned, The New Oligarchs, Iran Peace Deal",
+      "link": "https://allinchamathjason.libsyn.com/worlds-first-trillionaire-anthropic-fable-banned-the-new-oligarchs-iran-peace-deal",
+      "published": "2026-06-19T22:07:00+00:00",
+      "summary": "(0:00) Bestie intros! (2:41) The New Oligarchs, America's incoming politburo, and learned helplessness (14:18) SpaceX's record breaking IPO, $60B Cursor acquisition, and trillionaire reactions (33:34) Behind the scenes of Anthropic's Fable ban (1:01:18) Claude psychoanalyzes its creator, Dario Amodei (1:14:31) Iran War MOU and the market impact Apply for Summit 2026: https://allin.com/events Follow the besties: https://x.com/chamath https://x.com/Jason https://x.com/DavidSacks https://x.com/friedberg Follow on X: https://x.com/theallinpod Follow on Instagram: https://www.instagram.com/theallinpod Follow on TikTok: https://www.tiktok.com/@theallinpod Follow on LinkedIn: https://www.linkedin.com/company/allinpod Intro Music Credit: https://rb.gy/tppkzl https://x.com/yung_spielburg Intro Video Credit: https://x.com/TheZachEffect Referenced in the show: https://finance.yahoo.com/markets/crypto/articles/illinois-set-begin-taxing-bitcoin-172237413.html https://www.wsj.com/livecoverage/spacex-ipo-stock-market-06-12-2026 https://www.cnbc.com/2026/06/16/spacex-spcx-cursor-acquisition-ipo.html https://www.bbc.com/news/articles/cgrk21wnvy9o https://www.wsj.com/livecoverage/fed-meeting-warsh-interest-rate-06-17-2026/card/musk-swaps-300-million-tesla-options-for-shares-he-can-vote-qPrqq5tcKEzb2vkcqiXg https://www.cbsnews.com/news/spacex-spcx-stock-ipo-welder-employee-millionaire https://www.semafor.com/article/06/13/2026/white-house-move-to-limit-anthropic-linked-to-concerns-about-chinese-access-to-mythos https://www.wired.com/story/sk-telecom-anthropic-mythos-export-controls https://www.washingtonpost.com/technology/2026/06/15/how-anthropic-lost-white-houses-trust-then-its-flagship-product https://x.com/DavidSacks/status/2065853007619588171 https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578 https://www.anthropic.com/news/fable-mythos-access https://stratechery.com/2026/anthropics-safety-superpower https://www.nist.gov/news-events/news/2024/08/us-ai-safety-institute-signs-agreements-regarding-ai-safety-research https://www.cnbc.com/2026/03/05/anthropic-pentagon-ai-claude-iran.html https://www.nytimes.com/2026/06/17/opinion/ai-dangerous-openai-anthropic.html",
+      "duration": "01:24:30",
+      "old_score": 79,
+      "old_label": "digest_only",
+      "qwen": {
+        "id": "14829f4c180d7e34b801beba",
+        "score": 60,
+        "tier": "scan",
+        "reason": "High-level AI and market commentary with mixed depth; some Anthropic and SpaceX insights.",
+        "confidence": "low"
+      }
+    }
+  ]
+}

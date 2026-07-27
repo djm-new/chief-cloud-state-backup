@@ -1,0 +1,2492 @@
+[0.0-1.8] I say it's a white collar fraud.
+[1.8-4.3] I have a three year old and a five year old.
+[4.3-6.6] The idea that I could do any work at my house
+[6.6-7.8] is like a total fantasy.
+[7.8-9.4] Like, come on, you're kidding.
+[9.4-11.0] I think the negotiation that we're gonna have
+[11.0-13.0] with Salesforce can be a lot different than the last one.
+[13.0-15.6] I think selling SaaS to tech companies
+[15.6-16.8] is gonna be a tough business
+[16.8-18.7] because we can build stuff ourselves.
+[18.7-21.3] Revenge and patriotism is a great investment thesis.
+[21.3-22.8] There's a lot of collusion in VC.
+[22.8-25.6] Like I have a feeling of both VC's actually collude more
+[25.6-27.9] with competitors than with their own partners.
+[27.9-29.7] This is 20 VC with me Harry Steppings.
+[29.7-31.2] Now I've done 3,000 shows.
+[31.2-33.3] The best guests have two things.
+[33.3-36.2] They have high IQ and they do not give a shit.
+[36.2-39.0] Our guest today is a longtime friend of mine, Ryan Peterson,
+[39.0-40.0] founder of Flexboard.
+[40.0-41.8] He's been on many shows before.
+[41.8-44.3] I don't think he's ever had a conversation as open
+[44.3-45.5] and honest as this.
+[45.5-46.8] I think the friendship allowed
+[46.8-50.0] for a much more authentic and transparent discussion.
+[50.0-51.0] Where we touched on everything
+[51.0-54.2] from Chinese open source models is the CCP risk.
+[54.2-57.2] Why remote work is like white collar fraud
+[57.2-58.6] and so much more.
+[58.6-59.8] Ryan was incredible
+[59.8-62.8] and this also goes to show white doing shows in person
+[62.8-65.1] is 10X better than remote.
+[65.1-68.7] Ryan in studio, this is one you cannot miss.
+[68.7-70.8] But before we dive into the show today,
+[70.8-74.8] meet Ava, the first autonomous AI BDR built by artisan
+[74.8-77.6] to run your entire outbound on autopilot.
+[77.6-79.5] Hey Jason Lebken from Saster here.
+[79.5-80.6] Artisan is S tier.
+[80.6-83.2] We've replaced our entire outbound sales team with Artisan.
+[83.2-86.5] I believe we've sent over 50,000 highly customized emails
+[86.5-87.3] to Artisan.
+[87.4-89.3] Open rate is twice what it was with humans
+[89.3-91.8] and they close 100 K deals day after day.
+[91.8-95.4] Ava sources leads from over 250 million contacts
+[95.4-98.4] enriches every prospect with intense signals
+[98.4-102.1] then rise and sends personalized multi-channel outreach,
+[102.1-104.1] self-optimizing over time.
+[104.1-106.6] When a lead replies, she handles objections
+[106.6-109.1] and books meeting straight into A.E's calendars
+[109.1-110.8] without any human input.
+[110.8-112.8] Artisan is backed by white combinator
+[112.8-115.1] and has raised $36 million to build
+[115.1-117.9] the first truly autonomous AI BDR.
+[117.9-121.8] Higher Ava, the AI BDR and get $300 in credits
+[121.8-126.0] when you sign up at artisan.co slash 2.0 VC.
+[126.0-131.0] That's a-r-t-i-s-a-n.co slash 2.0 VC.
+[132.0-134.6] While artisan scales your outbound motion,
+[134.6-137.6] Grenola turns every call into clean notes.
+[137.6-140.8] When I'm not recording the world's greatest fricking podcast,
+[140.8-142.1] I'm probably in meetings.
+[142.1-144.5] Pitch meetings, board meetings, LP meetings,
+[144.5-145.7] I can't get enough of them.
+[145.7-148.0] When all the meetings are over, I look at my notes
+[148.0-151.0] and they make no sense to me, illegible scribbles.
+[151.0-152.5] That's why I use Grenola.
+[152.5-154.4] Grenola is the AI note pad for people
+[154.4-156.0] in back-to-back meetings.
+[156.0-158.6] I say back-to-back because it makes me feel busy and special.
+[158.6-161.5] So I jot down rough notes like many do
+[161.5-163.8] and in the background, Grenola transcribes
+[163.8-166.0] and turns them into really clear useful notes
+[166.0-167.9] immediately after the meeting ends.
+[167.9-169.4] And I've been using Grenola for months
+[169.4-171.6] and my favorite feature is chatting to my notes.
+[171.6-173.1] No one else will chat to me these days
+[173.2-175.0] and I can ask it anything
+[175.0-177.4] and it trolls through every meeting I've ever had
+[177.4-178.6] and finds the answer.
+[178.6-181.3] What was the valuation of the startup that pitched me last week
+[181.3-183.5] who on my team said they would share the memo
+[183.5-186.2] and even coaching tips that how can I ask founders
+[186.2-188.1] better questions when they're pitching me?
+[188.1-190.2] All the best operators I know use Grenola
+[190.2-191.4] to help them get more done.
+[191.4-193.4] So if you're in a lot of meetings, trust me.
+[193.4-195.0] This is a really good tool for you.
+[195.0-196.3] It takes seconds to set up.
+[196.3-199.0] Connects to your calendar, works on any meeting platform,
+[199.0-202.6] head over to granola.ai-4-2-0-VC
+[202.6-205.5] and get three months free with the code 2-0-VC
+[205.5-208.4] that's granola.ai-2-0-VC
+[208.4-212.5] with the code 2-0-VC, that's 2-0-VC.
+[212.5-215.7] Once granola turns the conversation into clear notes,
+[215.7-218.9] Finn turns that clarity into better customer support.
+[218.9-222.4] As AI agents become more common in customer experience,
+[222.4-225.4] teams often end up juggling multiple silo tools
+[225.4-226.4] for every job.
+[226.4-228.1] Well, Finn was built to change that.
+[228.1-229.8] It's a single unified agent
+[229.8-232.4] that works across your entire customer experience
+[232.4-235.2] from service to sales to success and beyond.
+[235.2-238.2] Finn is the agent making perfect customer experiences
+[238.2-240.2] possible for thousands of customers,
+[240.2-242.2] is powered by custom models,
+[242.2-244.9] trained on years of real customer interactions,
+[244.9-246.9] so it understands the nuance and complexity
+[246.9-249.6] of customer service better than any other agent.
+[249.6-253.0] That means faster resolutions, more consistent support,
+[253.0-255.4] and just better experiences for every customer.
+[255.4-257.7] It's also designed to be fully self-manageable
+[257.7-259.9] so you can easily improve and adapt it
+[259.9-261.2] as your business evolves.
+[261.2-262.8] No third parties required.
+[262.8-265.1] Leading companies like Gamma, Asana,
+[265.1-268.6] Dordash and Crypto.com already use and love Finn
+[268.6-270.7] to deliver better customer experiences.
+[270.7-273.5] So for a limited time, you can get $500 a month
+[273.5-274.5] in Finn credits.
+[274.5-275.8] For your first three months,
+[275.8-279.7] learn more at fin.ai-4-2-0-VC.
+[279.7-283.0] You have now arrived at your destination.
+[283.0-284.5] Ryan, I cannot wait for this.
+[284.5-286.6] Do we've done this a couple of times remote?
+[286.6-289.1] But I feel it's much more special in person
+[289.1-290.3] and we're gonna get to remote work,
+[290.3-292.4] but remote interviews and not as good as in person, dude.
+[292.4-293.6] So thank you for being here.
+[293.6-294.5] Yeah, great.
+[294.5-298.4] Dude, I wanna start on what motivates you more?
+[298.4-300.1] I'm finding this really interesting pattern.
+[300.1-302.1] It's either the fear of losing
+[302.1-303.7] or it's the thrill of winning.
+[303.7-305.2] Which one is it for you?
+[305.2-307.0] Interesting question.
+[307.0-308.5] Probably the fear of losing.
+[308.5-309.4] Why?
+[309.4-311.0] I don't wanna be a loser.
+[311.0-313.3] We just like, you never win enough, right?
+[313.3-317.6] Like, I've already won and yet I still don't feel like I won
+[317.6-319.9] by any standard of what I set out
+[319.9-322.7] when I started the company like, I've won.
+[322.7-324.8] My first and only financial model
+[324.8-326.9] that I made for myself for the business
+[326.9-329.9] got to 1 million of revenue, right?
+[329.9-332.8] I did over two billion last year, so.
+[332.8-334.4] I hate Excel models.
+[334.4-335.2] I'm terrible at it.
+[335.2-338.2] When I open up Excel, it says, sign in or register
+[338.2-339.9] and I'm just like, I'll leave someone else.
+[339.9-341.7] I'm very organized, so.
+[341.7-342.7] You know, no.
+[342.7-344.4] And like, I feel like making a good model
+[344.4-346.4] requires you to like, organize your stuff.
+[346.4-349.5] So today's rule is we're gonna play a game.
+[349.5-350.9] You've done shows before.
+[350.9-354.4] Every single question that I ask has to be a question
+[354.4-356.8] that no one else has asked before.
+[356.8-357.7] Okay.
+[357.7-362.3] And if I ask a question that someone has asked before,
+[362.3-367.1] you have to tell me and I will donate $100 to a charity.
+[367.1-368.3] Oh wow.
+[368.3-372.2] Oh great, do I get to pick the charity?
+[372.2-373.3] What are we gonna do?
+[373.3-374.4] What's your charity?
+[374.4-375.9] My mom's got a MS.
+[375.9-376.8] That's great.
+[376.8-378.5] I like to give it to an MS charity.
+[379.1-380.4] That's the deal, okay?
+[380.4-381.3] Okay.
+[381.3-383.2] So these questions could be fucking weird or interesting.
+[383.2-384.0] Do I still answer the question?
+[384.0-384.9] No, I don't answer.
+[384.9-385.7] I just go, I'm at $100.
+[385.7-387.1] No, you just go, bang bang.
+[387.1-387.9] Great.
+[387.9-390.2] But if you lie, you pay $1,000.
+[390.2-391.5] Oh.
+[391.5-393.3] So if it's a hog question.
+[393.3-394.3] So I get out of any questions
+[394.3-396.2] just by paying $1,000.
+[396.2-397.8] Actually, it's not a bad deal.
+[397.8-399.6] That was a bad start, Harry.
+[399.6-401.3] You should have rethought your rules.
+[401.3-402.8] The first one I wanted to ask is,
+[402.8-403.6] when we were chatting before,
+[403.6-406.2] you said about the nature of VC jobs
+[406.2-408.4] and why it means that inevitably,
+[408.4-410.7] the way that VC's jobs work
+[410.7-412.9] is they end up as herd animals.
+[412.9-414.9] Why did you think that was something interesting
+[414.9-415.9] and we should discuss?
+[415.9-417.8] Well, if that, you know, VC,
+[417.8-419.4] your show's called 20 Minutes VCs.
+[419.4-421.4] So what's a hot take on venture capital?
+[421.4-422.4] Yeah.
+[422.4-425.3] The nature of the job is simply that it's just such a good job.
+[425.3-427.0] If someone who likes to have a job,
+[427.0-428.0] what would be the attribute?
+[428.0-429.8] It's like, pays really well.
+[429.8-431.7] You basically don't have a boss.
+[431.7-433.0] If you're once you're like a partner,
+[433.0-435.0] like at some some level of seniority,
+[435.0-436.7] if no boss pays well,
+[436.7-439.2] you don't have to be anywhere on any given day,
+[439.2-440.6] kind of not a fixed schedule.
+[440.6-442.8] And it's very hard to measure if you're good or not
+[442.8-444.5] on any reasonable time frame.
+[444.5-445.6] You can't get fired.
+[445.6-447.0] These are pretty good attributes of a job.
+[447.0-448.0] So like, therefore...
+[448.0-449.2] And security.
+[449.2-451.8] You have fun fees for 10 years.
+[451.8-453.0] No, not anything you know got fired,
+[453.0-454.5] but like, dude, I run a media company,
+[454.5-455.8] you run a company.
+[455.8-459.1] Revenue can go down, they are not certain.
+[459.1-462.3] You know, fun fees are legally structured.
+[462.3-464.6] Yeah, so you have to, if you're in,
+[464.6-466.6] if you are a partner, now if you run the fund,
+[466.6-468.6] that's one thing, but if you're like a partner
+[468.6-471.6] that doesn't own the fund, you could get fired.
+[471.6-473.0] So you don't have infinite job to security.
+[473.0-474.9] So your whole thing has to be,
+[474.9-476.0] how do I avoid getting fired?
+[476.0-478.5] Like, so, you know, you can do this in reverse
+[478.5-480.9] or invert the problem and you go,
+[480.9-482.7] well, how would you get fired as a VC?
+[482.7-486.5] Okay, like, scandal, sure, void that.
+[486.5-488.6] And you can't allow everyone else
+[488.6-490.8] who works at your firm to think you're dumb
+[490.8-493.5] or doing bad things, like doing stupid deals.
+[493.5-494.8] They don't know, it can be bad deals.
+[494.8-496.5] Like, yeah, or they can be great deals.
+[496.5-497.5] You can be doing great deals,
+[497.5-498.7] but if people think they're bad deals,
+[498.7-500.0] you might lose your job.
+[500.0-502.4] So therefore, okay, I need everyone,
+[502.4-503.9] you're gonna get consensus, right?
+[503.9-506.6] And you're also gonna channel check all your deals.
+[506.6-508.7] You're gonna like check with your competitors.
+[508.7-510.2] There's a lot of collusion in VC.
+[510.2-512.5] Like, VCs are constantly talking to each other
+[512.5-514.5] in part, because they need to make sure
+[514.5-516.1] that they don't step out on the edge
+[516.1-517.6] and do something that their own partners
+[517.6-518.5] are gonna think or dumb.
+[518.5-520.6] Like, I have a feeling of both VCs actually collude
+[520.6-523.5] more with competitors than with their own partners
+[523.5-525.0] because they need to spot check their deal
+[525.0-527.2] and make sure it's good before bringing it
+[527.2-528.7] to the other partners and make sure
+[528.7-530.4] that they're not seen as being dumb.
+[530.4-532.4] So that's where you get the herd of behavior.
+[532.4-534.5] I love Keith Roboi, who says that,
+[534.5-537.8] actually, he likes to sense check his deals with friends.
+[537.8-541.7] And if they don't think that his deal is stupid or crazy,
+[541.7-542.8] he's not doing his job.
+[542.8-543.6] Oh, yeah, okay, good.
+[543.6-546.1] Yeah, see, I think founders fun,
+[546.1-547.6] Keith was that founders fun for a while either.
+[547.6-550.2] There's a few funds that avoid this type of behavior somehow
+[550.2-552.3] or some people are just born into it
+[552.3-554.3] with their contrarian bone and their, you know,
+[554.3-555.2] but...
+[555.2-557.7] Do you think you can only do stupid or crazy shit
+[557.7-559.8] because you have money now?
+[559.8-561.0] Me personally?
+[561.0-562.4] I don't have that much money.
+[562.4-564.8] I don't have that much money.
+[564.8-566.5] But you don't need money.
+[566.5-567.4] No, I have enough.
+[567.4-568.2] I have enough.
+[568.2-570.0] Like when you're paying rent and school fees
+[570.0-572.6] and it's like, oh, God, thing has crossed.
+[572.6-575.7] Like, I think that richer investors make better investors.
+[575.7-578.8] Like, secure a focus on upside maximization.
+[578.8-580.3] How big could this be?
+[580.3-582.2] They are not fearful of, oh, he's coming back
+[582.2-583.4] for their net as fund.
+[583.4-585.1] They're not fearful of deployment speed,
+[585.1-587.9] compressing, so they eat on gated.
+[587.9-590.4] They just invest in what they think can be mega companies.
+[590.4-593.5] When I started as an entrepreneur was kind of...
+[593.5-595.9] Like now it's like everybody's becoming an entrepreneur,
+[595.9-598.7] but I started doing companies like in the early 2000s,
+[598.7-600.5] late 90s even with my older brother.
+[600.5-601.9] I mean, I guess at that time,
+[601.9-603.7] it was less mainstream to start a company.
+[603.7-605.4] And we weren't in Silicon Valley.
+[605.4-607.0] We weren't, we didn't call ourselves like tech,
+[607.0-607.8] start up.
+[607.8-608.6] We didn't raise venture.
+[608.6-609.9] We were just hustling to make money.
+[609.9-613.6] And one of my tricks actually was I moved to China
+[613.6-616.2] when I was 25 years old for this company
+[616.2-620.0] and my rent was $120 a month for a two-bedroom apartment
+[620.0-621.9] in a nice part of a second tier city,
+[621.9-625.5] but it was like a nice, and so I knew that actually gave me
+[625.5-627.4] a lot of permission to be an entrepreneur,
+[627.4-629.6] which was kind of being crazy, doing crazy stuff
+[629.6-631.3] because I knew I could live off of,
+[631.3-633.3] if I could make 500 bucks a month, I could survive.
+[633.3-635.4] And I knew I could always make 500 bucks a month.
+[635.4-637.9] So like, I could do a startup, I could take risk
+[637.9-641.1] because I'm like, worst case, I lived in a nice apartment
+[641.1-643.1] in a nice town, I had a good quality of life.
+[643.1-645.9] My total op-ex was like $250 a month,
+[645.9-648.5] so it gave me permission, yeah, to take some risk.
+[648.5-649.6] But it's the opposite, I'd have to be,
+[649.6-650.8] I was relatively rich, right?
+[650.8-652.0] I was like, relatively secure.
+[652.0-653.2] What's your number?
+[653.2-655.7] What's your number basically means?
+[655.7-657.6] What's the number that you had in your head of like,
+[657.6-660.1] ah, once I have this, I'll be happy.
+[660.1-662.4] So like for me, it was always like $20 million.
+[662.4-664.6] With the rationale that you have 5% interest,
+[664.6-667.5] you make a million bucks a year for doing nothing,
+[667.5-669.0] a million bucks a year is more than enough
+[669.0-671.8] for anyone who's a justice, you're not mentally.
+[671.8-673.4] Well, this how you know money is amazing
+[673.4-676.3] because the more you have, the more you want,
+[676.3-678.2] you can never say shit, the human desire, it's infinite.
+[678.2-679.0] Can you find that?
+[679.0-680.0] Because I don't.
+[680.0-681.0] No.
+[681.0-682.6] No, of course you are more.
+[682.6-684.9] But like, I only buy trainers.
+[684.9-689.0] I would much rather have more convenience than more money.
+[689.0-691.0] I mean, I haven't been that motivated by money.
+[691.0-693.0] I'm more into like power.
+[693.0-696.6] All right, I'm gonna do big things.
+[696.6-699.2] That's really interesting, there was a question
+[699.2-701.3] that my girlfriend asked me the other day,
+[701.3-704.0] and she said, if you lost 90% of your money,
+[704.0-706.2] how much of yourself worth and self esteem
+[706.2-707.7] would you lose in percent?
+[707.7-708.7] What would you say?
+[708.7-710.0] Maybe you're more adjusted than me.
+[710.0-711.5] I said, I'll go down 90%.
+[711.5-715.3] No, I did, but my mind is like,
+[715.3-718.8] my work is directly correlated to the financial outputs
+[718.8-720.7] that you have, like candidly.
+[720.7-722.9] If you are a general in the army,
+[722.9-724.3] your success in your profession
+[724.3-726.1] does not correlate to your financial statement
+[726.1-727.3] at the end of the day.
+[727.3-730.3] I'm a venture capitalist, the clueless in the name.
+[730.3-733.0] If you're good, you make bank, if you're not, you don't.
+[733.0-735.2] Yeah, but it's, you know, you've got to forget
+[735.2-737.8] to pass in the future and like the future's not written
+[737.8-739.0] so you can go make it.
+[739.0-740.8] If fly sport would erase today,
+[740.8-742.4] what do you think you'd raise at?
+[742.4-743.9] I don't know, I really don't know.
+[743.9-748.0] I think this year we're gonna get to basically break even,
+[748.0-751.0] we're on run rate to do about $450 million of revenue,
+[751.0-752.6] net revenue, breaking news here.
+[752.6-755.0] I haven't shared that, but $450 million of net revenue.
+[755.1-756.1] Very, very, very.
+[756.1-758.1] Last year was 350, so.
+[758.1-759.2] 350%?
+[759.2-760.7] No, 350 million last year.
+[760.7-761.6] So what is that?
+[761.6-763.5] It's a hundred about almost 30%.
+[763.5-765.8] During 30% that we use at 450.
+[765.8-766.7] Yeah.
+[766.7-767.9] And I think we'll do 600.
+[767.9-771.1] I mean, the goal is to keep going 30% every year for 10 years.
+[771.1-773.0] But the big, I think the big question,
+[773.0-775.4] and then beyond, but the big question for most startups,
+[775.4-777.0] I think you have two things that you have to ask.
+[777.0-778.3] Actually, I got this from Paul Graham,
+[778.3-779.8] where he said every startup,
+[779.8-781.9] if you see like a hockey stick growth curve,
+[781.9-783.5] then there's two questions you need to ask.
+[784.0-785.3] Are they doing some kind of hack
+[785.3-787.5] that's unsustainable and going to stop working?
+[787.5-790.1] Number one, and two is the market big enough
+[790.1-791.0] for it to keep going.
+[791.0-792.9] And if the answer is like, no, there's no hack.
+[792.9-794.5] Like this is genuine growth.
+[794.5-796.2] And two, the market is really big.
+[796.2-797.8] The thing will just keep going, right?
+[797.8-798.8] And I think Flexport's like that.
+[798.8-800.3] Like the market, there's no hacks.
+[800.3-801.4] It's actually a grind.
+[801.4-803.7] Like we've got salespeople out there
+[803.7-805.7] in the field, like calling on businesses
+[805.7-807.0] and going around the world.
+[807.0-808.6] And then the markets enormous,
+[808.6-811.4] we're still less than 1%, 0.1%.
+[811.4-813.0] And when you extrapolate that out,
+[813.0-816.3] you said 450 to 600, and then you can be 750.
+[816.3-820.1] And do you worry about the constraining exit landscape?
+[820.1-822.0] Like when you look at IPOs today,
+[822.0-823.5] dude, unless you're mega scale,
+[823.5-825.0] you don't want to go out
+[825.0-826.3] with the greatest of respect,
+[826.3-829.1] strategic buyers are less present than ever before.
+[829.1-831.2] And then you've got bite-by-out firms
+[831.2-832.8] which are running for the hills
+[832.8-835.1] because the medallias and the coupers
+[835.1-836.6] and the ana plans of the world
+[836.6-839.4] are all looking pretty precarious right now.
+[839.4-840.4] Do you think that's a concern
+[840.4-841.8] that should be felt?
+[841.8-843.6] I don't think about it at all for Flexport.
+[843.6-846.3] The word exit implies that I'm like going to stop working
+[846.3-847.5] at the, you know, that I'm exiting.
+[847.5-849.2] So I don't think of it in that term.
+[849.2-851.4] IPO would be, do you want to take the company public?
+[851.4-852.7] Yeah, we intend to go public.
+[852.7-854.0] And I don't know what the valuation is
+[854.0-855.4] or should be or will be.
+[855.4-856.5] It's sort of like, well,
+[856.5-857.6] but if we can just keep growing,
+[857.6-859.0] you just draw the math out.
+[859.0-861.4] But when do you think you should go public then?
+[861.4-863.2] I'd like to be a nicely profitable,
+[863.2-864.5] making a few hundred million of ebit
+[864.5-865.3] and then we'll go public.
+[865.3-866.6] So it could happen in a couple of years.
+[866.6-868.4] It should, the way that things are going right now,
+[868.4-869.3] it should be able to get there.
+[869.3-871.2] And like, you know, maybe it's not,
+[871.2-872.2] I don't know what it will be worth
+[872.2-874.4] and like the market kind of sets that at the end of the day
+[874.4-876.3] and, and if it's undervalued, okay.
+[876.3-878.3] Like it was, as long as you're generating a lot of cash
+[878.3-880.1] then you could, if you're really undervalued
+[880.1-881.8] and you used to buy your own shares back
+[881.8-883.2] and like, maybe that's a good thing.
+[883.2-884.3] Do you think you should underprice
+[884.3-886.1] on an IPO day, see how the pub
+[886.1-887.8] or you like, you should price to perfection?
+[887.8-889.1] People focus so much on this.
+[889.1-890.6] Like I don't understand it.
+[890.6-892.8] Like, of course you're going to focus on your price
+[892.8-894.0] and whatever, but people,
+[894.0-896.5] there's this concept of like an IPO window
+[896.5-898.8] that investment bankers and founders talk about
+[898.8-899.6] is like, oh, the window's closed,
+[899.6-901.7] you can't go public because the price won't be there
+[901.7-903.0] or something, but you're like, well,
+[903.0-904.7] what if you went public and then you price went down?
+[904.7-905.6] Like, is that better?
+[905.6-907.0] I mean, it's the same thing, isn't it?
+[907.0-909.3] So I don't quite understand that dynamic.
+[909.3-911.6] Like, you know, I'm an operator, run a good business,
+[911.6-914.1] like make it super profitable, have it grow
+[914.1-916.5] and like don't compare yourself too much to anthropic
+[916.5-918.9] or these AI companies that are,
+[918.9-920.4] we've been around for 15 years
+[920.4-921.8] and there's companies that are getting
+[921.8-923.3] to our revenue in 18 months.
+[923.3-925.6] And you're like, I think envy is a very bad,
+[925.6-927.1] is it one of the seven deadly sins?
+[927.1-928.6] Like you certainly should avoid it.
+[928.7-930.9] Do you worry about the concentration of value
+[930.9-933.2] to a few companies when you look at eight companies
+[933.2-936.9] making up 85% of your state gains in the stock markets
+[936.9-939.0] and then you look at anthropic and open AI?
+[939.0-941.0] Do you worry about that concentration of value
+[941.0-943.0] to smaller and smaller number of names?
+[943.0-944.5] As long as I'm allowed to use open AI
+[944.5-946.8] and anthropic, then I don't mind at all.
+[946.8-947.9] Like, they deserve it.
+[947.9-950.6] These things are just incredible, miraculous products.
+[950.6-952.2] What I worry about is that they cut us off
+[952.2-953.7] and that we can't use it anymore.
+[953.7-954.8] If I can't use open AI,
+[954.8-956.4] we're all gonna go back to being just idiots
+[956.4-957.7] we worked two years ago.
+[957.7-961.3] If I need this stuff, we're so dependent on it,
+[961.3-962.7] both personally and then like,
+[962.7-964.9] what do you need it for most?
+[964.9-967.7] It's a ton of business logic, like a lot of rules
+[967.7-970.7] because we're an enterprise logistics company.
+[970.7-972.7] We help businesses manage their cargo
+[972.7-973.9] shipping around the world.
+[973.9-977.0] Every business is unique and has their own process
+[977.0-979.0] and their own, oh, we need this data
+[979.0-982.0] and this format moved into this ERP system.
+[982.0-984.0] We want you to notify us.
+[984.0-985.9] Some companies want to be notified 10 days
+[985.9-987.5] in advance of their container arriving
+[987.5-989.0] at their warehouse in some seven
+[989.0-990.4] and like they really care about that
+[990.4-991.8] and they spend so much money
+[991.8-993.4] that you have to do what they say.
+[993.4-995.6] So a lot of our tech is like this big rules engine
+[995.6-997.8] and you get all these if then type statements
+[997.8-999.2] and it becomes very unwieldy
+[999.2-1001.0] and at the end of the day, it can't really keep up
+[1001.0-1002.8] and you end up with people managing some
+[1002.8-1003.8] of this business logic.
+[1003.8-1005.2] Well, the agents can just do it.
+[1005.2-1007.0] An RPA couldn't do that before
+[1007.0-1008.4] because it's all that was the promise of it
+[1008.4-1009.4] and for people who didn't know
+[1009.4-1011.0] or brought it process automation.
+[1011.0-1012.8] I thought that was kind of the promise of RPA
+[1012.8-1014.7] that was meant to be fulfilled.
+[1014.7-1017.2] It does a lot and we've gone a long ways with that.
+[1017.2-1019.4] But agents can go all the way.
+[1019.4-1021.6] Like we think we can automate the full end end.
+[1021.6-1023.5] And this is you building your own.
+[1023.5-1025.3] We're using OpenAI, using Anthropic.
+[1025.3-1027.4] We're gonna increasingly use open source models
+[1027.4-1029.0] to save money but also because
+[1029.0-1030.8] we don't today have a budget constraint
+[1030.8-1032.2] on our Anthropic contract.
+[1032.2-1033.1] Did you see that?
+[1033.1-1033.9] Not exactly the other day is like
+[1033.9-1035.8] we spent half a billion dollars on that sort of thing
+[1035.8-1038.2] but we don't have a budget on our contract
+[1038.2-1039.9] and yet last Thursday I woke up.
+[1039.9-1040.8] I don't know when we're gonna air this
+[1040.8-1042.8] but it was like a few days before the end of the month
+[1042.8-1045.5] and it said your organization has reached your limit
+[1045.5-1047.2] for the month, which it's not true
+[1047.2-1049.2] like something went wrong in their side
+[1049.2-1052.0] but I had this moment of like oh man
+[1052.0-1054.4] what if they just decide one day to cut us off
+[1054.4-1055.3] and say no.
+[1055.3-1057.2] And I actually think this is a realistic scenario
+[1057.2-1058.0] where they-
+[1058.0-1059.5] Was the expense much more,
+[1059.5-1061.3] we'll go back through that much money for us?
+[1061.3-1062.8] It's not, how much is it?
+[1062.8-1065.3] I think we're spending like probably like five million a year
+[1065.3-1067.3] or something ramping pretty fast though.
+[1067.3-1069.1] Like it's doubled in the last few months.
+[1069.1-1071.9] We released a show with Brandon at McCourt
+[1071.9-1074.3] and he said he spends more on Anthropic
+[1074.3-1076.1] or no he spends more on Open Air.
+[1076.1-1076.9] I wish everyone-
+[1076.9-1078.1] Did I say five million a year right?
+[1078.1-1079.1] You're not a month a year?
+[1079.1-1081.5] No he spends more on models
+[1081.5-1084.1] and compute than he does on salaries by far.
+[1084.1-1085.1] I thought that was really interesting.
+[1085.1-1086.1] We're not even close to that
+[1086.1-1087.8] but there's a world where that becomes,
+[1087.8-1089.8] I mean it has to, at some point,
+[1089.8-1090.6] it's very interesting.
+[1090.6-1093.0] It has to for the valuations to be justified.
+[1093.0-1095.4] So right now Benny offset that he spends 300 million
+[1095.4-1097.8] a year on Anthropic for his team,
+[1097.8-1100.5] which works out to 3.8% of developer salaries
+[1100.5-1102.8] for the trillion dollar valuations to be justified.
+[1102.8-1105.3] You need to be in the 18s, 20% range.
+[1105.3-1107.5] We still need to see quite a movement.
+[1107.5-1108.3] Yeah.
+[1108.3-1110.5] We do see ourselves like automating a ton of the work
+[1110.5-1113.1] and taking it away with, you have to, right?
+[1113.1-1115.5] I mean, even at five, like I better say five million a year
+[1115.5-1117.8] and labor cost or make my product way better,
+[1117.8-1119.6] which we are finding ways to make the product way better.
+[1119.6-1121.4] Do you think you're spending 20 million a year
+[1121.4-1123.6] on Anthropic in five years?
+[1123.6-1124.8] Yeah, I mean, I don't know about Anthropic
+[1124.8-1125.9] but on Elham's.
+[1125.9-1126.8] Absolutely.
+[1126.8-1128.6] But it's possible that the price comes way down
+[1128.6-1130.7] to deflation and there's, it's also possible
+[1130.7-1133.1] that we move a lot of workflows onto open source
+[1133.1-1136.6] because if it's good enough, like for our coding agents
+[1136.6-1138.6] and like for actually developing product,
+[1138.6-1139.8] we probably always want the frontier model.
+[1139.8-1142.2] But if you're just automating a workflow
+[1142.2-1144.2] if the open source one that's basically free
+[1144.2-1145.5] can automate it then I don't,
+[1145.5-1148.1] there's diminishing returns to frontier Elham's.
+[1148.1-1149.8] And there's diminishing returns also to just doing it.
+[1149.8-1152.0] Like once I've automated all the work,
+[1152.0-1153.3] I don't want to keep spending the money.
+[1153.3-1156.2] Like I had the agents work, like I should probably stop.
+[1156.2-1158.4] Now keep spending money on code
+[1158.4-1160.5] and things that improve our product
+[1160.5-1162.5] and our surface area that our customers interact with.
+[1162.5-1163.6] But you know, we're a pretty manual,
+[1163.6-1164.9] we have a lot of manual processes.
+[1164.9-1166.5] Once they're automated, like I should stop
+[1166.5-1168.0] spending the money on Anthropic.
+[1168.0-1169.3] I was a terrible interview.
+[1169.3-1170.2] I interrupted you.
+[1170.2-1173.2] You said that you said there was a realistic scenario that.
+[1173.2-1176.3] Oh, there's a realistic scenario that they decide
+[1176.3-1178.9] that the compute that they have is more valuable
+[1178.9-1181.8] for training super intelligence than it is
+[1181.8-1183.2] for letting customers use it.
+[1183.2-1185.2] And they stop, you know, just cut it off.
+[1185.2-1187.0] And we all just going back to being idiots.
+[1187.0-1189.6] At that point, do you not think governments need to step in?
+[1189.6-1190.4] Maybe, yeah.
+[1190.4-1191.4] Do you not think actually, though,
+[1191.4-1193.0] you're extrapolating it a bit far
+[1193.0-1196.2] given the fact that I can't even do fucking clips on AI right now?
+[1196.2-1198.0] Like, I think this is my point.
+[1198.0-1199.3] No, no.
+[1199.3-1200.5] I can't do what I was saying.
+[1200.5-1202.5] Uber and Microsoft come out saying,
+[1202.5-1205.1] yeah, the productivity gains are kind of questionable.
+[1205.1-1208.0] I think that's probably true in those businesses.
+[1208.0-1210.6] Our business has just tons of manual operations
+[1210.6-1212.6] with humans like forwarding email.
+[1212.6-1213.6] We call it freight forwarding.
+[1213.6-1216.4] I often say it should be called freight email forwarding.
+[1216.4-1218.6] It's like people passing PDFs around
+[1218.6-1221.4] and moving data between enterprise systems.
+[1221.4-1223.4] And there's just like a huge amount of human labor.
+[1223.4-1226.0] And I think that most of the economy looks like that,
+[1226.0-1229.1] not like Uber to highly automated business,
+[1229.1-1231.0] although I don't know why they have like tens of thousands,
+[1231.0-1232.4] 30,000 more employees
+[1232.4-1233.9] because pretty automated, right?
+[1233.9-1235.2] Like, I don't quite get that.
+[1235.2-1236.8] You said the team is 2000.
+[1236.8-1237.6] Almost.
+[1237.6-1238.6] Almost 2000.
+[1238.6-1240.2] 2030, four years time.
+[1240.2-1241.3] How big is the team then?
+[1241.3-1243.2] It might be about the same.
+[1243.2-1245.5] We're hiring a lot of salespeople
+[1245.5-1248.6] and we're expanding a lot in new markets.
+[1248.6-1251.0] But I think you're going to see like a shift from people
+[1251.0-1252.4] that today do operations,
+[1252.4-1255.1] kind of manual work that I was describing earlier into,
+[1255.1-1257.3] okay, you've got to do the work style is going to change.
+[1257.3-1259.8] And if the people are not able to make that shift
+[1259.8-1261.7] and we're going to have to rebalance
+[1261.7-1263.1] into much more customer facing,
+[1263.1-1264.6] account management, sales,
+[1264.6-1266.0] kind of like, all right,
+[1266.0-1268.4] because I think that's the future is just like,
+[1268.4-1269.6] but do you know what the future is?
+[1269.6-1271.0] Supercom Species.
+[1271.0-1272.9] And I don't see people twing about this enough.
+[1273.0-1275.1] Zab from ClickUp said this in his post,
+[1275.1-1277.2] which we chatted about before.
+[1277.2-1279.5] But he essentially said he was cutting people
+[1279.5-1283.8] so he could pay the super contributors 10x more.
+[1283.8-1286.2] You don't need more salespeople.
+[1286.2-1289.4] You need more fucking amazing salespeople
+[1289.4-1291.9] who leverage AI outbound AI tools,
+[1291.9-1294.3] inbound AI tools, pipeline tools,
+[1294.3-1298.3] forecasting tools to be the next great sales leader
+[1298.3-1299.6] that leverages AI.
+[1299.6-1300.4] No?
+[1300.4-1302.6] Certainly what as many of those people can get.
+[1302.6-1303.9] So there's just like a lot of mass
+[1303.9-1305.6] that you want out there in the field.
+[1305.6-1307.4] I mean, think about our business.
+[1307.4-1310.5] We're global trade platform for global trade.
+[1310.5-1312.3] There's every business on the planet
+[1312.3-1313.9] that needs to ship something anywhere.
+[1313.9-1315.2] There's a lot of boots on the ground
+[1315.2-1316.4] that you want to just to interface
+[1316.4-1317.6] with those companies out there.
+[1317.6-1320.0] And there's a limit to how many relationships
+[1320.0-1321.0] a human hat can have.
+[1321.0-1322.6] And I think you can probably use AI
+[1322.6-1325.5] and use other techniques to double that ratio
+[1325.5-1327.1] or something, but like there's some limit
+[1327.1-1328.8] to how many relationships you can maintain.
+[1328.8-1330.2] And it's a relationship's game
+[1330.2-1331.4] at the end of the day, sales.
+[1331.9-1334.0] So I'm somewhat skeptical.
+[1334.0-1335.4] This isn't an interesting question, though.
+[1335.4-1339.6] Like Yelp has 3,600 salespeople calling our restaurants.
+[1339.6-1340.5] Wow.
+[1340.5-1341.3] It's actually a pretty good business.
+[1341.3-1342.8] I think they haven't grown that much,
+[1342.8-1343.8] but they print cash.
+[1343.8-1345.3] And like 3,600 salespeople,
+[1345.3-1346.9] if Yelp can have 3,600 salespeople,
+[1346.9-1349.2] I feel like we should have more than that.
+[1349.2-1350.8] I interviewed the founder of Invisible,
+[1350.8-1352.5] which is another data provider.
+[1352.5-1354.1] And he said that you can't do enterprise
+[1354.1-1356.4] without fully fledged FDE model.
+[1356.4-1357.4] You think that's true working
+[1357.4-1358.9] with some of the biggest companies?
+[1358.9-1359.8] No, it's not true.
+[1359.8-1360.8] You can do it without that.
+[1361.3-1362.1] You business is better,
+[1362.1-1365.3] but if you can get that level of integration,
+[1365.3-1368.1] you know, the freight industry was the original FDEs.
+[1368.1-1369.6] They just weren't engineers, they were just,
+[1369.6-1371.8] but one of the big tech companies
+[1371.8-1374.2] that runs like hyper-scaler, let's call it,
+[1374.2-1376.4] has one of our direct competitors,
+[1376.4-1379.9] has 130 full-time employees that work at that company
+[1379.9-1381.9] that have badges that show up to work every day,
+[1381.9-1383.6] that run their logistics for them.
+[1383.6-1385.5] And we cannot crack the door at that place.
+[1385.5-1386.3] I won't say their name,
+[1386.3-1387.7] but we cannot get our foot in the door
+[1387.7-1389.8] because all the decision making is done
+[1389.8-1390.9] by our competitor.
+[1390.9-1393.8] I think it's an insanely great competitive
+[1393.8-1396.1] managed and positioned a dab at, so I'm jealous,
+[1396.1-1397.7] and I don't know where you find,
+[1397.7-1398.7] but they're not software engineers.
+[1398.7-1400.6] These are just like logistics people.
+[1400.6-1402.5] If you can get that same thing
+[1402.5-1403.9] and just deeply embed yourself
+[1403.9-1405.7] into the process workflow of a company,
+[1405.7-1407.4] it's so valuable, it's not easy to do.
+[1407.4-1410.4] I'm like, it's not easy to find in the FDE model
+[1410.4-1413.4] to find good FDEs who will like know what to do,
+[1413.4-1415.6] like show up and do a good job every day
+[1415.6-1417.8] and like stay in the job and not have to turn over.
+[1418.4-1419.5] You used to have like a question like,
+[1419.5-1421.8] did truly great engineers want to be FDs?
+[1421.8-1424.2] It's not often goes close to the pure art
+[1424.2-1425.4] of solving engineering problems
+[1425.4-1427.7] that they want, or great engineers want.
+[1427.7-1428.5] It's challenging.
+[1428.5-1430.6] Yeah, they're actually speaking of them.
+[1430.6-1432.4] So it's quite common in our industry
+[1432.4-1433.7] where you have these like forward deployed,
+[1433.7-1434.7] they're not engineers, like I said,
+[1434.7-1437.0] they're like forward-legio-deployed logisticians
+[1437.0-1439.0] or something like that on site.
+[1439.0-1440.1] And we had this recent,
+[1440.1-1441.6] we just had this huge customer win
+[1441.6-1443.0] one of our biggest ever.
+[1443.0-1445.0] And I was like, wow, this is great,
+[1445.0-1447.1] but I had heard that our competitor
+[1447.1-1449.3] has one of these forward deployed logisticians,
+[1449.3-1452.6] like and runs their RFP, runs their process
+[1452.6-1453.7] for choosing a freight forder
+[1453.7-1455.0] and they always choose themself.
+[1455.0-1457.2] Which I'd heard about, I was like, wow, this is idiotic,
+[1457.2-1458.3] like why do they do this?
+[1458.3-1459.8] It's a great business.
+[1459.8-1460.6] Totally.
+[1460.6-1463.0] And I'm going to choose this.
+[1463.0-1465.0] And we won and I was like, wow, what happened
+[1465.0-1469.0] and I found out the competitor had been acquired
+[1469.0-1471.0] by another one of our competitors
+[1471.0-1473.6] and they did a huge layoff and they fired the person.
+[1473.6-1475.4] And she got hired by the company
+[1475.4-1478.2] and then they chose us to get back at them.
+[1478.2-1479.8] So, wow.
+[1479.8-1482.4] That never underestimated kind of corporate incompetence
+[1482.4-1484.1] and was your largest customer
+[1484.1-1486.0] like not named by the size?
+[1486.0-1489.1] I spent about 150 million a year, the biggest one.
+[1489.1-1490.3] We don't have too many like that,
+[1490.3-1493.8] but we have probably a dozen that spent over 50
+[1493.8-1495.3] and then a long tail.
+[1495.3-1496.1] Wow.
+[1496.1-1497.3] Yeah, logistics expensive.
+[1497.3-1498.9] It's 11% of GDP.
+[1498.9-1501.3] So people spend, and they don't have
+[1501.3-1502.7] to be that big of company.
+[1502.7-1504.7] That's the thing that I will often have
+[1504.8-1507.1] to educate investors on is logistics
+[1507.1-1509.2] have a much bigger market than software.
+[1509.2-1512.8] So for example, a typical medium-sized company
+[1512.8-1516.3] will spend, call it 5% of their revenue.
+[1516.3-1518.3] Companies spend about, if they're physical goods companies,
+[1518.3-1520.6] they'll spend like 5% of their revenue on logistics.
+[1520.6-1522.8] They're not spending 5% on any software.
+[1522.8-1526.0] Maybe at scale, our price point is similar
+[1526.0-1527.7] to what you would spend on Oracle or something
+[1527.7-1529.1] for a comparably sized company.
+[1529.1-1531.1] Actually last, but then you would say
+[1531.1-1533.0] that we are not seeing the productivity gains
+[1533.0-1535.7] in logistics that we are seeing in software creation.
+[1535.7-1538.6] Because if we were, you'd be seeing revenue scaling
+[1538.6-1540.3] in logistics like you have done
+[1540.3-1541.9] for a cognition or a cursor.
+[1541.9-1543.1] You see costs come down at least.
+[1543.1-1544.1] Yeah, I don't know that you're gonna see
+[1544.1-1546.8] a huge revenue scaling of this.
+[1546.8-1548.8] I mean, by the way, our competitors like us
+[1548.8-1550.0] and others that are scaling,
+[1550.0-1551.4] that are serving data center companies
+[1551.4-1553.0] that part of the business grow like crazy
+[1553.0-1554.5] because the data centers have to be built.
+[1554.5-1556.5] The data center economy is fucking wild.
+[1556.5-1557.4] It's wild, yeah.
+[1557.4-1559.5] When we go back to the teams themselves,
+[1559.5-1560.3] I am intrigued.
+[1560.3-1562.0] You said about the use of Anthropic.
+[1562.0-1563.7] Have you always used Anthropic?
+[1563.7-1565.4] Or has that been a switch?
+[1565.4-1566.2] We switched back and forth.
+[1566.2-1567.2] We're using codex too.
+[1567.2-1569.8] In fact, yeah, codex won us over.
+[1569.8-1572.2] They say I'm still in my heart two months ago
+[1572.2-1573.9] when he said you can have two months free.
+[1573.9-1574.9] That was like 30 days ago.
+[1574.9-1576.4] So we switched everything to codex.
+[1576.4-1577.8] So you switched everything to codex?
+[1577.8-1579.4] The engineers can choose both.
+[1579.4-1580.8] What are the engineers' choose?
+[1580.8-1581.8] I think they're still more,
+[1581.8-1584.2] they're still more habit-formed on cloud,
+[1584.2-1586.0] but they use codex.
+[1586.0-1588.6] We're cursor users, we use everything.
+[1588.6-1591.4] As an enterprise, we've been more Gemini
+[1591.4-1592.8] because we're Google Docs Centric
+[1592.8-1594.3] and so it's like it really nice out baked in.
+[1594.3-1596.0] It is notebook LAM and these things,
+[1596.0-1598.8] but all of our employees have cloud access as well.
+[1598.8-1602.6] You're able to invest in OpenAI or Anthropic.
+[1602.6-1606.3] OpenAI is whatever 900 and Anthropic is that you're in.
+[1606.3-1608.1] So there's slight difference on price.
+[1608.1-1609.6] Yeah, but you can only invest in one,
+[1609.6-1610.8] which one do you invest in?
+[1610.8-1612.0] Oh, I can only invest in one?
+[1612.0-1612.8] Why?
+[1612.8-1613.7] Why can I invest in both?
+[1613.7-1614.9] Because I'm forcing you to choose.
+[1614.9-1617.2] It'd be easy if you could choose both.
+[1617.2-1618.2] At the same price?
+[1618.2-1619.1] Let's do the same price.
+[1619.1-1620.0] Yeah, same price.
+[1620.0-1622.2] I think I'm going Anthropic.
+[1622.2-1624.0] No offense, because Sam's a friend of mine.
+[1624.0-1625.5] Just because the enterprise business?
+[1625.5-1627.2] Yeah, the enterprise business seems great.
+[1627.2-1628.8] And the team, I think there's a lot of value
+[1628.8-1632.2] of this cohesive team that's been together forever
+[1632.2-1635.3] and OpenAI has had ups and downs and people have left
+[1635.3-1637.9] and it's been hard to keep the whole team in place.
+[1637.9-1639.7] And there's just so much value in founders
+[1639.7-1641.4] that love each other and no one quits
+[1641.4-1643.9] and the talent, density, et cetera.
+[1643.9-1645.9] But OpenAI has people that sleep on.
+[1645.9-1647.2] I would invest in both, right?
+[1647.2-1649.0] And I would do as much as I could
+[1649.0-1649.9] and either of them.
+[1649.9-1650.9] Do you invest in Anthropic?
+[1650.9-1651.7] Yeah.
+[1651.7-1652.6] Well done.
+[1652.6-1653.4] But not like early.
+[1653.4-1655.2] I'm not like a price as you do now.
+[1655.2-1656.8] No, it's like 600 or something.
+[1656.8-1658.9] It was already, it was already, it's already ran away.
+[1658.9-1660.2] So I'm not going to get much money on that.
+[1660.2-1661.7] Do you need to say 100 is not bad?
+[1661.7-1663.1] Well, like two months later, I got my,
+[1663.1-1664.0] I wasn't very long ago.
+[1664.0-1664.8] I just reasoned.
+[1664.8-1665.8] How much did you do?
+[1665.8-1668.4] It's my finances are private, but not that much.
+[1668.4-1669.2] I don't have that much money.
+[1669.2-1670.8] Do you worry about open source?
+[1670.8-1671.8] And when I said,
+[1671.8-1672.8] As a threat to Anthropic?
+[1672.8-1673.7] You don't know.
+[1673.7-1674.5] I don't care.
+[1674.5-1675.5] I'll be great.
+[1675.5-1676.8] I do know, dude.
+[1676.8-1679.0] If you think about what you just said earlier, actually,
+[1679.0-1682.5] which is a lot of the usage from frontier models
+[1682.5-1685.0] can be moved over time for more mundane tasks
+[1685.0-1688.0] to open source models, which we both agree on,
+[1688.0-1691.2] that massively maims the market for the core providers.
+[1691.2-1692.1] Yeah.
+[1692.1-1695.7] If we only use them for the most frontier advanced tasks
+[1695.7-1697.0] and everything else, we can just push
+[1697.0-1699.1] to open source for older models.
+[1699.1-1701.5] They're called businesses much smaller than you think.
+[1701.5-1703.0] No, but your question was, do I worry about that?
+[1703.0-1703.8] I don't care.
+[1703.8-1704.8] I mean, Anthropic is your I don't care.
+[1704.8-1707.4] I didn't put an amount of money that matters for me.
+[1707.4-1708.7] So on my personal basis,
+[1708.7-1711.0] and if AI intelligence becomes really cheap,
+[1711.0-1713.8] that's like much better for the world than for me.
+[1713.8-1716.6] Do you worry given the majority of open source models
+[1716.6-1717.6] to Chinese?
+[1717.6-1718.7] Not really.
+[1718.7-1720.0] I don't know how they work,
+[1720.0-1722.3] like how they can stay competitive on some level.
+[1722.3-1723.6] But if they're open source, they're open source.
+[1723.6-1724.8] Like who cares where they're from?
+[1724.8-1725.8] We can use them.
+[1725.8-1727.7] Well, because you basically feeling
+[1727.7-1730.2] dated back to the CCP would be the fear
+[1730.2-1731.8] from Keith Reborn and others.
+[1731.8-1734.6] And then actually CCP funded open source models
+[1734.6-1736.5] comparing the majority of these days
+[1736.5-1738.1] to the Canvally companies.
+[1738.1-1740.5] And that essentially is giving a window
+[1740.5-1742.4] into Silicon Valley for China.
+[1742.4-1743.2] Yeah.
+[1743.2-1744.1] It's really interesting.
+[1744.1-1745.3] I don't personally spend a lot of,
+[1745.3-1746.8] I don't lose sleep over it.
+[1746.8-1748.4] Do you lose sleep over China?
+[1748.4-1749.2] Not really.
+[1749.2-1751.8] I mean, I think I've lived in China for a few years.
+[1751.8-1753.7] And I speak Chinese passively.
+[1753.7-1755.4] And not really well.
+[1755.4-1757.2] But I can have a conversation.
+[1757.2-1761.5] And so I feel like I know China better than most,
+[1761.5-1762.7] it's not high moral.
+[1762.7-1763.3] Yeah.
+[1763.3-1767.1] On some level, I think that these China and the US,
+[1767.1-1769.6] there's like a huge amount of mutual dependence there
+[1769.6-1770.9] that is underplayed.
+[1770.9-1772.7] And I think that there's a lot,
+[1772.7-1774.7] the interests are much more aligned
+[1774.7-1775.6] than people give credit.
+[1775.6-1778.4] And all this, there's so much saber rattling
+[1778.4-1780.4] and so many people like China sound,
+[1780.4-1781.7] I don't know if they're trying to sound smart
+[1781.7-1782.9] or tough or something,
+[1782.9-1785.4] but they're casually throwing around like war
+[1785.4-1787.2] between China and the United States
+[1787.2-1789.2] without realizing that like such a thing
+[1789.2-1791.4] would be a nuclear war and you'd all be dead.
+[1791.4-1792.3] And so I don't,
+[1792.3-1793.8] I think that that odds of that happening
+[1793.8-1794.6] are like pretty low.
+[1794.6-1796.6] I don't really believe that these countries
+[1796.6-1798.9] are gonna suddenly start shooting nukes at each other.
+[1798.9-1801.4] And yet if you have war between these two powers,
+[1801.4-1802.4] like that's what it would be.
+[1802.4-1803.2] So.
+[1803.2-1805.5] I loved it when Trump landed in China
+[1805.5-1807.2] and they played YMCA.
+[1807.2-1808.2] Oh, they did.
+[1808.2-1810.4] And there's this video of Trump.
+[1810.4-1812.2] And you can see he's kind of like a little child
+[1812.2-1814.8] as a party desperate to dance, but not allowed to.
+[1814.8-1816.3] That's where it go.
+[1816.3-1818.1] Yeah, and it's just brilliant.
+[1818.1-1819.9] YMCA playing in the background.
+[1819.9-1821.2] Well, everyone Obama went there.
+[1821.2-1822.6] They didn't even open the,
+[1822.6-1823.7] they didn't roll out the red carpet.
+[1823.7-1826.0] They didn't bring up the stairs to the Air Force One.
+[1826.0-1827.9] You had to like Air Force One has its own stairs,
+[1827.9-1829.2] but it's like they're not very good.
+[1829.2-1830.1] They're sort of awkward yet
+[1830.1-1831.2] to climb out the bottom of it.
+[1831.2-1832.1] So.
+[1832.1-1832.9] Oh, wow.
+[1832.9-1833.8] I did not know that.
+[1833.8-1834.8] Yeah, you can look at it.
+[1834.8-1835.9] And when I think about China,
+[1835.9-1839.0] I own sadly these is thing about a mutual friend
+[1839.0-1840.4] of Oskey through Boyk,
+[1840.4-1843.1] given his bright open concerns around China.
+[1843.1-1845.8] And it goes to something you said to me before,
+[1845.8-1848.2] which was going back to an invention fundraising,
+[1848.2-1850.4] how you kind of fluffed or fucked up
+[1850.4-1851.9] two funding rounds.
+[1851.9-1853.1] Very humble of you.
+[1853.1-1855.9] And how found as fun bailed you out of them.
+[1855.9-1857.6] I didn't actually know this story.
+[1857.6-1859.1] They're both different stories.
+[1859.1-1861.0] And they'd be rather embarrassing
+[1861.0-1862.0] if you did the same mistake.
+[1862.0-1863.4] Oh, yeah, exactly.
+[1863.4-1865.4] The first time, but they're both my fault.
+[1865.4-1867.0] Well, at least the first one was definitely my fault.
+[1867.0-1869.4] So our flexboard series B round,
+[1869.4-1871.4] and we were like a hot company.
+[1871.4-1873.6] We were getting a VC came in
+[1873.6-1875.2] and tried to preempt our round
+[1875.2-1877.9] and offered us for our scale
+[1877.9-1881.0] and where we were, what were great terms.
+[1881.0-1882.2] I think it was, at that time,
+[1882.2-1885.3] it was like 50 on up 500 million valuation or something.
+[1885.3-1888.6] But like this was in 2015, oh, was it 2016?
+[1888.6-1889.8] It was pretty early in our journey.
+[1889.8-1890.9] We were founded in 2013.
+[1890.9-1892.6] So it was like, they were good terms.
+[1892.6-1895.6] And I was very happy with the terms.
+[1895.6-1898.5] And yet the VC wasn't that famous or well known.
+[1898.5-1899.4] They're good, they're a good firm.
+[1899.4-1900.4] I'm not going to say their name.
+[1900.4-1901.6] I don't need to be starting fights.
+[1901.6-1904.7] But I decided, and this is where I screwed up,
+[1904.7-1907.1] I decided I could get the same or better terms
+[1907.1-1908.6] from a better known investor.
+[1908.6-1911.0] And so this was like on a Thursday,
+[1911.0-1913.8] and I spent Friday and the weekend hustling,
+[1913.8-1915.9] trying like pitching a whole bunch of investors.
+[1915.9-1917.7] But I had no, it was being preempted.
+[1917.7-1919.8] So I had no data room or deck or anything
+[1919.8-1921.8] that you would need to do a fundraise.
+[1921.8-1925.1] And I think the word must have got back to this investor
+[1925.1-1925.9] because he goes to be,
+[1925.9-1927.6] I basically never talked to him again.
+[1927.6-1930.2] He definitely didn't show up with an actual term sheet.
+[1930.2-1932.8] And then now I'm in the midst of a fundraise
+[1932.8-1935.2] where I've set this artificially high price
+[1935.2-1936.9] and I wasn't fundraising,
+[1936.9-1938.8] but you can't like turn off the fundraise.
+[1938.8-1941.5] I don't know, we didn't need money then,
+[1941.5-1943.6] but we were going to need it within a year.
+[1943.6-1945.7] And so it was just like this very awkward position
+[1945.7-1948.7] and no, and Founders Fund was our investor at that time.
+[1948.7-1950.6] They'd led the series A.
+[1950.6-1953.4] So first mistake, I should've just called Founders Fund day one
+[1953.4-1954.9] and said, hey, we do this round.
+[1954.9-1956.4] But like I thought I was hot.
+[1956.4-1958.6] And like, yeah, eventually I did call Founders Fund
+[1958.6-1960.1] and told him, oh, here's the best screwed up.
+[1960.1-1962.4] Like I tried to raise money, failed.
+[1962.4-1963.3] I did have an offer,
+[1963.3-1965.8] but the best offer I got from my process
+[1965.8-1968.9] that I ran post was like a 275 million evaluation
+[1968.9-1970.0] instead of 500.
+[1970.0-1972.5] And I went to Founders Fund, I just told him everything.
+[1972.5-1974.0] It's like, here's how I screwed this up.
+[1974.0-1976.0] Best offer I got was 275,
+[1976.0-1978.1] but the firm wants board control.
+[1978.1-1980.8] So if you'll just do it without taking the control
+[1980.8-1982.5] of the board, you guys can have it.
+[1982.5-1985.6] And Peter just offered 375,
+[1985.6-1986.8] which wasn't as good as my 500,
+[1986.8-1987.6] but he didn't need to do that.
+[1987.6-1990.2] I told him he could have it at 275 and he offered 300.
+[1990.2-1992.5] It was been your biggest lesson from working with Peter.
+[1992.5-1994.5] They've invested several times in you.
+[1994.5-1996.8] Yeah, they have Founders Fund led our A,
+[1996.8-2000.1] our B, participated in the C or D and led our E.
+[2000.1-2001.6] How much do the companies they have?
+[2001.6-2003.6] They probably had to go look at the latest cap table,
+[2003.6-2005.6] probably like almost 15% or something,
+[2005.6-2007.6] maybe 12, there's been some dilution, so.
+[2007.6-2009.9] Okay, and he had big lessons from Peter.
+[2009.9-2012.3] Man, he's sort of an enigma,
+[2012.3-2015.5] just amazing how far in the future he's able to look
+[2015.5-2016.3] and like be right,
+[2016.3-2018.0] the number of predictions that he's made,
+[2018.0-2019.3] like well out there,
+[2019.3-2020.4] just kind of blow your mind.
+[2020.4-2021.8] That's not unique insight from me,
+[2021.8-2023.7] but that's one of the things that amazes me.
+[2023.7-2025.6] Actually, one of the things I love personally about Peter
+[2025.6-2027.7] is that I feel like most people I talk to,
+[2027.7-2031.3] talk too slow, and Peter does not.
+[2031.3-2033.3] And if you accelerate your speech with him,
+[2033.3-2035.4] at least when Peter and I talk to each other,
+[2035.4-2037.6] I think we talk like two times faster
+[2037.6-2038.9] than when we talk to other people.
+[2038.9-2040.7] And there's never a moment where he's like,
+[2040.7-2042.2] doesn't understand what I'm trying to say.
+[2042.2-2044.1] I care a lot about word to value ratio.
+[2044.1-2045.6] You know, the people who take a very long time
+[2045.6-2047.3] say quite a simple message in your life.
+[2047.3-2048.5] Just say the fucking thing.
+[2048.5-2049.3] It drives me crazy.
+[2049.3-2051.8] Yeah, should you always take the highest price?
+[2051.8-2052.6] Wouldn't fundraising?
+[2052.6-2053.4] Yeah.
+[2053.4-2056.1] No, maybe it depends.
+[2056.1-2059.4] That was the worst.
+[2059.4-2061.2] I hate fluff of people doing that to it.
+[2061.2-2062.3] Should you know?
+[2062.3-2063.2] Maybe.
+[2064.2-2065.7] I try to think like over the years,
+[2065.7-2068.2] I kind of would always just take the highest price.
+[2068.2-2070.2] But then Brian Chesky says,
+[2070.2-2071.7] don't ever take the highest price.
+[2071.7-2072.8] Don't ever.
+[2072.8-2074.1] That I disagree with that.
+[2074.1-2075.3] It could be quite uncorrelated,
+[2075.3-2077.5] like the best brand name investor could pay more
+[2077.5-2079.4] than the second best sometimes.
+[2079.4-2081.7] That's very hard to give generic fundraising advice.
+[2081.8-2082.7] I think it's very dangerous.
+[2082.7-2084.9] Like if a founder asked me for advice,
+[2084.9-2086.8] I'm like, you know your situation much better than I do.
+[2086.8-2089.0] So it's like, you have to be careful on that.
+[2089.0-2090.9] No, I disagree totally.
+[2090.9-2092.5] And with the greatest of respect,
+[2092.5-2094.6] I actually think there is generic advice
+[2094.6-2096.0] which you should listen to,
+[2096.0-2097.7] which is like tier one's a worth it.
+[2097.7-2098.9] Take a discount.
+[2098.9-2099.7] Yeah.
+[2099.7-2101.7] They'll help you get a nice round unwaveringly.
+[2101.7-2102.8] Yeah, that's the next thing I was going to say.
+[2102.8-2104.3] It's like with that caveat,
+[2104.3-2105.6] you probably will get a bet.
+[2105.6-2107.3] Like the fact that we're a founder's fund company
+[2107.3-2109.0] has made so many other investors
+[2109.0-2111.2] want to invest in flexboard and like.
+[2111.2-2115.1] You consistently underestimate how team members think
+[2115.1-2117.2] about VCs and the importance of VCs
+[2117.2-2119.0] to joining the company as a team.
+[2119.0-2121.3] The amount of great operators who you're like,
+[2121.3-2122.3] well, they wouldn't be,
+[2122.3-2125.1] I mean, it's really dumb or naive enough
+[2125.1-2127.6] to just join a company because of VC.
+[2127.6-2130.2] Do just join a company because of VC.
+[2130.2-2131.9] They'll go, oh, it's just a core back company.
+[2131.9-2133.2] Oh, it's a founders fund back company.
+[2133.2-2134.0] It must be hot.
+[2134.0-2136.5] Yeah, and employees have the hardest time
+[2136.5-2138.4] because they only get to pick one at a time, right?
+[2138.4-2139.8] Like one company.
+[2139.8-2141.4] I'm Silicon Valley right now.
+[2141.4-2143.3] I think it's around one size at one at a time.
+[2143.3-2144.7] Do you find that hard,
+[2144.7-2147.0] the hopping that seems so prevalent
+[2147.0-2148.2] day more than ever?
+[2148.2-2150.0] So it seems that there's a lack of loyalty.
+[2150.0-2150.8] For sure.
+[2150.8-2153.5] And we basically moved away from San Francisco
+[2153.5-2154.3] as a result.
+[2154.3-2156.8] Like our team in San Francisco is maybe four percent
+[2156.8-2158.1] of the company's based in San Francisco,
+[2158.1-2159.7] so even though that's where we're founded
+[2159.7-2160.6] and where I'm based.
+[2160.6-2161.4] Why is that?
+[2161.4-2162.6] Is that because it cost to a loyalty?
+[2162.6-2163.9] Costs and loyalty.
+[2163.9-2166.9] Retention of good people has always been really hard and.
+[2166.9-2168.0] And the acquisition,
+[2168.0-2168.8] and respectfully,
+[2168.8-2171.0] we're finding against open AI and philanthropic
+[2171.0-2173.0] and some of the hottest companies on the planet
+[2173.0-2174.5] that's greater businesses you are.
+[2174.5-2175.6] You're not as sexy.
+[2175.6-2176.4] Yeah.
+[2176.4-2177.3] And like our customers aren't there.
+[2177.3-2180.1] So I don't need a big sales team in San Francisco.
+[2180.1-2181.4] You know, we need to be everywhere,
+[2181.4-2182.6] not just in San Francisco.
+[2182.6-2184.7] So I think we maybe overdid it though.
+[2184.7-2186.2] Like six years ago,
+[2186.2-2188.9] five years ago I had 800 people in San Francisco
+[2188.9-2192.0] and right now we were like down to about 75.
+[2192.0-2194.0] And actually I'm like looking around being like
+[2194.0-2196.1] my leadership team is too distributed.
+[2196.1-2197.9] I want more talent in San Francisco.
+[2197.9-2200.5] So I'm probably gonna start pushing more of our employees
+[2200.5-2202.0] like you should come move back to San Francisco.
+[2202.0-2203.8] I just got our CFO to move to San Francisco.
+[2203.8-2205.6] It's made the business much better.
+[2205.6-2207.4] Leadership team distributed.
+[2207.4-2210.2] You said remote work is what?
+[2210.2-2211.2] Dot, dot, dot.
+[2211.2-2213.2] Can you help me fill in the statement here?
+[2213.2-2216.2] Well, I say it's what we call our fraud.
+[2216.2-2218.7] I have a three year old and a five year old.
+[2218.7-2221.0] The idea that I could do any work in my house
+[2221.0-2222.2] is like a total fantasy.
+[2222.2-2223.9] Like come on, you're kidding.
+[2223.9-2226.6] And like I have a bigger house than most employees do.
+[2226.6-2228.2] Like I actually do have a private office
+[2228.2-2229.2] I can close the door on.
+[2229.2-2230.0] That doesn't matter.
+[2230.0-2231.9] Like there's no work getting done at that house
+[2231.9-2233.0] when the children are around.
+[2233.0-2235.2] And the kids come home like at,
+[2235.2-2236.8] when the school and 3 p.m.
+[2236.8-2238.5] like your work day needs to keep going.
+[2238.5-2241.3] So I think I'm highly against it.
+[2241.3-2242.8] But we're five day a week in office
+[2242.8-2245.2] as the baseline assumption at our company.
+[2245.2-2248.4] And I made the mistake during COVID of like going remote
+[2248.4-2250.4] and letting it stay remote for way too long.
+[2250.4-2252.9] And so like I think our culture suffered as a result.
+[2252.9-2254.7] Was it difficult to bring it back in?
+[2254.7-2258.1] It's not difficult for the people who don't work here anymore.
+[2259.1-2261.9] But a lot of founders are sitting in the seat today
+[2261.9-2264.2] going, man, I want to bring it back.
+[2264.2-2265.7] I want in person.
+[2265.7-2267.6] I know the value of in person.
+[2267.6-2270.6] But I don't want to revolt when I say I'm sorry.
+[2270.6-2272.0] What advice would you have to them?
+[2272.0-2273.9] Yeah, I'll just have to do what you want to do.
+[2273.9-2276.1] I mean, I think all the bad things that have happened
+[2276.1-2278.5] at Flexport were when I didn't do what I wanted to do
+[2278.5-2281.0] and was trying to, you don't want to ever be afraid
+[2281.0-2282.9] of your employees first of all.
+[2282.9-2284.4] Like the employees don't want that either.
+[2284.4-2286.7] They want a leader who's going to like go in the direction
+[2286.7-2287.6] that they believe in.
+[2287.6-2291.0] Even if they disagree, like they want to follow a good leader.
+[2291.0-2293.8] And if they opt out, like this fight, they can opt out.
+[2293.8-2295.0] Like there's a lot of good jobs.
+[2295.0-2298.2] I think that also the idea that work from home
+[2298.2-2300.5] is going to benefit highly paid employees
+[2300.5-2302.6] is sort of a total fantasy.
+[2302.6-2304.5] Work from home done correctly.
+[2304.5-2306.9] You should be hiring the world's greatest geniuses.
+[2306.9-2308.5] There should be a labor arbitrage here
+[2308.5-2310.8] where you're finding really, really smart people
+[2310.8-2313.3] who make a lot less money because of the way
+[2313.3-2314.4] that our economy is structured
+[2314.4-2316.8] where some countries just have a lower purchasing power
+[2316.8-2318.2] and you can hire people.
+[2318.2-2320.1] Like my brother has an assistant
+[2320.1-2323.3] who has like off the charts IQ in the Philippines
+[2323.3-2325.2] and makes like 500 bucks a month or something.
+[2325.2-2326.2] I don't know what he's paying the person out,
+[2326.2-2327.9] but like that's who's going to benefit
+[2327.9-2329.1] from a work from home environment.
+[2329.1-2331.7] It's not the guy who's making 250K a year
+[2331.7-2332.6] and lives in Jackson Hole
+[2332.6-2334.5] and wants to go skiing for four hours a day.
+[2334.5-2336.4] Like that is, there's too much of that.
+[2336.4-2339.3] Also like, look, your podcast is better if we're in person.
+[2339.3-2343.0] Sure, it's the exact same with every meeting that you have.
+[2343.1-2345.5] I struggle on, we struggle because we're still,
+[2345.5-2347.8] even if we're in office, we're distributed.
+[2347.8-2348.8] We have 40 offices.
+[2348.8-2350.2] We need to be in every country.
+[2350.2-2352.8] So I struggle personally and my team all knows this.
+[2352.8-2354.0] I struggle with paying attention
+[2354.0-2355.8] in like video meetings.
+[2355.8-2358.3] I didn't actually really do zooms anymore
+[2358.3-2361.2] because I just, I find that the quality of interaction
+[2361.2-2362.7] is so low and be fine.
+[2362.7-2364.0] I'm so disengaged.
+[2364.0-2365.0] I know, it's bad.
+[2365.0-2365.8] It's bad.
+[2365.8-2367.0] It's the nature of our business.
+[2367.0-2369.4] So I do want more of our talent to come back to us off.
+[2369.4-2370.5] Google has this new product.
+[2370.5-2371.3] I haven't used it yet.
+[2371.3-2374.1] They built this like, I think HP is marketing it for them
+[2374.1-2376.3] called the dimension of the holograms.
+[2376.3-2377.6] People have used it said it's amazing.
+[2377.6-2378.6] I like the sound of this.
+[2378.6-2381.7] But they're like $250,000 each and then you need one.
+[2381.7-2382.6] You can afford it.
+[2382.6-2384.4] No, but I need one in every office.
+[2384.4-2385.4] My family offices do you have?
+[2385.4-2386.2] 40.
+[2386.2-2387.1] 40.
+[2387.1-2387.9] And growing, yeah.
+[2387.9-2388.9] I can't afford it.
+[2388.9-2390.4] But it gets a little crazy, right?
+[2390.4-2391.3] That's a lot.
+[2391.3-2393.3] Yeah, we need to have an office in every country on earth.
+[2393.3-2395.8] So, and then that's only one person at a time.
+[2395.8-2397.6] I do want to just go back to the exact,
+[2397.6-2399.7] so you said before that we start to like,
+[2399.7-2400.7] why should never hire?
+[2400.7-2402.6] I think it was that you should never hire exacts.
+[2402.6-2403.5] What was it?
+[2403.5-2404.6] Most startup, yes.
+[2404.6-2406.2] Yeah, and I just consistently see,
+[2406.2-2408.0] I saw a CEO the day with his founder.
+[2408.0-2410.8] And I just, it's one of the really fast growing company.
+[2410.8-2414.2] And they hired the CMO from one of these big logo companies.
+[2414.2-2415.9] And I go to the CMO's Twitter.
+[2415.9-2416.9] They don't have Twitter.
+[2416.9-2417.8] CMO doesn't have Twitter.
+[2417.8-2421.8] Yeah, it's the most enterprise CMO ever.
+[2421.8-2423.9] And I'm just like, ah.
+[2423.9-2426.3] Marketing is the hardest thing to hire for too.
+[2426.3-2427.7] Marketing in HR.
+[2428.0-2431.0] What is marketing in HR the hardest to hire for?
+[2431.0-2434.3] For different reasons, marketing in enterprise marketing.
+[2434.3-2436.7] The moment something works, it stops working
+[2436.7-2438.8] because the competitors will copy it.
+[2438.8-2442.2] And so it's like, it's all about creativity and originality.
+[2442.2-2444.4] And like, how do you get creativity and originality
+[2444.4-2446.6] and B2B enterprise marketing?
+[2446.6-2448.0] And if you are creative,
+[2448.0-2450.0] like you probably kind of become a founder,
+[2450.0-2451.5] if you can do good storytelling
+[2451.5-2455.0] and creative ideation in the marketing, storytelling angle.
+[2455.0-2457.7] So you find a good marketer in B2B.
+[2457.7-2459.0] You really want to lock them in.
+[2459.0-2462.0] So it's been, that's a hard one to hire for.
+[2462.0-2466.0] And also to do that, to do successful B2B marketing
+[2466.0-2466.8] and stand out.
+[2466.8-2468.7] Like it's one thing, oh, I just make good sales decks
+[2468.7-2470.5] for the team and like, okay, fine.
+[2470.5-2471.8] Like that's some baseline stuff.
+[2471.8-2473.6] But you're not going to differentiate or move
+[2473.6-2476.0] that bend the curve on a company's success.
+[2476.0-2478.3] You have to be doing kind of crazy stuff.
+[2478.3-2480.6] Most crazy ideas are bad ideas.
+[2480.6-2482.6] So it's like being an investor.
+[2482.6-2484.6] Like you want to do crazy things that happen
+[2484.6-2485.7] and also be good ideas.
+[2485.7-2487.2] Like it's that narrow intersection.
+[2487.2-2489.4] Which also don't down a great enterprise brand,
+[2489.4-2490.4] which is even harder.
+[2490.4-2492.2] Yes. And like as an employee,
+[2492.2-2494.7] as it's so hard to take that risk,
+[2494.7-2497.2] because you're like, I don't know if I do something crazy
+[2497.2-2499.0] and it like blows up, I get fired.
+[2499.0-2500.6] Like why take the risk?
+[2500.6-2503.6] So it's very, very hard to find like a marketer
+[2503.6-2506.6] that's not part of the founding team or like somehow,
+[2506.6-2508.3] you have to give as a founder,
+[2508.3-2510.4] if you're not the one coming up with these crazy ideas
+[2510.4-2512.9] and trying things like you have to protect the team
+[2512.9-2514.4] and let them, you know, the leaders there
+[2514.4-2516.5] and let them know, like I want you to experiment.
+[2516.5-2519.0] Because if it's not crazy, it won't work.
+[2519.0-2521.0] Or it has to be very expensive
+[2521.0-2523.0] and startups can't afford that.
+[2523.0-2525.9] So it's the big benefit that like a big brand has
+[2525.9-2528.5] is they can just do really expensive stuff.
+[2528.5-2531.3] It's expensive as a feature in enterprise marketing
+[2531.3-2533.5] because it's like you wouldn't spend a lot of money
+[2533.5-2535.9] on something promoting something if it wasn't good.
+[2535.9-2536.9] So it must be good.
+[2536.9-2538.3] What's the most expensive thing
+[2538.3-2540.2] you've done marketing was?
+[2540.2-2543.6] Well, we don't have money to waste on marketing.
+[2543.6-2546.2] So you've never spent like a million dollars
+[2546.2-2548.7] on big logos, big brand?
+[2548.7-2550.7] No, I mean, a million dollars, sure.
+[2550.7-2554.0] We do like a conference that costs maybe a little bit
+[2554.0-2555.7] more than that customer conference.
+[2555.7-2557.4] So that's fine them effective.
+[2557.4-2558.2] Yeah, yeah, for sure.
+[2558.2-2560.1] Events, like events works all day
+[2560.1-2561.2] and by the way, you don't have to be that crazy
+[2561.2-2562.1] to do events.
+[2562.1-2564.6] B2B marketing is events marketing to some extent
+[2564.6-2566.2] and like that's like plain to know.
+[2566.2-2567.5] But by the way, you don't need to go higher
+[2567.5-2568.6] as CMO to run events.
+[2568.6-2570.8] Like conferences are kind of hard to pull off.
+[2570.8-2573.2] But like normal events like, hey, host to dinner
+[2573.2-2574.7] like you don't need marketing at all.
+[2574.7-2576.4] Yeah, you have your sales guy call the people
+[2576.4-2577.7] and give my budget for it.
+[2577.7-2579.6] So I basically was doing, I was prepping for show
+[2579.6-2581.1] with Adam from Apploven.
+[2581.1-2583.0] He's like, oh, I fucking hate HR
+[2583.0-2584.9] and every great CEO hates HR.
+[2584.9-2586.8] And like a complete dick that I am,
+[2586.8-2588.5] I thought I'd front run his show
+[2588.5-2591.2] and take every great CEO hates HR
+[2591.2-2592.4] and I'll tweet it myself.
+[2592.4-2596.6] Oh my God, I got killed by everyone for this tweet
+[2596.6-2598.6] which was essentially Adam's words,
+[2598.6-2600.0] which I grew with and I think he's right
+[2600.0-2601.9] in the credit to Adam, he's amazing.
+[2601.9-2604.6] Do you agree every great CEO hates HR?
+[2604.6-2606.4] You probably go through these phases, right?
+[2606.4-2608.2] I mean, I think the thing that you cannot have
+[2608.2-2612.0] is them being like union representatives of your employees.
+[2612.0-2614.7] They're not, they're to represent the company
+[2614.7-2616.1] and therefore to CEO.
+[2616.1-2618.0] And so if there's, if you don't have that
+[2618.0-2620.4] as a CEO like a trusted HR leader
+[2620.4-2621.9] and you feel like the HR leader is more
+[2621.9-2623.5] on the side of the employees
+[2623.5-2625.4] than on the side of the company, then there's a problem.
+[2625.4-2628.2] There have been periods in my company's history
+[2628.2-2629.8] and like the industry in general
+[2629.8-2631.8] where you like didn't have the right HR leadership
+[2631.9-2634.5] that wasn't focused on the business outcome.
+[2634.5-2636.2] But the employees are the company
+[2636.2-2637.4] and the company is the employee,
+[2637.4-2638.6] everything else is a fiction.
+[2638.6-2641.3] We're just like just a fake brand name here
+[2641.3-2643.4] with a bunch of people that are building the company
+[2643.4-2644.6] or serving the customer.
+[2644.6-2647.0] So the word HR is kind of wrong
+[2647.0-2649.0] because they're not, humans are not a resource
+[2649.0-2650.5] that you can mine and take out of the earth.
+[2650.5-2652.0] Like you have to give back to the employees
+[2652.0-2654.1] and have a two way relationship.
+[2654.1-2656.8] They're not, but agents are resources.
+[2656.8-2657.6] Sure.
+[2657.6-2660.6] That you mine and agents will in large part replace humans.
+[2660.7-2662.8] And so the really interesting job function
+[2662.8-2664.8] that could be created is like agent resources.
+[2664.8-2665.6] That is a good idea.
+[2665.6-2667.5] I honestly, yeah.
+[2667.5-2670.3] It's like 996 is being replaced by 0, 07,
+[2670.3-2672.7] which is midnight to midday, seven days a week.
+[2672.7-2674.8] Which is your new agent timeline.
+[2674.8-2676.9] Do you buy the SaaS apocalypse?
+[2676.9-2679.0] And what I mean by that is you said earlier
+[2679.0-2682.3] that you've built agents for a lot of workflows.
+[2682.3-2686.0] Have you ripped and replaced Thalesforce Cooper?
+[2686.0-2688.9] You name it and built your own SaaS tools?
+[2688.9-2690.6] So I'm not those names in particular
+[2690.6-2692.5] but yeah, and I think the negotiation
+[2692.5-2693.6] that we're gonna have with Salesforce
+[2693.6-2695.0] can be a lot different than the last one.
+[2695.0-2698.3] Cause I think selling SaaS to tech companies
+[2698.3-2699.6] is gonna be a tough business
+[2699.6-2701.4] cause we can build stuff ourselves.
+[2701.4-2703.8] And Salesforce, Salesforce is great
+[2703.8-2706.9] although most of our people don't like Salesforce.
+[2706.9-2708.6] How much do you spend on Salesforce here?
+[2708.6-2709.4] You million.
+[2709.4-2710.2] You million.
+[2710.2-2711.1] Yeah.
+[2711.1-2711.9] It's expensive, yeah.
+[2711.9-2713.9] So it's on the list of candidates, right?
+[2713.9-2715.7] I just did a show with Friday Curative.
+[2715.7-2717.0] I don't know if you know this guy.
+[2717.0-2718.5] Fascinating guy, I loved him,
+[2718.5-2720.4] built a business, a health insurance business
+[2720.4-2721.4] in San Francisco.
+[2721.4-2724.7] So five billion dollars of COVID test kits during COVID.
+[2724.7-2725.5] Oh wow.
+[2725.5-2727.4] And then obviously COVID no longer such a problem.
+[2727.4-2729.6] And now he's pivoted into a health insurance business
+[2729.6-2731.5] that does north of a billion in revenue.
+[2731.5-2733.0] Amazing, amazing guy.
+[2733.0-2735.2] And they spend 600K a year in Salesforce
+[2735.2-2736.9] and he replaced it with an in-built tool
+[2736.9-2737.7] that took three weeks.
+[2737.7-2738.6] Yeah, yeah, yeah.
+[2738.6-2741.5] So I suspect that we'll be replacing a lot of these things.
+[2741.5-2743.4] And I think a lot of what'll happen is
+[2743.4-2744.8] you'll just shake them down.
+[2744.8-2745.7] I don't know about Salesforce.
+[2745.7-2747.7] Salesforce Slack is also gonna be a great,
+[2747.7-2748.9] it turned out to be a great acquisition
+[2748.9-2750.5] because that's pretty sticky.
+[2750.5-2752.8] Nobody wants to replace, build their own Slack.
+[2752.8-2755.5] I could see a situation where you go there,
+[2755.5-2756.2] we're kind of in Salesforce
+[2756.2-2757.5] and they just raise their rates on Slack.
+[2757.5-2758.3] I don't know.
+[2758.3-2760.6] So we actually incubated a company,
+[2760.6-2761.9] which is a Slack competitor.
+[2761.9-2763.4] Yeah, it's a direct Slack competitor
+[2763.4-2764.4] built for the AIH.
+[2764.4-2765.2] Yeah, yeah.
+[2765.2-2766.5] And it's kind of actually predicated
+[2766.5-2770.6] on kind of idea of Alex Rampell from Andreessen,
+[2770.6-2772.0] who says he wanna be in markets,
+[2772.0-2773.6] which is Greenfield Bingo,
+[2773.6-2775.4] which essentially are markets where there's
+[2775.4-2777.4] a huge amount of net new customers
+[2777.4-2779.0] created every single year.
+[2779.0-2779.9] In other words,
+[2779.9-2780.9] you don't wanna exist in markets
+[2780.9-2783.1] whether static market entrance.
+[2783.1-2785.4] And actually, our market is every new startup
+[2785.4-2786.5] that's ever created.
+[2786.5-2787.5] If you're creating a company,
+[2787.5-2789.6] do you wanna go on to Slack?
+[2789.6-2790.4] And Salesforce,
+[2790.4-2791.4] or do you wanna have an amazing
+[2791.4-2792.2] new business?
+[2792.2-2793.1] What's the best way for us to do?
+[2793.1-2793.9] That makes sense.
+[2793.9-2794.8] Which I thought was interesting.
+[2794.8-2795.6] Yeah.
+[2795.6-2797.0] Definitely wanna be in big markets too,
+[2797.0-2799.1] but I mean, I think we're coming back
+[2799.1-2800.5] to our earlier thing about SaaS.
+[2800.5-2802.8] I think there's gonna be a lot of categories
+[2802.8-2804.2] where you say, for example,
+[2804.2-2805.7] there's one or two pieces of software
+[2805.7-2807.4] that we fully replace and killed it.
+[2807.4-2809.5] And more every few weeks.
+[2809.5-2810.8] But there's gonna be a big category
+[2810.8-2812.1] where you take like one of the things
+[2812.1-2813.9] I'm having our procurement team doing
+[2813.9-2815.8] is make the PowerPoint case study
+[2815.8-2818.4] of the one of the SaaS that we did replace
+[2818.4-2820.4] and how we did it and how long it took.
+[2820.4-2821.7] And then just go down the list
+[2821.7-2823.3] of all the other SaaS vendors that we have
+[2823.3-2825.4] and say, hey, look, this is what we did
+[2825.4-2827.6] because the vendor didn't reduce our rates.
+[2827.6-2829.8] So I need you to reduce your contract rates
+[2829.8-2832.7] or else I'm just gonna have to replace you guys.
+[2832.7-2833.8] And question one,
+[2833.8-2835.4] what is that reduction do you think?
+[2835.4-2838.2] I think you get like 20% out of almost everybody.
+[2838.2-2839.4] We'll see that, we'll see.
+[2839.4-2842.7] No, no, I think that's very fair actually.
+[2842.7-2844.4] Do you worry about maintenance?
+[2844.4-2846.4] Yep, that's why I don't wanna have to do it for a lot.
+[2846.4-2847.4] In some cases, it might be a bluff.
+[2847.4-2848.8] I couldn't do it for all of them.
+[2848.8-2850.1] And I don't wanna dedicate that much
+[2850.1-2852.6] of our engineering resources to replacing SaaS.
+[2852.6-2855.9] Like I wanna replace work, like expensive labor
+[2855.9-2858.1] and I wanna build our product and make it way better.
+[2858.1-2860.0] So I wanna like focus on our core business
+[2860.0-2862.0] with our engineering talent and like not.
+[2862.0-2863.4] Do you worry about security?
+[2863.4-2865.2] Yeah, constantly, paranoid.
+[2865.2-2866.4] Almost all of our competitors
+[2866.4-2868.4] have had major hacks in logistics.
+[2868.4-2871.2] Like it's been a major target area for cyber
+[2871.2-2873.5] and there's been a lot of like ransom.
+[2873.5-2875.8] I'm not going to personal finances
+[2875.8-2878.5] but I didn't know before we walked in the park
+[2878.5-2880.2] about the angel investing.
+[2880.2-2882.0] If you're comfortable sharing,
+[2882.0-2884.2] what have been some of the best angel checks?
+[2884.2-2886.7] Yeah, I've done really well as an angel investor.
+[2886.7-2890.4] I used to do a ton of it, early days of FlexPort.
+[2890.4-2893.1] So I started this company called importgenius.com
+[2893.1-2894.3] that throws off a lot of cash.
+[2894.3-2895.9] It's a nicely profitable business.
+[2895.9-2898.3] So I actually started as an angel investor
+[2898.3-2900.1] while I was in my combinator
+[2900.1-2902.5] because I realized I had inside access.
+[2902.5-2903.6] I was kind of like a,
+[2903.6-2905.4] was it really obvious who was great
+[2905.4-2908.0] and did your beliefs on who was great turn out to be correct?
+[2908.0-2909.0] It wasn't obvious who was great.
+[2909.0-2910.3] It was obvious who was terrible though.
+[2910.3-2912.2] And I think if you could eliminate the bottom half,
+[2912.2-2914.3] like you're doing pretty well inside of a YC badge.
+[2914.3-2917.0] What was the bottom half doing at the top half?
+[2917.0-2918.3] We just talked to the people and be like,
+[2918.3-2920.0] I don't think I'm a good person now.
+[2920.0-2921.5] And they didn't see me as an investor.
+[2921.5-2922.6] So I, you know, I'm their peer
+[2922.6-2924.3] so I could get like the real story.
+[2924.3-2926.2] So I invested inside of my own badge.
+[2926.2-2928.9] I invested in like 13 of the 50 companies
+[2928.9-2929.9] or something like that.
+[2929.9-2931.1] There was a few good outcomes there.
+[2931.1-2932.8] Algolyo was an investor in that.
+[2932.8-2933.8] But I missed Cruz.
+[2933.8-2934.7] Cruz was in my batch.
+[2934.7-2935.4] Did you get out of Algolyo?
+[2935.4-2936.3] Yeah, I did.
+[2936.3-2937.9] I sold my shares in Algolyo a while ago.
+[2937.9-2939.0] Well done, fantastic.
+[2939.0-2940.2] I made one on that one.
+[2940.2-2941.2] You missed Cruz?
+[2941.2-2942.8] Yeah, and I'm friends with Kyle.
+[2942.8-2943.6] Why?
+[2943.6-2944.4] I don't know.
+[2944.4-2945.4] It's just like, it was too crazy.
+[2945.4-2948.3] Like he was just like throwing this camera set up
+[2948.3-2950.4] on the roof of his Honda Civic or no.
+[2950.4-2952.2] I forget what Carl had at Accurus.
+[2952.2-2953.4] I was like, this is not a thing.
+[2953.4-2954.2] It's not legit.
+[2954.2-2956.2] It's not legit.
+[2956.2-2958.2] You know the crazy other thing,
+[2958.2-2960.4] the more I'm like, I need to do that.
+[2960.4-2961.0] Yeah.
+[2961.0-2962.4] Because if I don't get it,
+[2962.4-2964.0] I'm probably missing something.
+[2964.0-2964.7] Maybe, yeah.
+[2964.7-2967.0] So what are my best angel investments?
+[2967.0-2968.3] I was actually Bitcoin.
+[2968.3-2969.9] I really Bitcoin sold that.
+[2969.9-2970.8] Don't kidnap me.
+[2970.8-2971.9] I don't have any Bitcoin anymore.
+[2971.9-2974.4] But I made money on Bitcoin.
+[2974.4-2977.2] I was the first investor in Rippling.
+[2977.2-2978.3] Put a big check into that.
+[2978.3-2979.4] It did really well.
+[2979.4-2981.0] Are you revengeful?
+[2981.0-2982.1] No, I'm personally not.
+[2982.1-2984.0] But I think that investing in founders
+[2984.0-2986.2] who have a, who are pissed at somebody
+[2986.2-2987.4] and like want to get back at them.
+[2987.4-2989.9] Like, same with Rippling.
+[2989.9-2991.2] Dario I'd never met before.
+[2991.2-2992.7] But yeah, I don't know if he was wrong.
+[2992.7-2993.5] Rippling?
+[2993.5-2994.5] Yeah.
+[2994.5-2995.4] Parker?
+[2995.4-2996.6] Parker's benefits, a 16 Z.
+[2996.6-2997.5] They fired him.
+[2997.5-2999.6] Like I never got that vibe when I met him.
+[2999.6-3000.6] Yeah.
+[3000.6-3001.6] Yeah.
+[3001.6-3002.6] Rippling.
+[3002.6-3003.6] I think actually, it's a great,
+[3003.6-3005.7] I have a great thesis around like,
+[3005.7-3006.8] founders who have been wrong.
+[3006.8-3009.2] Second time founders who feel like they were wronged
+[3009.2-3010.7] the first time around would be like,
+[3010.7-3012.4] great investment thesis.
+[3012.4-3015.0] Revenge and patriotism is a great investment thesis.
+[3015.0-3017.5] Revenge and patriotism is a fantastic one.
+[3017.5-3019.4] Do you have a chip on your shoulder?
+[3019.4-3020.2] Not really.
+[3020.2-3021.0] Yeah.
+[3021.0-3023.4] There's a few people who I should be way more
+[3023.4-3024.7] like who have wronged me,
+[3024.7-3026.3] but I like totally blocked them out
+[3026.3-3027.1] and don't care.
+[3027.1-3028.0] I don't know why.
+[3028.0-3029.9] It might be better for, what was the single best
+[3029.9-3031.6] investment meeting that you had
+[3031.6-3033.2] where they didn't invest?
+[3033.2-3034.4] Oh, none of them.
+[3034.4-3035.3] I mean, those are.
+[3035.3-3036.1] None of them.
+[3036.1-3037.2] There was never an investment meeting.
+[3037.2-3038.5] Well, I don't know.
+[3038.5-3040.5] It was with, I'm just making it an Alfred Lin.
+[3040.5-3042.7] And he was just super insightful and smart
+[3042.7-3045.6] on the future of the industry, me, my business.
+[3045.6-3047.7] And I was like, God, I'm ashamed of you getting them.
+[3047.7-3049.0] No, I've never had one of those.
+[3049.0-3051.2] So you see, really?
+[3051.2-3053.6] I have a lot that seemed like they went well
+[3053.6-3054.9] and then they never invested
+[3054.9-3056.9] and the number of investors who ghosted me,
+[3056.9-3058.7] by the way, after the pitch,
+[3058.7-3060.2] the vast majority, I would say,
+[3060.2-3061.6] where I pitched him, it seemed great.
+[3061.6-3063.4] And then it's just like, never hear from them again.
+[3063.4-3065.3] That would be the majority of investors I ever put.
+[3065.3-3066.8] This is where I like was the fact.
+[3067.4-3069.7] I'm in the no bullshit camp.
+[3069.7-3071.4] So I just said, I'm really sorry.
+[3071.4-3074.6] If we invest, I just didn't believe
+[3074.6-3075.8] that you were good enough.
+[3075.8-3077.1] I'm not going to bullshit you
+[3077.1-3078.8] and say that the market's not good enough
+[3078.8-3081.0] or big enough, it's all crap.
+[3081.0-3082.4] But by the way, if you're giving any reason
+[3082.4-3083.3] you're pretty unique,
+[3083.3-3085.2] most people just like just never would say.
+[3085.2-3087.3] No, but you know, it's kind of rude and personal,
+[3087.3-3088.8] but I'd rather just be honest.
+[3088.8-3090.6] I just didn't think he told a very compelling story
+[3090.6-3091.8] and you were a bit dry.
+[3091.8-3092.9] No, it's good.
+[3092.9-3093.8] It's good.
+[3093.8-3095.5] But at least then you can take away.
+[3095.5-3097.8] Okay, tell a more compelling story.
+[3097.8-3100.2] Yeah, fair, which is always the case, right?
+[3100.2-3103.2] PG, his advice to Anders was always,
+[3103.2-3104.8] you should hear the no but ignore the why
+[3104.8-3106.9] because the odds of them telling the truth
+[3106.9-3109.0] multiplied by the odds of them being correct
+[3109.0-3111.4] are so low that you're just like very little signal
+[3111.4-3112.6] and what investors tell you about.
+[3112.6-3114.8] No, you should definitely hear the no though, they pass.
+[3114.8-3117.5] And by the way, especially when the multi-stage funds
+[3117.5-3120.0] when there's absolutely no reason for them
+[3120.0-3121.9] to ever kill optionality,
+[3121.9-3123.8] like I want you to think that I'm amazing
+[3123.8-3127.0] because in case you do in flight, I want you to come back.
+[3127.0-3128.8] Yeah, I want you to have any founders out there
+[3128.8-3130.3] like actually secretly hate you
+[3130.3-3132.4] because you tell them something that they didn't want to hear.
+[3132.4-3134.3] It's probably non-zero.
+[3134.3-3135.9] Like honestly a lot,
+[3135.9-3138.0] but I also think that they're not the best found.
+[3138.0-3138.8] Yeah, it occurs.
+[3138.8-3141.1] But I think if I actually said she did,
+[3141.1-3142.7] I actually liked you.
+[3142.7-3144.7] I just didn't think you told a very interesting story
+[3144.7-3147.1] about the future of logistics that excited me.
+[3147.1-3149.4] I think you're probably going to get better
+[3149.4-3150.2] at telling stories.
+[3150.2-3151.9] By the way, my overall experience with VCs
+[3151.9-3153.3] have been incredibly positive.
+[3153.4-3155.3] Including those who've passed have become friends
+[3155.3-3156.9] and like people that I hang out with
+[3156.9-3158.4] and there's no ill will at all.
+[3158.4-3161.9] But I have way more negative experiences than positive.
+[3161.9-3164.1] Like not to say like there weren't positive experiences,
+[3164.1-3165.7] but like, I think you said earlier
+[3165.7-3168.6] you enjoyed pitching investors that I like pitching,
+[3168.6-3169.6] but I don't like hearing no
+[3169.6-3171.4] or getting ghosted or whatever.
+[3171.4-3173.5] So have you ever had a town one
+[3173.5-3175.2] where like they fell asleep?
+[3175.2-3177.9] Oh, no, I've had a customer fall asleep.
+[3177.9-3179.2] I mean, never had an investor.
+[3179.2-3180.6] It really fell asleep down.
+[3180.6-3182.1] I'm like, I want you to do.
+[3182.1-3183.2] Wait, the mob.
+[3183.2-3184.9] I think it's right, it's right, it's right.
+[3184.9-3185.8] What did I do?
+[3185.8-3187.0] It was like seven or eight years ago.
+[3187.0-3188.2] The guy just fell asleep.
+[3189.4-3191.5] They're not like, we ended up winning them over.
+[3191.5-3192.4] It was a sales pitch
+[3192.4-3193.2] that they weren't accustomed to.
+[3193.2-3194.0] It was a prospect.
+[3194.0-3196.0] I'm terrified of what the compassion is.
+[3196.0-3198.0] She's the worst one.
+[3198.0-3200.6] I've only, I walked out of one investor meeting.
+[3200.6-3202.1] Not like in a huff.
+[3202.1-3205.2] I left my partner there, my co-founder
+[3205.2-3207.0] or like the president of Flexboard.
+[3207.0-3209.6] He stayed behind and I said I had to take a phone call
+[3209.6-3211.3] and I just never came back.
+[3211.3-3212.2] Why?
+[3212.2-3215.5] They kept telling me that the market size was too small
+[3215.5-3217.8] and it was like the third pitch.
+[3217.8-3219.3] And like after this first two,
+[3219.3-3220.7] I thought we'd overcome this.
+[3220.7-3221.8] Like we presented some,
+[3221.8-3224.4] we found some BCG market sizing report
+[3224.4-3225.4] and like shared it with them.
+[3225.4-3226.8] And I was like,
+[3226.8-3228.9] if you need BCG to convince them,
+[3228.9-3229.7] just don't buy them.
+[3229.7-3230.7] No, 100%.
+[3230.7-3232.0] And it was like the third pitch
+[3232.0-3234.0] and I thought we were gonna like move to like term sheet.
+[3234.0-3236.5] And instead they like had brought their own report
+[3236.5-3239.5] that showed how the market size was only for Flexboard.
+[3239.5-3241.5] It was only $6 billion.
+[3241.5-3243.0] And I was just like,
+[3243.0-3244.2] actually my partner had the best line.
+[3244.2-3246.0] He was like, oh, so it's smaller than the market
+[3246.0-3248.1] for USB cables.
+[3248.1-3250.3] And it became obvious to me that these,
+[3250.3-3253.0] and I said, I don't think in BCG reports.
+[3253.0-3255.6] Like I wasn't me that got the BCG report.
+[3255.6-3256.8] Someone else said I was like,
+[3256.8-3259.3] just look at every object for the rest of your day.
+[3259.3-3261.8] I want you to like look around at everything that you see
+[3261.8-3263.8] and just ask yourself how did it get here?
+[3263.8-3265.4] And like that's our market size.
+[3265.4-3267.6] Like I don't think and so I always say to founders
+[3267.6-3270.5] if you need to educate an investor on the market,
+[3270.5-3272.4] then all the right invest in you.
+[3272.4-3274.3] It's tricky because if you're doing something
+[3274.3-3276.6] very unique and different, or like in our case,
+[3276.6-3278.9] like do you think any of your investors
+[3278.9-3280.8] bat on you because of the market?
+[3280.8-3281.6] I didn't think they did.
+[3281.6-3283.2] I think they probably bat on you because they eat.
+[3283.2-3285.4] Maybe, yeah, they mostly bat on me.
+[3285.4-3287.4] They had never invested in this market before
+[3287.4-3288.5] and that's for sure.
+[3288.5-3290.0] Peter, you know, I met Peter.
+[3290.0-3291.6] Sam Altman introduced me to Peter.
+[3291.6-3293.4] Sam was one of our earliest investors
+[3293.4-3296.8] and he invests me to Peter to get advice.
+[3296.8-3299.6] It was a classic thing because everyone loves his book, right?
+[3299.6-3300.9] It was zero to one such a great book.
+[3300.9-3305.9] And so Sam introduced me and I, that book has six or seven.
+[3305.9-3306.7] I can't remember.
+[3306.7-3307.9] I think there's like six questions to decide
+[3307.9-3309.5] if you'll change the world.
+[3309.5-3311.7] There are like, this is like an incredible startup
+[3311.7-3314.7] that you should ask and on five of the six questions
+[3314.7-3316.8] I felt like Flexport knocked it out of the park
+[3316.8-3319.4] best possible answer, but then one of them was,
+[3319.4-3321.4] one of them is, is it a small market?
+[3321.4-3322.9] His whole thesis was like,
+[3322.9-3324.3] you should have a market that's small enough
+[3324.3-3325.9] that you can be a monopolist.
+[3325.9-3328.5] And when I went to whiteboard with him
+[3328.5-3330.0] and hang out with him, I'm like, well, look,
+[3330.0-3332.8] I want to know, like, should I be, should I make myself?
+[3332.8-3334.3] Like I can make this a small market.
+[3334.3-3337.2] I'd be like, oh, we're going to dominate like logistics
+[3337.2-3340.2] first hardware companies in Silicon Valley or something,
+[3340.2-3341.2] but like it's kind of fake.
+[3341.2-3342.7] Like the market's actually really big
+[3342.7-3344.5] and he like stopped me and he's like, look,
+[3344.5-3345.8] it's don't be too dogmatic.
+[3345.8-3348.4] It's okay to have a big market, you know?
+[3348.4-3349.4] And then a few weeks later,
+[3349.4-3350.9] he emailed asking if he could invest.
+[3350.9-3354.6] So my biggest mistake is when I focused on market at two,
+[3354.6-3357.8] all of my biggest mistakes in investing have been actually
+[3357.8-3359.9] not really like losing money.
+[3359.9-3361.5] It's been turning down great companies,
+[3361.5-3363.3] but because I thought that I was smarter than the market.
+[3363.3-3365.6] Oh, this market shit, oh, this market shit.
+[3365.6-3366.9] How many engine investments have you made?
+[3366.9-3367.8] I did so many.
+[3367.8-3369.3] So like the vast majority didn't do well.
+[3369.3-3370.2] Like 200?
+[3370.2-3371.0] Yeah, something like that.
+[3371.0-3371.9] Wow.
+[3371.9-3372.7] Do you track them?
+[3372.7-3374.0] I have a Google sheet in Detroit.
+[3374.0-3374.9] Yeah, I know.
+[3374.9-3375.7] I've just made one.
+[3375.7-3376.7] Well, I didn't for a long time,
+[3376.7-3378.0] but at some point I had to clean it up
+[3378.0-3381.3] when I was getting married and going through that exercise.
+[3381.3-3383.5] What if doing like a wheel and yeah, exactly.
+[3383.8-3385.2] Eventually, you want to clean this up much better
+[3385.2-3386.7] if you track it from the beginning.
+[3386.7-3389.9] I would say probably it's a super power law world.
+[3389.9-3391.3] And actually, this is an interesting thing
+[3391.3-3393.3] for founders to understand is once you see the world
+[3393.3-3395.1] from the perspective of the angel investor,
+[3395.1-3396.8] you realize that we really don't care.
+[3396.8-3399.4] Even a three X, like if you take my spreadsheet
+[3399.4-3402.2] and this investment made three times the money,
+[3402.2-3403.5] like the founders are very proud.
+[3403.5-3405.4] Like, hey, I made you three times your money.
+[3405.4-3407.0] But if I removed that and make it a zero,
+[3407.0-3409.5] it has zero impact on the bottom line of the fund.
+[3409.5-3412.3] Like zero relative impact on the IRR,
+[3412.3-3415.6] because I have a couple that are a thousand X or 500 X.
+[3415.6-3419.0] So they completely, completely dominate everything else.
+[3419.0-3421.7] So you don't care like about the ones that failed.
+[3421.7-3424.0] And when I write a check as an angel investor,
+[3424.0-3425.6] I would just market to zero.
+[3425.6-3426.4] I don't care.
+[3426.4-3427.6] I just assume that it's a zero.
+[3427.6-3429.2] And then that way I don't worry if it fails.
+[3429.2-3430.8] What do you think founders don't know
+[3430.8-3433.0] about the VC mindset that they should do?
+[3433.0-3433.8] I think that's really valuable
+[3433.8-3436.0] because I also see, and this actually does pay me,
+[3436.0-3439.0] which is like a really noble founder mindset,
+[3439.0-3441.6] which is I'm gonna give five to 10 more years of my life
+[3441.6-3444.5] to grind out of one and a half X.
+[3444.5-3446.3] And I'm just like, don't,
+[3446.3-3448.0] I don't mean that callously or flipping in
+[3448.0-3450.4] and I'm being flipping with VC LP money,
+[3450.4-3452.1] but just your time and my time.
+[3452.1-3453.8] Yeah, yeah, I don't even want the investor updates.
+[3453.8-3454.6] It's fine, dude.
+[3454.6-3455.8] Yeah, it's okay.
+[3455.8-3458.6] I return 0.6 X, it's better.
+[3458.6-3460.4] Yeah, maybe if it's your life's mission
+[3460.4-3461.4] and you're calling them like,
+[3461.4-3462.4] great, never give up.
+[3462.4-3463.4] Never give up, never give up.
+[3463.4-3464.2] Never give up, never give up.
+[3464.2-3465.1] Never give up, never give up.
+[3465.1-3466.6] There's that, there's what I was saying earlier
+[3466.6-3470.2] of like how much they're a circular rumor mill.
+[3470.2-3472.1] You know, like when I was doing one of the rounds
+[3472.1-3473.4] of funding we were doing
+[3473.4-3475.6] and I was pitching this investor,
+[3475.6-3477.2] and I think I was on like the third meeting,
+[3477.2-3478.4] I'm not one of these people who like,
+[3478.4-3479.8] oh, you never talked to associates,
+[3479.8-3480.6] maybe I should be,
+[3480.6-3482.8] but I think it's kind of a loser way to live your life.
+[3482.8-3483.9] I never had this attitude,
+[3483.9-3485.7] like you shouldn't ever talk to the junior people,
+[3485.7-3487.0] mostly because I'm not a dick,
+[3487.0-3488.8] but also I just assume that those people someday
+[3488.8-3490.6] will become like partners
+[3490.6-3493.4] and they'll remember that I was cool, I don't know.
+[3493.4-3495.4] But I was like on the third meeting with this fund
+[3495.4-3497.1] and I was still talking to the,
+[3497.1-3498.3] not the junior person,
+[3498.3-3500.6] but I wasn't at the final decision maker yet.
+[3500.6-3502.8] And so I told the guy I was like,
+[3502.8-3505.0] hey, I've decided to go in a different direction here.
+[3505.0-3507.4] This isn't gonna work out and I'm gonna raise, you know,
+[3507.4-3510.0] and within an hour I got phone calls
+[3510.0-3512.0] from like three other funds.
+[3512.0-3513.4] Well, I hadn't picked a different investor,
+[3513.4-3515.3] I just was like trying to let this guy off the hook.
+[3515.3-3517.2] And within an hour I got all of the funds
+[3517.2-3518.8] that I was still talking to called me like,
+[3518.8-3519.7] hey, what happened?
+[3519.7-3521.5] I heard you picked a lead
+[3521.5-3523.9] and like the amount of rumor mill and collusion
+[3523.9-3526.1] that happens in VC founders have no idea.
+[3526.1-3527.1] It's like this create,
+[3527.1-3528.1] and you can use it to your advantage.
+[3528.1-3530.2] It can work against you or can use it to your advantage.
+[3530.2-3531.9] Like you're looking for an outlier
+[3531.9-3534.3] who will value you more than everybody else.
+[3534.3-3536.8] So like that collusion does not work to your advantage
+[3536.8-3538.7] unless they're all hyping you up and saying,
+[3538.7-3540.3] dude, this is the best company ever.
+[3540.3-3542.5] This is so not in my interest at all
+[3542.5-3543.8] but that's why I always say to founders,
+[3543.8-3545.8] don't like test the market.
+[3545.8-3548.4] Don't like dip your toe in with one or two meetings
+[3548.4-3551.8] because the associate WhatsApp groups are so pernicious.
+[3551.8-3554.9] Where if you meet me and I don't think you're great,
+[3554.9-3557.3] I promise you they put you in the weekly roundup
+[3557.3-3559.6] which they send up because they're exchanging currency.
+[3559.6-3560.4] Oh yeah.
+[3560.4-3561.2] They need to give to get.
+[3561.2-3562.1] Yeah, exactly.
+[3562.1-3563.2] That's why I'm putting you in my weekly up there
+[3563.2-3564.3] where I said, Ryan,
+[3564.3-3567.4] only in a million error or not growing that fast,
+[3567.4-3568.8] not a compelling sales round.
+[3568.8-3570.7] And these are within a firm or these are cross firm?
+[3570.7-3571.6] They're cross firm.
+[3571.6-3572.4] It's crazy, yeah, exactly.
+[3572.4-3573.5] That's why I was getting out before.
+[3573.5-3575.0] Because then we're all associates
+[3575.0-3575.8] and we're all in the,
+[3575.8-3578.4] I need to bring deals to the firm business
+[3578.4-3580.2] and so they all send weekly roundups
+[3580.2-3581.4] of who they've met and seen.
+[3581.4-3583.2] That's crazy that they're sharing that externally.
+[3583.2-3584.2] Oh shit, yeah.
+[3584.2-3585.8] To their firms probably don't know, right?
+[3585.8-3586.6] No, no, no.
+[3586.6-3587.9] You get fired for that, yeah.
+[3587.9-3589.4] But remember, they're more in bit,
+[3589.4-3591.4] this is almost a good article actually.
+[3591.4-3594.7] But the associates are more in business with that class.
+[3594.7-3596.4] Yeah, then they are that firm.
+[3596.4-3597.2] Well, and they're trying to get ahead
+[3597.2-3598.6] within the firm and by showing that.
+[3598.6-3599.4] That's it.
+[3599.4-3600.3] They don't bring dumb deals
+[3600.3-3601.8] because they've referenced it.
+[3601.8-3606.0] My competition is not the other associate at Axe Farm.
+[3606.0-3607.9] It's the other associates in my farm.
+[3607.9-3610.6] Yeah, I think that's like the F1 driver or something.
+[3610.6-3613.8] Which is why the paniciousness is actually very real.
+[3613.8-3615.7] Because then do you know what the others go?
+[3615.7-3617.3] Oh, well, Ryan's only a million there
+[3617.3-3619.5] or not interesting either, don't need to meet him.
+[3619.5-3621.0] That I do, I see that.
+[3621.0-3622.6] Well, and I also think founders should basically
+[3622.6-3624.0] never share their metrics,
+[3624.0-3625.0] which I've done on the show.
+[3625.0-3626.3] So I don't care anymore about that.
+[3626.3-3628.0] You should never share your metrics until
+[3628.0-3629.2] you'll kind of pass.
+[3629.2-3631.4] I don't need to raise any money ever again.
+[3631.4-3634.0] But you should never share your metrics
+[3634.0-3636.8] because what you want to do when you pitch a VC
+[3636.8-3639.2] is you want to cherry pick whatever metric looks the best
+[3639.2-3641.9] and pitch that as the important metric for your firm.
+[3641.9-3643.1] But once you've shared a metric,
+[3643.1-3645.2] you're now committed to that being the metric.
+[3645.2-3646.1] And who knows?
+[3646.1-3648.8] Maybe you couldn't make that one go up hockey stick style,
+[3648.8-3650.8] but now you're committed.
+[3650.8-3652.2] I remember Colin Matilde.
+[3652.2-3653.1] I think it was Colin.
+[3653.1-3656.0] I think it was from Joe Colin front,
+[3656.0-3658.2] French founder, YC partner.
+[3658.2-3660.1] Now I believe awesome woman.
+[3660.1-3662.8] And she always told me that you want to raise
+[3662.8-3664.2] when you're really confident,
+[3664.2-3666.0] just because like confidence emanates.
+[3666.0-3667.0] Oh, yeah.
+[3667.0-3668.4] When were you least confident?
+[3668.4-3669.2] At least?
+[3669.2-3670.0] Yeah.
+[3670.0-3671.6] Oh god, when you're losing a lot of money,
+[3671.6-3674.7] like sports have, we've been on the grocery journey, right?
+[3674.7-3676.6] If anything is straight up into the right,
+[3676.6-3677.9] by the way, it's pretty boring.
+[3677.9-3678.8] Not as an investment.
+[3678.8-3679.8] Great.
+[3679.8-3680.8] It's wonderful.
+[3680.8-3682.2] But like as a human story, that's pretty hard
+[3682.2-3683.4] to see any company.
+[3683.4-3685.1] I've tried to think about this before.
+[3685.1-3687.0] Snap was pretty up and to the right.
+[3687.0-3688.0] Continuously.
+[3688.0-3689.7] I mean, post, it's been a up and down,
+[3689.7-3693.4] but it was pretty continuously linear up and to the right.
+[3693.4-3694.7] Not many others have been.
+[3694.7-3696.8] But I don't even mean as an investor as an investment.
+[3696.8-3698.2] Of course, you want things to just go up into the right
+[3698.2-3700.7] and never come down, but as a story of like what's compelling
+[3700.8-3704.1] to the human, like snap story will be infinitely more compelling
+[3704.1-3705.9] if they figure it out and start growing
+[3705.9-3707.5] and going like hockey stick again,
+[3707.5-3709.4] then it would be if it never stopped and it was hockey stick.
+[3709.4-3711.0] You'd be like, what happened here?
+[3711.0-3713.8] Like the human brain loves the story.
+[3713.8-3716.1] The hero's journey where you got to go to hell and come back.
+[3716.1-3718.0] Like if it's just always good, like that's not fun.
+[3718.0-3720.9] So we social media posts, the absolute binders is zero to error.
+[3720.9-3722.7] I started in my bedroom with no dollars
+[3722.7-3724.3] and now I'm, you know what I'm saying?
+[3724.3-3726.4] Yeah, but even zero to hero's not good enough.
+[3726.4-3729.7] You want to go zero to hero and then take a fall and come back.
+[3729.7-3731.7] So we need to cancel you and then to come back.
+[3731.7-3734.1] It's different, a little bit different in enterprise
+[3734.1-3735.3] because you have competitor.
+[3735.3-3737.8] So like in our case, if we have a negative news story,
+[3737.8-3739.1] like literally no one will read it.
+[3739.1-3740.3] And our, so we don't scandals.
+[3740.3-3741.8] It's just like, oh, it's such a set.
+[3741.8-3744.3] Like I once had a Bloomberg article about us
+[3744.3-3746.5] where we lost a package for our customer.
+[3746.5-3747.8] One single parcel.
+[3747.8-3749.7] I remember there was one parcel.
+[3749.7-3751.1] It was quite a scandal.
+[3751.1-3752.5] And it was a newspaper.
+[3752.5-3754.4] I mean, Bloomberg's not a print, but it was a,
+[3754.4-3757.0] it was front lead of the story that Flexport,
+[3757.0-3759.0] we used DoorDash to do the delivery.
+[3759.1-3761.2] One parcel, by the way, the story did not mention
+[3761.2-3763.3] we delivered 40 million parcels successfully,
+[3763.3-3766.2] but we lost one and we gave her a full refund
+[3766.2-3768.0] before the story ever came out.
+[3768.0-3770.8] And that became a scandal of sorts.
+[3770.8-3771.8] Nobody would care.
+[3771.8-3774.4] Nobody would read it except we have competitors.
+[3774.4-3776.5] And the competitors will take your bad news
+[3776.5-3778.1] and send it to your customers and stuff.
+[3778.1-3779.2] So it actually can hurt,
+[3779.2-3780.6] an enterprise that can hurt your business,
+[3780.6-3781.6] negative news stories.
+[3781.6-3783.6] Even though it's not the story itself,
+[3783.6-3786.1] it's like your competitors are kind of low life,
+[3786.1-3787.2] looking for dirt.
+[3787.2-3788.7] One in 40 million.
+[3788.7-3789.9] So I mean, we probably lost more than one,
+[3789.9-3791.3] but the story was about one.
+[3791.3-3792.4] You dig.
+[3792.4-3794.0] And actually, it's an interesting story
+[3794.0-3795.4] that we use DoorDash for logistics.
+[3795.4-3796.3] People don't think about that,
+[3796.3-3798.5] but if you, DoorDash has a bit of a problem there
+[3798.5-3802.7] because DoorDash's quality is better than others
+[3802.7-3805.4] or it's as good as like a FedEx or UPS.
+[3805.4-3806.8] But when you use FedEx and the package
+[3806.8-3808.1] doesn't get delivered, people are like,
+[3808.1-3809.5] yeah, it happens, it's FedEx.
+[3809.5-3811.4] But when you use DoorDash and it doesn't get delivered,
+[3811.4-3813.7] they're like, why did you use DoorDash?
+[3813.7-3815.2] Like, what's wrong with you company?
+[3815.2-3816.6] Like DoorDash is for food delivery.
+[3816.6-3818.7] Why did you, something they have to overcome
+[3818.7-3820.9] because their quality is actually fine.
+[3820.9-3822.9] It's, I think Tony Robbins said this once,
+[3822.9-3824.8] but it's like how fast appreciation
+[3824.8-3827.3] turns into expectation is extraordinary.
+[3827.3-3829.0] And it's like, you know, before you're like,
+[3829.0-3831.6] hey, we didn't expect to have Wi-Fi on the flight,
+[3831.6-3833.5] but now we've got Starlink.
+[3833.5-3836.0] And you're like, wow, that's amazing.
+[3836.0-3838.5] And then you get expectant of Starlink
+[3838.5-3840.7] and then the down is so bad.
+[3840.7-3843.0] What did be a massive appreciation?
+[3843.0-3844.7] Now you're like, I fucking expect this.
+[3844.7-3845.4] Yeah.
+[3845.4-3848.5] Which entrepreneur do you most want to have a dinner with
+[3848.5-3850.0] that you haven't had a dinner with?
+[3850.0-3851.2] Never meet your heroes.
+[3851.2-3853.6] I've met most of the great founders.
+[3853.6-3855.4] Do you believe the never meet your heroes?
+[3855.4-3858.0] Yeah, well, I don't buy that analogy.
+[3858.0-3860.2] I've met some of mine and they all heroic.
+[3860.2-3861.0] Yeah.
+[3861.0-3862.6] Yeah, maybe I'm still idealistic.
+[3862.6-3864.8] Depends, you know, also you want to meet people
+[3864.8-3867.3] who are like, at your level or see you as a peer
+[3867.3-3869.6] and want to actually engage in a dialogue with you.
+[3869.6-3871.2] If you're meeting somebody and they're like,
+[3871.2-3873.7] unhappy to be a dinner with you and they don't care about you
+[3873.7-3875.0] and don't ask you questions or learn one thing.
+[3875.0-3877.4] And all they found, they're more amazing than people.
+[3877.4-3878.8] They're more interested now.
+[3878.8-3880.6] I've been fortunate enough to have like, you know,
+[3880.6-3881.9] sit down with Charlie Munger.
+[3881.9-3882.8] Yeah.
+[3882.8-3883.6] It was so curious.
+[3883.6-3884.4] Oh, really?
+[3884.4-3885.3] Yeah.
+[3885.3-3886.5] Yeah, I, I, I, one of my dearest mentors
+[3886.5-3888.4] would never want to be named down here.
+[3888.4-3889.8] But it's like one of the founding fathers
+[3889.8-3892.6] of one of the greatest firms on a so curious.
+[3892.6-3893.4] Yeah, yeah.
+[3893.4-3894.6] Some of them are like this and some are.
+[3894.6-3896.2] I find it somewhat uncorrelated.
+[3896.2-3898.4] Like, certainly they were like that on the way up.
+[3898.4-3901.1] Some people get to the top and then stop being curious
+[3901.1-3903.6] and then the, you know, the problem with their returns
+[3903.6-3905.9] or their impact after that'll slow down is my theory.
+[3905.9-3908.6] But you beat some people on the absolute top who don't care.
+[3908.6-3909.8] Final two for you.
+[3909.8-3911.0] And they're all more personal,
+[3911.0-3912.3] but I hope you think of me to ask
+[3912.3-3914.6] but it's general wisdom for me moving forwards.
+[3914.6-3916.3] When you think about like winning,
+[3916.3-3918.0] but also winning at marriage,
+[3918.0-3919.7] any tips on how to like,
+[3919.7-3921.5] continuously have a great marriage
+[3921.5-3923.4] and dude, you've been through some rocky patches
+[3923.4-3924.9] in terms of the business.
+[3924.9-3928.7] How to sustain marriage through fucking hard ups and downs?
+[3928.7-3930.4] Oh, well, it's a picking game,
+[3930.4-3932.0] I guess, and you only get one bit, right?
+[3932.0-3934.4] So make sure you get the right one.
+[3934.4-3937.7] My wife is a, when I met her, she was a journalist,
+[3937.7-3938.6] actually at Bloomberg.
+[3938.6-3940.1] And I still couldn't kill that Bloomberg story.
+[3940.1-3941.4] Even though this were her peers
+[3941.4-3942.7] that she worked with for years.
+[3942.7-3945.4] I mean, it was crazy even then.
+[3945.4-3947.6] But that was a risky move.
+[3947.6-3948.4] I know, yeah.
+[3948.4-3950.7] Fuck, I didn't talk to you on this.
+[3950.7-3951.9] It was. It was a bit.
+[3951.9-3955.5] In fact, someone, one of my investors found her's fun.
+[3955.5-3957.4] Tell me, dude, you need to either marry this woman
+[3957.4-3959.5] or break up with her, but you cannot be dating her.
+[3959.5-3961.2] I know why he's, he's right.
+[3961.2-3962.9] He's a great voice.
+[3962.9-3964.8] So I married her.
+[3964.8-3966.4] And then she had to quit.
+[3966.4-3968.5] In part because of me, because she got a sign
+[3968.5-3970.8] to cover a soft bank, who's my investor.
+[3970.8-3973.4] And I was like, no, get, get to it, sorry.
+[3973.4-3976.8] And she knew that it was not a good fit.
+[3976.8-3978.5] Was it a bit like having soft bank?
+[3978.5-3979.6] I love Massa.
+[3979.6-3981.8] But how did you pitch Massa?
+[3981.8-3982.4] Yeah, yeah, of course.
+[3982.4-3983.3] How was it?
+[3983.3-3984.0] I love him.
+[3984.0-3986.1] He's just like a big larger than life.
+[3986.1-3987.2] Was it in person?
+[3987.2-3988.0] Yeah, yeah.
+[3988.2-3989.2] Definitely in person.
+[3989.2-3991.4] I'm trying to remember if I also met him first on video.
+[3991.4-3992.8] No, it was in person.
+[3992.8-3993.8] Can you just take me to this?
+[3993.8-3994.6] I love Massa.
+[3994.6-3995.4] I love Gamma.
+[3995.4-3996.4] I just love the guy.
+[3996.4-3997.2] How was this?
+[3997.2-3998.2] Where was this?
+[3998.2-3999.6] I mean, I can't say I love him that much
+[3999.6-4001.2] interpersonally without friends or anything.
+[4001.2-4003.0] Like, I'm just like a big fan of Massa.
+[4003.0-4003.8] Sure.
+[4003.8-4005.3] Why did you meet?
+[4005.3-4006.5] How did it go?
+[4006.5-4008.2] First time I met him would have been at his house
+[4008.2-4010.4] in Woodside, California, which is like,
+[4010.4-4011.7] it's very nice, let's say.
+[4013.7-4015.0] You can look up the Z estimate.
+[4015.0-4016.8] You're like, oh, this is going to be fun.
+[4016.8-4018.3] The Zillow estimate.
+[4018.3-4019.4] How long was the meeting?
+[4019.4-4021.9] Probably like, actually, I'm pretty short, maybe an hour or so.
+[4021.9-4023.1] Considering the size of the check,
+[4023.1-4025.1] I thought it was surprisingly short meeting.
+[4025.1-4028.2] He has this painting of Napoleon behind him.
+[4028.2-4030.1] And I wanted, I didn't end up finding one.
+[4030.1-4033.4] I was trying to buy a painting of the Duke of Wellington
+[4033.4-4036.3] to send it to him, right, who of course defeated Napoleon,
+[4036.3-4038.4] but has a troll, but I never found a good one
+[4038.4-4041.6] that it was worthy of the cranky support move as well.
+[4041.6-4043.3] Yeah, it's a risky, I'll just leave it
+[4043.3-4044.3] when we're after he invested.
+[4044.3-4046.0] I was going to send him that as a gift.
+[4046.0-4048.4] He's very bold, you know, I don't know.
+[4048.4-4050.3] He wanted me, he pushed us to go,
+[4050.3-4052.1] hey, be cheaper than everybody.
+[4052.1-4053.8] Because we raised a billion dollars from them.
+[4053.8-4055.5] So it was like a million from him.
+[4055.5-4058.0] Yeah, well, they had led the brown of a billion, yeah.
+[4058.0-4060.8] And he was like, whatever the price of freight is,
+[4060.8-4063.2] you just be 10% cheaper than everybody.
+[4063.2-4064.8] And then if someone matches you,
+[4064.8-4066.6] you just be 10% cheaper than that,
+[4066.6-4067.9] which is like a terrible strategy.
+[4067.9-4068.8] I did not do that.
+[4068.8-4070.2] We would have burned so much money,
+[4070.2-4071.8] but he was very aggressive.
+[4071.8-4073.4] He just wanted to push you to go.
+[4073.4-4075.3] I like the mantelars, this tea there.
+[4075.3-4076.8] It's different to most investors.
+[4076.8-4077.6] Yeah.
+[4077.6-4078.4] And he's very connected too.
+[4078.4-4081.6] Like he was able during the meeting to call like Foxconn,
+[4081.6-4083.2] get him on the phone, be like, hey, what do you think
+[4083.2-4084.0] of this thing?
+[4084.0-4086.2] Well, in the meantime, you'd be like, live.
+[4086.2-4087.0] Are you serious?
+[4087.0-4088.6] Well, that is guy next to him call.
+[4088.6-4090.0] I'm like, what's up?
+[4090.0-4090.8] I forgot.
+[4090.8-4091.6] I think it was.
+[4091.6-4092.5] This must be the weirdest thing.
+[4092.5-4094.3] Like, due diligence in process.
+[4094.3-4095.1] What do you think?
+[4095.1-4097.2] Oh, shit, do I thumbs up, thumbs down?
+[4097.2-4098.0] Yeah.
+[4098.0-4098.7] You do not want to fuck up.
+[4098.7-4100.2] You must have been nervous.
+[4100.2-4101.4] I was, I don't remember.
+[4101.4-4103.6] I don't get nervous on that kind of thing.
+[4103.6-4106.7] When have you been most nervous in the flexible time?
+[4106.7-4110.8] I get nervous when I have to give a talk publicly
+[4110.8-4113.2] and it's very time bound.
+[4113.2-4114.6] Because I'm like kind of long-winded.
+[4114.6-4117.2] I don't, I don't, I can't memorize anything.
+[4117.2-4119.9] So I don't prepare, like, I usually will just go speak
+[4119.9-4121.8] off the cuff and I'm a good public speaker.
+[4121.8-4123.0] Basically, I go to a public speaker,
+[4123.0-4124.5] but I, I can't like memorize.
+[4124.5-4126.5] So like, actually, my, the most nervous I ever was
+[4126.5-4128.0] was the Y combinator pitch.
+[4128.0-4129.6] Because I only had two minutes.
+[4129.6-4131.6] I find TV most nerve-wracking because it's like,
+[4131.6-4133.7] you have like five to seven minutes.
+[4133.7-4136.3] And they're like, so Ryan, let's join you for
+[4136.3-4140.0] is Trump wrong on, and you're like, no, no intros,
+[4140.0-4140.9] no intros.
+[4140.9-4142.7] Right, and they don't want it, help you out.
+[4142.7-4143.7] And they don't want to help you out
+[4143.7-4145.4] and they just want the seven minute of the get-e.
+[4145.4-4146.4] Yeah.
+[4146.4-4147.8] I've got a pretty good TV, I think.
+[4147.8-4151.0] I'm like, do you think you having a big personal brand
+[4151.0-4153.5] matters to the enterprise value of flexible?
+[4153.5-4155.8] Yeah, do as measured by it when I tell myself,
+[4155.8-4157.0] team, I'm going to do less of it.
+[4157.0-4158.8] They always push me to go do more press.
+[4158.8-4160.8] Like they say that it helps them get deals
+[4160.8-4161.9] and close deals and stuff.
+[4161.9-4162.8] But it's one of these things.
+[4162.8-4164.8] I think it was Steve Martin who said like,
+[4164.8-4166.4] he went on the tonight show.
+[4166.4-4168.8] He went on every late night show that would have him.
+[4168.8-4171.7] And then he would go around West Hollywood,
+[4171.7-4173.7] walk around Hollywood, and nobody would recognize him.
+[4173.7-4175.2] Like this is in the early days.
+[4175.2-4177.4] And then, you know, so you couldn't tell
+[4177.4-4179.1] like if it was having an impact.
+[4179.1-4180.8] And then after like five years of that,
+[4180.8-4182.6] he was like the most famous comedian in America.
+[4182.6-4183.5] Everybody knew him.
+[4183.5-4184.3] He couldn't go anywhere.
+[4184.3-4186.6] But he couldn't pinpoint it to like any one thing.
+[4186.6-4188.4] So it's been a bit of my,
+[4188.4-4189.5] I only learned that recently.
+[4189.5-4192.4] That wasn't like driving me to go try to do more press
+[4192.4-4194.5] or anything, but generally I think being famous
+[4194.5-4195.5] has helped Flexport a lot.
+[4195.5-4198.2] And we're way more famous than like we should be
+[4198.2-4201.7] given that we're like the 10th largest freight company.
+[4201.7-4202.8] I couldn't name any of them.
+[4202.8-4203.8] Yeah, exactly.
+[4203.8-4206.0] I mean, you could like expedite it.
+[4206.0-4206.8] You don't know some of them.
+[4206.8-4208.1] Merse gives like a famous company.
+[4208.1-4209.0] I didn't know.
+[4209.0-4210.0] Yeah.
+[4210.0-4211.1] I never monster.
+[4211.1-4211.9] They're big, yeah.
+[4211.9-4212.9] They're a lot bigger than us.
+[4212.9-4215.4] But I probably I think Flexport gets more,
+[4215.4-4217.0] we're more likely to be cited in the press
+[4217.0-4219.0] on a story about supply chain than they are.
+[4219.0-4220.6] Despite them being much bigger.
+[4220.6-4222.4] Final one then we'll do a quick fire.
+[4222.4-4225.1] You mentioned two kids, five and three.
+[4225.1-4226.8] Any big lessons on parenting.
+[4226.8-4227.9] Like I love kids.
+[4227.9-4229.6] It's really important that we get that.
+[4229.6-4230.5] You just sit me down.
+[4230.5-4232.1] Imagine I'm your younger bro.
+[4232.1-4233.6] Dude, you should know this.
+[4233.6-4235.0] Well, you need to have a great wife.
+[4235.0-4236.2] He's a great mom.
+[4236.2-4237.6] So you have a good partnership.
+[4237.6-4238.9] The kids will be pretty natural.
+[4238.9-4241.0] You've got millions of years of evolution.
+[4241.0-4241.8] It'll be great.
+[4241.8-4244.6] It's great to finally care about someone besides yourself.
+[4244.6-4246.2] It's very natural.
+[4246.2-4247.9] I'm super.
+[4248.2-4251.2] It's like a chemical wash of just true love
+[4251.2-4253.7] that you can't get it anywhere else.
+[4253.7-4255.2] Does it change perspectives?
+[4255.2-4256.3] For sure, yeah.
+[4256.3-4258.8] But I get a lot of meaning from my work.
+[4258.8-4261.2] Truly, I just genuinely love what I do.
+[4261.2-4262.3] It's a real mission for me.
+[4262.3-4264.5] I like my life's work as building Flexport.
+[4264.5-4266.3] But a lot of people don't have that.
+[4266.3-4268.0] And I was always like kind of confused.
+[4268.0-4271.1] Because most people I meet don't have a sense of purpose
+[4271.1-4272.4] about their work like I do.
+[4272.4-4274.2] And I'm like, how do these people function?
+[4274.2-4275.0] Like I don't know.
+[4275.0-4275.9] How do you get through life?
+[4275.9-4277.4] You notice as soon as you have kids,
+[4277.4-4279.6] like you will get, I get more purpose from that
+[4279.6-4280.8] than I could from Flexport.
+[4280.8-4282.8] And so that's the vast majority of human beings
+[4282.8-4284.4] should get their purpose from their family,
+[4284.4-4285.3] from their life, from their kids.
+[4285.3-4286.4] I only feel incredibly lucky.
+[4286.4-4287.6] I watched the social network
+[4287.6-4289.3] and I saw Peter Taylor invest in Facebook.
+[4289.3-4291.4] And that's how I ever found out about Vanche Capital.
+[4291.4-4292.2] Really?
+[4292.2-4293.8] When I was 13, I was lived in London.
+[4293.8-4295.2] Vanche Capital is not a thing.
+[4295.2-4296.0] That was how I found out.
+[4296.0-4296.8] From that movie?
+[4296.8-4298.2] Yeah, cool.
+[4298.2-4299.6] And I've only ever wanted to be VC.
+[4299.6-4301.6] And like this is my whole life and being.
+[4301.6-4303.8] And I always felt terribly sorry for people,
+[4303.8-4305.8] but especially young people who like don't know
+[4305.8-4307.2] what they want to do with that.
+[4307.2-4309.1] Yeah, they should just have kids and then they'll be sold.
+[4309.1-4310.0] That'll be sold.
+[4310.0-4311.5] That problem will be solved instantly.
+[4311.5-4313.2] But if you get a lot of purpose from your work,
+[4313.2-4314.8] then you can have the opposite problem of like,
+[4314.8-4317.3] oh, like you still got to be a great dad.
+[4317.3-4318.2] I want to do a quick Friday
+[4318.2-4319.6] because I could talk to you all day.
+[4319.6-4322.2] So what have you changed your mind on most
+[4322.2-4323.8] in the last 12 months?
+[4323.8-4326.9] For the last decade, I didn't want to compete on price.
+[4326.9-4330.0] And I wanted to be the premium provider in logistics
+[4330.0-4332.0] and thought it would be bad to compete on price.
+[4332.0-4333.2] And now I'm like pretty convinced
+[4333.2-4335.0] that we need to be the low cost leader
+[4335.0-4337.9] and just go so hard at lowering our costs.
+[4337.9-4340.3] Because if you're cheaper, you just take all the market.
+[4340.3-4342.6] And I think I was maybe lying to myself
+[4342.6-4344.4] because it was too hard to automate the work
+[4344.4-4346.2] and too hard to become the low cost provider.
+[4346.2-4348.3] And we're smaller than some of the big peers
+[4348.3-4350.4] so they buy freight cheaper than us and stuff.
+[4350.4-4351.6] And I think I was lying to myself
+[4351.6-4353.7] and it's like, no, you need to be the cost leader.
+[4353.7-4355.0] And we have to figure out everything
+[4355.0-4356.3] we can to be the cost leader.
+[4356.3-4358.8] And I said, well, he was like, just sell under your cost.
+[4358.8-4360.2] Like, I don't believe in that.
+[4360.2-4361.6] Who do you not have on your board
+[4361.6-4364.2] that you'd most like to have on your board, magic wand?
+[4364.2-4367.4] I don't think our flex board's board needs anybody.
+[4367.4-4369.4] The board is like, mostly there to represent
+[4369.4-4371.5] the interests of our investors
+[4371.5-4373.4] and make sure we're doing a good job, not like.
+[4373.4-4376.7] Okay, but who's wise council would you like to have?
+[4376.7-4378.0] You want to join the board?
+[4378.0-4379.0] Is that what you're angling?
+[4379.0-4382.2] Listen, I think I'd add a lot to the board personally,
+[4382.2-4385.1] but it needs to be your decision, ultimately.
+[4386.1-4388.6] I'm just glad that my board doesn't screw with us.
+[4388.6-4391.2] My board has been like very supportive of us,
+[4391.2-4392.8] of me in particular.
+[4392.8-4395.8] I don't really want a more active board.
+[4395.8-4398.2] They're not super active in the business.
+[4398.2-4400.5] They're not like telling us what to do.
+[4400.5-4403.6] They don't help that much, but they don't ever hurt.
+[4403.6-4405.6] And like, I would much rather have that
+[4405.6-4407.4] than like a really helpful board.
+[4407.4-4409.9] I don't think there's a risk of the board firing me.
+[4409.9-4410.8] Someone who's really smart
+[4410.8-4412.6] and thinks they're smarter than me might fire me.
+[4412.6-4415.2] Penaltyment one, what sports team do you not sponsor
+[4415.2-4417.0] that you would most like to sponsor?
+[4417.0-4420.4] Oh, I really would love to sponsor this football club
+[4420.4-4422.7] in Hamburg called St. Pauli.
+[4422.7-4423.5] Why?
+[4423.5-4425.3] They're the second team in Hamburg.
+[4425.3-4427.7] And the first team, my great grandfather
+[4427.7-4429.3] was a sailor from Hamburg, first of all.
+[4429.3-4431.5] So I've got like a personal history there.
+[4431.5-4432.8] I don't know if he, I don't know if that team
+[4432.8-4436.2] was around back then, but the first team is owned
+[4436.2-4439.3] by Klaus Michael Kuhnett, who's the owner
+[4439.3-4441.5] of our direct competitor, Kuhnett Nagel.
+[4441.5-4443.0] And I just love the idea that we would take
+[4443.0-4445.2] the second team and beat him.
+[4445.2-4446.8] And he would be like, oh, those kids,
+[4446.8-4448.8] those damn kids, here they come again.
+[4448.8-4451.2] So just more of a troll than anything else.
+[4451.2-4452.6] And their logo is a pirate.
+[4452.6-4453.8] They're like, I don't know if they're logo,
+[4453.8-4455.6] but they're kind of like, they're like kind of
+[4455.6-4458.2] like a leftist communist oriented club.
+[4458.2-4460.0] I think they would kind of hate us
+[4460.0-4461.2] if we tried to buy it.
+[4462.4-4465.1] Yeah, maybe, maybe I didn't know that.
+[4465.1-4466.3] Because they wouldn't be that expensive,
+[4466.3-4469.5] but they're totally, also sports is a tough business.
+[4469.5-4471.2] Yeah, I don't want to own any teams.
+[4471.2-4473.8] Final one, what has to happen in 2026
+[4473.8-4475.9] for you to consider a successful year?
+[4475.9-4477.6] We gotta hit our numbers, we gotta grow like crazy.
+[4477.6-4480.8] And then this automation VAI, like we've got
+[4480.8-4484.2] about probably like a hundred core workflows
+[4484.2-4487.1] that are costly that we're building AI agents for right now.
+[4487.1-4489.8] Like five of them are live and working and saving us money
+[4489.8-4491.8] and 95 that are under development.
+[4491.8-4495.3] And I need at least like 80% of those to come to life
+[4495.3-4497.1] and like actually have the impact.
+[4497.1-4498.1] Otherwise we're just spending money
+[4498.1-4499.8] and not getting much back for the AI.
+[4499.8-4501.6] Dude, it's been so great to have you in person.
+[4501.6-4504.2] Thank you so much for doing it also on a Sunday of all time.
+[4504.2-4505.8] So I really appreciate it, dude.
+[4505.8-4508.3] And it's really special to meet you in person properly.
+[4508.3-4511.4] Yeah, it's great to be here.
+[4511.5-4513.9] But before we leave you today, meet Ava,
+[4513.9-4517.2] the first autonomous AI BDR, built by artisan
+[4517.2-4520.0] to run your entire outbound on autopilot.
+[4520.0-4521.9] Hey, Jason Lebken from Saster here.
+[4521.9-4523.0] Artisan is S tier.
+[4523.0-4525.6] We've replaced our entire outbound sales team with Artisan.
+[4525.6-4528.9] I believe we've sent over 50,000 highly customized emails
+[4528.9-4529.7] to Artisan.
+[4529.7-4531.7] The open rate is twice what it was with humans
+[4531.7-4534.1] and they close 100 K deals day after day.
+[4534.1-4537.8] Ava sources leads from over 250 million contacts
+[4537.8-4540.8] enriches every prospect with intense signals
+[4540.8-4544.5] then writes and sends personalized multi-channel outreach,
+[4544.5-4546.5] self-optimizing over time.
+[4546.5-4548.9] When a lead replies, she handles objections
+[4548.9-4551.5] and books meeting straight into your AE's calendars
+[4551.5-4553.2] without any human input.
+[4553.2-4555.1] Artisan is backed by Y Combinator
+[4555.1-4557.4] and has raised $36 million to build
+[4557.4-4560.2] the first truly autonomous AI BDR.
+[4560.2-4564.1] Higher Ava, the AI BDR and get $300 in credits
+[4564.1-4568.4] when you sign up at artisan.co slash 20VC.
+[4568.4-4573.4] That's a-r-t-i-s-a-n.co slash 20VC.
+[4574.4-4576.9] While Artisan scales your outbound motion,
+[4576.9-4580.0] Grenola turns every call into clean notes.
+[4580.0-4583.1] When I'm not recording the world's greatest fricking podcast,
+[4583.1-4584.4] I'm probably in meetings.
+[4584.4-4586.8] Pitch meetings, board meetings, LP meetings,
+[4586.8-4588.1] I can't get enough of them.
+[4588.1-4590.3] When all the meetings are over, I look at my notes
+[4590.3-4593.4] and they make no sense to me, illegible scribbles.
+[4593.4-4594.9] That's why I use Grenola.
+[4594.9-4598.3] Grenola is the AI notepad for people in back-to-back meetings.
+[4598.3-4601.0] I say back-to-back cause it makes me feel busy and special.
+[4601.0-4603.8] So I jot down rough notes like many do
+[4603.8-4606.2] and in the background, Grenola transcribes
+[4606.2-4608.4] and turns them into really clear useful notes
+[4608.4-4610.3] immediately after the meeting ends.
+[4610.3-4611.8] And I've been using Grenola for months
+[4611.8-4614.0] and my favorite feature is chatting to my notes.
+[4614.0-4615.5] No one else would chat to me these days
+[4615.5-4617.3] and I can ask it anything
+[4617.3-4619.8] and it trolls through every meeting I've ever had
+[4619.8-4620.9] and finds the answer.
+[4620.9-4622.5] What was the valuation of the start-up
+[4622.5-4623.6] that pitched me last week?
+[4623.6-4625.9] Who on my team said they would share the memo
+[4625.9-4628.6] and even coaching tips that how can I ask founders
+[4628.6-4630.5] better questions when they're pitching me?
+[4630.5-4632.6] All the best operators I know use Grenola
+[4632.6-4633.8] to help them get more done.
+[4633.8-4635.8] So if you're in a lot of meetings, trust me.
+[4635.8-4637.4] This is a really good tool for you.
+[4637.4-4638.7] It takes seconds to set up,
+[4638.7-4639.8] connects to your calendar,
+[4639.8-4641.4] works on any meeting platform,
+[4641.4-4644.9] head over to granola.ai-4-2-0-VC
+[4644.9-4647.9] and get three months free with code 2-0-VC.
+[4647.9-4650.8] That's granola.ai-2-0-VC
+[4650.8-4652.9] with the code 2-0-VC.
+[4652.9-4654.9] That's 2-0-VC.
+[4654.9-4658.0] Once granola turns the conversation into clear notes,
+[4658.0-4661.3] Finn turns that clarity into better customer support.
+[4661.3-4664.7] As AI agents become more common in customer experience,
+[4664.7-4667.8] teams often end up juggling multiple silo tools
+[4667.8-4668.7] for every job.
+[4668.7-4670.4] Well, Finn was built to change that.
+[4670.4-4672.2] It's a single unified agent
+[4672.2-4674.8] that works across your entire customer experience
+[4674.8-4677.6] from service to sales to success and beyond.
+[4677.6-4680.6] Finn is the agent making perfect customer experiences
+[4680.6-4682.6] possible for thousands of customers
+[4682.6-4684.5] is powered by custom models,
+[4684.5-4687.2] trained on years of real customer interactions.
+[4687.2-4688.6] So it understands the nuance
+[4688.6-4690.4] and complexity of customer service
+[4690.4-4692.0] better than any other agent.
+[4692.0-4693.9] That means faster resolutions,
+[4693.9-4695.4] more consistent support,
+[4695.4-4697.7] and just better experiences for every customer.
+[4697.7-4700.1] It's also designed to be fully self-manageable,
+[4700.1-4701.5] so you can easily improve
+[4701.5-4703.6] and adapt it as your business evolves.
+[4703.6-4705.2] No third party is required.
+[4705.2-4706.8] Leading companies like Gamma,
+[4706.8-4709.4] Asana, Dordash and Crypto.com
+[4709.4-4710.9] already use and love Finn
+[4710.9-4713.1] to deliver better customer experiences.
+[4713.1-4714.1] So for a limited time,
+[4714.1-4716.9] you can get $500 a month in Finn credits.
+[4716.9-4718.2] For your first three months,
+[4718.2-4722.0] learn more at fin.ai-4-20VC.

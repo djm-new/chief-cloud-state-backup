@@ -151,6 +151,12 @@ When the symptom is "button does nothing", "form submits nowhere", or a browser-
 - Then inspect the deployed HTML/JS assets to verify the expected client handler is actually deployed.
 - Do not infer client interactivity from server-rendered HTML alone; React/Next event handlers are in JS chunks, not literal `onSubmit` attributes in the HTML.
 - Check for uncommitted/staged-only local changes if production is missing code you expected to be live.
+- For gallery/crop apps, explicitly check whether bundled sample/demo assets are being routed through a hardcoded special-case branch. If the sample images are just inputs, they usually should use the same detector path as uploads.
+- If a demo layout was copied from a previous photo set, treat it as suspect until verified against the new images.
+- If a demo layout was copied from a previous photo set, treat it as suspect until verified against the new images.
+- For static crop galleries, create a contact sheet of every crop and inspect it before shipping: it catches sideways covers, mostly-background/wood tiles, and partial-book boxes that a simple count check misses.
+
+See `references/book-sorter-sample-segmentation.md` for a concrete example, including contact-sheet verification.
 
 Example probe:
 

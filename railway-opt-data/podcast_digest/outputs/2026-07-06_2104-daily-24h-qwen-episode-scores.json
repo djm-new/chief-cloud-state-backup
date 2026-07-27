@@ -1,0 +1,251 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-07-06_2104",
+  "usage": {
+    "prompt_tokens": 4101,
+    "completion_tokens": 953,
+    "total_tokens": 5054
+  },
+  "episodes": [
+    {
+      "id": "f2ce465bc90ae931502ab0a1",
+      "show_name": "Big Technology Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Who Wins The AI Superapp Battle?, Apple’s Consumer AI Victory, World Cup Automation Mistake",
+      "link": "",
+      "published": "2026-07-06T17:57:00+00:00",
+      "summary": "M.G. Siegler is the author of Spyglass.org. Siegler joins Big Technology to discuss the race to build the AI super app and which companies are best positioned to win. Tune in to hear why OpenAI, Anthropic, Google, Microsoft, Meta, and Apple are all converging on the same idea: an AI interface that can handle more and more of your computing life. We also cover Apple’s new Siri, whether consumer AI will be won by default on the iPhone, and what World Cup automation says about our growing reliance on machines. Hit play for a sharp, wide-ranging conversation about where AI products are headed next. --- Enjoying Big Technology Podcast? Please rate us five stars ⭐⭐⭐⭐⭐ in your podcast app of choice. Want a discount for Big Technology on Substack + Discord? Here’s 25% off for the first year: https://www.bigtechnology.com/subscribe?coupon=0843016b Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "duration": "3642",
+      "old_score": 36,
+      "old_label": "skip",
+      "qwen": {
+        "id": "f2ce465bc90ae931502ab0a1",
+        "score": 82,
+        "tier": "digest",
+        "reason": "Discusses AI superapp battle, Apple's consumer AI strategy, and automation trends; relevant for market positioning and platform dynamics.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "8ba7ac5a8b50d11e53d60bf7",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "We finally have a Trump Phone | The Vergecast Livestream",
+      "link": "",
+      "published": "2026-07-06T16:50:00+00:00",
+      "summary": "We've been tracking the Trump Phone for more than a year. We weren't sure it was real, or that it would ever ship — and we were pretty darn sure it wasn't going to be made in America. Whatever the Trump Phone is, though? We finally got our hands on one. Dom Preston and some other Verge friends will join David to talk about the device, our first impressions, and whether this is could be the best phone of 2026. (Just kidding.) Further reading: ⁠I finally got my Trump phone⁠ Subscribe to The Verge for unlimited access to theverge.com, subscriber-exclusive newsletters, and our ad-free podcast feed.We love hearing from you! Email your questions and thoughts to vergecast@theverge.com or call us at 866-VERGE11. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "2433",
+      "old_score": 4,
+      "old_label": "skip",
+      "qwen": {
+        "id": "8ba7ac5a8b50d11e53d60bf7",
+        "score": 45,
+        "tier": "scan",
+        "reason": "Focuses on Trump Phone; likely light on durable insights or market implications despite novelty.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "06ed2790e6050ce703b9ed3d",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: July 6th, 2026",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-july-6th-2026",
+      "published": "2026-07-06T16:00:00+00:00",
+      "summary": "Featuring: Mike Wilson, CIO & Chief US Equity Strategist at Morgan Stanley Henrietta Treyz, Director of Economic Policy Research at Veda Partners Neil Dutta, Head of US Economic Research at Renaissance Macro Research See omnystudio.com/listener for privacy information.",
+      "duration": "1421",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "06ed2790e6050ce703b9ed3d",
+        "score": 60,
+        "tier": "scan",
+        "reason": "Bloomberg Surveillance episode with economic and market commentary; standard fare, some potential value.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "db3fa5497a4cfc055df7815a",
+      "show_name": "The Breakdown with NLW",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Venice Is Now a Crypto-AI Unicorn — But Its Token Tanked 50%",
+      "link": "",
+      "published": "2026-07-06T14:42:00+00:00",
+      "summary": "VVV is down 50% on news that should be good for Venice. David unpacks why — covering the token vs. equity distinction, Dragonfly's reasoning, and what the onchain data says about how many people are actually using Venice's paid features right now. FOLLOW THE SHOW › David — https://x.com/dcanellis › The Breakdown — https://x.com/TheBreakdownBW › The Breakdown Newsletter — https://blockworks.com/newsletter/the-breakdown DISCLAIMER As always, remember this podcast is for informational purposes only, and any views expressed by anyone on the show are solely their opinions, not financial advice.",
+      "duration": "1824",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "db3fa5497a4cfc055df7815a",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Crypto-AI token volatility analysis; niche and speculative, but some data-driven takeaways possible.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "174f53fac0fd72ad835c5f44",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Tech Rises as Iran War Looms Over NATO Summit",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/tech-rises-as-iran-war-looms-over-nato-summit",
+      "published": "2026-07-06T13:04:12+00:00",
+      "summary": "The latest in finance, economics and investment. Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF .Bloomberg Surveillance hosted by Tom Keene & Paul SweeneyMonday, July 6th, 2026 Featuring: 1) Joe Davis, Global Chief Economist at Vanguard, on the global inflation backdrop. 2) Kelsey Berro, Executive Director: Fixed Income at JPMorgan Asset Management, discusses opportunities in fixed income. 3) Andrew Slimmon, Head of Applied Equity Advisors at Morgan Stanley Investment Management, examines why AI remains a bull-market driver. 4) Becca Wasser, Defense Lead for Bloomberg Economics, previews this week's NATO summit in Turkey. See omnystudio.com/listener for privacy information.",
+      "duration": "1817",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "174f53fac0fd72ad835c5f44",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Covers AI as a bull-market driver and geopolitical context; relevant for market read and tech investment.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "676ba51696f92e7e7542ceb0",
+      "show_name": "EconTalk",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "EconTalk Book Club on the Iliad (with Ido Hevroni)",
+      "link": "https://www.econtalk.org/econtalk-book-club-on-the-iliad-with-ido-hevroni/",
+      "published": "2026-07-06T10:30:00+00:00",
+      "summary": "Ego, pride, wrath, fear, gods, superheroes, mortals, and lots of killing. Welcome to Homer's Iliad , which reads at times like a script for a Tarantino film or the latest installment of the Avengers franchise. In the first episode of the EconTalk Book Club on the Iliad , Ido Hevroni of Shalem College speaks with EconTalk's Russ Roberts about the surprising relevance of a 2800-year-old epic poem. Hevroni also provides useful background for first-time readers and what it's like to read the Iliad with combat veterans.",
+      "duration": "01:10:02",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "676ba51696f92e7e7542ceb0",
+        "score": 30,
+        "tier": "skip",
+        "reason": "EconTalk Book Club on Iliad; philosophical but low relevance to capital allocation or AI/tech frameworks.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "1655b145400e5eef3f29d523",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Don’t Follow Your Passion | Ben Horowitz’s Advice for New Graduates",
+      "link": "https://a16z.simplecast.com/episodes/dont-follow-your-passion-ben-horowitzs-advice-for-new-graduates-bLLRyFoV",
+      "published": "2026-07-06T10:00:00+00:00",
+      "summary": "In this commencement address to Columbia University's Fu Foundation School of Engineering and Applied Science Class of 2015, Ben Horowitz challenges some of the most common advice given to graduates. Rather than urging students to “follow their passion,” Horowitz argues that people should focus on developing their strengths and making meaningful contributions to the world. Drawing on stories from his own time at Columbia, the founding of technology companies, and investments in startups like Airbnb, he explores the importance of independent thinking, conviction, and pursuing ideas that others may initially dismiss. Along the way, Horowitz discusses technological progress, entrepreneurship, opportunity, and why he believes today's graduates are entering a world defined less by unprecedented challenges than by unprecedented possibilities. ee Resources: Follow Ben Horowitz on X: https://x.com/bhorowitz Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:19:22",
+      "old_score": 62,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "1655b145400e5eef3f29d523",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Ben Horowitz commencement speech with advice on conviction, entrepreneurship, and opportunity; actionable insights for operators.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "0c6eb8d49d941aac7b2fdbfc",
+      "show_name": "Decoder with Nilay Patel",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Inside the big business of the creator economy, with Ali Berman and Raina Penchansky",
+      "link": "",
+      "published": "2026-07-06T09:00:00+00:00",
+      "summary": "Today I’m talking with Ali Berman and Raina Penchansky, who run the Creators Division at United Talent Agency. UTA is an enormous talent agency, and Ali and Raina's creators division represents some of the biggest creators and influencers in the world. So I really wanted to know how Raina and Ali identify up-and-coming talent, how they work with that talent to build durable businesses, and what the machinations of being a top creator actually look like in practice. Links: The power brokers behind the $250B influencer economy | Wall Street Journal The Influencer Cliff | Carmen Vicente (TikTok) UTA Unveils Upscale Office for Creators | The Hollywood Reporter YouTube Stars Breach Hollywood’s Most Gilded Gate | New York Times CAA, TPG form holding company to acquire creator-led businesses | Variety How creator talent agencies are evolving into multi-platform operators | Digiday Subscribe to The Verge to access the ad-free version of Decoder! Credits: Decoder is a production of The Verge and part of the Vox Media Podcast Network. Decoder is produced by Kate Cox and Nick Statt; this episode was edited by Xander Adams. Our editorial director is Kevin McShane. The Decoder music is by Breakmaster Cylinder. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "4093",
+      "old_score": 28,
+      "old_label": "skip",
+      "qwen": {
+        "id": "0c6eb8d49d941aac7b2fdbfc",
+        "score": 60,
+        "tier": "scan",
+        "reason": "Inside the creator economy business; relevant for trend spotting but not core to AI or capital allocation.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "89dc54df4b0beba8be69a4f6",
+      "show_name": "Capital Allocators",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Moat Investing Nuances – Pat Dorsey (EP.509)",
+      "link": "https://tedseides.libsyn.com/moatsinvesting-nuances-pat-dorsey-ep509",
+      "published": "2026-07-06T08:00:00+00:00",
+      "summary": "Pat Dorsey is the Founder of Dorsey Asset Management, a $1.7 billion global public equity manager focused on companies with competitive advantages and long investment runways. Pat created Morningstar's moat research framework and led its equity research efforts for a dozen years before launching his firm in 2014. Our conversation covers the nuances of investing in businesses with wide moats across quantitative analysis, switching costs, network effects, brands, management, alignment, capital allocation, and reinvestment runways. We then turn to Pat's application of moat analysis to his investing, including concentration, global scope, position sizing, decision making, and lessons learned. Any leader should see for themselves the benefits of elite coaching. Try ALEX : tryalex.admiredleadership.com . Learn More Follow Ted on Twitter at @tseides or LinkedIn Subscribe to the mailing list Access Transcript with Premium Membership Editing and post-production work for this episode was provided by The Podcast Consultant ( ⁠ https://thepodcastconsultant.com ⁠ )",
+      "duration": "01:07:00",
+      "old_score": 52,
+      "old_label": "skip",
+      "qwen": {
+        "id": "89dc54df4b0beba8be69a4f6",
+        "score": 85,
+        "tier": "listen",
+        "reason": "Deep dive into moat investing nuances with Pat Dorsey; directly relevant for capital allocation and durable business frameworks.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "c4c60bcc259736344d212c06",
+      "show_name": "Odd Lots",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "These Are the Sharps Actually Making Money on Prediction Markets",
+      "link": "https://omny.fm/shows/odd-lots/these-are-the-sharps-actually-making-money-on-prediction-markets",
+      "published": "2026-07-06T08:00:00+00:00",
+      "summary": "Here's a couple things about prediction markets. A lot of it is pure gambling and speculation, much of it on things with very little economic relevance. Another fact is that in all likelihood, if you yourself started trading right now, you'd probably lose your shirt. But there is money being made by some dedicated traders, really focused on areas like politics and economics. On this episode, we speak with Brian Golden and Daniel Reichman, who are part of a private Discord called Maga Kiwi Club, where serious prediction markets traders swap ideas and make real money. We discuss the remarkable efforts they go to in order to spot opportunities, the systematic biases among traders, how they feel about insider trading, and other major issues that surround the space. Alongside Brian and Daniel, we also speak with NYC-based journalist and producer Adam Iscoe, who recently profiled these traders for The New York Times Magazine . Only Bloomberg.com subscribers can get the Odd Lots newsletter in their inbox, plus unlimited access to the site and app. Sign up at bloomberg.com/subscriptions/oddlots See omnystudio.com/listener for privacy information.",
+      "duration": "2901",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "c4c60bcc259736344d212c06",
+        "score": 60,
+        "tier": "scan",
+        "reason": "Prediction markets with sharp traders; speculative but offers behavioral insights and edge cases.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "2b82a6f2c295e555e516695c",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Why AI Stocks Are Overvalued + Are Networking Events Actually Worth It?",
+      "link": "",
+      "published": "2026-07-06T08:00:00+00:00",
+      "summary": "Scott Galloway breaks down why AI spending is soaring while ROI lags, weighs in on whether Cannes Lions is worth it for young professionals without networking budgets, and reflects on how rowing crew at UCLA taught him the gap between perceived and actual limits. Want to be featured in a future episode? Send a voice recording to officehours@profgmedia.com, or drop your question in the r/ScottGalloway subreddit. Plus, you can now call or text Scott a question at our new Office Hours hotline: ‪(201) 472-3656‬. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "1314",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "2b82a6f2c295e555e516695c",
+        "score": 55,
+        "tier": "scan",
+        "reason": "Galloway on AI stock valuations and ROI; provocative but may lack depth for DJ's toolkit.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "98ea3000ed7172d10005417f",
+      "show_name": "The Twenty Minute VC",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "20VC: Why Now is the Time for the Application Layer | Why OpenAI & Anthropic Won't Win the App Layer | Why Startups Should be TokenMaxxing | Why VCs Should Reduce Weighting on Price & Ownership in an Age of AI with Mike Mignano, USV",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-why-now-is-the-time-for-the-application-layer-why-openai-anthropic-wont-win-the-app-layer-why-startups-should-be-tokenmaxxing-why-vcs-should-reduce-weighting-on-price-ownership-in-an-age-of-ai-with-mike-mignano-usv",
+      "published": "2026-07-06T07:07:00+00:00",
+      "summary": "Mike Mignano is a General Partner at Union Square Ventures, one of the most iconic venture firms in the world, whose investments include Coinbase, Stripe, Etsy, Twilio, Cloudflare. Before joining USV, Mike was a Partner at Lightspeed, where he backed breakout AI companies including Granola and Suno. Prior to investing, he co-founded Anchor, acquired by Spotify. AGENDA: 00:00 Is Fear of Failure the Secret Weapon Behind Great Founders? 07:20 Why Leave Lightspeed for USV — and Is Thesis-Driven Venture Still Alive? 09:50 Is the Real AI Money Still in Infrastructure, or Are Apps Finally About to Explode? 13:00 Who Wins the AI Model War: OpenAI, Anthropic, Open Source, or the \"Rebel Alliance\"? 19:00 Are We About to Hand Our Entire Lives Over to AI Agents? 21:00 Can Anthropic Keep Growing Like This — or Will Token Spend Break the Model? 26:00 Can AI Routing Become a $50BN Company, or Is It Just a Commodity Pipe? 30:00 Will the AI Energy Crisis Create the Next Monster Venture Outcomes? 36:00 Can Startups Survive Microsoft, OpenAI, and the Brutal Power of Bundling? 45:00 Should VCs Ignore Price When Backing Generational Companies? 55:30 Is Traditional Media Dead — and Who Becomes the New Tech Kingmaker?",
+      "duration": "01:09:24",
+      "old_score": 38,
+      "old_label": "skip",
+      "qwen": {
+        "id": "98ea3000ed7172d10005417f",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Mike Mignano on AI app layer, infrastructure, and startup strategy; solid insights for tech investors and operators.",
+        "confidence": "high"
+      }
+    }
+  ]
+}

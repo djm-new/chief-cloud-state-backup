@@ -1,0 +1,661 @@
+[0.0-4.6] Nine of the ten company I invest, half way they change their business plan because market
+[4.6-5.6] have changed.
+[5.6-9.3] So I like to have entrepreneur as a team, not just one person.
+[9.3-15.1] I always believe in when I was at Cadence and also at Intel, it's first of all you crawl
+[15.1-18.2] and then be humble, listen to customer.
+[18.2-23.0] And then first step for me is to strengthen my balance sheets, focus on the products and
+[23.0-28.0] I really simplify the product, listen to customer and then drive the next generation leadership
+[28.0-29.0] products.
+[29.0-35.0] And then right now the agentech AI and inference CPU become highly in demand and so in
+[35.0-38.6] some way I'm happy, right now the demand is very high for my CPU.
+[38.6-44.0] I can be very happy that Jensen Huang, my old-time friend, he also put 5 billion in investing
+[44.0-45.0] and support me.
+[45.0-47.0] He's 5 billion, become 25 billion now.
+[47.0-52.0] If you look at it, ten years from now, what will be the winning company?
+[52.0-61.0] The one that...
+[61.0-63.3] Hi listeners, welcome back to no priors.
+[63.3-68.1] Today a lot and I are here with Lippu Ton, the legendary investor from Walden, then CEO
+[68.1-70.6] of Cadence, now CEO of Intel.
+[70.6-76.1] We talk about his plan to transform Intel, having the US government as a major shareholder,
+[76.1-80.2] how to be an amazing semiconductor's investor and whether or not we can make chips in the
+[80.2-81.2] United States.
+[81.2-82.2] Welcome, Lippu.
+[82.2-86.5] Lippu, it's great to see you, we'll start with the obvious question, this is a really
+[86.5-92.2] hard job to go, be CEO of this incredibly important American Semi's company, why take
+[92.2-93.2] the job at all?
+[93.2-98.7] It's a good question, I'm 66 and people that are well, you should retire rather than
+[98.7-102.0] take on this hardest job in the industry.
+[102.0-108.2] And so a couple of reasons, one is this iconic company and it's so important for the semiconductor
+[108.2-116.5] ecosystem and also so important for the United States and so I decided to do one more.
+[117.5-122.1] A lot has happened in this past year, what has been most surprising to you?
+[122.1-128.0] Well, the most surprising that I don't learn from my previous job or even training is one
+[128.0-134.1] day, early morning, President Trump asking me to resign and conflict of interest and
+[134.1-136.1] there's no exceptions.
+[136.1-141.8] And so I had to convince myself, first of all, you know, I don't need this job, I do
+[141.8-144.0] it purely to save Intel.
+[144.0-149.7] And so take that personal issue out of the way, then I figured out what can I do to be
+[149.7-151.5] helpful to Intel.
+[151.5-158.1] And so good news is I have a meeting in a Thursday morning and then Monday I have the meeting.
+[158.1-164.3] And until listen to me, I have a chance to explain myself, you know, born in Malaysia,
+[164.3-169.9] grown up in Singapore, went to MIT and I live in the US and never lived outside country.
+[169.9-175.3] And so something that I share and then somehow he listened very well and then he gave me
+[175.3-178.1] the chance and so I'm delighted.
+[178.1-179.9] And now you have the chance to do the work.
+[179.9-184.1] When you said, you know, the job is to save Intel, it's a really important company.
+[184.1-185.1] What does that look like to you?
+[185.1-187.3] What does Intel winning or thriving look like?
+[187.3-192.1] Yeah, I just passed 14 months, a lot of things happened in this 14 months.
+[192.1-197.8] So a couple of things, one is to change the culture and then clearly want to drive
+[197.8-202.6] more accountability and also in terms of decision making had to be faster.
+[202.6-208.4] You know, I'm so used to start up culture and you move fast in the speed of light.
+[208.4-212.9] And don't have that bureaucracy, layer of layer of meeting.
+[212.9-217.9] And so something that I change the accountability, listen to the customer and the customer
+[217.9-218.9] delighted.
+[218.9-223.5] You know, someone libous or humble willing to listen and then address some of the problem
+[223.5-226.9] that they face and then try to delight the customer.
+[226.9-231.1] And also the other part, from day one, I decided all the engineering report to me.
+[231.1-233.1] I'm being an engineer by training.
+[233.1-237.8] I want to know what went wrong and what are the things that I need to correct, listen
+[237.8-242.8] to the customer and delight the customer and then make sure that we have the right product,
+[242.8-247.6] simplify our product line and really have the roadmap and the vision for the next five
+[247.6-248.6] 10 years.
+[248.6-251.4] What is your vision of where Intel should be in 10 years?
+[251.4-253.2] Yeah, I think a couple of things.
+[253.8-259.8] I always believe in when I was a cadence and also at Intel is first of all, you crawl and
+[259.8-265.1] then be humble, listen to customer and then secondly, you're starting to walk and then
+[265.1-267.5] finally, you're starting to run and spring.
+[267.5-270.7] So that's kind of my culture of step by step doing it.
+[270.7-274.8] And then first step for me is to strengthen my balance sheets.
+[274.8-279.0] And the balance sheets really have horrible in some way.
+[279.0-280.0] So I'm delighted.
+[280.0-282.6] Now, US government become a big shareholder.
+[282.6-287.8] Just I explained to President Trump, TSMC, when they started, they have the Taiwan government
+[287.8-288.8] as a shareholder.
+[288.8-293.8] If you look at Japan, you look at Singapore, this is the infrastructure, US government
+[293.8-296.3] get to provide the support.
+[296.3-302.6] Secondly, very happy that Jensen Huang, my old-time friend, he also put 5 billion in investing
+[302.6-303.9] and support me.
+[303.9-309.0] And I'm glad I at least do some good work, his 5 billion become 25 billion now.
+[309.0-314.8] And then the other party, soft bank master, I used to be a soft bank board.
+[314.8-317.2] And then he lent a hand to help me.
+[317.2-321.8] So we strengthened the balance sheet and then focus on the products.
+[321.8-326.6] And I really simplified the product, listened to the customer and then tried the next generation
+[326.6-328.2] leadership products.
+[328.2-331.6] And then in some way, it's very lucky.
+[331.6-338.0] Right now, the authentic AI and inference CPU become highly in demand.
+[338.0-345.8] And so in the versus one to eight in the training CPU to GPU, now I can see one to four,
+[345.8-347.3] maybe one to one.
+[347.3-350.4] And I'm delighted that CPU become important.
+[350.4-356.4] I talked to some of the AI model and the developer and they said, well, in terms of reinforced
+[356.4-361.5] learning, in terms of the speed of orchestrating all the agents.
+[361.5-364.2] And turn off the CPU is actually better.
+[364.2-368.3] And so in some way, I'm happy right now, the demand is very high for my CPU.
+[368.3-373.4] So I think overall build on the product and the data center server side, then the other
+[373.4-375.9] part is our foundry business.
+[375.9-380.3] And initially, this is a capital intensive business and it's not easy.
+[380.3-382.2] And you really need to have a couple of things.
+[382.2-386.3] You need to have all the right IP so that you can support the customer.
+[386.3-392.3] Like for example, if it is a mobile related, you got to have low power IP set that you
+[392.3-393.3] need to have.
+[393.3-398.0] Now that you cannot serve them, it's a service business, it's a trust business.
+[398.0-404.0] If people want to give you orders to have wafer to come, if the yield not good, they
+[404.0-407.1] will be toast in terms of revenue and miss.
+[407.1-412.1] So with that, I think it's very important to really focus on the yield, the defect
+[412.1-417.2] density, the cycle time, and then make sure that you're really able to meet and serve
+[417.2-421.1] the customer in high quality and reliable.
+[421.1-424.0] And so those are the things that I really focus on it.
+[424.0-427.5] And eventually, you have to really move into a full stack.
+[427.5-432.9] So not just a silicon, you need to have a software and some of the customer asked me, give
+[432.9-434.4] me the whole rack.
+[434.4-436.7] So there's a system that you have to build.
+[436.7-441.1] And so I think those are the things that are quietly building step by step, and recall
+[441.1-443.4] some of the best talent I can find.
+[443.4-448.3] By the way, all the recruitment, I do it myself, no search for help.
+[448.3-452.4] And so I think sometimes it's good to have a road attack that you know who to reach out
+[452.4-453.4] to call for.
+[453.4-456.6] Yeah, I mean, you've been in the business for so long, and you know, you've run a cadence
+[456.6-458.4] for I think 12 years before this.
+[458.4-459.4] And so 13 years.
+[459.4-460.4] 13 years.
+[460.4-461.4] 13 years.
+[461.4-462.4] 13 years.
+[462.4-463.4] 13 years.
+[463.4-464.4] 13 years.
+[464.4-465.4] 13 years.
+[465.4-466.4] I signed up for three months.
+[466.4-467.4] Three months.
+[467.4-468.4] So then I'll be very careful.
+[468.4-472.5] The moment you said, I'll just do it for three months, it'll not to be 15 years.
+[472.5-473.5] Yeah.
+[473.5-476.1] Well, it seems like I have a lot of longevity ahead of you here as well.
+[476.1-481.1] And so the other big initiative that has been sort of talked about is Terrafab and working
+[481.1-482.1] with Elon Musk on that.
+[482.1-485.4] Can you tell us a bit more about how that came together and your involvement and how
+[485.4-486.4] you're all are collaborating?
+[486.4-487.4] Yeah.
+[487.4-488.4] Good.
+[488.4-493.8] I mean, Elon Musk, I think we all agree is one of the best, if not the best, entrepreneur
+[493.8-494.8] in this century.
+[494.8-495.8] Yeah.
+[495.8-501.4] Now we share the same view that some I conduct the infrastructure actually is not catch
+[501.4-504.2] up with the AI growth.
+[504.2-508.6] And in terms of you need the capacity, you need to have the productivity and you have
+[508.6-510.4] to try efficiency.
+[510.4-514.6] And so those are the things that he and I will share that that's something missing.
+[514.6-522.3] And then secondly, he just delighted to work with him and he is very, I call it unconventional.
+[522.3-528.2] And he basically questioned every step and why this traditional way of doing things.
+[528.2-530.4] And in some way it's very refreshing.
+[530.4-531.4] And I like that.
+[531.4-536.3] I like people have different opinion and let's work together find what is the best route.
+[536.3-538.7] And we both going to learn a lot together.
+[538.7-544.5] And then I think clearly he have a vision that his robots and his car, you know, he need
+[544.5-545.5] a lot of silicon.
+[545.5-546.5] Yeah.
+[546.5-548.7] Could you actually explain what Terrafab is or before I'm familiar with it?
+[548.7-549.7] Yeah.
+[549.7-552.1] 35 he decided he want to build his own fab.
+[552.1-555.8] And I mean, while we are delighted to work with him and then make sure that we can work
+[555.8-560.9] together and enable him to be faster and quicker to the production.
+[560.9-564.3] And then using some of our technology and some of our process.
+[564.3-567.4] And there's something that we both kind of collaborate together.
+[567.4-572.3] And he's a very good team that I work with weekly and it's just refreshing to work with
+[572.3-573.3] him.
+[573.3-576.3] And he's talked about things like he wants you to be able to smoke inside the clean room
+[576.3-577.9] and all these things that normally are.
+[577.9-578.9] Yeah.
+[578.9-579.9] Yeah.
+[579.9-580.9] I think I don't go that far.
+[580.9-581.9] Yeah.
+[581.9-584.1] Maybe some part of the clean room you can do that.
+[584.1-589.2] But I think something that is open my and then we are also listen and see what we can
+[589.2-590.2] do that.
+[590.2-592.8] And it's very exciting to see how you're morphing the business here in the US in terms
+[592.8-597.0] of incrementally building out the founder business in terms of collaborating with things
+[597.0-598.0] like Terrafab.
+[598.0-603.0] If you think about the global AI and semiconductor supply chain, so say that you were to look
+[603.0-608.7] at the changes that AI is driving on a macro basis country by country.
+[608.7-611.6] And if I look at certain countries, when I look at the layoffs that are claimed from AI,
+[611.6-617.1] for example, most of them, I think are overstated right now, most of the layoffs are actually
+[617.1-621.2] just overhiring during 2020, COVID period.
+[621.2-625.5] But the first things I see actually being cut are as far as firms where you'd rather
+[625.5-627.4] cut external headcount versus internal.
+[627.4-631.3] So you're cutting external customer support, you're cutting external IT.
+[631.3-634.5] And that has more of an impact, I think, for certain countries, which have big BPO's,
+[634.5-636.3] the Philippines, India, etc.
+[636.3-639.1] And so they may be impacted in the short run by AI.
+[639.1-642.9] And then if you ask how do companies participate in the future in a positive way in AI, you have
+[642.9-647.0] to almost go country by country right places with cheap energy will do data centers,
+[647.0-650.7] places with the ability to train models or train models, but it's probably only the US
+[650.7-653.0] in one or two other places.
+[653.0-656.5] How do you think about the shift in global supply chain for the semiconductor industry?
+[656.5-658.0] You should certain countries invest more.
+[658.0-663.2] And we should Israel be doing more given melonics and then video and intel presence there.
+[663.2-666.8] And should they try to do more in semiconductor should other should the Philippines move back
+[666.8-668.3] to more of a manufacturing base?
+[668.3-670.2] Like how do you think about that on a global basis?
+[670.2-671.6] Yeah, good question.
+[671.6-675.7] So I think clearly the AI is changing the whole landscape.
+[675.7-681.4] And I think the impact will be bigger than internet and it's more profound also.
+[681.4-688.0] So I think the AI initially is able to help you to do things more efficiently.
+[688.0-693.7] And then with a lot of agent helping you to do things that is not kind of mundane that
+[693.7-696.9] you need to do, but now they can give you to you faster.
+[696.9-700.8] So in some way I think it can drive a lot of efficiency.
+[700.8-706.8] And I said my conductor design, how much you can drive the efficiency in terms of timing?
+[706.8-708.1] How quickly can you come out?
+[708.1-709.7] And secondly, the cost.
+[709.7-712.8] And so I think those will be helping you to drive that.
+[712.8-718.5] And then I think couple of bottlenecks for the AI demand and growth, one is of course
+[718.5-721.0] everybody knows power constraint.
+[721.0-725.1] Some country, the power they just don't have that, it get impacted.
+[725.1-730.7] And then secondly, a lot of people didn't realize the helium impact can be also fascinating
+[730.7-732.7] for semiconductor.
+[732.7-737.3] And then the thirdly is everybody knows right now memory is the biggest shortage.
+[737.3-739.9] And everybody tried to scramble for memory.
+[739.9-744.0] And then even though you have the built a fab to capacity increase, it will take a couple
+[744.0-745.5] of years to do that.
+[745.5-750.4] And same thing for CPU, GPU, and all this will be highly demanded.
+[750.4-756.0] And I think also the pricing will also go up because we're the past the price, the cost
+[756.0-757.4] to the customer.
+[757.4-760.8] So I think those will be the impact industry growth.
+[760.8-767.0] And then I think overall I felt that the company that most impacted is you're not embracing
+[767.0-768.1] AI.
+[768.1-774.4] And because AI can help you to drive a lot of efficiency across all the different function
+[774.4-780.6] of the enterprise, we should embrace and also find a way to better use the AI for
+[780.6-786.7] your prediction, for your design, for your all the different part of the workload.
+[786.7-788.2] And I think that's tremendous.
+[788.2-793.6] A number of people would say the simplistic argument against tariff fab against Intel
+[793.6-799.8] Foundry being competitive is really a question of, you know, there's all the factors internal
+[799.8-800.8] of the building, right?
+[800.8-806.0] You describe IP and velocity of just how you're doing business.
+[806.0-809.8] Then there are external factors and a lot's talking about a number of them.
+[809.8-816.5] But one of them is the cost of labor and actually the manufacturing capacity, you know, investing
+[816.5-817.5] in the Foundry business.
+[817.5-821.8] You obviously believe there's a version where you can manufacture domestically and Elon
+[821.8-822.8] does too.
+[822.8-826.8] Can you talk a little bit about that and, you know, how real that constraint is, the labor
+[826.8-827.8] constraint?
+[827.8-828.8] Right.
+[828.8-834.4] So I think you know the one I decided with us to double down on Foundry or should I get
+[834.4-835.4] out of the Foundry?
+[835.4-836.4] Mm-hmm.
+[836.4-837.4] And I got a lot of voices.
+[837.4-840.2] I got a lot of voices in the marketplace as you can tell.
+[840.2-841.2] It's very expensive.
+[841.2-842.2] It's very expensive.
+[842.2-843.5] You're not going to work.
+[843.5-848.5] But I finally decided this is very important for United States and also very important for
+[848.5-849.5] the industry.
+[849.5-850.5] Mm-hmm.
+[850.5-855.6] And I'll give you the idea that, you know, we all live through this challenges of supply
+[855.6-861.4] chain and it's very important for any of the big company and semiconductor and really
+[861.4-863.8] have to think about the supply chains.
+[863.8-867.3] And you have to have a robust and resilient supply chain.
+[867.3-872.3] You cannot just depend on one or two player in different geographic growth.
+[872.3-877.5] And so I think, you know, the more and more people can realize making in United States
+[877.5-878.8] is critical.
+[878.8-886.0] And then the most advanced process, like for example, we have the 14A is like 1.4 nanometer
+[886.0-891.5] and we are already starting to plan for one nanometer and 0.7 nanometer.
+[891.5-893.4] It's getting smaller and smaller.
+[893.4-895.8] So in a way, it's much like our hair.
+[895.8-900.1] So then, so it's a lot of complexity, it's not that easy to do.
+[900.1-905.3] And every step, if you make a mistake that you just go down, you know, go down the drain.
+[905.3-910.0] So in some way, you have to be really precise and in that manufacturing.
+[910.0-914.3] So in some way, this has become more and more going to be the bottleneck.
+[914.3-919.1] So we felt that we, you know, we have a lot of respect for TSMC, we're a great partner
+[919.1-925.4] and then the more important, we both need to have more capacity to serve the customer.
+[925.4-930.1] And then, so I think we decided by the bullet longer term, I think it's going to be
+[930.1-935.0] quite critical and then that's why I can create more value for the industry.
+[935.0-939.4] People have been talking for a long time about eventually hitting a point of resolution
+[939.4-942.0] where you can't really miniaturize things further.
+[942.0-947.7] Like the language is just too small to be able to keep going.
+[947.7-949.4] When do you think we actually hit that limit?
+[949.4-950.4] Good question.
+[950.4-956.1] So I think I can see, you know, right now we have 18A and now we're going to production
+[956.1-959.5] of 14A, I can see 10 and 7.
+[959.5-962.8] And so I think that the path, I think we can get there, but it could not be more and
+[962.8-965.6] more expensive and more difficult to do.
+[965.6-966.9] And that's why we need partners.
+[966.9-971.5] We can adjust to it ourselves alone, partner with the subscript vendor, partner with the
+[971.5-976.5] equipment vendors, so that makes sure that we can really drive those year and performance.
+[976.5-982.4] And then the other part also very become the bottleneck is packaging, the advanced packaging.
+[982.4-985.8] And so we all know about cold water by TSMC.
+[985.8-991.9] Now we have a really good one called EMIPT, that is a really next generation.
+[991.9-996.7] I have to make sure that you become able to do in the production yield that need the customer
+[996.7-998.1] requirement.
+[998.1-1001.8] And now see more starting to run out of steam like you described.
+[1001.8-1006.8] So right now I also look at some new materials, so become going back to the material size or
+[1006.8-1008.5] the chemical table.
+[1008.5-1014.9] So goddamn nitrile, silicon carbide and Indian phosphide, so I invest in all three.
+[1014.9-1018.9] And then looking at some of this new material, how can we really drive that?
+[1018.9-1022.9] And then in terms of packaging, I started to invest into glass.
+[1022.9-1026.0] Glass is a very good heat insulator.
+[1026.0-1031.9] So I even invest a venture cycle, 3DGS, then I realized that until we have like 1000
+[1031.9-1034.2] patterns on the module.
+[1034.2-1038.7] So how the, you know, subscript when the module put it together, and then we just announced
+[1038.7-1044.8] a big program with Indian government to manufacturing in India, plus in US and New Mexico.
+[1044.9-1047.9] So I think this advanced packaging, very important.
+[1047.9-1051.5] I also started to look at artificial diamond.
+[1051.5-1054.7] And that's another very good and insulator.
+[1054.7-1058.3] So I also invest into diamond foundry.
+[1058.3-1060.6] And there's something is a next generation to look at.
+[1060.6-1068.7] So new material, new subscript material and new design methodology to drive that.
+[1068.7-1073.0] So one thing good about being an engineer, you're always hitting the wall.
+[1073.0-1077.6] Then you find a way to either jump over the wall or you work around the wall
+[1077.6-1080.5] and then to get to the better result.
+[1080.5-1086.6] And that's what I have been long time as an investor and a building semiconductor
+[1086.6-1090.5] from the EDA to design to manufacturing.
+[1090.5-1092.7] It's kind of nice to have that experience.
+[1092.7-1096.5] Now I can help by a way to make a small contribution to the industry.
+[1096.5-1097.5] Yeah, and I'm very excited.
+[1097.5-1099.9] And one of the reasons I'm asking about it as well is to your point,
+[1099.9-1102.5] there's always some things that you can man around, but there are also physical limits
+[1102.5-1107.4] where once you hit seven angstroms or whatever the limitation is, you start to run into
+[1107.4-1108.4] it.
+[1108.4-1110.6] You need to find new materials or find other workarounds.
+[1110.6-1113.9] And then the interesting question is, and we've been talking about this for a long time.
+[1113.9-1117.5] I remember 20 years ago, people were talking about how we'd eventually hit a point where
+[1117.5-1119.5] we ran out of space on this.
+[1119.5-1123.2] Is do you run into some sort of asymptote that actually normalizes performance across
+[1123.2-1124.2] different foundries?
+[1124.2-1125.2] We're not.
+[1125.2-1126.2] Yeah, good question.
+[1126.2-1132.6] Some of the most law is not double, you know, and then the power and the cost.
+[1132.6-1139.0] And then you can double the performance, but you cannot double down on the cost and
+[1139.0-1140.2] the area.
+[1140.2-1145.3] So those are the things you have to give away, unless you find some new way of material,
+[1145.3-1147.3] a new way of design.
+[1147.3-1152.1] And then become material science, starting to hire more people in the material science.
+[1152.1-1154.8] So that is kind of innovation in our area.
+[1154.8-1156.2] How can we do that?
+[1156.2-1162.5] And I still remember 18 years ago, and I'm still investing in semiconductor.
+[1162.5-1166.8] And actually, most of the VC firms, some of them are very nice tier one venture firm
+[1166.8-1168.3] and a good friend of mine.
+[1168.3-1173.2] And initially, the panels meeting, the whole panels in the room, then after I'm talking
+[1173.2-1177.8] about semiconductor, half make excuse to run out the room.
+[1177.8-1184.0] Then eventually the other half, they said, available, do you have any software service?
+[1184.0-1188.4] So then I even left with only two, but that actually listened to me.
+[1188.4-1191.0] So it's kind of the history of change.
+[1191.0-1197.4] And now semiconductor, if you look at it, Jensen is a 5.3 trillion market income company.
+[1197.4-1202.6] And then block home and TSMC is two trillion market care company.
+[1202.6-1209.2] And Lisa, so my good friend at AMD is almost 800 billion and I'm close to 600 billion.
+[1209.2-1212.8] So in some way, it's kind of semiconductor become hot again.
+[1212.8-1217.7] And it become essential, because 15 years, eight, 20 years ago, when I invest in semiconductor
+[1217.7-1224.5] and no VC want to join me, except me in some of the big corporation, like Samsung, and
+[1224.5-1228.0] software and others, and investing with me.
+[1228.0-1233.2] And now I starting to see a lot of VC like to come investing in semi, so I'm very happy.
+[1233.2-1239.1] Given the enormous interest in investing in this area that used to be considered too hard,
+[1239.1-1240.1] right?
+[1240.1-1241.1] Yes.
+[1241.1-1244.6] I mean, you've been a venture investor with Walden for a very long time, as well as an
+[1244.6-1246.6] operator.
+[1246.6-1251.5] You know, the general fears, I'm just going to list a bunch of them.
+[1251.5-1256.4] The general fears have been, it's very capital intensive, and you should tell me what I'm
+[1256.4-1257.4] missing.
+[1257.4-1261.5] It's very unpredictable in terms of, you know, shipping a design that works missing
+[1261.5-1267.3] tape out and you need to understand the workload very well.
+[1267.3-1270.8] I think there's a, there's another, which is just like, it's, it's very high risk for
+[1270.8-1272.9] the customer to switch, right?
+[1272.9-1276.4] I think, you know, we've been involved in companies together where, you know, there's
+[1276.4-1282.3] a design win, and then there's still the question of like scaling order volume.
+[1282.3-1286.8] And then there's a cyclicality, right, of, you know, you, you build hard manufacturing
+[1286.8-1293.2] capacity and demand may, may change or not in any, any given year.
+[1293.2-1300.0] What is your view on how a bunch of, you know, what makes it hard as an industry?
+[1300.0-1304.3] And then the, the secular demand growth from a bunch of different areas, right?
+[1304.3-1310.0] So you have the recognition of how important the more diverse supply chain is.
+[1310.0-1313.3] And then you have this like explosive demand growth on the AI side.
+[1313.3-1317.2] How do you, you're still an investor, and then you're making the biggest bet ever like
+[1317.2-1322.2] go BCO, how do you like think about these different risks and advise others about where
+[1322.2-1323.8] to invest in this supply chain?
+[1323.8-1327.6] I realize that's a very large question, but just given your, your history with it, I,
+[1327.6-1331.7] I think there's a, there's a lot of like yellow action of like, there's a memory shortage
+[1331.7-1338.2] by memory stocks, as well as, you know, just an unwillingness to take on things that have
+[1338.2-1340.7] a 10-year timeline, like material science.
+[1340.7-1341.7] Good.
+[1341.7-1346.8] You have quite a broad range of questions, let me try to understand, explain that.
+[1346.8-1352.2] So first of all, I think, you know, venture capital startup is in my blood.
+[1352.2-1354.2] And I really enjoy it.
+[1354.2-1358.3] And so I think this is not tied to brag about it.
+[1358.3-1360.4] And so there's some good exit.
+[1360.4-1367.1] You know, I still have 159 IPO, 126, you know, M&A.
+[1367.1-1368.6] And that's includes semiconductor.
+[1368.6-1370.5] Just bring down to semiconductor.
+[1370.5-1375.9] I invest over the years, 238% is in US.
+[1375.9-1379.6] So what I usually look at, just to be clear, that's incredible.
+[1379.6-1380.6] Right.
+[1380.6-1381.6] Thank you.
+[1381.6-1382.9] Enjoy building it.
+[1382.9-1385.6] And but more important, I will look at this.
+[1385.6-1389.8] First of all, on the investment side, I always look at where is the bottleneck.
+[1389.8-1390.8] What are you trying to solve?
+[1390.8-1397.0] And for example, I invest in a company called Credo, semiconductor, Australia, LA.
+[1397.0-1399.6] Is this interconnect become the bottleneck?
+[1399.6-1405.5] So I decided to back and also back, uh, the last year, AI, you know, optical side.
+[1405.5-1409.4] And then because speed become more important in the interconnect in the cluster.
+[1409.4-1414.4] So I think optical become very important, look at Jensen, invest in almost every company
+[1414.4-1416.3] is photonic related.
+[1416.3-1421.0] And then the other part I'm looking at is, you know, okay, what are the solution that
+[1421.0-1427.8] need, like for example, we talk about design and then the complexity and also the cost.
+[1427.8-1434.3] Can you find some using AI machine learning to drive better design and better solution?
+[1434.3-1439.3] So a couple of new startups actually go into the EDA related area to drive performance
+[1439.3-1440.3] improvement.
+[1440.3-1443.3] I think it's a go mind to do that.
+[1443.3-1448.1] And then the other part, you look at the new material, and we talk about, you know, this,
+[1448.1-1451.1] you know, Indian fast fire, that's why I invest in in fire.
+[1451.1-1452.6] And then Marvel bought it.
+[1452.6-1458.1] And then then you invest into some of the new material that gallium nitrite and silicon
+[1458.1-1459.2] carbide.
+[1459.2-1463.1] And then some of the company is starting to be in a choir, improve one of them, you know,
+[1463.1-1467.3] doing power management and EDA is a sport called M power.
+[1467.3-1472.2] And so again, this IBR, that's a very, very good area in power management become bottleneck
+[1472.2-1476.4] now in terms of converting from 40 vote down to one vote.
+[1476.4-1479.8] And then those in terms of that conversion, you lost a lot of power.
+[1479.8-1482.0] And how you do try the power improvement.
+[1482.0-1485.8] So I think power, thermal, those become the bottleneck.
+[1485.8-1491.5] So I think I always look at from what is the problem you try to solve is a real is customer
+[1491.5-1492.8] crying for it.
+[1492.8-1494.6] And then I started to invest.
+[1494.6-1499.2] The next thing is look at is very important from day one, you'd have to target the first
+[1499.2-1500.2] customer.
+[1500.2-1503.1] And usually I like the customer is hyper scale.
+[1503.1-1508.3] They have the scale if they like what you have, they're willing to pay millions of dollars
+[1508.3-1510.0] next few years.
+[1510.0-1516.3] And even giving some water is worth it because you have a big one customer, you can scale.
+[1516.3-1518.4] So I always look at some of the formula.
+[1518.4-1519.8] How do you do that?
+[1519.8-1524.8] And I hope you get the talent and then you know, sometimes it's very important to find
+[1524.8-1525.8] the talent.
+[1525.8-1531.3] That's why I'm really interested in U.S. and then Silicon Valley and then some Austin.
+[1531.3-1534.3] And then the other part is Israel, a lot of talents.
+[1534.3-1538.7] So I back quite a few, quite a significant amount my investment in Israel.
+[1538.7-1543.6] And then because they have very disruptive, innovative entrepreneur, they work really
+[1543.6-1544.6] hard.
+[1544.6-1549.8] Even in this wartime, they still have conference call and suddenly say, okay, there's
+[1549.8-1550.8] a warning.
+[1550.8-1556.5] I had to go to underground and then the inner name may not be good, maybe we just use voice.
+[1556.5-1561.1] In some ways kind of fun, they kind of resilient entrepreneurship, I'd really enjoy.
+[1561.1-1565.8] So I think all in all, I thought that there's a lot of opportunity and experience in the AI.
+[1565.8-1570.0] And right now beside the agenteic AI, now you're looking at physical AI, it's next
+[1570.0-1571.8] a mixed big frontier.
+[1571.8-1574.2] And then you have to really look at a full stack.
+[1574.2-1579.0] That's why I'm still involved with a lot of this frontier model that we very familiar
+[1579.0-1585.1] and some of the investment I back because I really like open source frontier technology
+[1585.1-1586.5] for physical AI.
+[1586.5-1588.0] I think that's a goal, mate.
+[1588.0-1597.3] You mentioned the opportunity to make certain parts of the design and test of chips faster,
+[1597.3-1599.8] cheaper, more creative with AI.
+[1599.8-1603.0] Given your cadence experience, what do you think is most fertile?
+[1603.0-1605.0] Is there anything you think is already working?
+[1605.0-1610.7] Yeah, I think you know, for almost 15 years with cadence, and I'm so happy, one of my
+[1610.7-1614.9] highlight is able to find my successor on the road.
+[1614.9-1619.1] And I train him and he becomes super great CEO.
+[1619.1-1625.3] And then he really embracing the AI, driving the agenteic AI to drive more efficient.
+[1625.3-1629.6] But it's a good part, I think, synopsis, Sashin also tried to do that.
+[1629.6-1634.7] And they have an investment from Nvidia to billion, I think helping him to do a lot.
+[1634.8-1639.3] And he acquire answers to move into the whole system design.
+[1639.3-1642.3] So I think all in all, they all do the best thing they can.
+[1642.3-1647.3] But also some opportunity for startup to do some of the more disruptive.
+[1647.3-1651.8] And then eventually they can I go public or being acquired by both of them or Siemens to
+[1651.8-1652.8] acquire them.
+[1652.8-1658.4] So I think there's opportunity for all, depending on what the entrepreneur vision.
+[1658.4-1664.1] And then as long as I always have philosophy, event partner want to sell the company.
+[1664.1-1668.1] And this quicker way for exit, you don't have a lock up, you don't have to worry about
+[1668.1-1669.9] quarter to quarter earning.
+[1669.9-1674.3] And then some entrepreneur, they from day one, they want to go IPO, you know, for being
+[1674.3-1677.9] a VC, I think three of you, we three of us, we all VC.
+[1677.9-1682.1] We support the entrepreneur, their dream, and then help them to fulfill that dream.
+[1682.1-1683.1] Yeah.
+[1683.1-1686.9] If you look at the different areas that you mentioned in terms of future, either product
+[1686.9-1691.5] development or impact of AI on the semiconductor industry, there's companies like Periodic
+[1691.5-1698.0] doing materials, there's two point folks working on the EDA side and design and other aspects
+[1698.0-1700.4] and sort of throughout the chain as manufacturing.
+[1700.4-1705.9] Do you think that either Intel or future semiconductor company 10 years from now looks radically
+[1705.9-1708.6] different from today, given AI, and if so, how?
+[1708.6-1709.6] Yeah, I think so.
+[1709.6-1715.6] I think, first of all, back to Sarah, your question about capital intensive and a little
+[1715.6-1718.1] bit unpredictable and cyclical.
+[1718.1-1722.6] So you have to kind of put that into factor into your decision making investment.
+[1722.6-1726.6] You know, I usually like to go in very early, put a team together, it's kind of fun to
+[1726.6-1727.6] do that.
+[1727.6-1729.4] I think you also do that.
+[1729.4-1734.8] And then secondly, you try to find the right investor that can co partner with you is not
+[1734.8-1740.0] just the forever the brain and firm, I usually go for the individual.
+[1740.0-1745.2] And then for the individual that really knowledgeable in this space, you can, the most important
+[1745.2-1749.2] to find a partner to difficult time and good time.
+[1749.2-1753.6] A lot of the time people are very enjoyable working with you is a good time where the company
+[1753.6-1755.2] don't trouble, they just walk away.
+[1755.2-1759.6] I like to have a partner that really worked through a lot of successful company.
+[1759.6-1763.8] They have multiple time, almost bankrupt that eventually take off.
+[1763.8-1767.9] So I think it's quite important to find a partner willing to do that.
+[1767.9-1772.1] And then the other part is looking at the further the strategic investor that can help you
+[1772.1-1778.5] either in manufacturing or memory connectivity or various way to add value to the company and
+[1778.5-1783.6] also have a couple of friends there in the growth stage and also in the hedge fund.
+[1783.6-1786.4] And I really enjoy them because they have a different perspective.
+[1786.4-1788.5] They know about the public market.
+[1788.5-1792.2] You can guide the company entrepreneur where not to go.
+[1792.2-1794.3] And so those can be very helpful.
+[1794.3-1797.6] So I think all you know, I think it's just fun to do that.
+[1797.6-1802.8] And then just realize, is the engineering for startup is like problem solving.
+[1802.8-1806.8] Each step of the way you have to find people to help you to solve the problem.
+[1806.8-1810.8] And then if you trigger that, then great next frontier to work on.
+[1810.8-1817.0] And if any speaking, I look back, nine of the 10 company I invest, half way they change
+[1817.0-1819.9] their business plan because market have changed.
+[1819.9-1826.2] So I like to have entrepreneur as a team, not just one person, secondly open my willing
+[1826.2-1829.6] to listen and listen, you know, getting coaching from us.
+[1829.6-1832.8] And then eventually they formulate their own plan.
+[1832.8-1834.5] It's not just to what I want.
+[1834.5-1839.3] It's more, they figure out the best thing is you get them enough feedback.
+[1839.3-1844.2] They draw their own conclusion that you exactly what you like and all different
+[1844.2-1846.5] that you can embrace is the right decision.
+[1846.5-1848.5] That's kind of fun of doing startup.
+[1848.5-1850.0] They can much faster.
+[1850.0-1854.0] So back your question, if you look at it 10 years from now,
+[1854.0-1856.0] what will be the winning company?
+[1856.0-1858.0] This is just my personal view.
+[1858.0-1866.0] The one that articulate and laser focus on one niche area and also find the right partner
+[1866.0-1868.9] and also able to scale the company.
+[1868.9-1872.6] And so in some way, I'm back to my point about full stack.
+[1872.6-1876.1] So in the way, you need to have a full stack solution.
+[1876.1-1878.9] And so it can be a big company.
+[1879.0-1885.4] They transform themselves to be looking at big platform like Jensen, I admire him.
+[1885.4-1887.2] You know, he focused on Kudar.
+[1887.2-1888.7] He focused on his liberal.
+[1888.7-1891.7] I want to be a platform company and he did it.
+[1891.7-1897.6] And so in some way you can do that or startup company like Entropy Open AI,
+[1897.6-1901.9] they find a way to do it in a more elegant way, they change the game.
+[1901.9-1905.2] And then they start up move fast, you know, speed of light.
+[1905.2-1907.4] You can really become a dominant player.
+[1907.4-1914.4] And hopefully Intel can play the role because we have the XPU and we have the advanced packaging
+[1914.4-1915.9] and we have foundry.
+[1915.9-1921.8] If you put that all together, can build some of the purpose, build silicon for different workload?
+[1921.8-1923.1] I think this way I'm going.
+[1923.1-1924.1] Yeah, that makes a lot of sense.
+[1924.1-1927.7] And I guess part of the question I was wondering is where you're going and the other part is,
+[1927.7-1930.1] does it fundamentally change how you work?
+[1930.1-1932.7] Because when I look in the software world, I think there's a very big chef
+[1932.7-1936.6] happening right now in terms of who you hire, in terms of who you think you want on board,
+[1936.6-1938.4] in terms of people managing multiple agents.
+[1939.0-1944.2] And so, you know, many people now that I know are hiring people more in their 30s, 40s, 50s
+[1944.2-1948.1] because they're used to managing teams, and they think that transfers directly over to managing agents
+[1948.1-1951.3] in terms of understanding the complexity of what to set up and the QA and everything else.
+[1951.9-1956.3] And I wonder in the context of the physical world or in the context of a fab,
+[1956.9-1962.7] how you think about shifts in terms of either a team structure or capabilities or how AI layers on.
+[1962.7-1967.3] And so, I just wasn't sure if there's, if it's a natural slow evolution,
+[1967.3-1970.2] or if there's areas where there's a radical shift where it's like out for materials,
+[1970.2-1973.9] now we should just use these three A models plus some chemistry or whatever it is.
+[1973.9-1977.3] So that's why it's a little bit curious about how you think about the future world there.
+[1977.3-1982.7] Good question. I think in order, as I back to that crawl walk and run,
+[1982.7-1988.2] so I think crawl, you basically try to, I recruit some of the best talent in the semiconductor industry.
+[1989.0-1994.3] And then now I'm starting to look at what are the software talent I need to bring on board
+[1994.3-2000.7] in order to build a full stack. And now I'm starting to look at my every age of my team
+[2000.7-2007.1] in the 40, late 40, 50, I need to bring in some new talent. And then so they're understanding the
+[2007.1-2013.5] workload, understanding the frontier model, open source. That is important. So if I know that my
+[2013.5-2018.4] son becomes my teacher now. So every time he invites me to go this house, we're playing to
+[2018.4-2024.1] grandkids. I started to tap on him on all the AI machine learning is more plucking than me.
+[2024.1-2030.6] So I learned a lot and then try to understand investing and then bring some of the talent to come in.
+[2030.6-2036.7] So we are changing Intel. You should be a very old legacy spreadsheet company. Now I'm
+[2037.3-2045.4] transforming it to become AI enable using some of our design and also across all the
+[2045.4-2052.7] engine, all the organization embracing AI. And then so they become less, less depend on the
+[2052.7-2060.0] spreadsheet and label to do that. And you're going to combine the two talent plus the best AI tool
+[2060.0-2066.5] that I can use, not only for my organization, not only for myself. And then now I starting to look
+[2066.7-2072.9] not just marketing and now the design and then to embrace it. I think a lot of investors,
+[2074.0-2078.9] you know, at least for me the last few years since I started to firm, it's been very educational
+[2078.9-2084.4] thinking about the different capital sources for more capital intensive companies. I did a lot of
+[2084.4-2090.8] software before. And so you need to have smart friends with a very different stance in balance
+[2090.9-2095.9] sheet was less if you're like, ah, I need $150 million before this thing gets to, you know,
+[2095.9-2102.2] some critical mass. And so you've lived that for a very long time and then you have the unique
+[2102.2-2109.6] experience of working with the government as a large stakeholder. How do you think this sort of
+[2109.6-2116.6] industrial policy, it's led to huge successes like TSMC, right? Most important companies in the world.
+[2117.4-2122.7] It's also been a bit frowned upon in American business culture for a long time. Like how do you
+[2122.7-2128.4] think that should change now or where is it relevant? Good question. So I think, you know, clearly,
+[2129.3-2136.6] you know, for capital intensive business and infrastructure play, you need to access to the capital.
+[2137.3-2142.9] And in some way, I think for our early day venture capital investment, you know, now starting
+[2142.9-2148.7] become very capital intensive. Yes. And some of the venture firm willing to put one billion into
+[2148.7-2154.4] some company is very unheard of in the VC business. Now it's happening. Yeah. And so in some way,
+[2154.4-2160.6] you just have to be, you know, I like this kind of bell curve. Either you're going very early and
+[2160.6-2166.2] because it's nothing to do the series is over one billion valuations. And so you have to go in
+[2166.2-2173.5] pre-money, proceed to go into that kind of a 2030 billion valuation. It's very rare right now.
+[2173.5-2179.4] So you just have to do that and pick the right one. And then the other part is able to find capital
+[2179.4-2185.0] to scale. And that's why some of this mutual fund, they also like to move into the pre-market
+[2185.7-2191.5] early states to join me to investing. I delight them because they are very less sensitive
+[2191.6-2197.3] whether they had to own 20% of the company. There's not too many 20% to give. So you have to find the
+[2197.3-2203.8] right investor to come in. And then in terms of the capital intensive like AI in a factory and
+[2203.8-2210.7] also the foundry. And then you really need to tap either government funding or some solvent fund
+[2210.7-2216.4] and also some very big capital, you know, there's some big fund they're doing that. And they're really
+[2217.0-2222.2] the fund they've organized is basically support the infrastructure. And we like to tap into some of
+[2222.2-2226.9] them and then to make sure that they can scale our operation. So I think in overall
+[2227.7-2232.9] government, solvent fund, I've become very important. And also as a public company,
+[2232.9-2239.8] I also purposely want to focus on some of the investor. There are more long-term growth oriented
+[2239.8-2244.6] and so that they can help me to grow the business. And then rather than short-term
+[2244.6-2249.3] asking capital location, you know, whether you're going to buy back your shares,
+[2249.3-2253.7] those are good questions. But meanwhile, I also had to build a business there. And so I think it's
+[2253.7-2258.3] kind of that balance is important. Do you think there is something that investors
+[2258.3-2263.9] like most misunderstand about intel at this moment? Quite a few things. First of all, I think,
+[2265.3-2272.1] you know, as a back to this crawl run and walk last four months I crawl. And then but people
+[2272.1-2278.2] starting to recognize that potential of it. And so the other part is very important. We need to
+[2278.2-2284.3] really get the best product out either PC client. We still have a back market share. But we really need
+[2284.3-2290.7] to really build more perform better performance. So that's why I'm quietly building up the CPU
+[2290.7-2298.0] architect, GPU architect and software architect so that we can leapfrog just like I look at Intel
+[2298.1-2303.9] want to be a multiple of startup culture so that we move fast and we can leapfrog using better
+[2303.9-2310.0] technology. And then the other part is beside the product, there are some new energy coming in
+[2310.0-2316.9] like an agentic AI, the physical AI. There's a lot of areas that we can invest, market is huge.
+[2316.9-2322.9] That's on the product side. And the found inside were very distant from TSMC and then in
+[2322.9-2328.5] term of their performance. So that's we have to be humble looking at building the building block
+[2328.5-2335.6] that I mentioned earlier, the IP, the year, the defect density and the cycle time to make it more
+[2335.6-2341.5] efficient and more reliable. It's a trust business people want to trust you before they give you the
+[2341.5-2348.7] wafer to count on you. So those are the thing will take longer time. But I think by 2030,
+[2348.7-2356.5] 2032, 3132, I think I was starting to surface up. People may not understand how big potential
+[2356.5-2362.2] I can be in the more product, you know, the PC client, that's our bread and butter and we move
+[2362.2-2369.5] up to the edge and move into the physical AI and agentic AI. And because not right now in the
+[2369.5-2376.8] past, you basically provide the server, provide the PC for human. Now it's starting to have another
+[2376.8-2384.2] different dimension is millions of agents. They need to execute the compute, they access into the
+[2384.2-2389.1] the software stack. So I think that part, I think we have a chance to really play. The game is not
+[2389.1-2395.4] over yet. We can play on the inject the AI and also the physical AI. So that's kind of where I'm
+[2395.4-2401.6] going. And the AI is just a beginning, you know, you have the training that Jensen owned and the
+[2401.6-2407.8] edge and also, you know, in terms of agentic AI with agents and also physical AI, I think is the
+[2407.8-2412.4] jumbo. Everybody have a chance. So I think that's part that I want to go for it. And so I think
+[2412.4-2418.8] hopefully the investor will know, even though in 14 months, you know, we make six times return
+[2418.8-2423.7] to the shareholder, they just are beginning. We still have a lot of room to go. There's venture
+[2423.7-2429.3] returns from here. Yeah. So you know, I always look for 10x. You know, being a venture at heart,
+[2429.3-2436.6] you want to look for 10x. And now at cadence, when I step down as a CEO, I think we make about close
+[2436.6-2445.6] to 76 times, you know, starting from interim CEO $2.42. And then when I retire as security chairman
+[2445.6-2452.2] about 85 time return to the shareholder. So it's hard to do that in tail because the base is bigger.
+[2452.2-2458.0] So I kind of say, okay, let's do it at 10x. You know, and then, and five years, 10 years, you
+[2458.0-2463.8] can do 10x. I think it's a good return of being a venture capital at heart. That's kind of my go.
+[2464.5-2469.9] So there's a God speed on this very, very large mission from this, from this huge base already.
+[2470.6-2475.6] There's an embedded belief in what you described about where the workload is, right, where
+[2475.6-2481.3] I think some would say like, we're just going to build bigger and bigger data centers. And
+[2481.3-2488.2] a gigawatt is the beginning then. But the centralization and the efficiency from running,
+[2488.2-2494.8] even the inference compute in a centralized way is the dominant way versus thinking about the edge,
+[2494.8-2500.6] thinking about the client. Do you think that there's like an equilibrium state that you believe
+[2500.6-2506.3] in of where the compute is, or is it just we will find out from the workload? How do you think about that?
+[2506.4-2511.5] Yeah, I think that's a very good question. You know, right now, there's a massive buildup
+[2512.1-2517.8] in terms of the AI. You know, I think it's the right thing to do. I don't see there's anything to
+[2517.8-2523.1] slow it down because the workload is increasing a lot. And then I think the question mark is,
+[2523.1-2527.5] how can we supply a constraint? Well, supply constraint. Yeah. So I think anything slow down is
+[2527.5-2533.8] the supply constraint. But I think the other part is, I always look at all this infrastructure
+[2533.8-2539.5] buildup. At the end, you have to look at what is the solution, what is the application you want to
+[2539.5-2546.1] drive? And I'm more focused on application. So if you can identify the application that is humongous,
+[2546.1-2552.3] or add up a few applications to become meaningful and you focus on that, it's not everybody built
+[2552.3-2557.9] going to be winning. And so some going to be winning big time and some going to lose over time
+[2558.0-2563.7] or some go sideways. So you know, just like internet, you can see some of them turn out to be very
+[2563.7-2569.0] big like Amazon, like Netflix. And then some of them is kind of go sideways and disappear
+[2569.0-2574.5] or being acquired. And so I think to me, it's the same approach. Then they really focus on what
+[2574.5-2580.2] application they try to serve. And that application, how big is that? And whether it's sustainable
+[2580.2-2585.9] or not, or it's very crowded. So if it's too crowded, you know, maybe one or two may survive,
+[2585.9-2591.6] the other may be just consolidate. So I think there's an industry go through that big growth
+[2591.6-2597.8] and then starting to consolidate maybe eventually one or two become the real winner. So I think that's
+[2597.8-2604.1] kind of a, we've watched the movie before. So it's not surprised to me, but focus on application,
+[2604.1-2610.7] like Netflix is application. You know, Amazon is a real application that to me, they're winning.
+[2611.2-2615.7] But you're assuming that some of these applications, they will be better served by client
+[2615.7-2623.3] or edge compute than only by the day. Exactly. Yeah, I mean, I will say as a, I'm an investor in
+[2623.3-2628.2] a number of companies that, you know, they're doing robotics, they're doing defense. And so the
+[2628.2-2634.7] compute on the device is a very important choice in terms of our, and what we assume around it,
+[2634.7-2638.3] like let's say if a robot in the home eventually, like what you assume is in the home and in
+[2638.3-2643.9] connectivity around it determines what you're able to do. And I think that that's been kind of,
+[2643.9-2649.2] it was kind of forgotten for a little bit in the, in the sassar. Yes, yes. So I think I have more,
+[2649.2-2655.4] my investment thesis is find a problem that is really need to solve. And secondly,
+[2655.4-2660.6] who will be the player that you can partner with. And then thirdly, look at the application.
+[2660.6-2666.8] How big is the application? Is that sustainable? And if it's really big, you believe in it double
+[2666.8-2672.3] tripada. But you're including betting on applications that have not yet been broadly deployed.
+[2673.3-2676.4] It's amazing. Well, thank you so much for joining us today. It was a pleasure.
+[2676.4-2678.5] Thank you so much. Thanks, Lipton. You're good.

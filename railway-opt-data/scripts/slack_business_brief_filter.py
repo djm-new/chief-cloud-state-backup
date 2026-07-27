@@ -69,16 +69,19 @@ ITEM_RE = re.compile(r"^(?P<num>\d+)\. \[(?P<time>[^\]]+)\] #(?P<channel>[^\s(]+
 SCORE_RE = re.compile(r"^\s*Score:\s*(?P<score>-?\d+)")
 TEXT_RE = re.compile(r"^\s*Text:\s*(?P<text>.*)$")
 SOURCE_RE = re.compile(r"^\s*Source:\s*(?P<src>.*)$")
+_INVISIBLE_RE = re.compile(r'[\u200b\u200c\u200d\u2060\ufeff]')
 
 LEASING_CHANNELS = re.compile(r'(leasing|renewals|brickell|mia-west|mia-east|waves-leasing|fx-leasing)', re.I)
 
 
 def truncate(s: str, n: int = MAX_TEXT_LEN) -> str:
-    s = re.sub(r'\s+', ' ', s or '').strip()
+    s = _INVISIBLE_RE.sub('', s or '')
+    s = re.sub(r'\s+', ' ', s).strip()
     return s if len(s) <= n else s[: n - 1].rstrip() + '…'
 
 
 def parse(md: str):
+    md = _INVISIBLE_RE.sub('', md or '')
     header, items, cur, in_items = [], [], None, False
     for line in md.splitlines():
         m = ITEM_RE.match(line)
@@ -128,6 +131,7 @@ def classify(item: dict) -> tuple[int, str, list[str]]:
 
     is_dm = 'group dm' in markers or 'direct dm' in markers or re.match(r'^(mpdm-|d[A-Z0-9])', channel, re.I)
     is_mention = 'mentions dj' in markers or '<@U05FS0SE77F>' in blob
+    is_active_channel = 'recent dj-active channel' in markers
     entities = [e for e in TOM_ENTITIES if e in blob]
     signals = [s for s in EXEC_SIGNALS if s in blob]
     bot_noise = channel in NOISE_CHANNELS or user in BOT_USERS
@@ -140,6 +144,8 @@ def classify(item: dict) -> tuple[int, str, list[str]]:
         value += 130; reasons.append('direct DJ mention')
     if is_dm:
         value += 95; reasons.append('DM/MPIM')
+    if is_active_channel:
+        value += 75; reasons.append('recent DJ-active channel')
     if entities:
         # Raised entity base from 65 → 90 so single strong entity can surface
         value += 90 + min(35, 8 * len(entities)); reasons.append('ToM entity: ' + ', '.join(entities[:4]))

@@ -1,0 +1,251 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-07-15_2103",
+  "usage": {
+    "prompt_tokens": 4196,
+    "completion_tokens": 888,
+    "total_tokens": 5084
+  },
+  "episodes": [
+    {
+      "id": "04b57b70596467928e00bd3f",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Were we too nice to the Steam Machine?",
+      "link": "",
+      "published": "2026-07-15T19:09:00+00:00",
+      "summary": "Valve's Steam Machine might be exactly the living room console you've been waiting for. Or it might be too expensive, totally pointless, a waste of everyone's money and shelf space. The Verge's Sean Hollister joins the show to talk through all the feedback we've been getting about our coverage and our review. Is Valve's history a pro or a con? Is the price reasonable or ridiculous? Who is this device actually for? We have much to discuss. Further reading: Google and Epic give up fighting — third-party Android app stores are coming next week OpenAI may announce a ChatGPT smart speaker this year Another turn in the Apple v. OpenAI dispute ⁠The Steam Machine is the most ambitious game console I’ve ever played⁠⁠ ⁠⁠The Steam Machine fits my TV, my desk, and my life⁠⁠ ⁠⁠Valve will finally let you build your own Steam Machine with SteamOS for desktop⁠⁠ ⁠⁠How much would the Steam Machine cost to build?⁠ Subscribe to The Verge for unlimited access to theverge.com, subscriber-exclusive newsletters, and our ad-free podcast feed. We love hearing from you! Email your questions and thoughts to vergecast@theverge.com or call us at 866-VERGE11. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "1604",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "04b57b70596467928e00bd3f",
+        "score": 40,
+        "tier": "scan",
+        "reason": "Gaming hardware discussion; niche audience, limited relevance to AI or capital allocation.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "5e11684d660c8a18f21e1107",
+      "show_name": "Eye on AI",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "6 in 10 Enterprises Can't Find the Root Cause When Their AI Workloads Fail | Paul Appleby, Virtana",
+      "link": "https://aneyeonai.libsyn.com/6-in-10-enterprises-cant-find-the-root-cause-when-their-ai-workloads-fail-paul-appleby-virtana",
+      "published": "2026-07-15T17:31:00+00:00",
+      "summary": "Companies are spending billions building AI factories, but most of them can't tell you why their AI workloads are failing, whether their GPUs are actually being used, or what their infrastructure is going to cost them when agents start running at scale. Paul Appleby, CEO of Virtana, joins Craig Smith to discuss the findings of their AI Factory Reality Check study, a research report that reveals a striking and underappreciated gap between the pace of AI infrastructure investment and the governance needed to run it safely and efficiently. Six in ten enterprises, the study found, cannot automatically identify root cause when an AI workload fails, a problem that compounds fast once you're running critical services on AI infrastructure at scale. The conversation covers the mechanics of Virtana's observability platform, capturing 20,000 metrics per second across the entire AI stack, correlating them in real time, and increasingly using agentic capabilities to remediate failures automatically, but its most important insights are structural. Appleby makes a sharp observation that cuts through a lot of AI optimism: token costs are falling, but token consumption is exploding, meaning the total cost of running agentic AI systems is still going up even as the per-unit price drops. He also tracks a cultural shift inside enterprises - IT resilience reporting that used to happen annually now happens weekly - as evidence that technology risk has become a board-level conversation in a way it simply wasn't before. The result is a conversation that's less about the promise of AI and more about what it actually takes to make it work at production scale. Subscribe to Eye on A.I. for weekly conversations with the people building and deploying the future of AI.",
+      "duration": "44:32",
+      "old_score": 46,
+      "old_label": "skip",
+      "qwen": {
+        "id": "5e11684d660c8a18f21e1107",
+        "score": 85,
+        "tier": "digest",
+        "reason": "Critical insight into AI infrastructure failures and observability challenges enterprises face.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "81526986081d413dde0f7e26",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: July 15th, 2026",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-july-15th-2026",
+      "published": "2026-07-15T16:15:27+00:00",
+      "summary": "Featuring: Steve Chiavarone, Deputy Chief Investment Officer: Equities at Federated Hermes Dermot McDonogh, BNY CFO Former US Commerce Secretary Gina Raimondo See omnystudio.com/listener for privacy information.",
+      "duration": "1389",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "81526986081d413dde0f7e26",
+        "score": 50,
+        "tier": "scan",
+        "reason": "General market and economic commentary; lacks specific actionable insights.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "54a673b9337aeaf2c20c0ca8",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "June PPI and the US Eco Outlook",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/june-ppi-and-the-us-eco-outlook",
+      "published": "2026-07-15T14:44:49+00:00",
+      "summary": "The latest in finance, economics and investment. Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF . Bloomberg Surveillance hosted by Tom Keene & Paul SweeneyWednesday, July 15, 2026 Featuring: 1) Steve Chiavarone, Deputy CIO: Equities at Federated Hermes, joins to discuss his Fed call and where the equity market is trending. 2) Ted Mortonson, Managing Director: Technology at Baird, talks about tech debates and daily rotation across the sector. 3) Win Thin, Chief Economist at the Bank of Nassau, brings us into PPI and talks about his economic outlook. 4) Jan Szilagyi, CEO and co-founder at Reflexivity, on the implementation of AI into institutional investing. See omnystudio.com/listener for privacy information.",
+      "duration": "1609",
+      "old_score": 36,
+      "old_label": "skip",
+      "qwen": {
+        "id": "54a673b9337aeaf2c20c0ca8",
+        "score": 60,
+        "tier": "digest",
+        "reason": "Economic data and tech sector insights relevant to market read and investment strategy.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "94c7e83343f580704e0bc06d",
+      "show_name": "Big Technology Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "AI Pioneer Jürgen Schmidhuber: AI Already Feels Pain, Loves, and Is Self-Aware",
+      "link": "",
+      "published": "2026-07-15T13:02:00+00:00",
+      "summary": "Jürgen Schmidhuber is an AI pioneer and professor whom The Guardian has called \"the father of AI.\" Schmidhuber joins Big Technology Podcast to discuss whether current AI techniques can actually reach AGI. Tune in to hear him spar with Greg Brockman's case for scaling GPT models alone, argue that AI has been capable of pain and consciousness since the early 1990s, and predict the collapse of today's trillion-dollar AI spending. We also cover the hardware bottleneck holding back robots, free will in a computable universe, and uploading human minds into machines. Hit play for a wide-ranging conversation with one of the researchers whose ideas built the foundation of modern AI. Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "duration": "3755",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "94c7e83343f580704e0bc06d",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Foundational AI theory and debate on AGI with a pioneer in the field.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "f005f82c641277b99815fa6d",
+      "show_name": "Cerebral Valley Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Alex Karp Says OpenAI and Anthropic Can't Be Trusted | Cerebral Valley Show",
+      "link": "https://podcasters.spotify.com/pod/show/cerebral-valley-show/episodes/Alex-Karp-Says-OpenAI-and-Anthropic-Cant-Be-Trusted--Cerebral-Valley-Show-e3m3jhg",
+      "published": "2026-07-15T13:00:00+00:00",
+      "summary": "Alex Karp went on CNBC and declared war on Anthropic, OpenAI, and anyone who trusts the frontier labs with their data. In this episode, we react to Palantir CEO Alex Karp's wild CNBC appearance, debate whether his core argument actually holds up, and break down the latest model releases including GPT-5.6, Claude Sonnet 5, Grok 4.5, and what the model wars mean for picking a daily driver right now. Cerebral Valley Show is a biweekly AI podcast hosted by journalist Eric Newcomer alongside founders Max Child and James Wilsterman. Each episode breaks down the biggest stories in AI and venture, debates who's winning and losing, and puts bold predictions on the record.",
+      "duration": "00:52:58",
+      "old_score": 71,
+      "old_label": "digest_only",
+      "qwen": {
+        "id": "f005f82c641277b99815fa6d",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Analysis of trust issues with frontier AI labs and implications for enterprise adoption.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "51464c04aecdd5b448bc49d0",
+      "show_name": "Conversations with Tyler",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "Chase Koch on Principles, Music, and Overcoming Entropy",
+      "link": "https://cowenconvos.libsyn.com/chase-koch-on-principles-music-and-overcoming-entropy",
+      "published": "2026-07-15T11:30:00+00:00",
+      "summary": "Chase Koch grew up receiving Sunday philosophy lessons from his father Charles and, by his own account, spent most of them half asleep while his sister supplied the answers. The principles didn't land until he lived them: throwing tennis matches as a bored teenager, getting shipped off to shovel manure at a feed yard twelve hours later, then spending five years battling Brazilian bureaucracy to build a fertilizer terminal that should have taken one. Today he is Executive Vice President of Origination and Partnerships, leader and donor to Stand Together, plays lead guitar in a band named for the law of entropy, and has a new book with his father on principle-driven leadership. Chase and Tyler discuss if any of his father's lessons never stuck, the guilt-trip letter his grandfather wrote three months after Charles was born, why Chase started throwing tennis matches, what Rafa's grit taught him about stoicism, who he admired most from the 1992 Dream Team, whether the Spurs should jettison De'Aaron Fox, the David Gilmour solo that hooked him at eleven, what drew him to jam bands, how he built a boom-box business out of his parents' garage, why his father interviewed Snoop on a Zoom call during Covid, why his band is named for the second law of thermodynamics, what it's like working with MrBeast, how Koch Inc has evolved, what he learned from Marc Andreessen, the philosophy behind hiring the \"farm team,\" why he is teaching himself to code with Claude at his fourteen-year-old's urging, where he's traveling next, and much more. Read a full transcript enhanced with helpful links, or watch the full video on the new dedicated Conversations with Tyler channel. Recorded June 16th, 2026 . Other ways to connect Follow us on X and Instagram Follow Tyler on X Sign up for our newsletter Join our Discord Email us: cowenconvos@mercatus.gmu.edu Learn more about Conversations with Tyler and other Mercatus Center podcasts here . Timestamps: 00:00:00 - Intro 00:00:56 - Familial Influences 00:08:25 - Tennis and Basketball 00:15:00 - The Music Industry 00:28:36 - MrBeast 00:31:24 - The Evolution of Koch Industries 00:35:54 - The Midwest 00:44:37 - AI 00:49:01 - Politics 00:53:35 - Outro",
+      "duration": "54:06",
+      "old_score": 60,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "51464c04aecdd5b448bc49d0",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Leadership principles and personal development insights from a seasoned executive.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "51f72558b8a588e962491c12",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Can Anyone Catch NVIDIA? | The Future of Chips and Infrastructure",
+      "link": "https://a16z.simplecast.com/episodes/can-anyone-catch-nvidia-the-future-of-chips-and-infrastructure-zpJUqKwQ",
+      "published": "2026-07-15T10:00:00+00:00",
+      "summary": "As part of our summer replay series, we're revisiting one of our favorite conversations on the future of AI infrastructure. SemiAnalysis founder Dylan Patel joins Erin Price-Wright, Guido Appenzeller, and Erik Torenberg to examine the rapidly evolving economics of AI hardware, from GPUs and custom silicon to data centers, power, and the global race for compute. The conversation explores NVIDIA's competitive advantages, the rise of custom chips from Google, Amazon, and Meta, the economics of frontier AI models, and the infrastructure constraints shaping the industry's next phase. They also discuss AI startups, export controls, robotics, enterprise software, and why simply copying NVIDIA isn't enough to build a winning AI hardware company. Whether you're building AI products, investing in infrastructure, or trying to understand where the industry is headed, this conversation offers a practical look at the forces shaping the future of compute. Resources: Follow Dylan Patel on X: https://x.com/dylan522p Follow Erin Price-Wright on X: https://x.com/espricewright Follow Guido Appenzeller on X: https://x.com/appenz Learn more about SemiAnalysis: https://semianalysis.com/dylan-patel/ Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "01:05:18",
+      "old_score": 49,
+      "old_label": "skip",
+      "qwen": {
+        "id": "51f72558b8a588e962491c12",
+        "score": 90,
+        "tier": "listen",
+        "reason": "In-depth analysis of NVIDIA's dominance and the future of AI infrastructure and chips.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "16e4b25e1ff0f2bab884a0d3",
+      "show_name": "My First Million",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Howard Marks: how I make money while you worry about a market crash",
+      "link": "",
+      "published": "2026-07-15T09:00:00+00:00",
+      "summary": "Investing Guide: https://clickhubspot.com/epkr Episode 841: Sam Parr ( https://x.com/theSamParr ) and Shaan Puri ( https://x.com/ShaanVP ) talk to legendary investor Howard Marks about AI and making decisions in the face of fear and uncertainty. — Show Notes: (0:00) AI Hurtles Ahead (8:26) second level thinking (10:21) investing through the end of the world (14:47) raising $11B at a time of crisis (17:54) investing with fear (20:22) the key to a successful partnership (25:01) being a good father (27:37) only 1 success: to live your life your way (34:17) Having lunch with Warren Buffett (37:18) What people don't know about Buffett (39:37) cigar butt investing (41:35) recommended reading — Links: • AI Hurtles Ahead - https://www.oaktreecapital.com/insights/memo/ai-hurtles-ahead • A Short History of Financial Euphoria - https://www.amazon.com/History-Financial-Euphoria-Penguin-Business/dp/0140238565 • Fooled by Randomness - https://www.amazon.com/Fooled-Randomness-Hidden-Markets-Incerto/dp/0812975219 — Check Out Sam's Stuff: • Hampton (joinhampton.com): My community for founders. Average member does $25m/year. Many of the guests are members. Get after it...apply: http://joinhampton.com/mfm — Check Out Shaan's Stuff: • Shaan's weekly email - https://www.shaanpuri.com • Visit https://www.somewhere.com/mfm to hire worldwide talent like Shaan and get $500 off for being an MFM listener. Hire developers, assistants, marketing pros, sales teams and more for 80% less than US equivalents. • Mercury - Shaan uses Mercury for banking across all of his companies. you can too: http://mercury.com/ Mercury is a fintech company, not an FDIC-insured bank. Banking services provided by Choice Financial Group, Column, N.A., and Evolve Bank & Trust, Members FDIC • I run all my newsletters on Beehiiv and you should too + we're giving away $10k to our favorite newsletter, check it out: beehiiv.com/mfm-challenge My First Million is a HubSpot Original Podcast // Brought to you by HubSpot Media // Production by Arie Desormeaux // Editing by Ezra Bakker Trupiano /",
+      "duration": "2819",
+      "old_score": 67,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "16e4b25e1ff0f2bab884a0d3",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Investment philosophy and decision-making under uncertainty from a seasoned investor.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "cc14388a6ad62cd5d95b042c",
+      "show_name": "Odd Lots",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "NY Governor Kathy Hochul on Her One Year Data Center Moratorium",
+      "link": "https://omny.fm/shows/odd-lots/ny-governor-kathy-hochul-on-her-one-year-data-center-moratorium",
+      "published": "2026-07-15T08:00:00+00:00",
+      "summary": "On July 14, New York Governor Kathy Hochul announced a one-year moratorium on new large data center projects in the state. It's the nation's first such pause at a time when anti-data center politics is on the rise around the country. But Hochul insists that she's not anti-AI, and that she's an avid user of the technology, as well as a believer that it can be a force for economic growth. On this episode, we talk to Hochul about the logic of the pause, and what she hopes it will achieve. We also discuss energy and housing stress in the state, and what it would take for New York to welcome in driverless cars. Read more: Meta’s Louisiana Data Center to Surpass $250 Billion Price Tag Only Bloomberg - Business News, Stock Markets, Finance, Breaking & World News subscribers can get the Odd Lots newsletter in their inbox each week, plus unlimited access to the site and app. Subscribe at bloomberg.com/subscriptions/oddlots See omnystudio.com/listener for privacy information.",
+      "duration": "2536",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "cc14388a6ad62cd5d95b042c",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Policy implications of data center expansion and AI's environmental impact.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "86d65f6eaba99662b952f018",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Is an MBA Still Worth It? and the Future of Legacy Media",
+      "link": "",
+      "published": "2026-07-15T08:00:00+00:00",
+      "summary": "Scott Galloway breaks down whether an MBA still justifies the debt, why late night TV is collapsing while podcasts arbitrage the same talent for a fraction of the cost, and what he wishes someone had told him about the first years of fatherhood. Want to be featured in a future episode? Send a voice recording to officehours@profgmedia.com, or drop your question in the r/ScottGalloway subreddit. Plus, you can now call or text Scott a question at our new Office Hours hotline: ‪(201) 472-3656‬. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "1351",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "86d65f6eaba99662b952f018",
+        "score": 50,
+        "tier": "scan",
+        "reason": "General commentary on education and media; limited actionable insight.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "42c50ba0b4bf8f9841df6bce",
+      "show_name": "Possible",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "The film director winning awards with AI | Ben Hansford",
+      "link": "",
+      "published": "2026-07-15T07:01:00+00:00",
+      "summary": "Commercial director, AI filmmaker, and USC professor Ben Hansford joins Reid Hoffman and Parth Patil to explain how AI is reshaping Hollywood, film production, VFX, and comics. Ben has been experimenting with generative AI since before DALL-E and Midjourney went mainstream, using the earliest tools to sharpen commercial treatments, win jobs, and teach one of the country's first AI film courses. He traces Hollywood's arc from student protests and industry resistance to a scramble for answers, as shrinking budgets and shifting audiences push creators toward new workflows. He also recounts how a 30-minute AI VFX test reset his sense of what a director can prototype, and why he's building BloqBloq around a stark creative bottleneck: as he puts it, there are more NBA players than professional comic book illustrators. He maps the \"iceberg\" of creation, from databases and security to publishing and iteration, and explains why turning an idea into a finished product takes more than a prompt. For Ben, AI isn't just a tool. It's a crew. For more info on the podcast and transcripts of all the episodes, visit https://www.possible.fm/podcast/",
+      "duration": "2071",
+      "old_score": 43,
+      "old_label": "skip",
+      "qwen": {
+        "id": "42c50ba0b4bf8f9841df6bce",
+        "score": 55,
+        "tier": "scan",
+        "reason": "AI in creative industries; interesting but niche and early-stage use case.",
+        "confidence": "medium"
+      }
+    }
+  ]
+}

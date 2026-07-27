@@ -1,17 +1,19 @@
-Podcast prefs: labels not read aloud; distinct high-quality voices. Daily text + weekly 15–20m two-host audio. Focus top money managers/CEOs/AI leaders/frontier thinkers; skip news/politics/celebrity/VC fluff.
+Podcast prefs: labels not read aloud; distinct natural voices; Piper/Edge too robotic. Daily text + weekly 15–20m two-host audio. Focus top money managers/CEOs/AI leaders/frontier thinkers; skip news/politics/celebrity/VC fluff.
 §
-Env: python3-pip and edge-tts are installed; /root/.local/bin/edge-tts supports selectable neural voices.
+DJ's Google policy: read/search/summarize OK; create/edit/delete Calendar/Docs/Sheets/Drive files when requested; never send Gmail/reply/forward or trigger external notifications. Outbound email/share/invite content is draft-only unless DJ changes policy.
 §
-Health app design prefs: PWA+login, Today dashboard, fast LLM meal logging, custom lifting, 7-day calories/weight/sleep/workouts, Google Sheets backup.
+Chief group topics: General, Archive, Briefings, Alerts, Brain Dump, Coding, and General/ad-hoc; topic overrides persist across /new unless removed.
 §
-Production Hermes uses a persistent /opt/data volume on Railway/Chief; chief-cloud-state-backup is runtime-state backup, and thoughts-repo has its own private remote.
+Use GitHub as source of truth and treat Railway as runtime/deployment only; for repeat app work, check the existing repo/service and rerun the proven pipeline before proposing anything new.
 §
-DJ's Google policy: read/search/summarize OK; create/edit/delete Calendar/Docs/Sheets/Drive files when requested; never send Gmail/reply/forward or trigger external notifications. Outbound email/share/invite content is draft-only unless DJ changes policy. ToM: fix thoughts-system Google Calendar integration later, not now.
+Hermes spend reconciliation uses mixed-provider, per-call attribution. The podcast OpenRouter zero-cost bug in openrouter_spend.py was fixed and backfilled from raw_usage_json.
 §
-Telegram Chief topics: General (1), Archive (3), Briefings (4), Alerts (5), Brain Dump (6), Coding (7), General/ad-hoc (8). Models: default gpt-5.4-mini; topic 7 (Coding) gpt-5.5; topic 8 varies by session request. Fallback OpenRouter DeepSeek V4 Pro → Anthropic. Topic overrides in config.yaml persist across /new — must be manually removed to revert.
+Podcast weekly pipeline has a local STT venv at /opt/data/venvs/podcast-stt with faster-whisper/ctranslate2 installed; /opt/data/scripts/podcast_weekly_audio.py can download/transcribe audio-only finalists and condense transcript chunks before scripting.
 §
-User prefers GitHub as the source of truth for code; Railway is runtime/deployment only, and Railway console containers should not be assumed to contain the editable repository checkout.
+This environment has multiple connected Google Workspace accounts under /opt/data/google-accounts; when looking for docs/Drive items, check all relevant accounts instead of assuming the default token.
 §
-HealthOS Railway deploys require the GitHub repo to be linked in Railway Settings before push-to-deploy works.
+For review/gallery apps, DJ prefers mobile-first grid (3x3/3x4), green check/red X corner actions, center tap enlarge, server-side shared decisions/activity tracking, Google Sheet decision log with date/who, one item per crop, no floor-only, readable upright; verify live output.
 §
-Hermes spend reconciliation must assume mixed-provider sessions and per-call attribution. Current calibration applies only to Anthropic; OpenAI Codex and OpenRouter/Qwen/DeepSeek stay raw per-call estimates unless externally anchored.
+Google Workspace scripts should use /opt/data/google-accounts/.venv/bin/python; the system shell has Python 3.13 and no node/npm.
+§
+User prefers onboarding/role docs to drive actual behavior with specific deliverables and cadence, not just polished wording or generic objectives.

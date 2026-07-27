@@ -1,0 +1,271 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-06-15_2103",
+  "usage": {
+    "prompt_tokens": 4432,
+    "completion_tokens": 1053,
+    "total_tokens": 5485
+  },
+  "episodes": [
+    {
+      "id": "a10327be8cfe3939f34959f6",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "# The **epic** story of Markdown",
+      "link": "",
+      "published": "2026-06-15T18:43:00+00:00",
+      "summary": "Markdown is a system for writing that makes it readable to both humans and computers. It's all about the symbols. You use - to make a list, * for emphasis, ** for even more emphasis. Brackets and parentheses turn into links. Once you know Markdown, you might begin to think in Markdown. Right now it is absolutely everywhere: people are maintaining their Claude.MD files for conversing with AI bots, and writing their notes in Markdown editors like Obsidian. So where did Markdown come from? It came from John Gruber. John joins the show, along with Anil Dash, to tell the story of where Markdown came from and how it took over the world. Further reading: ⁠The Markdown spec⁠ ⁠How Markdown took over the world⁠ ⁠Gruber on Apple Notes Markdown support⁠ ⁠9to5mac: iOS 26 to bring new features for Messages, CarPlay, and more Subscribe to The Verge⁠ for unlimited access to ⁠theverge.com⁠, subscriber-exclusive newsletters and our ⁠ad-free podcast feed⁠. We love hearing from you! Email your questions and thoughts to ⁠vergecast@theverge.com⁠ or call us at 866-VERGE11. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "2092",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "a10327be8cfe3939f34959f6",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Markdown's ubiquity in AI workflows and note-taking tools makes this historical perspective moderately relevant.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "3e2b37fa4299401168e33e79",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: June 15th, 2026",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-june-15th-2026",
+      "published": "2026-06-15T16:00:00+00:00",
+      "summary": "Featuring: Seth Carpenter, Global Chief Economist & Global Head of Macro Research at Morgan Stanley Henrietta Treyz, Director of Economic Policy at Veda Partners Liz Thomas, Head of Investment Strategy at SoFi See omnystudio.com/listener for privacy information.",
+      "duration": "1221",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "3e2b37fa4299401168e33e79",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Standard macroeconomic surveillance; lacks actionable insight or unique operator perspective.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "7272c87e5bb680c893b9c752",
+      "show_name": "a16z Live / AI + a16z variants",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Ideogram’s Open-Weights Image Model and the Future of AI Design",
+      "link": "https://ai-a16z.simplecast.com/episodes/ideograms-open-weights-image-model-and-the-future-of-ai-design-qXdoKLhL",
+      "published": "2026-06-15T15:40:03+00:00",
+      "summary": "Yoko Li and Justine Moore speak with Ideogram founder and CEO Mohammad Norouzi about image generation models, design workflows, and the evolving relationship between AI and creative work. The conversation covers Ideogram's decision to release an open-weight model, the challenges of generating text and layouts within images, and why controllability has become an increasingly important area of research. They discuss prompting, customization, editing, and the tradeoffs between general-purpose models and systems optimized for specific creative tasks. Along the way, Norouzi shares his views on open-source AI, design tools, agentic workflows, and how image generation models may evolve as creators and enterprises seek greater control over their outputs. Resources: Follow Mohammad Norouzi on X: https://x.com/mo_norouzi Follow Yoko Li on X: https://x.com/stuffyokodraws Follow Justine Moore on X: https://x.com/venturetwins Stay Updated: If you enjoyed this episode, be sure to like, subscribe, and share with your friends! Find a16z on X: https://x.com/a16z](https://x.com/a16z Find a16z on LinkedIn: https://www.linkedin.com/company/a16z Listen to the a16z Podcast on Spotify: https://open.spotify.com/show/5bC65RDvs3oxnLyqqvkUYX Listen to the a16z Podcast on Apple Podcasts: https://podcasts.apple.com/us/podcast/a16z-podcast/id842818711 Follow our host: https://x.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details, please see http://a16z.com/disclosures . Check out everything a16z is doing with artificial intelligence here , including articles, projects, and more podcasts. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:42:56",
+      "old_score": 57,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "7272c87e5bb680c893b9c752",
+        "score": 80,
+        "tier": "digest",
+        "reason": "Discusses open-weight AI models, controllability, and creative workflows with Ideogram's CEO—relevant to AI platform economics.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "190c910dae2df1272564143d",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "AI, Design, and the Power of Open Models",
+      "link": "https://a16z.simplecast.com/episodes/ai-design-and-the-power-of-open-models-_Noy5d_H",
+      "published": "2026-06-15T15:39:01+00:00",
+      "summary": "Yoko Li and Justine Moore speak with Ideogram founder and CEO Mohammad Norouzi about image generation models, design workflows, and the evolving relationship between AI and creative work. The conversation covers Ideogram's decision to release an open-weight model, the challenges of generating text and layouts within images, and why controllability has become an increasingly important area of research. They discuss prompting, customization, editing, and the tradeoffs between general-purpose models and systems optimized for specific creative tasks. Along the way, Norouzi shares his views on open-source AI, design tools, agentic workflows, and how image generation models may evolve as creators and enterprises seek greater control over their outputs. Resources: Follow Mohammad Norouzi on X: https://x.com/mo_norouzi Follow Yoko Li on X: https://x.com/stuffyokodraws Follow Justine Moore on X: https://x.com/venturetwins Stay Updated: If you enjoyed this episode, be sure to like, subscribe, and share with your friends! Find a16z on X: https://x.com/a16z](https://x.com/a16z Find a16z on LinkedIn: https://www.linkedin.com/company/a16z Listen to the a16z Podcast on Spotify: https://open.spotify.com/show/5bC65RDvs3oxnLyqqvkUYX Listen to the a16z Podcast on Apple Podcasts: https://podcasts.apple.com/us/podcast/a16z-podcast/id842818711 Follow our host: https://x.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details, please see http://a16z.com/disclosures . Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:42:56",
+      "old_score": 55,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "190c910dae2df1272564143d",
+        "score": 80,
+        "tier": "digest",
+        "reason": "Explores open-source AI in design, controllability, and enterprise customization—key themes for AI business models.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "03d997b6f225ce598b55603e",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "US-Iran Interim Deal and Fed Chair Warsh",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/us-iran-interim-deal-and-fed-chair-warsh",
+      "published": "2026-06-15T15:03:32+00:00",
+      "summary": "The latest in finance, economics and investment. Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF . Bloomberg Surveillance hosted by Tom Keene & Paul SweeneyMonday, June 15, 2026 Featuring: 1) Rebecca Patterson, Senior Fellow at the Council on Foreign Relations, talks about how markets are making sense of the Iran interim deal as well as Kevin Warsh's first FOMC meeting as Fed Chair. 2) Steph Guild, Chief Investment Strategist at Robinhood, talks about the legs of the equity rally and the risk of a rising VIX. 3) Julian Lee, oil strategist with Bloomberg News, on how the Iran interim deal is rippling through oil and energy markets. 4) Jim Rowan, Principal, US Head of AI at Deloitte, discusses the firm's paper on the AI token economy. See omnystudio.com/listener for privacy information.",
+      "duration": "1534",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "03d997b6f225ce598b55603e",
+        "score": 55,
+        "tier": "scan",
+        "reason": "Covers Fed policy and AI token economy; not deeply actionable but worth scanning for macro and AI finance.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "a95581a9b7852333a6da2aca",
+      "show_name": "The Breakdown with NLW",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "The US Just Made the Case for Open-Source AI",
+      "link": "",
+      "published": "2026-06-15T13:15:00+00:00",
+      "summary": "Anthropic released Fable V — a wrapper around its Mythos model with strict guardrails. Within 24 hours, the White House forced it offline over a jailbreak that exposed Mythos's full cyber capabilities. David walks through David Sack’s thread, the export control, and why this is the strongest case yet for running your own open-source AI at home. Plus: Blockworks just acquired Messari, and the SpaceX IPO turned into a mess on crypto exchanges. Enjoy! TIMESTAMPS: (00:00) Intro (01:24) Anthropic (11:57) Blockworks Acquires Messari (14:38) SpaceX IPO FOLLOW THE SHOW › David — https://x.com/dcanellis › The Breakdown — https://x.com/TheBreakdownBW › The Breakdown Newsletter — https://blockworks.com/newsletter/the-breakdown Get top market insights and the latest in crypto news. Subscribe to the Blockworks Daily Newsletter: https://blockworks.co/newsletter/ DISCLAIMER As always, remember this podcast is for informational purposes only, and any views expressed by anyone on the show are solely their opinions, not financial advice.",
+      "duration": "1305",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "a95581a9b7852333a6da2aca",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Highlights U.S. stance on open-source AI and regulatory friction with Anthropic—relevant to AI policy and deployment.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "58794799f48a07e1c93e4b78",
+      "show_name": "EconTalk",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "The Case for Sunshine (with Rowan Jacobsen)",
+      "link": "https://www.econtalk.org/the-case-for-sunshine-with-rowan-jacobsen/",
+      "published": "2026-06-15T10:30:00+00:00",
+      "summary": "Skin cancer comes from the sun. But so do many good things, according to author Rowan Jacobsen. Jacobsen talks with EconTalk's Russ Roberts about the health benefits of sunshine and makes the case for prudent sun exposure. Topics discussed include the \"heliotherapy\" movement that peaked in the early 1900s in response to rickets and tuberculosis, why diagnosing skin cancer is on the rise, and why yesterday's sunscreens may have done more harm than good.",
+      "duration": "01:05:58",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "58794799f48a07e1c93e4b78",
+        "score": 40,
+        "tier": "scan",
+        "reason": "Sunlight health benefits are tangential to DJ's focus areas; low relevance.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "b4909a636e37fe79007d8bf6",
+      "show_name": "Stratechery",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "Anthropic’s Safety Superpower",
+      "link": "https://stratechery.com/2026/anthropics-safety-superpower/",
+      "published": "2026-06-15T10:00:00+00:00",
+      "summary": "Anthropic's belief in its own commitment to safety gives the company license to aggressively favor its business and even challenge the U.S. government.",
+      "duration": "",
+      "old_score": 26,
+      "old_label": "skip",
+      "qwen": {
+        "id": "b4909a636e37fe79007d8bf6",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Discusses Anthropic's safety-first positioning and its strategic implications—relevant to AI governance and business strategy.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "235539bff2e84ad9db94f3f3",
+      "show_name": "Decoder with Nilay Patel",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Skydio CEO argues more drones will make us safer",
+      "link": "",
+      "published": "2026-06-15T09:00:00+00:00",
+      "summary": "Today, I’m talking with Slydio CEO Adam Bry, who runs the leading US maker of autonomous drones. We covered a lot in this conversation, including Skydio’s police and government work at a time when military use of AI is more controversial than ever and competing with Chinese drones against the backdrop of the Trump’s administration’s DJI ban. There’s a lot in this one – maybe more than anything, it was refreshing to hear Adam talk about using AI to bring even more people to work at Skydio as the company expands. I also got to fly a drone, which ruled. Links: Flying a semi-autonomous industrial drone | Decoder Sorry kid, drones are for war now | The Verge The FCC’s foreign drone ban is here | The Verge Skydio is pivoting to enterprise — its consumer drones are dead | The Verge Skydio commits $3.5B to expand US manufacturing | Skydio A US drone maker tries to take back the country’s skies | Bloomberg DEA looks to add Skydio, Parrot drones to its arsenal | FedScoop The future of border security isn’t at the border at all | The Verge Subscribe to The Verge to access the ad-free version of Decoder! Credits: Decoder is a production of The Verge and part of the Vox Media Podcast Network. Decoder is produced by Kate Cox and Nick Statt and edited by Ursa Wright. Our editorial director is Kevin McShane. The Decoder music is by Breakmaster Cylinder. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "4397",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "235539bff2e84ad9db94f3f3",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Covers AI drone use cases, government contracts, and workforce expansion—relevant to AI in enterprise and defense.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "9a5b5f4b6815c3a9e657f5ef",
+      "show_name": "Capital Allocators",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Hotel Investing at EOS – Jonathan Wang (EP.506)",
+      "link": "https://tedseides.libsyn.com/hotel-investing-at-eos-jonathan-wang-ep506",
+      "published": "2026-06-15T08:00:00+00:00",
+      "summary": "Jonathan Wang is the founder and CEO of EOS Investors, where he has built three real estate investment platforms totaling $2 billion in assets under management across the hotel and residential sectors. Jonathan also created a wholly owned hotel management company that oversees 60 properties for the EOS funds and five core partners. Our conversation covers Jonathan's path to hotel investing and EOS' hotel investment process across market selection, property type, underwriting, vertically integrated operations, and managing through cycles. We also discuss extensions into residential real estate, hotel credit, and opportunities and risks going forward. Editing and post-production work for this episode was provided by The Podcast Consultant ( ⁠ https://thepodcastconsultant.com ⁠ ) Learn More Follow Ted on Twitter at @tseides or LinkedIn Subscribe to the mailing list Access Transcript with Premium Membership",
+      "duration": "56:18",
+      "old_score": 40,
+      "old_label": "skip",
+      "qwen": {
+        "id": "9a5b5f4b6815c3a9e657f5ef",
+        "score": 60,
+        "tier": "digest",
+        "reason": "Hotel investing strategies and real estate cycles offer some capital allocation insight but are secondary to AI focus.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "ee5d97027ad90961d86e8a3c",
+      "show_name": "Odd Lots",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "Carmen Li's Plan to Build a Futures Market for Compute",
+      "link": "https://omny.fm/shows/odd-lots/carmen-lis-plan-to-build-a-futures-market-for-compute",
+      "published": "2026-06-15T08:00:00+00:00",
+      "summary": "When we spoke to DRW's Don Wilson last year, he talked about building out a GPU market that might be bigger than oil. Now, a year later, he is working with Carmen Li to do just that. Li is the CEO of two companies — Silicon Data and Compute Exchange (where she works alongside Wilson). The former company is building the index for GPU pricing while the latter is a spot marketplace for GPU procurement. Today's episode — recorded at our live show at City Winery in New York — gets into how Li is building a whole new market for GPUs at her two companies. We talk about the challenge of standardizing compute, GPU price volatility, if used GPUs are like used cars, what goes into constructing a GPU index, and what it means to win the GPU lottery. Read more: Jane Street Plans New Data Center as Computing Power Runs Scarce SpaceX Inks $30 Billion Computing Power Deal With Google Only Bloomberg - Business News, Stock Markets, Finance, Breaking & World News subscribers can get the Odd Lots newsletter in their inbox each week, plus unlimited access to the site and app. Subscribe at bloomberg.com/subscriptions/oddlots Subscribe to the Odd Lots Newsletter Join the conversation: discord.gg/oddlots See omnystudio.com/listener for privacy information.",
+      "duration": "1976",
+      "old_score": 40,
+      "old_label": "skip",
+      "qwen": {
+        "id": "ee5d97027ad90961d86e8a3c",
+        "score": 85,
+        "tier": "listen",
+        "reason": "Builds a futures market for compute/GPUs—directly relevant to AI infrastructure and capital allocation.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "d33033ae87c0b055edb3a846",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "The Business of Media: 60 Minutes, Billionaire Owners, and the Podcast Economy — with Sara Fischer",
+      "link": "",
+      "published": "2026-06-15T08:00:00+00:00",
+      "summary": "Scott Galloway is joined by Sara Fischer, media correspondent at Axios and CNN analyst, to answer your questions on the state of American media — from the future of 60 Minutes to billionaire ownership of the press to the economics of podcasting. Want to be featured in a future episode? Send a voice recording to officehours@profgmedia.com, or drop your question in the r/ScottGalloway subreddit. Plus, you can now call or text Scott a question at our new Office Hours hotline: ‪(201) 472-3656‬. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "2028",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "d33033ae87c0b055edb3a846",
+        "score": 45,
+        "tier": "scan",
+        "reason": "Media economics and podcasting trends are low-priority for DJ's core interests.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "716c3558c8b4a0055e1c252c",
+      "show_name": "The Twenty Minute VC",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "20VC: Micron Will Be More Valuable Than Meta | How Export Controls Helped Not Hurt China | Power is the Bottleneck to AI | Why Dario Has Done a Disservice to AI with his Labour Replacement Messaging with Aravind Srinivas, Founder @ Perplexity",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-micron-will-be-more-valuable-than-meta-how-export-controls-helped-not-hurt-china-power-is-the-bottleneck-to-ai-why-dario-has-done-a-disservice-to-ai-with-his-labour-replacement-messaging-with-aravind-srinivas-founder-perplexity",
+      "published": "2026-06-15T07:09:00+00:00",
+      "summary": "Aravind Srinivas is the Founder and CEO of Perplexity, one of the fastest-growing AI companies in the world. Since the start of the year, Perplexity has tripled revenue to well over $500M in ARR. Aravind has raised over $1BN for the company with reported valuations reaching $20BN. AGENDA: 05:40 – \"Perplexity Changed Google More Than Any PM Ever Has\" 10:15 – Why Search Is Not the Future of AI 13:05 – The Most Important Insight in AI: The Model Is NOT The Product 16:10 – Why AI Agents Will Become Bigger Than Google Search 22:00 – AI Will Design Chips, Discover Drugs & Cure Diseases 24:15 – The Secret to Building a 24/7 AI Agent 32:40 – Aravind's Wild Prediction: Micron Could Become More Valuable Than Meta 41:00 – Why Power Will Be The Biggest Bottleneck In AI For The Next Decade 45:00 – Have U.S. Export Controls Accidentally Made China Stronger? 49:00 – Why Dario Amodei's AI Doom Narrative Is Wrong 55:20 – Why Token Budgets are Total BS and Useless 58:00 – When Agent Traffic Surpasses Human Traffic, What Happens To The Internet? 01:08:00 – SpaceX, OpenAI & Anthropic IPOs: Is There Enough Capital For All Three? 01:14:00 – What Elon Musk Is Really Like Behind Closed Doors",
+      "duration": "01:20:56",
+      "old_score": 100,
+      "old_label": "must_listen",
+      "qwen": {
+        "id": "716c3558c8b4a0055e1c252c",
+        "score": 80,
+        "tier": "listen",
+        "reason": "Perplexity CEO discusses AI agents, power bottlenecks, and Micron's potential—core themes for AI and infrastructure.",
+        "confidence": "high"
+      }
+    }
+  ]
+}

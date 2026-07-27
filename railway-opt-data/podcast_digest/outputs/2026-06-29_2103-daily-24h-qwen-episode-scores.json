@@ -1,0 +1,311 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-06-29_2103",
+  "usage": {
+    "prompt_tokens": 5224,
+    "completion_tokens": 1090,
+    "total_tokens": 6314
+  },
+  "episodes": [
+    {
+      "id": "3400b29f758d62909d10511d",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Our vibe coded projects that actually work",
+      "link": "",
+      "published": "2026-06-29T19:37:00+00:00",
+      "summary": "It's time for a new series on The Vergecast! (It still needs a name. Please help.) We're going to give Verge staffers a challenge, and regroup a few weeks later to see who did it best. We're starting with some vibe coding. The Verge's Jake Kastrenakes and Hayden Field share what they've made with AI that has actually stuck in their lives, before David gives the challenge: build a website to solve a problem in your life. The more ambitious and impressive the better. We'll be back with the results soon, and in the meantime, send us ideas for more challenges! (Also, names for the series. PLEASE.) Further reading: ⁠Anthropic’s Mythos 5 is back | The Verge⁠ ⁠Supreme Court allows firing of FTC commissioners, ends agency independence⁠ ⁠Comcast is splitting in two | The Verge⁠ ⁠WhatsApp is launching usernames: here’s how to reserve yours | The Verge⁠ ⁠Welcome to the personal software revolution⁠ ⁠I used Claude to vibe-code my wildly overcomplicated smart home⁠ Subscribe to The Verge for unlimited access to theverge.com, subscriber-exclusive newsletters, and our ad-free podcast feed.We love hearing from you! Email your questions and thoughts to vergecast@theverge.com or call us at 866-VERGE11. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "1984",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "3400b29f758d62909d10511d",
+        "score": 55,
+        "tier": "scan",
+        "reason": "Discusses AI applications in personal software, but lacks depth on business or market implications.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "6343ba9afdc5d489d5167f8b",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: June 29th, 2026",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-june-29th-2026",
+      "published": "2026-06-29T16:09:26+00:00",
+      "summary": "Featuring: Alicia Levine, Head of Investment Strategy & Equities at BNY Wealth Momei Qu, Managing Director: PSP Growth at PSP Capital Partners Nur Cristiani, Head of LATAM Investment Strategy at JP Morgan Securities See omnystudio.com/listener for privacy information.",
+      "duration": "1077",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "6343ba9afdc5d489d5167f8b",
+        "score": 45,
+        "tier": "scan",
+        "reason": "General market commentary without actionable insights or deep analysis.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "0c1ceff9c41b6185c5c0e2d7",
+      "show_name": "All-In Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Nate Silver Predicts: Democrats Take the House, Newsom Is Fading & AOC Might Win It All in 2028",
+      "link": "https://allinchamathjason.libsyn.com/nate-silver-predicts-democrats-take-the-house-newsom-is-fading-aoc-might-win-it-all-in-2028",
+      "published": "2026-06-29T15:47:00+00:00",
+      "summary": "(0:00) Nate Silver joins the pod! (10:02) California's ballot counting problem: Raman's late-mail surge, ballot harvesting claims, and why the US counts slower than India (25:18) Democrats' three-way civil war: The left, the abundance libs, and Newsom's \"resistance lib\" base (34:48) The winning 2028 playbook: Anti-oligarch messaging, why young men want control, and immigrants fleeing the Dems (45:48) How algorithmic social media entrenches polarization: Elon's X, filter bubbles, and the death of the chronological feed (50:01) 2026 midterm predictions: 85-90% Dem House takeover, Senate toss-up, and the Iran/gas price wildcard (55:20) Newsom is collapsing in polls: Nate's 2028 Dem bet is AOC Thanks to our partners! Northwest Registered Agent — Starting a business? Northwest Registered Agent gives you everything you need to build a complete Business Identity including free tools and built-in privacy. Get more at northwestregisteredagent.com/ALLINFREE PLAUD — If your work depends on conversations — meetings, deal flow, interviews, customer calls — Plaud helps you capture and organize everything with highly accurate AI-generated notes that are not just simple summaries, but also highlight pain points, key decisions, next steps, and customizable summary templates. Check out Plaud at Plaud.ai/allin and use code ALLIN for up to 20% off! Which is also available on Amazon: https://amzn.to/43URLff (Code: ALLIN20X) Follow Nate: https://x.com/NateSilver538 Follow the besties: https://x.com/chamath https://x.com/Jason https://x.com/DavidSacks https://x.com/friedberg Follow on X: https://x.com/theallinpod Follow on Instagram: https://www.instagram.com/theallinpod Follow on TikTok: https://www.tiktok.com/@theallinpod Follow on LinkedIn: https://www.linkedin.com/company/allinpod Intro Music Credit: https://rb.gy/tppkzl https://x.com/yung_spielburg Intro Video Credit: https://x.com/TheZachEffect",
+      "duration": "01:00:42",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "0c1ceff9c41b6185c5c0e2d7",
+        "score": 60,
+        "tier": "digest",
+        "reason": "Political predictions and social media impact analysis relevant to broader market context.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "83ae9674a42f12d50ddc5fa6",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Instant Reaction: Supreme Court Blocks Trump from Firing Fed's Lisa Cook",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/instant-reaction-supreme-court-blocks-trump-from-firing-feds-lisa-cook",
+      "published": "2026-06-29T15:41:57+00:00",
+      "summary": "The US Supreme Court ruled that Federal Reserve Governor Lisa Cook can stay in her job for now, reinforcing the central bank’s independence from the White House and dealing a setback to President Donald Trump. In a separate ruling, the court expanded the president’s power to fire top government officials at other federal agencies. Voting 5-4, the high court said Cook can remain at the Fed while she fights Trump’s bid to oust her over unproven mortgage fraud allegations. Chief Justice John Roberts and Justice Brett Kavanaugh joined the three liberals in the majority. Bloomberg's Paul Sweeney and Scarlet Fu got reaction from: June Grasso, Bloomberg Law Host Elliot Stein, Bloomberg Intelligence litigation analyst Tyler Kendall, Bloomberg Washington correspondent Gautam Mukunda, Lecturer at Yale School of Management and Bloomberg Opinion contributor See omnystudio.com/listener for privacy information.",
+      "duration": "1692",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "83ae9674a42f12d50ddc5fa6",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Important legal and regulatory developments affecting Fed independence and market stability.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "60b37ec8bea1d29fe3db43aa",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Markets and Fed Uncertainty",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/markets-and-fed-uncertainty",
+      "published": "2026-06-29T14:51:54+00:00",
+      "summary": "The latest in finance, economics and investment. Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF . Bloomberg Surveillance hosted by Tom Keene & Paul SweeneyMonday, June 29, 2026 Featuring: 1) Aditya Bhave, Head: US Economics at Bank of America, joins to discuss why his team is changing their rate call to multiple rate hikes this year. 2) Alicia Levine, CIO at BNY Wealth, talks about her S&P call and the sustainability of the equity rally. 3) Jim Caron, CIO of Cross Asset Solutions at Morgan Stanley Investment Management, talks whether AI is a bubble or true market revolution. 4) Chad Beynon, Senior Gaming, Lodging, and Theaters Analyst at Macquarie, talks about how the World Cup is benefitting the US sports betting market and which stocks stand to benefit. See omnystudio.com/listener for privacy information.",
+      "duration": "1689",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "60b37ec8bea1d29fe3db43aa",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Discusses Fed policy, rate hikes, and AI's market impact with credible analysts.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "fe57ca1f1624ca3e7384c8f0",
+      "show_name": "The Breakdown with NLW",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Binance Needs A Friend in The European Union",
+      "link": "",
+      "published": "2026-06-29T14:24:00+00:00",
+      "summary": "Binance is out of the EU as of July 1 after its MICA license application in Greece was rejected. David runs through who is and isn't licensed under MICA, checks Blockworks Research for Binance's actual spot market share (~33%), and looks at whether the outflow data suggests real damage. Then: the US government is now effectively approving AI model releases — Anthropic's Mythos 5 is live for a whitelist of 100+ orgs, Fable 5 still blocked, and OpenAI just did the same thing with GPT-V.Sol. David draws the parallel to how regulation changed crypto. Finally: Meta is building a prediction market app called Arena, with Zuck reportedly pursuing partnerships with Polymarket and Kaoshi. David checks Polymarket and Kaoshi's open interest data and asks whether Meta is just late to the party again. TIMESTAMPS: [To be filled in] FOLLOW THE SHOW › David — https://x.com/dcanellis › The Breakdown — https://x.com/TheBreakdownBW › The Breakdown Newsletter — https://blockworks.com/newsletter/the-breakdown DISCLAIMER As always, remember this podcast is for informational purposes only, and any views expressed by anyone on the show are solely their opinions, not financial advice.",
+      "duration": "1786",
+      "old_score": 32,
+      "old_label": "skip",
+      "qwen": {
+        "id": "fe57ca1f1624ca3e7384c8f0",
+        "score": 60,
+        "tier": "digest",
+        "reason": "Covers EU crypto regulation, AI model approvals, and prediction market trends.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "00cefe08a07ac66036abe71a",
+      "show_name": "Eye on AI",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "How Modern Science Got Consciousness Wrong From the Start | Philip Goff",
+      "link": "https://aneyeonai.libsyn.com/how-modern-science-got-consciousness-wrong-from-the-start-philip-goff",
+      "published": "2026-06-29T13:46:00+00:00",
+      "summary": "What if consciousness isn't a byproduct of complex brains, but a fundamental feature of reality itself, present, in some rudimentary form, all the way down to electrons and quarks? Philip Goff, a philosopher at Durham University and one of panpsychism's leading contemporary advocates, joins Craig Smith to make that case, arguing that modern science's founding move - separating the mathematical world physics studies from the subjective experience we know only from the inside - solved one problem while quietly creating another we've never resolved. The conversation inevitably turns to AI: could a large language model ever be conscious? Goff's answer is a careful, well-reasoned no, not because he thinks consciousness is magical, but because his framework treats it as something closer to the physical substance of reality than an abstract computation, making him skeptical that anything resembling current AI architecture could cross that threshold. Along the way, he tackles one of the genuine open mysteries in his field: if natural selection only cares about behavior, why did evolution bother making us conscious at all, and what would it even mean to find experimental evidence for an answer. Subscribe to Eye on A.I. for weekly conversations with the people building and deploying the future of AI.v",
+      "duration": "01:01:20",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "00cefe08a07ac66036abe71a",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Philosophical take on AI consciousness lacks practical business or technical insight.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "3bf24a87fa5a86855b8cda5d",
+      "show_name": "EconTalk",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Do Less, Heal More: The Case for Medical Conservatism (with John Mandrola)",
+      "link": "https://www.econtalk.org/do-less-heal-more-the-case-for-medical-conservatism-with-john-mandrola/",
+      "published": "2026-06-29T10:30:00+00:00",
+      "summary": "What if the surgery that fixed your knee did no better than fake surgery? EconTalk host Russ Roberts speaks with Dr. John Mandrola about a striking clinical trial in which patients who received sham knee surgery (a real incision, but no actual repair) did as well or better than those who had the actual procedure--one performed 700,000 times annually in the U.S. The conversation ranges from the power of placebo and nocebo effects (how expectation of harm can cause real suffering) to the broader philosophy of \"medical conservatism\"--the idea that humility, watchful waiting, and honest counsel often serve patients better than the knife. Mandrola argues that financial incentives, professional identity, and language itself (\"bone-on-bone,\" \"the widowmaker\") conspire to push patients toward interventions that can do more harm than good.",
+      "duration": "00:59:44",
+      "old_score": 4,
+      "old_label": "skip",
+      "qwen": {
+        "id": "3bf24a87fa5a86855b8cda5d",
+        "score": 40,
+        "tier": "skip",
+        "reason": "Medical conservatism discussion is off-topic and irrelevant to AI or capital allocation.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "bc1dc426b0ad41a7951d4ce4",
+      "show_name": "Stratechery",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "Summer Break: Week of June 29",
+      "link": "https://stratechery.com/2026/summer-break-week-of-june-29/",
+      "published": "2026-06-29T10:00:00+00:00",
+      "summary": "Stratechery is on summer break the week of June 29. There will be no Weekly Article or Updates. The next Update will be on Monday, July 6. Dithering, Sharp Tech, and Sharp China will also return the week of July 6. Greatest of All Talk and Asianometry will continue to publish. The full Stratechery posting schedule is here.",
+      "duration": "",
+      "old_score": 22,
+      "old_label": "skip",
+      "qwen": {
+        "id": "bc1dc426b0ad41a7951d4ce4",
+        "score": 0,
+        "tier": "skip",
+        "reason": "Show on summer break; no content available for evaluation.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "637df6ffd2f97df9f7f6fa12",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Beyond P(doom): Marc Andreessen - Betting on America",
+      "link": "https://a16z.simplecast.com/episodes/beyond-pdoom-marc-andreessen-betting-on-america-2WMkJzvN",
+      "published": "2026-06-29T10:00:00+00:00",
+      "summary": "Marc Andreessen joins CSIS's Navin Girishankar for a wide-ranging conversation on artificial intelligence, productivity growth, industrial policy, and America's technological future. Andreessen argues that while AI has already begun reshaping the economy, the largest impacts are still ahead. He explores how AI could dramatically expand access to expertise, improve productivity, and transform industries ranging from healthcare and education to law and software development. At the same time, he warns that many of the biggest barriers to progress are not technological but institutional, driven by regulation, policy choices, and infrastructure constraints. The discussion also covers the global AI race, U.S.-China competition, export controls, data centers, energy, reindustrialization, defense technology, and the role of government in fostering innovation. Along the way, Andreessen shares his views on technological progress, national competitiveness, and why he believes America still has an opportunity to lead the next wave of economic growth. Resources: Follow Marc Andreessen on X: https://x.com/pmarca Follow Navin Girishankar on X: https://x.com/ngirishankar Follow CSIS on X: https://x.com/CSIS Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "01:04:31",
+      "old_score": 78,
+      "old_label": "digest_only",
+      "qwen": {
+        "id": "637df6ffd2f97df9f7f6fa12",
+        "score": 85,
+        "tier": "listen",
+        "reason": "Marc Andreessen offers strategic AI and productivity insights with macroeconomic implications.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "f48762a84eeb319709b2e0a4",
+      "show_name": "Decoder with Nilay Patel",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "He changed outdoor cooking forever — then took over Weber",
+      "link": "",
+      "published": "2026-06-29T09:00:00+00:00",
+      "summary": "It’s time for our annual Fourth of July grill episode here at Decoder, which is when we invite the CEOs of outdoor cooking companies onto the show to explain just how their businesses kind of look like every other business. And this is a very special edition. Today we’re talking to Roger Dahle, the CEO of Weber Blackstone, a full circle moment for Decoder. Roger was our first-ever grill CEO on the show back when he was the CEO of just Blackstone. Five years later, Roger now runs one of his biggest competitors, after Blackstone announced a merger with Weber in 2024. So we talked about that process, and how Roger is managing the integration of these two grilling giants. Links: ﻿Weber and Blackstone to combine | The Verge How Blackstone became the darling of grill TikTok | Decoder (2021) How arson led to a culture reboot at Traeger, with CEO Jeremy Andrus | Decoder (2022) Big Green Egg CEO Dan Gertsacov on growing kamado cooking | Decoder (2024) How SharkNinja took over the home | Decoder (2025) Subscribe to The Verge to access the ad-free version of Decoder! Credits: Decoder is a production of The Verge and part of the Vox Media Podcast Network. Decoder is produced by Kate Cox and Nick Statt. This episode was edited by Eileen Felix. Our editorial director is Kevin McShane. The Decoder music is by Breakmaster Cylinder. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "4291",
+      "old_score": 36,
+      "old_label": "skip",
+      "qwen": {
+        "id": "f48762a84eeb319709b2e0a4",
+        "score": 45,
+        "tier": "scan",
+        "reason": "Grilling business merger details lack relevance to AI or capital allocation focus.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "ea899487f7cab27a03a2d660",
+      "show_name": "Capital Allocators",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Senior Decision Makers: Nicholas Csicsko, Trinity Wall Street (EP.508)",
+      "link": "https://tedseides.libsyn.com/senior-decision-makers-nicholas-csiscko-trinity-wall-street-ep508",
+      "published": "2026-06-29T08:00:00+00:00",
+      "summary": "Our first guest on the Senior Decision Makers mini-series is Nick Csicsko. Nick is a Managing Director at the Trinity Wall Street endowment, where he joined CIO Meredith Jenkins at the founding of the investment office in 2016 and has spent the last decade helping build a young endowment inside a 320-year-old institution. Today the endowment has grown to over $6 billion. Nick's path into investing is a fascinating one. He studied composition and earned his Doctorate of Music at Juilliard. While there, he talked his way into an internship at Juilliard's endowment and never looked back. Our conversation covers the lessons he carried from music into investing, his investment philosophy, and the details of his process. Manager selection sits at the heart of his work, and he articulates what separates the relationships that endure from the ones that don't. Nick is a remarkable storyteller and shares a number of real-life examples of manager relationships — some that worked out well, some that didn't, and others with insights for allocators and managers alike. Learn More Follow Ted on Twitter at @tseides or LinkedIn Subscribe to the mailing list Access Transcript with Premium Membership Editing and post-production work for this episode was provided by The Podcast Consultant ( ⁠ https://thepodcastconsultant.com ⁠ )",
+      "duration": "58:18",
+      "old_score": 36,
+      "old_label": "skip",
+      "qwen": {
+        "id": "ea899487f7cab27a03a2d660",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Endowment management insights and capital allocation strategies from a unique background.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "b21c31784b12800f263fd885",
+      "show_name": "Odd Lots",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "Baidu's CFO on How It Became a Full-Stack AI Player",
+      "link": "https://omny.fm/shows/odd-lots/baidus-cfo-on-how-it-became-a-full-stack-ai-player",
+      "published": "2026-06-29T08:00:00+00:00",
+      "summary": "In the China tech space, Baidu is now a full-stack player in the AI industry. The company makes its own chips, has its own AI models (Ernie), its own cloud system, and it's integrating AI into its self-driving car business, Apollo Go. But before all this, Baidu was known for being China's leader in search. Things, obviously, have changed a lot since the company was founded in the late 1990s. In today's episode, we speak with Baidu CFO Henry He about the company's AI ambitions. He talks to us about maximizing token spend, how Chinese tech firms are thinking about safety and alignment, the global robotaxi competition, and how the core search business fits into the company now. Read more: Chinese AI Stocks Rally on Demand Optimism and Policy Support US Seeks AI Partnership With EU on Regulation, Supply Chains Only http://Bloomberg.com subscribers can get the Odd Lots newsletter in their inbox each week, plus unlimited access to the site and app. Subscribe at bloomberg.com/subscriptions/oddlots Subscribe to the Odd Lots Newsletter Join the conversation: discord.gg/oddlots See omnystudio.com/listener for privacy information.",
+      "duration": "2852",
+      "old_score": 28,
+      "old_label": "skip",
+      "qwen": {
+        "id": "b21c31784b12800f263fd885",
+        "score": 80,
+        "tier": "listen",
+        "reason": "Baidu's full-stack AI strategy and integration into self-driving offer valuable operator insights.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "bbbb414b08b970d6bf8d14d4",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Is Wall Street Rigging the Game for SpaceX? Plus, What Investment Banking Really Teaches You",
+      "link": "",
+      "published": "2026-06-29T08:00:00+00:00",
+      "summary": "Scott Galloway unpacks whether the S&P and Nasdaq rule changes for mega-cap IPOs mean you're no longer as diversified as you think, gives advice on thriving in a fully remote sales role, and reflects on what investment banking and the corporate world really teach you. Want to be featured in a future episode? Send a voice recording to officehours@profgmedia.com, or drop your question in the r/ScottGalloway subreddit. Plus, you can now call or text Scott a question at our new Office Hours hotline: ‪(201) 472-3656‬. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "1495",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "bbbb414b08b970d6bf8d14d4",
+        "score": 50,
+        "tier": "scan",
+        "reason": "General commentary on Wall Street and corporate lessons without actionable insights.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "f2681adab00bd1ce392743cf",
+      "show_name": "The Twenty Minute VC",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "20VC: Leo Aschenbrenner's Largest Holding: Inside the $90BN Bloom Energy | Why Electricity, Not AI Models, Will Decide the Winners of the AI Race | Why We Are Not in an AI Capex Bubble | Energy Sovereignty and The Future of Power with KR Sridhar",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-leo-aschenbrenners-largest-holding-inside-the-90bn-bloom-energy-why-electricity-not-ai-models-will-decide-the-winners-of-the-ai-race-why-we-are-not-in-an-ai-capex-bubble-energy-sovereignty-and-the-future-of-power-with-kr-sridhar",
+      "published": "2026-06-29T07:07:00+00:00",
+      "summary": "KR Sridhar is the Founder and CEO of Bloom Energy, the distributed power company powering the AI revolution. Under his leadership, Bloom has grown to a market cap of approximately $93 billion, with revenue surpassing $2 billion as demand from AI data centres has surged. Over the last 12–18 months, Bloom has become one of the biggest beneficiaries of the AI infrastructure boom. It's also the largest position in Leo Aschenbrenner's investment portfolio, making up around 16% of his fund. AGENDA: 00:00 Why Failure Is Never an Option: The Mindset That Built a $90B Company 05:20 The 25-Year Bet: Why Bloom Never Doubted AI Would Need Its Technology 12:10 Andy Grove's Brutal Leadership Lesson That Changed Everything 18:40 AI Isn't a Bubble—It's a \"Hockey Stick on a Hockey Stick\" 25:30 Why Electricity, Not AI Models, Will Decide the Winners of the AI Race 34:20 The Radical Vision: Why Power Must Move to the Edge of the Grid 40:40 How Bloom Beat Everyone to Power Oracle's AI Data Centres in Just 55 Days 50:00 The Future of Cities, Energy Sovereignty & Why AI Will Democratise Power 52:10 Parenting, Purpose & the One Belief KR Thinks Everyone Gets Wrong About AI 55:00 The Next 10 Years: Why AI Could Create Global Energy Abundance",
+      "duration": "01:00:44",
+      "old_score": 44,
+      "old_label": "skip",
+      "qwen": {
+        "id": "f2681adab00bd1ce392743cf",
+        "score": 85,
+        "tier": "listen",
+        "reason": "Bloom Energy's role in AI infrastructure and energy sovereignty offers critical capex insights.",
+        "confidence": "high"
+      }
+    }
+  ]
+}

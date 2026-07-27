@@ -1,0 +1,151 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-07-11_2103",
+  "usage": {
+    "prompt_tokens": 2836,
+    "completion_tokens": 563,
+    "total_tokens": 3399
+  },
+  "episodes": [
+    {
+      "id": "905132049c241e2ffce51797",
+      "show_name": "Masters of Scale",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Pioneers of AI: John Deere's AI vision for future farms",
+      "link": "",
+      "published": "2026-07-11T09:00:00+00:00",
+      "summary": "Tractors are smarter than you think. John Deere, the nearly 200-year-old company, is combining sensors, data, and machine learning in highly advanced vehicles and software to reinvent how the world grows food. On this Pioneers of AI episode, John Deere CTO Jahmy Hindman breaks down how AI is making farms faster, smarter, and more sustainable. Plus he shares his vision for a fully autonomous farm. Learn more about Pioneers of AI: http://pioneersof.ai/ Follow Pioneers of AI on all channels: https://linktr.ee/pioneersofai See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info .",
+      "duration": "00:36:31",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "905132049c241e2ffce51797",
+        "score": 82,
+        "tier": "digest",
+        "reason": "John Deere's AI integration in agriculture offers operational insights and sustainability vision worth DJ's attention.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "f549967bc8dce780767524fb",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "No Mercy / No Malice: War on the Young",
+      "link": "",
+      "published": "2026-07-11T08:06:00+00:00",
+      "summary": "As read by George Hahn. https://www.profgmedia.com/p/war-on-the-young Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "1058",
+      "old_score": 0,
+      "old_label": "skip",
+      "qwen": {
+        "id": "f549967bc8dce780767524fb",
+        "score": 45,
+        "tier": "scan",
+        "reason": "Political framing of generational issues may lack actionable business or market insight.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "15b55ad47c063b43a05eeb9b",
+      "show_name": "The Twenty Minute VC",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "20VC: Why OpenAI and Anthropic Won't Win the App Layer | Why Teams Will Get Bigger Not Smaller in a World of AI | Why AI Removes Incumbents Advantage of Bundling | China vs America: Who Wins the AI War with Arvind Jain, Co-Founder @ Glean",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-why-openai-and-anthropic-wont-win-the-app-layer-why-teams-will-get-bigger-not-smaller-in-a-world-of-ai-why-ai-removes-incumbents-advantage-of-bundling-china-vs-america-who-wins-the-ai-war-with-arvind-jain-co-founder-glean",
+      "published": "2026-07-11T07:07:00+00:00",
+      "summary": "Arvind Jain is the Founder & CEO of Glean, the enterprise AI leader valued at $7.2 billion after raising more than $770 million from investors including Kleiner Perkins, DST Global, and more. Before Glean, Arvind co-founded Rubrik, helping build it into one of the world's leading cloud infrastructure companies before its successful IPO. Prior to that, he spent over a decade at Google as a Distinguished Engineer, working across Search, Maps, and YouTube. AGENDA: 00:00 – The Shocking Truth About Frontier AI: 90% Is Already a Commodity 02:04 – Can OpenAI & Anthropic Own Enterprise AI? The Battle for the Workplace Begins 10:18 – Will OpenAI and Anthropic Win the App Layer 18:03 – Microsoft Is the Real Enemy… Not OpenAI? 20:53 – \"Where's the ROI?\" Why Enterprises Are Starting to Question the AI Hype 26:00 – Will AI Replace Your Job? Harry & Arvind's Heated Clash Over the Future of Work 33:43 – The Billion-Dollar Mistake Every AI Company Is Making on Token Spend 39:20 – The AI Land Grab Is On: Why Founders Must Move Now or Lose Forever 42:20 – China vs America: Who Really Wins the AI Race? 47:20 – Rapid Fire: The Future of Computer Science, Hiring, Fundraising & AI's Biggest Winners",
+      "duration": "54:46",
+      "old_score": 38,
+      "old_label": "skip",
+      "qwen": {
+        "id": "15b55ad47c063b43a05eeb9b",
+        "score": 88,
+        "tier": "listen",
+        "reason": "Glean CEO provides strategic AI app layer analysis, enterprise ROI challenges, and AI team scaling insights.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "f5aa69edb5c6d0297f0a8d5d",
+      "show_name": "All-In Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "More Trillion Dollar IPOs, Anthropic $3T, Zuck's Price War, China Ends Open Source?, Trump Accounts",
+      "link": "https://allinchamathjason.libsyn.com/more-trillion-dollar-ipos-anthropic-3t-zucks-price-war-china-ends-open-source-trump-accounts",
+      "published": "2026-07-11T02:12:00+00:00",
+      "summary": "(0:00) Bestie intros: Brad Gerstner fills in for Friedberg! (2:58) OpenAI vs Anthropic IPOs: Why it matters who goes first, what they learned from the SpaceX IPO, the unlimited TAM of intelligence (27:39) The open source decision, Meta's new model, Zuck's price war, AI duopoly (54:29) CCP considering putting export controls on Chinese models, is open source ending in China? (1:03:09) Trump Accounts launch, getting young Americans bought back into capitalism Apply for Summit 2026: https://allin.com/events Follow Brad: ttps://x.com/altcap Follow the besties: https://x.com/chamath https://x.com/Jason https://x.com/DavidSacks https://x.com/friedberg Follow on X: https://x.com/theallinpod Follow on Instagram: https://www.instagram.com/theallinpod Follow on TikTok: https://www.tiktok.com/@theallinpod Follow on LinkedIn: https://www.linkedin.com/company/allinpod Intro Music Credit: https://rb.gy/tppkzl https://x.com/yung_spielburg Intro Video Credit: https://x.com/TheZachEffect Referenced in the show: https://polymarket.com/event/ipos-before-2027 https://x.com/thejessezhang/status/2074154325933424861 https://x.com/praveenTweets/status/2074605343439810922 https://x.com/nikesharora/status/2074802778074124434 https://x.com/nikesharora/status/2074814752174522857 https://x.com/brian_armstrong/status/2070670644577280109 https://x.com/andyfang/status/2074252174226493584 https://x.com/nikesharora/status/2074630732019036574 https://x.com/finkd/status/2075218444056707458 https://x.com/alighodsi/status/2074996561306955958 https://blog.nicolasmeridjen.com/en/blog/2026-04-03-alibaba-qwen-closed-source-end-of-open-weight https://www.chinatalk.media/p/chinas-ai-companies-are-going-closed https://www.reuters.com/world/beijing-is-looking-curbing-overseas-access-chinas-top-ai-models-sources-say-2026-07-07 https://x.com/KurtSupeCPA/thread/2074817292550984010",
+      "duration": "01:42:05",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "f5aa69edb5c6d0297f0a8d5d",
+        "score": 90,
+        "tier": "listen",
+        "reason": "High-signal discussion on AI IPO dynamics, open source future, and geopolitical implications with strong operator context.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "61f4333238796b4c723bda0f",
+      "show_name": "NYT Book Review",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "low",
+      "title": "This Author Says You Shouldn’t Be Intimidated by ‘The Odyssey’",
+      "link": "https://www.nytimes.com/column/book-review-podcast",
+      "published": "2026-07-11T01:56:06+00:00",
+      "summary": "If you can’t tell your Eurylochus from your Telemachus, fear not: Your primer on “The Odyssey” is here, just in time for Christopher Nolan’s new film adaptation of the 3,000-year-old epic. Madeline Miller, who reinvented “The Odyssey” in her best-selling novel “Circe,” explains why you shouldn’t be intimidated by the classic. Plus, our critic at large A.O. Scott explains how nearly every genre out there — sci-fi, romance, bloody revenge and more — can be found in this poem’s sprawling tale. Books and Other Works Discussed on This Episode: “Philoctetes,” by Sophocles “The Iliad,” by Homer “The Penelopiad,” by Margaret Atwood “Watership Down,” by Richard Adams “Aeneid,” by Virgil “I, Tituba, Black Witch of Salem,” by Maryse Condé “An American Marriage,” by Tayari Jones “The Buddha in the Attic,” by Julie Otsuka Subscribe today at nytimes.com/podcasts or on Apple Podcasts and Spotify. You can also subscribe via your favorite podcast app here https://www.nytimes.com/activate-access/audio?source=podcatcher . For more podcasts and narrated articles, download The New York Times app at nytimes.com/app. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:43:38",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "61f4333238796b4c723bda0f",
+        "score": 30,
+        "tier": "skip",
+        "reason": "Literary discussion on 'The Odyssey' lacks relevance to DJ's core interests in markets and AI.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "fa562b63512239555737a160",
+      "show_name": "People I Mostly Admire",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "30. Dambisa Moyo Says Foreign Aid Can’t Solve Problems, but Maybe Corporations Can",
+      "link": "https://www.siriusxm.com",
+      "published": "2026-07-11T00:00:00+00:00",
+      "summary": "The African-born economist has written four bestselling books, including Dead Aid , which Bill Gates described as “promoting evil.” In her new book about corporate boards, Dambisa uses her experience with global corporations to explore how they can better meet society’s demands. And she explains to Steve why, even as a Harvard and Oxford-educated economist, her goal in life might sound “a little bit like a Miss America pageant. ” This episode originally aired on June 4th, 2021. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:43:33",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "fa562b63512239555737a160",
+        "score": 60,
+        "tier": "scan",
+        "reason": "Corporate governance and aid economics may offer some frameworks but not directly actionable insights.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "c049c2d159239612659cc359",
+      "show_name": "Big Technology Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "OpenAI Finally Ships Its Superapp, Meta’s AI Price War, ChatGPT Cheating At Brown",
+      "link": "",
+      "published": "2026-07-10T21:17:00+00:00",
+      "summary": "Ranjan Roy from Margins is back for our weekly discussion of the latest tech news. We cover: 1) OpenAI debuts its new superapp 2) What happens when all AI products converge 3) Are consultants the key to winning in AI? 4) Are all AI products commoditizing? 5) Meta's new Muse Spark 1.1 model is very cheap 6) Zuck confirms Meta is thinking about a cloud business 7) Is it bad economics to rent your compute to competitors? 8) Instagram's loose Ai reuse settings 9) Oh man, Meta is relevant in the AI discussion again 10) Professor accuses students of cheating with ChatGPT 11) Was professor wrong? Enjoying Big Technology Podcast? Please rate us five stars ⭐⭐⭐⭐⭐ in your podcast app of choice. Want a discount for Big Technology on Substack + Discord? Here’s 25% off for the first year: https://www.bigtechnology.com/subscribe?coupon=0843016b Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "duration": "3574",
+      "old_score": 28,
+      "old_label": "skip",
+      "qwen": {
+        "id": "c049c2d159239612659cc359",
+        "score": 85,
+        "tier": "listen",
+        "reason": "Meta's AI pricing strategy and OpenAI's superapp raise critical platform and commoditization questions for AI markets.",
+        "confidence": "high"
+      }
+    }
+  ]
+}

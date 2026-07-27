@@ -1,0 +1,311 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-07-09_2103",
+  "usage": {
+    "prompt_tokens": 4992,
+    "completion_tokens": 1176,
+    "total_tokens": 6168
+  },
+  "episodes": [
+    {
+      "id": "f98cb72c033a435d8addaf06",
+      "show_name": "The Cognitive Revolution",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "AI:AM Highlights: Exploring the J-Space, AI Superforecasters, SambaNova's Chips, & LTX Video Gen",
+      "link": "https://www.cognitiverevolution.ai/ai-am-highlights-exploring-the-j-space-ai-superforecasters-sambanova-s-chips-ltx-video-gen/",
+      "published": "2026-07-09T19:38:35+00:00",
+      "summary": "Nathan Labenz and Prakash Narayanan lead this AI:AM highlights episode with a live, hosts-only exploration of Anthropic’s “global workspace” paper, including the J-space and J-lens claims about readable concepts inside language models and the limits of what current probes can see. The episode then moves through Prakash’s AI Engineer World’s Fair field notes, Pangram AI-writing detector experiments, Dan Schwarz of FutureSearch on past-casting and AI superforecasting, Zeev Farbman on open world models, and Kunle Olukotun on the compute layer. The central stake is whether interpretability tools, forecasting benchmarks, enterprise deployment patterns, and AI hardware can make increasingly capable systems more legible and governable before their reasoning becomes too hidden to trust. For full show notes, links, and references, read the episode page:https://www.cognitiverevolution.ai/ai-am-highlights-exploring-the-j-space-ai-superforecasters-sambanova-s-chips-ltx-video-gen/ Sponsor: Claude: Claude by Anthropic is an AI collaborator that understands your workflow and helps you tackle research, writing, coding, and organization with deep context. Get started with Claude and explore Claude Pro at https://claude.ai/tcr CHAPTERS: (00:00) J-space paper preview (05:37) Monitoring hidden reasoning (13:31) Scale and critiques (Part 1) (17:18) Sponsor: Claude (19:09) Scale and critiques (Part 2) (19:10) Finding hidden goals (30:00) Anthropomorphic safety optimism (39:02) Engineer field notes (42:41) Detecting AI writing (49:30) Enterprise workflow risks (52:08) Forecasts and world models (01:35:15) Building Q live (01:37:24) SambaNova inference architecture (01:42:38) AI chip taxonomy (01:47:27) Bandwidth over capacity (01:53:32) Testing model iterations (01:55:35) Enforcing espoused values (01:58:06) AI panopticon bargain (02:01:40) Closing programming note (02:02:29) Episode Outro (02:05:48) Outro PRODUCED BY: https://aipodcast.ing SOCIAL LINKS: Website: https://www.cognitiverevolution.ai Twitter (Podcast): https://x.com/cogrev_podcast Twitter (Nathan): https://x.com/labenz LinkedIn: https://linkedin.com/in/nathanlabenz/ Youtube: https://youtube.com/@CognitiveRevolutionPodcast Apple: https://podcasts.apple.com/de/podcast/the-cognitive-revolution-ai-builders-researchers-and/id1669813431 Spotify: https://open.spotify.com/show/6yHyok3M3BjqzR0VB5MSyk",
+      "duration": "7620",
+      "old_score": 45,
+      "old_label": "skip",
+      "qwen": {
+        "id": "f98cb72c033a435d8addaf06",
+        "score": 90,
+        "tier": "listen",
+        "reason": "Explores AI interpretability, forecasting, and hardware with operator insights from Anthropic, SambaNova, and others.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "e7da94da82e4a44cf8665377",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Time to believe the quantum computing hype?",
+      "link": "",
+      "published": "2026-07-09T19:23:00+00:00",
+      "summary": "Quantum computing hype is everywhere. Trump says we'll have one by 2028, Microsoft by 2029. IBM is investing billions. Is it really happening? Science journalist Sophia Chen joins us to discuss her article, \"What is a quantum computer good for? Absolutely nothing — yet,\" and break down what's real and what's hype in the quantum computing race. Further reading ⁠Meta is reportedly working on smart glasses that would be recording all the time⁠ ⁠Sonos laid off some of its veteran product and design executives⁠ ⁠Cash App fraud⁠ ⁠Starlink deployments on record pace⁠ ⁠Play-Doh for adults is the new Lego for adults⁠ ⁠Slate is hoping a little Razzmatazz will help sell its trucks⁠ ⁠What is a quantum computer good for? Absolutely nothing — yet⁠ ⁠A new paper argues Microsoft exaggerated its quantum claims a year ago⁠ ⁠Drama over quantum computing’s future heats up⁠ ⁠The race is on for quantum-safe cryptography⁠ Subscribe to The Verge for unlimited access to theverge.com, subscriber-exclusive newsletters, and our ad-free podcast feed. We love hearing from you! Email your questions and thoughts to vergecast@theverge.com or call us at 866-VERGE11. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "1705",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "e7da94da82e4a44cf8665377",
+        "score": 60,
+        "tier": "digest",
+        "reason": "Breaks down quantum computing hype and reality, but lacks direct relevance to AI or capital allocation.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "3fdad81c97c3f12b3c474f8a",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: July 9th, 2026",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-july-9th-2026",
+      "published": "2026-07-09T16:32:08+00:00",
+      "summary": "Featuring: Bob Elliott, CEO, CIO & Co-Founder of Unlimited Funds Lt. General Karen Gibson, Advisor at Academy Securities Dr. Nela Richardson, Chief Economist & ESG Officer at ADP See omnystudio.com/listener for privacy information.",
+      "duration": "1057",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "3fdad81c97c3f12b3c474f8a",
+        "score": 40,
+        "tier": "scan",
+        "reason": "Standard Bloomberg Surveillance episode with limited detail on market implications or durable frameworks.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "0c7299a882e698e66e222a30",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Markets Energy Shock",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/markets-energy-shock",
+      "published": "2026-07-09T14:59:22+00:00",
+      "summary": "The latest in finance, economics and investment. Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF . Bloomberg Surveillance hosted by Tom Keene & Paul SweeneyThursday, July 9, 2026 Featuring: 1) David Lebowitz, Global Market Strategist JP Morgan Investment Management, talks about the sound US economy and how markets are pricing in another potential Middle East energy shock. 2) Steve Englander, Global Head of G10 FX Research and of North America Strategy for Standard Chartered Bank, brings us into the market open and breaks down currency moves and Fed minutes. 3) Leslie Palti-Guzman, founder at Energy Vista, joins to discuss more global energy uncertainty. 4) Sandy Peters, Senior Head of Global Advocacy at CFA Institute, joins to talk about how semiannual reporting could impact public markets. See omnystudio.com/listener for privacy information.",
+      "duration": "2009",
+      "old_score": 40,
+      "old_label": "skip",
+      "qwen": {
+        "id": "0c7299a882e698e66e222a30",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Discusses energy shocks and market reactions, relevant for macroeconomic context and capital allocation.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "1bc04be4a04d20c219fbcb6c",
+      "show_name": "Lenny's Podcast",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "Adam Mosseri: AI is a tailwind for authenticity",
+      "link": "https://www.lennysnewsletter.com/p/adam-mosseri-ai-is-a-tailwind-for",
+      "published": "2026-07-09T12:32:21+00:00",
+      "summary": "Adam Mosseri is the Head of Instagram, where he oversees an app used by over 3 billion people. He also leads the team building Threads. Adam has run Instagram for longer than its founders did, after taking over from Kevin Systrom and Mike Krieger in 2018. A designer by training, he spent over 15 years at Meta, starting as a designer on Facebook’s mobile app, rising to lead Facebook’s News Feed, and eventually chosen to lead Instagram. During his tenure, Instagram’s user base has more than tripled. In our in-depth conversation, we discuss: 1. How the canonical product team structure is changing in 2026, from baker’s-dozen specialist teams to lean pods of four to six generalists 2. The rise of the “product staff” role—a blending of PM, design, data science, and research into one generalist operator 3. Why Adam is bullish on designers even as functional boundaries dissolve, and which roles are most at risk 4. What the Instagram algorithm knows about you, and why it’s only now catching up to what people assumed it knew years ago 5. Why the rise of AI-generated content is a tailwind for Instagram, and how the company is thinking about creator identity in a synthetic-content world 6. The two biggest product failures of Adam’s career—Facebook Home and the first version of Reels — Brought to you by: WorkOS —Make your app enterprise-ready, with SSO, SCIM, RBAC, and more: https://workos.com/lenny Mercury —Radically different banking, now with Command: https://mercury.com/command?utm_source=lennys&utm_medium=sponsored_newsletter&utm_campaign=26q3_brand_campaign — Episode transcript: https://www.lennysnewsletter.com/p/adam-mosseri-ai-is-a-tailwind-for — Archive of all Lenny's Podcast transcripts: https://www.dropbox.com/scl/fo/yxi4s2w998p1gvtpu4193/AMdNPR8AOw0lMklwtnC0TrQ?rlkey=j06x0nipoti519e0xgm23zsn9&st=ahz0fj11&dl=0 — Where to find Adam Mosseri: • X: https://x.com/mosseri • LinkedIn: linkedin.com/in/mosseri • Instagram: https://www.instagram.com/mosseri — Where to find Lenny: • Newsletter: https://www.lennysnewsletter.com • X: https://twitter.com/lennysan • LinkedIn: https://www.linkedin.com/in/lennyrachitsky/ — In this episode, we cover: (00:00) Introduction to Adam Mosseri (02:09) How product teams are changing inside Meta (05:48) Blurring roles and career anxiety (14:01) Hiring traits that matter now (16:48) How AI is resetting who succeeds at work (19:38) How Meta thinks about token spend and AI costs (23:23) Where human judgment still matters (25:56) Why AI is not automatically great at strategy (30:36) Why great product leaders are curators (34:23) What Instagram’s algorithm actually knows about you (38:08) Why chronological feeds often disappoint users (40:56) Why AI content may be a tailwind for Instagram (43:42) The future of AI and human content in the feed (48:00) What Adam admires about other social platforms (52:05) How he handles public criticism (56:31) Lessons from the Instagram feed redesign backlash (01:00:21) Adam’s biggest failure: Instagram on iPad (01:03:03) His approach to kids, screens, and social media (01:06:56) What Adam wants listeners to remember — Referenced: • What happens after coding is solved? | Fiona Fung (Manager of the Claude Code and Cowork Teams): https://www.lennysnewsletter.com/p/building-the-most-ai-pilled-engineering • Claude Code: https://www.anthropic.com/product/claude-code • Claude Cowork: https://www.anthropic.com/product/claude-cowork • Head of Claude Code: What happens after coding is solved | Boris Cherny: https://www.lennysnewsletter.com/p/head-of-claude-code-what-happens • A rational conversation on where AI is actually going | Benedict Evans: https://www.lennysnewsletter.com/p/a-rational-conversation-on-where • OpenAI’s CPO on how AI changes must-have skills, moats, coding, startup playbooks, more | Kevin Weil (CPO at OpenAI, ex-Instagram, Twitter): https://www.lennysnewsletter.com/p/kevin-weil-open-ai • Mythos: https://www.anthropic.com/claude/mythos • Fable: https://www.anthropic",
+      "duration": "4109",
+      "old_score": 46,
+      "old_label": "skip",
+      "qwen": {
+        "id": "1bc04be4a04d20c219fbcb6c",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Insight into Instagram's evolving product structure and AI's role in content curation and creator economy.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "7e0a482ec3626966e9c2eef3",
+      "show_name": "No Priors",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Travel Through the Lens of AI with with Booking.com CEO Glenn Fogel",
+      "link": "",
+      "published": "2026-07-09T10:00:00+00:00",
+      "summary": "When Glenn Fogel joined Priceline in 2000, the business was worth a few hundred million dollars. One week later, the Nasdaq peaked, eventually sending its stock down to a dollar a share. But over 25 years later, Booking Holdings has scaled over 1000x into an over $100 billion dollar global travel behemoth. Elad Gil is joined by Booking Holdings CEO Glenn Fogel to discuss his career, from law school and Wall Street to working at Priceline through the dot-com crash, and to helping grow the business into a multifaceted, dynamic travel marketplace in the AI era. Glenn explains how leveraging AI and agents such as Priceline’s ‘Penny’ makes travel planning and customer service better, while emphasizing the importance of preserving some human support for some users. He also talks about Booking’s strategy of reinvesting over $700 million into AI and other technologies while still offering stock buybacks and dividends, the durability of their scale and complexities of dealing with a large portfolio physical properties across the world, and why upskilling is so important for employees amid concerns about AI-driven job displacement. Sign up for new podcasts every week. Email feedback to show@no-priors.com Follow us on Twitter: @NoPriorsPod | @Saranormous | @EladGil | @bookingcom | @priceline Chapters: 00:00 – Cold Open 00:05 – Glenn Fogel Introduction 00:41 – Glenn’s Early Career 06:49 – Lessons from the Early Internet 09:24 – Deciding Factors for Exiting 10:56 – Travel Through the Lens of AI 13:30 – Agentic Travel Planning 18:59 – Agents, Token Economics, and ROI 22:46 – Booking’s Capital Investment Philosophy 25:23 – Scale as Durable Asset 29:40 – Purpose and Choosing Wisely 33:18 – AI’s Impact on Jobs 36:38 – Upskilling in the AI Era 38:36 – Public Perception of AI 40:24 – Conclusion",
+      "duration": "2464",
+      "old_score": 59,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "7e0a482ec3626966e9c2eef3",
+        "score": 80,
+        "tier": "listen",
+        "reason": "CEO discusses AI integration in travel planning, customer service, and capital allocation strategy at Booking.com.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "1be32012c5d0ded10c0c2aaf",
+      "show_name": "Stratechery",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "Muse Image, Grok 4.5, Alex Karp on CNBC",
+      "link": "https://stratechery.com/2026/muse-image-grok-4-5-alex-karp-on-cnbc/",
+      "published": "2026-07-09T10:00:00+00:00",
+      "summary": "The batter for verifiable data is increasingly defining the AI race, from Meta to Grok to the frontier labs.",
+      "duration": "",
+      "old_score": 69,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "1be32012c5d0ded10c0c2aaf",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Covers AI model updates and data verifiability, but light on durable frameworks or operator insights.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "e1b6edb864ac0e81d29b5d10",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Mark Zuckerberg & Priscilla Chan: How AI Will Help Cure Disease",
+      "link": "https://a16z.simplecast.com/episodes/mark-zuckerberg-priscilla-chan-how-ai-will-help-cure-disease-J_rYFGCM",
+      "published": "2026-07-09T10:00:00+00:00",
+      "summary": "As part of our summer replay series, we're revisiting one of our favorite conversations from the past year. Mark Zuckerberg and Dr. Priscilla Chan join Ben Horowitz, Vineeta Agarwala, and Erik Torenberg to discuss the Chan Zuckerberg Initiative's ambitious effort to help cure, prevent, and manage disease by the end of the century. Rather than funding individual breakthroughs, CZI is focused on building the tools and infrastructure that can accelerate scientific discovery across entire fields. The conversation explores Biohub, Cell Atlas, virtual cell models, open biological datasets, and the growing role of AI in helping researchers better understand human biology. They discuss why biology still lacks a \"periodic table of elements,\" how AI could help scientists test hypotheses before running expensive experiments, and why pairing frontier biology with frontier AI may unlock a new era of medical discovery. Resources: Follow Mark Zuckerberg on X: https://x.com/finkd Follow Dr. Priscilla Chan on Instagram: https://www.instagram.com/priscillachan Follow Ben Horowitz on X: https://x.com/bhorowitz Follow Vineeta Agarwala on X: https://x.com/vintweeta Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:45:14",
+      "old_score": 100,
+      "old_label": "must_listen",
+      "qwen": {
+        "id": "e1b6edb864ac0e81d29b5d10",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Highlights AI's role in accelerating biological discovery and medical innovation through CZI's tools and datasets.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "3fd3756e39a80f26c41f222c",
+      "show_name": "Decoder with Nilay Patel",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Why did Comcast ever buy NBC?",
+      "link": "",
+      "published": "2026-07-09T09:00:00+00:00",
+      "summary": "My guest today is Peter Kafka, chief correspondent at Business Insider and host of Channels, a podcast about the media industry. And it’s a big week for the media industry — Comcast just announced that it’s splitting itself up, into the Comcast broadband company and the NBCUniversal entertainment company. This dream, that you can combine distribution with big splashy entertainment properties, has failed time and again. But Comcast tried the content plus pipes strategy for longer than most. So Peter and I discussed what happened in the media and broadband industries over the last 15 years, and what might happen next. Links: Comcast is cutting NBCUniversal loose | Business Insider Comcast’s split could make or break Peacock | The Verge Comcast and NBCUniversal will go it alone. But for how long? | NYT Comcast split shows bigger is no longer better | Deadline A cable scion’s hardest deal yet: breaking up his family’s company | WSJ Subscribe to The Verge to access the ad-free version of Decoder! Credits: Decoder is a production of The Verge and part of the Vox Media Podcast Network. Decoder is produced by Kate Cox and Nick Statt and edited by Ursa Wright. Our editorial director is Kevin McShane. The Decoder music is by Breakmaster Cylinder. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "3772",
+      "old_score": 36,
+      "old_label": "skip",
+      "qwen": {
+        "id": "3fd3756e39a80f26c41f222c",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Media industry analysis of Comcast/NBCU breakup; lacks actionable insights for AI or capital allocation.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "f4e76803f1bdb46be6c103a2",
+      "show_name": "Infinite Loops",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Jameson Olsen - Becoming the Main Character (Ep. 322)",
+      "link": "https://infiniteloopspodcast.com/322",
+      "published": "2026-07-09T09:00:00+00:00",
+      "summary": "What if the great stories were more than just stories? Jameson Olsen, host of Becoming the Main Character, joins guest host Liberty to explore fiction as a kind of operating system for life — a way to study agency, ambition, empathy, failure, courage, and change without having to live every consequence yourself. Through Hamlet, Frankenstein, Sherlock Holmes, Lord of the Rings, training montages, NPCs, and the Hero's Journey, they discuss what it means to stop drifting through life and start holding the pen of your own story. Important Links: Listen to Jameson's podcast here: https://www.becomingmain.com/",
+      "duration": "01:34:14",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "f4e76803f1bdb46be6c103a2",
+        "score": 45,
+        "tier": "scan",
+        "reason": "Philosophical take on fiction as life framework; not directly relevant to DJ's focus areas.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "8d09c62d38796bd514c764e8",
+      "show_name": "Masters of Scale",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Chef Marcus Samuelsson on the ingredients for success",
+      "link": "",
+      "published": "2026-07-09T09:00:00+00:00",
+      "summary": "Telling a clear story about your product is an essential entrepreneurial skill. Chef Marcus Samuelsson is an expert at this in his beloved restaurants (Hav & Mar and Red Rooster) and through his broader entrepreneurial efforts. Samuelsson joined host Reid Hoffman in 2024 to share how embracing a diversity of stories has been an essential ingredient to his businesses. Subscribe to the Masters of Scale weekly newsletter: https://mastersofscale.com/subscribe See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info .",
+      "duration": "00:35:41",
+      "old_score": 47,
+      "old_label": "skip",
+      "qwen": {
+        "id": "8d09c62d38796bd514c764e8",
+        "score": 55,
+        "tier": "scan",
+        "reason": "Chef discusses storytelling and diversity in entrepreneurship; limited business or AI insight.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "fa73ec0e94018e443784578d",
+      "show_name": "Odd Lots",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "One of the World's Largest Hedge Funds on Its 86x Growth in Token Spending",
+      "link": "https://omny.fm/shows/odd-lots/one-of-the-worlds-largest-hedge-funds-on-its-86x-growth-in-token-spending",
+      "published": "2026-07-09T08:00:00+00:00",
+      "summary": "We've gone through a number of a technological revolutions in investing, whether it was the dawn of the high frequency trading era or the introduction of robotraders. When it comes to AI, the big question that remains in the investment context is whether or not the technology will be implemented like those past tech innovations — meaning it will be integrated into the flow of the business without upending everything as we know it — or if AI will transform the very nature of investing. Right now, AI's use in investing is a mixed bag: People are excited about its potential, but several firms are still trying to figure out its value. Today, we speak with Man Group's CTO Gary Collier and Head of Data and AI Tushara Fernando about how one of the largest publicly-traded hedge funds in the world is actually implementing AI into its work. We speak with them about empowering their quants with AI tools, the challenge of integrating AI safely, and the creative ways their staff is thinking about token spending, which is up 86-fold this year. Only Bloomberg.com subscribers can get the Odd Lots newsletter in their inbox — plus unlimited access to the site and app. Sign up here: bloomberg.com/subscriptions/oddlots See omnystudio.com/listener for privacy information.",
+      "duration": "3149",
+      "old_score": 32,
+      "old_label": "skip",
+      "qwen": {
+        "id": "fa73ec0e94018e443784578d",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Hedge fund execs discuss AI integration in investing, including tools, safety, and ROI challenges.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "d137326acc87d275cdcadbb3",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Why OpenAI Bought a Podcast — with TBPN’s John Coogan and Jordi Hays",
+      "link": "",
+      "published": "2026-07-09T08:00:00+00:00",
+      "summary": "Scott Galloway sits down with TBPN creators John Coogan and Jordi Hays to unpack how they turned a daily tech show into one of the fastest-growing businesses in media — and ultimately, OpenAI’s first acquisition. They discuss why most podcasts get advertising wrong, how a small but influential audience can be worth more than mass reach, and why they built TBPN like a startup. Plus, they debate OpenAI vs. Anthropic and what Mark Zuckerberg’s obsession with the next big thing reveals about the future of tech. Want to listen to this and other episodes ad-free? You can, if you subscribe at profgmedia.com. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "3691",
+      "old_score": 59,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "d137326acc87d275cdcadbb3",
+        "score": 60,
+        "tier": "digest",
+        "reason": "Discusses podcast monetization and OpenAI's acquisition, but light on durable frameworks or operator insights.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "aa4b5df9496cb5d15307eee7",
+      "show_name": "The Twenty Minute VC",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "20VC: Sam Altman Offers Trump 5% of OpenAI: Fool or Genius? | Alex Karp Sounds the Alarm: Enterprises Fear Frontier Models & Questionable ROI of AI | The Rise of Chinese Open Source: Deepseek Building Own Chips",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-sam-altman-offers-trump-5-of-openai-fool-or-genius-alex-karp-sounds-the-alarm-enterprises-fear-frontier-models-questionable-roi-of-ai-the-rise-of-chinese-open-source-deepseek-building-own-chips",
+      "published": "2026-07-09T07:07:00+00:00",
+      "summary": "AGENDA: 05:00 Washington Just Put Frontier AI on a Leash 06:30 Sam Altman's Wild 5% Government Stake Idea 19:00 The AI Funding Bubble: Why Founders No Longer Fear Dilution 28:00 Alex Karp's Brutal Warning: Enterprises Don't Trust Frontier AI 33:00 Meta's Shock Pivot: Has Zuck Accidentally Built the Next CoreWeave? 41:00 Nvidia's Dangerous New Game: \"Compute Now, Pay Later\" 45:00 Anthropic & DeepSeek Go After Nvidia's Crown 48:00 Kling vs Sora: Did China Just Win AI Video? 52:00 Is China Secretly Winning the Open Source AI War? 01:02:00 Microsoft & Amazon's $6B Bet: AI Still Needs Humans 01:11:00 Ashton Kutcher Walks Away From Sound Ventures 01:16:00 The New Startup Talent War: No Liquidity, No Chance 01:20:00 Final Thoughts: Who Wins the AI Endgame?",
+      "duration": "01:23:32",
+      "old_score": 100,
+      "old_label": "must_listen",
+      "qwen": {
+        "id": "aa4b5df9496cb5d15307eee7",
+        "score": 85,
+        "tier": "listen",
+        "reason": "Covers AI funding, enterprise trust, and global competition with sharp takes on OpenAI, Anthropic, and China.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "586fca889ceb538980974cc6",
+      "show_name": "Latent Space",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Why AI Infrastructure must evolve for Agent Experience — Akshat Bubna, Modal CTO",
+      "link": "https://www.latent.space/p/modal2026",
+      "published": "2026-07-08T22:55:07+00:00",
+      "summary": "We’ve been running a bit of an Agent Cloud series surveying all the top inference/compute/cloud providers, from Databricks to Daytona to Railway and, even further back, E2B , but we’re excited to conclude this series returning to Modal, which has just raised a monster $355M Series C . The cloud was built for developers. But agents are now changing that. The old infra stack was designed for a human who could read docs, reason through YAML, and understand dashboards to figure out what they need when something broke. While this was painful for developers, it worked since they could fill in missing context in their heads. However, agents don’t have that luxury. Now in this new era of agents, everything has to be tighter. They need a place to write code, run it, inspect the output, change the environment, debug failures, and try again. Fast iteration and feedback loops with all the necessary context are crucial for agents to operate properly. Furthermore, sandboxes are a clear representation of this shift as agents can easily spin up isolated environments. This programmatic infra even extends to research: Two years ago, we were one of the first to cover Modal with CEO Erik Bernhardsson and Alessio designed our favorite LS thumbnail of all time: At the time, Modal was just a teeny little company with a $17M Series A . Today, fresh off their $355M Series C , Modal is one of the clearest examples of the agent cloud future being built in real time: a cloud platform moving past traditional web app assumptions toward the workloads AI actually creates such as elastic inference , sandboxes , GPU burst, post-training, background agents, and infrastructure that agents themselves can operate . In this episode, Modal CTO Akshat Bubna joins swyx and Vibhu to unpack why AI applications don’t fit traditional cloud assumptions, why Kubernetes was never designed for bursty compute-heavy workloads, and why Modal is now shifting from developer experience to agent experience . We go deep on Modal’s AI infra stack: serverless functions, decorator-based infrastructure, elastic inference for custom models , GPU snapshotting, DeFlash, speculative decoding, Auto Endpoints, sandboxes, persistent storage, networked containers, private IPv6, RDMA, multi-node training, and Modal’s capacity pool across 17 cloud providers . Akshat also explains why RL rollouts can require 100,000 sandboxes , why production agents need hard guardrails, why observability may matter more than reading code, and why AI has made infrastructure exciting again. We discuss: * Why Kubernetes wasn’t built for bursty AI workloads * How Modal started as a better runtime before becoming an AI cloud * Why Modal added GPUs before ChatGPT * The shift from developer experience to agent experience * Why observability matters when agents are writing the code * Elastic inference for custom models across audio, video, robotics, and comp bio * GPU snapshotting , cold starts, and why inference workloads are so bursty * Why RL rollouts can require 100,000 sandboxes * DeFlash , speculative decoding, and frontier-level inference performance * Auto Endpoints and making optimized inference easier to deploy * What Modal adds beyond vLLM , SGLang , and raw GPU rental * Modal’s 17-cloud capacity pool and supercloud strategy * Networked sandboxes , sidecars, private IPv6, and RDMA * Serverless multi-node training for post-training and research workloads * Auto-research , model-guided sweeps, and agents launching GPU experiments * Compute strategy , capacity planning, and batch tiers * Why production agents need specialized sandboxes and hard guardrails * Modal’s take on managed agents , CI , Gitpod/Ona, Python, TypeScript, and Modal Bench Akshat Bubna * LinkedIn: https://www.linkedin.com/in/akshat-bubna-188885103 * X: https://x.com/akshat_b Modal * Website: https://modal.com Timestamps 00:00:00 Introduction 00:00:39 Modal’s origin and why Kubernetes wasn’t enough 00:04:32 Developer Experience → Agent Experience",
+      "duration": "3475",
+      "old_score": 51,
+      "old_label": "skip",
+      "qwen": {
+        "id": "586fca889ceb538980974cc6",
+        "score": 80,
+        "tier": "listen",
+        "reason": "Modal CTO discusses agent-first infrastructure evolution, critical for next-gen AI deployment and developer workflows.",
+        "confidence": "high"
+      }
+    }
+  ]
+}

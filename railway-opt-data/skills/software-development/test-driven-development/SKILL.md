@@ -221,6 +221,16 @@ No. Tests-after answer "What does this do?" Tests-first answer "What should this
 
 Tests-after are biased by your implementation. You test what you built, not what's required. Tests-first force edge case discovery before implementing.
 
+## Persisted User Inputs vs Prescribed Defaults
+
+When a workflow stores both a *target* and an *actual* value, keep them distinct in both UI and tests:
+
+- Use placeholders or helper text for the target when the user is expected to enter an actual result.
+- Do not prefill actual-result fields with the prescription unless the product explicitly means "default to target".
+- For progression/repeat logic, drive next-step decisions from recorded actual values, not planned values.
+- When changing this behavior, update the draft-builder test, the editing UI test, and the progression test together so the whole loop stays consistent.
+- See `references/workout-session-log-fields.md` for a compact example and field mapping.
+
 ## Common Rationalizations
 
 | Excuse | Reality |
@@ -344,7 +354,7 @@ Never fix bugs without a test.
 - **Happy path only** — always test edge cases, errors, and boundaries
 - **Brittle tests** — tests should verify behavior, not structure; refactoring shouldn't break them
 - **Assumed fixture values** — when writing tests against seed/fixture data that already exists (e.g. a JSON seed file, a database fixture), READ THE FIXTURE FIRST before hardcoding expected values. A test that asserts `exerciseName: 'Bench Press'` when the seed file says `'Barbell Bench Press'` will fail at the assertion level, not at the missing-implementation level, obscuring whether the implementation is wrong or the expectation is wrong. Pattern: `read_file(fixture)` → extract exact values → write test expectations from those values.
-- **Arithmetic expectations written by hand** — for aggregate calculations (calorie balance, totals, averages), work the math explicitly on paper/inline before writing the assertion. A test that asserts `-1800` when the actual correct answer from the test inputs is `-1400` wastes one full RED→fix-test→verify-RED cycle before you can start on GREEN.
+- **Static/browser-app regression tests can inspect generated assets when no browser runner exists** — for self-contained HTML/JS apps, add focused text/fixture tests that guard critical branches, fixture counts, and removed stale constants. Example: assert a bundled gallery has per-image crop fixture keys for every sample file, a crop-spec count far above the number of source photos, and the intended sample-routing branch. This is not a substitute for visual verification, but it prevents repeating catastrophic branch regressions.
 
 ## Final Rule
 

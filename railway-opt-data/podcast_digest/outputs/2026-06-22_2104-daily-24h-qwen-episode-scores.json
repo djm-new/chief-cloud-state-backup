@@ -1,0 +1,331 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-06-22_2104",
+  "usage": {
+    "prompt_tokens": 5321,
+    "completion_tokens": 1224,
+    "total_tokens": 6545
+  },
+  "episodes": [
+    {
+      "id": "e5aa7f1f232e12d1c52fd14d",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Is the Steam Machine worth the wait?",
+      "link": "",
+      "published": "2026-06-22T18:39:00+00:00",
+      "summary": "Valve has been trying to crack the living room for more than a decade, and the new Steam Machine is its best attempt yet. It's a little bit PC, a little bit console, and a lot pricy — starting at $1,049, it had a lot to live up to. The Verge’s Sean Hollister has been testing the device, and shares his findings on whether the Steam Machine can hang with PlayStation and Xbox. He also explains why, despite a never-ending list of challenges, Valve is still trying to make this device work. Further reading: ⁠The Steam Machine is the most ambitious game console I’ve ever played⁠ Subscribe to The Verge for unlimited access to theverge.com, subscriber-exclusive newsletters, and our ad-free podcast feed. We love hearing from you! Email your questions and thoughts to vergecast@theverge.com or call us at 866-VERGE11. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "2254",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "e5aa7f1f232e12d1c52fd14d",
+        "score": 40,
+        "tier": "scan",
+        "reason": "Gaming hardware analysis, niche focus on Steam Machine vs consoles, limited broader market or AI relevance.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "bebf26dbfb967bfd1bde7cb5",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: June 22nd, 2026",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-june-22nd-2026",
+      "published": "2026-06-22T16:00:00+00:00",
+      "summary": "Featuring: Lori Calvasina, Managing Director & Head: US Equity Strategy at RBC Capital Markets Jordan Rochester, Head of FICC Strategy EMEA at Mizuho Bank Republican Senator Dave McCormick of Pennsylvania See omnystudio.com/listener for privacy information.",
+      "duration": "1576",
+      "old_score": 28,
+      "old_label": "skip",
+      "qwen": {
+        "id": "bebf26dbfb967bfd1bde7cb5",
+        "score": 55,
+        "tier": "digest",
+        "reason": "Market commentary with senator and strategists, potential macro insights but generic Surveillance format.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "80a445d57c2b438a7c5e1f78",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Equity Rally Post-FOMC",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/equity-rally-post-fomc",
+      "published": "2026-06-22T15:51:05+00:00",
+      "summary": "The latest in finance, economics and investment. Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF . Bloomberg Surveillance hosted by Tom Keene & Paul SweeneyMonday, June 22, 2026 Featuring: 1) Seema Shah, Chief Global Strategist at Principal Asset Management, joins for a discussion on the US and global economic pictures and how the market momentum continues after last week's historic FOMC meeting. 2) David Katz, President and CIO of Matrix Asset Advisors, talks about finding value in a bull market and stocks he sees performing well in the near and long term. 3) John Mickletwait, editor-in-chief for Bloomberg News, on Keir Starmer's resignation. 4) Molly Pieroni, Partner and President at Yacktman Asset Management, on stocks she likes and outlook for equities. See omnystudio.com/listener for privacy information.",
+      "duration": "1469",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "80a445d57c2b438a7c5e1f78",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Post-FOMC market analysis with asset managers, relevant for capital allocation and macro read.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ffd9b77c1345eac7f6e6fa20",
+      "show_name": "Big Technology Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "The Fable Ban's Unintended Consequences + AI's New Economics — With Aaron Levie",
+      "link": "",
+      "published": "2026-06-22T15:41:00+00:00",
+      "summary": "Aaron Levie is the co-founder and CEO of Box. Levie joins Big Technology Podcast live from the Big Technology AI Summit to discuss the government-mandated recall of Anthropic's Fable and Mythos models and what it reveals about where AI regulation is heading. Tune in to hear Levie argue that the recall — far from a conspiracy to kneecap the frontier labs — may be the closest thing yet to the \"AI pause\" critics have demanded, why he thinks the government is now effectively in the model-approval business, and how that shift could hand China the long-term economic edge. We also cover whether \"token maxing\" was ever real, why the application layer may capture more value than anyone expected, the open-weight models closing in on the frontier, and a quick lightning round on Siri, the \"permanent underclass\" meme, and SpaceX. Hit play for one of the sharpest, funniest reads on the AI moment you'll find anywhere, only on Big Technology. --- Enjoying Big Technology Podcast? Please rate us five stars ⭐⭐⭐⭐⭐ in your podcast app of choice. Want a discount for Big Technology on Substack + Discord? Here’s 25% off for the first year: https://www.bigtechnology.com/subscribe?coupon=0843016b Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "duration": "1884",
+      "old_score": 36,
+      "old_label": "skip",
+      "qwen": {
+        "id": "ffd9b77c1345eac7f6e6fa20",
+        "score": 80,
+        "tier": "listen",
+        "reason": "CEO-level AI regulation and economics insights from Box's Levie, directly relevant to DJ's focus areas.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "308eda6c1773e2e36280d3da",
+      "show_name": "The Breakdown with NLW",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Is Strategy Really the Next Terra Luna?",
+      "link": "",
+      "published": "2026-06-22T15:04:00+00:00",
+      "summary": "Strategy’s STRC is still trading below its $100 target and has drawn comparisons to Terra Luna. David walks through how Terra Luna actually imploded, why Strategy's flywheel is meaningfully different, and the real problem he sees underneath it all. Enjoy! FOLLOW THE SHOW › David — https://x.com/dcanellis › The Breakdown — https://x.com/TheBreakdownBW › The Breakdown Newsletter — https://blockworks.com/newsletter/the-breakdown DISCLAIMER As always, remember this podcast is for informational purposes only, and any views expressed by anyone on the show are solely their opinions, not financial advice.",
+      "duration": "1655",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "308eda6c1773e2e36280d3da",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Crypto commentary comparing Strategy to Terra Luna, speculative and narrow audience.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "91fdbee0792f4b0af2f27061",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Jake Paul & Anti Fund: From Creator to Investor",
+      "link": "https://a16z.simplecast.com/episodes/jake-paul-anti-fund-from-creator-to-investor-S6O4PAbH",
+      "published": "2026-06-22T14:00:00+00:00",
+      "summary": "Jake Paul and Geoff Woo join the podcast to announce Anti Fund’s new $100 million growth fund and discuss the evolution of their investment strategy. The conversation covers the fund’s portfolio, including investments in companies such as SpaceX, OpenAI, Anthropic, Anduril, Cognition, Etched, and Modal, as well as the lessons they’ve learned backing founders and identifying emerging technologies. They discuss founder psychology, resilience, ambition, and why they believe attention, culture, and distribution are becoming increasingly important advantages in the AI era. Along the way, Jake reflects on his path from creator to entrepreneur, athlete, and investor, while Geoff shares his views on venture capital, technology, and how AI is reshaping opportunity for founders and builders. Resources: Follow Jake Paul on X: https://x.com/jakepaul Follow Geoff Woo on X: https://x.com/geoffreywoo Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "01:05:50",
+      "old_score": 55,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "91fdbee0792f4b0af2f27061",
+        "score": 60,
+        "tier": "digest",
+        "reason": "Investor-founder dialogue on AI, attention, and culture, but light on durable frameworks or operator insights.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "0f0fc275e629a9c6e45b5d66",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Special Report: Alan Greenspan Dies at 100",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/special-report-alan-greenspan-dies-at-100",
+      "published": "2026-06-22T12:01:23+00:00",
+      "summary": "Alan Greenspan has died at the age of 100. The former Federal Reserve Chairman died on Monday at his home, NBC News reported, citing his wife, Andrea Mitchell. The cause was complications of Parkinson’s disease. Greenspan was proclaimed a wizard for guiding a then-record US economic expansion, only to see his luster dimmed by the financial crisis that erupted less than two years after he stepped down. Bloomberg's David Westin, Paul Sweeney and Isabelle Lee look back at the life and legacy of Alan Greenspan, along with James Egelhof, Chief US Economist at BNP Paribas, and John Micklethwait, Editor-in-Chief at Bloomberg News. See omnystudio.com/listener for privacy information.",
+      "duration": "459",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "0f0fc275e629a9c6e45b5d66",
+        "score": 55,
+        "tier": "digest",
+        "reason": "Legacy economic policy reflection on Greenspan, informative but not actionable for DJ.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "2e954b8464cfd0b004262e7a",
+      "show_name": "EconTalk",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Can a Phone Be a Cow? (with Philip Auerswald)",
+      "link": "https://www.econtalk.org/can-a-phone-be-a-cow-with-philip-auerswald/",
+      "published": "2026-06-22T10:30:00+00:00",
+      "summary": "Can a phone be a cow? It could in 1990s Bangladesh. This was the insight of a small number of mobile phone market pioneers who helped catalyze the spread of the greatest technological revolution in human history. Listen as George Mason University economist Philip Auerswald speaks to EconTalk's Russ Roberts about how the extension of connectivity to traditionally excluded populations led to wide-scale transformations in productivity. They discuss the role of little-known entrepreneurs such as Iqbal Quadir and innovators like Claude Shannon in bringing the mobile phone to the entire world. Other topics include William Nordhaus's paper on the cost of illumination as a powerful metric of human progress, Schumpeter's notion of innovation as new combinations, and what Auerswald calls the most important question the field of economics can ask: How much of human progress is inevitable, and how much depends on the determination of remarkable individuals?",
+      "duration": "01:19:35",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "2e954b8464cfd0b004262e7a",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Historical tech diffusion parallels, useful for long-term AI adoption frameworks.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "9ccfe0c617166f82b8ca2155",
+      "show_name": "Stratechery",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "Apple Price Increases, Apple Intelligence and the E.U.",
+      "link": "https://stratechery.com/2026/apple-price-increases-apple-intelligence-and-the-e-u/",
+      "published": "2026-06-22T10:00:00+00:00",
+      "summary": "Apple is (finally) raising prices, but they're not shipping Siri AI to the E.U.",
+      "duration": "",
+      "old_score": 34,
+      "old_label": "skip",
+      "qwen": {
+        "id": "9ccfe0c617166f82b8ca2155",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Apple pricing and EU regulatory friction, relevant for tech business model and AI rollout strategy.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "4830e12b6361a5a9347b0dc4",
+      "show_name": "Decoder with Nilay Patel",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Can Patreon fight fire with social media fire?",
+      "link": "",
+      "published": "2026-06-22T09:00:00+00:00",
+      "summary": "A lot has changed on the internet, in the creator landscape, and at Patreon itself since CEO Jack Conte was last on the show in 2021. AI and platform shifts have stolen creator content and decimated artists' reach and revenue streams, and Patreon has made some pretty existential changes to the way it works in response. Links: My thoughts on AI | Patreon I tried to prove I’m not AI | Howtown Patreon: Apple’s 30% tax is the price of staying in the App Store | The Verge Welcome to hell, Elon (2022) | The Verge Reality is losing the deepfake war | Decoder Elon Musk is steamrolling Wall Street to become a trillionaire | Decoder Incorruptible | Simon & Schuster Subscribe to The Verge to access the ad-free version of Decoder! Credits: Decoder is a production of The Verge and part of the Vox Media Podcast Network. Decoder is produced by Kate Cox and Nick Statt. This episode was edited by Xander Adams. Our editorial director is Kevin McShane. The Decoder music is by Breakmaster Cylinder. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "4384",
+      "old_score": 67,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "4830e12b6361a5a9347b0dc4",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Creator economy challenges with AI and platform shifts, moderate relevance to content infrastructure.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "56aec237a6a7902b35b340ca",
+      "show_name": "Capital Allocators",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Homegrown CIO at Williams College - Abigail Wattley (EP.507)",
+      "link": "https://tedseides.libsyn.com/homegrown-cio-at-williams-college-abigail-wattley-ep507",
+      "published": "2026-06-22T08:00:00+00:00",
+      "summary": "Abigail Wattley is the Chief Investment Officer of Williams College, where she oversees the school's $4.5 billion endowment. She became CIO three years ago upon the retirement of Collette Chilton, whose past conversation is replayed in the feed. Abigail has spent two decades in the Williams investment office, and her tenure manifests the benefits of duration and institutional knowledge in the seat. Our conversation traces Abigail's nearly twenty-year journey inside the Williams Investment Office, from joining as an early analyst to becoming the internal successor CIO. We discuss the consistent mandate throughout alongside Abigail's evolution from analyst to deputy to decision-maker, including the knowledge retained as an internal candidate, the tension between respecting an institution's history and putting her own stamp on the portfolio, and perspectives on hedge funds, private markets, liquidity management, real assets, team development, and AI. Editing and post-production work for this episode was provided by The Podcast Consultant ( ⁠ https://thepodcastconsultant.com ⁠ ) Learn More Follow Ted on Twitter at @tseides or LinkedIn Subscribe to the mailing list Access Transcript with Premium Membership",
+      "duration": "47:24",
+      "old_score": 48,
+      "old_label": "skip",
+      "qwen": {
+        "id": "56aec237a6a7902b35b340ca",
+        "score": 75,
+        "tier": "listen",
+        "reason": "Endowment management and capital allocation insights from internal CIO succession, directly relevant.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "41095971d13d12ff28002cdd",
+      "show_name": "Odd Lots",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "Grace Shao on What the World Should Know About Chinese AI",
+      "link": "https://omny.fm/shows/odd-lots/grace-shao-on-what-the-world-should-know-about-chinese-ai",
+      "published": "2026-06-22T08:00:00+00:00",
+      "summary": "China's AI industry has changed a lot since DeepSeek released its cheap frontier model last year, and briefly sent US tech stocks falling. After being locked out of the most advanced chips, Chinese companies are now allowed to buy some Nvidia H200s. In fact, many of the big Chinese tech companies — like Baidu — are making a push to become full-stack players, with their own chips, models, and cloud infrastructure. Today's guest is Grace Shao, an independent AI researcher and the author of the AI Proem Substack. She's a bit of an insider when it comes to China's AI industry, and when we were in Hong Kong we spoke with her about the latest in open-source models, the competition among Chinese frontier labs, DeepSeek's place in an increasingly crowded Chinese AI market, China's manufacturing edge, where bottlenecks exist right now (spoiler: it isn't data centers), if Chinese grandmas are actually using OpenClaw, and finally, of course, AI psychosis. Read More: China AI Lab’s 170% Stock Surge Cements Winner-Loser Pair Trade China Plans Mechanism to Evaluate AI Impacts on Job Market Only http://Bloomberg.com subscribers can get the Odd Lots newsletter in their inbox each week, plus unlimited access to the site and app. Subscribe at bloomberg.com/subscriptions/oddlots Subscribe to the Odd Lots Newsletter Join the conversation: discord.gg/oddlots See omnystudio.com/listener for privacy information.",
+      "duration": "3064",
+      "old_score": 36,
+      "old_label": "skip",
+      "qwen": {
+        "id": "41095971d13d12ff28002cdd",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Chinese AI landscape update with frontier labs and infrastructure bottlenecks, important for global AI strategy.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "72e0426dcbffc7e7adfc624d",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Trump Accounts, the Collapse of Local News, and Conversations with Your Parents",
+      "link": "",
+      "published": "2026-06-22T08:00:00+00:00",
+      "summary": "Scott Galloway responds to a listener who argues that Trump Accounts are just another giveaway to the wealthy. Scott breaks down why he supports the idea, why he thinks America transfers too much wealth from young people to older generations, and the retirement reform he'd implement instead. Plus, Scott answers a journalist worried about the future of local news and shares advice for anyone hoping to have deeper conversations with a parent before it's too late. Want to be featured in a future episode? Send a voice recording to officehours@profgmedia.com, or drop your question in the r/ScottGalloway subreddit. Plus, you can now call or text Scott a question at our new Office Hours hotline: ‪(201) 472-3656‬. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "1222",
+      "old_score": 0,
+      "old_label": "skip",
+      "qwen": {
+        "id": "72e0426dcbffc7e7adfc624d",
+        "score": 45,
+        "tier": "scan",
+        "reason": "Opinion-driven commentary on wealth transfer and media collapse, light on durable frameworks.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "939c1dbcfe90090cc425a859",
+      "show_name": "Capital Allocators",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "[REPLAY] Collette Chilton – Humility and Loyalty at Williams College (EP.174)",
+      "link": "https://tedseides.libsyn.com/replay-collette-chilton-humility-and-loyalty-at-williams-college-ep174",
+      "published": "2026-06-22T07:45:00+00:00",
+      "summary": "Collette Chilton is the CIO of Williams College where she has overseen its $3 billion since 2006. Collette is nothing short of a legend in the business. She has sat in a CIO seat since the early 1990s at the helm of public pension MassPrim and corporate pension Lucent before joining Williams. Institutional Investors bestowed its Lifetime Achievement Award on Collette in 2019, and Barron's named her one of the 100 Most Influential Women in Finance in 2020. Our conversation covers Collette's career path and lessons learned before joining Williams. We then turn to her arrival at Williams in 2006 to a phone, a computer, and a legacy portfolio, Williams' governance structure leveraging alumni advisors, asset allocation, manager selection, manager monitoring, hedge funds, venture capital, and navigating around popular managers. Editing and post-production work for this episode was provided by The Podcast Consultant ( ⁠ https://thepodcastconsultant.com ⁠ ) Learn More Follow Ted on Twitter at @tseides or LinkedIn Subscribe to the mailing list Access Transcript with Premium Membership",
+      "duration": "53:46",
+      "old_score": 36,
+      "old_label": "skip",
+      "qwen": {
+        "id": "939c1dbcfe90090cc425a859",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Replay of prior CIO interview, useful for institutional investment continuity but not new insights.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "9a64f4682a8b7bfe047b078c",
+      "show_name": "The Twenty Minute VC",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "20VC: Nikesh Arora on the Frontier Model Problem: Breadth vs Depth | The Future of Token Costs | Memory Becoming the Moat | Where Value Accrues: Infra, Models, or Apps? | Why Enterprise AI is Not Ready & Systems of Record vs Systems of Intelligence",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-nikesh-arora-on-the-frontier-model-problem-breadth-vs-depth-the-future-of-token-costs-memory-becoming-the-moat-where-value-accrues-infra-models-or-apps-why-enterprise-ai-is-not-ready-systems-of-record-vs-systems-of-intelligence",
+      "published": "2026-06-22T07:07:00+00:00",
+      "summary": "Nikesh Arora is the Chairman and CEO of Palo Alto Networks, the global cybersecurity leader. Since taking over in 2018, he has transformed the company from an $18 billion market cap business into one worth more than $225BN with more than 21,000 employees globally. Previously, Nikesh was President and COO of SoftBank, where he worked alongside Masayoshi Son and helped shape the firm's technology investment strategy. AGENDA: 00:00 Why AI Token Prices Will Fall 90% — And Why That's Bullish for AI 07:40 The Frontier Model Problem: Breadth vs Depth in AI 11:30 Most Enterprises Are Using AI Completely Wrong 13:10 Why AI Could Cut Marketing, HR & Finance Teams in Half 16:00 AI Applications Will Have Opinions — SaaS Never Did 20:00 OpenAI, Anthropic & The Most Important Valuation Question in Tech 24:00 The Real Business Model of AI: Transaction Revenue Beats Advertising 25:10 Why Token Prices Must Collapse 28:20 Where Value Actually Accrues in AI: Models, Memory or Apps? 29:00 Why Memory Becomes the Biggest Moat in AI 32:00 Why Every Enterprise Should Be Scared Right Now 33:15 Should Governments Regulate Frontier AI Models? 37:10 Why Brian Armstrong's AI-First Playbook Doesn't Work Everywhere 40:00 The Biggest AI Mistake CEOs Are Making Today 42:00 How Nikesh Creates Darwinian Competition Inside Palo Alto 43:00 Do AI Companies Really Need Forward-Deployed Engineers? 45:00 Why Enterprise AI Products Still Aren't Ready 52:00 Systems of Record vs Systems of Intelligence: The Future of Software 54:00 Why AI Applications Will Replace Traditional SaaS Workflows 58:00 What Nikesh Learned From Google That Still Matters Today 1:04:00 From $200 and Two Suitcases to Running a $225B Company 1:10:00 Happiness, Gratitude and Why Tomorrow Matters More Than Ten Years From Now",
+      "duration": "01:14:19",
+      "old_score": 38,
+      "old_label": "skip",
+      "qwen": {
+        "id": "9a64f4682a8b7bfe047b078c",
+        "score": 85,
+        "tier": "listen",
+        "reason": "Palo Alto Networks CEO on AI economics, enterprise readiness, and value accrual, highly relevant to DJ's focus.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "4636d1b78ae35eb1eeaa6f2a",
+      "show_name": "Acquired",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "The Walt Disney Company",
+      "link": "https://www.acquired.fm/episodes/the-walt-disney-company",
+      "published": "2026-06-22T05:54:28+00:00",
+      "summary": "The Walt Disney Company is the most successful enterprise ever created for monetizing human nostalgia. Today it’s the king of global entertainment, holding the intellectual property rights to the childhood memories of billions of people (including, likely, all of you) and is a reliable, predictable profitable business. But it didn’t start that way. During Walt’s era, Disney operated like an unhinged moonshot factory, blowing its finances on one seemingly crazy project after another, like the very first feature-length animated film or a theme park inspired by Walt's fascination with model trains (spoiler: Disneyland). Walt’s relentless ambition to bet the company over and over again not only created some of the most monumental artistic achievements of the 20th century (Snow White, Fantasia, Disney Imagineering), but also resulted in the accidental invention of the modern “flywheel” business model. In this episode, we tell the story of the ultimate marriage of art, commerce, and engineering — The Walt Disney Company: Walt's Era. Sponsors: Many thanks to our fantastic Spring '26 Season partners: J.P. Morgan WeAreDevelopers event Vercel ServiceNow Statsig Links: Sign up for email updates , get our takeaways and research photos from each episode, and vote on future topics! The Acquired Disney Companion PDF Our Disney column in WSJ The original 1958 WSJ “Flywheel” article\" Walt Disney: The Triumph of the American Imagination by Neal Gabler The Animated Man by Michael Barrier Walt Disney: An American Original by Bob Thomas Building a Company: Roy O. Disney and the Creation of an Entertainment Empires by Bob Thomas The Disney Version: The Reedy Creek Improvement District in the Contemporary Florida Story by Richard Schickel PBS American Experience: Walt Disney Disneyland Handcrafted Walt's 1966 EPCOT pitch video Worldly Partners' Multi-Decade Disney Study The Walt Disney Family Museum All episode sources Carve Outs: Brooks Vanguard sneakers Defunctland YouTube Channel Animagraffs YouTube Channel Volvo EX30 The San Francisco Symphony More Acquired: Get email updates and vote on future episodes! Join the Slack Check out the latest swag in the ACQ Merch Store ! 00:00 Start 01:09 Intro 06:03 Walt's Early Life & Artistic Calling (1901-1919) 12:37 From Commercial Art to Laugh-o-grams (1919-1923) 23:04 Hollywood, The Alice Comedies & Oswald's Loss (1923-1928) 43:31 Mickey Mouse & The Synchronized Sound Breakthrough (1928) 01:01:53 The IP Flywheel & Mickey Merch Explosion (1929-1933) 01:09:57 Analysis: The Disney IP Flywheel Unpacked 01:59:02 Snow White & The Folly That Defined Animation (1937) 01:41:08 The Burbank Studio & Pre-War Struggles (1937-1941) 02:04:20 The Animators' Strike & Walt's Disillusionment (1941) 02:15:44 World War II & The Accidental Disney Vault (1941-1945) 02:24:27 Post-War Slump to Cinderella's Comeback (1945-1950) 02:33:46 Walt's Obsession: Model Trains to Disneyland (1950-1952) 02:38:44 Financing Disneyland: ABC, SRI & Davy Crockett (1953-1955) 03:17:00 Disneyland's Grand Opening & The Evolving Flywheel (1955-1958) 03:39:04 The Florida Project: Walt's Vision for EPCOT City (1958-1966) 03:54:20 Walt's Untimely Death & Roy's Legacy (1966-1971) 04:00:06 A Parks Company & Creative Decline (1971-1984) 04:09:44 Analysis: Why No Other Disney Flywheels? 04:17:15 The Seven Powers of Disney 04:20:30 Quintessence: Art, Commerce & Timeless IP 04:23:47 Carve-Outs + Outro ‍Note: Acquired hosts and guests may hold assets discussed in this episode. This podcast is not investment advice, and is intended for informational and entertainment purposes only. You should do your own research and make your own independent decisions when considering any financial transactions.",
+      "duration": "16289",
+      "old_score": 30,
+      "old_label": "skip",
+      "qwen": {
+        "id": "4636d1b78ae35eb1eeaa6f2a",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Disney business model history and flywheel insights, useful for long-term brand and IP strategy.",
+        "confidence": "medium"
+      }
+    }
+  ]
+}

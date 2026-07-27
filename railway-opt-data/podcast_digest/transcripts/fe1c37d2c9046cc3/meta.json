@@ -1,0 +1,8 @@
+{
+  "show": "a16z Podcast",
+  "episode": "AI, Growth, and the Future of Healthcare",
+  "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/0cf2ca6c-3831-4d80-89da-b164a4c807f2/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=0cf2ca6c-3831-4d80-89da-b164a4c807f2&feed=JGE3yC0V",
+  "model": "base",
+  "max_seconds": 0,
+  "stdout": "{\"language\": \"en\", \"duration\": 2576.1175625, \"segments\": 922}"
+}

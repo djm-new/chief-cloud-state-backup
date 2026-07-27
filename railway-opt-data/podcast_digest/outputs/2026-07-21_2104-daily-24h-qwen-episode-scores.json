@@ -1,0 +1,311 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-07-21_2104",
+  "usage": {
+    "prompt_tokens": 5163,
+    "completion_tokens": 1138,
+    "total_tokens": 6301
+  },
+  "episodes": [
+    {
+      "id": "f20a70c70cfb10090cb59df0",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "The car of the future is an EV golf cart",
+      "link": "",
+      "published": "2026-07-21T20:07:00+00:00",
+      "summary": "So far, most electric vehicles have looked more or less like cars. But recently, a few companies have looked to another, smaller mode of transport for inspiration. The Verge's Andy Hawkins explains why companies like Amble and Chip are reinventing the golf cart, in the hopes of creating an entirely new kind of street-legal vehicle. As long as the speed limit stays low. Further reading: ⁠The Light Flip is a minimalist flip phone with a point to prove | The Verge⁠ ⁠Anthropic has to pay authors. | The Verge⁠ ⁠The cost of GPUs goes far beyond AI data centers | The Verge⁠ ⁠Is America ready for this quirky Jeep-looking EV that can park itself?⁠ ⁠The ‘G-Wagen of golf carts’ could be the ideal second car⁠ ⁠America’s cheapest new EV is smaller than a ping-pong table and tops out at 19mph⁠ ⁠Zoox’s purpose-built robotaxi is getting a refresh⁠ Subscribe to The Verge for unlimited access to theverge.com, subscriber-exclusive newsletters, and our ad-free podcast feed. We love hearing from you! Email your questions and thoughts to vergecast@theverge.com or call us at 866-VERGE11. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "1805",
+      "old_score": 32,
+      "old_label": "skip",
+      "qwen": {
+        "id": "f20a70c70cfb10090cb59df0",
+        "score": 45,
+        "tier": "scan",
+        "reason": "Interesting EV innovation angle but niche focus and low speed limit limits broader relevance.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "ccec7f8e100b3059adaa2dcb",
+      "show_name": "Latent Space",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "🔬Causal Models Need Causal Data - Xaira’s X-Cell model for Drug Discovery (Bo Wang & Ci Chu, Chief Discovery Officer & Chief AI Scientist)",
+      "link": "https://www.latent.space/p/xaira",
+      "published": "2026-07-21T19:34:06+00:00",
+      "summary": "Bet on information If test loss flatlines after 1.5B parameters while training loss continues to drop as you scale, that tells you that your model is limited by the amount of information in your data. Training on a single, smallish data set exposed an information gap: the 3.1B model falls off the scaling trend. Neither parameters nor compute will improve performance past this wall. For predicting changes to gene expression, you need more information rich data . This is what Chu and Bo’s teams have done, and here is what ~30x the information buys you: Now we can scale with parameters and training compute! We don’t know how much this effort costed, but we can guess that data collection experiments and infrastructure was a few tens of millions, and compute + headcount + research was a few million. The budget looks like a RL rollout budget, rather than a data rich pre-training one. We were lucky enough to have the two central figures in this story on our podcast. Taking the lead from Ci Chu and Bo Wang, Xaira Therapeutics is betting that information rich data is the key to AI-driven drug development. Chu was recently promoted to Chief Discovery Officer and Bo to Chief AI Scientist, underscoring just how strategic Xaira considers this bet. Reverse engineering the human cell If you had to figure out how a human cell works, what would you do? A good place to start might be by documenting what genes are expressed (e.g. what RNA is floating around) in different kinds of cells, in different circumstances. That is CELLxGENE , a database of 168M cells built by Chan Zuckerberg Institute that maps each cell to a count of how many times 20K-30K genes were detected in that cell, plus detailed metadata about every cell . A ~4 trillion-entry matrix. If the Protein Data Bank (PDB) unlocked structural biology models ( Boltz Episode , ESM/BioHub Episode ), CELLxGENE has done the same thing for Virtual Cell models. Like PDB, CELLxGENE has inspired a zoo of AI models of RNA expression; so much so that RNA expression models have become synonymous with Virtual Cell models. Bo Wang built one of the most influential, scGPT , that became the starting point for Xaira’s new model. RNA expression ≠ Virtual Cell Models trained on CELLxGENE describe the relationship between cell types and cell states, but they are not good at predicting what will happen if we make changes to RNA expression. Changes in gene expression are highly correlated, and its is difficult (impossible) to figure out what causes what in most cases. If you could “turn the dial down” on one gene at a time, however, then you would be able to observe what is upstream and downstream of a given gene. You could tell if A → B & C or B → A & C or B → A, C → B → … If you did this for all of the genes, then maybe you could train a model that could predict what would happen to a cell if you change a gene (e.g. with a drug or a gene edit). Or maybe you could figure out the least invasive way to change a particular gene’s expression. X-Atlas → X-Cell This is exactly what Chu and Bo’s teams have done. The data set is called X-Atlas and the model is called X-Cell. In this episode, we discuss: * Why the team abandoned autoregression for diffusion * The CRISPR-based experiments that run millions of tests in parallel, and generate the raw data for X-Atlas and X-cell * Generalization to real lab experiments in real human cells * Beating the linear baseline that has outperformed previous models * Justifying a kitchen-sink of priors, and how that stacks up vs. data and architecture Bo also shared with us some of the (major) advantages he has as an academic vs. industry leader, and how his labs keep up with the breakneck pace of AI innovation. Check out the full episode on YouTube, or your favorite podcasting platform! This is a public episode. If you'd like to discuss this with other subscribers or get access to bonus episodes, visit www.latent.space/subscribe",
+      "duration": "5387",
+      "old_score": 49,
+      "old_label": "skip",
+      "qwen": {
+        "id": "ccec7f8e100b3059adaa2dcb",
+        "score": 85,
+        "tier": "listen",
+        "reason": "Deep dive into causal models, data limitations, and scaling implications in drug discovery AI—high relevance for technical and business insights.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "bb1a51f4835f7d9141d7f726",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: July 21st, 2026",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-july-21st-2026",
+      "published": "2026-07-21T16:09:59+00:00",
+      "summary": "Featuring: Emily Roland, Co-Chief Investment Strategist at Manulife Investment Management Francisco Blanch, Head: Global Commodities & Derivatives Research at Merrill Lynch Paul Jacobson, General Motors Executive VP & CFO See omnystudio.com/listener for privacy information.",
+      "duration": "1513",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "bb1a51f4835f7d9141d7f726",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Standard Bloomberg Surveillance episode with market and macro commentary, moderate relevance.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "a4e8bc573dee35cc6dc9f1d6",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Why Physical AI Is the Next Frontier | Applied Intuition",
+      "link": "https://a16z.simplecast.com/episodes/why-physical-ai-is-the-next-frontier-applied-intuition-VEkcnJm1",
+      "published": "2026-07-21T15:00:00+00:00",
+      "summary": "Applied Intuition has spent the past decade building the software that powers intelligent machines, from passenger vehicles and trucks to defense systems, mining equipment, and industrial robots. In this conversation, Marc Andreessen and Erik Torenberg sit down with Applied Intuition cofounders Qasar Younis and Peter Ludwig to discuss the emergence of physical AI and the company's latest launch, Dana, a new platform designed to accelerate the development of autonomous systems. They explore autonomous vehicles, robotics, world models, simulation, AI infrastructure, and the engineering challenges of deploying intelligence safely in the physical world. Along the way, they discuss self-driving cars, humanoid robots, global competition, and why lowering the barrier to building physical AI could unlock an entirely new generation of products and companies. Resources: Follow Qasar Younis on X: https://x.com/qasar Follow Peter Ludwig on LinkedIn: linkedin.com/in/peterwludwig Follow Marc Andreessen on X: https://x.com/pmarca Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "01:20:33",
+      "old_score": 78,
+      "old_label": "digest_only",
+      "qwen": {
+        "id": "a4e8bc573dee35cc6dc9f1d6",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Discusses physical AI frontier and autonomous systems development—relevant for AI infrastructure and robotics trends.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "13a8a47ff8ce46917d037ff6",
+      "show_name": "Eye on AI",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "\"According to NASA's Definition of Life, I'm Not Alive\" - Why Nobody Can Define Life | Dr. Kate Adamala",
+      "link": "https://aneyeonai.libsyn.com/according-to-nasas-definition-of-life-im-not-alive-why-nobody-can-define-life-dr-kate-adamala",
+      "published": "2026-07-21T14:21:00+00:00",
+      "summary": "Nobody has ever built a cell from scratch - assembled entirely from purified molecules on a shelf - that can feed itself, grow, and split into daughter cells through its own genetic activity. Until now. Dr. Kate Adamala, a synthetic biologist and a professor of genetics at the University of Minnesota, whose lab just published a landmark paper on what she calls \"spud cells,\" joins Craig Smith to explain what her team built, why it matters, and what it will take to go from proof of concept to a platform that could eventually replace every molecule civilization currently extracts from petrochemicals. The conversation is as philosophically rich as it is technically specific: Adamala argues that life has no magic ingredient, and that the universe itself is predisposed to give rise to it. She describes the spud cell not as a mic drop but as biology's Sputnik moment: proof that you can escape the gravity well of evolution and build lifelike systems from the ground up. The episode also covers the most alarming biosecurity question in synthetic biology right now: mirror life - cells built from mirror-image molecules that would be invisible to every immune system on earth and potentially capable of replicating uncontrollably in the environment. Adamala led the global call to pause all mirror life research in 2024, and she explains both why that research was so dangerous and why the spud cell doesn't move the field any closer to that red line. Craig also asks the question nobody else thought to ask: could AI now simulate the billions of years of molecular evolution that a primordial sea would need millions of years to complete - running a few trillion iterations computationally to find what emerges? Subscribe to Eye on A.I. for weekly conversations with the people building and deploying the future of AI.",
+      "duration": "46:12",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "13a8a47ff8ce46917d037ff6",
+        "score": 60,
+        "tier": "digest",
+        "reason": "Synthetic biology and AI intersection with philosophical and technical depth, but tangential to core capital/operator focus.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "c02a6660290516fbcf70dec5",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Markets Price In Earnings and the Fed",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/markets-price-in-earnings-and-the-fed",
+      "published": "2026-07-21T14:01:12+00:00",
+      "summary": "The latest in finance, economics and investment. Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF . Bloomberg Surveillance hosted by Tom Keene & Paul SweeneyTuesday, July 21, 2026 Featuring: 1) Julian Emanuel, Chief Equity & Quantitative Strategist at Evercore ISI, joins to talk tech volatility, the intact bull market, and earnings season. 2) Barbara Doran, CEO and CIO at BD8 Capital Partners, talks strong earnings and if a decrease in valuations means more buying and a cheap market. 3) Rob Sockin, Chief Economist at PGIM, talks about why 3 rate hikes in 2026 is his base case. 4) Dennis Blair, retired US Navy Admiral and former Director of National Intelligence, discusses his article in Foreign Affairs \"The Mirage of China's Military Edge.\" See omnystudio.com/listener for privacy information.",
+      "duration": "1873",
+      "old_score": 28,
+      "old_label": "skip",
+      "qwen": {
+        "id": "c02a6660290516fbcf70dec5",
+        "score": 55,
+        "tier": "scan",
+        "reason": "Markets and Fed policy discussion—moderately relevant for macroeconomic context.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "15f66c044d952b5ad30db3fd",
+      "show_name": "New Yorker Radio Hour",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "low",
+      "title": "Pick Three: Richard Brody on “The Odyssey” and Other Summer Films",
+      "link": "https://www.wnycstudios.org/podcasts/tnyradiohour",
+      "published": "2026-07-21T10:00:00+00:00",
+      "summary": "The film critic Richard Brody talks with David Remnick about three notable films this summer: Christopher Nolan’s “The Odyssey,” an epic adaptation of Homer’s poem, arriving amid buzz and huge advance ticket sales; the shoplifting comedy “I Love Boosters,” the second film from the sci-fi-inflected director Boots Riley; and “Remake,” the latest from the documentary legend Ross McElwee, in which he pays tribute to his late son, Adrian, an aspiring filmmaker. Further reading: “ Christopher Nolan’s ‘The Odyssey’ Leaves the Gods in the Outtakes ,” by Richard Brody “ ‘Remake’ Confronts a Father’s Grief and a Filmmaker’s Responsibility ,” by Richard Brody “ Why the Odyssey Keeps Defeating Filmmakers ,” by David Denby “ ‘I Love Boosters,’ Reviewed: A Socialist-Surrealist Shoplifting Fantasy ,” by Richard Brody New episodes of The New Yorker Radio Hour drop every Tuesday and Friday. Join host David Remnick as he discusses the latest in politics, news, and current events in conversation with political leaders, newsmakers, innovators, New Yorker staff writers, authors, actors, and musicians. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:13:58",
+      "old_score": 0,
+      "old_label": "skip",
+      "qwen": {
+        "id": "15f66c044d952b5ad30db3fd",
+        "score": 30,
+        "tier": "skip",
+        "reason": "Cultural commentary on films—low relevance to market or AI focus.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "9ed42e678b36aed003b7eafd",
+      "show_name": "Stratechery",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "Netflix Earnings, Is Netflix Washed?, Additional Notes",
+      "link": "https://stratechery.com/2026/netflix-earnings-is-netflix-washed-additional-notes/",
+      "published": "2026-07-21T10:00:00+00:00",
+      "summary": "Netflix's earnings were fine, and befitting a mature company whose most exciting days are likely behind them.",
+      "duration": "",
+      "old_score": 22,
+      "old_label": "skip",
+      "qwen": {
+        "id": "9ed42e678b36aed003b7eafd",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Netflix earnings commentary with business maturity and strategic implications—worth summarizing.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "88ca4ab19870ca7608e83f3f",
+      "show_name": "The Knowledge Project adjacent interviews",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Truth Over Feelings: Inside Opendoor’s Massive Turnaround",
+      "link": "https://fs.blog/knowledge-project-podcast/kaz-nejatian/",
+      "published": "2026-07-21T10:00:00+00:00",
+      "summary": "No company decides to fail. It drifts there one comfortable lie at a time. Kaz Nejatian took over Opendoor when it was just months away from bankruptcy and set out to rebuild it from the ground up. What happened next shocked everyone. Most turnaround stories are told years later, by the winner, after the ending is already known. That’s why they always sound clean and polished. This one doesn’t have an ending yet, and it’s anything but clean and polished. Kaz takes us inside while it’s still happening. We discuss why great companies drift away from reality, why truth has to matter more than feelings, and how competent people who don’t believe in the mission quietly destroy an organization. He shares the principles behind rebuilding culture, eliminating bureaucracy, making faster decisions, using AI to flatten management, and creating teams that move with speed and ownership. One of the key things I learned in this conversation is that the comfortable lies that sink a company are the same ones that sink a career. ------ Chapters: (0:00) How Opendoor Came Back from the Dead (1:32) How Mismanagement Causes Atrophy (4:28) The Blueprint that Changed Opendoor (5:33) Rewriting the Book on Company Turnarounds (5:57) The People You Hire Is the Company You Build (6:31) Be a Nuclear Bomb of Truth (7:52) How to Change a Losing Company Culture (8:07) Commit to Truth Over Feelings (8:33) The Most Dangerous Kind of Employee (9:13) Key Principles to Turning Around a Company (11:59) Meetings Are a Bug in the System (12:30) Why It's Rude to Not Disagree (13:05) Say the Thing Culture (15:04) How AI Is Supercharging Opendoor (18:16) Most Powerful Mental Models (22:50) Why Remote Workplaces Don't Succeed (24:56) How Opendoor Killed Distractions (26:09) The Key to Being a Market Maker (35:20) How Companies Fall Off Course Over Time (37:24) The Power of Speaking Simply (43:27) Turnaround Lessons for Life (51:10) Excellence Is Capacity to Take Pain ------ Newsletter: The Brain Food newsletter delivers actionable insights and thoughtful ideas every Sunday. It takes 5 minutes to read, and it’s completely free. Learn more and sign up at ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠fs.blog/newsletter⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ ------ Follow Shane Parrish: X: ⁠⁠⁠⁠⁠⁠https://x.com/shaneparrish⁠ Insta: ⁠https://www.instagram.com/farnamstreet/⁠ LinkedIn: ⁠https://www.linkedin.com/in/shane-parrish-050a2183/⁠ ------ Follow Kaz Nejatian: X: https://x.com/nejatian ------ Thank you to the sponsors for this episode: +Applovin: Launch your first AppLovin campaign and grow your business: https://applovin.com/shane +Matic: the robot vacuum that does it all—grab yourself a year of free bags here. ⁠http://maticrobots.com/shaneparrish⁠ +HeyGen is a message-first AI video platform that helps people and AI agents turn ideas into professional video in minutes. Try for free at https://www.heygen.com/ +LMNT: My go-to zero sugar electrolytes — get a free LMNT Sample Pack here: https://DrinkLMNT.com/TKP ------ Note: ‍Shane and guests may hold positions in assets discussed in this episode. This podcast is not investment advice, and is intended for informational and entertainment purposes only. Nothing in this conversation should be considered investment advice, financial guidance, or a recommendation to buy or sell any security. Always do your own due diligence or consult with a qualified financial advisor before making investment decisions. Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "duration": "3282",
+      "old_score": 50,
+      "old_label": "skip",
+      "qwen": {
+        "id": "88ca4ab19870ca7608e83f3f",
+        "score": 80,
+        "tier": "listen",
+        "reason": "Opendoor turnaround story with leadership, culture, and AI-driven decision-making insights—highly relevant for operator lessons.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "3b5451315df770ee9daf3ad4",
+      "show_name": "Ezra Klein Show",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "Best Of: A Breath of Fresh Air With Brian Eno",
+      "link": "https://www.nytimes.com/2025/10/03/opinion/ezra-klein-podcast-brian-eno.html",
+      "published": "2026-07-21T09:00:00+00:00",
+      "summary": "How Brian Eno expanded the possibilities of what music and sound can be. Eno is a trailblazing musician and producer who’s worked on seminal records by U2, David Bowie, the Talking Heads and Coldplay, among others. But Eno isn’t just a great collaborator with other artists; he’s also a great collaborator with machines. Long before we started worrying about A.I. replacing human creativity, Eno was tinkering with generative systems to pioneer ambient music – a genre that has deeply influenced how we listen to music today. We recorded this conversation in 2025, and it’s one of my favorite recent episodes of the show. So I wanted to resurface it this summer for anyone who may have missed it the first time. This episode contains strong language. Mentioned: What Art Does by Brian Eno and Bette Adriaanse East West Street by Philippe Sands Silence by John Cage Book Recommendations: Printing and the Mind of Man edited by John Carter and Percy H. Muir A Pattern Language by Christopher Alexander Naples ’44 by Norman Lewis Music Recommendations: The Rural Blues “The Velvet Underground” by the Velvet Underground The Consolers Thoughts? Guest suggestions? Email us at ezrakleinshow@nytimes.com. You can find transcripts (posted midday) and more episodes of “The Ezra Klein Show” at nytimes.com/ezra-klein-podcast , and you can find Ezra on Twitter @ezraklein. Book recommendations from all our guests are listed at https://www.nytimes.com/article/ezra-klein-show-book-recs . This episode of “The Ezra Klein Show” was produced by Annie Galvin. Fact-checking by Mary Marge Locker, Kate Sinclair and Michelle Harris. Our senior engineer is Jeff Geld, with additional mixing by Aman Sahota. Our executive producer is Claire Gordon. The show’s production team also includes Marie Cascione, Rollin Hu, Kristin Lin, Jack McCordick, Marina King and Jan Kobal. Original music by Aman Sahota and Pat McCusker. Audience strategy by Kristina Samulewski and Shannon Busta. Transcript editing by Sarah Murphy. The director of New York Times Opinion Audio is Annie-Rose Strasser. And special thanks to Alyssa Jane Moxley, Sophie Abramowitz, Geeta Dayal, Jack Hamilton and Victor Szabo. Subscribe today at nytimes.com/podcasts or on Apple Podcasts and Spotify. You can also subscribe via your favorite podcast app here https://www.nytimes.com/activate-access/audio?source=podcatcher . For more podcasts and narrated articles, download The New York Times app at nytimes.com/app. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "01:30:44",
+      "old_score": 28,
+      "old_label": "skip",
+      "qwen": {
+        "id": "3b5451315df770ee9daf3ad4",
+        "score": 40,
+        "tier": "scan",
+        "reason": "Creative process and generative music—interesting but not core focus.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "992047e54d15c5654abcf816",
+      "show_name": "Masters of Scale",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Delta's Ed Bastian on spiking fuel, summer travel, and a blunt reality check on AI",
+      "link": "",
+      "published": "2026-07-21T09:00:00+00:00",
+      "summary": "Few companies have a better real-time read on the American economy than Delta, and few CEOs are more willing to say what they actually think. Ed Bastian returns to Rapid Response to share what Delta's booking data is telling him that the headlines aren't, why he's not convinced by AI until it moves his top line, and how he decided to yank congressional travel perks during the government shutdown. He also explains what it takes to stay optimistic when fuel costs are spiking, the Strait of Hormuz is in the news, and the world keeps finding new ways to be unpredictable. Visit the Rapid Response website here: https://www.rapidresponseshow.com/ See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info .",
+      "duration": "00:28:22",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "992047e54d15c5654abcf816",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Delta CEO on travel trends, fuel costs, and AI skepticism—provides macro and business insights.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "9494c87468a71dbb215a2578",
+      "show_name": "My First Million",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "I spent 24hrs with a blue collar millionaire",
+      "link": "",
+      "published": "2026-07-21T09:00:00+00:00",
+      "summary": "Blue-Collar Business Ideas Database: https://clickhubspot.com/rvko Sam Parr ( https://x.com/theSamParr ) spends the day with Mark O’Brien ( https://www.instagram.com/themarkobrienteam ) to see what it’s like to be a blue collar millionaire. — Links Mark O’Brien - https://buildmeabrownstone.com/ — Check Out Sam's Stuff: • Hampton (joinhampton.com): My community for founders. Average member does $25m/year. Many of the guests are members. Get after it...apply: http://joinhampton.com/mfm — Check Out Shaan's Stuff: • Shaan's weekly email - https://www.shaanpuri.com • Visit https://www.somewhere.com/mfm to hire worldwide talent like Shaan and get $500 off for being an MFM listener. Hire developers, assistants, marketing pros, sales teams and more for 80% less than US equivalents. • Mercury - Shaan uses Mercury across all of his companies. you can too: http://mercury.com/ Mercury is a fintech company, not an FDIC-insured bank. Banking services provided by Choice Financial Group, Column, N.A., Members FDIC • I run all my newsletters on Beehiiv and you should too + we're giving away $10k to our favorite newsletter, check it out: beehiiv.com/mfm-challenge My First Million is a HubSpot Original Podcast // Brought to you by HubSpot Media // Production by Arie Desormeaux // Editing by Ezra Bakker Trupiano /",
+      "duration": "1392",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "9494c87468a71dbb215a2578",
+        "score": 35,
+        "tier": "skip",
+        "reason": "Blue-collar millionaire story—low signal for market or AI trends.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "19a81abf8215e60e9d49f427",
+      "show_name": "Training Data",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Factory's Matan Grinberg: The Coming ‘Dark Factory’ Where Software Builds Itself",
+      "link": "",
+      "published": "2026-07-21T09:00:00+00:00",
+      "summary": "Factory started building fully autonomous coding agents in April 2023, two years before enterprises were ready. Matan Grinberg now says this is indistinguishable from being wrong. The Factory co-founder and CEO explains how the company survived its \"journey in the desert,\" including the decision to hand nearly all of its revenue back to customers when the product wasn't making developers obsessed. Matan makes the contrarian technical case that a model-agnostic harness beats the model-and-harness co-design that labs like OpenAI and Anthropic favor, because exposing a harness to many models keeps it from overfitting to any single one. He argues open-weight models like GLM will capture the majority of tokens by staying one generation behind the frontier at a fraction of the cost, and that CIOs will soon justify every incremental token the way they justify headcount. Looking ahead, he predicts 90% of coding tokens will run asynchronously—the \"dark factory\" where software builds itself. Hosted by Sonya Huang and Pat Grady, Sequoia Capital",
+      "duration": "3091",
+      "old_score": 38,
+      "old_label": "skip",
+      "qwen": {
+        "id": "19a81abf8215e60e9d49f427",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Autonomous coding agents and future of software development—relevant for AI engineering and infrastructure.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "28f0ea993b6eef0828297d81",
+      "show_name": "Invest Like the Best",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "Matthew Smith — Natural Gas: The Next Bottleneck - [Invest Like the Best, EP.483]",
+      "link": "https://colossus.com/episode/americas-next-energy-crisis/",
+      "published": "2026-07-21T08:00:00+00:00",
+      "summary": "My guest today is Matthew Smith. Matthew is the founder and CIO of Chronometer Partners, which invests in energy, industrials, materials, power and utilities, and related infrastructure. For the last 18 months he and his team have modeled nearly every natural gas well, pipeline, and processing asset in the United States. He's reached a conclusion most of the market doesn't share. Starting in 2028, AI data centers and LNG exports will need more gas than the country can produce and deliver. By his math, the US could exhaust its working natural gas storage by 2030. In his words, the upside risk to prices becomes unbounded and convex. We talk about why this was set in motion long before AI arrived, why the US can't just turn off exports, who wins and loses among producers, nuclear, solar, and the hyperscalers, and what he sees as the only long-term solution. Please enjoy my conversation with Matthew Smith. For the full show notes, transcript, and links to mentioned content, check out the episode page ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠here⁠⁠⁠⁠⁠. ----- In June, Matthew wrote a letter to a small group of confidants laying out the full case behind his natural gas forecast. He has allowed us to publish it. You can read the full letter here. ----- Become a Colossus member to get our quarterly print magazine and private audio experience, including exclusive profiles and early access to select episodes. Subscribe at ⁠colossus.com/subscribe⁠. ----- ⁠Ramp’s⁠ mission is to help companies manage their spend in a way that reduces expenses and frees up time for teams to work on more valuable projects. Go to⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ ⁠ramp.com/invest⁠⁠ to sign up for free and get a $250 welcome bonus. ----- Trusted by thousands of businesses, ⁠Vanta⁠ continuously monitors your security posture and streamlines audits so you can win enterprise deals and build customer trust without the traditional overhead. Invest Like the Best listeners get a special offer of $1,000 off Vanta when you go to ⁠vanta.com/invest⁠. ----- WorkOS⁠ is the infrastructure B2B and AI-native companies use to sell to enterprise. It covers everything enterprise security requires: SSO, SCIM, RBAC, Audit Logs, AI governance, and more. Trusted by 2,000+ fast-growing companies, including OpenAI, Anthropic, Cursor, and Vercel. ----- Rogo is the AI platform for finance. They're building agents for Wall Street that are trained to understand how bankers and investors actually do work: from diligence and modeling, to turning analysis into deliverables. To learn more, visit rogo.ai/invest. ----- ⁠Ridgeline⁠ has built a complete, real-time, modern operating system for investment managers. It handles trading, portfolio management, compliance, customer reporting, and much more through an all-in-one real-time cloud platform. Visit⁠ ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ridgeline.ai⁠. ----- Editing and post-production work for this episode was provided by The Podcast Consultant. Timestamps: (00:00:00) Welcome to Invest Like the Best (00:02:02) Episode Intro: Matt Smith (00:03:33) The Conclusion After 18 Months (00:04:56) The Die Was Cast Before AI (00:07:24) Sizing AI's Gas Demand (00:09:33) Why Not Just Stop Exporting? (00:11:38) Is the Gas Even There? (00:13:53) The Timing Problem, Not Supply (00:15:15) Flow Versus Stock (00:19:10) What Slows Gas to Market (00:22:21) If Nothing Changes by 2030 (00:26:11) Could Prices Hit Twenty Dollars? (00:27:00) Gas Producers Poised to Win (00:28:54) Utility-Scale Solar's Windfall (00:30:08) What About Nuclear? (00:32:40) SMRs (00:34:29) The US Consumer Pays (00:36:37) Turbine Makers Building Too Late (00:37:57) Are Hyperscalers Exposed Too? (00:44:25) Kickstarting the Nuclear Build (00:46:20) Put Solar on Every Roof (00:46:52) Implications for the World (00:49:26) No One's Securing Supply (00:52:57) The Challenge for Energy CEOs",
+      "duration": "3337",
+      "old_score": 62,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "28f0ea993b6eef0828297d81",
+        "score": 85,
+        "tier": "listen",
+        "reason": "Natural gas bottleneck analysis with AI and energy implications—high-value market and infrastructure insight.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "51ab188b4ddb3b8376db02b8",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "China Decode: The World Now Views China More Favorably Than the U.S. (ft. Selina Xu)",
+      "link": "",
+      "published": "2026-07-21T08:00:00+00:00",
+      "summary": "Alice Han and James Kynge start with Trump's claim that China ran an influence operation using voter files from over 220 million Americans, and why Beijing is calling it fabricated. They dig into what the underlying intelligence actually shows, how it lands just two months before Trump's planned visit to China, and what it means that global public opinion is now tilting toward Xi over Trump. Then, Selina Xu, head of China research for former Google CEO Eric Schmidt, joins to talk about her recent trip to China with Schmidt, where the U.S. and China each have the edge in the AI race, how culture and adoption differ between the two countries, and whether Beijing's pushback against emotional dependence on AI is a sign of things to come. Subscribe to China Decode on Substack for weekly analysis, livestreams, and deep dives into the biggest story shaping the global economy: chinadecode.profgmedia.com. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "2762",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "51ab188b4ddb3b8376db02b8",
+        "score": 50,
+        "tier": "scan",
+        "reason": "China-US dynamics and AI adoption differences—moderate relevance for global tech trends.",
+        "confidence": "medium"
+      }
+    }
+  ]
+}

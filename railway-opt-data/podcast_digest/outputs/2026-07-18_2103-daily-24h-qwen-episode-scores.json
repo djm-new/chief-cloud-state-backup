@@ -1,0 +1,111 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-07-18_2103",
+  "usage": {
+    "prompt_tokens": 1969,
+    "completion_tokens": 435,
+    "total_tokens": 2404
+  },
+  "episodes": [
+    {
+      "id": "e9f69913ca63c6163ee2db34",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "No Mercy / No Malice: 1999.AI",
+      "link": "",
+      "published": "2026-07-18T08:11:00+00:00",
+      "summary": "As read by George Hahn. https://profgmedia.substack.com/p/1999ai Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "1062",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "e9f69913ca63c6163ee2db34",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Discusses 1999.AI, potentially relevant for AI platform insights, but lacks depth on operator or market implications.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "c0f16d6cbce468e30a2fe3e0",
+      "show_name": "The Twenty Minute VC",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "20VC: $5BN in Revenue, 7 to 7,000 Employees in 9 Months, 206,000 Tests in a Single Day: The Craziest Story in Startups: Curative with Fred Turner",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-5bn-in-revenue-7-to-7000-employees-in-9-months-206000-tests-in-a-single-day-the-craziest-story-in-startups-curative-with-fred-turner",
+      "published": "2026-07-18T07:07:00+00:00",
+      "summary": "Fred Turner is the Founder and CEO @ Curative, one of the wildest stories in tech. Fred scaled a COVID testing business from $0 to $5BN in revenue and took the team from 7 to 7,000 employees in just 9 months. They did over 206,000 COVID tests in a single day and signed contracts in the 100s of $Ms with several of the largest states. Today, Curative is a unicorn health insurance business taking on the incumbents for one of the largest markets in healthcare. AGENDA: 00:00 How Did a Spare-Time COVID Test Become a $5BN Business? 07:00 How Do You Go From Testing Cows to STDs, Sepsis and COVID? 21:00 When Did Fred Realise COVID Was Massive—and How Did Curative Scale to $5BN? 36:00 Why Pivot Into Health Insurance—and What Is Broken About US Healthcare? 40:00 How Is AI Rebuilding Curative—and Which Departments Go to Zero? 45:00 Is SaaS Dead? Why Is Curative Cutting 80% of Its Software Spend? 48:00 Are Legacy Insurers Screwed? What Will Anthropic Be Worth in Three Years? 59:00 Will AI Make Companies Smaller? Which Jobs Will Survive? 1:10:00 Why Nuclear—and Could Subcritical Become Bigger Than Curative? 1:17:00 What Have Marriage and Fatherhood Taught Fred? What Has He Changed His Mind On?",
+      "duration": "01:27:34",
+      "old_score": 38,
+      "old_label": "skip",
+      "qwen": {
+        "id": "c0f16d6cbce468e30a2fe3e0",
+        "score": 85,
+        "tier": "listen",
+        "reason": "CEO Fred Turner shares scaling Curative from $0 to $5BN in revenue, with AI integration and SaaS disruption insights—high operator and capital allocation value.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "2c74ba33000d74fcaa29c180",
+      "show_name": "All-In Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Can the AI Industry Regulate Itself? Stripe Wants PayPal, China Catches Up, NY Bans Datacenters",
+      "link": "https://allinchamathjason.libsyn.com/can-the-ai-industry-regulate-itself-stripe-wants-paypal-china-catches-up-ny-bans-datacenters",
+      "published": "2026-07-18T00:36:00+00:00",
+      "summary": "(0:00) Bestie intros! (1:32) New AI regulatory proposal: DeepMind's Demis Hassabis proposes FINRA-type body (20:01) Stripe, Block, and Advent offer $53B to acquire PayPal (37:51) Apple sues OpenAI, alleging stolen trade secrets (42:49) Grok Build data leak, AI data privacy, Tokenmaxxing update, Mira Murati's new model (59:53) NY bans datacenters, becoming first state to enact a moratorium (1:22:57) Science Corner: New data on reversing aging! Adopt Ronnie the Dog: https://www.instagram.com/reels/Da0pGahBwaW Apply for All-In Summit 2026: https://allin.com/events Follow the besties: https://x.com/chamath https://x.com/Jason https://x.com/DavidSacks https://x.com/friedberg Follow on X: https://x.com/theallinpod Follow on Instagram: https://www.instagram.com/theallinpod Follow on TikTok: https://www.tiktok.com/@theallinpod Follow on LinkedIn: https://www.linkedin.com/company/allinpod Intro Music Credit: https://rb.gy/tppkzl https://x.com/yung_spielburg Intro Video Credit: https://x.com/TheZachEffect Referenced in the show: https://x.com/chamath/status/2077502408528212144 https://x.com/demishassabis/status/2076957440109625718 https://x.com/satyanadella/status/2076323181154230284 https://x.com/Jason/status/2076231055443440105 https://x.com/SquawkCNBC/status/2077741908391031246 https://thinkingmachines.ai/news/introducing-inkling https://www.politico.com/news/2026/07/15/inside-anthropics-state-by-state-plan-to-ratchet-up-ai-rules-00998415 https://x.com/politico/status/2077315780144996633 https://x.com/DavidSacks/status/1978145266269077891 https://www.reuters.com/business/finance/stripe-advent-offer-buy-paypal-more-than-53-billion-sources-say-2026-07-15 https://www.tipranks.com/news/the-fly/block-contributing-to-equity-for-paypal-takeover-bid-cnbc-says-thefly-news https://9to5mac.com/wp-content/uploads/sites/6/2026/07/Apple-Inc.-v.-Liu-et-al.pdf https://finance.yahoo.com/technology/ai/articles/apple-lawsuit-threatens-openais-hardware-215438163.html https://x.com/markgurman/status/2076306380583997665 https://www.engadget.com/2216186/elon-musk-bought-a-gas-turbine-company https://x.com/Reuters/status/2076957424339050839 https://x.com/teddyschleifer/status/2077596563380072694 https://x.com/teddyschleifer/status/2077606887055306879 https://openai.com/index/prc-linked-influence-operations-ai-debates https://www.politico.com/news/2026/06/10/openai-china-ai-data-centers-report-00957612 https://trends.google.com/explore?q=GMO%2C%2Fm%2F0dkz0z&date=2010-01-01%202026-07-15&geo=US https://www.nature.com/articles/s41467-026-75141-2",
+      "duration": "01:29:55",
+      "old_score": 75,
+      "old_label": "digest_only",
+      "qwen": {
+        "id": "2c74ba33000d74fcaa29c180",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Covers AI regulation, Stripe's PayPal bid, and NY datacenter ban—relevant for market dynamics and AI policy context.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "ee4a12f673933375562a6e1d",
+      "show_name": "People I Mostly Admire",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "31. Peter Leeson on Why Trial-by-Fire Wasn’t Barbaric and Why Pirates Were Democratic",
+      "link": "https://www.siriusxm.com",
+      "published": "2026-07-18T00:00:00+00:00",
+      "summary": "He’s an economist who studies even weirder things than Steve. They discuss whether economics is the best of the social sciences, and why it’s a good idea to get a tattoo of a demand curve on your bicep. This episode originally aired on June 11th, 2021. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:45:40",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "ee4a12f673933375562a6e1d",
+        "score": 40,
+        "tier": "scan",
+        "reason": "Historical economic analysis of pirates and trial-by-fire—low relevance to current AI or capital allocation frameworks.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "ffc62b681e22e88133f8751b",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Money: The Opportunity Cost of Cautious Investing",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-money-the-opportunity-cost-of-cautious-investing",
+      "published": "2026-07-17T21:53:19+00:00",
+      "summary": "Bloomberg Money takes the pulse of your financial life, powered by the reporting of our global newsroom. Today's guests are: Hudson Bay Capital Senior Economic Strategist Nouriel Roubini and Goldman Sachs Chief Credit Strategist Amanda Lynam. See omnystudio.com/listener for privacy information.",
+      "duration": "2403",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "ffc62b681e22e88133f8751b",
+        "score": 60,
+        "tier": "digest",
+        "reason": "Features Roubini and Lynam on investing strategy—moderately useful for macroeconomic context, but not highly actionable.",
+        "confidence": "medium"
+      }
+    }
+  ]
+}

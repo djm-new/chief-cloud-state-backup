@@ -1,0 +1,8 @@
+{
+  "show": "a16z Podcast",
+  "episode": "AI Is Crossing the Frontier of Human Knowledge | Kevin Weil",
+  "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/5e118860-b197-4c31-b469-3607ba722aed/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=5e118860-b197-4c31-b469-3607ba722aed&feed=JGE3yC0V",
+  "model": "base",
+  "max_seconds": 0,
+  "stdout": "{\"language\": \"en\", \"duration\": 2049.9330625, \"segments\": 444}"
+}

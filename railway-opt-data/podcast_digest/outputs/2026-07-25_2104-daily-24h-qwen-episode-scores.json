@@ -1,0 +1,151 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-07-25_2104",
+  "usage": {
+    "prompt_tokens": 2642,
+    "completion_tokens": 560,
+    "total_tokens": 3202
+  },
+  "episodes": [
+    {
+      "id": "9445764ce8e1d54cf25a149e",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Special Edition: Nvidia CEO Jensen Huang on Investing in South Korea",
+      "link": "https://omny.fm/shows/the-tape/special-edition-nvidia-ceo-jensen-huang-on-investing-in-south-korea",
+      "published": "2026-07-25T14:43:01+00:00",
+      "summary": "In this special bonus episode, Bloomberg Tech’s Ed Ludlow sits down with Nvidia President and CEO Jensen Huang for an exclusive interview. In their conversation, Huang says “this is the golden ages for Korea” after teaming up with SK Group to build more than 2 gigawatts of AI data centers on the Korean Peninsula. “Their semiconductor business is booming. Their industrial business is booming. You know, this is a country that has the ability to help the world build out the AI infrastructure.” Huang speaks to Ludlow after the CEO’s appearance at a Korean AI Summit and meeting with South Korean President Lee Jae Myung. Listen for their full conversation on Nvidia’s investment in South Korea and the latest in the AI space. See omnystudio.com/listener for privacy information.",
+      "duration": "882",
+      "old_score": 75,
+      "old_label": "digest_only",
+      "qwen": {
+        "id": "9445764ce8e1d54cf25a149e",
+        "score": 82,
+        "tier": "digest",
+        "reason": "Nvidia CEO on AI data center expansion in South Korea with strategic implications for global AI infrastructure.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "21ef9a7f1fdf511dba99f67f",
+      "show_name": "Masters of Scale",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Possible: Satya Nadella on making human and token capital compound",
+      "link": "",
+      "published": "2026-07-25T09:00:00+00:00",
+      "summary": "In this recent episode of Possible, Reid Hoffman sits down with Microsoft CEO Satya Nadella fresh off Microsoft Build 2026. The conversation goes wide: how AI is reshaping work, business, and society—and why the transformation sweeping through software development today is only a preview of what's coming for all knowledge work. Satya makes the case that human capital and \"token capital\" are now deeply intertwined, that companies—not just countries—must build their own AI capabilities, and that the organizations best positioned to thrive are those that can leverage their unique expertise inside intelligent systems. Reid and Satya also explore Microsoft's enterprise AI vision, Reid's work with Manas on AI-powered scientific discovery, lessons from past technological revolutions, and why demonstrating real, tangible benefits may be the most important thing the industry can do to earn—and keep—the public's trust. You can catch and subscribe to more Possible here: https://www.possible.fm/ See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info .",
+      "duration": "01:00:16",
+      "old_score": 94,
+      "old_label": "must_listen",
+      "qwen": {
+        "id": "21ef9a7f1fdf511dba99f67f",
+        "score": 90,
+        "tier": "listen",
+        "reason": "Satya Nadella discusses AI reshaping work, token capital, and Microsoft's enterprise AI vision with strategic depth.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "a8706449ca2b46e596f10983",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "No Mercy / No Malice Turns 10",
+      "link": "",
+      "published": "2026-07-25T08:11:00+00:00",
+      "summary": "As read by George Hahn. https://www.profgmedia.com/p/no-mercy-no-malice-turns-10 Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "1069",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "a8706449ca2b46e596f10983",
+        "score": 45,
+        "tier": "scan",
+        "reason": "Celebratory retrospective with no clear operational or market insight for DJ.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "f0f0c7deb93df70dee0a48e8",
+      "show_name": "The Twenty Minute VC",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "20VC: Mercor CPO on Revenue Concentration from Frontier Labs | Why Large Enterprise is Scared to Partner with Frontier Labs | Why Small Specialised Models is the Future with Osvald Nitski",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-mercor-cpo-on-revenue-concentration-from-frontier-labs-why-large-enterprise-is-scared-to-partner-with-frontier-labs-why-small-specialised-models-is-the-future-with-osvald-nitski",
+      "published": "2026-07-25T07:07:00+00:00",
+      "summary": "Osvald Nitski is the Chief Product Officer at Mercor, the AI-training and expert-data marketplace powering frontier-model development. Mercor last raised a $350 million Series C at a $10 billion valuation, and is reportedly in discussions for a new round at a $20 billion valuation. Mercor crossed $2BN in ARR in June; doubling from $1 billion in only four months. AGENDA: 00:04:00 Will open-source models kill the data-provider business? 00:07:00 Are enterprises still terrified of working with frontier model companies? 00:09:00 Does every company end up with its own specialised AI model? 00:10:00 Do enterprises actually have an AI ROI problem? 00:11:00 How should founders balance AI performance against exploding token bills? 00:14:00 Does AI mean product teams build 10x more—or ruthlessly simplify? 00:15:00 What does it now take to be a great product manager in an AI-native world? 00:20:00 Is the boom in AI services and forward-deployed engineers here to stay? 00:37:00 Can Mercor escape its dependence on a handful of frontier-model customers? 00:47:00 Are AI-generated code and agents creating a cybersecurity arms race? 00:56:00 When will robotics have its real \"ChatGPT moment\"?",
+      "duration": "01:00:37",
+      "old_score": 38,
+      "old_label": "skip",
+      "qwen": {
+        "id": "f0f0c7deb93df70dee0a48e8",
+        "score": 88,
+        "tier": "listen",
+        "reason": "Mercor CPO on enterprise AI adoption, ROI challenges, and the future of specialized models with market implications.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "9b7fe5b2335a795e9874ea97",
+      "show_name": "The James Altucher Show",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Steven Pressfield: The Hero’s Journey, Resistance, and Becoming the Artist You’re Meant to Be [From the Archive]",
+      "link": "https://art19.com/shows/the-james-altucher-pod/episodes/d5deeb07-89e3-4a29-8bb1-81f8ae055459",
+      "published": "2026-07-25T04:00:00+00:00",
+      "summary": "Episode Description: This is a From the Archive episode with one of my favorite guests: Steven Pressfield. Steven Pressfield has spent his career writing about war, creativity, discipline, storytelling, and the inner battle every artist faces. In this archive conversation, James and Steven explore how stories work—and why the same structures that power novels and movies also show up in real life. They begin with The Legend of Bagger Vance , which Pressfield built from the structure of the Bhagavad Gita . James connects that idea to his own writing, where ancient texts like the Yoga Sutras became frameworks for modern essays about entrepreneurship. Their point is simple: if a story has survived thousands of years, it probably contains a structure worth studying. From there, the conversation moves into the hero’s journey. The ordinary world. The call to adventure. The refusal of the call. The mentor. The threshold. The extraordinary world. The tests, allies, enemies, ordeal, return, and gift. But Pressfield pushes the idea further. In real life, people do not always answer the call. Some people refuse it for years. Some cross the threshold and then run back. Some sacrifice security, status, money, family expectations, or even relationships to follow the deeper pull of their lives. James shares his own story of walking out of a finance job after three days, leaving his coat on the chair, taking the elevator down 40 floors, getting on a train, and never returning. Pressfield recognizes it immediately as a real-life threshold moment. The conversation then turns to The Artist’s Journey . Pressfield explains that the hero’s journey ends when the hero returns home with a gift. The artist’s journey begins when the artist asks: What is the gift I am meant to give? What is my material? What is my voice? What am I here to make? They discuss Resistance as the real villain in every story, why the question “Who am I?” often drives the inciting incident, why villains often do not change, why opening and closing images matter, and why genres have rules that writers ignore at their own risk. This episode is a masterclass in story, but it is also a meditation on identity. The deeper question is not just how to write a story. It is how to recognize the story already trying to live through you. Editorial Note: This is a \"From the Archive\" episode. References to “new” or “upcoming” books, projects, or events reflect the timing of the original recording. What You’ll Learn: Why Steven Pressfield built The Legend of Bagger Vance on the structure of the Bhagavad Gita . How ancient myths and spiritual texts can become frameworks for modern stories. Why the hero’s journey begins only when the hero answers the call. What separates the ordinary world from the extraordinary world. Why Resistance appears immediately after the call to action. Why crossing the threshold changes how other people see you—and how you see yourself. How the artist’s journey begins after the hero’s journey ends. Why the artist’s real question is: What gift am I bringing back? How to go deeper into theme instead of just telling a surface-level story. Why success, awards, money, and status can become forms of Resistance. How dreams, intuition, and recurring ideas can point toward a person’s real work. Why every strong story creates a first pole and second pole: the question and the answer. Why the villain may be a person, a force, or Resistance itself. Why genre conventions matter, even for experienced writers. How opening and closing images can reveal the full emotional transformation of a story. Timestamped Chapters: [02:00] Steven Pressfield and the Ancient Structure of Story James introduces Pressfield through The Legend of Bagger Vance , The Authentic Swing , and the Bhagavad Gita . [03:33] Ancient Wisdom in Modern Writing James explains how he used the Yoga Sutras as a hidden structure for one of his most popular entrepreneurship essays. [04:42] Stories That Have Been Tested for",
+      "duration": "01:23:32",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "9b7fe5b2335a795e9874ea97",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Archived episode on creativity and storytelling frameworks, not directly actionable for DJ's focus.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "39adb7cb16f55b414db2f436",
+      "show_name": "People I Mostly Admire",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "32. Angela Duckworth Explains How to Manage Your Goal Hierarchy",
+      "link": "https://www.siriusxm.com",
+      "published": "2026-07-25T00:00:00+00:00",
+      "summary": "She’s the author of the bestselling book Grit, and a University of Pennsylvania professor of psychology — a field Steve says he knows nothing about. But once Angela gives Steve a quick tutorial on “goal conflict,” he is suddenly a fan. They also talk parenting, self-esteem, and how easy it is to learn econometrics if you feel like it. This episode originally aired June 18, 2021. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:50:47",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "39adb7cb16f55b414db2f436",
+        "score": 55,
+        "tier": "scan",
+        "reason": "Psychology and goal hierarchy discussion; some frameworks but low direct relevance to AI or capital allocation.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "08e357038e87bc9b7bf019a1",
+      "show_name": "Big Technology Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "What Happens If AI Fails?, Subprime Data Center Crisis, How Bad Can SpaceX Get?",
+      "link": "",
+      "published": "2026-07-24T21:33:00+00:00",
+      "summary": "Ranjan Roy from Margins is back for our weekly discussion of the latest tech news. We cover: 1) Could trouble for AI stocks lead to a recession or worse? 2) How the wealth effect might slow consumer spending if AI causes a stock market pullback 3) One scenario that might lead to a collapse 4) Google stock falls on spending concerns 5) Could the switch flip very quickly on big tech capex 6) Subprime data center crisis 7) How much does the data center buildout resemble the financial crisis? 8) What type of revenue is needed to prevent a collapse 9) SpaceX stock tanks 10) Will SpaceX acquire Tesla? 11) Will SpaceX acquire OpenAI? --- Enjoying Big Technology Podcast? Please rate us five stars ⭐⭐⭐⭐⭐ in your podcast app of choice. Want a discount for Big Technology on Substack + Discord? Here’s 25% off for the first year: https://www.bigtechnology.com/subscribe?coupon=0843016b Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "duration": "3876",
+      "old_score": 28,
+      "old_label": "skip",
+      "qwen": {
+        "id": "08e357038e87bc9b7bf019a1",
+        "score": 80,
+        "tier": "digest",
+        "reason": "Ranjan Roy on AI failure scenarios, data center risks, and broader tech market fragility with cautionary insights.",
+        "confidence": "high"
+      }
+    }
+  ]
+}

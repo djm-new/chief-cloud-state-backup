@@ -1,0 +1,291 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-06-24_2104",
+  "usage": {
+    "prompt_tokens": 4630,
+    "completion_tokens": 1092,
+    "total_tokens": 5722
+  },
+  "episodes": [
+    {
+      "id": "46a691f3dbd3700876f2de91",
+      "show_name": "a16z Live / AI + a16z variants",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Building Self-Accelerating AI with Mirendil",
+      "link": "https://ai-a16z.simplecast.com/episodes/building-self-accelerating-ai-with-mirendil-rt3KPYBk",
+      "published": "2026-06-24T19:12:55+00:00",
+      "summary": "Matt Bornstein speaks with Mirendil cofounders Behnam Neyshabur and Harsh Mehta about their vision for building self-accelerating AI. After leading research efforts at Google and Anthropic, the founders started Mirendil around a simple question: what happens when AI systems can meaningfully contribute to their own development? Rather than focusing solely on AI as a tool for productivity, they argue that the most important application may be accelerating scientific and technological progress itself. The conversation explores AI research, scaling laws, automated engineering, scientific discovery, and the challenges of building systems that can improve over time. They discuss the future of AI-assisted research, why they believe scientific progress remains bottlenecked by intelligence, and how more capable AI systems could help unlock advances across medicine, engineering, and the natural sciences. Resources: Follow Behnam Neyshabur on X: https://x.com/bneyshabur?lang=en Follow Harsh Mehta on X: https://x.com/HarshMeh1a Follow Matt Bornstein on X: https://x.com/BornsteinMatt Check out everything a16z is doing with artificial intelligence here , including articles, projects, and more podcasts. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:40:38",
+      "old_score": 47,
+      "old_label": "skip",
+      "qwen": {
+        "id": "46a691f3dbd3700876f2de91",
+        "score": 90,
+        "tier": "listen",
+        "reason": "Discusses self-accelerating AI and implications for scientific progress, a durable framework with capital allocation and AI model economics.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "610bcf5adc41f306950f64ea",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Google's new speaker and your smart home questions",
+      "link": "",
+      "published": "2026-06-24T19:08:00+00:00",
+      "summary": "Google is shipping its first smart speaker in six years, and we're starting to test it. The Verge's Jennifer Pattison Tuohy joins the show to explain why the Home Speaker matters, whether Google actually cares about the smart home, and more. Then, she helps answer a few questions from the Vergecast Hotline (call 866-VERGE11 or email vergecast@theverge.com!) about the power of Ikea and the future of your thermostat. Further reading: The Google Home Speaker sounds good and looks great — but it’s finicky Subscribe to The Verge for unlimited access to theverge.com, subscriber-exclusive newsletters, and our ad-free podcast feed. We love hearing from you! Email your questions and thoughts to vergecast@theverge.com or call us at 866-VERGE11. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "2123",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "610bcf5adc41f306950f64ea",
+        "score": 40,
+        "tier": "scan",
+        "reason": "Focuses on smart home tech; lacks AI platform insight or market read relevant to DJ's focus.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "05bcbc967aa981fb9d1d794b",
+      "show_name": "Latent Space",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Why the Frontier Ecosystem must be Open — Matei Zaharia and Reynold Xin, Databricks",
+      "link": "https://www.latent.space/p/databricks",
+      "published": "2026-06-24T18:53:16+00:00",
+      "summary": "We’re excited to have Databricks join us at AIEWF , among hundreds of the top companies in the AI Engineer ecosystem. LS subscribers can use their discount to get past the late bird pricing and access over $50k in sponsor offers ! Everyone is still talking about Satya’s Frontier Ecosystems post , but few have actually built a ( now $175 billion ) frontier ecosystem and cloud like our guests today. From open-sourcing the layer above coding agents to rethinking databases for the agent era, Databricks cofounders Matei Zaharia and Reynold Xin are pushing the company beyond the lakehouse into a full data-and-AI operating system. In this episode, Matei and Reynold join swyx at the 2026 Data + AI Summit to unpack Omnigent , LTAP , Lakebase , agent security , open formats, Mosaic , and why databases may matter more than ever once AI agents start doing real work. We go deep on Omnigent : Databricks’ open-source meta-harness for combining, controlling, and sharing agents across Claude Code, Codex, Cursor, Pi, custom agents, and internal tools . Matei explains why coding agents and enterprise agents run into the same problems: portability, collaboration, session history, security, spend controls, and the need for a common API above every harness. Then Reynold walks through Databricks’ database dream: why CDC is brittle enough to joke that it means “continuous data corruption,” why HTAP has been the holy grail of database engineering , and why Databricks thinks LTAP gets most of the benefits by unifying the storage layer instead of collapsing every query engine. We also cover Databricks’ infrastructure scale , the culture behind rapid prototyping , the difference between tech and enterprise customers, Databricks vs Snowflake , whether vector databases should have ever existed , the Mosaic model strategy , Genie , AI Runtime, RL fine-tuning, and the thesis that traditional software gets rewritten once the data is in the right place and agents sit on top. Databricks began as a company for the big data era . The origination of Spark from the Berkeley AMPLab which eventually turned into the product Lakehouse convinced enterprises that they didn’t need a separate data lake, warehouse, ML platform, and governance layer. They just needed one open foundation where all of their data could live and be reasoned over. Since then a lot has changed, but data has only become more important. Data is no longer something you keep track of and analyze ad hoc, it’s the necessary context agents need in order to act. So the framing has shifted from “where do we put all of our data?” to “how do we expose the right slice of state, history, permissions, and business logic to an AI system at the exact moment it’s doing work?” If frontier model performance becomes commoditized, the durable advantage then becomes the company-specific context around them : proprietary data, governed access, operational state, transaction logs, workflows, and feedback loops. Which makes Databricks positioned perfectly. Now coming fresh off the Data + AI Summit 2026 , the company is moving just as fast to keep up, announcing Genie One , Omnigent , LTAP , and many more, indicating a central mission in its newer work: Databricks is trying to become the operating system for enterprise agents. Models are getting good enough, but agents are only useful if they have the right context, permissions, memory, state, cost controls, and access to live business data. Fundamentally it appears that significantly better model performance in production is a systems problem , one that data guys like us are remarkably well prepared to solve! We discuss: * Why Databricks built Omnigent as a meta-harness above existing AI agents * Why coding agents and custom enterprise agents need the same infrastructure * The common API for agent sessions , files, streams, tool calls, and cancellation * Why persistent sessions , cloud sandboxes, sharing, search, and collaboration matter * Why Databricks open-sourced Omni",
+      "duration": "4132",
+      "old_score": 51,
+      "old_label": "skip",
+      "qwen": {
+        "id": "05bcbc967aa981fb9d1d794b",
+        "score": 88,
+        "tier": "listen",
+        "reason": "Covers open-source AI ecosystems, agent security, and database evolution in AI era; valuable for platform and infrastructure insight.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "f753c678fc512881a590cc94",
+      "show_name": "Big Technology Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Anthropic's Labs Lead On Fable's Capabilities + Building AI-Native Products — With Mike Krieger",
+      "link": "",
+      "published": "2026-06-24T18:30:00+00:00",
+      "summary": "Mike Krieger is the head of Anthropic Labs and co-founder of Instagram. Krieger joins Big Technology Podcast live from the Big Technology AI Summit to discuss what it's like inside Anthropic the week the government forced the company to pull its frontier models, Fable and Mythos, off the market. Tune in to hear Krieger describe how working with Fable changed the way he builds — queuing up a full night of work before bed and waking to find it finished in an hour — why he insists Anthropic's safety warnings are material rather than marketing, and how Anthropic navigates being both a platform and a product as it competes with the companies building on top of it. Wired senior correspondent Lauren Goode joins as a co-interviewer. Hit play for a rare look inside the lab from the person building Anthropic's next breakout product.--- AI Agent documentary: https://www.gravitee.io/ai-agent-documentary Enjoying Big Technology Podcast? Please rate us five stars ⭐⭐⭐⭐⭐ in your podcast app of choice. Want a discount for Big Technology on Substack + Discord? Here’s 25% off for the first year: https://www.bigtechnology.com/subscribe?coupon=0843016b Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "duration": "2592",
+      "old_score": 36,
+      "old_label": "skip",
+      "qwen": {
+        "id": "f753c678fc512881a590cc94",
+        "score": 82,
+        "tier": "digest",
+        "reason": "Discusses AI-native product development and safety considerations at Anthropic; relevant for product frameworks and AI labor economics.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "57118f30e537c9bdd256520b",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: June 24th, 2026",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-june-24th-2026",
+      "published": "2026-06-24T16:00:00+00:00",
+      "summary": "Featuring: Dan Ives, Managing Director & Global Head of Technology Research as Wedbush Securities John Servidea, Global Co-Head of Investment Grade Debt at JPMorgan Frances Donald, Senior VP & Chief Economist at RBC See omnystudio.com/listener for privacy information.",
+      "duration": "1316",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "57118f30e537c9bdd256520b",
+        "score": 60,
+        "tier": "scan",
+        "reason": "Market commentary from analysts; generic finance recap without actionable market read.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "0ca9a80cef3ca53b87c763b6",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Making Sense of the Tech Selloff",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/making-sense-of-the-tech-selloff",
+      "published": "2026-06-24T15:54:32+00:00",
+      "summary": "The latest in finance, economics and investment. Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF . Bloomberg Surveillance hosted by Tom Keene & Paul SweeneyWednesday, June 24, 2026 Featuring: 1) Ivan Feinseth, Senior Partner & CIO at Tigress Financial Partners, talks his bullish S&P call and why the recent tech selloff is a \"healthy correction.\" 2) Qian Wang, Chief Asia-Pacific Economist and Global Head of VCMM at Vanguard, talks about why near-term growth momentum remains in tact, but that the bar keeps rising 3) Libby Cantrill, Managing Director: Public Policy at PIMCO, talks the latest happenings in Congress as well as the Mamdani-backed primary sweep in NY. 4) Jared Fleishcer, CEO at Bedrock Detroit, on working closely with billionaire Dan Gilbert to address Detroit's real estate market as well as how public-private housing initiatives are reshaping the metro and being applied across the US. See omnystudio.com/listener for privacy information.",
+      "duration": "1527",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "0ca9a80cef3ca53b87c763b6",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Discusses tech selloff and market dynamics; offers some macroeconomic context relevant to capital allocation.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "44a5b0a586a08e19e6d048ff",
+      "show_name": "The Breakdown with NLW",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Searching for the Ethereum Foundation's Remaining Cash",
+      "link": "",
+      "published": "2026-06-24T14:32:00+00:00",
+      "summary": "FOLLOW THE SHOW › David — https://x.com/dcanellis › The Breakdown — https://x.com/TheBreakdownBW › The Breakdown Newsletter — https://blockworks.com/newsletter/the-breakdown DISCLAIMER As always, remember this podcast is for informational purposes only, and any views expressed by anyone on the show are solely their opinions, not financial advice.",
+      "duration": "1415",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "44a5b0a586a08e19e6d048ff",
+        "score": 30,
+        "tier": "skip",
+        "reason": "Focuses on Ethereum Foundation cash; lacks durable framework or AI relevance.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "2136a86356039859600deefb",
+      "show_name": "Training Data",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Memory and Continual Learning: Engram's Dan Biderman and Jessy Lin",
+      "link": "",
+      "published": "2026-06-24T14:22:00+00:00",
+      "summary": "Dan Biderman and Jessy Lin, co-founders of Engram, are building a neolab around memory and continual learning, which they call two sides of the same coin. Their contrarian premise: instead of stuffing ever-larger prompts into the context window or bolting on RAG, bake a team's knowledge directly into the model's weights, so it knows your company the way an employee of several years does. The payoff: matching or beating frontier models while consuming up to 100x fewer tokens. Working with partners like Microsoft, Notion, and Harvey, the team draws on roots in computational neuroscience and state-space architectures to attack what they see as the real bottleneck in AI — not raw intelligence, but memory and continual learning. In contrast to the frontier labs' race toward one ever-bigger model and AGI, Dan and Jessy imagine a world where everyone has their own model — privately trained, always learning, and good at the things you actually care about. The real ChatGPT moment for memory, they argue, is the day your model feels like an intern that genuinely got smarter overnight. Hosted by Sonya Huang and Shaun Maguire, Sequoia Capital",
+      "duration": "2691",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "2136a86356039859600deefb",
+        "score": 85,
+        "tier": "listen",
+        "reason": "Explores memory and continual learning in AI; addresses enterprise knowledge integration and efficiency gains.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "29f4922432d4ae58d8d2bcb3",
+      "show_name": "Conversations with Tyler",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "Joanne Paul on Thomas More and the Tudor World",
+      "link": "https://cowenconvos.libsyn.com/joanne-paul-on-thomas-more-and-the-tudor-world",
+      "published": "2026-06-24T11:00:00+00:00",
+      "summary": "Joanne Paul is a historian at the University of Sussex, author, and a go-to Tudor expert on YouTube. She tells Tyler she's drawn to the 16th century because it sits between the medieval and the modern, and because its paths not taken are a way of asking whether our own world had to turn out this way. Her biography Thomas More: A Life takes its subject in that spirit, refusing to reduce More to either martyr or monster. Tyler and Joanne discuss how More influenced Erasmus, what to make of Utopia , why fear drove More's persecution of heretics, how Holbein's portraits of More and Cromwell differ, what movie depictions get wrong about More, how his execution was viewed at the time, how the Tudor period paved the way for Shakespeare and the scientific revolution, the surprising social mobility of the period, how the City of London governed itself and where that clashed with the Crown, Joanne's upbringing in Canada and what drew her to English history, what she thinks sits beneath a lot of Britain's current stagnation, the subject of her next book, and much more. Read a full transcript enhanced with helpful links, or watch the full video on the new dedicated Conversations with Tyler channel. Recorded February 19th, 2026 . This episode was made possible through the support of the John Templeton Foundation. Other ways to connect Follow us on X and Instagram Follow Tyler on X Follow Joanne on X Sign up for our newsletter Join our Discord Email us: cowenconvos@mercatus.gmu.edu Learn more about Conversations with Tyler and other Mercatus Center podcasts here . Timestamps: 00:00:00 - Intro 00:03:42 - More's Utopia 00:10:50 - Whether More Should be Admired 00:13:39 - Play and Movie Adaptations of More 00:19:25 - English Catholicism as the Reformation Approaches 00:22:29 - Shakespeare and the Growth of Education 00:26:08 - The Quality of Tudor Art 00:27:24 - Tolerance and Social Mobility in 16th Century England 00:32:49 - London's Governance 00:34:23 - Canada 00:38:12 - Choosing English History to Study 00:41:23 - Touring and Living in England 00:43:06 - Religion, Politics, and Economics in the UK 00:49:32 - Outro",
+      "duration": "50:04",
+      "old_score": 21,
+      "old_label": "skip",
+      "qwen": {
+        "id": "29f4922432d4ae58d8d2bcb3",
+        "score": 45,
+        "tier": "scan",
+        "reason": "Historical analysis of Tudor period; lacks relevance to AI, markets, or durable frameworks.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "52d02b841abc7a53040e09ef",
+      "show_name": "Stratechery",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "My Vibe Coding Adventure, The App and the Experience, Ten Takeaways",
+      "link": "https://stratechery.com/2026/my-vibe-coding-adventure-the-app-and-the-experience-ten-takeaways/",
+      "published": "2026-06-24T10:00:00+00:00",
+      "summary": "My experience and reflections on vibe coding an app that I plan on actually using regularly.",
+      "duration": "",
+      "old_score": 26,
+      "old_label": "skip",
+      "qwen": {
+        "id": "52d02b841abc7a53040e09ef",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Reflects on app development and user experience; offers some product design insight worth summarizing.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "8ac8bf60d105474093f645ec",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "What Happens to Design After AI?",
+      "link": "https://a16z.simplecast.com/episodes/what-happens-to-design-after-ai-F7dGiPRT",
+      "published": "2026-06-24T10:00:00+00:00",
+      "summary": "Anish Acharya speaks with Microsoft VP of Design John Maeda and Impeccable founder and CEO Paul Bakaus about how AI is changing the practice of design. The conversation explores the relationship between design and technology, the rise of AI-powered creative tools, and whether automation raises the floor, the ceiling, or both. Maeda and Bakaus discuss software craftsmanship, taste, creative judgment, and why some aspects of design may become increasingly automated while others become more valuable. They also examine agentic workflows, the future of user experience, the role of designers in an AI-native world, and how new tools may reshape the relationship between designers, engineers, and software itself. Resources: Follow Anish Acharya on X: https://x.com/illscience Follow John Maeda on X: https://x.com/johnmaeda Follow Paul Bakaus on X: https://x.com/pbakaus Get the GitHub Copilot app: gh.io/app Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:48:46",
+      "old_score": 43,
+      "old_label": "skip",
+      "qwen": {
+        "id": "8ac8bf60d105474093f645ec",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Explores AI's impact on design; includes agentic workflows and creative automation relevant to toolkit expansion.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "283bf2c60df2b5cd29a0bd0b",
+      "show_name": "My First Million",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "We found an app that lets you buy anything for $0",
+      "link": "",
+      "published": "2026-06-24T08:00:00+00:00",
+      "summary": "*20+ hours of investing wisdom:* https://clickhubspot.com/cbah Episode 836: Sam Parr ( https://x.com/theSamParr ) and Shaan Puri ( https://x.com/ShaanVP ) talk about people who have turned their lifestyles into millions, plus Nick Sleep’s investing genius. — Show Notes: (0:00) fringe creators (13:14) Nick Sleep's shared economies of scale (24:41) lloyd blanfein's personal finances (31:14) David Rubenstein, the man (39:09) Nat Turner's crazy new business (50:13) a brief masterclass in valuing denim — Check Out Sam's Stuff: • Hampton (joinhampton.com): My community for founders. Average member does $25m/year. Many of the guests are members. Get after it...apply: http://joinhampton.com/mfm — Check Out Shaan's Stuff: • Shaan's weekly email - https://www.shaanpuri.com • Visit https://www.somewhere.com/mfm to hire worldwide talent like Shaan and get $500 off for being an MFM listener. Hire developers, assistants, marketing pros, sales teams and more for 80% less than US equivalents. • Mercury - Shaan uses Mercury for banking across all of his companies. you can too: http://mercury.com/ Mercury is a fintech company, not an FDIC-insured bank. Banking services provided by Choice Financial Group, Column, N.A., and Evolve Bank & Trust, Members FDIC • I run all my newsletters on Beehiiv and you should too + we're giving away $10k to our favorite newsletter, check it out: beehiiv.com/mfm-challenge My First Million is a HubSpot Original Podcast // Brought to you by HubSpot Media // Production by Arie Desormeaux // Editing by Ezra Bakker Trupiano /",
+      "duration": "3498",
+      "old_score": 28,
+      "old_label": "skip",
+      "qwen": {
+        "id": "283bf2c60df2b5cd29a0bd0b",
+        "score": 35,
+        "tier": "skip",
+        "reason": "Consumer-focused app pitch; lacks durable framework or capital allocation insight.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "08f19d8abf21eefa2c77f34b",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Rebranding the Democratic Party + The College Affordability Crisis",
+      "link": "",
+      "published": "2026-06-24T08:00:00+00:00",
+      "summary": "Scott Galloway breaks down Democratic Party branding strategy, why university endowments are hoarding wealth instead of expanding access, and which college degrees are still worth it in the age of AI. Want to be featured in a future episode? Send a voice recording to officehours@profgmedia.com, or drop your question in the r/ScottGalloway subreddit. Plus, you can now call or text Scott a question at our new Office Hours hotline: ‪(201) 472-3656‬. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "1476",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "08f19d8abf21eefa2c77f34b",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Focuses on politics and education; minimal relevance to AI or market dynamics.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "857bf2c086b812d0c3780556",
+      "show_name": "Possible",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Who's got the ball on carbon removal?",
+      "link": "",
+      "published": "2026-06-24T07:01:00+00:00",
+      "summary": "Carbon removal has gone from a niche climate concept to one of the world's most important challenges. Reid and Aria sit down with Nan Ransohoff, Head of Public Goods at Stripe and a leader behind Frontier, the advanced market commitment helping build the market place for carbon removal. Nan explains why cutting emissions alone won't be enough to meet climate goals, what it will take to scale carbon removal from thousands to trillions of tons, and why governments—not just companies—will ultimately need to create and fund the markets that make it possible. They discuss the most promising carbon removal technologies, the role AI could play in accelerating climate solutions, and what it means to be a \"general manager\" for challenges that affect all of humanity. For more info on the podcast and transcripts of all the episodes, visit https://www.possible.fm/podcast/",
+      "duration": "4280",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "857bf2c086b812d0c3780556",
+        "score": 60,
+        "tier": "scan",
+        "reason": "Discusses carbon removal and climate tech; some AI application potential but not central to DJ's focus.",
+        "confidence": "medium"
+      }
+    }
+  ]
+}

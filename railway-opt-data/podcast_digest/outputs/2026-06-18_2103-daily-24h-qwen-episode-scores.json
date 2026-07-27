@@ -1,0 +1,311 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-06-18_2103",
+  "usage": {
+    "prompt_tokens": 5174,
+    "completion_tokens": 1197,
+    "total_tokens": 6371
+  },
+  "episodes": [
+    {
+      "id": "c9e93a9f53542ba1fbfb8963",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Snap's Specs look good on nobody",
+      "link": "",
+      "published": "2026-06-18T18:47:00+00:00",
+      "summary": "The new smart glasses from Snap look like an impressive bit of technology, and some of the most advanced glasses we've seen. But Nilay and David start the show by wondering, does that matter if nobody wants to put them on? What would it take to overcome the ear-smashing? After that, they discuss the reasons for (and problems awaiting) Fox's acquisition of Roku, the latest updates from Matter, Facebook's wild AI Mode, and more. Further reading: Snap is finally about to ship AR glasses — and they cost a fortune Snap Unveils Specs Smart Glasses at AWE 2026 From CNBC: Snap CEO Evan Spiegel on new AR Specs: New opportunity to bring computing to the world around you Qualcomm’s latest chip hints that more powerful smart glasses could be on the way The Microsoft Surface Laptop 8 and Surface Pro 12 now come with Snapdragon X2 chips Commodore’s Callback 8020 is a retro flip phone with modern ideals Google’s first smart speaker in six years arrives next week Fox is buying Roku Fox wants to take over your TV — and the tech inside it Netflix was reportedly worried about antitrust scrutiny if it bought Roku instead of Fox. Fox is taking over Roku City How Stephen Colbert’s Replacement Is Helping Tank the Rest of CBS Will Matter finally be able to do what it should have always done? | The Verge Thread Direct looks to solve Matter’s biggest setup headache | The Verge Half a billion people are using Threads every month Facebook’s new AI Mode search gets its info from public posts Subscribe to The Verge for unlimited access to theverge.com, subscriber-exclusive newsletters, and our ad-free podcast feed. We love hearing from you! Email your questions and thoughts to vergecast@theverge.com or call us at 866-VERGE11. (Timestamps are approximate.) 00:01:00 Intro 00:02:00 Snap Specs revealed 00:06:00 Snap software advantage 00:08:00 Price comfort reality check 00:10:00 True AR breakthrough 00:15:00 Demos vs daily life 00:21:00 Privacy and moderation risks 00:27:00 Fox buys Roku why 00:29:00 Distribution is power 00:33:00 Roku neutrality ends 00:37:00 Roku Lock-In Debate 00:41:00 Piracy Exit Ramp 00:42:00 Tubi Meets Roku Channel 00:46:00 Go90 Scale Rankings 00:52:00 Distribution Matters CBS 00:57:00 Hype Desk Movies 01:03:00 Knicks Laptop Festival 01:06:00 Brendan Carr Is A Dummy 01:10:00 Radio Ownership Waivers 01:12:00 Threads User Numbers 01:16:00 Meta AI Mode Risks 01:19:00 Matter Joint Fabric 01:28:00 Wrap Up and Plugs Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "5236",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "c9e93a9f53542ba1fbfb8963",
+        "score": 55,
+        "tier": "scan",
+        "reason": "Interesting tech discussion on Snap's AR glasses and Fox's Roku acquisition, but light on durable frameworks or operator insights.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "1e3a1a5979482cac63c83d3a",
+      "show_name": "Latent Space",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "The Professor of Outputmaxxing — Anjney Midha, AMP",
+      "link": "https://www.latent.space/p/anj",
+      "published": "2026-06-18T17:30:00+00:00",
+      "summary": "Last 4 days before regular tickets sell out at AI Engineer World’s Fair - this is the single biggest gathering of AI Engineers, Founders, Leaders, and Researchers in the world. Attendees get >$5000 worth of sponsor credits and talk tracks are looking FANTASTIC. Join us! The AI scaling debate always focuses on the question of “how do we get more GPUs?” but the better question may be: how do we make the most of ones we already have. The fact that a frontier lab like xAI could be running at sub-10% MFU (Model FLOPs Utilization) is just a hint at what the real problem may be. For context, older frontier-scale training runs were already much higher than 10%. GPT-3 was around 21% MFU . Gopher was around 32% . Megatron-Turing NLG was around 30% . PaLM reached around 46% . And our guest Anjney says best-in-class MFU today is closer to 60–70% . It’s not necessarily that xAI is uniquely incompetent (it’s clear they have talented folks) but rather the priorities may be flipped in the GPU arms race. While GPU access is a bottleneck, simply increasing CapEx won’t automatically translate to better models as frontier AI is increasingly a systems problem : scheduling, utilization, networking, kernels, frameworks, data pipelines, parallelism, cluster reliability, and the thousand small decisions that determine whether your theoretical FLOPs become real training progress. From building Discord’s developer platform and backing frontier AI companies like Anthropic, Mistral, Black Forest Labs, and Periodic Labs to now building AMP’s independent compute grid, Anjney Midha has spent years close to the real bottlenecks of AI scaling. In this episode, Anjney joins swyx at Periodic Labs to unpack why the AI race is not just about buying more GPUs , why 95% utilization would have been considered an outage at Google, and why the next era of AI infrastructure has to be more aligned, more efficient, and more responsible. We go deep on AMP’s vision for a compute grid that makes FLOPs flow like megawatts , the difference between full-stack AI labs and horizontal pooling, why AI data centers need community buy-in, and how compute markets could evolve into something closer to an independent system operator. Anjney also explains why DeepMind’s unpublished research points to a market failure, why end-of-life prediction remains one of the most important AI applications he has thought about for fourteen years, and why “output maxing” may become a new discipline for frontier systems. We also discuss Anthropic’s culture, why “luck favors the prepared mind” in coding models, how Claude cracked coding, why too much capital too early can make AI labs fragile, what Periodic Labs is trying to do with science and superconductors, why great researchers can become great CEOs, and why Silicon Valley is both deeply missionary and deeply mercenary. We discuss: * Why 95% utilization was considered an outage at Google * Why AI infrastructure waste compounds at frontier-lab scale * Why “move fast and break things” does not work for AI data centers * How data center backlash , power grids, and community incentives shape AI scaling * AMP’s vision for making FLOPs flow like megawatts * Why compute needs an independent system operator * How interruptible demand and dynamic prioritization worked inside Google * Why DeepMind research hoarding creates negative externalities * AMP’s 1.2GW base-load ambition and the need for 6GW of spike capacity * Why end-of-life prediction could become one of AI’s most important healthcare applications * Frontier Systems , output maxing, and full-stack alignment * Why APIs and abstraction layers become lossy as organizations scale * Superconductors , standards, and the dream of lossless systems * SF Compute , open protocols, and the future of compute marketplaces * Why non-NVIDIA chips can still benefit from NVIDIA’s reference architecture * Trust boundaries and why chip startups need visibility into future model architectures * Why VCs often underestim",
+      "duration": "3565",
+      "old_score": 59,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "1e3a1a5979482cac63c83d3a",
+        "score": 85,
+        "tier": "listen",
+        "reason": "Deep dive into AI scaling efficiency with concrete MFU benchmarks and insights from Anjney Midha, relevant to AI infrastructure and capital allocation.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "1f2d17e0319785a1efb6256d",
+      "show_name": "New Yorker Radio Hour",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "low",
+      "title": "Hillary Clinton on How Donald Trump Lost the Iran War",
+      "link": "https://www.wnycstudios.org/podcasts/tnyradiohour",
+      "published": "2026-06-18T17:00:00+00:00",
+      "summary": "The former Secretary of State Hillary Clinton sat down with David Remnick at the 92nd Street Y, in New York, on Monday evening, after the Trump Administration announced a memorandum of understanding to end its war in Iran. Remnick asked whether the United States lost this war. “Yes,” Clinton replied. “The United States has come out weaker. Iran has come out stronger.” According to Clinton, Israel repeatedly tried to pressure the Obama Administration into backing a similar action in Iran, but she didn’t take the bait. “They would say things like ‘Our planes are on the tarmac,’ ” Clinton recalled. “And I’d say, ‘Well, good luck. Great. Why are you doing this?’ ” They also discuss Joe Biden’s decision to run for a second term, and its fateful consequences. “He made a terrible mistake,” she said. Had Biden stayed with his plan of serving for one term, “I believe whoever emerged . . . would have beaten Donald Trump.” Further reading and listening: “ Hillary Clinton on the Psychology of Autocrats ,” an episode of The Political Scene “ Hillary Clinton Explains What Happened ,” an episode of The New Yorker Radio Hour “ The Broadway Life of Hillary Clinton ,” by Michael Schulman “ Curtis Sittenfeld’s ‘Rodham’ Offers the Catharsis of Uncomplicated Regret ,” by Nora Caplan-Bricker New episodes of The New Yorker Radio Hour drop every Tuesday and Friday. Join host David Remnick as he discusses the latest in politics, news, and current events in conversation with political leaders, newsmakers, innovators, New Yorker staff writers, authors, actors, and musicians. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:49:26",
+      "old_score": 0,
+      "old_label": "skip",
+      "qwen": {
+        "id": "1f2d17e0319785a1efb6256d",
+        "score": 30,
+        "tier": "skip",
+        "reason": "Political content with limited relevance to market dynamics or durable business frameworks.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "91a959cee6f62fd8dd23d79f",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: June 18th, 2026",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-june-18th-2026",
+      "published": "2026-06-18T16:23:20+00:00",
+      "summary": "Featuring: Ed Yardeni, President & Chief Investment Strategist of Yardeni Research Norman Roule, Senior Adviser: Warfare & Terrorism Program at the Center for Strategic & International Studies Claudia Sahm, Chief Economist at New Century Advisors See omnystudio.com/listener for privacy information.",
+      "duration": "1421",
+      "old_score": 0,
+      "old_label": "skip",
+      "qwen": {
+        "id": "91a959cee6f62fd8dd23d79f",
+        "score": 40,
+        "tier": "skip",
+        "reason": "Standard financial news recap with no standout insights or actionable frameworks.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "723d11174f2df70c78316076",
+      "show_name": "Eye on AI",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Only 12% of Companies Generate Value From AI. Here's What They're Doing | Sanjeev Vohra, Genpact",
+      "link": "https://aneyeonai.libsyn.com/only-12-of-companies-generate-value-from-ai-heres-what-theyre-doing-sanjeev-vohra-genpact",
+      "published": "2026-06-18T15:52:00+00:00",
+      "summary": "Genpact surveyed 500 senior executives to understand why companies are investing in AI but not seeing the value, and what they found was both clarifying and uncomfortable. Sanjeev Vohra, Genpact's Chief Technology and Innovation Officer, joins Craig Smith to share the results: only 12% of companies qualify as genuine AI leaders, meaning they're deploying AI in production environments, generating measurable business outcomes, and have the governance systems in place to actually assess that value. The other 88% are somewhere between experimenting and stalled, and the most common culprit isn't the technology or the C-suite. It's what Vohra and his clients call the \"frozen middle\", the operationally stretched middle managers who are too busy to lead the transformation and too central to the business to be bypassed. The conversation covers the full landscape of what separates leaders from the rest: why co-pilots are a stepping stone that most companies are mistaking for the destination; why 99% of enterprises have no real AI governance program even as agents begin to proliferate; how Genpact's own CEO writing code on a Friday afternoon became the most powerful AI adoption signal in the company; and why Vohra's sharpest piece of advice is also the simplest, progress over perfection, because the companies still waiting for a complete roadmap before they start have already fallen behind. His formula for what's coming: engineers who are 10 times more productive, business professionals who are 3 times more capable, and organizations that treat that as a baseline expectation, not a stretch goal. Subscribe to Eye on A.I. for weekly conversations with the people building and deploying the future of AI.",
+      "duration": "59:09",
+      "old_score": 44,
+      "old_label": "skip",
+      "qwen": {
+        "id": "723d11174f2df70c78316076",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Valuable insights on enterprise AI adoption challenges and the 'frozen middle' bottleneck, useful for operational and strategic thinking.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "dc3f96f09bc821fac305f6f0",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Equities and the Fed",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/equities-and-the-fed",
+      "published": "2026-06-18T15:18:17+00:00",
+      "summary": "The latest in finance, economics and investment. Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF . Bloomberg Surveillance hosted by Tom Keene & Paul SweeneyThursday, June 18, 2026 Featuring: 1) Ed Yardeni, president at Yardeni Research, talks about his S&P 500 call, the Fed, and equities. 2) Anastasia Amoroso, Chief Investment Strategist: Private Wealth at Partners Group, on the market rally, AI infrastructure, and opportunities in America. 3) Julie Biel, Chief Market Strategist at Kayne Anderson Rudnick, talks markets and the tech and AI boom. 4) Thomas DiNapoli, NY State Comptroller, discusses his role and the upcoming Democratic primary for his position. See omnystudio.com/listener for privacy information.",
+      "duration": "1804",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "dc3f96f09bc821fac305f6f0",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Market commentary with Fed and AI infrastructure angles, but lacks deep analysis or unique frameworks.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "44baa5c7d0b3f57b1c6445d9",
+      "show_name": "Infinite Loops",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Ben Cohen - The Hidden Art of Making Things Better (Ep. 319)",
+      "link": "https://infiniteloopspodcast.com/319",
+      "published": "2026-06-18T12:10:00+00:00",
+      "summary": "Wall Street Journal columnist Ben Cohen joins guest host Jimmy Soni, CEO of Infinite Books, to explore the hidden art of making things better. They explore the hot hand phenomenon in basketball, why Moneyball shaped a generation of journalists, the peanut butter and jelly crisis in the Warriors locker room, why ASML is the most important company you've never heard of, the strange story of Driscoll's tastiest berries, and the troubled development of The Princess Bride. Important Links: Learn more about Ben here: https://www.wsj.com/news/author/ben-cohen Read The Science of Success: https://www.wsj.com/news/types/science-of-success Read The Hot Hand: https://www.harpercollins.com/pages/hothand",
+      "duration": "01:20:14",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "44baa5c7d0b3f57b1c6445d9",
+        "score": 60,
+        "tier": "digest",
+        "reason": "Explores behavioral and operational insights through sports, tech, and storytelling, with some useful takeaways for decision-making.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "a027d8b91d65b146fc30dbee",
+      "show_name": "My First Million",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "We decoded the business behind this influencer’s perfect life",
+      "link": "",
+      "published": "2026-06-18T11:20:00+00:00",
+      "summary": "*Sam’s guide to run your life like a $100M business:* https://clickhubspot.com/dfbn Episode 835: Sam Parr ( https://x.com/theSamParr ) and Shaan Puri ( https://x.com/ShaanVP ) talk about people who have turned their lifestyles into a business. — Show Notes: (0:00) escape aesthetics (4:06) putting the life in lifestyle (17:28) Law 25: Recreate Yourself (20:20) Your word is your wand (25:06) unclear words, unclear thinking (27:24) America amazes world cup tourists (33:43) the game of more (49:07) no hedging — Links: • Your Word Is Your Wand - https://a.co/d/05683tU7 • The 48 Laws of Power - https://a.co/d/0ghzjpKk — Check Out Sam's Stuff: • Hampton (joinhampton.com): My community for founders. Average member does $25m/year. Many of the guests are members. Get after it...apply: http://joinhampton.com/mfm — Check Out Shaan's Stuff: • Shaan's weekly email - https://www.shaanpuri.com • Visit https://www.somewhere.com/mfm to hire worldwide talent like Shaan and get $500 off for being an MFM listener. Hire developers, assistants, marketing pros, sales teams and more for 80% less than US equivalents. • Mercury - Shaan uses Mercury for banking across all of his companies. you can too: http://mercury.com/ Mercury is a fintech company, not an FDIC-insured bank. Banking services provided by Choice Financial Group, Column, N.A., and Evolve Bank & Trust, Members FDIC • I run all my newsletters on Beehiiv and you should too + we're giving away $10k to our favorite newsletter, check it out: beehiiv.com/mfm-challenge My First Million is a HubSpot Original Podcast // Brought to you by HubSpot Media // Production by Arie Desormeaux // Editing by Ezra Bakker Trupiano /",
+      "duration": "3451",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "a027d8b91d65b146fc30dbee",
+        "score": 35,
+        "tier": "skip",
+        "reason": "Light lifestyle/business content with generic advice, not aligned with DJ's focus on durable frameworks or AI insights.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "c20b32250f370bcefe06aa6a",
+      "show_name": "No Priors",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Re-engineering the Semiconductor Supply Chain with Intel CEO Lip Bu Tan",
+      "link": "",
+      "published": "2026-06-18T10:00:00+00:00",
+      "summary": "At 66 years old, instead of heading towards retirement, former Cadence CEO and legendary investor Lip Bu Tan decided to take on the hardest job in tech: turning Intel around. Elad Gil and Sarah Guo sit down with Intel CEO Lip Bu Tan to talk about why he took the job and what “saving” Intel actually looks like. Tan explains how his experience in startup culture informed his decisions to drive Intel’s culture towards faster decisions, focus on customer satisfaction, and engineer accountability. He also discusses his strategy to strengthen Intel’s balance sheet by welcoming investments from Jensen Huang’s Nvidia, Softbank, and the US government. Tan also shares his product roadmap that centers the CPU for agentic AI and inference, the collaboration with Elon Musk on Terafab, his investing framework for semiconductors, and his views on how AI is reshaping design and operations at, as he puts it, a ‘legacy spreadsheet’ tech company. Sign up for new podcasts every week. Email feedback to show@no-priors.com Follow us on Twitter: @NoPriorsPod | @Saranormous | @EladGil | @LipBuTan1 | @intel Chapters: 00:00 – Cold Open 01:01 – Lip Bu Tan Introduction 01:24 – Why Lip Bu Took the Reins at Intel 03:00 – Fixing Culture 04:08 – Intel’s 10-Year Vision 07:57 – Working with Elon Musk on Terafab 09:59 – Shifting Supply Chain for Semiconductors 15:34 – Limits to Scaling and Packaging 18:30 – Physical Limits to Engineering and Design 20:33 – Challenges in Semiconductor Investing 26:29 – Lessons from Cadence 28:02 – Scaling and Investment Decisions 32:03 – Rethinking Teams in AI Era 34:31 – Industrial Policy and Funding 37:25 – What Investors Misunderstand About Intel 41:10 – Where Compute Will Live 44:59 – Conclusion",
+      "duration": "2699",
+      "old_score": 100,
+      "old_label": "must_listen",
+      "qwen": {
+        "id": "c20b32250f370bcefe06aa6a",
+        "score": 80,
+        "tier": "listen",
+        "reason": "Intel CEO discusses semiconductor strategy, AI's impact on design, and culture change in legacy tech firms—high relevance to DJ's interests.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "25449683775b8e1e4347b578",
+      "show_name": "Stratechery",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "An Interview with Michael Morton About E-Commerce in the Age of AI",
+      "link": "https://stratechery.com/2026/an-interview-with-michael-morton-about-e-commerce-in-the-age-of-ai/",
+      "published": "2026-06-18T10:00:00+00:00",
+      "summary": "An interview with Michael Morton about e-commerce and AI, including the challenges of unfalsifiable bear cases, distribution versus referal models, grocery, and autonomous vehicles.",
+      "duration": "",
+      "old_score": 38,
+      "old_label": "skip",
+      "qwen": {
+        "id": "25449683775b8e1e4347b578",
+        "score": 75,
+        "tier": "digest",
+        "reason": "E-commerce and AI discussion with Michael Morton offers strategic insights on distribution models and AI's impact on operations.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "d40b835d0adbffc9b12289ad",
+      "show_name": "Decoder with Nilay Patel",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Who decides when AI is too dangerous?",
+      "link": "",
+      "published": "2026-06-18T09:00:00+00:00",
+      "summary": "My guest today is Hayden Field, senior AI reporter for The Verge. Often when Hayden comes on the show, it’s because something has gone wrong in the world of AI. Last weekend, that something was a pretty intense mix of Anthropic, the Trump administration, and Anthropic’s new AI model, Fable 5. Hayden actually just published a fantastic play-by-play on The Verge about how the Fable ban went down, and the scramble through the weekend from both sides to figure out what exactly happened and how it might get resolved. So I wanted her to come on and just walk me through the timeline and what it all means. Links: Inside the fight over Claude Mythos 5 | ⁠The Verge⁠ Anthropic cuts off Fable 5 and Mythos 5 access following government order | ⁠The Verge⁠ Anthropic got hit by export rules nobody understands | ⁠The Verge⁠ Anthropic’s safety superpower | ⁠Stratechery⁠ \"They screwed us\": Personality clashes sent Anthropic's models offline | ⁠Axios⁠ Anthropic’s call for AI nonproliferation | ⁠New York Times⁠ Trump signs exec order to review AI models before release | ⁠The Verge⁠ New Anthropic model finds security problems ‘in every major OS, browser’ | ⁠The Verge⁠ Subscribe to The Verge⁠ to access the ad-free version of Decoder! Credits: Decoder is a production of The Verge and part of the Vox Media Podcast Network. Decoder is produced by Kate Cox and Nick Statt and edited by Ursa Wright. Our editorial director is Kevin McShane. The Decoder music is by Breakmaster Cylinder. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "2453",
+      "old_score": 32,
+      "old_label": "skip",
+      "qwen": {
+        "id": "d40b835d0adbffc9b12289ad",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Explores AI safety governance and regulatory tensions, relevant to AI policy and risk frameworks.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "9dbe261324149a87468578b5",
+      "show_name": "Masters of Scale",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "IBM’s $10 billion bet on what comes after AI",
+      "link": "",
+      "published": "2026-06-18T09:00:00+00:00",
+      "summary": "While many tech companies race to build ever-larger AI models, IBM CEO Arvind Krishna sees the future differently. Speaking with host Bob Safian before a live audience during New York Tech Week, Krishna explains why enterprises are overcomplicating AI adoption, what kinds of risks leaders should be taking right now, and how to weigh AI's costs against its benefits. He also shares why IBM believes quantum computing will reshape the next era of technology. Subscribe to the Masters of Scale weekly newsletter: https://mastersofscale.com/subscribe See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info .",
+      "duration": "00:41:28",
+      "old_score": 32,
+      "old_label": "skip",
+      "qwen": {
+        "id": "9dbe261324149a87468578b5",
+        "score": 70,
+        "tier": "digest",
+        "reason": "IBM CEO discusses AI adoption challenges and quantum computing's future, offering strategic insights for enterprise tech.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "727600e32712017207e6ef06",
+      "show_name": "Odd Lots",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "Jeremy Grantham on How to Tell If a Bubble Is About to Burst",
+      "link": "https://omny.fm/shows/odd-lots/jeremy-grantham-on-how-to-tell-if-a-bubbles-about-to-burst",
+      "published": "2026-06-18T08:00:00+00:00",
+      "summary": "Jeremy Grantham, co-founder and long-term strategist of GMO, has a long history of calling bubbles. As he recounts in his new memoir, The Making of a Permabear: The Perils of Long-Term Investing in a Short-Term World , that includes spotting the dot-com bubble of the early 2000s, which some people see as analogous to the current excitement over AI. And when it comes to today's market, there are a lot of signs of frothiness you could point to. In this episode, we speak to Grantham about how he sees markets right now, including a watershed change for Big Tech stocks, the signs he watches out for to spot when a bubble might burst, and what really keeps him up at night. Only Bloomberg.com subscribers can get the Odd Lots newsletter in their inbox — plus unlimited access to the site and app. Sign up at bloomberg.com/subscriptions/oddlots See omnystudio.com/listener for privacy information.",
+      "duration": "3580",
+      "old_score": 32,
+      "old_label": "skip",
+      "qwen": {
+        "id": "727600e32712017207e6ef06",
+        "score": 60,
+        "tier": "digest",
+        "reason": "Grantham provides bubble-spotting frameworks and market risk analysis, useful for macro-investment thinking.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "4037877725948f9711a17a53",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "America at 250 — with Heather Cox Richardson",
+      "link": "",
+      "published": "2026-06-18T08:00:00+00:00",
+      "summary": "As the United States approaches its 250th birthday, Scott Galloway speaks with historian Heather Cox Richardson about the future of American democracy. They explore Trump's politics of spectacle, the war in Iran, the state of both political parties, and what history suggests comes next. Subscribe to Prof G+ to join our next livestream here. Check out Letters from an American here. Want to listen to this and other episodes ad-free? You can, if you subscribe at profgmedia.com. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "3811",
+      "old_score": 0,
+      "old_label": "skip",
+      "qwen": {
+        "id": "4037877725948f9711a17a53",
+        "score": 45,
+        "tier": "scan",
+        "reason": "Political and historical analysis with limited direct relevance to DJ's focus areas.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "97cbfa6010da7175adbfc080",
+      "show_name": "The Twenty Minute VC",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "20VC: SpaceX Soars to $2.7TRN | Anthropic's Fable Banned by US Government | Wix and Adobe Hit All-Time Lows | Mistral Raising at $20BN and The Case for Sovereign Models | Fin Acquired by Salesforce for $3.6BN",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-spacex-soars-to-27trn-anthropics-fable-banned-by-us-government-wix-and-adobe-hit-all-time-lows-mistral-raising-at-20bn-and-the-case-for-sovereign-models-fin-acquired-by-salesforce-for-36bn",
+      "published": "2026-06-18T07:07:00+00:00",
+      "summary": "AGENDA: 00:00 — SpaceX Completes the Largest IPO in History 03:45 — Elon Musk Adds a Warren Buffett Fortune in 24 Hours 20:45 — Anthropic's Claude Fable Launches Monday, Gets Banned by Thursday 25:00 — Washington Declares War on Frontier AI 39:00 — Europe's Sovereign AI Push Accelerates as Mistral Targets $20B 43:30 — Benchmark Admits Its Biggest Miss: Passing on the Model Labs 45:15 — Salesforce Buys Fin for $3.6B and Rewrites the SaaS Survival Playbook 1:02:00 — Adobe Beats, Raises, and Still Crashes as AI Fears Intensify 1:06:30 — Why Every Legacy SaaS Company Is Trapped in an AI Death Spiral 1:10:00 — The AI Acquisition Window Has Officially Closed 1:13:00 — Nvidia at 16x Earnings vs SaaS at 8x Cash Flow: Where Should Investors Be? 1:17:00 — The Great Rotation: Why Wall Street Is Abandoning Software for AI Infrastructure",
+      "duration": "01:25:04",
+      "old_score": 73,
+      "old_label": "digest_only",
+      "qwen": {
+        "id": "97cbfa6010da7175adbfc080",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Covers major AI and tech developments with market implications, including Anthropic, SpaceX, and Salesforce/Fintech acquisitions.",
+        "confidence": "high"
+      }
+    }
+  ]
+}

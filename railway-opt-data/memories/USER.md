@@ -1,25 +1,19 @@
-Concise, one-shot execution.
-§
-Flow briefings go to Telegram Briefings.
+Codex via OAuth only, no API-key Codex.
 §
 User prefers explicit approval before recurring monitors; Google is read-only unless DJ requests edits or sends.
 §
-User expects direct execution and exact step-by-step instructions.
+Exact numbered steps for config changes: verbatim values, absolute paths, slash commands over file edits; narrate progress in long tool runs.
 §
 Health app prefs: daily ledger history, finalize yesterday, editable meals/workouts, fast text meal logging, manual weight, Apple Watch calories with TDEE fallback.
 §
-DJ podcast prefs: score episodes over shows; keep storage lean; semantic discovery separate from daily runs.
-§
-User does not want Telegram topics referred to by numeric IDs; use the human-readable topic names instead.
+DJ podcast prefs: episode-level, show/guest/thesis-first; expert/interlocutor conversation; avoid formulaic turns; deliver as native Telegram audio playable inline with speed controls.
 §
 DJ prefers the podcast intelligence digest delivered daily to the Telegram Briefings channel at 5PM ET.
 §
-User prefers verified, current-state-first updates and wants time references in America/New_York (ET) unless asked otherwise.
+DJ wants verified current-state-first updates; times in ET. For visual app fixes, inspect actual produced UI/images before claiming completion.
 §
-Top of Mind: bottom by default, priority items on top, Personal for errands/travel, and capitalize entries.
+DJ expects GitHub/Railway/deploy/pipeline issues solved autonomously when access exists; surface only true external blockers.
 §
-DJ wants GitHub backups to preserve durable context while excluding secrets.
+DJ does not want progress receipts or repeated prompts; for active projects, keep moving and report only the finished result unless blocked.
 §
-DJ does not want background job completion receipts or progress clutter in chat; the final brief or artifact is sufficient evidence that a job completed.
-§
-If I can't use Telegram reactions, reply with "Got it" or equivalent; don't litter the chat with emojis. Answer normally when the user asks a question.
+For memos, DJ prefers a clean Google Doc style: title line, date subtitle, blank spacer, section headers, then plain one-line items rather than messy raw paragraphs.

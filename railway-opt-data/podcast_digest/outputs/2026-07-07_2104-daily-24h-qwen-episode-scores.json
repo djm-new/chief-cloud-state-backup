@@ -1,0 +1,311 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-07-07_2104",
+  "usage": {
+    "prompt_tokens": 5116,
+    "completion_tokens": 1103,
+    "total_tokens": 6219
+  },
+  "episodes": [
+    {
+      "id": "a3926337f68681d74d079283",
+      "show_name": "Eye on AI",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "The Biggest AI Security Problem Isn't the Model. It's This. | Devvret Rishi",
+      "link": "https://aneyeonai.libsyn.com/the-biggest-ai-security-problem-isnt-the-model-its-this-devvret-rishi",
+      "published": "2026-07-07T20:10:00+00:00",
+      "summary": "What is an AI agent, really? Strip away the hype, and it's a model with access - to tools, APIs, databases, email, anything that lets it take real action instead of just generating text. That access is exactly where the risk lives, and Devvret Rishi, GM of AI at Rubrik, and former co-founder & CEO of Predibase, joins Craig Smith with a string of real-world incidents that make the case concrete: AWS reporting four major outages in 90 days after deploying coding agents, a Meta-related agent that deleted someone's emails while they were actively asking it to stop, and Rubrik's own internal pilot catching incidents that, without governance in place, would have gone unnoticed. The conversation lays out the impossible choice most enterprises are facing right now - block AI agents and forfeit the ROI boards are demanding, or grant access and hope nothing breaks - and walks through how Rubrik's approach uses small, fine-tuned AI models to enforce plain-English security policies on every single agent action in real time. It closes on one of the most underexamined risks ahead: as agents increasingly talk to other agents to get work done, a layer of activity is forming that no human is watching, and the question of who's accountable when something goes wrong in that layer is only getting more urgent. Subscribe to Eye on A.I. for weekly conversations with the people building and deploying the future of AI.",
+      "duration": "47:40",
+      "old_score": 44,
+      "old_label": "skip",
+      "qwen": {
+        "id": "a3926337f68681d74d079283",
+        "score": 85,
+        "tier": "digest",
+        "reason": "Concrete examples of AI agent risks in enterprise settings with actionable security insights.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "6f65a61033bfa33ead13cff0",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "The life-changing magic of touching stuff",
+      "link": "",
+      "published": "2026-07-07T18:45:00+00:00",
+      "summary": "We have all become desensitized. Every place is like every other place, every experience is happening at a remove and on a screen. And Ian Bogost, a Washington University professor and a writer at The Atlantic, argues that this \"dematerialization\" is making our life worse. Ian joins David to explain how to once again commune with the world. He tells us of the magic of paper tickets, why he's kind of obsessed with the rubber on his water bottle, and why you don't need to throw phone into the ocean — but you should probably watch more ASMR videos. The Small Stuff: How to Lead a More Gratifying Life The Cult of Delayed Gratification Is a Lie Subscribe to The Verge for unlimited access to theverge.com, subscriber-exclusive newsletters, and our ad-free podcast feed.We love hearing from you! Email your questions and thoughts to vergecast@theverge.com or call us at 866-VERGE11. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "2059",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "6f65a61033bfa33ead13cff0",
+        "score": 40,
+        "tier": "scan",
+        "reason": "Philosophical take on materiality; low relevance to market or AI business dynamics.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "42b6d83b052ad2ced84398bd",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: July 7th, 2026",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-july-7th-2026",
+      "published": "2026-07-07T17:03:10+00:00",
+      "summary": "Featuring: Julian Emmanuel, Chief Equity & Quantitative Strategist at Evercore ISI Torsten Slok, Chief Economist at Apollo Global Management Ulf Kristersson, Prime Minister of Sweden See omnystudio.com/listener for privacy information.",
+      "duration": "1749",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "42b6d83b052ad2ced84398bd",
+        "score": 60,
+        "tier": "scan",
+        "reason": "Market commentary with notable guests but lacks deep insight or actionable takeaways.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "09fa8ab429071771bf1c20e2",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "The Market Rally and NATO Summit",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/the-market-rally-and-nato-summit",
+      "published": "2026-07-07T15:33:04+00:00",
+      "summary": "The latest in finance, economics and investment. Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF . Bloomberg Surveillance hosted by Tom Keene & Paul SweeneyTuesday, July 7, 2026 Featuring: 1) Steven Major, Global Macro Advisor at Tradition, talks about the yen trap and real yield illusion 2) Michael Darda, Chief Economist at Roth Capital Partners, on labor market stability and Fed patience 3) Michael Green, Chief Strategist at Simplify Asset Management, talks about AI Thermodynamics and profits as well as affordability in America. 4) Rose Gottemoeller, former deputy secretary-general of NATO and former U.S. Under Secretary of State for Arms Control and International Security, talks about the NATO summit amid her new Foreign Affairs article, \"The Strange Defeat of Nuclear Deterrence And the Coming Crisis in Strategic Stability.\" See omnystudio.com/listener for privacy information.",
+      "duration": "1917",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "09fa8ab429071771bf1c20e2",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Discusses macroeconomic trends, AI thermodynamics, and geopolitical context relevant to capital allocation.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "6abd7c0d74a140dcfcaf06e8",
+      "show_name": "New Yorker Radio Hour",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "low",
+      "title": "The Sounds of Summer, with Fred Armisen",
+      "link": "https://www.wnycstudios.org/podcasts/tnyradiohour",
+      "published": "2026-07-07T10:00:00+00:00",
+      "summary": "The comedian Fred Armisen has a thing for sound: he’s a former punk-rocker who gets a lot of comic mileage from doing accents, and he released an album of sound effects—a modern update of a novelty genre from his youth. “100 Sound Effects” came out last year, on the venerable indie label Drag City. The track titles are themselves little punch lines: “Guitar Tuned but Still Somehow Out of Tune,” “Supportive Booing at a Speech,” and “Terrified Audience at an Authoritarian Nation Official Event.” Armisen talked with the staff writer Michael Schulman about sound effects and the origins of his love for accents, and they went out to do some sound recording of their own on the summer streets of New York. This segment was produced with assistance from John DeLore. This segment originally aired on August 29, 2025. Further reading: “ Fred Armisen Goes Bang! Zip! Zoop! ,” by Michael Schulman “ Shakespeare, Off the Cuff ,” by Mike O’Brien and Fred Armisen New episodes of The New Yorker Radio Hour drop every Tuesday and Friday. Join host David Remnick as he discusses the latest in politics, news, and current events in conversation with political leaders, newsmakers, innovators, New Yorker staff writers, authors, actors, and musicians. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:17:55",
+      "old_score": 4,
+      "old_label": "skip",
+      "qwen": {
+        "id": "6abd7c0d74a140dcfcaf06e8",
+        "score": 30,
+        "tier": "scan",
+        "reason": "Cultural commentary with comedian; low relevance to DJ's focus areas.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "b617a920833575df4b0585a0",
+      "show_name": "Plain English with Derek Thompson",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "How Israel Is Transforming American Politics",
+      "link": "",
+      "published": "2026-07-07T10:00:00+00:00",
+      "summary": "Peter Beinart joins Derek to unpack a major shift inside the Democratic Party. As Democratic Socialist-backed candidates notch a string of surprising primary victories, one issue has emerged as a defining political litmus test: Israel and the war in Gaza. But it's difficult to hold two ideas at once … that the war in Gaza is a moral catastrophe, and that antisemitism is rising in some of the spaces where that catastrophe is being debated. Derek and Peter discuss why the conflict has become so central to Democratic primaries, how debates over anti-Zionism and antisemitism are reshaping public life, and what it all means for the future of the Democratic coalition. Subscribe to our YouTube channel here:https://www.youtube.com/@PlainEnglishwithDerekThompson If you have questions, observations, or ideas for future episodes, email us at PlainEnglish@Spotify.com. Host: Derek ThompsonGuest: Peter BeinartProducer: Devon BaroldiAdditional Production Support: Ben Glicksman Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "3889",
+      "old_score": 0,
+      "old_label": "skip",
+      "qwen": {
+        "id": "b617a920833575df4b0585a0",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Political analysis of Israel's impact on US politics; limited business or AI insight.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "e263a97f877ab66d070a85fa",
+      "show_name": "Stratechery",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "A Script for Mark Zuckerberg",
+      "link": "https://stratechery.com/2026/a-script-for-mark-zuckerberg/",
+      "published": "2026-07-07T10:00:00+00:00",
+      "summary": "A script for what Mark Zuckerberg should say on Meta's next earnings call.",
+      "duration": "",
+      "old_score": 57,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "e263a97f877ab66d070a85fa",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Meta strategy analysis offers durable frameworks for platform thinking and AI integration.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "04ad005fd88eb7d46b1dd0ec",
+      "show_name": "The Knowledge Project adjacent interviews",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "The Mindset That Unlocks Your Full Potential | Dr. Gio Valiante",
+      "link": "https://fs.blog/knowledge-project-podcast/performance-psychologist-mindset/",
+      "published": "2026-07-07T10:00:00+00:00",
+      "summary": "Steve Cohen and Jack Nicklaus shared the same performance coach. For the next hour, he’s yours too. Dr. Gio Valiante is the world’s leading performance psychologist. We discuss why most people never reach their potential, how confidence and fear shape performance, and what separates those who consistently excel from those who stay stuck. He shares practical strategies for building better habits, overcoming self-imposed limits, staying focused under pressure, and creating the conditions for long-term success. If you’ve ever felt capable of more, this episode will help you understand what’s holding you back and what to do about it. ------ Chapters: (0:00) Why most people underperform and the central governor hypothesis. (4:46) Why lasting change starts with behavior rather than thinking. (7:52) The difference between mastery motivation and ego-driven motivation. (11:24) Flow states, presence, and learning to enjoy the everyday work of excellence. (14:28) Practical techniques for developing presence and reducing distraction. (18:16) Why environment and systems have a greater impact on performance than goals alone. (26:33) What interview questions reveal about confidence, motivation, and character. (31:47) Why overcoming adversity often reveals a person's greatest strengths. (32:46) Rebuilding confidence by focusing on small wins instead of chasing big recoveries. (38:55) The psychology of confidence and the four sources of self-efficacy. (47:14) How self-talk shapes beliefs, behavior, and long-term performance. (50:04) Why fear of rejection and the need to belong influence our decisions. (53:35) Identity, self-discovery, and the importance of moving beyond childhood conditioning. (1:03:20) Definition of success and the experiences that bring lasting fulfillment. ------ Follow Dr. Gio Valiante X: https://x.com/GioValiante ------ Thank you to the sponsors for this episode: +Applovin: Launch your first AppLovin campaign and grow your business: https://applovin.com/shane +HeyGen is a message-first AI video platform that helps people and AI agents turn ideas into professional video in minutes. Try for free at https://www.heygen.com/ +Matic: the robot vacuum that does it all—grab yourself a year of free bags here. http://maticrobots.com/shaneparrish +LMNT: My go-to zero sugar electrolytes — get a free LMNT Sample Pack here: https://DrinkLMNT.com/TKP Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "duration": "4156",
+      "old_score": 46,
+      "old_label": "skip",
+      "qwen": {
+        "id": "04ad005fd88eb7d46b1dd0ec",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Performance psychology insights applicable to leadership and personal toolkit development.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "64e3d835cd5d50ad4e3b20ef",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Is Software Losing Its Head?",
+      "link": "https://a16z.simplecast.com/episodes/is-software-losing-its-head-uKBsa_UH",
+      "published": "2026-07-07T10:00:00+00:00",
+      "summary": "Seema Amble, Steven Sinofsky, and Elena Burger unpack one of the biggest questions facing enterprise software: what happens when AI agents become the primary users of software instead of humans? The conversation explores the rise of \"headless\" software, why APIs and agentic workflows are reshaping enterprise applications, and whether traditional SaaS products are becoming systems of record rather than systems of engagement. They discuss Salesforce's Headless 360 announcement, MCP, enterprise software architecture, and why AI may fundamentally change how businesses interact with their data. Along the way, they examine what actually makes enterprise software sticky, why replacing systems like SAP and Salesforce is harder than it appears, and where startups have the greatest opportunity as AI reshapes the software stack. Resources: Follow Seema Amble on X: https://x.com/seema_amble Follow Steven Sinofsky on X: https://x.com/stevesi Follow Elena Burger on X: https://x.com/VirtualElena Related Reading Is Software Losing Its Head? https://a16z.com/is-software-losing-its-head/ The Death of Software? Nah. https://a16z.com/death-of-software-nah/ Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "01:01:24",
+      "old_score": 47,
+      "old_label": "skip",
+      "qwen": {
+        "id": "64e3d835cd5d50ad4e3b20ef",
+        "score": 80,
+        "tier": "digest",
+        "reason": "Explores AI agents as software users, reshaping enterprise architecture and SaaS models.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "1211132e6d475f7e755262a7",
+      "show_name": "Ezra Klein Show",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "A Radical Vision for Israelis and Palestinians",
+      "link": "https://www.nytimes.com/2026/07/07/opinion/ezra-klein-podcast-may-pundak-rula-hardal.html",
+      "published": "2026-07-07T09:00:00+00:00",
+      "summary": "The old solutions to the Israeli-Palestinian conflict don’t seem to fit the present reality. A two-state solution feels increasingly impossible, given the scale of Israeli settlements in the West Bank and the Palestinian determination for a right of return. And a one-state solution, in which Israelis and Palestinians would live as equal citizens in a single state, is hard to imagine, given how strongly both peoples seek political self-determination. But what if those aren’t the only options? A Land for All is an Israeli-Palestinian initiative that is proposing a confederation model: two sovereign states, structured to allow freedom of movement between them. It’s a theory of peace based on neither separation nor unification. It holds, first, that both peoples have a relationship to and claim on all the land and, second, that both peoples want to control their own political destinies. I have been — and am — skeptical of solutions to a conflict that is so devoid of the political conditions for a settlement. But even if you’re far from your destination, it’s worth knowing where it is you hope to go. So could this be an answer for both peoples? How would it handle the problems that have bedeviled previous solutions, from security and violence to religious extremism? Rula Hardal and May Pundak are the executive directors of A Land for All. Hardal is a Palestinian citizen of Israel who received her doctorate in political science from the University of Hannover in Germany, and Pundak is an Israeli lawyer, activist and social entrepreneur. They joined me to explain how A Land for All would work and why they think it might succeed where so much else has failed. Mentioned: A Land for All plan Rula Hardal’s Book Recommendations: The Holocaust and the Nakba , edited by Bashir Bashir and Amos Goldberg States of Denial by Stanley Cohen Israel: What Went Wrong? by Omer Bartov May Pundak’s Book Recommendations: Tomorrow Is Yesterday by Hussein Agha and Robert Malley A Psalm for the Wild-Built by Becky Chambers The Moomin series by Tove Jansson Thoughts? Guest suggestions? Email us at ezrakleinshow@nytimes.com. You can find the transcript and more episodes of “The Ezra Klein Show” at nytimes.com/ezra-klein-podcast . Book recommendations from all our guests are listed at https://www.nytimes.com/article/ezra-klein-show-book-recs.html This episode of “The Ezra Klein Show” was produced by Jack McCordick. Fact-checking by Michelle Harris and Kelsey Lannin. Our senior engineer is Jeff Geld, with additional mixing by Johnny Simon. Our recording engineer is Johnny Simon. Cinematography by Marina King and Eric Laplante. Our executive producer is Claire Gordon. The show’s production team also includes Marie Cascione, Annie Galvin, Rollin Hu, Kristin Lin and Emma Kehlbeck. Original music by Pat McCusker. Audience strategy by Shannon Busta. The director of New York Times Opinion Shows is Annie-Rose Strasser. Transcript editing by Filipa Pajevic and Marlaine Glicksman. Subscribe today at nytimes.com/podcasts or on Apple Podcasts and Spotify. You can also subscribe via your favorite podcast app here https://www.nytimes.com/activate-access/audio?source=podcatcher . For more podcasts and narrated articles, download The New York Times app at nytimes.com/app. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "01:25:38",
+      "old_score": 28,
+      "old_label": "skip",
+      "qwen": {
+        "id": "1211132e6d475f7e755262a7",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Policy discussion on Israeli-Palestinian conflict; limited direct relevance to DJ's focus.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "4d3bcb67fdbbfd129fa8dbdc",
+      "show_name": "Masters of Scale",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Relevance is a sport: Gap’s Richard Dickson on swinging, missing, and winning",
+      "link": "",
+      "published": "2026-07-07T09:00:00+00:00",
+      "summary": "Gap was never uncool. It just disappeared. CEO Richard Dickson joins Rapid Response to explain how he's bringing it back, using the same pop culture playbook he used to resurrect Barbie at Mattel. He breaks down why he tracks \"brand love\" metrics on a dashboard hourly, why Sydney Sweeney's viral jeans ad was actually good news for the whole industry, and why the biggest risk a brand can take is playing it safe. Visit the Rapid Response website here: https://www.rapidresponseshow.com/ See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info .",
+      "duration": "00:26:50",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "4d3bcb67fdbbfd129fa8dbdc",
+        "score": 60,
+        "tier": "scan",
+        "reason": "Brand revival strategies; some relevance to marketing and consumer insights.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "0e1b63232f06b6abe4b276dc",
+      "show_name": "My First Million",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "5 ruthless business lessons from one week in NYC",
+      "link": "",
+      "published": "2026-07-07T09:00:00+00:00",
+      "summary": "Sam's guide to run your life like a $100M business: https://clickhubspot.com/krhd Episode 839: Sam Parr ( https://x.com/theSamParr ) and Shaan Puri ( https://x.com/ShaanVP ) talk about everything Shaan learned from his NYC trip. — Show Notes: (0:00) Lesson: Proximity (9:11) Lesson: What does it really mean? (23:04) Lesson: Trust (18:53) Lesson: City Brands (33:39) Lesson: Marketing — Links: • Ben Wilson’s GoFundMe - https://t.co/kJN7pArRIO — Check Out Sam's Stuff: • Hampton (joinhampton.com): My community for founders. Average member does $25m/year. Many of the guests are members. Get after it...apply: http://joinhampton.com/mfm — Check Out Shaan's Stuff: • Shaan's weekly email - https://www.shaanpuri.com • Visit https://www.somewhere.com/mfm to hire worldwide talent like Shaan and get $500 off for being an MFM listener. Hire developers, assistants, marketing pros, sales teams and more for 80% less than US equivalents. • Mercury - Shaan uses Mercury for banking across all of his companies. you can too: http://mercury.com/ Mercury is a fintech company, not an FDIC-insured bank. Banking services provided by Choice Financial Group, Column, N.A., and Evolve Bank & Trust, Members FDIC • I run all my newsletters on Beehiiv and you should too + we're giving away $10k to our favorite newsletter, check it out: beehiiv.com/mfm-challenge My First Million is a HubSpot Original Podcast // Brought to you by HubSpot Media // Production by Arie Desormeaux // Editing by Ezra Bakker Trupiano /",
+      "duration": "3777",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "0e1b63232f06b6abe4b276dc",
+        "score": 45,
+        "tier": "scan",
+        "reason": "General business advice; lacks depth on AI, market dynamics, or durable frameworks.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "d8c4eb2c8b8623a1a6268109",
+      "show_name": "Training Data",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Inside Zipline's Autonomous System: 140M Miles, Zero Incidents",
+      "link": "",
+      "published": "2026-07-07T09:00:00+00:00",
+      "summary": "The largest commercial autonomous system on earth isn't a robotaxi fleet — it's Zipline, which has flown 140 million autonomous miles with zero safety incidents. Co-founder Keller Rinaudo Cliffton and Eric Watson, who leads systems engineering and safety, explain why the drone itself is only 15% of the solution. The rest spans inventory management, air traffic integration, and engineering systems such as a dual flight computer failover protocol that recently saved a delivery mid-flight. They trace Zipline's path from launching blood delivery in Rwanda in 2016 (when drone delivery was illegal in the US) to a 51% reduction in maternal mortality in that country, a $550 million commercial diplomacy partnership with the State Department, and a cost curve that fell from $300 per delivery to $12. Zipline is now racing toward a million deliveries a day, and a quiet inflection point when autonomous delivery becomes cheaper than sending a car. Hosted by Alfred Lin and Pat Grady, Sequoia Capital",
+      "duration": "3318",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "d8c4eb2c8b8623a1a6268109",
+        "score": 82,
+        "tier": "digest",
+        "reason": "Insights into scaling autonomous systems with operational rigor and cost efficiency.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "da8bc7667b365bc50f4c62cb",
+      "show_name": "Invest Like the Best",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "Jeremy Giffon - The Billion Dollar PDF - [Invest Like the Best, EP.481]",
+      "link": "https://colossus.com/episode/posting-priests-private-markets/",
+      "published": "2026-07-07T08:00:00+00:00",
+      "summary": "My guest today is Jeremy Giffon. Jeremy has been on the show before as one of our most popular guests, and this conversation is every bit as enjoyable as the first. Over the last 18 months, Jeremy has had hundreds of conversations with founders and with the capital behind their companies. I don't know many investors with such a high rep count in the most interesting corners of private markets, so I asked him what he has learned. We talk about what those lessons mean for founders and investors, why everyone has become subservient to the poster class, the hidden intellectual history behind Silicon Valley and much more. Please enjoy my conversation with my friend, Jeremy Giffon. For the full show notes, transcript, and links to mentioned content, check out the episode page ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠here⁠⁠⁠⁠⁠. ----- Become a Colossus member to get our quarterly print magazine and private audio experience, including exclusive profiles and early access to select episodes. Subscribe at ⁠colossus.com/subscribe⁠. ----- ⁠Ramp’s⁠ mission is to help companies manage their spend in a way that reduces expenses and frees up time for teams to work on more valuable projects. Go to⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ ⁠ramp.com/invest⁠⁠ to sign up for free and get a $250 welcome bonus. ----- Trusted by thousands of businesses, ⁠Vanta⁠ continuously monitors your security posture and streamlines audits so you can win enterprise deals and build customer trust without the traditional overhead. Invest Like the Best listeners get a special offer of $1,000 off Vanta when you go to ⁠vanta.com/invest⁠. ----- WorkOS⁠ is the infrastructure B2B and AI-native companies use to sell to enterprise. It covers everything enterprise security requires: SSO, SCIM, RBAC, Audit Logs, AI governance, and more. Trusted by 2,000+ fast-growing companies, including OpenAI, Anthropic, Cursor, and Vercel. ----- Rogo is the AI platform for finance. They're building agents for Wall Street that are trained to understand how bankers and investors actually do work: from diligence and modeling, to turning analysis into deliverables. To learn more, visit rogo.ai/invest. ----- ⁠Ridgeline⁠ has built a complete, real-time, modern operating system for investment managers. It handles trading, portfolio management, compliance, customer reporting, and much more through an all-in-one real-time cloud platform. Visit⁠ ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ridgeline.ai⁠. ----- Editing and post-production work for this episode was provided by The Podcast Consultant. Timestamps: (00:00:00) Welcome to Invest Like The Best (00:02:02) Jeremy Giffon (00:02:34) Lessons from 18 Months of Founder Conversations (00:07:01) The Billion-Dollar PDF (00:08:13) The Unifeed & Rise of the Timeline (00:17:02) Power Law & Breakout Content (00:18:48) AI Algorithms Driving Content (00:20:38) Timeline-Native White House (00:21:09) Traits of Great Posters (00:25:27) Peak Guy & the Billionaire Priest Class (00:32:13) Billionaires Now Defer to Posters (00:34:52) Freedom vs. Relevance (00:38:53) AI & White-Collar Job Displacement (00:40:53) Stewarding Your Gifts as Moral Duty (00:43:18) Next Wave of Finance: Equity-First Firms (00:53:26) East Coast vs. West Coast Finance (00:55:34) Beating the Market Is Not That Hard (01:00:40) SPV Feudalism & Allocation (01:02:10) Egregious SPV Fee Structures (01:04:50) Simplicity vs. Complexity in Investing (01:07:15) Hiring: Attracting Differentiated Talent (01:11:00) Silicon Valley's Hidden Intellectual Traditions",
+      "duration": "4519",
+      "old_score": 54,
+      "old_label": "skip",
+      "qwen": {
+        "id": "da8bc7667b365bc50f4c62cb",
+        "score": 88,
+        "tier": "listen",
+        "reason": "High-value private market insights, founder-investor dynamics, and Silicon Valley history.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "fedec3e3514729673e5f7afe",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "China Decode: Ballistic Missile Test, Europe's AC Addiction, and China's AI Coding Challenger",
+      "link": "",
+      "published": "2026-07-07T08:00:00+00:00",
+      "summary": "Alice Han and James Kynge start with China's latest ballistic missile test into the Pacific and what it means alongside a new Australia-Fiji defense pact. Then: Europe wants to shrink its record trade deficit with China, but its worst heat wave on record has sent demand for Chinese air conditioners soaring. They break down whether the two sides can actually cooperate on AI and renewable energy even as tensions rise. Plus: Z.ai just launched ZCode, a coding agent for its GLM-5.2 model said to rival Claude and ChatGPT. Alice and James discuss how big a threat this is to U.S. AI dominance, as well as the fallout from claims that Anthropic used hidden code to track Chinese users. Finally: China's new \"Ethnic Unity\" law took effect July 1. What does it mean for Tibetans, Uyghurs, and Taiwan… and how is Beijing defending it internationally? Subscribe to China Decode on Substack for weekly analysis, livestreams, and deep dives into the biggest story shaping the global economy: chinadecode.profgmedia.com Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "2923",
+      "old_score": 32,
+      "old_label": "skip",
+      "qwen": {
+        "id": "fedec3e3514729673e5f7afe",
+        "score": 68,
+        "tier": "digest",
+        "reason": "China tech and policy updates, including AI coding agents and geopolitical tensions.",
+        "confidence": "medium"
+      }
+    }
+  ]
+}

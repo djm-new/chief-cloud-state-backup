@@ -1,0 +1,51 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-07-19_2104",
+  "usage": {
+    "prompt_tokens": 1180,
+    "completion_tokens": 175,
+    "total_tokens": 1355
+  },
+  "episodes": [
+    {
+      "id": "c63bad542bc3a783c1b014d0",
+      "show_name": "Lenny's Podcast",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "Netflix CPTO on AI and the future of product and tech roles | Elizabeth Stone",
+      "link": "https://www.lennysnewsletter.com/p/netflix-cpto-on-ai-and-the-future",
+      "published": "2026-07-19T12:31:21+00:00",
+      "summary": "Elizabeth Stone is the Chief Product and Technology Officer (CPTO) at Netflix, where she oversees Engineering, Product, and Design. Since her first appearance on the podcast two years ago—which remained my second-most-popular episode for more than a year—she has expanded her role to lead product, in addition to engineering. Before Netflix, Elizabeth was VP of Science at Lyft, Chief Operating Officer at Nuna, an economist at Analysis Group, and a trader at Merrill Lynch. In our in-depth conversation, we discuss: 1. Why “systems thinking” is now the most important skill she looks for 2. How to manage the flood of AI-generated output without losing quality or signal 3. How Netflix thinks about AI fluency as a universal expectation rather than a level-specific skill 4. What “excellence as an operating system” means — Brought to you by: WorkOS —Make your app enterprise-ready, with SSO, SCIM, RBAC, and more: https://workos.com/lenny Mercury —Radically different banking, now with Command: https://mercury.com/command?utm_source=lennys&utm_medium=sponsored_newsletter&utm_campaign=26q3_brand_campaign — Episode transcript: https://www.lennysnewsletter.com/p/netflix-cpto-on-ai-and-the-future — Archive of all Lenny's Podcast transcripts: https://www.dropbox.com/scl/fo/yxi4s2w998p1gvtpu4193/AMdNPR8AOw0lMklwtnC0TrQ?rlkey=j06x0nipoti519e0xgm23zsn9&st=ahz0fj11&dl=0 — Where to find Elizabeth Stone: • LinkedIn: https://www.linkedin.com/in/elizabeth-stone-608a754 — Where to find Lenny: • Newsletter: https://www.lennysnewsletter.com • X: https://twitter.com/lennysan • LinkedIn: https://www.linkedin.com/in/lennyrachitsky/ — In this episode, we cover: (00:00) Introduction (02:25) AI and role confusion: the storming phase before the forming phase (07:36) How roles have changed in the past two and a half years (11:55) Will functions survive? The case for craft specialism (13:26) What Netflix is hiring more of—and less of (17:22) Why systems thinking is the rising skill across every function (20:20) Is the design process dead? (22:08) Skills trending down (28:33) AI fluency and Netflix’s career ladder overlay (31:00) AI use cases beyond coding (35:12) Netflix’s AI history (38:36) Excellence as an operating system (41:11) The pillars of the excellence OS (46:41) The keeper’s test—and why it’s mostly a positive conversation (50:21) Attracting top talent in the age of frontier AI labs (52:54) Junior talent, craft mastery, and the mentorship question (56:25) Where engineering goes in 5 to 10 years (59:45) The future of entertainment: beyond film and TV (1:02:18) AI in Hollywood: Netflix’s creator-enablement position (1:06:15) Lightning round and final thoughts — Referenced: • How Netflix builds a culture of excellence | Elizabeth Stone (CTO): https://www.lennysnewsletter.com/p/how-netflix-builds-a-culture-of-excellence • Brian Chesky’s new playbook: https://www.lennysnewsletter.com/p/brian-cheskys-contrarian-approach • The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude): https://www.lennysnewsletter.com/p/the-design-process-is-dead • Claude Code: https://www.anthropic.com/product/claude-code • Claude Cowork: https://www.anthropic.com/product/claude-cowork • Netflix’s “Keeper Test” and Why You Need It | Lorne Rubis: https://www.highlights.lornerubis.com/2015/08/the-netflix-keeper-test-and-the-courage-to-take-it • Innovation for Filmmaking, By Filmmakers: Why InterPositive Is Joining Netflix: https://about.netflix.com/en/news/why-interpositive-is-joining-netflix • InterPositive: https://weareinterpositive.com • Netflix Prize: https://en.wikipedia.org/wiki/Netflix_Prize • Quarterback on Netflix: https://www.netflix.com/title/81482895 • The Bill Simmons Podcast on Netflix: https://www.netflix.com/title/82186214 • Spencer Pratt on Instagram: https://www.instagram.com/spencerpratt • Salman Rushdie’s Substack: https://salmanrushdie.substack.com • Remarkably Bright Creatures on Netflix: https://www.netflix.com/title/81911",
+      "duration": "4327",
+      "old_score": 67,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "c63bad542bc3a783c1b014d0",
+        "score": 82,
+        "tier": "digest",
+        "reason": "Netflix CPTO discusses AI fluency, systems thinking, and managing AI-generated output—relevant for tech leadership and platform strategy.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "4c2a7b4f425a2c5397a1db62",
+      "show_name": "Founders",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "#425 The Merchant Bankers",
+      "link": "",
+      "published": "2026-07-19T04:04:00+00:00",
+      "summary": "This episode discusses Joseph Wechsberg’s 1966 book, The Merchant Bankers. Rather than recounting the histories of families like the Rothschilds, Barings, Hambros, Warburgs, and Lehman Brothers, I wanted to extract the principles they shared. Merchant banking is fascinating. It's a very distinctive form of entrepreneurship. There is an old-school way of doing business that appeals to me. The merchant bankers’ profiled in this book have a combination of: personal honor speed of action clear thinking independent judgment seamless webs of deserved trust discretion and willingness to make unconventional decisions. The founder of every merchant banking dynasty was a merchant before he was merchant banker. Once they discovered financing transactions was more profitable than physically trading goods, their real products became credit, judgment, information, advice, access, and—above all—trust. Their greatest asset was not money. Their greatest asset was their reputation. Made possible by: Ramp: ⁠⁠https://ramp.com⁠⁠ Applovin: ⁠⁠https://www.applovin.com Vanta: ⁠⁠https://vanta.com/founders Add your email here and I will send you my top 10 quotes from every episode.",
+      "duration": "2779",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "4c2a7b4f425a2c5397a1db62",
+        "score": 75,
+        "tier": "scan",
+        "reason": "Historical merchant banking principles offer potential parallels for modern capital allocation and trust-based business models.",
+        "confidence": "medium"
+      }
+    }
+  ]
+}

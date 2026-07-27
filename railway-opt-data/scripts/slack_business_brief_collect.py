@@ -11,9 +11,49 @@ import asyncio
 import json
 import os
 import re
+import shutil
+import sys
 import time
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
+
+_INVISIBLE_RE = re.compile(r'[\u200b\u200c\u200d\u2060\ufeff]')
+
+DJ_ACTIVE_LOOKBACK_DAYS = int(os.getenv('SLACK_BRIEF_DJ_ACTIVE_LOOKBACK_DAYS', '7'))
+MAX_ACTIVE_CHANNELS = int(os.getenv('SLACK_BRIEF_MAX_ACTIVE_CHANNELS', '80'))
+MAX_HISTORY_PER_CHANNEL = int(os.getenv('SLACK_BRIEF_MAX_HISTORY_PER_CHANNEL', '20'))
+
+
+def ensure_runtime_deps():
+    """Re-exec under uv if slack_sdk is missing from the system Python.
+
+    Cron currently launches this script directly. When the Slack SDK is absent
+    from the base environment, we bootstrap a tiny ephemeral uv environment that
+    includes the async Slack client plus aiohttp, then re-run the script there.
+    """
+    try:
+        import slack_sdk  # noqa: F401
+        return
+    except ModuleNotFoundError:
+        pass
+
+    if os.environ.get('SLACK_BRIEF_COLLECT_BOOTSTRAPPED') == '1':
+        raise
+    if shutil.which('uv'):
+        os.environ['SLACK_BRIEF_COLLECT_BOOTSTRAPPED'] = '1'
+        os.execvp(
+            'uv',
+            [
+                'uv',
+                'run',
+                '--with', 'slack-sdk',
+                '--with', 'aiohttp',
+                'python',
+                __file__,
+                *sys.argv[1:],
+            ],
+        )
+    raise ModuleNotFoundError('slack_sdk is missing and uv is unavailable for bootstrap')
 
 ENV_PATH = Path('/opt/data/.env')
 STATE_PATH = Path('/opt/data/slack_business_brief_collect_state.json')
@@ -75,7 +115,8 @@ def save_state(state):
 
 
 def clean_text(text):
-    text = re.sub(r'\s+', ' ', text or '').strip()
+    text = _INVISIBLE_RE.sub('', text or '')
+    text = re.sub(r'\s+', ' ', text).strip()
     if len(text) > MAX_TEXT:
         text = text[:MAX_TEXT - 1].rstrip() + '…'
     return text
@@ -86,6 +127,13 @@ def ts_float(x):
         return float(x)
     except Exception:
         return 0.0
+
+
+def is_dj_author(item, auth_names: set[str]) -> bool:
+    author = re.sub(r'\s+', ' ', str(item.get('user') or '')).strip().lower()
+    if not author or author == 'unknown':
+        return False
+    return author in auth_names
 
 
 def fmt_time(ts):
@@ -333,12 +381,17 @@ async def collect_history(client, convs, conv_kind, last_by_channel, seen, user_
                 'permalink': f'https://slack.com/app_redirect?channel={cid}&message_ts={ts}',
             }
             score_item(item)
+            if conv_kind == 'channel':
+                item['active_dj_channel'] = True
+                item['score'] += 120
+                item['reasons'].append('recent DJ-active channel')
             items.append(item)
         last_by_channel[cid] = str(max_channel_ts or time.time())
     return items, max_seen_ts
 
 
 async def main():
+    ensure_runtime_deps()
     load_env()
     started_at = time.time()
     token = os.getenv('SLACK_USER_TOKEN')
@@ -425,12 +478,138 @@ async def main():
     except Exception as e:
         mpim_error = type(e).__name__
 
+    auth_names = {
+        re.sub(r'\s+', ' ', str(x or '')).strip().lower()
+        for x in [user_id, user_name, auth.get('real_name'), auth.get('team')]
+        if re.sub(r'\s+', ' ', str(x or '')).strip().lower()
+    }
+    channel_last = state.get('channel_last_ts', {})
+    active_channels = {}
+    active_cutoff = max(0, now - DJ_ACTIVE_LOOKBACK_DAYS * 60 * 60 * 24)
+    active_cutoff_date = (datetime.fromtimestamp(active_cutoff, timezone.utc).date() - timedelta(days=1)).isoformat()
+    try:
+        dj_query = f'from:me after:{active_cutoff_date}'
+        dj_items, total, max_seen_ts = await collect_search(
+            client, dj_query, set(), user_id, max_seen_ts, active_cutoff, include_seen=True
+        )
+        totals['dj_active'] = total
+        for item in dj_items:
+            if item.get('is_im') or item.get('is_mpim'):
+                continue
+            cid = item.get('channel_id')
+            if cid and cid not in active_channels:
+                active_channels[cid] = {'id': cid, 'name': item.get('channel') or cid}
+    except SlackApiError as e:
+        totals['dj_active'] = f"error:{e.response.get('error')}"
+
+    if not active_channels:
+        for item in all_items:
+            if item.get('is_im') or item.get('is_mpim'):
+                continue
+            if is_dj_author(item, auth_names):
+                cid = item.get('channel_id')
+                if cid and cid not in active_channels:
+                    active_channels[cid] = {'id': cid, 'name': item.get('channel') or cid}
+
+    if active_channels:
+        channel_last = state.get('channel_last_ts', {})
+        active_convs = list(active_channels.values())[:MAX_ACTIVE_CHANNELS]
+        try:
+            items, mx = await collect_history(
+                client,
+                active_convs,
+                'channel',
+                channel_last,
+                seen,
+                user_id,
+                active_cutoff,
+                started_at,
+            )
+            all_items.extend(items)
+            max_seen_ts = max(max_seen_ts, mx)
+        except Exception:
+            pass
+
+    if active_channels:
+        # Ensure each recently active DJ channel shows up even if the broad sweep
+        # would otherwise crowd it out. This emits a single latest-message pulse.
+        for cid, meta in list(active_channels.items())[:MAX_ACTIVE_CHANNELS]:
+            try:
+                hist = await slack_call_with_rate_limit(
+                    client.conversations_history,
+                    channel=cid,
+                    oldest=str(active_cutoff),
+                    limit=1,
+                    inclusive=True,
+                )
+            except Exception:
+                continue
+            messages = hist.get('messages') or []
+            if not messages:
+                continue
+            m = messages[0]
+            ts = m.get('ts') or ''
+            msg_ts = ts_float(ts)
+            if not ts:
+                continue
+            text = clean_text(m.get('text'))
+            if not text:
+                continue
+            item = {
+                'source': 'channel_pulse',
+                'ts': msg_ts,
+                'raw_ts': ts,
+                'thread_ts': m.get('thread_ts'),
+                'time': fmt_time(msg_ts),
+                'channel_id': cid,
+                'channel': meta.get('name') or cid,
+                'is_im': False,
+                'is_mpim': False,
+                'mentions_me': bool(user_id and f'<@{user_id}>' in (m.get('text') or '')),
+                'user': m.get('user') or m.get('username') or 'unknown',
+                'text': text,
+                'permalink': f'https://slack.com/app_redirect?channel={cid}&message_ts={ts}',
+                'active_dj_channel': True,
+            }
+            score_item(item)
+            item['score'] += 120
+            item['reasons'].append('recent DJ-active channel')
+            all_items.append(item)
+
+    if active_channels:
+        active_ids = set(active_channels)
+        for item in all_items:
+            if item.get('is_im') or item.get('is_mpim'):
+                continue
+            if item.get('channel_id') in active_ids:
+                item['active_dj_channel'] = True
+                item['score'] += 120
+                if 'recent DJ-active channel' not in item['reasons']:
+                    item['reasons'].append('recent DJ-active channel')
+
     # Sort by score first, then recency; add thread/history context to high-signal
+    # Sort by score first, then recency; add thread/history context to high-signal
+
     # candidates before capping so the LLM can suppress items that remain unclear.
     all_items.sort(key=lambda x: (x.get('score', 0), x.get('ts', 0)), reverse=True)
+    unique_items = {}
+    for item in all_items:
+        key = f"{item.get('channel_id') or ''}:{item.get('raw_ts') or item.get('ts') or ''}"
+        prev = unique_items.get(key)
+        if prev is None:
+            unique_items[key] = item
+            continue
+        prev_score = prev.get('score', 0)
+        cur_score = item.get('score', 0)
+        if item.get('source') == 'channel_pulse' or cur_score > prev_score:
+            unique_items[key] = item
+    ranked_items = sorted(unique_items.values(), key=lambda x: (x.get('score', 0), x.get('ts', 0)), reverse=True)
     user_cache = state.get('user_cache', {})
-    await add_surrounding_context(client, all_items, user_cache)
-    output_items = all_items[:MAX_SEARCH_OUTPUT]
+    await add_surrounding_context(client, ranked_items, user_cache)
+    active_ranked = [item for item in ranked_items if item.get('active_dj_channel')]
+    non_active_ranked = [item for item in ranked_items if not item.get('active_dj_channel')]
+    active_quota = min(20, MAX_SEARCH_OUTPUT)
+    output_items = active_ranked[:active_quota] + non_active_ranked[: max(0, MAX_SEARCH_OUTPUT - len(active_ranked[:active_quota]))]
 
     save_state({
         'updated_at': datetime.now(timezone.utc).isoformat(),
@@ -438,6 +617,7 @@ async def main():
         'seen': sorted(seen)[-20000:],
         'im_last_ts': im_last,
         'mpim_last_ts': mpim_last,
+        'channel_last_ts': channel_last,
         'last_queries': {'broad': broad_query, 'priority': priority_query},
         'last_totals': totals,
         'im_count': im_count,
@@ -467,6 +647,8 @@ async def main():
             markers.append('DM')
         if item.get('mentions_me'):
             markers.append('mentions DJ')
+        if item.get('active_dj_channel'):
+            markers.append('recent DJ-active channel')
         if item.get('reasons'):
             markers.append('signals: ' + ', '.join(item['reasons'][:5]))
         marker = f" ({'; '.join(markers)})" if markers else ''

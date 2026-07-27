@@ -1,0 +1,311 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-07-02_2104",
+  "usage": {
+    "prompt_tokens": 5087,
+    "completion_tokens": 1134,
+    "total_tokens": 6221
+  },
+  "episodes": [
+    {
+      "id": "7ce721d963ba1f8954ef9214",
+      "show_name": "RenMac",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "RenMac Off-Script: State of the Fed Disunion",
+      "link": "https://podcasters.spotify.com/pod/show/renmac-it/episodes/RenMac-Off-Script-State-of-the-Fed-Disunion-e3lj4eu",
+      "published": "2026-07-02T19:54:41+00:00",
+      "summary": "RenMac is joined by banking and payments veteran Howard Mason and digs into a soft payroll report, Chair Warsh's price-stability regime shift, and firming real rates. The team questions how the Fed actually delivers on price stability while hawks fill the vacuum, and turns to a market cycle clock stuck in its worst zone, thinning semiconductor leadership, embers of private credit stress, the yen carry trade and the oil-and-gas round trip.",
+      "duration": "00:38:58",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "7ce721d963ba1f8954ef9214",
+        "score": 82,
+        "tier": "digest",
+        "reason": "Discusses Fed policy shifts, market cycles, and macroeconomic stress points relevant to capital allocation.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "b1fcdcb3b009d4b749f4fa9e",
+      "show_name": "Eye on AI",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "AI Agents Are Failing and It's Almost Never the Model's Fault | Alberto Pan, Denodo",
+      "link": "https://aneyeonai.libsyn.com/ai-agents-are-failing-and-its-almost-never-the-models-fault-alberto-pan-denodo",
+      "published": "2026-07-02T17:19:00+00:00",
+      "summary": "After two years of AI pilots, enterprises are finally diagnosing what went wrong, and the answer keeps coming back to data. Alberto Pan, CTO of Denodo, joins Craig Smith to walk through the findings of the company's AI Trust Gap Report: a survey of 850 enterprise data leaders that reveals the dominant failure modes of enterprise AI agents are almost never the model's fault. They're caused by stale data, missing context, and inconsistent semantics across the hundreds of data sources agents need to access to do real work. Pan explains why traditional data warehouse and lake house architectures - built for analytics, not real-time decision-making - are creating an invisible ceiling on AI performance, and how Denodo's logical data management approach lets agents query data where it lives without centralizing it first, while enforcing consistent governance across every source in one place. The conversation also identifies two specific traps most organizations fall into as they try to scale AI - over-centralizing data into a single system, or building custom ad hoc data layers for every agent - and why both approaches collapse in a multi-agent world where agents need to cooperate, share context, and work from a common semantic foundation. Subscribe to Eye on A.I. for weekly conversations with the people building and deploying the future of AI.",
+      "duration": "41:43",
+      "old_score": 28,
+      "old_label": "skip",
+      "qwen": {
+        "id": "b1fcdcb3b009d4b749f4fa9e",
+        "score": 88,
+        "tier": "digest",
+        "reason": "Highlights enterprise AI failure modes focused on data infrastructure, not models, with actionable insights for scaling AI systems.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "a69fb241725afe7f64a0a5c9",
+      "show_name": "The Tim Ferriss Show",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "#873: David Allen — The Art of Getting Things Done (GTD) (Repost)",
+      "link": "",
+      "published": "2026-07-02T17:00:00+00:00",
+      "summary": "For more than 40 years, David Allen has worked with individuals and organizations around the world to help them stay clear, focused, and productive—without burning out. He is the author of the mega-bestseller Getting Things Done: The Art of Stress-Free Productivity . Subscribe to David's Substack at davidallen.substack.com . This episode was originally published in September 2019. Show notes: https://tim.blog/2019/09/03/david-allen-getting-things-done/ This episode is brought to you by: Shopify global commerce platform, providing tools to start, grow, market, and manage a retail business: Shopify.com/tim Eight Sleep Pod Cover 5 sleeping solution for dynamic cooling and heating: EightSleep.com/Tim AG1 all-in-one nutritional supplement: DrinkAG1.com/Tim 5-Bullet Friday , my very own free email newsletter: https://tim.blog/friday * For show notes and past guests on The Tim Ferriss Show , please visit tim.blog/podcast . For deals from sponsors of The Tim Ferriss Show , please visit tim.blog/podcast-sponsors Sign up for Tim’s email newsletter ( 5-Bullet Friday ) at tim.blog/friday . For transcripts of episodes, go to tim.blog/transcripts . Discover Tim’s books: tim.blog/books . Follow Tim: Twitter : twitter.com/tferriss Instagram : instagram.com/timferriss YouTube : youtube.com/timferriss Facebook : facebook.com/timferriss LinkedIn: linkedin.com/in/timferriss See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info .",
+      "duration": "01:31:49",
+      "old_score": 28,
+      "old_label": "skip",
+      "qwen": {
+        "id": "a69fb241725afe7f64a0a5c9",
+        "score": 65,
+        "tier": "scan",
+        "reason": "Repost on productivity framework GTD; useful but not time-sensitive or market/tech-edge focused.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "de72d26976bd83bd6462e838",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: July 2nd, 2026",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-july-2nd-2026",
+      "published": "2026-07-02T16:27:04+00:00",
+      "summary": "Featuring: Peter Tchir, Director & Head of Macro Strategy at Academy Securities Priya Misra, Managing Director & Portfolio Manager at JP Morgan Investment Management Stephanie Roth, Chief Economist at Wolfe Research See omnystudio.com/listener for privacy information.",
+      "duration": "1147",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "de72d26976bd83bd6462e838",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Standard market commentary with low original insight or actionable takeaways.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "31ba9d1a955778e10e422cfd",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "The video game disc is dead",
+      "link": "",
+      "published": "2026-07-02T15:47:00+00:00",
+      "summary": "Things don't look great for console and game makers right now. With Xbox and PlayStation sales flagging, Microsoft preparing for big layoffs in its gaming division, and the price of everything on the rise, maybe it makes sense to save money where you can. You know, like making discs? David and Nilay discuss the end of the physical video game, before wondering whether Microsoft might be getting ready to get rid of Xbox altogether. After that, they talk about the new wave of hardware for AI coders, and the ongoing attempt to replace your laptop keyboard with... something, plus the latest iPhone 18 rumors and leaks. Finally, it's time for the Hype Desk, Brendan Carr is a Dummy, some breaking SpaceX phone news, and some truly wild BMW headlights. Further reading: Sony is killing all physical PlayStation game discs Xbox testing disc-to-digital feature that digitizes a physical game collection Xbox weighs canceling Blade game and shuttering Arkane Xbox: “We’re not reducing our overall investment in games.” Sony’s next-gen PlayStation will go ‘beyond the living room’ PlayStation and Xbox hardware had a tough May. Xbox prices spike another $100 or more With GTA looming, consoles are getting expensive at the worst possible time 007 First Light’s developer lays off staff but claims its next franchise will continue Rockstar workers push to unionize ahead of GTA VI’s launch OpenAI is teasing new hardware… for Codex Here’s a photo of OpenAI’s Codex hardware. iPhone 18 Pro ‘drop test’ leaks get yanked from X Leaked iPhone 18 Pro photos reportedly wound up on the dark web A future Qi standard could bring 50W wireless charging to more devices. Exclusive | SpaceX Showed Investors Prototype of Elon Musk’s New AI Device - WSJ Comcast is splitting in two The Supreme Court stops Trump’s attempt to end birthright citizenship WhatsApp is launching usernames: here’s how to reserve yours Supreme Court allows firing of FTC commissioners, ends agency independence Subscribe to The Verge for unlimited access to theverge.com, subscriber-exclusive newsletters, and our ad-free podcast feed. We love hearing from you! Email your questions and thoughts to vergecast@theverge.com or call us at 866-VERGE11. (Timestamps are approximate.) 00:00:00 Intro 00:02:00 Book Pitch and Grill Week 00:04:00 Discs Are Dying 00:08:00 Live Service Shopping Malls 00:11:00 Microsoft Xbox Layoffs Talk 00:16:00 Console Sales Slump and Prices 00:20:00 PlayStation Beyond Living Room 00:24:00 OpenAI Codex Macro Keyboard 00:27:00 Voice Coding and Verification Loops 00:31:00 Dictation Hype and AI Limits 00:39:00 iPhone 18 Pro Leak Mystery 00:44:00 Battery Life Tradeoffs 00:48:00 Fast Wireless Charging Heat 00:52:00 CarPlay Beta Workarounds 00:56:00 Netflix Horror Unhinged 01:03:00 Cozy Repair Game Restory 01:06:00 Brendan Carr is a Dummy 01:16:00 SpaceX AI Phone Rumors 01:22:00 Grok OS App Problem 01:25:00 Comcast Splits In Two 01:33:00 WhatsApp Username Land Grab 01:35:00 BMW Headlights Go Bananas 01:40:00 Wrap Up And Plugs Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "6101",
+      "old_score": 43,
+      "old_label": "skip",
+      "qwen": {
+        "id": "31ba9d1a955778e10e422cfd",
+        "score": 40,
+        "tier": "skip",
+        "reason": "Gaming industry commentary with limited relevance to capital allocation or AI platform insights.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "38f4f1fb0b3bb94947f72340",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "June Jobs Day",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/june-jobs-day",
+      "published": "2026-07-02T15:31:08+00:00",
+      "summary": "The latest in finance, economics and investment. Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF . Bloomberg Surveillance hosted by Tom Keene & Paul SweeneyThursday, July 2, 2026 Featuring: 1) Claudia Sahm, Chief Economist at New Century Advisors, Katy Kaminski, Chief Research Strategist at AlphaSimplex, and Kristina Campmany, Senior Portfolio Manager: Global Debt at Invesco, react to the June jobs report. 2) Margie Patel, Senior Portfolio Manager at Allspring Global Investments, discusses why she expects more upside surprise in the stock market. 3) Lia Taniguchi, Head of Labor Research at Bullhorn, talks the firm's findings on the recent hiring slowdown and the labor market's biggest outlier. See omnystudio.com/listener for privacy information.",
+      "duration": "1964",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "38f4f1fb0b3bb94947f72340",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Jobs report analysis with labor market insights relevant to macro investing and economic outlook.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "574ec8c0272193b474c3165e",
+      "show_name": "No Priors",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "How Nuclear Will Unlock Energy Abundance with Valar Atomics Founder Isaiah Taylor",
+      "link": "",
+      "published": "2026-07-02T15:00:00+00:00",
+      "summary": "While the rest of the nuclear industry still relies on simulations and paper designs, Valar Atomics is busy splitting atoms. In fact, they just powered an NVIDIA Blackwell chip directly with a live nuclear reactor in order to power the world’s first nuclear powered website. Sarah Guo joins Valar Atomics founder and CEO Isaiah Taylor on-site at their California headquarters to talk about how Valar is shifting nuclear energy from the theoretical to the practical by building and perfecting reactors via hardware iteration. Isaiah discusses why the US stopped building nuclear reactors in the 1970s, and how Valar utilized a little-known pathway via the Department of Energy, revived by a Trump administration executive order, to successfully develop and run their advanced reactor. He also shares Valar’s strategy for vertical integration, their venture-backed approach to financing, their giga-site plans, and why he believes cheap, abundant atomic energy has the power to vastly improve the quality of human life. Sign up for new podcasts every week. Email feedback to show@no-priors.com Follow us on Twitter: @NoPriorsPod | @Saranormous | @EladGil | @isaiah_p_taylor | @valaratomics Chapters: 00:00 – Cold Open 00:57 – Isaiah Taylor Introduction 01:30 - Valar’s Mission and Origin 04:24 - Why Nuclear Development Stalled 07:18 - Reviving Nuclear through DoE and Executive Order 10:59 - Control Room Tour 16:17 - Misunderstandings About Nuclear 20:07 - Issues with Reliability 22:14 - Nuclear is a Hardware Execution Problem 24:32 - Timeline to Scale Production 26:32 - Introducing Ward 250 30:42 - Speed Through Simplicity 33:33 - AI Drives Nuclear Demand 35:02 - Running a Reactor with NVIDIA Blackwell 36:27 - Valar’s Nuclear Conviction 40:16 - Verticalization as Path to Scale 43:58 - Valar’s Control Skid 48:00 - Venture-Backed Nuclear 50:51 - Gigasite Strategy 53:11 - CEO Tick Rate 55:37 - Abundant Energy and Hyper-Techno Industrialism 1:01:27 – Conclusion",
+      "duration": "3686",
+      "old_score": 43,
+      "old_label": "skip",
+      "qwen": {
+        "id": "574ec8c0272193b474c3165e",
+        "score": 90,
+        "tier": "listen",
+        "reason": "Breakthrough nuclear energy approach with implications for AI infrastructure power and energy abundance.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "bf7697fc2458a6f44d98a54d",
+      "show_name": "Infinite Loops",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "David Gelles - The Stories that Shape Business (Ep. 321)",
+      "link": "https://infiniteloopspodcast.com/321",
+      "published": "2026-07-02T12:10:00+00:00",
+      "summary": "David Gelles joins guest host Jimmy Soni to discuss his career covering business for The New York Times. They talk about his books - Mindful Work, The Man Who Broke Capitalism, and Dirtbag Billionaire - and the reporting behind major stories on Bernie Madoff, Jack Welch, Boeing's 737 Max crashes, and Patagonia's Yvon Chouinard. David explains how he broke a front-page story five weeks into journalism school, how he convinced Bernie Madoff to grant him a prison interview, and his process for writing books while working full-time. They also discuss raising kids who read for hours every day and why meditation helps him stay sane.",
+      "duration": "01:10:59",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "bf7697fc2458a6f44d98a54d",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Business storytelling and reporting insights from major scandals and corporate failures.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "afbbfa1584b03447c6021365",
+      "show_name": "My First Million",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "I dropped out of college and built a $3.6B company from scratch",
+      "link": "",
+      "published": "2026-07-02T10:01:00+00:00",
+      "summary": "Get Sam and Shaan's hard-won CEO lessons in one guide: https://clickhubspot.com/ktng Episode 838: Sam Parr ( https://x.com/theSamParr ) and Shaan Puri ( https://x.com/ShaanVP ) talk to Aaron Levie ( https://x.com/levie ) talk about building Box, getting rich slowly, why AI might make us work harder. — Show Notes: (0:00) Story of Box (06:30) Enterprise Over Consumer (10:00) Turning Down Huge Acquisition Offers (17:05) Angel Investing, Missed Bets, and Investing in Your P&L (23:00) Aaron’s Contrarian AI Takes: More Jobs, More Work (30:00) Founder Anxiety, Therapy, and Surviving the CEO Grind (38:45) The Business Strategy Books Aaron Swears By (48:00) AI Tools, Software Stocks, and Why SaaS Isn’t Dead — Links: • Box - https://www.box.com/ — Check Out Sam's Stuff: • Hampton (joinhampton.com): My community for founders. Average member does $25m/year. Many of the guests are members. Get after it...apply: http://joinhampton.com/mfm — Check Out Shaan's Stuff: • Shaan's weekly email - https://www.shaanpuri.com • Visit https://www.somewhere.com/mfm to hire worldwide talent like Shaan and get $500 off for being an MFM listener. Hire developers, assistants, marketing pros, sales teams and more for 80% less than US equivalents. • Mercury - Shaan uses Mercury for banking across all of his companies. you can too: http://mercury.com/ Mercury is a fintech company, not an FDIC-insured bank. Banking services provided by Choice Financial Group, Column, N.A., and Evolve Bank & Trust, Members FDIC • I run all my newsletters on Beehiiv and you should too + we're giving away $10k to our favorite newsletter, check it out: beehiiv.com/mfm-challenge My First Million is a HubSpot Original Podcast // Brought to you by HubSpot Media // Production by Arie Desormeaux // Editing by Ezra Bakker Trupiano /",
+      "duration": "3505",
+      "old_score": 38,
+      "old_label": "skip",
+      "qwen": {
+        "id": "afbbfa1584b03447c6021365",
+        "score": 78,
+        "tier": "digest",
+        "reason": "Founder journey with contrarian AI takes and enterprise SaaS insights from Box's CEO.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "6fb263921758a64296bcc005",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Outsmarting Uber: Why Bolt Wins in Europe",
+      "link": "https://a16z.simplecast.com/episodes/outsmarting-uber-why-bolt-wins-in-europe-EfFQWvrq",
+      "published": "2026-07-02T10:00:00+00:00",
+      "summary": "What does it take to build a global mobility company from a country of just 1.3 million people? Markus Villig, founder and CEO of Bolt, joins the show to share how he scaled from Estonia to 50+ countries, navigating early scrappy days, a near-bankruptcy from expanding too fast, and the hard-won lessons behind Bolt’s capital-efficient growth. They also discuss building in Europe vs. the U.S., competing against much better-funded rivals, and why culture and ambition matter more than regulation. Finally, Markus lays out what’s next: autonomy, robotaxis, and why the future of mobility will be a hybrid of human drivers and self-driving fleets. Resources: Find Markus on X: https://x.com/villigm Find Gabriel on X: https://x.com/GEVS94 Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:41:15",
+      "old_score": 47,
+      "old_label": "skip",
+      "qwen": {
+        "id": "6fb263921758a64296bcc005",
+        "score": 85,
+        "tier": "digest",
+        "reason": "Global mobility strategy and capital efficiency lessons from Bolt's CEO in competing with Uber.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "d3c2f052da1184c3744024b3",
+      "show_name": "Decoder with Nilay Patel",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "The CMO is a dying role, says Digitas' Amy Lanzi",
+      "link": "",
+      "published": "2026-07-02T09:00:00+00:00",
+      "summary": "We’ve got a special Decoder today. I had the chance to talk with Amy Lanzi, the CEO of Digitas North America, in front of a live audience at the Uber villa at the Cannes Lions advertising festival in the south of France. There’s a lot in this one on AI, the creator economy, and the future of marketing – like I said, Amy is as sharp as they come, and I really enjoy talking to her about how the money really works. Read the full interview transcript on The Verge. Links: The Influencer Cliff | Carmen Vicente (TikTok) The Wrong Promises | Publicis Groupe (YouTube) You can just tell the Instagram algorithm what you want now | The Verge How brands and creators are fighting for your attention and money | Decoder (2025) How influencers are changing advertising, with Digitas’ Amy Lanzi | Decoder (2024) Subscribe to The Verge to access the ad-free version of Decoder! Credits: Decoder is a production of The Verge and part of the Vox Media Podcast Network. Decoder is produced by Kate Cox and Nick Statt and edited by Ursa Wright. Our editorial director is Kevin McShane. The Decoder music is by Breakmaster Cylinder. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "3366",
+      "old_score": 36,
+      "old_label": "skip",
+      "qwen": {
+        "id": "d3c2f052da1184c3744024b3",
+        "score": 72,
+        "tier": "digest",
+        "reason": "Marketing evolution and AI impact from Digitas' CEO with industry trend implications.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "87725c9593f64ac5016d83ba",
+      "show_name": "Masters of Scale",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "How to build breakout products, with Mark Pincus & Reid Hoffman",
+      "link": "",
+      "published": "2026-07-02T09:00:00+00:00",
+      "summary": "Mark Pincus is a serial tech entrepreneur and investor best known as the co-founder of Zynga. He joins host Reid Hoffman to reveal the insights at the center of his new book: Life at the Speed of Play. The godfather of mobile gaming talks with Hoffman about building products people love, learning fast from your mistakes, and handling screen time for his own kids. The book: https://www.lifeatthespeedofplay.com/ Subscribe to the Masters of Scale weekly newsletter: https://mastersofscale.com/subscribe See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info .",
+      "duration": "00:30:18",
+      "old_score": 59,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "87725c9593f64ac5016d83ba",
+        "score": 80,
+        "tier": "digest",
+        "reason": "Product development insights from Zynga's founder with relevance to tech product-market fit.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "45a5ec4d8fd59de336488282",
+      "show_name": "Odd Lots",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "What Dan Wang Saw on His Last Trip to China",
+      "link": "https://omny.fm/shows/odd-lots/what-dan-wang-saw-on-his-last-trip-to-china",
+      "published": "2026-07-02T08:00:00+00:00",
+      "summary": "There's this weird contradiction that hovers almost all conversations regarding the Chinese economy. On the one hand, the growth and rising material prosperity is undeniable. And of course, Chinese industrial giants are at the frontier in all kinds of things, like batteries. On the other hand, you always hear about a soft domestic market, and a general state of unease among workers who fear that precarity is around the corner. So how is this contradiction explained? And how does it affect day-to-day life? On this episode, we bring back one of our regular guests Dan Wang, who recently returned from a long trip to Shanghai. We discuss his observations, the general ennui he saw, the signs of domestic weakness, and the way in which phone culture is reshaping Chinese society. Read more: It’s Too Soon to Breathe Easy on China’s Economy Only Bloomberg.com subscribers can get the Odd Lots newsletter in their inbox, plus unlimited access to the site and app. bloomberg.com/subscriptions/oddlots See omnystudio.com/listener for privacy information.",
+      "duration": "2929",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "45a5ec4d8fd59de336488282",
+        "score": 76,
+        "tier": "digest",
+        "reason": "On-the-ground observations of China's economic contradictions with implications for global markets.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "976d6154162ec4997446c645",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "What Comes After the Iran War? — with Rep. Jim Himes",
+      "link": "",
+      "published": "2026-07-02T08:00:00+00:00",
+      "summary": "Scott Galloway speaks with Congressman Jim Himes, the ranking Democrat on the House Intelligence Committee, to discuss the fragile ceasefire with Iran, whether the U.S. has lost leverage in the Middle East, the future of Ukraine, and what Democrats need to offer beyond opposition to Trump. Algebra of happiness: the memories never made. Want to listen to this and other episodes ad-free? You can, if you subscribe at profgmedia.com. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "3623",
+      "old_score": 0,
+      "old_label": "skip",
+      "qwen": {
+        "id": "976d6154162ec4997446c645",
+        "score": 55,
+        "tier": "scan",
+        "reason": "Geopolitical analysis with limited direct market or capital allocation implications.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "2ab78e17290cb2492bb729a4",
+      "show_name": "The Twenty Minute VC",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "20VC: Dario and Anthropic Declare War on Open-Source | Coinbase Slash AI Spend by 50% | Kalshi's $40BN Valuation and Impending IPO | Bending Spoons: Smartest IPO of 2026 and the Year for SaaS Roll-Ups",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-dario-and-anthropic-declare-war-on-open-source-coinbase-slash-ai-spend-by-50-kalshis-40bn-valuation-and-impending-ipo-bending-spoons-smartest-ipo-of-2026-and-the-year-for-saas-roll-ups",
+      "published": "2026-07-02T07:07:00+00:00",
+      "summary": "AGENDA: 00:00 Coinbase Slashes AI Spend 50%—Is the AI Token Bubble Bursting? 12:55 Anthropic Warns Open Source Could Destroy the AI Business Model 18:10 Dario Escalates the AI War with China & Open-Source 22:00 Should the US Ban Chinese AI Models? 33:15 Microsoft's AI Strategy Is Breaking Down 38:00 Kalshi's $40B Valuation Signals a New Consumer Gold Rush 41:15 Has SpaceX Frozen the AI IPO Market? 43:20 Why Bending Spoons May Be the Smartest IPO of the Year 46:00 The $100B Opportunity to Buy Broken SaaS Companies 53:30 Which Software Companies Would Jason Buy Tomorrow? 1:04:30 The Great AI Talent War Is About to Get Worse 1:11:20 Every Company Is Becoming an AI Company—or Dying",
+      "duration": "01:17:10",
+      "old_score": 38,
+      "old_label": "skip",
+      "qwen": {
+        "id": "2ab78e17290cb2492bb729a4",
+        "score": 84,
+        "tier": "digest",
+        "reason": "Covers AI investment dynamics, open-source tensions, and SaaS consolidation trends with actionable takeaways.",
+        "confidence": "high"
+      }
+    }
+  ]
+}

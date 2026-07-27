@@ -1,0 +1,8 @@
+{
+  "show": "The Twenty Minute VC",
+  "episode": "20VC: SpaceX Soars to $2.7TRN | Anthropic's Fable Banned by US Government | Mistral Raising at $20BN and The Case for Sovereign Models | Fin Acquired by Salesforce for $3.6BN",
+  "audio_url": "https://traffic.libsyn.com/secure/thetwentyminutevc/The_Memo__Ryan_Petersen__Flexport_2-Updated-V2.mp3?dest-id=240976",
+  "model": "base",
+  "max_seconds": 0,
+  "stdout": "{\"language\": \"en\", \"duration\": 4721.9489375, \"segments\": 2492}"
+}

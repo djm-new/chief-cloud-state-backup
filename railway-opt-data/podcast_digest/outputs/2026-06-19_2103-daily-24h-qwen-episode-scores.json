@@ -1,0 +1,331 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-06-19_2103",
+  "usage": {
+    "prompt_tokens": 5451,
+    "completion_tokens": 1217,
+    "total_tokens": 6668
+  },
+  "episodes": [
+    {
+      "id": "1871a1c194b02f4310a2b129",
+      "show_name": "Dishcast with Andrew Sullivan",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "low",
+      "title": "Tiffany Jenkins On Privacy And Liberalism",
+      "link": "https://andrewsullivan.substack.com/p/tiffany-jenkins-on-privacy-and-liberalism",
+      "published": "2026-06-19T17:33:34+00:00",
+      "summary": "This is a free preview of a paid episode. To hear more, visit andrewsullivan.substack.com Tiffany is a cultural historian, writer, and broadcaster. She has been a critic and presenter on BBC Radio 4 and now serves as a trustee of the British Museum. Her latest book is Strangers and Intimates : The Rise and Fall of Private Life. It’s a fascinating book of history and political insight: how privacy is deeply connected to liberal values, and why its abeyance matters. For two clips of the episode — on the first sexual revolution in England, and when privacy strengthened patriarchy — head to our YouTube page . Other topics: growing up in an Anglo-American household; losing and keeping accents; privacy a rare thing in history; the Greeks and Romans; the human tendency to gossip; the Reformation and private faith; Thomas More against Martin Luther; Cromwell banning Christmas; Hobbes and the right of conscience; Locke and natural rights; Marie Antoinette; Rousseau and self-creation; spying; the emergence of the back stairs; the Romantics and subjectivity; Wollstonecraft and women’s equality; the Sodomites’ Walk; the rise of coffee shops; John Stuart Mill; child abuse; marital rape; Betty Friedan; defending homosexuality based on privacy; outings; Lewinsky and the Starr Report; consent and policing sex; hook-up culture on campus; Obama’s private life; Hunter’s laptop; reality TV and Trump; Harry and Meghan’s worldwide privacy tour; OnlyFans; and a defense of hypocrisy. Browse the Dishcast archive for an episode you might enjoy. Coming up: Bob Wright on the evolutionary force of AI, John Gray on Trump’s new world, Stephen Grosz on the struggles of love, David Thomson on cinema history, John O’Sullivan on conservatism, Robby George on all our disagreements, and Megan McArdle on everything. Please send any guest recs, dissents, and other comments to dish@andrewsullivan.com .",
+      "duration": "3643",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "1871a1c194b02f4310a2b129",
+        "score": 45,
+        "tier": "scan",
+        "reason": "Privacy and liberalism historical analysis may offer indirect societal context but lacks direct relevance to DJ's focus areas.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "f8a98ca43532e325f36d079d",
+      "show_name": "Stratechery",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "2026.25: The Stuff of Myth(os)",
+      "link": "https://stratechery.com/2026/the-stuff-of-mythos/",
+      "published": "2026-06-19T17:00:00+00:00",
+      "summary": "The best Stratechery content from the week of June 15, 2026, including Anthropic, e-commerce in the age of AI, and the NBA Finals being a perfect 10.",
+      "duration": "",
+      "old_score": 38,
+      "old_label": "skip",
+      "qwen": {
+        "id": "f8a98ca43532e325f36d079d",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Stratechery's curated content on AI and e-commerce offers durable frameworks and market insights relevant to DJ's focus.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "5c23dd4812e55dd7daadeb84",
+      "show_name": "Dwarkesh Podcast",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "The data black hole at the center of AI",
+      "link": "https://www.dwarkesh.com/p/the-sample-efficiency-black-hole-2",
+      "published": "2026-06-19T16:45:03+00:00",
+      "summary": "Read the transcript here. Thanks to Mercury for sponsoring this essay! Mercury just released a new feature called Command, which gives me AI right in my banking platform. And since I use Mercury to run basically my entire business, Command has access to all the info it needs to get real work done. I can ask it to send invoices, or categorize expenses, or even transfer money… and Command just handles it. Learn more at mercury.com/command Timestamps: (00:00:00) – What is really driving AI progress? (00:03:11) – Comparing human vs AI sample efficiency (00:08:46) – Does sample efficiency matter? Get full access to Dwarkesh Podcast at www.dwarkesh.com/subscribe",
+      "duration": "717",
+      "old_score": 38,
+      "old_label": "skip",
+      "qwen": {
+        "id": "5c23dd4812e55dd7daadeb84",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Discusses AI progress and data limitations, offering technical context relevant to AI platform economics.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "2a4fc083e9202868dda49bbf",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "The New Rules of Media | Marc Andreessen & Ben Horowitz",
+      "link": "https://a16z.simplecast.com/episodes/the-new-rules-of-media-marc-andreessen-ben-horowitz-nXXfWW8E",
+      "published": "2026-06-19T16:35:00+00:00",
+      "summary": "Recorded live at the New Media Summit, Marc Andreessen, Ben Horowitz, Erik Torenberg, and Gaby Goldberg discuss how media, communication, and influence are changing in the internet era. The conversation explores the shift from legacy media to creator-led platforms, why authenticity has become a competitive advantage, and how founders can build audiences by communicating directly with customers, employees, and the public. They discuss podcasts, social media, storytelling, corporate communications, and the changing relationship between companies, journalists, and audiences. Along the way, they examine how founders can develop a public voice, why some leaders become influential communicators, and what it means to build a brand in a world where distribution is increasingly decentralized. Resources: Follow Marc Andreessen on X: https://x.com/pmarca Follow Ben Horowitz on X: https://x.com/bhorowitz Follow Erik Torenberg on X: https://x.com/eriktorenberg Follow Gaby Goldberg on X: https://x.com/gaby_goldberg Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:41:10",
+      "old_score": 100,
+      "old_label": "must_listen",
+      "qwen": {
+        "id": "2a4fc083e9202868dda49bbf",
+        "score": 80,
+        "tier": "digest",
+        "reason": "Insights on media evolution, founder communication, and decentralized distribution offer strategic value for business and platform thinking.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "b4cd6648efd4f70dab0bde2d",
+      "show_name": "RenMac",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "RenMac Off-Script: Warsh Lets the Hawks Fly",
+      "link": "https://podcasters.spotify.com/pod/show/renmac-it/episodes/RenMac-Off-Script-Warsh-Lets-the-Hawks-Fly-e3l109q",
+      "published": "2026-06-19T15:54:34+00:00",
+      "summary": "RenMac breaks down new Fed Chair Kevin Warsh's first meeting — the most hawkish FOMC outcome on record by the move in the two-year yield — why falling oil won't pull the Fed off its tightening bias, and how rate hikes are now on the table as soon as July. The team also discusses the fragile Iran settlement, a firmer dollar, the Defense Production Act's reach into non-defense names, US-versus-ex-US equity leadership, and the week ahead in core PCE, Micron, and Fed speakers.",
+      "duration": "00:36:53",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "b4cd6648efd4f70dab0bde2d",
+        "score": 85,
+        "tier": "listen",
+        "reason": "Direct Fed policy analysis with implications for capital allocation and macroeconomic strategy makes this highly relevant.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "a7f85605aba232c4a63c763e",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "The Global Economic Outlook",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/the-global-economic-outlook",
+      "published": "2026-06-19T15:13:02+00:00",
+      "summary": "The latest in finance, economics and investment. Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF . Bloomberg Surveillance hosted by Tom Keene & Paul SweeneyFriday, June 19, 2026 Featuring: 1) Anneka Treon, Global Head of Private Banking, Wealth Management, and Investments at ING Investments, joins for a discussion on her investment outlook across Europe, client concerns, and the broader macro picture. 2) Janet Henry, Global Chief Economist at HSBC, discusses the scarred global economy and what the impact would be should the Iran deal fall through. 3) Vania Stavrakeva, Assistant Professor of Economics at London Business School, talks inflation, slowing growth, and geopolitical uncertainty. 4) Ambassador Puneet Talwar, Principal at Talwar Global Strategies and former US Ambassador to Morocco, talks about why Iran emerges from its conflict with the US in a stronger position and the comparison between the MOU and JCPOA. See omnystudio.com/listener for privacy information.",
+      "duration": "1656",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "a7f85605aba232c4a63c763e",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Global economic outlook with geopolitical and inflation insights offers macro context for capital strategy.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "1d7b250962f0832a77fd6f44",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Version History: Harmony remote",
+      "link": "",
+      "published": "2026-06-19T15:00:00+00:00",
+      "summary": "The Harmony Universal Remote was supposed to be the only controller you needed for all the devices in your life. So what happened? David Pierce is joined by The Verge’s Nilay Patel and John Higgins, as well as Nest co-founder (and current Harmony user) Matt Rogers, to follow the Harmony's timeline from its origins as the \"Easy Zapper,\" through Logitech's acquisition, all the way to its slow death at the hands of smart TVs. And their vastly inferior remotes. If you like the show, ⁠⁠follow the Version History audio podcast feed⁠⁠ to get every new episode. Version History is also on video! Check us out on YouTube. ⁠Subscribe to The Verge⁠ for unlimited access to ⁠theverge.com⁠, subscriber-exclusive newsletters, and our ⁠ad-free podcast feed⁠. We love hearing from you! Email your questions and thoughts to ⁠vergecast@theverge.com⁠ or call us at 866-VERGE11. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "4593",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "1d7b250962f0832a77fd6f44",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Product lifecycle and tech adoption story of Harmony remote offers some business lessons but low urgency.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "98a7d4f25bb948520d2d48ad",
+      "show_name": "Hard Fork",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "‘Hard Fork’ Live, Part 3: Differing Visions of an A.I. Future",
+      "link": "https://www.nytimes.com/column/hard-fork",
+      "published": "2026-06-19T11:00:00+00:00",
+      "summary": "We’re back with our final installment from Hard Fork Live, recorded at the Yerba Buena Center for the Arts in San Francisco. In this episode, we’re joined by Sayash Kapoor and Daniel Kokotajlo to talk about their differing visions of A.I. transformation: why Sayash thinks A.I. will diffuse throughout society like a “normal” technology, and why Daniel thinks an unprecedented acceleration is just around the corner. Then we’re joined by George Ekas from Toborlife AI, along with his dancing robot Toby. Finally, the podcaster Dwarkesh Patel drops by, and we take a few questions from the live audience. Guests: Sayash Kapoor , an A.I. researcher at Princeton University and a co-author of the newsletter “AI as Normal Technology” Daniel Kokotajlo , the executive director of the AI Futures Project and a co-author of “AI 2027” George Ekas , the director of engineering at Toberlife AI Dwarkesh Patel , a tech podcaster Additional Reading: This A.I. Forecast Predicts Storms Ahead AI as Normal Technology Common Ground Between AI 2027 & AI as Normal Technology Subscribe today at nytimes.com/podcasts or on Apple Podcasts and Spotify. You can also subscribe via your favorite podcast app here https://www.nytimes.com/activate-access/audio?source=podcatcher . For more podcasts and narrated articles, download The New York Times app at nytimes.com/app. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:56:13",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "98a7d4f25bb948520d2d48ad",
+        "score": 70,
+        "tier": "digest",
+        "reason": "AI diffusion debate provides useful contrast in thinking about AI's economic trajectory.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "65afac1331fcbabb61130b80",
+      "show_name": "Plain English with Derek Thompson",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "The Donald Trump Corruption Scandal Draft",
+      "link": "",
+      "published": "2026-06-19T10:00:00+00:00",
+      "summary": "What is Donald Trump good at? In his second administration, he promised lower prices, stronger manufacturing, and an end to foreign conflicts. Instead, inflation has risen, blue-collar job growth has slowed, and the U.S. finds itself involved in another war in the Middle East. But there is one area where Trump has undeniably succeeded: increasing the wealth of the Trump family. Even as his approval ratings have fallen, Trump and his businesses have reportedly received billions of dollars in new investments and deals, raising questions about presidential ethics and conflicts of interest. Today, Derek is joined by Isaac Saul of Tangle to draft the most striking examples of alleged corruption and ethical controversies in the second Trump administration and ask a simple question: Are we witnessing an unprecedented era of presidential profiteering? Subscribe to our YouTube channel here:https://www.youtube.com/@PlainEnglishwithDerekThompson If you have questions, observations, or ideas for future episodes, email us at PlainEnglish@Spotify.com. Host: Derek ThompsonGuest: Isaac SaulProducer: Devon BaroldiAdditional Production Support: Ben Glicksman LINKS: https://www.readtangle.com/the-everything-everywhere-all-at-once-corruption-story/ This episode is brought to you by Accenture. https://Accenture.com/Spotify All Matches Streaming Live. Watch 3 Days Free. Offers are subject to change. See fox.com for complete terms and conditions. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "4093",
+      "old_score": 4,
+      "old_label": "skip",
+      "qwen": {
+        "id": "65afac1331fcbabb61130b80",
+        "score": 40,
+        "tier": "scan",
+        "reason": "Political corruption analysis is off DJ's core focus areas despite potential macro implications.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "1cc6f93a38ff579a290b7c2f",
+      "show_name": "Ezra Klein Show",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "I Keep Telling People We’re Living in This Dystopian Novel",
+      "link": "https://www.nytimes.com/2026/06/19/opinion/ezra-klein-podcast-gary-shteyngart.html",
+      "published": "2026-06-19T09:00:00+00:00",
+      "summary": "A hypervisual, looks-obsessed, wellness-crazed, postliterate society where we’re constantly staring at screens and evaluating one another based on metrics, as the country around us feels like it’s falling apart: That sounds like the world we live in. It’s also the world Gary Shteyngart created in his 2010 novel, “Super Sad True Love Story.” I’ve been thinking about the book a lot recently, especially with the rise of the “looksmaxxing” influencer Clavicular and the longevity guru Bryan Johnson, and this feeling that people are upset and agitated but grabbing at the wrong things to fix it. It feels uncannily like the experience of living inside Shteyngart’s novel. But Shteyngart isn’t just a dystopian prophet, he’s also an expert at living well amid the world’s darkness. His forthcoming book, “The Sensualist: Adventures in Pure Pleasure,” is an essay collection about his efforts to do exactly that. So I wanted to have Shteyngart on the show to understand how he predicted so many of the grimmer aspects of our present, but also how we might delight in the world’s “endless buffet of pleasure” in spite of them. This episode contains strong language. Note: We’re recording an \"Ask Me Anything\" episode soon. If you have a question, please email ezrakleinshow@nytimes.com using the subject like \"AMA.\" We'd love to hear from you. Mentioned: “ The End Point Of Viral Content ” by Ryan Broderick “ How Jokes Won the Election ” by Emily Nussbaum “ A Visit to Seoul Brings Our Writer Face-to-Face With the Future of Robots ” by Gary Shteyngart The Intimate City by Michael Kimmelman “ Don’t Just Take the Slow Road; Design It ,” Commencement address at Wesleyan’s 194th Commencement Ceremony, Chris Murphy Book Recommendations: Men Like Ours by Bindu Bansinath A Tender Age by Chang-rae Lee Motherland by Julia Ioffe Thoughts? Guest suggestions? Email us at ezrakleinshow@nytimes.com. You can find transcripts (posted midday) and more episodes of “The Ezra Klein Show” at nytimes.com/ezra-klein-podcast , and you can find Ezra on Twitter @ezraklein. Book recommendations from all our guests are listed at https://www.nytimes.com/article/ezra-klein-show-book-recs . This episode of “The Ezra Klein Show” was produced by Annie Galvin. Fact-checking by Michelle Harris with Mary-Marge Locker. Our senior engineer is Jeff Geld, with additional mixing by Johnny Simon. Our recording engineer is Johnny Simon. Our executive producer is Claire Gordon. The show’s production team also includes Marie Cascione, Rollin Hu, Kristin Lin, Emma Kehlbeck, Jack McCordick, Marina King and Jan Kobal. Original music by Pat McCusker. Audience strategy by Shannon Busta. The director of New York Times Opinion Shows is Annie-Rose Strasser. Subscribe today at nytimes.com/podcasts or on Apple Podcasts and Spotify. You can also subscribe via your favorite podcast app here https://www.nytimes.com/activate-access/audio?source=podcatcher . For more podcasts and narrated articles, download The New York Times app at nytimes.com/app. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "01:18:20",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "1cc6f93a38ff579a290b7c2f",
+        "score": 55,
+        "tier": "scan",
+        "reason": "Dystopian societal parallels offer cultural context but lack direct strategic value.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "461071c86d813ba3582cb2fa",
+      "show_name": "NYT Book Review",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "low",
+      "title": "Art, Outrage and How the Culture Wars Began",
+      "link": "https://www.nytimes.com/column/book-review-podcast",
+      "published": "2026-06-19T09:00:00+00:00",
+      "summary": "In April 1989, a newspaper clipping about an art exhibit landed in the mailbox of the Rev. Donald Wildmon, the founder of a conservative evangelical group, the American Family Association. Partly funded by the National Endowment for the Arts, the exhibit included a now-infamous photograph by Andres Serrano that showed a crucifix submerged in Serrano’s own urine. Incensed, Wildmon sent a copy of the photo to every member of Congress, setting off a battle led by the Christian right over what contemporary art could be and who should receive federal funding for it. Isaac Butler, an author and cultural historian, walks through this and other pivotal moments in the culture wars of the 1980s and 1990s in his new book, “The Perfect Moment: God, Sex, Art and the Birth of America’s Culture Wars.” Butler spoke to the Book Review’s editor, Gilbert Cruz, about how these fights unfolded and what they meant for the artists themselves. He sat down to write the book, he said, when “it really felt like the culture wars of the ’80s and ’90s that I grew up in were repeating again.” Books and plays discussed on this episode: “The Perfect Moment: God, Sex, Art and the Birth of America’s Culture Wars,” by Isaac Butler “Measure for Measure,” by William Shakespeare “Transgressions: The Offences of Art,” by Anthony Julius “It Was Vulgar and It Was Beautiful: How AIDS Activists Used Art to Fight a Pandemic,” by Jack Lowery “The Devil Finds Work,” by James Baldwin “Fire in the Belly: The Life and Times of David Wojnarowicz,” by Cynthia Carr “Elia Kazan: A Life,” by Elia Kazan “Fear No Pharaoh: American Jews, the Civil War and the Fight to End Slavery,” by Richard Kreitner “The Kindness of Strangers,” by Salka Viertel “The Talmud: A Biography,” by Barry Scott Wimpfheimer “My Last Sigh,” by Luis Buñuel Listen to and Follow ‘The Book Review’ Apple Podcasts | Spotify | Amazon Music | YouTube | iHeartRadio Unlock full access to New York Times podcasts, and explore everything from politics to pop culture. Subscribe today at nytimes.com/podcasts or on Apple Podcasts and Spotify. Subscribe today at nytimes.com/podcasts or on Apple Podcasts and Spotify. You can also subscribe via your favorite podcast app here https://www.nytimes.com/activate-access/audio?source=podcatcher . For more podcasts and narrated articles, download The New York Times app at nytimes.com/app. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:34:56",
+      "old_score": 0,
+      "old_label": "skip",
+      "qwen": {
+        "id": "461071c86d813ba3582cb2fa",
+        "score": 45,
+        "tier": "scan",
+        "reason": "Cultural history of art wars offers indirect societal insight but not core relevance.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "0d2e04ab3fdd66a8adac0fb9",
+      "show_name": "Sharp Tech",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "(Preview) The Anthropic Saga Continues, Fox and the Future of Streaming, Q&A on ChatGPT, Agentic Shopping, Autonomous Driving",
+      "link": "https://sharptech.fm/member/episode/preview-the-anthropic-saga-continues-fox-and-the-future-of-streaming-q-a-on-chat-gpt-agentic-shopping-autonomous-driving",
+      "published": "2026-06-19T08:59:16+00:00",
+      "summary": "On today’s show Ben and Andrew begin with a hydration break take as the World Cup continues before turning to the latest on Anthropic’s export control saga, what the Trump administration may not understand about AI cybersecurity, and what Anthropic still doesn’t understand about dealing with the government. From there: Fables differentiation, the dangers of ringfencing frontier AI within U.S. borders, and how open source Chinese AI may affect the marketplace. From there: Why Ben gives Fox the benefit of the doubt after its Roku purchase this week, whether Siri AI will nuke ChatGPT’s market, Noam Shazeer joins OpenAI, what e-commerce will and won’t be automated, and whether autonomous driving can scale on ICE vehicles.",
+      "duration": "00:31:26",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "0d2e04ab3fdd66a8adac0fb9",
+        "score": 60,
+        "tier": "digest",
+        "reason": "Covers AI policy, export controls, and frontier model implications relevant to strategic thinking.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "3dfb5dbe7068366b0623e41d",
+      "show_name": "The Meb Faber Show",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Bryan Taylor: There Is No Equity Risk Premium (Investing in America Series) #635",
+      "link": "",
+      "published": "2026-06-19T08:30:00+00:00",
+      "summary": "Today’s guest is Bryan Taylor, founder and chief economist of Finaeon, which has the most comprehensive database of historical financial market data in the world. He's just published Five Financial Eras: How Financial Markets Transformed the World. In today’s episode, Bryan explains his TWIG framework of trade, war, inflation, and government, and how their combination drives returns across centuries of market history. He challenges the belief in a fixed equity risk premium and revisits seven decades of negative real bond returns. To close, Bryan explains why the post-1981 playbook no longer applies. (0:00) Starts (1:25) Sponsor: Ivy Invest (2:37) Bryan Taylor explains the TWIG framework (10:20) There is no single equity risk premium (21:18) Government debt, market capitalization, and global market position (26:17) The impact of technology revolutions on markets (28:30) Historical changes in investment trends (38:22) Cultural shifts in investing (47:36) Evolution of stock market indices and future projects (52:03) Currency discussion ----- Sponsor: ⁠⁠Ivy Invest⁠ ⁠- To learn more about Ivy Invest's SEC-registered endowment-style fund, view the prospectus, and learn how to invest, visit⁠ ⁠ivyinvest.co/fund⁠ ----- Follow Meb on⁠ X⁠,⁠ LinkedIn⁠ and⁠ YouTube⁠ For detailed show notes, click ⁠here⁠ To learn more about our funds and follow us, subscribe to our ⁠mailing list⁠ or visit us at⁠ cambriainvestments.com⁠ ----- Follow The Idea Farm: ⁠X⁠ | ⁠LinkedIn⁠ | ⁠Instagram⁠ | ⁠TikTok⁠ ----- Interested in sponsoring the show? Email us at Feedback@TheMebFaberShow.com ----- Past guests include ⁠Ed Thorp⁠, ⁠Richard Thaler⁠, ⁠Jeremy Grantham⁠, ⁠Joel Greenblatt⁠, ⁠Campbell Harvey⁠, ⁠Ivy Zelman⁠, ⁠Kathryn Kaminski⁠, ⁠Jason Calacanis⁠, ⁠Whitney Baker,⁠ ⁠Aswath Damodaran⁠, ⁠Howard Marks⁠, ⁠Tom Barton⁠, and many more. ----- Meb's invested in some awesome startups that have passed along discounts to our listeners. Check them out ⁠here⁠! -----Editing and post-production work for this episode was provided by The Podcast Consultant (⁠https://thepodcastconsultant.com⁠). Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "duration": "3423",
+      "old_score": 67,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "3dfb5dbe7068366b0623e41d",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Historical market framework and equity risk premium analysis offer durable insights for capital allocation.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "45018bb746e5aca14334e994",
+      "show_name": "Odd Lots",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "Anthropic's Co-Founder and Top Economist on Doing Research at the AI Frontier",
+      "link": "https://omny.fm/shows/odd-lots/anthropics-co-founder-and-top-economist-on-doing-research-at-the-ai-frontier",
+      "published": "2026-06-19T08:00:00+00:00",
+      "summary": "There’s a lot to unpack with AI right now — everything from its potential impacts on the labor market and society to more extreme questions about existential risk. Anthropic, which builds frontier models like Mythos, Fable, and Claude, is actively grappling with these issues, including whether governments should limit AI development. Just last week, the Trump administration forced Anthropic to block foreign access to its two leading models. In this episode, we speak with Jack Clark (co-founder and head of public benefit) and Peter McCrory (head economist) about how Anthropic approaches safety and economic risks. We talk about its preparations for recursive self-improvement, the engineers it's hiring now, and why Jack left Bloomberg to enter the early AI industry. Read more: Anthropic Lays Out Vision for How to Bolster AI Models’ Safety Microsoft Makes Big AI Inroads in China by Selling OpenAI Models Only Bloomberg - Business News, Stock Markets, Finance, Breaking & World News subscribers can get the Odd Lots newsletter in their inbox each week, plus unlimited access to the site and app. Subscribe at bloomberg.com/subscriptions/oddlots Subscribe to the Odd Lots Newsletter Join the conversation: discord.gg/oddlots See omnystudio.com/listener for privacy information.",
+      "duration": "3986",
+      "old_score": 32,
+      "old_label": "skip",
+      "qwen": {
+        "id": "45018bb746e5aca14334e994",
+        "score": 80,
+        "tier": "listen",
+        "reason": "Anthropic's safety and economic risk strategies directly relate to AI platform implications and frontier model economics.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ac34b852fe8a4eddedb8f8d4",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "The Week: SpaceX, Iran, and the World's First Trillionaire",
+      "link": "",
+      "published": "2026-06-19T08:00:00+00:00",
+      "summary": "We're back with another episode of The Week, a new weekly show from Prof G Media, hosted by George Hahn. Every Friday, we break down the biggest stories shaping business, technology, politics, and culture — and connect the dots across the conversations happening throughout the Prof G universe. This week: SpaceX becomes the largest IPO in history and makes Elon Musk the world's first trillionaire. Then, after 107 days of war, the U.S. and Iran announce a framework agreement that leaves the biggest questions unresolved. And finally, historian Heather Cox Richardson joins Scott to discuss expertise, institutions, and America's future at 250. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "1020",
+      "old_score": 31,
+      "old_label": "skip",
+      "qwen": {
+        "id": "ac34b852fe8a4eddedb8f8d4",
+        "score": 50,
+        "tier": "scan",
+        "reason": "High-level business and tech stories offer surface-level insights but lack depth for DJ's focus.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "3ebfeea50f24f7d6b721215f",
+      "show_name": "The James Altucher Show",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "From the Archive: The 7 Techniques to Influence Anyone of Anything | Robert Cialdini",
+      "link": "https://art19.com/shows/the-james-altucher-pod/episodes/67d273fb-7d09-4f3a-b482-ddb53edf06cc",
+      "published": "2026-06-19T07:00:00+00:00",
+      "summary": "A Note from James: If I could tell my children to read one post of mine, it would be this post. Influence is how they will navigate a world of uncertainty. Robert Cialdini is the most influential person in the world. And by that I mean, he wrote the book Influence , which sold 3 million copies and defines the six critical aspects of all influence. Now he has a new book, Pre-Suasion , going 10x deeper into the concepts of persuasion. I got him on my podcast so I could ask the 1,000 questions I have. Small story from the book: If you name a restaurant “Studio 97” instead of “Studio 17,” people are more likely to tip higher. If you ask a girl for her phone number outside a flower store, triggering feelings of romance, she is more likely to give it to you than if you ask her outside a motorcycle store. And 500 other stories. The environment is just as important as what you say. Before the podcast began, I gave him a book as a gift: The Anxiety of Influence , a history of poetry. What would poetry have to do with influence and marketing? In all art, since the beginning of time, artists have built on the work of the artists of the generation before them. Beethoven depended on a Mozart to be a Beethoven. Picasso depended on a Cézanne. Without Michelson, there would be no Einstein. But poets, for some reason, would deny being influenced. “I never even read Ezra Pound,” shouted one poet at a critic. Poets want to be seen as original. Nobody is 100% original. This is the anxiety of influence. Almost all of our decisions, and even our creativity, are outsourced to the people around us who influence us: peers, teachers, religion, parents, bosses, etc. Our personality is our own particular mishmash of influences. How we deal with that anxiety, how we recognize the influences, learn from them, and build from them, is the birth of all of our creativity. Let me summarize the seven aspects of influence: Reciprocity: If you give someone a Christmas card, they will want to return the favor. Likability: Make yourself trustworthy. For instance, outline the negatives of dealing with you. Consistency: Ask someone for a favor. Now they will say to themselves, “I am the type of person who does James a favor.” Social Proof: If you are trying to get someone to do X, show them that “a lot of your peers do X.” For instance, if you are at a bar and you are a guy trying to meet women, bring your women friends and not your guy friends with you. Authority: “Four out of five dentists say…” Scarcity: “Only 100 iPhones left at this store!” Unity: You and I are the same because of location, values, religion, etc. I’ve used each of the above in business. They work. They will make you money. The entire purpose of language is to influence. We are not strong animals. We are weak. The language of influence saved us. Probably a word like “Run!” was the first word spoken. A word of influence. And it worked. I’m still running from the things I fear. So speak to influence. Don’t speak to call a flower yellow. Speak to breathe spirit into an idea, to be enthusiastic, to convey emotion, to influence. This is the only way to have an impact with your unique creativity. I gave Robert the book as a gift — reciprocity — assuming we would have a great podcast. And we did. But then I thought later, I can’t even remember how Robert got on my podcast. I highly recommend his book in the podcast and even in this post. As he got into his car after the podcast in order to go to his next interview, I started thinking: “Hmmm, who influenced who?” Episode Description: Robert Cialdini wrote the book on persuasion — literally. His classic Influence became one of the defining books on why people say yes, how decisions get shaped, and why the smallest cue in the room can change the outcome of a conversation. In this episode from the archive, James talks with Cialdini about Pre-Suasion , the idea that persuasion starts before the actual pitch. It begins with what people notice, what they feel, ",
+      "duration": "01:07:43",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "3ebfeea50f24f7d6b721215f",
+        "score": 55,
+        "tier": "scan",
+        "reason": "Influence techniques offer personal toolkit value but are not central to DJ's strategic focus.",
+        "confidence": "medium"
+      }
+    }
+  ]
+}

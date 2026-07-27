@@ -40,24 +40,9 @@ else:
     print('## Open / rolling topics from prior briefs')
     print('No rolling topics file found.')
 
-# Include only the rolling tail of the last 2 archived final briefs.
-# This preserves continuity without re-injecting old executive-summary prose,
-# which can contain stale time ranges or other unsupported details.
-briefs = [p for p in sorted(archive.glob('20*-*.md'), key=lambda p: p.name) if '-review' not in p.name]
-briefs = briefs[-2:]
-if briefs:
-    print('\n## Recent final brief archive (rolling tail only)')
-    for p in briefs:
-        text = p.read_text(errors='ignore')
-        marker = '## Carry-forward topics'
-        tail = text[text.find(marker):] if marker in text else ''
-        if tail:
-            print(sanitize(f'\n### {p.name}'))
-            print(sanitize(tail[:7000]))
-
 print('\n# Latest Slack Collection Evidence')
 try:
-    print(subprocess.check_output(['/opt/data/scripts/slack_business_brief_filter.py'], text=True, timeout=180))
+    print(sanitize(subprocess.check_output(['/opt/data/scripts/slack_business_brief_filter.py'], text=True, timeout=180)))
 except Exception as e:
     print(f'Unable to filter Slack evidence: {type(e).__name__}')
     if latest.exists():

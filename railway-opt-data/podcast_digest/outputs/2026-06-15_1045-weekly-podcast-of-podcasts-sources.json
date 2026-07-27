@@ -1,0 +1,52 @@
+[
+  {
+    "show": "Training Data",
+    "episode": "LIVE: Jensen Huang on Building the Dynamo of the Intelligence Age",
+    "link": "https://trainingdata.fm",
+    "section": "Listen",
+    "what": "Huang describes a fundamental shift in computing from retrieval to generation, with NVIDIA's AI factories as the new dynamos. He outlines the five layers of AI investment and debunks fears of AI-driven job loss.",
+    "why": "This is a foundational narrative on how AI will power the next economic era — from energy to applications. Huang's framing of AI as the third cocooning force (after electricity and the internet) is strategic.",
+    "page_excerpt": "",
+    "source_file": "2026-06-10_2104-daily-podcast-digest-24h.md"
+  },
+  {
+    "show": "All-In Podcast",
+    "episode": "Dan Dreyfus: America's Critical Minerals Crisis is Here",
+    "link": "https://allinchamathjason.libsyn.com",
+    "section": "Summarize in Digest",
+    "what": "Dreyfus outlines the looming crisis in critical minerals supply, driven by China’s dominance and infrastructure bottlenecks.",
+    "why": "Highlights strategic risks in the commodity supercycle and implications for energy, tech, and national security.",
+    "page_excerpt": "Industry veterans, degenerate gamblers &amp; besties Chamath Palihapitiya, Jason Calacanis, David Sacks &amp; David Friedberg cover all things economic, tech, political, social &amp; poker.",
+    "source_file": "2026-06-10_2104-daily-podcast-digest-24h.md"
+  },
+  {
+    "show": "The Cognitive Revolution",
+    "episode": "Babysitting the Machine: Glean's Rebecca Hinds",
+    "link": "https://www.cognitiverevolution.ai",
+    "section": "Summarize in Digest",
+    "what": "87% of workers use AI but only 13% report improved performance, due to \"botsitting\" and \"botshitting.\"",
+    "why": "Reveals hidden labor costs and adoption friction in enterprise AI — critical for evaluating AI productivity claims.",
+    "page_excerpt": "A weekly podcast where host Nathan Labenz interviews AI innovators, diving into the transformative impact AI will have in the near future.",
+    "source_file": "2026-06-10_2104-daily-podcast-digest-24h.md"
+  },
+  {
+    "show": "Stratechery",
+    "episode": "Fable 5, Anthropic Alignment, AI Tiers",
+    "link": "https://stratechery.com",
+    "section": "Summarize in Digest",
+    "what": "Ben Thompson analyzes Fable 5 (formerly Mythos), its capabilities, and alignment concerns.",
+    "why": "Strategic insight into model development and safety trade-offs shaping the AI ecosystem.",
+    "page_excerpt": "",
+    "source_file": "2026-06-10_2104-daily-podcast-digest-24h.md"
+  },
+  {
+    "show": "a16z Podcast",
+    "episode": "AI, Growth, and the Future of Healthcare",
+    "link": "https://a16z.simplecast.com",
+    "section": "Summarize in Digest",
+    "what": "Anish Acharya and Sachin Jain discuss AI’s transformative role in healthcare, from operations to cost reduction.",
+    "why": "AI’s impact on healthcare delivery and enterprise adoption challenges.",
+    "page_excerpt": "",
+    "source_file": "2026-06-10_2104-daily-podcast-digest-24h.md"
+  }
+]

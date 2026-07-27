@@ -56,6 +56,27 @@ If the user needs marker capabilities but the system lacks ~5GB free disk:
 
 ---
 
+## Image OCR for Photos/Crops
+
+For one-off OCR over images (book covers, labels, receipts, cropped gallery items), use a lightweight image OCR pass before escalating to large document-OCR stacks:
+
+1. Check available tooling:
+
+   ```bash
+   which tesseract || true
+   python - <<'PY'
+   for m in ['cv2','PIL','pytesseract','easyocr']:
+       try: __import__(m); print(m, 'yes')
+       except Exception as e: print(m, 'no', type(e).__name__)
+   PY
+   ```
+
+2. If Tesseract is available, preprocess crops with OpenCV/Pillow: rotate upright, upscale 2–3x, grayscale, denoise, threshold/contrast, then run Tesseract. Try multiple rotations when orientation is uncertain.
+3. For gallery apps, OCR should update labels only when output is plausible and useful. Avoid hallucinating titles; keep generic labels like `Book 01` when OCR confidence/text is weak.
+4. Store OCR output separately from manual titles when possible (`ocrTitle`, `ocrText`, confidence/source), so the user can correct titles later without losing raw text.
+
+---
+
 ## pymupdf (lightweight)
 
 ```bash

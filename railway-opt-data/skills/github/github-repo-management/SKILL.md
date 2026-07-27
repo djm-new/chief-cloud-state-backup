@@ -81,6 +81,12 @@ cd /path/to/project && git status && git log --oneline -5
 # Shows if local is ahead of origin — means GitHub may be stale
 ```
 
+**If push is rejected, rebase first:**
+- Fetch the remote commit with token auth.
+- Rebase local `main` onto the fetched remote branch.
+- Push again.
+- See `references/github-push-rebase-fallback.md` for the exact sequence.
+
 **Setup flow when not connected:**
 1. First push all local commits to GitHub: `git push origin main`
 2. Then connect in Railway Settings → Connect Repo → select repo → branch `main`

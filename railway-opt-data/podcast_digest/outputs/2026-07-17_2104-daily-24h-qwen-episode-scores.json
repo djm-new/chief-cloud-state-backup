@@ -1,0 +1,351 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-07-17_2104",
+  "usage": {
+    "prompt_tokens": 5703,
+    "completion_tokens": 1289,
+    "total_tokens": 6992
+  },
+  "episodes": [
+    {
+      "id": "cd33cb456831333e676fe526",
+      "show_name": "Big Technology Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Kimi K3 & AI’s Price War, What Happened To Google?, OpenAI’s Partner Trouble",
+      "link": "",
+      "published": "2026-07-17T18:30:00+00:00",
+      "summary": "Ranjan Roy from Margins is back for our weekly discussion of the latest tech news. We cover: 1) Kimi K3's benchmark breaking results 2) How Kimi K3 fits alongside MuseSpark 1.1 and Grok 4.5 3) What are OpenAI and Anthropic's advantages today? 4) Is the price of frontier intelligence about to drop? 5) It's all about the product now 6) Satya Nadella's Reverse Information Paradox 7) What is happening at Google? 8) Is Google too focused on 'Flash' models 9) Apple's lawsuit vs. OpenAI 10) OpenAI's boneheaded espionage 11) Why does OpenAI struggle to maintain good relationships with partners? --- Enjoying Big Technology Podcast? Please rate us five stars ⭐⭐⭐⭐⭐ in your podcast app of choice. Want a discount for Big Technology on Substack + Discord? Here’s 25% off for the first year: https://www.bigtechnology.com/subscribe?coupon=0843016b Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "duration": "3650",
+      "old_score": 63,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "cd33cb456831333e676fe526",
+        "score": 85,
+        "tier": "digest",
+        "reason": "Covers AI price wars, OpenAI's challenges, and product strategy with industry expert Ranjan Roy.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ecee816ba7b5c0bb4a60747a",
+      "show_name": "New Yorker Radio Hour",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "low",
+      "title": "Rahm Emanuel Says Israel’s Path Is “Not Sustainable Politically”",
+      "link": "https://www.wnycstudios.org/podcasts/tnyradiohour",
+      "published": "2026-07-17T17:40:00+00:00",
+      "summary": "Rahm Emanuel is a Democratic Party elder, having served in the Clinton and Obama Administrations and as mayor of his native Chicago for two terms. He’s a centrist known for valuing political wins over ideology, making it especially notable that Emanuel recently gave a blistering speech in Israel, calling the country’s path “not sustainable politically.” He says that the United States should no longer grant Israel unconditional military support, and explains his own plan for a diplomatic Middle East solution that he calls a “twenty-three-state solution.” Emanuel, who hasn’t formally announced but appears to have embarked on a campaign for the 2028 Presidency, defends his position on trans rights, which has angered many on the left, and his contention that the Democratic Party is overly concerned with identity politics. Further reading: “ Trump and Rahm Emanuel Both Love a Fight, Especially Against Each Other ,” by Susan B. Glasser. “ Rahm Emanuel’s Lessons for Hilary Clinton ,” by Benjamin Wallace-Wells “ The Sudden but Well-Deserved Fall of Rahm Emanuel ,” by Rick Perlstein “ Emanuel in Full ,” by Lizzie Widdicombe New episodes of The New Yorker Radio Hour drop every Tuesday and Friday. Join host David Remnick as he discusses the latest in politics, news, and current events in conversation with political leaders, newsmakers, innovators, New Yorker staff writers, authors, actors, and musicians. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:36:18",
+      "old_score": 0,
+      "old_label": "skip",
+      "qwen": {
+        "id": "ecee816ba7b5c0bb4a60747a",
+        "score": 10,
+        "tier": "skip",
+        "reason": "Focuses on political commentary and Middle East diplomacy, not relevant to DJ's interests.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "a57e29e1cb7b570a77984b5d",
+      "show_name": "Stratechery",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "2026.29: Mainframes and Main Characters",
+      "link": "https://stratechery.com/2026/mainframes-and-main-characters/",
+      "published": "2026-07-17T17:00:00+00:00",
+      "summary": "The best Stratechery content from the week of July 13, 2026, including the end of the mainframe, the continuing adventures of OpenAI, and answering the question, \"Is Netflix Washed?\".",
+      "duration": "",
+      "old_score": 34,
+      "old_label": "skip",
+      "qwen": {
+        "id": "a57e29e1cb7b570a77984b5d",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Stratechery's curated content likely includes valuable insights on OpenAI and tech industry trends.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "feed973fbaa380e370d34c0f",
+      "show_name": "Dishcast with Andrew Sullivan",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "low",
+      "title": "David Thomson On Cinema And America",
+      "link": "https://andrewsullivan.substack.com/p/david-thomson-on-cinema-and-america",
+      "published": "2026-07-17T16:49:10+00:00",
+      "summary": "This is a free preview of a paid episode. To hear more, visit andrewsullivan.substack.com David is a historian and perhaps the greatest living film critic. He’s the author of more than 20 books, including biographies of David O. Selznick and Orson Welles, and The New Biographical Dictionary of Film . His new book is called A Sudden Flicker of Light : A Revisionist History of Movies . It’s a wonderful extended rant in some ways, a love letter and a searing indictment of cinema. I was a little intimidated talking with him, but it was a lot of fun. For two clips of the episode — on the uptight genius of Hitchcock, and the authoritarian nature of cinema — head to our YouTube page . Other topics: born in South London in 1941 and his home damaged by the Blitz; his father leaving when he was born; his boyish mix of fear and delight at the cinema; the shower scene in Psycho ; how film denies you the chance to stop and think; the directors who relish white space (e.g. PT Anderson); Birth of a Nation and Triumph of the Will ; newsreels before TV; real nuke explosions on screen; Oppenheimer ; from communal theater viewing to solo smartphone viewing; Game of Thrones and the insane production value of TV these days; Breaking Bad ; Trump the ultimate product of TV; his telegenic Cabinet; the danger of deepfakes; Paul Schrader’s First Reformed ; the audience’s love of car crashes and villains; Godfather I and II ; contrasting Hitchcock and Malick; Tree of Life ; nature in Thin Red Line ; Fincher’s Seven ; Robert Bresson’s religious films; Scorsese’s Silence and Last Temptation of Christ ; the vulgarity of Spielberg (e.g. the red dress in Schindler’s List) ; ep. 3 of Adolescence ; and Nolan’s new Odyssey . Browse the Dishcast archive for an episode you might enjoy. Coming up: John O’Sullivan on conservatism, Azam Ahmed on terrifying new drugs, Robby George on natural law, and Megan McArdle on pretty much anything. Please send any guest recs, dissents, and other comments to dish@andrewsullivan.com .",
+      "duration": "3169",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "feed973fbaa380e370d34c0f",
+        "score": 20,
+        "tier": "scan",
+        "reason": "Covers film history and critique, not directly relevant to market or AI insights.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "5d19b3394518d93fe07eda37",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: July 17th, 2026",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-july-17th-2026",
+      "published": "2026-07-17T16:48:52+00:00",
+      "summary": "Featuring: Aaron Kennon, CEO & Co-Founder of Clear Harbor Asset Management Jeff Curie, Chief Strategy Officer of Altis Partners Dan Ives, Senior Managing Director & Partner of Yorkville Ives & Co. See omnystudio.com/listener for privacy information.",
+      "duration": "1493",
+      "old_score": 28,
+      "old_label": "skip",
+      "qwen": {
+        "id": "5d19b3394518d93fe07eda37",
+        "score": 40,
+        "tier": "scan",
+        "reason": "General market commentary with limited focus on AI or durable frameworks.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "c2a6a938a4144c0babb5a498",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Apple's plot to crush OpenAI",
+      "link": "",
+      "published": "2026-07-17T16:30:00+00:00",
+      "summary": "It's public beta season, which means David and Nilay have been upgrading some devices this week. We talk through the good and bad of our early experiences with Siri AI, and what it'll take for next-gen Siri to be a hit. After that, we discuss the real reason Apple decided to sue OpenAI over trade secrets, OpenAI's forthcoming smart speaker, the new Pixel colors, our emoji strategies, Brendan Carr, and much more. Further reading: Apple’s public betas for iOS 27 and more are out now Siri AI makes the Apple Watch finally feel like a wrist computer Siri AI is already changing how I use my iPhone The macOS 27 public beta is worth it just for the Liquid Glass tweaks Apple sues OpenAI for allegedly stealing hardware secrets Suno snatched millions of songs from YouTube, Genius, and Deezer Sam Altman didn’t need another lawsuit The 6 wildest claims in Apple’s lawsuit against OpenAI Another turn in the Apple v. OpenAI dispute. OpenAI has a new statement about Apple’s lawsuit. OnePlus officially gives up on the US and Europe OnePlus is dead in the US. Did it ever have a chance? Samsung shows off ‘brand new shape’ for Z Fold 8 in Spider-Man teaser OpenAI may announce a ChatGPT smart speaker this year OpenAI finally launches hardware… for Codex Pixel Watch 5 leak shows off four different finishes The Pixel colors might rule this year The PS6 sure sounds like a handheld Brendan Carr plans to let broadcast giants dominate the airwaves X admits its broken algorithm made the site feel like a ‘battleground’ States make last-ditch effort to stop the Paramount ‘media behemoth’ Paramount lead trial counsel on state AG suit: This merger is pro-competitive The new cracking face emoji might be an all-timer. Google’s Demis Hassabis says it’s time for a global AI watchdog — led by the US Google and Epic give up fighting — third-party Android app stores are coming next week Subscribe to The Verge for unlimited access to theverge.com, subscriber-exclusive newsletters, and our ad-free podcast feed.We love hearing from you! Email your questions and thoughts to vergecast@theverge.com or call us at 866-VERGE11. (Timestamps are approximate.) 00:01:00 Intro 00:02:00 Apple Betas and New Siri 00:08:00 Gemini Car Assistant Fails 00:15:00 Apple Sues OpenAI 00:18:00 Trade Secret Law Explained 00:28:00 Settlement or Long Fight 00:35:00 OpenAI Home Device Doubts 00:42:00 Smartphone Platform Lessons 00:50:00 Pixel Colors and Naming 00:52:00 OnePlus Retreat Explained 00:55:00 Carriers and iPhone Lock In 01:05:00 Brendan Carr Bribery Scandal 01:14:00 Emoji Lightning Round 01:18:00 X Algorithm Rediscovery 01:23:00 Foothills Of Singularity 01:29:00 Paramount Merger Spin 01:33:00 Wrap And Plugs Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "5624",
+      "old_score": 94,
+      "old_label": "must_listen",
+      "qwen": {
+        "id": "c2a6a938a4144c0babb5a498",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Discusses Apple's legal actions against OpenAI and implications for AI product strategy.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "240c57fdfe616a152935df01",
+      "show_name": "RenMac",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "RenMac Off-Script: Memorandum of Misunderstanding",
+      "link": "https://podcasters.spotify.com/pod/show/renmac-it/episodes/RenMac-Off-Script-Memorandum-of-Misunderstanding-e3m77s3",
+      "published": "2026-07-17T16:09:12+00:00",
+      "summary": "RenMac breaks down the vicious unwind in the momentum trade, why a low headline VIX is masking the highest single-stock dispersion the team has ever measured, and how a cooler CPI print does little to stop the Fed conversation from tilting toward a September hike, with inflation, not growth, now owning the reaction function. The team also discusses rising Strait of Hormuz tensions and elevated oil, a looming 25% Brazil tariff, Korea's AI-driven rate hike, yen intervention risk, and the Washington theater around Fed leadership and congressional stock-trading rules.",
+      "duration": "00:40:39",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "240c57fdfe616a152935df01",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Covers macroeconomic trends, Fed policy, and geopolitical risks relevant to capital allocation.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "e10ec166c8a5ad42a04cd90c",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Chipmaker Rout Deepens Plunge From Record",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/chipmaker-rout-deepens-plunge-from-record",
+      "published": "2026-07-17T15:58:04+00:00",
+      "summary": "The latest in finance, economics and investment. Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF . Bloomberg Surveillance hosted by Tom Keene & Paul SweeneyFriday, July 17, 2026 Featuring: 1) Ross Mayfield, Investment Strategist at Baird 2) Tiffany Wilding, Economist: North America at PIMCO 3) Simona Mocuta, Chief Economist at State Street 4) David Katz, President and CIO of Matrix Asset Advisors See omnystudio.com/listener for privacy information.",
+      "duration": "1370",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "e10ec166c8a5ad42a04cd90c",
+        "score": 45,
+        "tier": "scan",
+        "reason": "Market commentary with limited focus on AI or durable frameworks.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "ffc3db80edb5d09a9050f6db",
+      "show_name": "Hard Fork",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "The A.I. Trade Secrets War + Economists Say ‘We Must Act Now’ + HatGPT",
+      "link": "https://www.nytimes.com/column/hard-fork",
+      "published": "2026-07-17T11:00:00+00:00",
+      "summary": "This week, feuding between some of the biggest tech companies spilled into public view. We discuss Apple’s accusation that OpenAI tried to steal secrets about Apple’s hardware business, as well as share our reactions about OpenAI’s new model, Sol, and Anthropic’s decision to extend access to its model Fable. Then, we unpack the loudest warning yet about A.I. and jobs. We talk with Erik Brynjolfsson, a Stanford economist, about a statement he helped organize that implores economists and A.I. researchers to “act now” to steer A.I. in a direction that complements humans. And finally, we play a round of HatGPT. Guest: Erik Brynjolfsson , senior fellow at the Stanford Institute for Human-Centered A.I., and director of the Stanford Digital Economy Lab. Additional Reading: Apple Sues OpenAI, Accusing It of Stealing Company Secrets OpenAI’s First Device Will Be Movable, Screenless Speaker Built as A.I. Companion Nearly 200 Economists and Tech Leaders Warn of A.I. Threats The loudest warning about A.I. and jobs yet OpenAI Is Showing Kalshi’s World Cup Odds in ChatGPT New York Enacts Nation’s First Statewide Moratorium on Data Centers Brown Professor Suspects Majority of His Class Used A.I. to Cheat MiniMax CEO Vows to Forgo Salary Until Achieving A.G.I . Lorde Speaks Out — With Expletives — Against A.I. Glasses Nearly 6 in 10 Young Women Get Health and Wellness Information from Influencers Meta Removes A.I. Feature on Instagram After Days of Backlash We want to hear from you. Email us at hardfork@nytimes.com. Find “Hard Fork” on YouTube and TikTok . Subscribe today at nytimes.com/podcasts or on Apple Podcasts and Spotify. You can also subscribe via your favorite podcast app here https://www.nytimes.com/activate-access/audio?source=podcatcher . For more podcasts and narrated articles, download The New York Times app at nytimes.com/app. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "01:09:30",
+      "old_score": 32,
+      "old_label": "skip",
+      "qwen": {
+        "id": "ffc3db80edb5d09a9050f6db",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Covers AI trade secrets, economic warnings, and model updates relevant to AI labor dynamics.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "96f58a46ded44d88d21ef8a8",
+      "show_name": "Plain English with Derek Thompson",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "Why 'The Odyssey' Is the West’s Greatest Story",
+      "link": "",
+      "published": "2026-07-17T10:00:00+00:00",
+      "summary": "Christopher Nolan's 'The Odyssey' is finally here, but how exactly has a 3,000-year-old story endured long enough to become the foundation of Western storytelling? Derek is joined by Karen Ní Mheallaigh, chair of Classics at Johns Hopkins University, to explore the mysterious origins of Homer's epic and the timeless themes that have captivated audiences for millennia. They discuss how 'The Odyssey' outlived thousands of other ancient poems, how its story of homecoming and hospitality shaped Western literature, and why filmmakers and creatives like Christopher Nolan keep returning to its core ideas. Subscribe to our YouTube channel here:https://www.youtube.com/@PlainEnglishwithDerekThompson If you have questions, observations, or ideas for future episodes, email us at PlainEnglish@Spotify.com. Host: Derek ThompsonGuest: Karen Ní MheallaighProducer: Devon BaroldiAdditional Production Support: Ben Glicksman Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "3822",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "96f58a46ded44d88d21ef8a8",
+        "score": 25,
+        "tier": "scan",
+        "reason": "Focuses on literary analysis of 'The Odyssey', not directly relevant to DJ's interests.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "d83be86d81b818aa8c4b09ba",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Amjad Masad on Going Direct, Building Replit, and the Future of Software",
+      "link": "https://a16z.simplecast.com/episodes/amjad-masad-on-going-direct-building-replit-and-the-future-of-software-bWWNM4zx",
+      "published": "2026-07-17T10:00:00+00:00",
+      "summary": "Recorded live at the New Media Summit, Erik Torenberg sits down with Replit founder and CEO Amjad Masad to discuss founder-led storytelling, building in public, and the role of media in company building. Masad reflects on Replit’s decade-long journey, including the years before the company’s recent breakout growth, and explains why communicating a vision can be just as important as executing on it. He argues that for many founders, especially those building ambitious products ahead of the market, telling a compelling story is often necessary to attract talent, capital, and early believers. The conversation explores social media, authenticity, public communication, company-building, and how founders can develop a voice that resonates beyond their product. Along the way, Masad shares lessons from building Replit, navigating controversy, and why he believes founders should think carefully about when to go direct and what story they're trying to tell. Resources: Follow Amjad Masad on X: https://x.com/amasad Follow Erik Torenberg on X: https://x.com/eriktorenberg Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:25:47",
+      "old_score": 43,
+      "old_label": "skip",
+      "qwen": {
+        "id": "d83be86d81b818aa8c4b09ba",
+        "score": 80,
+        "tier": "digest",
+        "reason": "Replit founder discusses storytelling, company-building, and media strategy relevant to operators.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "f2b33471234c80dfab13247b",
+      "show_name": "My First Million",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Ray Dalio: The principles that made me a billionaire",
+      "link": "",
+      "published": "2026-07-17T09:00:00+00:00",
+      "summary": "Ray Dalio's rules for building wealth: https://clickhubspot.com/rgsk Episode 842: Sam Parr ( https://x.com/theSamParr ) and Shaan Puri ( https://x.com/ShaanVP ) sit down with Ray Dalio ( https://x.com/RayDalio ) to talk about the holy grail of investing strategies. — Show Notes: (0:00) Intro (0:49) Hitting rock bottom (8:28) Personality traits of the 1% (14:22) Partnerships that win (18:25) Pain + Reflection = Progress (23:30) What’s the money for anyway? (26:26) Principles (28:41) Ray’s hiring philosophy (30:43) Being a caddy (35:16) Mistakes smart investors make (37:01) What Ray spends his money on (39:13) Aliens (41:00) The 5 Big Forces (46:35) Investing in Gold and Bubble Mechanics (52:55) How Bridgewater became the biggest hedge fund (55:40) The gap between the best and everyone else (59:26) The 1 Big Takeaway — Links: • Ray’s Personality Test - https://principlesyou.com/ • Bridgewater Associates - https://www.bridgewater.com/ — Check Out Sam's Stuff: • Hampton (joinhampton.com): My community for founders. Average member does $25m/year. Many of the guests are members. Get after it...apply: http://joinhampton.com/mfm — Check Out Shaan's Stuff: • Shaan's weekly email - https://www.shaanpuri.com • Visit https://www.somewhere.com/mfm to hire worldwide talent like Shaan and get $500 off for being an MFM listener. Hire developers, assistants, marketing pros, sales teams and more for 80% less than US equivalents. • Mercury - Shaan uses Mercury across all of his companies. you can too: http://mercury.com/ Mercury is a fintech company, not an FDIC-insured bank. Banking services provided by Choice Financial Group, Column, N.A., Members FDIC • I run all my newsletters on Beehiiv and you should too + we're giving away $10k to our favorite newsletter, check it out: beehiiv.com/mfm-challenge My First Million is a HubSpot Original Podcast // Brought to you by HubSpot Media // Production by Arie Desormeaux // Editing by Ezra Bakker Trupiano /",
+      "duration": "3771",
+      "old_score": 67,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "f2b33471234c80dfab13247b",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Ray Dalio shares investment principles, but lacks AI or durable framework focus.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "7472ff1f09504e5846d12da6",
+      "show_name": "NYT Book Review",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "low",
+      "title": "Sophie Elmhirst on the True Story of a Shipwrecked Couple",
+      "link": "https://www.nytimes.com/column/book-review-podcast",
+      "published": "2026-07-17T09:00:00+00:00",
+      "summary": "Today we want to bring back an episode from our archives. It’s about a book that has real beach read vibes. There’s a lot of water. It’s a relationship drama. And it’s also a daring story of survival. “Marriage at Sea: A True Story of Love, Obsession and Shipwreck\" made it onto the Book Review Top 10 Books of 2025 and the paperback edition just came out a few weeks ago. It tells the unbelievable story of a British couple in the 1970s who try to sail around the world. They’re trying to reach New Zealand and they almost make it. But their boat gets capsized by a whale in the middle of the vast Pacific Ocean and they’re forced to survive there for quite a while. Here is our conversation from last year with the author, Sophie Elmhirst. Subscribe today at nytimes.com/podcasts or on Apple Podcasts and Spotify. You can also subscribe via your favorite podcast app here https://www.nytimes.com/activate-access/audio?source=podcatcher . For more podcasts and narrated articles, download The New York Times app at nytimes.com/app. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:31:32",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "7472ff1f09504e5846d12da6",
+        "score": 20,
+        "tier": "skip",
+        "reason": "Book review about a shipwrecked couple, not relevant to DJ's interests.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "0d08853b6b78828b36ccbdc1",
+      "show_name": "Sharp Tech",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "(Preview) The Continuing Adventures of OpenAI, Apple’s Trade Secrets Lawsuit, Q&A on Mainframes, Meta, Daylight Savings Time",
+      "link": "https://sharptech.fm/member/episode/preview-the-continuing-adventures-of-open-ai-apples-trade-secrets-lawsuit-q-a-on-mainframes-meta-daylight-savings-time",
+      "published": "2026-07-17T08:59:26+00:00",
+      "summary": "On today’s show Ben and Andrew begin with a raft of OpenAI news, including reactions to the first reports of what OpenAI’s first hardware product will be, the logic of OpenAI’s hardware business generally, the Codex push in the mac app, and a request for a Codex computer. From there: The Apple-OpenAI trade secrets lawsuit, including Apple history, a reckless OpenAI employee, and the funniest part of the complaint. At the end: IBM’s stock and the specific way AI may have affected mainframe spending, how AI will manifest in real-world software, an email about Meta’s messaging as a recruiting pitch, notification management, monetizing expertise, and a word about daylight savings time.",
+      "duration": "00:22:16",
+      "old_score": 32,
+      "old_label": "skip",
+      "qwen": {
+        "id": "0d08853b6b78828b36ccbdc1",
+        "score": 60,
+        "tier": "digest",
+        "reason": "Covers OpenAI hardware, Apple lawsuit, and IBM mainframe implications.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "b46429e9475e2ed34722a8bf",
+      "show_name": "The Meb Faber Show",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Muddy Waters’ Carson Block on How AI Could Unwind the S&P 500 | #640",
+      "link": "",
+      "published": "2026-07-17T08:30:00+00:00",
+      "summary": "My guest today is Carson Block, founder of Muddy Waters Research & Muddy Waters Capital and one of the last short sellers still standing. In today’s episode, Carson Block explains why he thinks AI could displace 15% of knowledge workers and unwind the market’s biggest stocks. He breaks down his short of SoFi’s aggressive loan accounting, why record-tight credit spreads worry him, and how he trades that risk with put spreads. To close, Carson explains why he still calls China uninvestable and recounts his hardest battles. (0:00) Starts (1:02) Carson Block on the evolution of short selling (3:03) The impact of AI on jobs, economy, and markets (9:43) Evolving Muddy Waters' business model beyond short-selling (13:32) Investing in momentum and junior gold miners (17:52) Navigating markets amid AI disruption and labor market impact (25:21) Thoughts on historically low corporate yield spreads (30:25) Carson's short call on SoFi (38:10) Carson's most memorable investment ----- Follow Meb on X, LinkedIn and YouTube For detailed show notes, click here To learn more about our funds and follow us, subscribe to our mailing list or visit us at cambriainvestments.com ----- Follow The Idea Farm: X | LinkedIn | Instagram | TikTok ----- Interested in sponsoring the show? Email us at Feedback@TheMebFaberShow.com ----- Past guests include Ed Thorp, Richard Thaler, Jeremy Grantham, Joel Greenblatt, Campbell Harvey, Ivy Zelman, Kathryn Kaminski, Jason Calacanis, Whitney Baker, Aswath Damodaran, Howard Marks, Tom Barton, and many more. ----- Meb's invested in some awesome startups that have passed along discounts to our listeners. Check them out here! ----- Editing and post-production work for this episode was provided by The Podcast Consultant (https://thepodcastconsultant.com). Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "duration": "3008",
+      "old_score": 71,
+      "old_label": "digest_only",
+      "qwen": {
+        "id": "b46429e9475e2ed34722a8bf",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Muddy Waters' Carson Block discusses AI's impact on jobs and markets, relevant to capital allocation.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "9d09f2c2605bae44453dd98f",
+      "show_name": "Odd Lots",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "Lev Menand and Nathan Tankus on Why Fed Independence Is Now Hanging by a Thread",
+      "link": "https://omny.fm/shows/odd-lots/lev-menand-and-nathan-tankus-on-why-fed-independence-is-now",
+      "published": "2026-07-17T08:00:00+00:00",
+      "summary": "Last August, President Trump made the unprecedented choice of moving to fire Fed governor Lisa Cook. The administration claimed she was being terminated with cause, citing an ongoing investigation in alleged mortgage fraud committed by Cook. The legal battle between Cook and the administration has been tangled in the courts for the last year, eventually reaching the Supreme Court. This June, in a 5-4 decision, the court ruled in favor of Cook. However at the same time, in a different case, the court allowed the President to fire individual members of the FTC, undermining its role as quasi-independent body not beholden to the executive branch. So what are the implications here? How can the court change the status of a body like the FTC while allowing the Fed to continue operating as is? And for how long will the Fed maintain some amount of operational autonomy? On this episode we speak with Columbia Law School's Lev Menand who just wrote a piece on these two cases for Just Security called The Federal Reserve Exception to the Slaughter Rule as well as Nathan Tankus (writer and president of Notes on the Crises). The two of them lay out the consequences of these two decisions and they dig into the generations-long legal history, starting with Alexander Hamilton, that explains how we got here. Read more: Can Trump Still Fire Lisa Cook After Her Supreme Court Win? Only Bloomberg.com subscribers can get the Odd Lots newsletter in their inbox now delivered every weekday plus unlimited access to the site and app. bloomberg.com/subscriptions/oddlots See omnystudio.com/listener for privacy information.",
+      "duration": "3948",
+      "old_score": 4,
+      "old_label": "skip",
+      "qwen": {
+        "id": "9d09f2c2605bae44453dd98f",
+        "score": 60,
+        "tier": "digest",
+        "reason": "Discusses Fed independence and implications for monetary policy and markets.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "840254f9c2c57405e37005a9",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "The Week: The Cost of Being Young in America",
+      "link": "",
+      "published": "2026-07-17T08:00:00+00:00",
+      "summary": "George Hahn connects the dots across the week’s biggest stories: a housing market that works for owners and no one else, and a Congress where the median senator is nearing 65 while the median American is 38. Plus, a version of the same generational opt-out playing out in China — and why Julia Angwin still sees reason for hope. We’d love your feedback as we build this show! Let us know what you think: info@profgmedia.com. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "1044",
+      "old_score": 0,
+      "old_label": "skip",
+      "qwen": {
+        "id": "840254f9c2c57405e37005a9",
+        "score": 30,
+        "tier": "scan",
+        "reason": "Covers generational issues in the U.S. and China, not directly relevant to AI or markets.",
+        "confidence": "medium"
+      }
+    }
+  ]
+}

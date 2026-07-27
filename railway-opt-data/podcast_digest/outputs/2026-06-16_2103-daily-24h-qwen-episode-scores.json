@@ -1,0 +1,331 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-06-16_2103",
+  "usage": {
+    "prompt_tokens": 5460,
+    "completion_tokens": 1201,
+    "total_tokens": 6661
+  },
+  "episodes": [
+    {
+      "id": "0821713d4042379ee146dd33",
+      "show_name": "Odd Lots",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "The Iran War’s Lasting Scars Across Asia",
+      "link": "https://omny.fm/shows/odd-lots/the-iran-war-s-lasting-scars-across-asia",
+      "published": "2026-06-16T20:00:00+00:00",
+      "summary": "An interim deal to reopen the Strait of Hormuz offers relief, but Asia’s economic woes are far from over. Beyond the chokepoint, the conflict has forced long-lasting shifts in Asia’s food and energy flows. On today’s Big Take Asia podcast, Oanh Ha joins Odd Lots co-hosts Tracy Alloway and Joe Weisenthal to discuss why Asia is reeling from the conflict and what the “new normal” looks like for global supply chains. Only Bloomberg - Business News, Stock Markets, Finance, Breaking & World News subscribers can get the Odd Lots newsletter in their inbox each week, plus unlimited access to the site and app. Subscribe at bloomberg.com/subscriptions/oddlots Subscribe to the Odd Lots Newsletter Join the conversation: discord.gg/oddlots See omnystudio.com/listener for privacy information.",
+      "duration": "1204",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "0821713d4042379ee146dd33",
+        "score": 55,
+        "tier": "scan",
+        "reason": "Geopolitical implications of Iran conflict on Asia supply chains, relevant for macro context.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "1dcdfd8ae32de19c9e2bc1f2",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "The Mythos mess and your AI questions, answered",
+      "link": "",
+      "published": "2026-06-16T19:34:00+00:00",
+      "summary": "Anthropic and the US government are once again at odds, this time over the Claude Fable 5 model that either is, or is not, or might be, far too dangerous to release to the world. The Verge's Hayden Field explains what's going on with Fable, Mythos, and the whole idea of American AI exceptionalism, before also answering your questions about how WhatsApp and Siri might one day work together, and whether Apple messed up by calling it Siri AI.[10:24 AM] ⁠Inside the fight over Claude Mythos 5⁠ ⁠Anthropic cuts off Fable 5 and Mythos 5 access following government order⁠ ⁠I tried Siri AI, and so far it actually works⁠ ⁠Subscribe to The Verge⁠ for unlimited access to ⁠theverge.com⁠, subscriber-exclusive newsletters, and our ⁠ad-free podcast feed⁠. We love hearing from you! Email your questions and thoughts to ⁠vergecast@theverge.com⁠ or call us at 866-VERGE11. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "1875",
+      "old_score": 28,
+      "old_label": "skip",
+      "qwen": {
+        "id": "1dcdfd8ae32de19c9e2bc1f2",
+        "score": 65,
+        "tier": "digest",
+        "reason": "US government friction with Anthropic over Fable 5 model has AI policy and platform implications.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "f196311392f6c16b6371e481",
+      "show_name": "Dwarkesh Podcast",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "Ada Palmer – Machiavelli is the most misunderstood thinker of all time",
+      "link": "https://www.dwarkesh.com/p/ada-palmer-2",
+      "published": "2026-06-16T17:27:51+00:00",
+      "summary": "Had Ada Palmer back on – this time to talk about Machiavelli, perhaps the most misunderstood thinker of all time. Machiavelli cut his teeth as a high-level diplomat for Florence, a position from which he got to closely observe the most important rulers in Europe at the time, including the ones who were on the path to destroying his dearly beloved Florence. In 1513 the Medici retook control of Florence and, wrongly suspecting Machiavelli of participating in a coup attempt, fired, tortured, and exiled him. Machiavelli could have left exile and worked for any number of different principalities that would have been eager to make use of his talents. Instead, he decided to rot in the countryside and compile his career’s lessons about power, politics, and human nature into a book he dedicated to the very man whose new regime had tortured and exiled him, Lorenzo di Piero de’ Medici. But at least the Medici were in a position to use his insights to defend Florence. Machiavelli the patriot did not want any other hands to touch these books, because those hands, armed further with these lessons, might pose an existential danger to Florence. The closest modern analogy, at least as Machiavelli would have seen it, would be Szilard’s letter warning FDR about the possibility of a nuclear fission bomb. What were those insights? And how were they inspired by Machiavelli’s dangerous diplomatic missions all across Europe, and his extensive reading of antiquity? Watch this episode with Ada Palmer to find out! By the way, Ada is launching a new podcast which I’m very excited about. The first season will be about Machiavelli - a perfect way to dive deeper into the topics we discussed in this episode. Subscribe at Beforecast’s website to be notified of the first episode, subscribe on YouTube , follow her on Patreon , and if you want even more Ada, check out her FixTheNews Podcast episode, and check out her books and more . Watch on YouTube ; read the transcript . Sponsors * Cursor recently saved one of my podcast recordings. When a video file from a shoot came out corrupted, I pointed Cursor at it: it recovered the footage on its own, tracking down the right reference file from the file’s metadata and realigning the out-of-sync audio. My whole team now uses Cursor for everyday tasks, not just coding. Get started at cursor.com/dwarkesh * Jane Street ’s hiring process has been going viral on Twitter lately. The memes are pretty funny, but I wanted to see what their interviews were actually like. So I had Ricson, one of Jane Street’s ML researchers, walk me through a retired puzzle: he gave me an image dataset where 50% of the files had been corrupted – I had to figure out how to recover them. If you’re interested in these sorts of puzzles, you can find Jane Street’s open roles at janestreet.com/dwarkesh * Crusoe is turning the AI datacenter buildout into an industrial process. At their massive Colorado factory, they assemble Spark units, modular datacenters with power, cooling, and fire suppression built in. They also manufacture specific components in-house to skip the longest lead times. Crusoe has experience running these Spark units on a range of energy sources, including solar and used EV batteries, ensuring they don’t get bottlenecked by grid availability. Learn more at crusoe.ai/dwarkesh Timestamps (00:00:00) – How Florence bargained with Cesare Borgia for survival (00:15:08) – Machiavelli’s analytical innovations (00:23:58) – Why popes became warlords (00:36:13) – Why the common people demanded nepotism (00:47:57) – Cesare Borgia brought terror to rulers and justice to the people (00:57:55) – Art as a proxy for war (01:06:41) – Florence, a city famous in hell (01:15:57) – The Prince was a job application to Machiavelli’s torturers (01:41:39) – During the Renaissance, original ideas had to be couched in antiquity (01:50:44) – Why copyright began with the Inquisition (02:02:12) – Machiavelli wasn’t Machiavellian Get full access to Dwarkesh Podcast",
+      "duration": "7700",
+      "old_score": 26,
+      "old_label": "skip",
+      "qwen": {
+        "id": "f196311392f6c16b6371e481",
+        "score": 60,
+        "tier": "scan",
+        "reason": "Historical insights into Machiavelli’s political frameworks, potentially useful for strategic thinking.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "fa4783a31aa2019d2945c61c",
+      "show_name": "Eye on AI",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "India Is Becoming an Architect of the Global AI Order | Ivana Bartoletti of Wipro",
+      "link": "https://aneyeonai.libsyn.com/india-is-becoming-an-architect-of-the-global-ai-order-ivana-bartoletti-of-wipro",
+      "published": "2026-06-16T16:25:00+00:00",
+      "summary": "The Global AI Summit just happened in New Delhi, and the message from India was clear: this country is no longer just writing code for the rest of the world. It's becoming an architect of the global AI order. Ivana Bartoletti, Chief Privacy and AI Governance Officer at Wipro and Council of Europe advisor, joins Craig Smith to unpack what that shift actually means. Her frame is the sharpest line of the episode: Europe writes the rules, the US writes the checks, and India is writing the code, in 22 languages. But she's careful to add that the AI race isn't just a technical one. It's about institutional capacity, the ability to absorb AI capability and drive it into real applications that serve real people at scale. The conversation ranges across the full landscape of AI's global moment: why companies that announced 100% AI replacement in customer service quietly had to rehire the humans they let go; why the popular narrative of \"Europe regulates, America innovates\" is a myth that doesn't survive contact with California's actual AI rules; and why India's strategic choice may prove to be the most durable positioning in a field where trust is becoming the scarcest resource. Bartoletti speaks from a genuinely rare vantage point: a European executive, sitting in Germany, working for an Indian company, advising the Council of Europe, watching the geopolitical AI order reorganize itself in real time. Subscribe to Eye on A.I. for weekly conversations with the people building and deploying the future of AI.",
+      "duration": "56:23",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "fa4783a31aa2019d2945c61c",
+        "score": 75,
+        "tier": "digest",
+        "reason": "India’s evolving role in global AI governance and institutional capacity building is strategically important.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "5a08fe9ad1146e616589af77",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: June 16th, 2026",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-june-16th-2026",
+      "published": "2026-06-16T16:00:00+00:00",
+      "summary": "Featuring: Victoria Fernandez, Chief Market Strategist at Crossmark Global Investments Torsten Slok, Chief Economist at Apollo Global Management Ariana Salvatore, Head of US Public Policy Research at Morgan Stanley See omnystudio.com/listener for privacy information.",
+      "duration": "1292",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "5a08fe9ad1146e616589af77",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Market commentary from Bloomberg Surveillance, standard macro context.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "c85507f11c9d7cc9733bcca9",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "US and Iran Prepare for Deal Signing, SpaceX Soars",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/us-and-iran-prepare-for-deal-signing-spacex-soars",
+      "published": "2026-06-16T14:49:15+00:00",
+      "summary": "The latest in finance, economics and investment. Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF . Bloomberg Surveillance hosted by Tom Keene & Paul SweeneyTuesday, June 16, 2026 Featuring: 1) Alexis Crow, Partner & Chief Economist at PWC 2) Emily Roland, Co-Chief Investment Strategist at Manulife/John Hancock Investment Management 3) Cam Dawson, CIO at NewEdge Wealth 4) Dan Tannebaum, Partner at Oliver Wyman See omnystudio.com/listener for privacy information.",
+      "duration": "1810",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "c85507f11c9d7cc9733bcca9",
+        "score": 55,
+        "tier": "scan",
+        "reason": "Geopolitical and market updates on US-Iran deal and SpaceX developments.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "46601831b237a34891fc0e6e",
+      "show_name": "My First Million",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "How the Ex-Goldman CEO actually invests his own money",
+      "link": "",
+      "published": "2026-06-16T11:15:00+00:00",
+      "summary": "Get our Investment Guide: https://clickhubspot.com/rgek Episode 834: Sam Parr ( https://x.com/theSamParr ) sits down with former Goldman Sachs CEO Lloyd Blanfein ( https://x.com/lloydblankfein ) to talk about what he does with his money. — Show Notes: (0:00) Lloyd on Money, Day Trading, and Feeling “Rich” (3:52) Meeting Elon (5:23) What the worst traders have in common (9:54) Warren Buffett’s handshake deal (15:04) Lloyd breaks down his portfolio (20:41) Advice to young investors (23:09) biggest mistakes (25:54) Anxiety as a superpower (27:54) Family finances (31:35) Scarcity (40:46) The Goldman Obituary Test (43:53) Lessons from history — Links: • Streetwise - https://www.penguinrandomhouse.com/books/780438/streetwise-by-lloyd-blankfein/ — Check Out Sam's Stuff: • Hampton (joinhampton.com): My community for founders. Average member does $25m/year. Many of the guests are members. Get after it...apply: http://joinhampton.com/mfm — Check Out Shaan's Stuff: • Shaan's weekly email - https://www.shaanpuri.com • Visit https://www.somewhere.com/mfm to hire worldwide talent like Shaan and get $500 off for being an MFM listener. Hire developers, assistants, marketing pros, sales teams and more for 80% less than US equivalents. • Mercury - Shaan uses Mercury for banking across all of his companies. you can too: http://mercury.com/ Mercury is a fintech company, not an FDIC-insured bank. Banking services provided by Choice Financial Group, Column, N.A., and Evolve Bank & Trust, Members FDIC • I run all my newsletters on Beehiiv and you should too + we're giving away $10k to our favorite newsletter, check it out: beehiiv.com/mfm-challenge My First Million is a HubSpot Original Podcast // Brought to you by HubSpot Media // Production by Arie Desormeaux // Editing by Ezra Bakker Trupiano /",
+      "duration": "3655",
+      "old_score": 28,
+      "old_label": "skip",
+      "qwen": {
+        "id": "46601831b237a34891fc0e6e",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Lloyd Blankfein’s investment philosophy and portfolio breakdown offer valuable capital allocation insights.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "dff9d06604f8cc15fa57ede2",
+      "show_name": "New Yorker Radio Hour",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "low",
+      "title": "The Sports Journalist Pablo Torre Has a Pulitzer, but Still Feels Like the “Turd” in the Pool",
+      "link": "https://www.wnycstudios.org/podcasts/tnyradiohour",
+      "published": "2026-06-16T10:00:00+00:00",
+      "summary": "The sports journalist Pablo Torre recently won the 2026 Pulitzer Prize for audio reporting for an investigation on his podcast, “Pablo Torre Finds Out.” Torre talks with David Remnick about the challenge of investigative reporting in professional sports—where leagues, owners, players, and sometimes even fans don’t welcome hard questions. “As much as I am doing that and urging people to join me in the pool,” he says, “it kind of feels like I’m the guy who is the proverbial turd” in that pool. But as private equity invests massive sums in teams, he says, the work is even more necessary—and that fans do care when misdeeds are revealed. Further reading: “ Lessons in Fanhood from the Knicks ,” by Vinson Cunnigham “ The Knicks: The Only Game in Town ,” by David Remnick New episodes of The New Yorker Radio Hour drop every Tuesday and Friday. Join host David Remnick as he discusses the latest in politics, news, and current events in conversation with political leaders, newsmakers, innovators, New Yorker staff writers, authors, actors, and musicians. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:21:01",
+      "old_score": 0,
+      "old_label": "skip",
+      "qwen": {
+        "id": "dff9d06604f8cc15fa57ede2",
+        "score": 45,
+        "tier": "scan",
+        "reason": "Investigative journalism in sports, not directly relevant to DJ’s focus areas.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "caf21820cb3bead9926b5b47",
+      "show_name": "Plain English with Derek Thompson",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "The Most Exciting Month of Medical Breakthroughs in Years",
+      "link": "",
+      "published": "2026-06-16T10:00:00+00:00",
+      "summary": "For years, scientists worried that medical progress was slowing down. Drug development became more expensive than ever with more complex clinical trials, and even then, many new treatments offered only modest gains. But over the past month, a series of breakthroughs has raised hopes that medicine may be entering a new era. Researchers unveiled a massively promising new therapy for pancreatic cancer, a gene-editing treatment that could dramatically reduce the risk of heart disease, and an experimental obesity drug that not only produces unprecedented weight loss but also improves a huge range of related conditions. Cancer and heart disease are America’s two biggest killers, but if these treatments fulfill their promise, they could transform public health and extend millions of lives. Today’s guest is Matthew Herper, senior writer at STAT News. We discuss this remarkable month in medicine, why so many advances are arriving at once, and what they could mean for the future of human health. Subscribe to our YouTube channel here:https://www.youtube.com/@PlainEnglishwithDerekThompson If you have questions, observations, or ideas for future episodes, email us at PlainEnglish@Spotify.com. Host: Derek ThompsonGuest: Matthew HerperProducer: Devon BaroldiAdditional Production Support: Ben Glicksman All Matches Streaming Live. Watch 3 Days Free. Offers are subject to change. See fox.com for complete terms and conditions. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "3545",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "caf21820cb3bead9926b5b47",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Medical breakthroughs in cancer and heart disease could impact public health and investing.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "7246ab004918a1d974e511e4",
+      "show_name": "Stratechery",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "Fox Buys Roku, The Problem With Fox’s Smart Strategy, Streaming That Works",
+      "link": "https://stratechery.com/2026/fox-buys-roku-the-problem-with-foxs-smart-strategy-streaming-that-works/",
+      "published": "2026-06-16T10:00:00+00:00",
+      "summary": "The market hates Fox's acquisition of Roku, but the company is trading extraction from rights holders for leverage as a renter.",
+      "duration": "",
+      "old_score": 34,
+      "old_label": "skip",
+      "qwen": {
+        "id": "7246ab004918a1d974e511e4",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Fox’s acquisition of Roku and implications for streaming business models are strategically insightful.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "331ec60aca2871edfff3c652",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Jack Altman on Product-Market Fit",
+      "link": "https://a16z.simplecast.com/episodes/jack-altman-on-product-market-fit-FJD2mKIg",
+      "published": "2026-06-16T10:00:00+00:00",
+      "summary": "Jack Altman joins Speedrun to discuss product-market fit, customer feedback, hiring, fundraising, and the realities of building an enduring company. Drawing on his experience building Lattice from startup to multi-billion-dollar company, Altman explains how founders should think about customer requests, when to pivot, and why some of the hardest decisions come from balancing conviction with market feedback. He shares lessons from the early days of Lattice, including finding product-market fit, building a sales motion, hiring the first employees, and navigating the tradeoffs that emerge as companies scale. The conversation also covers fundraising, co-founder relationships, startup momentum, and what Altman looks for today as an investor at Alt Capital. Resources: Follow Jack Altman on X: https://x.com/jaltma Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:29:24",
+      "old_score": 43,
+      "old_label": "skip",
+      "qwen": {
+        "id": "331ec60aca2871edfff3c652",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Jack Altman on product-market fit, hiring, and scaling offers actionable founder insights.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "2ac3dab8cc71734f5da7435c",
+      "show_name": "Ezra Klein Show",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "Graham Platner, Jon Ossoff and the New Rules of Political Attention",
+      "link": "https://www.nytimes.com/2026/06/13/opinion/ezra-klein-podcast-chris-hayes-2026.html",
+      "published": "2026-06-16T09:00:00+00:00",
+      "summary": "Attention is working in really unusual ways this election cycle. Graham Platner, a political unknown a year ago, ended up dominating his Senate primary against Maine’s sitting governor – even as his campaign was rocked by a series of scandals. James Talarico also seemed to come out of nowhere to become the Democratic nominee for Senate in Texas. Jon Ossoff has ginned up a ton of excitement as a potential 2028 presidential contender, in part because of his viral videos. Meanwhile, the former reality TV personality Spencer Pratt became a political star on X during his bid to become mayor of Los Angeles and yet failed to make the runoff. All of this has a lot of lessons for how attention is working right now in American politics. So I wanted to have on my favorite person to talk to on this topic. Chris Hayes is the host of “All In With Chris Hayes” on MS NOW and the author of “The Sirens’ Call: How Attention Became the World’s Most Endangered Resource.” Mentioned: “ Donald Trump is going to win the election and democracy will be just fine ” by Jared Golden “ We Took AOC to a Deep Red Data Center Town ” by More Perfect Union “ America Dissected ” by Dr. Abdul El-Sayed “ Can James Talarico Reclaim Christianity for the Left? ” with James Talarico, The Ezra Klein Show “ Joe Rogan Experience #2352 - James Talarico ” with James Talarico, The Joe Rogan Experience “ Why Everyone Wants Jon Ossoff to Run for President ” by Michelle Goldberg “ Obama Suddenly Panicked After Gazing Too Far Into Future ” by The Onion Book Recommendations: Transcription by Ben Lerner The Godfather by Mario Puzo Alan Opts Out by Courtney Maum Thoughts? Guest suggestions? Email us at ezrakleinshow@nytimes.com. You can find transcripts (posted midday) and more episodes of “The Ezra Klein Show” at nytimes.com/ezra-klein-podcast , and you can find Ezra on Twitter @ezraklein. Book recommendations from all our guests are listed at https://www.nytimes.com/article/ezra-klein-show-book-recs . This episode of “The Ezra Klein Show” was produced by Rollin Hu. Fact-checking by Michelle Harris with Julie Beer and Kate Sinclair. Our senior engineer is Jeff Geld, with additional mixing by Johnny Simon. Our recording engineer is Johnny Simon. Our executive producer is Claire Gordon. The show’s production team also includes Marie Cascione, Annie Galvin, Kristin Lin, Emma Kehlbeck, Jack McCordick, Marina King and Jan Kobal. Original music by Pat McCusker and Aman Sahota. Audience strategy by Shannon Busta. The director of New York Times Opinion Shows is Annie-Rose Strasser. Subscribe today at nytimes.com/podcasts or on Apple Podcasts and Spotify. You can also subscribe via your favorite podcast app here https://www.nytimes.com/activate-access/audio?source=podcatcher . For more podcasts and narrated articles, download The New York Times app at nytimes.com/app. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "01:18:22",
+      "old_score": 0,
+      "old_label": "skip",
+      "qwen": {
+        "id": "2ac3dab8cc71734f5da7435c",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Political attention dynamics, not core to DJ’s investment and tech focus.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "2aefd914c072dbfea20d0a50",
+      "show_name": "Masters of Scale",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "The U.S. at 250: The case for reckoning and rebuild, with Ian Bremmer",
+      "link": "",
+      "published": "2026-06-16T09:00:00+00:00",
+      "summary": "As America hurtles toward its 250th birthday, the world is watching. Ian Bremmer, Eurasia Group President and PBS host, joins Rapid Response to give his unvarnished read on the state of Brand America. He shares how he’s advising business and political leaders around the globe, why he believes the US is overdue for a revolution, and what the widening gap between American wealth and American opportunity means for the country's standing in the world. Bremmer also reveals the defiant way he plans to celebrate July 4th, and makes the case for what it will take to extend the great American experiment another 250 years. Visit the Rapid Response website here: https://www.rapidresponseshow.com/ See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info .",
+      "duration": "00:31:37",
+      "old_score": 0,
+      "old_label": "skip",
+      "qwen": {
+        "id": "2aefd914c072dbfea20d0a50",
+        "score": 60,
+        "tier": "scan",
+        "reason": "Ian Bremmer’s geopolitical insights on the U.S. and global standing are contextually useful.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "5381e6b5d18a9004523b82e4",
+      "show_name": "Training Data",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Simulating Humans at Scale: Simile's Joon Sung Park",
+      "link": "",
+      "published": "2026-06-16T09:00:00+00:00",
+      "summary": "The race to build superintelligence is producing models that keep getting better at objective problems, but not at behaving like actual people. Joon Sung Park, founder and CEO of Simile and creator of Stanford's \"Smallville\" generative agents study, argues that simulating human society requires a fundamentally different kind of model. He frames today's frontier models as the \"CPU of intelligence\"—rational, superhuman at problems with right answers—and Simile as creating the \"GPU of intelligence,\" built to encode the diversity of people's values, preferences, and tastes. It simulated 1,000 Americans and predicted their behavior 85% as accurately as people reproduce their own answers. CVS uses it for concept testing; some customers simulate their own earnings calls. Joon's larger bet: a \"CERN of human society\" that could one day model bank runs, climate cooperation, or the early signals of a collapsing democracy. Hosted by Sonya Huang, Sequoia Capital",
+      "duration": "2325",
+      "old_score": 38,
+      "old_label": "skip",
+      "qwen": {
+        "id": "5381e6b5d18a9004523b82e4",
+        "score": 80,
+        "tier": "listen",
+        "reason": "Simile’s approach to simulating human behavior at scale offers novel AI model insights.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "3e6a6023c7d6290b35fa7f60",
+      "show_name": "Invest Like the Best",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "Kareem Amin - The Unusual Approach to Company Building - [Invest Like the Best, EP.478]",
+      "link": "https://colossus.com/episode/courage-truth-justice/",
+      "published": "2026-06-16T08:00:00+00:00",
+      "summary": "My guest today is Kareem Amin, co-founder and CEO of Clay. Clay has become one of the fastest-growing software companies of the last few years, valued at over four billion dollars. It helps companies find their best customers and reach them at scale. But this conversation is about a lot more than Clay. Kareem is one of the most original thinkers I know. We talk about the statues he keeps at the center of how he runs Clay — truth, justice, and courage — and what those words demand of him in practice. We talk about risk, ambition, and what he learned about both on a ten-day silent meditation retreat. I've had a lot of conversations with Kareem over the years. This is one I'll remember. Please enjoy this unique conversation with Kareem Amin. For the full show notes, transcript, and links to mentioned content, check out the episode page ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠here⁠⁠⁠⁠⁠. ----- Become a Colossus member to get our quarterly print magazine and private audio experience, including exclusive profiles and early access to select episodes. Subscribe at ⁠colossus.com/subscribe⁠. ----- ⁠Ramp’s⁠ mission is to help companies manage their spend in a way that reduces expenses and frees up time for teams to work on more valuable projects. Go to⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ ⁠ramp.com/invest⁠⁠ to sign up for free and get a $250 welcome bonus. ----- Trusted by thousands of businesses, ⁠Vanta⁠ continuously monitors your security posture and streamlines audits so you can win enterprise deals and build customer trust without the traditional overhead. Invest Like the Best listeners get a special offer of $1,000 off Vanta when you go to ⁠vanta.com/invest⁠. ----- WorkOS⁠ is the infrastructure B2B and AI-native companies use to sell to enterprise. It covers everything enterprise security requires: SSO, SCIM, RBAC, Audit Logs, AI governance, and more. Trusted by 2,000+ fast-growing companies, including OpenAI, Anthropic, Cursor, and Vercel. ----- Rogo is the AI platform for finance. They're building agents for Wall Street that are trained to understand how bankers and investors actually do work: from diligence and modeling, to turning analysis into deliverables. To learn more, visit rogo.ai/invest. ----- ⁠Ridgeline⁠ has built a complete, real-time, modern operating system for investment managers. It handles trading, portfolio management, compliance, customer reporting, and much more through an all-in-one real-time cloud platform. Visit⁠ ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ridgelineapps.com⁠. ----- Editing and post-production work for this episode was provided by The Podcast Consultant (⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠https://thepodcastconsultant.com⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠). Timestamps: (00:00:00) Welcome to Invest Like The Best (00:02:29) Kareem Amin (00:03:07) Clay's Origin (00:10:50) Truth, Courage and Justice (00:16:09) Adulation (00:18:28) Risk, Courage & Self-Respect (00:21:14) Jony Ive & Steve Jobs (00:21:42) Role of Introspection (00:23:08) Lack to Wholeness (00:27:27) The Day Five Insight (00:29:57) Running a Startup Unusually (00:34:41) Learning from Magicians (00:36:27) Music's Role in Your Life (00:39:38) Making People Feel Something New (00:41:20) Vision in Company Building (00:44:29) Wealth & What It's Taught You (00:47:40) All Problems Are Communication Problems (00:52:14) Death Doula & Scaling (00:55:06) The Kindest Thing",
+      "duration": "3401",
+      "old_score": 54,
+      "old_label": "skip",
+      "qwen": {
+        "id": "3e6a6023c7d6290b35fa7f60",
+        "score": 85,
+        "tier": "listen",
+        "reason": "Kareem Amin’s values-driven company building and leadership philosophy is highly actionable.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "41b337a19dc23fca8826f386",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "China Decode: Why China Got Locked Out of SpaceX and America’s Biggest IPOs (ft. Ed Elson)",
+      "link": "",
+      "published": "2026-06-16T08:00:00+00:00",
+      "summary": "Alice Han and special guest Ed Elson break down how Chinese investors are increasingly being shut out of America’s hottest IPOs — even as China pours hundreds of billions into AI, robotics, and next-generation tech. They talk about the growing financial and technological divide between the U.S. and China, the Pentagon’s decision to label companies like Alibaba, BYD, and Baidu as “Chinese Military Companies” and whether Washington and Beijing are entering a new era of financial decoupling. They also look at the big Chinese companies that could be next to IPO, and who China’s Elon Musk might be. Plus: the growing worker backlash as AI transforms China’s labor market. Subscribe to China Decode on Substack for weekly analysis, livestreams, and deep dives into the biggest story shaping the global economy: chinadecode.profgmedia.com. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "4308",
+      "old_score": 55,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "41b337a19dc23fca8826f386",
+        "score": 65,
+        "tier": "digest",
+        "reason": "U.S.-China tech and financial decoupling analysis has strategic investment implications.",
+        "confidence": "medium"
+      }
+    }
+  ]
+}

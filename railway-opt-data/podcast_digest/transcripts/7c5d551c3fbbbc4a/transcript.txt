@@ -1,0 +1,444 @@
+[0.3-6.3] You have no excuse if you've got an interesting idea you can now create anything that you can think of the models can now solve
+[6.3-11.3] Problems that humans have never solved before going beyond the frontier of human knowledge
+[11.3-14.4] That's how AI I think an AGI will really change our lives
+[14.4-20.0] Why not try and accelerate science bring about the science of 2050, but in 2030 instead
+[21.0-23.8] Most people think of AI as a productivity tool
+[24.2-27.5] Kevin Wheel thinks the biggest impact may be somewhere else entirely
+[28.4-31.6] Formerly CPO and Vice President of Science at Open AI
+[31.9-36.5] Wheel is focused on a future where AI doesn't just help people write documents or generate code
+[36.8-39.8] But contributes directly to scientific discovery itself
+[40.4-46.2] The idea is ambitious use AI to accelerate breakthroughs in mathematics, medicine,
+[46.4-50.4] material science, and other fields that shape the future of human progress
+[51.0-56.7] In this conversation, Kevin discusses frontier science, robotic labs, AI reasoning,
+[56.8-65.6] startup opportunities, and why he believes some of the most important consequences of AI may come from expanding humanity's ability to discover new knowledge
+[68.5-72.0] All right, this is an incredible time to be alive
+[72.0-76.6] I think now you help build and scale some of the most important technology companies of the last decade
+[77.2-82.9] Facebook Instagram and Twitter and now you're doing that at Open AI. I did ask chat GBT what it thinks about you
+[83.9-89.4] And so as you would expect it was very complimentary, but you're also like a very accomplished guy
+[89.4-96.6] So Kevin is thoughtful, low ego, and unusually grounded for someone who's been at the center of so many high stakes products
+[96.9-102.5] So how did you like as you looked at those all those four opportunities plus many others that were amazing?
+[102.8-108.2] What gave you the confidence that this is the type of company? This is the team I should be working with
+[108.2-109.9] Yeah, number one advice, Mary up
+[111.5-116.9] It was my my wife originally actually I was a I was in grad school doing a physics degree
+[117.5-123.1] And I met my now wife who was a mayfield fellow at Stanford and actually worked in Andreessen for a little while
+[124.7-127.6] And she was the one that kind of opened my eyes to everything
+[128.1-130.6] Startups and the Valley and all that I grew up in Seattle
+[130.6-135.0] My dad was an engineer at Microsoft for a long time, so I grew up programming but
+[135.7-139.6] Still was just like you know math and physics math and physics as I went through grad school
+[140.6-144.7] Uh, and it was my wife Elizabeth. She introduced me to Twitter back in the day
+[145.5-151.1] Because she and Jessica for really knew each other from Stanford and after seven years
+[151.8-153.8] At Twitter as it grew
+[154.0-157.7] She and Kevin's sister um were also mayfield fellows together at Stanford so
+[159.3-163.9] That's how that connection happened and so you know a bunch of these things were just my wife
+[165.3-174.5] Me just following the co-tails of my wife. I used to I used to call Sam periodically before whenever whenever I would like be thinking about doing something new
+[175.7-177.3] Sam and I didn't know each other super well
+[177.3-181.5] But we knew each other well enough to to you know to do a quick phone call
+[182.4-188.2] And because he he always has his like hands in lots of different things. He's like doing fusion startups and
+[189.8-194.7] And all of this stuff I remember talking to him like in 2020 or something
+[195.1-197.3] And he was like you know
+[197.3-202.2] AI will not replace blue collar jobs first it'll replace white collar jobs first
+[202.4-205.7] Coding is going to be one of the big things for AI and this was 2020
+[206.5-208.5] And none of us used AI
+[208.5-212.4] Particularly much at least not outside of like classical ML models that you know
+[212.7-216.5] Raking your feet and stuff and I just remember being like yeah, whatever dude, you know
+[217.2-223.1] Sure, but like talk to let's talk about something and so anyways, I um the open AI thing happened because uh
+[223.7-225.9] I called him and this time he was like actually
+[226.6-231.0] You know what we have this role open you should come talk to us as soon as I did
+[231.0-236.5] I was just like I don't like all work for free. I don't you just this is the most interesting thing in the world
+[237.6-240.1] And if you give me an offer, I'm coming so
+[240.9-244.9] Fortunately, he did and then the original mandate as cpo
+[245.8-251.7] With with Sam was to to what and what are you sort of most happy with what you accomplished during that time?
+[252.0-253.7] Yeah, originally it was
+[254.4-260.2] Cpo so leading our consumer products B2B products developer products etc and um
+[260.9-269.0] Yeah, I mean man, I think it's we grew like a weed. I've never seen anything grow that quickly in my entire life and
+[270.0-274.1] I think brought you know kind of brought AI to to a whole bunch of the world
+[274.5-277.1] So very proud of that work few months ago
+[277.3-283.5] It was getting clear that our models could not just be great inside chat GPT or inside codex
+[283.5-285.6] Which I think is an incredible product
+[285.7-287.9] But we're at the level that they could
+[288.9-295.9] Start to answer frontier scientific problems like the models can now solve problems that humans have never solved before
+[296.3-300.3] So a lot of people like the criticism of AI is oh, well, it's just
+[300.8-306.2] It's just bringing together different ideas from different places and summarizing them for you to give you an answer
+[306.8-308.9] I can't actually do novel thinking
+[309.7-312.1] But we've now seen there've been I don't know what
+[313.1-315.6] 10 or 12 just in January 10 or 12
+[316.3-324.2] Open mathematics problems solved mostly by GPT 5.2 now with some a few recently by Gemini models are going beyond
+[324.7-329.9] The frontier of human knowledge and I wouldn't I wouldn't claim yet that they are solving problems that humans can't
+[330.6-335.4] I think if you took enough people and you know applied enough mathematicians towards some of these problems
+[335.5-336.7] They would have figured it out
+[336.7-341.1] But they had not figured it out yet the model went beyond what we had ever done as humans
+[341.7-343.2] And that's pretty cool
+[343.2-344.7] And that's today
+[344.7-348.7] And if there's one thing I've learned over the last few years, it's that you go very quickly from
+[349.4-353.3] Models could never do this thing. It is beyond the capability of AI today
+[354.1-360.2] To models can just barely do this thing and it kind of sucks at it and like it's wrong most of the time
+[360.3-364.3] But you get these glimmers of like oh, they can almost you know do this
+[364.8-369.1] Maybe it only works 5 or 10% of the time and then six to 12 months later
+[369.5-376.1] It's like models are great at this thing and I would never I wouldn't I would always use AI anytime I ever do that again
+[376.5-379.9] Like in eval language you go very quickly from like zero
+[380.6-385.0] To 5 or 10% to like 60 80% you know
+[385.2-391.1] We are clearly in that middle phase with frontier science and AI where you have all these glimmers of like wow
+[391.2-393.2] It can do something that we never thought AI could do
+[393.8-396.9] So, you know what more interesting place to apply it than science
+[396.9-402.5] I think it it may be the most tangible way that we all feel the impact of AGI
+[403.3-406.9] If we dropped like GPT 9 inside of chat GPT for you today
+[407.3-408.9] I'm sure it would be awesome
+[409.0-412.7] But maybe even more awesome would be that we have all these new materials
+[413.3-418.1] And we have superconductivity and we understand the nature of the universe and we have personalized medicine and you know
+[418.4-422.0] Like that's how AI I think an AGI will really change our lives
+[422.5-425.8] So infusion power man like why not why not try and you know
+[426.4-432.4] Accelerate science and bring about the science of 2050, but in 2030 instead and that's our goal
+[432.6-438.6] You know, when did you have your cloud weekend moment or your codex weekend moment where you're like wait a second
+[438.6-443.9] The world is fundamentally shifted and everything that I've done before is going to be very different going forward
+[444.1-449.7] Yeah, so I have a very different take on this. I think it's awesome and exciting like when you
+[450.3-455.9] When you take something that has historically been the craft of a relatively small number of people
+[456.5-458.7] There aren't that many people in the world that know how to program
+[458.7-462.7] I don't know like 30 million people maybe and you expand it by a couple orders of magnitude
+[463.1-467.9] You get an explosion of creativity because lots of people have ideas and sometimes
+[468.5-471.8] They weren't they didn't have any route to actually implement those ideas
+[472.5-476.9] And you go everything from like thinking about people that can start companies now that didn't used to be able to start them
+[477.5-479.9] all the way through to like I remember sitting and talking with
+[480.8-482.8] This was like a little bit post-COVID
+[483.5-484.5] with
+[484.5-489.1] This city official somewhere, you know like small city
+[490.1-493.8] And he was telling me about the kinds of programs that they wish they had been able to
+[494.5-499.6] To run and operate just like basic kind of information awareness things for the people that lived in this small city
+[500.1-504.0] Is like I just didn't have any way to do it the data was sitting there
+[504.5-510.0] I could you know draw what I wanted it to look like but I had no way of getting it done because he wasn't an expert
+[510.0-512.7] And they didn't have you know however many thousands of dollars to
+[513.3-515.7] To hire a person to do it for the city
+[516.7-521.6] Now what would you do you would like enter a prompt into codex and it would be done
+[522.1-527.9] So I think these kinds of things are awesome. I'll say personally we just launched prism like
+[529.1-530.9] What a week ago
+[530.9-533.3] Anybody see that use prism tried it
+[534.4-538.9] It's like an AI native environment for scientists to do scientific writing and collaboration
+[538.9-543.4] So if you're using latex things like that because it's a small product in a small team. I've been spending a bunch of time
+[544.7-546.8] Like writing code fixing bugs etc
+[546.8-549.6] Which I haven't done in a bunch of years and it's super fun
+[550.3-552.3] it also
+[552.3-557.6] I went through this transition in the middle of this you know because most of my day is meetings and you know
+[557.6-560.5] We got a bunch of stuff going on I went through this transition where I
+[561.3-565.4] Was sitting in I don't know. I'm very think it was like VG a meeting with VG
+[566.0-572.0] And I closed my laptop because we're all trying to be better about not multitasking because that's like one of the worst habits
+[572.0-574.5] The people at open AI have everyone multitask all the time
+[575.3-579.0] I had not gotten a codex job running
+[579.8-582.1] Before I closed my laptop and I was like shit
+[582.9-585.7] I just wasted an hour like not because of the meeting
+[585.7-589.3] But just because I could have been multitasking during that hour my
+[589.7-594.8] My codex agent could have been like fixing a bug or implementing a feature or doing something for me
+[595.3-598.1] And now I have to sit in this meeting just like
+[598.9-602.2] You know like a farmer being in a meeting come on and
+[602.9-606.5] So and you know the same thing before you go to bed at night you're like okay
+[607.1-608.1] What
+[608.1-613.2] Like really hard task can I give codex and just let it chunk away for like 10 hours
+[613.8-614.9] um
+[614.9-618.9] So like that to me is a is a different world and if you're really good at it
+[618.9-624.2] You are not just juggling one job. You've got you know three or four things running in parallel across different worktrees and like
+[624.9-626.9] I don't know what a cool world. Yeah
+[627.3-635.0] The creativity is going to be unleashed is just incredible and I think about it is like if you were a furniture handcraft furniture maker
+[635.3-639.9] Like a hundred years ago or 150 years ago and that's where revolution hits all the sudden
+[639.9-643.9] There's factory mass produced furniture that's better than yours or at least equivalent
+[644.2-646.6] Yeah, and you're saying wait a second my whole world has changed
+[646.6-651.3] But now you can design something that can be used by so many more people all I want
+[651.3-654.7] But like it's this disorientation that people feel
+[655.2-660.7] Because it's so disruptive and so quick. Yeah, same time. I don't know you think we'll end up with like because now you still
+[660.9-662.9] People still value custom made furniture
+[663.2-670.1] Then we'll end up with like bespoke websites. Yeah, like this was done by a human exactly exactly same as like
+[670.1-674.3] You know people will be like I drive cars like as a hot right? Right? Right?
+[675.3-681.3] You're like get off the road you're right. Yeah, stay over there and like you're you're a little sank you know a little area for
+[681.5-686.5] Human drivers with things moving so quickly like you gave an example of like how you stay up with things like you're
+[686.9-690.2] You're you know doing work with your team. You're staying close to your team
+[690.6-691.9] Like do you have any other
+[692.8-698.6] Ways that you're both able to lead the team lead the strategy but also stay close to all the developments that are happening
+[698.9-703.5] Within your company within other companies. I feel that feels like more than a full-time job in its own right
+[703.8-708.1] Yeah, I mean the the industry is just moving insanely fast, right? I've never seen anything like it
+[709.1-712.9] It's exhilarating and it's fun and it's also it's a lot to keep up with
+[713.4-718.5] But I think that I just think this moment kind of selects for people who are high agency
+[719.3-724.9] The because you can now create anything that you can think of and you have no excuse if you've got an interesting idea
+[725.5-731.7] Not to like get you know codex thinking about it while you do something else whatever you were originally going to do in the morning
+[732.1-736.9] Keep doing that but have codex working on your idea in parallel and sometimes you'll wake up in the morning
+[736.9-742.3] Have an idea and have a thing implemented by the time you're done with the day in addition to doing what you thought you were going to do during the day
+[742.7-748.5] So like people that are high agency people that are really curious people that learn quickly those skills are
+[749.1-753.8] More valuable than ever in this moment and you know kind of whatever the future holds
+[753.8-757.3] I think those skills are going to see us through yeah
+[757.5-760.0] I've heard you talk about a vision of both the
+[760.6-765.0] Experiment design but also then the experimentation itself and the validation
+[765.7-769.9] That's very you know, it was very captivated to me. Maybe you could share it share it here a little bit more
+[770.1-772.9] This open AI for science group is only a few months old
+[773.5-775.3] Although in some sense of course
+[775.3-777.4] Open AI has always cared deeply about science
+[777.4-779.7] So I feel like even though we're a small-ish team
+[780.1-786.4] We kind of have the might of all of open AI research at our back because every researcher at Open AI cares about science and
+[787.3-789.8] The scientific data has been one of the ways that we
+[790.3-792.5] You know have have improved our models for a long time
+[793.3-800.7] But um, so we started thinking about math physics theoretical computer science because you can do everything in silico
+[801.3-802.9] You have like
+[802.9-806.1] closed-loop systems that you can optimize and you know is
+[807.4-812.5] Part of this is teaching the models to answer really hard scientific problems teaching them to think
+[813.1-814.5] Not for like
+[814.5-820.9] 10 minutes or maybe the hour that you can get GPT-5 pro to think if you ask in a really hard question, but
+[821.6-823.6] teaching models to stay on track for a
+[824.3-830.5] Day two days a week two months at a time to answer even harder problems because just like you and me
+[830.9-834.0] Like if you you could give me problems that I couldn't solve in 20 minutes
+[834.4-836.4] But I could given you know two hours
+[836.9-841.3] Same as true of the models the more time they think the more the more impressive problems they can solve
+[841.7-843.7] So you start with things like math and physics
+[844.1-850.1] But then you know some of the the biggest ways the most important ways that that accelerating science is going to feed back into all of our lives
+[850.1-854.3] In a positive ways through stuff that we can feel in real life. It's like
+[855.1-858.5] You know one of our relatives survives cancer because
+[859.1-861.1] We've made advances in medicine
+[861.1-865.5] You have new devices and materials because we've been able to make advances in material science
+[865.7-869.9] And those things require labs you can't do those just in silico although I think the the
+[870.6-874.3] Importance of simulation is going to go up pretty meaningfully
+[875.1-879.3] Um because you will be able to apply huge amounts of compute to these problems
+[879.7-882.3] But then you're still going to need experimental validation
+[882.3-884.2] You're going to need to try things in the real world
+[884.2-888.5] I think it's going to be a while before we have a model that can you know first principles go from like
+[889.4-894.9] A quirk all the way through a model of a cell all the way through human biology like experiment matters
+[895.4-899.1] So you know you start to think about how you do that at scale
+[899.1-904.0] There's lots of opportunity to partner with existing labs and we will
+[904.5-910.6] But I think there are really interesting you know the science of the future will definitely involve robotic labs
+[911.2-917.3] And reinforcement learning loops that go through the real world where the model is thinking maybe running a simulation thinking some more
+[917.8-922.0] Refining the experiment that it can run using the best possible parameters and then
+[922.5-924.5] sending that to a bunch of
+[924.8-927.9] Robotic labs which by the way you can scale horizontally
+[928.7-930.9] Having the experiments run in real life
+[931.1-935.4] The results come back to the model the model thinks runs more simulations things and you have this
+[935.7-940.1] You have like multiple loops you have tight loops with the model thinking and the simulation
+[940.2-942.6] You have longer loops you know that go through the real world
+[943.2-948.1] That's how a lot of science is going to be done in the future and you know that is its own form of acceleration
+[948.5-954.0] You think you have you have robotic labs that you can scale horizontally that can run 24 hours a day
+[954.5-958.5] You know, they're not grad students pipetting things that need to take breaks and sleep and things so
+[959.2-960.4] um
+[960.4-964.4] And and then the grad students can do things that are much more you know
+[964.9-969.3] You know leveraging of what makes us human than pipetting things right so
+[970.3-973.7] I'm quite optimistic about where this goes and about our ability
+[974.6-981.7] As a society to accelerate the pace of science very meaningfully how far away do you think we are from that what are the key
+[982.3-987.5] Like technologies is it you know robotics that need what needs to happen for us to unlock that fully
+[987.7-989.7] I mean some of that pieces robotics
+[990.5-992.5] It's already happening right there
+[992.7-996.8] I was just giving examples of the model solving open math problems
+[997.3-1000.0] And there are certainly robotic labs out there already
+[1000.5-1006.1] It's all kind of in the early adopter phase but uh at the pace that we're all moving. I don't think it's long
+[1006.9-1008.1] um
+[1008.1-1011.6] And it's so clearly the right thing for many fields that
+[1012.3-1015.5] It this is not you know, we are not the only ones to have this idea
+[1015.5-1019.9] There are a lot of people that have this idea. There are a lot of interesting startups building things along this these lines
+[1020.5-1026.0] And you know, the world is just moving so fast it can't be long right right you shift products used by
+[1026.4-1033.4] Hundreds of millions or billions of people um what was a product decision you were nervous about that ended up being right
+[1033.6-1035.4] Huh, you know the fun thing with
+[1036.5-1042.8] Product's decisions at that scale is I any example I give I bet there are people in the audience who were like no
+[1042.8-1044.8] No, no, no, you got that one wrong
+[1045.9-1047.9] Very few are unambiguously right
+[1048.4-1054.1] Um probably one was like ranking the twitter feed which was extremely controversial back in the day
+[1054.9-1059.0] Uh twitter used to be completely real-time and the the most you know
+[1059.0-1062.5] The thing you saw at the top of your twitter feed was the thing that was tweeted one second ago
+[1062.9-1065.2] The next one was the one that was tweeted four seconds ago
+[1065.9-1071.6] And if you're you know spous or your best friend happened to tweet an hour ago like yeah too bad you were never gonna see it
+[1071.8-1073.8] It's gonna get totally buried
+[1074.0-1077.6] But there were a lot of people that said this is the magic of twitter how could you possibly do that?
+[1077.7-1083.1] You know you're becoming Facebook now so that was very controversial at the time although it seemed
+[1084.4-1086.4] In some sense like how could you not?
+[1086.9-1092.3] Want you know you do care about different people's stuff more than other people's stuff
+[1092.5-1095.3] How could you not want ranking if we could do it well
+[1096.1-1098.9] And if we could bring the right balance of recency and everything else
+[1098.9-1102.9] So that was one and I think Facebook saw the same thing when they originally
+[1103.2-1106.2] When I'll put out the newsfeed you have a bunch of people that are super upset
+[1106.9-1115.4] But then the metrics tell you an incredibly positive story like double digit positive kind of thing and and so you know, and then you just you
+[1116.7-1120.0] You can just keep making that that better and keep getting wins there um
+[1120.7-1123.8] It was interesting trying to figure out how exactly we would
+[1125.5-1128.6] When we rolled out a one preview the first reasoning model
+[1129.3-1132.9] What was the right kind of UX paradigm for a
+[1134.1-1137.0] For a model that would not give you an immediate answer
+[1137.8-1141.9] Like all the other previous chat models you type in an answer or you type in a question
+[1141.9-1143.4] You basically get an answer right away
+[1143.4-1147.4] There aren't a lot of experiences online where you have to wait like that
+[1147.4-1152.9] So and and the the model is doing this interesting thing with its chain of thought in the meantime
+[1153.9-1157.1] Which we didn't want to expose completely because we didn't want to
+[1158.2-1162.0] Because you can distill that and you know, basically copy our model which
+[1163.7-1165.4] You know for for a bunch of
+[1166.1-1168.9] Geopolitical reasons we didn't want to have happened
+[1169.1-1173.6] But you want to show some so it was very interesting trying to figure out how you
+[1174.5-1180.1] You know was the model that people would go away and and just you know pop back in whenever it was done
+[1180.1-1184.6] Or were they going to watch and if they were going to watch what would we show that and how do we balance not
+[1185.2-1190.7] Not giving too much information that would you know lead to model distillation but would be interesting. So that was an interesting
+[1192.1-1198.5] Experiment and it's surprising sometimes building stuff with models a reasonable analogy for how should I you know
+[1198.5-1200.9] Handle the UX of this current situation is
+[1201.6-1203.3] How would I want a human to behave
+[1204.2-1209.3] You know in a similar situation and like if you ask me a question that I can immediately answer
+[1209.7-1213.2] You know gbt4 style then I will just immediately answer right
+[1213.9-1216.1] If you ask me a question that I need to think about
+[1217.3-1218.5] I don't
+[1218.5-1221.3] Immediately start babbling my entire chain of thought
+[1222.0-1227.0] Right, I don't just like spew out whatever goes through my mind. I also don't
+[1227.5-1234.9] Like completely turn around and go mute and like do nothing until I come back to you with an answer a minute and a half later
+[1235.6-1239.3] You know, I might I might say like okay, that's an interesting question. Let me think
+[1240.0-1243.6] And then you kind of give little like cliffs notes as you think well it could be this no
+[1244.7-1253.3] And so that ultimately is kind of what the model does right it it gives you kind of like periodic updates of what it's thinking about as it's thinking
+[1254.1-1260.9] Which is interesting in and of itself and then it comes back with the answer so we tried to model a little bit off that one of the big debates
+[1260.9-1265.5] Like in terms of product development is data versus taste what's the time when you said hey, I've got a hunch
+[1265.8-1271.7] This is the taste. This is where we're going. We need the a little bit more time for the data to catch up to it
+[1271.9-1274.9] If you just blindly follow the data then it will take you
+[1275.7-1280.0] Like then you're not in control of where it takes you and that's that I don't think that's where you want to be
+[1280.1-1284.8] There's always a huge amount of value in anecdotes too when you get user feedback like the even though
+[1285.6-1290.4] It's usually the case in my experience that if you're getting the data tells you one thing
+[1291.0-1294.1] And you're getting a bunch of user feedback that takes you in a different direction
+[1294.6-1301.1] Then what's actually happening is you have some bimodal thing and what you're the data is like giving you the average of those answers
+[1301.2-1304.3] And it's actually the case that you have two very different things going on
+[1304.7-1307.0] And you need to cut your data differently and dig in
+[1307.5-1313.3] Because you should not dismiss the anecdotes the anecdotes are almost always valuable
+[1313.9-1320.4] I think the trick with data is to understand it not just be like oh, you know number go up like we should implement this thing
+[1321.3-1324.9] But why does the number go up is it because we're like
+[1325.6-1330.2] Because of novelty which happens a lot right some new thing that you shipped people are like oh that's interesting
+[1330.4-1333.3] What's that and so they click on it once and your numbers look good
+[1333.3-1340.1] But they don't actually come back or is it because they are confused that also happens a fair amount
+[1340.8-1346.3] Either you know you didn't get the product right or if you're you know growth hacking or sort of negative
+[1346.9-1348.4] States of confusion
+[1348.4-1354.9] But they do make the numbers look good or is it like actually people are retaining on this new thing and they like it
+[1354.9-1356.6] And then you should lean into it
+[1356.6-1363.9] So you really want to like interpret the data try to understand what it means underneath and then the decision is usually much more clear
+[1364.6-1367.8] So a lot of people in this room are building on top of AI
+[1368.8-1371.5] What's something is there anyone in this room not yeah, I know
+[1372.9-1376.5] Yeah, a few few but they're still building with AI for sure
+[1376.5-1379.7] But when you're building on top of AI what's a mistake to see
+[1380.5-1384.9] Start-ups and founders make one thing that we do internally that people sometimes
+[1385.9-1387.9] I see people not doing is
+[1389.1-1391.1] a lot of things
+[1391.1-1393.5] Today at least turn out best when you use
+[1394.5-1395.7] um
+[1395.7-1397.7] Like an ensemble of models
+[1398.1-1400.7] If you have a hard question that you're trying to answer, you know
+[1400.7-1405.7] Maybe it's customer service or something where there's a bunch of different things going on people have different motives for
+[1407.2-1411.3] Um for writing in and you need to handle their queries in different ways
+[1411.3-1415.6] There's a bunch of actions that you need to take the models are getting pretty good and
+[1416.5-1420.5] Now they really can sometimes just completely one shot a tough flow like that
+[1421.5-1426.5] But you can you can make your odds even higher if you use models sort of together
+[1427.2-1429.2] Uh, you may have a
+[1429.2-1435.2] Initial model that's orchestrating and is like putting a plan together and understanding what you know what you should do to answer the question
+[1435.7-1440.2] And then you have different models maybe some of them are cheaper models that are trying to do one thing really well
+[1441.1-1445.6] Um, and the orchestration model is you know calling the other models and think like
+[1446.1-1448.1] I don't see people doing that enough
+[1448.4-1454.9] I think we're getting more sophisticated about it as sort of an industry and at the same time as we're getting more sophisticated about it
+[1454.9-1457.4] The models are getting better and so they need this kind of thing less and less
+[1457.5-1463.3] But that still is an area where like behind the scenes we use ensembles of models and lots of places
+[1463.7-1468.7] Trying to use like small models where you can bigger models where you need to and then have them all work together
+[1468.8-1474.9] Versus just like oh, let me prompt engineer one giant, you know prompt and hope the answer is right where's a
+[1475.3-1480.3] Company or a product that's done a really great job of building on on top of open air. Oh man
+[1480.9-1485.3] There's so many something that surprised you maybe well. I mean something that surprised me uh
+[1486.5-1492.9] What like what's the new name open claw? Yeah open claw built on codex that that's one of the most interesting
+[1493.7-1495.3] things that has
+[1495.3-1498.5] Come out recently more because it's like a sign of what's to come
+[1499.4-1505.3] Both like a the dude was able to put it together in the span of like three days right which is
+[1506.2-1512.1] It's just awesome like so many things are now possible in the span of days that would have been months and months of work
+[1512.1-1514.1] Or just completely impossible before
+[1514.3-1523.4] Um, but also because it points at like this interesting emergent world of uh of the ais all working together have people spent any time on
+[1524.0-1530.0] Multbook.com. Oh, yeah, so the it's uh, you know, you have all these AI
+[1530.9-1535.0] Open claw agents that you know basically have access to somebody's full computer
+[1535.8-1540.4] And they can do all sorts of things and you can command them through you know messaging apps and stuff like that
+[1540.7-1547.9] And now there is a social product for them called molt book where they go and interact with each other and talk about their humans and tell stories
+[1548.6-1552.1] And it's just fascinating. I mean, it's it's all weird is not like
+[1553.0-1555.3] Most likely the next big startup or anything
+[1556.2-1562.8] It's just fascinating as a sign of what's to come um, I love stuff like this because like it just gives you a little bit of peek into the future
+[1563.1-1569.3] Yeah, and so the question is how much is emergent behavior versus how much is just novelty right yeah?
+[1569.3-1575.1] It is a lot of novelty. There's a lot of humans trolling through you know, prompting their open claw
+[1576.1-1577.3] agents
+[1577.3-1579.3] But there's also just really funny stuff
+[1579.3-1585.7] If the product requires you to go out and buy a mac mini and you go out buy it then you've got product right fit right so right
+[1586.2-1590.5] At least among early adopters like me and see where it like all right, so you have
+[1590.9-1595.4] Open claw instance. What are you sharing of your personal information? Uh, I am being careful
+[1597.7-1605.1] All the guidelines are I am being careful um, there's but you know the tension there is like how do you have the full experience without sharing your whole life
+[1605.1-1609.9] Yeah, so yeah, no easy answer no easy answer yet, but I mean these are the things
+[1610.5-1613.9] It when when we first started building agents
+[1614.6-1616.1] We were we had
+[1616.1-1620.5] We were very locked down because the last thing we wanted was there to be with to you know
+[1620.5-1622.8] even at low probability some instance where
+[1623.4-1627.2] The the agent shared something it wasn't supposed to like it you know
+[1627.2-1631.4] Read your get hub repository and then shared private code or something like that
+[1631.6-1637.5] It's like once you identify some of these problems that you want to solve models are getting very good post training is getting quite good
+[1637.6-1639.5] It doesn't mean that we don't make mistakes
+[1639.5-1643.5] But the the chances of a mistake are getting lower and lower
+[1644.3-1647.3] You can build the sort of infrastructure and safeguards around it
+[1647.9-1654.0] And I think people are much more comfortable now just you know giving more access maybe not all the way to open claw yet
+[1654.0-1661.0] But um, but just in terms of like connecting a whole bunch of different MCPs to various you know private data stores and then
+[1661.8-1663.8] again, so I like
+[1664.2-1671.0] You start with something like open claw where people are nervous, but actually you know the the infrastructure kind of follows behind and patches up a bunch of the stuff
+[1671.0-1674.6] You're worried about and then you really do get to do the the full promise
+[1675.3-1681.8] Also with good security and you know again the pace we're all moving this this will not take long. I mean it could be that open claw
+[1683.3-1690.1] A legacy will be to accelerate the fully personalized you know agents within like the skill players, right?
+[1690.2-1696.1] Yeah, I mean one of the cool things about where we are right now is everything is new all the time like
+[1697.5-1699.9] Today models can do something that
+[1700.9-1705.1] Computers have never been able to do in the history of computers right and like in another month
+[1705.1-1709.9] That's going to happen again in another month that's going to happen again and we don't know
+[1710.8-1716.5] We don't always know what's coming right sometimes these things are just emergent capabilities of models as we
+[1717.4-1721.7] As we build them sometimes we do and we're like okay, we're specifically going to try and get better at this thing
+[1721.7-1725.1] But other times you're surprised right and when you're surprised
+[1725.8-1727.3] All of a sudden you
+[1727.3-1731.7] Everyone in the world that uses a model has this new capability that nobody has ever had before
+[1732.5-1735.2] And then you have like the ingenuity of
+[1735.8-1741.1] Everybody in this room and everybody outside these walls going wow, what could you do with this capability?
+[1741.7-1747.2] And like we're all kind of discovering at the same time what you can build if you had these new capabilities
+[1747.5-1749.5] So one of the reasons I'm so bullish about
+[1749.9-1751.9] Startups in general right now is
+[1752.1-1756.9] Like there's so many new capabilities and the world doesn't quite know how to you know what what's possible
+[1757.7-1758.5] And
+[1758.5-1762.4] Open AI doesn't always know what's possible right. We're not going to have all the ideas
+[1763.0-1770.5] Um, so it just is like the most fertile ground for startups that there has ever been most of these tech shifts that we've seen
+[1770.6-1773.1] Like in like going back to the dot com era
+[1773.8-1776.9] Like the adoption starts with consumers and then goes into enterprise
+[1777.2-1781.5] So this time around is different with enterprises first and there's not other than like open glau
+[1781.5-1786.0] There's not like a lot or a club book. There's not a lot of consumer
+[1786.5-1791.9] Oriented experiences that are very native or you know video editing and photogenic. Yeah, as you say
+[1791.9-1796.4] There's a little bit around like so on and that stuff. There's not there's not tons. You're right. There's not like
+[1796.5-1801.6] Yeah, where's the eBay right, you know, where's the you know the the the first generation, you know, big
+[1802.5-1805.8] Consumer place. Why do you think that is and do you think that
+[1806.9-1809.3] You know, do you think that it'll change in the next few years?
+[1809.5-1812.5] Enterprise like B2B stands out because it's
+[1813.4-1816.6] That is where we do the majority of our economically valuable work
+[1817.3-1822.6] And models are getting increasingly good at doing economically valuable work. So I just I think from a
+[1823.7-1825.7] Where can you show value very quickly
+[1826.6-1828.6] And also where is their money
+[1831.1-1835.4] B2B makes a ton of sense because models also cost money to use
+[1835.9-1837.9] It's not like and you know, they're
+[1838.6-1844.1] In a relative sense much more than like traditional, you know, get a database and pay network costs and stuff like that
+[1844.8-1851.8] You you start having costs right away as a business in a way that maybe you didn't have as much if you were like building a consumer social thing before
+[1852.6-1858.3] And so there's value in having early customers that can help defray some of those costs and I don't know
+[1858.3-1862.1] I think it probably just comes back to models being
+[1863.0-1864.5] able to do
+[1864.5-1867.9] economically valuable things in a way that with that, you know, previously
+[1867.9-1874.4] It was it was only humans that could do these things and so you can now build stuff in the enterprise and like take on
+[1875.1-1880.0] You know save huge amounts of money or time or whatever for businesses. You can I mean we've seen how many
+[1880.4-1886.1] How many different B2B companies have gone gone like zero to a hundred million to beyond and a heartbeat
+[1886.8-1889.3] So there's just like I think there's a bunch of low hanging fruit there
+[1889.7-1893.8] What advice would you give to a consumer startup founder that is thinking about
+[1894.5-1901.0] Distribution, you know distributing through open AI of now or in the future of ible path with the apps platform that we built
+[1901.9-1905.8] One of the ways that we thought about it was how it or maybe one of the success
+[1906.6-1912.0] Uh metrics for it is that you should see new startups being built on top of it
+[1912.0-1916.7] That wouldn't have been possible to build before so it's not just if you're an existing company
+[1916.7-1924.1] You can use it for distribution. It's actually it should enable people to think completely differently about what a business looks like
+[1924.1-1929.1] Maybe you don't you can build in a business in the future using this this apps platform that
+[1929.7-1933.3] Doesn't have a website or a mobile app and is sort of entirely built around
+[1933.9-1934.9] Uh
+[1934.9-1936.9] These kind of new platforms
+[1937.1-1938.1] um
+[1938.1-1939.1] So
+[1939.1-1943.1] That's where we get that i mean that that's sort of you if you get there then you have an interesting platform
+[1943.8-1945.5] There's still a bunch of work
+[1945.5-1950.9] It we're still pretty early on that but i'm excited about where it goes especially as the models get really good at
+[1951.7-1958.7] Using a huge variety of tools and apps and other things like the the value will be bringing all of that together in one interface
+[1959.2-1964.4] And allowing you to do increasingly complex things by just you know typing into a
+[1964.9-1968.1] A chat box and letting the agents work for you right well
+[1968.3-1970.1] Thank you very much. This was incredible
+[1970.1-1975.3] You've been a great supporter to us by being here in your company is the reason why many of us are here
+[1975.9-1980.3] And also supporting the founders with a lot of great credits and technical support
+[1980.3-1982.3] So everybody give it up for Kevin thank you
+[1985.9-1988.8] Thanks for listening to this episode of the a16z podcast
+[1989.3-1995.8] If you like this episode be sure to like, comment, subscribe, leave us a rating or review and share it with your friends and family
+[1996.5-2000.1] Or more episodes go to youtube apple podcast and spotify
+[2000.7-2006.3] Follow us on x a16z and subscribe to our sub stack at a16z.substac.com
+[2006.8-2009.3] Thanks again for listening and i'll see you in the next episode
+[2011.2-2014.0] As a reminder the content here is for informational purposes only
+[2014.4-2020.0] Should not be taken as legal business tax or investment advice or be used to evaluate any investment or security
+[2020.2-2024.1] And is not directed at any investors or potential investors in any a16z
+[2024.9-2029.7] Please note that a16z and its affiliates may also maintain investments in the companies discussed in this podcast
+[2030.1-2032.6] For more details including a link to our investments
+[2033.0-2036.9] Please see a16z.com forward slash disclosures

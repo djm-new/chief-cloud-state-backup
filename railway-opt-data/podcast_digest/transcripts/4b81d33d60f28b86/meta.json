@@ -1,0 +1,8 @@
+{
+  "show": "No Priors",
+  "episode": "Re-engineering the Semiconductor Supply Chain with Intel CEO Lip Bu Tan",
+  "audio_url": "https://traffic.megaphone.fm/PDP2617151899.mp3",
+  "model": "base",
+  "max_seconds": 0,
+  "stdout": "{\"language\": \"en\", \"duration\": 2699.546125, \"segments\": 661}"
+}

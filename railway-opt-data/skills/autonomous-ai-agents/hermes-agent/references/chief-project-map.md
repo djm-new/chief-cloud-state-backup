@@ -29,6 +29,10 @@ Use when DJ asks where something lives, how repos are organized, or where to fin
 
 Primary source of truth — everything Chief knows and does:
 
+- The *runtime-state* source of truth lives in `/opt/data` and its backed-up mirror repo `djm-new/chief-cloud-state-backup`.
+- App/code/deployment source belongs in `djm-new/hermes-agent-backup`.
+- Treat `/opt/hermes` as scratch unless you have verified it is a checked-in Git repo.
+
 | Path | What lives here |
 |---|---|
 | `/opt/data/memories/` | DJ's persistent memory (injected every session) |

@@ -99,7 +99,24 @@ Do *not* use this skill for generic fitness advice; it is specifically for the H
 
 - `references/seed-schema.md` — concise schema notes for workout/program imports.
 - `references/workout-completion.md` — permissive completion payload rules and merge behavior for skipped exercises.
+- `references/barbell-plate-calculator.md` — placement rules and barbell-gating notes for plate-loading helpers.
 - `scripts/validate_workout_seed.py` — deterministic validator for the seed pair and workout ordering.
+
+
+## Barbell plate-loading calculators
+
+When adding a plate calculator to HealthOS, keep the logic split into two layers:
+
+1. `lib/` math that returns a structured result (`exact`, `perSideWeightLb`, `platesPerSide`, `message`).
+2. A small client component that renders the result and keeps the input editable.
+
+Implementation notes:
+
+- Default to a **45 lb bar** and surface that assumption in the UI.
+- Use a **descending greedy pass** over plate sizes so the result uses the fewest plates.
+- Keep plate counts **per side**; don’t ask users to mentally split the bar.
+- If the requested total can’t be loaded exactly, return a helpful message instead of a guessed approximation.
+- Add a small unit test for a common exact total and one invalid/non-exact case.
 
 ## Common Pitfalls
 
@@ -118,7 +135,10 @@ Do *not* use this skill for generic fitness advice; it is specifically for the H
 5. **Losing the pairing/rest intent.**
    If a workout is organized as supersets or density pairings, capture that in `notes` so the preview and live workout screens preserve the training intent.
 
-6. **Making the program logic coach-y instead of tracker-neutral.**
+6. **Putting helper UI on the wrong page.**
+   Barbell plate calculators belong on barbell exercise surfaces, not the general workouts index. Gate them off the exercise type (e.g. `barbell_` prefix) and render them only in workout preview/live contexts for the active barbell exercise.
+
+7. **Making the program logic coach-y instead of tracker-neutral.**
    Store the plan faithfully; avoid embedding extra training decisions in code unless the product explicitly needs them.
 
 ## Verification checklist
@@ -130,3 +150,4 @@ Do *not* use this skill for generic fitness advice; it is specifically for the H
 - [ ] Tests updated for any changed exercise positions or prescriptions
 - [ ] Seed validator script passes
 - [ ] New exercise shapes are supported by the session helpers and preview formatting
+- [ ] Any barbell-only helper UI is gated to barbell exercises and not shown on the workouts index

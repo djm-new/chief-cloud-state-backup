@@ -21,7 +21,7 @@ Assume the implementer is a skilled developer but knows almost nothing about the
 
 **Core principle:** A good plan makes implementation obvious. If someone has to guess, the plan is incomplete.
 
-**Discovery mode reference:** For low-friction product/spec interviews before implementation, see `references/product-discovery-interview.md`. For DJ's health/fitness app discovery notes, see `references/health-fitness-app-discovery-dj.md`. For the reusable pattern of turning an approved PWA plan into a locally verified Next.js/Railway scaffold, see `references/nextjs-railway-pwa-bootstrap.md`. For HealthOS workout logging UX, see `references/healthos-workout-ux.md`: workout flows should be plan-first and exception-only, not per-rep/per-set data entry. For HealthOS dashboard/meals/history UX, see `references/healthos-daily-ledger-ux.md`: the app should behave like a date-driven daily ledger with editable grouped meal tables and next-day review/finalization. For HealthOS meal macro estimation, see `references/healthos-nutrition-estimator-workflow.md`: preserve DJ's old LLM+lookup workflow, use web search for branded/restaurant foods, prefer official nutrition sources, and avoid confident cheap guesses when official lookup fails.
+**Discovery mode reference:** For low-friction product/spec interviews before implementation, see `references/product-discovery-interview.md`. For DJ's health/fitness app discovery notes, see `references/health-fitness-app-discovery-dj.md`. For the reusable pattern of turning an approved PWA plan into a locally verified Next.js/Railway scaffold, see `references/nextjs-railway-pwa-bootstrap.md`. For HealthOS workout logging UX, see `references/healthos-workout-ux.md`: workout flows should be plan-first and exception-only, not per-rep/per-set data entry. For workout history/progression drill-downs, see `references/healthos-workout-history-drilldown.md`: keep the live workout logger unchanged, derive the drill-down from completed sessions, slugify exercise names for stable URLs, and fall back gracefully when a summary is missing. For HealthOS dashboard/meals/history UX, see `references/healthos-daily-ledger-ux.md`: the app should behave like a date-driven daily ledger with editable grouped meal tables and next-day review/finalization. For HealthOS meal macro estimation, see `references/healthos-nutrition-estimator-workflow.md`: preserve DJ's old LLM+lookup workflow, use web search for branded/restaurant foods, prefer official nutrition sources, and avoid confident cheap guesses when official lookup fails.
 
 ## When to Use
 
@@ -166,7 +166,7 @@ When requirements are still being shaped with the user, do **not** dump a long q
 - If the user asks for “BMAD style” or complains that scrolling through questions is high friction, switch to this interview mode.
 - Do not implement while still in alignment mode unless the user explicitly approves moving from design to build.
 
-For a reusable checklist and spec shape from a health/dashboard app discovery session, see `references/product-discovery-interview-pattern.md`.
+For a reusable checklist and spec shape from a health/dashboard app discovery session, see `references/product-discovery-interview-pattern.md`. For phone-first review/gallery apps with corner actions and center-tap enlarge, see `references/mobile-review-gallery-discovery.md`. For apps that crop/review photographed physical items, use `references/photographed-item-crop-and-review-qa.md` for the background-segmentation crop workflow and QA gates.
 
 ### Step 2: Explore the Codebase
 

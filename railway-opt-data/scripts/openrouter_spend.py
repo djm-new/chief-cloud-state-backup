@@ -121,6 +121,15 @@ def build_openrouter_headers(*, api_key: str | None = None, title: str = "Hermes
     }
 
 
+def _usage_as_object(usage: dict[str, Any] | None) -> Any:
+    """Convert raw dict payloads into an attribute-access object when needed."""
+    if usage is None:
+        return None
+    if isinstance(usage, dict):
+        return SimpleNamespace(**usage)
+    return usage
+
+
 def record_openrouter_usage(
     *,
     model: str,
@@ -150,7 +159,7 @@ def record_openrouter_usage(
     the pipeline to fail. The intent is to keep the ledger in sync with direct
     OpenRouter HTTP calls made by Hermes-owned scripts.
     """
-    canonical = normalize_usage(usage or {}, provider="openrouter", api_mode=api_mode)
+    canonical = normalize_usage(_usage_as_object(usage), provider="openrouter", api_mode=api_mode)
     cost_result = estimate_usage_cost(
         model,
         canonical,

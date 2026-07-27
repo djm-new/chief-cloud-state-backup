@@ -1,0 +1,922 @@
+[5.3-8.8] It's not about how good a model is in the general sense.
+[8.8-11.9] It's about how good is this model for my use case?
+[11.9-15.2] For a lot of design and marketing use case
+[15.2-20.1] says we need editable design, not a single flat image.
+[20.1-21.3] It's super impressive, honestly,
+[21.3-23.9] reaching the level of things like nano banana
+[23.9-26.5] or GPT image with an open-source model.
+[26.5-27.9] Why did you think that was important?
+[27.9-30.1] We really want our models to have taste.
+[30.1-33.2] Every artist, they can really customize this model
+[33.2-36.7] to the new answers of their style, the texture
+[36.7-40.1] of their canvas, and really get 2K output,
+[40.1-43.1] and hopefully make that part of their workflow.
+[43.1-44.5] One thing we were always wondering
+[44.5-47.4] is that this release open-source model is so small.
+[47.4-49.7] It's 9.3 billion parameters.
+[49.7-52.6] Previously, it's so tight, it's probably like 80 billion
+[52.6-53.6] parameters.
+[53.6-56.0] It's like NIax, the difference.
+[56.0-57.1] How did you do it?
+[57.1-61.4] We focused on image generation has improved dramatically
+[61.4-63.3] over the last few years.
+[63.3-66.3] The next challenge is not simply creating images,
+[66.3-70.2] but giving users more control over what gets created and how.
+[70.2-73.2] That includes everything from typography and layouts
+[73.2-76.0] to editing, customization, and workflows
+[76.0-79.0] that fit into professional creative processes.
+[79.0-83.1] Yoko Li and Justine Moore speak with IDogramFounder and CEO
+[83.1-87.5] Muhammad Nauruzi about image generation, open-weight models,
+[87.5-93.4] design tools, and the future of creative AI.
+[93.4-96.6] So today we're excited to have Muhammad, CEO,
+[96.6-99.5] and founder of IDogram, a Toronto-based gendered
+[99.5-102.1] or AI company that just released their first open-weight
+[102.1-103.2] image model.
+[103.2-104.7] Congrats on the huge release.
+[104.7-106.0] Congratulations.
+[106.0-106.9] Thanks for having me.
+[106.9-108.7] We're really excited to talk through something
+[108.7-110.7] that everyone has been buzzing about, which
+[110.7-113.4] is the fact that the model is open-weights.
+[113.4-116.0] The previous IDogram models have been closed-source,
+[116.0-117.8] so we'd love to hear how you made the call
+[117.8-119.8] to make it open this time.
+[119.8-122.5] What has happened is there has been a lot of progress
+[122.5-126.1] in industry, and we used to do everything.
+[126.1-129.2] Basically, we had our own first party app,
+[129.2-132.8] as well as our own first party API.
+[132.8-136.1] And model development itself is a lot of work.
+[136.1-139.7] And we decided to focus a little more on the model side.
+[139.7-142.3] I think that's where a lot of potential exists.
+[142.3-146.3] We still want to continue to own the interaction
+[146.3-147.0] with the users.
+[147.0-149.6] I think there is a lot of important feedback
+[149.6-151.5] we can get from the users directly.
+[151.5-154.1] But then we want to focus more on building the model.
+[154.1-156.9] And by releasing the weights, you're actually
+[156.9-160.9] extending ourselves and working with inference providers,
+[160.9-163.6] working more directly with large enterprise.
+[163.6-168.2] They have every ability to customize the models
+[168.2-172.5] or host it on-prem or optimize it for device.
+[172.5-176.1] And we would love to work with the best chip makers
+[176.1-181.0] to really optimize the model, the best inference providers.
+[181.0-184.2] So this is basically us saying, hey, we're very serious
+[184.2-186.5] about building the foundation model.
+[186.5-188.5] And we would like to work with you
+[188.5-191.4] wherever you are, whether you're an app developer
+[191.4-194.8] or a chip maker or an inference provider.
+[194.8-196.7] I think you're already touched on this.
+[196.7-198.7] The new open source model is very exciting
+[198.7-201.1] that it unlocked a lot of new use cases.
+[201.1-202.9] It's very photorealistic.
+[202.9-207.0] I think in January up to 2K, it was a smaller model, too.
+[207.0-210.5] Obviously, there's very precisely out-control as well.
+[210.5-212.8] Do you want to talk about some of the net new use cases
+[212.8-214.9] sets unlocked by this model?
+[214.9-217.5] So this is actually a foundation based on which we're
+[217.5-221.6] going to release some more exciting features next.
+[221.6-223.2] So this is just the first release.
+[223.2-225.4] You're just testing the waters, figuring out
+[225.4-228.0] how to work with high-end phase and the open source community
+[228.0-229.6] come for UI, et cetera.
+[229.6-231.7] What I'm personally most excited about
+[231.7-233.6] is something we haven't released yet.
+[233.6-237.6] It is editable text and layout control.
+[237.6-241.2] And I really believe for a lot of design
+[241.2-245.7] and marketing use cases, we need editable design,
+[245.7-248.3] not a single flat image.
+[248.3-249.9] And we haven't released that yet.
+[249.9-252.2] We kind of show the teaser in our video,
+[252.2-254.4] but I'm personally most excited about that.
+[254.4-256.3] On the technical side, what we've done
+[256.3-261.5] is we went really detailed on the prompting.
+[261.5-263.5] And if you look at our prompts, it's
+[264.4-268.5] like thousands of words, each element in the image,
+[268.5-270.7] where it is in the image.
+[270.7-275.0] We have layout control, bounding box, and a number of elements.
+[275.0-277.7] And that's one of the key innovations here
+[277.7-280.8] that unlocks a lot of, again, design use cases
+[280.8-282.7] because you clearly want font control,
+[282.7-284.0] you want layout control.
+[284.0-287.0] And this model is very versatile, allows you
+[287.0-291.4] to really fix certain elements, fix positioning,
+[291.4-297.3] and control the image generation in every detail possible.
+[297.3-297.7] Amazing.
+[297.7-299.6] And one of the other things I immediately
+[299.6-301.8] noticed about the model was how you can render
+[301.8-305.1] super long texts, like paragraphs of texts,
+[305.1-308.5] completely accurately, which you either give the model in the prompt
+[308.5-310.9] or you ask the model to kind of come up with something
+[310.9-312.6] and it does it really well.
+[312.6-313.9] And it's super impressive, honestly,
+[313.9-316.6] reaching the level of things like Nano Banana
+[316.6-319.2] or GPT image with an open source model.
+[319.2-321.5] Was that something you guys really focused on
+[321.5-324.0] and sort of why did you think that was important?
+[324.0-326.5] I don't know if you remember, but the very first model
+[326.5-328.6] we released three years ago.
+[328.6-332.5] And at the time, image generation was synonymous
+[332.5-335.7] with garbotex, and there were memes about
+[335.7-338.0] dolly-two-generating travel posters
+[338.0-340.3] with incorrect city names.
+[340.3-341.8] She's fun to look at.
+[341.8-344.6] So I remember at the time we were just a few people
+[344.6-346.0] building these models.
+[346.0-348.6] And the question was, how can we differentiate?
+[348.6-350.5] What's unique about our model?
+[350.5-353.7] And we said, OK, text generation,
+[353.7-356.0] accurate text is something we have.
+[356.0-359.2] And then we released it and we were really surprised.
+[359.2-362.4] It just so many people were so excited about text generation
+[362.4-364.3] and then we realized, oh, actually,
+[364.3-365.7] that's the whole graphic design
+[365.7-367.4] and storytelling industry.
+[367.4-370.3] Text is a very important part of image generation
+[370.3-373.0] and that became a very important part of our brand.
+[373.0-376.4] So if you search idogram, people talk about the quality
+[376.4-378.8] of typography, the quality of text
+[378.8-382.4] we are known for really stylized typography
+[382.4-386.2] for logo, t-shirt design, graphic design in general.
+[386.2-388.4] And so we continued to push forward.
+[388.4-393.5] I think our previous model wasn't really beating
+[393.5-395.2] the state of the audience text generation,
+[395.2-396.8] but we continued to focus on that.
+[396.8-399.5] And we had a bunch of research breakthroughs
+[399.5-403.0] and with this model, despite the fact that it's very tiny,
+[403.0-405.9] the text generation is very, very accurate.
+[405.9-407.9] One of the things that stood out to us,
+[407.9-410.7] which is what the community has been chatting about,
+[410.7-413.8] is how there's new ways of processing data
+[413.8-416.2] as you were training the model, which is like,
+[416.2-419.9] you kind of let the model learn what is a bounding box
+[419.9-423.0] and how to do the layering and color palettes.
+[423.0-425.0] They want to talk more about some of the innovations
+[425.0-427.7] you have during the training process on what made
+[427.7-431.3] this model so good with these differentiating features.
+[431.3-434.7] Yeah, it's kind of difficult to exactly describe
+[434.7-438.1] what resulted in such an amazing model.
+[438.1-442.1] I think a lot of it is focus and evaluation.
+[442.1-444.6] Evaluating image models is actually a very difficult thing
+[444.6-445.4] to do.
+[445.4-447.1] There are lots of benchmarks out there,
+[447.1-449.3] but people look at them and they're like,
+[449.3-452.5] OK, this doesn't correlate with pixel fidelity
+[452.5-454.4] that I care about or realism.
+[454.4-457.6] You don't really want new vice users to judge the quality
+[457.6-460.0] of these models because they may be looking
+[460.0-463.6] at small monitors that aren't really adjusted
+[463.6-465.6] for color accuracy.
+[465.6-470.8] And they always care so much about quality for the realism
+[470.8-472.9] and, again, takes accuracy.
+[472.9-477.7] So throughout training, we always measure takes accuracy
+[477.7-482.9] and we applate very detailed changes to the model and data
+[482.9-485.9] and see how that results in performance.
+[485.9-489.7] So I would say a lot of it is really listing
+[489.7-494.5] all the possible changes and very carefully tuning
+[494.5-496.9] each element of the model and see what happens.
+[496.9-501.6] Obviously, we try to gather as much data as possible.
+[501.6-505.1] One of the standard recipes in the industry
+[505.1-508.4] is that we take images and we turn them
+[508.4-511.8] to text using visual language models.
+[511.8-515.3] The very first models we were training three, four years ago
+[515.3-518.1] would be based on the alt text that you can find on internet.
+[518.1-523.6] That is, each image and internet may have an alt text field associated
+[523.6-525.8] with it, which describes what's in the image.
+[525.8-530.7] But the problem is the alt text is often very short or inaccurate.
+[530.7-533.9] And what we do now is we train models
+[533.9-535.8] to go from image to text.
+[535.8-538.9] And in this case, image to text with detailed bounding box
+[538.9-542.0] information, detailed element information.
+[542.0-543.6] If you hear about text and we really
+[543.6-547.2] want to make sure all the text in the images correctly
+[547.2-550.9] described, and then we go from text to image backwards.
+[550.9-551.8] It's kind of interesting.
+[551.8-553.4] We gather all the images from the internet.
+[553.4-555.3] Some of them may have alt text, some of them.
+[555.3-556.5] We not have alt text.
+[556.5-559.7] And then we use AI to go from image to text.
+[559.7-562.6] And then we train another AI model to go from text to image.
+[562.6-567.8] So that's one of the key recipes that results in very good models.
+[567.8-571.5] I saw a lot of JSON prompting in your technical blog,
+[571.5-572.8] which is very unique.
+[572.8-575.8] And as I was trying to model, it seems like it was translating
+[575.8-578.6] the text, the prompt, to a JSON representation
+[578.6-581.3] with implicit structure.
+[581.3-583.8] Do you think JSON is a representation
+[583.8-585.4] for image models going forward?
+[585.4-588.0] Or do you think there's another representation there?
+[588.0-589.3] It's a very good question.
+[589.3-591.6] I don't know if you've seen the open source community
+[591.6-595.1] is a little upset because of the safety image that shows up.
+[595.1-597.2] Oh, no.
+[597.2-598.0] They always are.
+[598.0-600.0] But that's the same thing.
+[600.0-602.8] So that was really lashing out as our engineers
+[602.8-605.2] and one of our people said, oh, we might fix this.
+[605.2-606.7] And they were like, you might.
+[606.7-609.7] Oh.
+[609.7-612.1] But the fact is, the community needs
+[612.1-615.6] to also read the documentation and bear with us.
+[615.6-618.7] This model is only trained with JSON prompting.
+[618.7-623.8] And you have to provide JSON with that particular structure
+[623.8-625.9] for you to get good quality output.
+[625.9-628.7] So I don't know if it's a feature bug.
+[628.7-631.0] We did have some safety built into the model,
+[631.0-635.5] but that is also detecting incorrect prompts.
+[635.5-637.9] So if you just give it a one word prompt,
+[637.9-643.3] then you get this image is blocked by safety image back.
+[643.3-648.2] But that's because your prompt is not a very specified JSON.
+[648.2-650.6] Now, we don't want people to write in JSON.
+[650.6-652.2] We don't think that's a natural way
+[652.2-654.1] of interacting with these models.
+[654.1-657.0] But I do strongly believe that we need
+[657.0-661.2] to use all the AI innovation to build
+[661.2-664.7] the best image generation and editing models.
+[664.7-667.2] And there had been a lot of progress
+[667.2-670.8] in language models in the text space.
+[670.8-674.2] So the question is, if you want to go from some way
+[674.2-678.7] idea to an image, what's the exact process?
+[678.7-681.8] How much of the thinking happens in the language space
+[681.8-683.6] and how much of the thinking happens
+[683.6-686.8] in the actual pixel generation space?
+[686.8-691.4] I know you're an artist, so you should probably tell us.
+[691.4-694.7] Then, for example, we always had this prompt meaning of life.
+[694.7-697.0] We test our models based on this prompt.
+[697.0-700.1] So if you have meaning of life as your prompt,
+[700.1-703.3] then do you want an image and diffusion model
+[703.3-706.1] to decide what the meaning of life is?
+[706.1-709.9] Or do you want a language model to kind of think
+[709.9-714.6] and go back and forth and come up with a description of a scene
+[714.6-718.2] that's explaining the meaning of life?
+[718.2-721.0] And that's kind of the context of JSON prompting.
+[721.0-723.1] It's the intermediate representation
+[723.1-725.6] that we think language models can describe images
+[725.6-729.2] in that format, and then image generation can happen.
+[729.2-732.3] In general, we see a lot of editing happening
+[732.3-735.2] in the field, and that's the new frontier.
+[735.2-738.1] So I don't think we should expect the interaction
+[738.1-740.4] to be only through text or JSON,
+[740.4-743.3] but it's a combination of JSON and image
+[743.3-744.8] if I were to make a guess.
+[744.8-745.2] Awesome.
+[745.2-747.6] So it sounds like a lot of it is basically
+[747.6-749.7] taking off in a relatively simple prompt
+[749.7-752.2] that someone puts into the model,
+[752.2-754.8] and then translating it on the back end with the magic prompt
+[754.8-757.5] and into JSON so that the model can make something
+[757.5-759.0] probably more detailed and interesting
+[759.0-761.6] than the person with the short prompt may have even imagined.
+[761.6-762.2] Exactly.
+[762.2-764.6] And then I think everybody else does it too.
+[764.6-765.6] Open AI does it.
+[765.6-766.7] Google does it.
+[766.7-771.0] But then they don't give you the actual input to the model.
+[771.0-771.6] Yeah.
+[771.6-773.3] But again, for professional use cases,
+[773.3-775.6] you don't want to just roll the dice
+[775.6-778.0] and then get some other completely different image
+[778.0-779.9] interpretation of your prompt.
+[779.9-783.2] We show you the actual input to the model
+[783.2-784.8] as well in the JSON format.
+[784.8-787.3] And we think that that will foster more innovation
+[787.3-788.5] and creativity.
+[788.5-790.7] And for people who want control, or like consistency,
+[790.7-791.8] I think that would be key.
+[791.8-792.1] Yeah.
+[792.1-795.9] And to Justin's point, exactly what is the implication
+[795.9-799.1] for the professional use cases?
+[800.1-802.2] Like what was the JSON prompting?
+[802.2-804.2] What can they do more easily now?
+[804.2-806.8] What's this capability compared to before?
+[806.8-809.8] It is zooming out a bit.
+[809.8-811.4] The world is changing, right?
+[811.4-813.4] I'm sure your work has changed a lot.
+[813.4-814.6] My work has changed a lot.
+[814.6-818.0] I'm actually writing PRs now, which is very exciting.
+[818.0-819.8] Amazing.
+[819.8-823.6] Or in collaboration with AI does the writing.
+[823.6-826.0] And then for creative professionals as well,
+[826.0-827.3] the world is changing.
+[827.5-831.8] They are very excited to, OK, a large number of them
+[831.8-832.7] are very excited.
+[832.7-834.4] I think more and more of creatives
+[834.4-838.0] are excited about adopting AI and they see the potential.
+[838.0-841.3] They think ideation is still the most important part
+[841.3-843.2] of the creative process.
+[843.2-847.2] And humans are very good at putting context
+[847.2-851.6] into these models and their understanding
+[851.6-856.4] of situation, creativity will result in the best ideas.
+[856.4-859.8] I'm very excited about the future where every kid
+[859.8-863.6] will have these models at their fingertips
+[863.6-866.0] and then they can be much more creative
+[866.0-870.1] and we're going to experience a much more beautiful world.
+[870.1-875.0] Now, as it comes to JSON prompting, again,
+[875.0-879.4] because the JSON prompt describes every detail in the scene,
+[879.4-883.3] you can take it and change one element in the scene
+[883.3-887.0] and that results in very, very consistent outputs.
+[887.0-889.9] So you could be describing like a tiny detail
+[889.9-894.0] in the corner of the image and then leave everything else the same.
+[894.0-897.1] And we think this also has a big implication on editing.
+[897.1-899.2] We haven't released our editing models yet,
+[899.2-902.7] but they will also utilize the same JSON prompting approach.
+[902.7-904.5] And it's just more control.
+[904.5-909.3] And with layout as well, you can imagine
+[909.3-912.2] for every brand, you have brand guidelines
+[912.2-915.4] in terms of the size of text, the font of text,
+[915.4-918.7] and we think this kind of foundation allows us
+[918.7-923.3] to really get into a lot of the enterprises' faces.
+[923.3-923.9] Amazing.
+[923.9-925.5] We've been talking about some of the things
+[925.5-927.8] you've focused on with this model.
+[927.8-930.6] Obviously, there's always trade-offs and model training
+[930.6-934.0] in terms of what you want the models to be really amazing at
+[934.0-936.0] and what you focus on.
+[936.0-939.1] We'd love to hear what you focused on for this release.
+[939.1-942.4] And also, do you consider more capability?
+[942.4-945.8] Like we want to be the top for this specific prompted
+[945.8-947.5] here, answer something like that?
+[947.5-949.8] Or is it more thinking about the end user
+[949.8-953.0] and holistically where the different vectors
+[953.0-956.1] where they want the model to be performant?
+[956.1-956.9] Right.
+[956.9-958.6] So we care about a couple things.
+[958.6-960.9] One is graphic design general.
+[960.9-962.4] Again, texturing is part of that.
+[962.4-967.3] We think basic graphic design is everywhere.
+[968.3-971.1] You go in a city, you open your eyes, you see billboards,
+[971.1-973.5] you store fronts, they all have text.
+[973.5-977.2] And actually, it's much more important than,
+[977.2-979.0] I guess, photography is part of graphic design.
+[979.0-982.2] But it's graphic design is actually the frontier
+[982.2-984.8] for a lot of business use cases for storytelling.
+[984.8-989.0] So we definitely focused a lot on graphic design
+[989.0-990.7] since the release of our first model,
+[990.7-992.4] which was good at texturing.
+[992.4-995.4] And in addition, we think taste is extremely important.
+[995.4-998.5] And we really want our models to have taste.
+[998.5-1000.1] And it's very hard to explain it.
+[1000.1-1000.9] Yeah.
+[1000.9-1003.2] What exactly taste is?
+[1003.2-1007.4] One element of taste is kind of going outside
+[1007.4-1011.7] of the normal little learn and not conforming
+[1011.7-1016.0] to the average opinion, which is a little against being
+[1016.0-1017.9] on top of the leaderboard.
+[1017.9-1018.9] Yeah.
+[1018.9-1020.0] Which is kind of interesting.
+[1020.0-1021.2] You're all leaderboard.
+[1021.2-1022.7] Yeah, we just care about it.
+[1022.7-1026.1] Ultimately, we work with all the arenas.
+[1026.1-1030.2] We hope all of the arenas will improve in detecting
+[1030.2-1034.7] the nuances of images and image quality.
+[1034.7-1038.9] But we care about our own internal evaluation.
+[1038.9-1043.6] And unfortunately, we see that AI is not very good at doing
+[1043.6-1045.4] the actual taste evaluation yet.
+[1045.4-1047.3] So we work with designers.
+[1047.3-1049.9] And we have side-by-side comparisons
+[1049.9-1051.9] between different versions of the model, as well
+[1052.5-1055.1] as other models to really push on the taste.
+[1055.1-1056.9] So we really care about taste.
+[1056.9-1059.6] I think there's still so much more to do, obviously.
+[1059.6-1062.6] Yeah, my follow-up is going to be,
+[1062.6-1065.5] do you have one vibe guy or a vibe woman internally
+[1065.5-1066.6] who's like the taste arbiter?
+[1066.6-1068.3] Because it can be hard to measure taste.
+[1068.3-1070.3] But it sounds like you have a group of designers,
+[1070.3-1071.3] which is probably better.
+[1071.3-1075.2] I think, yeah, we need to find that taste maker.
+[1075.2-1075.8] Yeah.
+[1075.8-1077.8] Yeah.
+[1077.8-1080.1] And then I guess one thing we were always
+[1080.1-1083.9] wondering is that this release open source model is so small.
+[1083.9-1087.0] It's 9.3 billion parameters, you know,
+[1087.0-1090.2] like previously, it's so tight, it's probably like 80 billion
+[1090.2-1091.5] parameters.
+[1091.5-1093.9] It's like 9x difference.
+[1093.9-1096.6] And then you can around it on the single GPUs
+[1096.6-1099.1] that are having a lot of compute footprint,
+[1099.1-1102.2] which really opened up opportunity for people to use it.
+[1102.2-1105.2] So the question is, how did you do it?
+[1105.2-1110.3] We focused on the details of the model.
+[1110.3-1114.5] And we know we can't win on scaling.
+[1114.5-1117.2] I don't think I used to work for Google.
+[1117.2-1121.9] I don't think even if we raised 10x demand to be raised so far,
+[1121.9-1125.1] we can beat Google in terms of the number of chips
+[1125.1-1127.8] that we can dedicate to each model training.
+[1127.8-1132.0] So instead, we focused on innovation.
+[1132.0-1135.4] I think there's still so much more to do to innovate.
+[1135.4-1137.6] We are also focusing on differentiation.
+[1137.6-1141.3] I don't think a lot of labs are focusing on design, graphic design,
+[1141.3-1144.2] in particular, editable text that I'm talking about.
+[1144.2-1148.4] And then we also decided to go open-weight to really partner
+[1148.4-1153.2] with a lot of other platforms to be at least
+[1153.2-1158.1] another option for people who care about design.
+[1158.1-1161.3] And so yeah, so we focused on the small model primarily
+[1161.3-1164.3] because we think there's still so much to do.
+[1164.3-1167.5] We think now is actually a good time for us to scale.
+[1167.5-1171.0] Given the quality of the model at 9.3 billion parameters,
+[1171.0-1174.4] you should imagine what if this model is 100x bigger
+[1174.4-1177.2] and their mixture of experts' architectures
+[1177.2-1180.2] that don't make the model necessarily store,
+[1180.2-1182.5] but they make the model a lot more powerful.
+[1182.5-1185.8] So I think that's one new frontier for us
+[1185.8-1189.9] to scale this model, 10x 100x.
+[1189.9-1193.3] I imagine because it's a smaller model, as you mentioned,
+[1193.3-1196.6] it's harder to win on scaling and counting number of chips,
+[1196.6-1199.8] but it is possible to win on a specific domain
+[1199.8-1203.9] or optimizing for a different thing in a different domain.
+[1203.9-1207.0] So what was the trade-off for the research team
+[1207.0-1210.7] when training this model to decide what to focus on?
+[1210.7-1213.2] Right, so one thing that you alluded to
+[1213.2-1216.8] is the fact that this can run on consumer GPU now.
+[1216.8-1218.8] And we think there's a new frontier
+[1219.6-1222.1] that you do a lot of editing on your phone,
+[1222.1-1224.4] a lot of image editing on your phone.
+[1224.4-1227.5] And it's not only about pushing quality
+[1227.5-1231.8] at 100 billion parameter or 1 trillion parameter range.
+[1232.7-1236.1] We think it's really important to have small models
+[1236.1-1237.7] that can run on device.
+[1237.7-1240.3] Obviously a lot of companies care about privacy
+[1240.3-1244.4] and we are really excited to partner with the industry
+[1244.4-1249.4] to push the kind of small model size quality further.
+[1251.5-1253.4] Now in terms of the research team,
+[1255.0-1256.6] it's an interesting question
+[1256.6-1260.4] whether you can focus on a very small narrow field
+[1260.4-1262.0] in image generation.
+[1262.0-1266.4] I sort of believe that you need a general understanding
+[1266.4-1270.2] of the world in order to even be good at logo generation
+[1270.2-1273.8] or be good at illustration style.
+[1273.8-1277.4] But once you have a general base,
+[1277.4-1281.2] then you can customize the model for certain use cases
+[1281.2-1284.0] and it can be the best at that particular use case.
+[1284.0-1286.7] So we're really excited about customization
+[1286.7-1288.4] with I think that's a new frontier.
+[1288.4-1290.6] And again, that's an important reason
+[1290.6-1293.6] for releasing the model with open weights.
+[1293.6-1298.6] That is every artist who has at least like 50 pieces
+[1299.7-1303.0] of art or hopefully like a little more,
+[1303.0-1304.8] they can really customize the model
+[1304.8-1308.2] to the new answers of their style,
+[1308.2-1312.2] the texture of their canvas and really get 2K output.
+[1312.2-1315.6] And hopefully make that part of their workflow
+[1315.6-1319.1] and be augmented with AI
+[1319.1-1321.7] and be a lot more productive and creative.
+[1321.7-1325.0] And we actually have worked with some artists in residence
+[1325.0-1328.0] who said to us, okay,
+[1328.0-1330.1] this at least made me 3x faster
+[1330.1-1332.6] in making this comic book.
+[1332.6-1333.8] So that's one frontier.
+[1333.8-1336.4] And another frontier is enterprise again
+[1336.4-1339.5] because it's not about how good a model is
+[1339.5-1340.6] in the general sense.
+[1340.6-1345.5] It's about how good is this model for my use case, right?
+[1345.5-1347.0] At the end of the day,
+[1347.0-1350.4] I may not care about many of the general purpose use cases,
+[1350.4-1352.7] I may not care about character consistency
+[1352.7-1354.6] for example, as an enterprise
+[1354.6-1357.2] but even though this model is small,
+[1357.2-1360.0] they think it can be the best model
+[1360.0-1361.8] for particular use cases,
+[1361.8-1364.1] whether that's a certain artist
+[1364.1-1365.7] or whether that's an enterprise.
+[1365.7-1368.0] Were you getting a lot of demand from enterprises
+[1368.0-1369.4] when it was a closed model
+[1369.4-1371.4] that wanted to fine tune it on their own data?
+[1371.4-1373.6] Were there use cases where you're like,
+[1373.6-1376.0] we really need to open source it now
+[1376.0-1378.3] because there's so many cool things that people want to do?
+[1378.3-1382.2] Yeah, yeah, so some of the enterprises we work with
+[1382.2-1383.5] are very sensitive.
+[1383.5-1385.1] They don't want to talk about using AI
+[1385.1-1389.2] in their visual side of things.
+[1389.2-1392.8] But what we've seen over and over again
+[1392.8-1396.2] is companies come to us and say,
+[1396.2-1399.0] we try these generic models
+[1399.0-1401.3] and they don't meet our design bar.
+[1401.3-1402.9] They don't follow our style,
+[1402.9-1405.2] they don't follow our brand guidelines
+[1405.2-1407.6] and once we train customers for them,
+[1407.6-1408.6] they are like, wow,
+[1408.6-1410.8] this understand my brand DNA now,
+[1410.8-1414.0] we can use this for design ideation
+[1414.0-1417.5] or we can use this for marketing
+[1417.5-1422.1] and we thought with open rates release,
+[1422.1-1425.7] we can give it glimpse of customization
+[1425.7-1430.0] to developers within enterprise
+[1430.0-1433.7] and kind of scale this side of our business further
+[1434.8-1437.2] and we're really excited about that.
+[1437.2-1439.3] For enterprises as you alluded to,
+[1439.3-1442.8] I mean, customization is really top of mind
+[1442.8-1444.4] whether that's a brand kit
+[1444.4-1447.0] or it's something that is stylistically just done
+[1447.0-1450.4] but hard to encode that style into just a dock.
+[1450.4-1453.4] So I imagine customization on top of the open source model,
+[1453.4-1455.2] which is the best way to go.
+[1455.2-1457.2] So the question becomes like,
+[1457.2-1459.3] what is the ramp up for the customers
+[1459.3-1462.0] or the artists to start post-training
+[1462.0-1464.8] or fine-tuning on top of the ideogram model?
+[1464.8-1466.2] What do they have to do?
+[1466.2-1468.2] So one thing I should say is
+[1469.6-1471.4] we will work with the open source community
+[1471.4-1474.2] to make it as customizable as possible
+[1474.2-1477.5] but because we are the model developer,
+[1477.5-1481.1] we have some secret sources that can make it even better.
+[1481.1-1484.4] So what will happen is there will be different ways
+[1484.4-1486.7] of customizing one is in the open source
+[1486.7-1489.1] based on the quantized model that's already released.
+[1489.1-1491.6] The other is we already have a product
+[1491.6-1493.6] that allows you to customize
+[1493.6-1496.7] by just uploading session number of images
+[1496.7-1499.9] to our custom model training app
+[1500.8-1503.9] and we haven't released the four or version of that yet
+[1503.9-1506.1] so we are hoping to release that as well.
+[1506.1-1509.0] And then the kind of third category
+[1509.0-1511.0] is when enterprises work with us
+[1511.0-1514.5] and we really describe these detailed prompts
+[1514.5-1516.7] for every image we work with their design team
+[1516.7-1519.0] to understand what words they want to use
+[1519.0-1522.3] because each team has different set of keywords.
+[1522.3-1525.1] Each company may have certain mascots
+[1525.1-1526.9] who have certain names.
+[1526.9-1531.6] And so our annotation team gets involved
+[1531.6-1534.8] and spends a lot of time curating and cleaning data.
+[1534.8-1539.6] And we think depending on your size and your budget,
+[1539.6-1542.2] you should just be able to customize the model
+[1542.2-1545.2] maybe use the open source at the low budget
+[1545.2-1547.8] and then you can come and talk to us
+[1547.8-1550.3] so that we can build the model for you at the high budget
+[1550.3-1553.8] but then depends on really the ROI
+[1553.8-1556.1] that you have in mind for your models.
+[1556.1-1558.3] One of the things I think people have been talking about a lot
+[1558.3-1560.7] both for enterprise and actually for consumer
+[1560.7-1564.0] is fine tuning versus image editing.
+[1564.0-1567.6] I actually think they don't necessarily have to be competitive
+[1567.6-1570.8] like some people use image editing as a way of fine tuning
+[1570.8-1574.5] like they say take this image and put it into the style.
+[1574.5-1576.8] Others think it's much more efficient and consistent
+[1576.8-1579.8] to just fine tune a model to generate in that style.
+[1579.8-1581.6] I know you alluded to wanting to release
+[1581.6-1583.4] an editing model further down the line.
+[1583.4-1586.5] So we'd love to hear how you guys are thinking about that.
+[1586.5-1587.3] Yeah, I agree.
+[1587.3-1589.3] I think editing is very powerful.
+[1589.3-1590.7] We both agree.
+[1590.7-1595.8] You all agree when editing launched last year,
+[1595.8-1598.9] so many new possibilities opened up
+[1598.9-1601.4] and the nice thing about editing is this quick.
+[1601.4-1603.0] You don't have to tune a model.
+[1603.0-1606.8] You just take a style or an existing image
+[1606.8-1608.0] and you make some changes
+[1608.0-1610.0] and it's part of your iterative workflow
+[1610.0-1613.8] because with every creative that we've worked with
+[1613.8-1616.2] it's never one shot prompting.
+[1616.2-1617.8] It's often, okay, you get something
+[1617.8-1621.4] and then you're gonna go and fix certain details
+[1621.4-1623.3] after the first generation.
+[1623.3-1624.4] Now that's for editing.
+[1625.4-1628.7] But then customization gives you really freedom
+[1628.7-1630.6] to not prompt at all, right?
+[1630.6-1633.1] Because sometimes it's very hard for you to say,
+[1633.1-1636.3] oh, I want to get inspired by this single image
+[1636.3-1638.0] and edit that one.
+[1638.0-1643.2] You may have some general style in mind
+[1643.2-1647.6] and want to ideate in the context of that general style
+[1647.6-1649.8] or you may have a character
+[1649.8-1653.8] that has many detailed degrees of freedom
+[1653.8-1656.2] or characteristics to the left side,
+[1656.2-1657.8] maybe different from the right side
+[1657.8-1659.7] and like certain outfit.
+[1659.7-1663.8] And it's very hard to really put all of those images
+[1663.8-1668.2] as the input to your editing model and it often fails.
+[1668.2-1671.0] So we think customization can give you
+[1671.0-1674.9] a lot more powerful adherence to your characters
+[1674.9-1678.6] and allows for an easier iteration and ideation.
+[1678.6-1679.9] So I agree with you.
+[1679.9-1681.9] I don't think they're mutually exclusive
+[1681.9-1683.5] but they're both very powerful.
+[1683.5-1687.1] With the JSON prompting and editing and model functioning,
+[1687.1-1691.0] the compulsibility aspect of the model is just huge.
+[1691.0-1693.4] There are so many ways you could customize it.
+[1694.4-1697.0] One hot topic in the industry
+[1697.0-1699.4] in the research community is a genetic loop
+[1699.4-1701.1] for creative tools, right?
+[1701.1-1704.1] So it used to be the creativity tools,
+[1704.1-1706.5] the consumption layer is always a UI.
+[1706.5-1710.5] As a human, I look at it and then I make modification.
+[1710.5-1715.2] Now so much of that may become like an API request
+[1715.2-1717.0] like that engine makes.
+[1717.0-1718.0] How do you see that?
+[1718.0-1720.5] What would the API intel
+[1720.5-1722.6] compare to how humans use it?
+[1722.6-1725.3] And your earlier point, I want to say something
+[1725.3-1729.5] which is we seem to compare image generation
+[1729.5-1731.4] with language models a lot.
+[1731.4-1735.6] And for example, in the language model space,
+[1735.6-1737.6] even the customization exists,
+[1737.6-1741.9] it's not that every company customizes their language models.
+[1741.9-1743.8] But I think that actually misses a point.
+[1743.8-1748.8] When you look at visual representation of a brand,
+[1749.1-1752.0] you immediately recognize the differences between brands.
+[1752.0-1754.6] But if you look at the written communication,
+[1754.6-1757.8] can you say, is this Andreessen Horowitz
+[1757.8-1759.0] or this is Sequoia?
+[1759.0-1760.4] I mean, you probably can tell.
+[1760.4-1763.2] I hope so for that.
+[1763.2-1764.4] I think at the point.
+[1764.4-1768.4] But most people will not be able to immediately look at the text.
+[1768.4-1769.0] That's true.
+[1769.0-1773.2] And then say, so there is a lot more diversity
+[1773.2-1775.1] in the visual world.
+[1775.1-1777.6] And that's very exciting for customization.
+[1777.6-1781.5] And there are a lot of unique ways of interacting with the models
+[1781.5-1784.0] that kind of goes back to your earlier question,
+[1784.0-1785.9] a lot of 3D manipulation.
+[1785.9-1787.7] So for that kind of use case,
+[1787.7-1791.1] the input will be some 3D representation
+[1791.1-1794.9] of the joints or position of the objects.
+[1794.9-1799.6] Then you may have a completely different stylistic variation
+[1799.6-1801.6] with the style being the input.
+[1801.6-1804.0] So there are a lot of different types of interactions
+[1804.0-1806.8] that you want to enable.
+[1806.8-1808.9] And for that reason,
+[1808.9-1811.6] it's much different from the language space
+[1811.6-1813.5] where the input is always text
+[1813.5-1816.5] and you can kind of more or less convert everything to text.
+[1816.5-1818.6] You're so excited about the agents.
+[1818.6-1820.2] We have our own MCP.
+[1820.2-1822.9] We use them a lot internally.
+[1822.9-1827.6] What's really exciting is when you want to release a new feature,
+[1827.6-1830.3] you can go into your agents
+[1830.3-1833.1] and then ask it to connect to the API
+[1833.1-1834.7] and generate a bunch of images.
+[1834.7-1836.6] And then you can go and find the best ones.
+[1836.6-1838.3] And like in a couple of hours,
+[1838.3-1841.4] you have your landing page up around it.
+[1841.4-1844.9] So we are very, very excited about agenting workflows.
+[1844.9-1847.5] We think there's just at the beginning to your point,
+[1847.5-1849.5] we need evaluation as part of the loop.
+[1849.5-1853.6] We don't want to have to look at every image.
+[1853.6-1856.8] And then editing will be part of the
+[1856.8-1858.4] agenting interaction too.
+[1858.4-1862.0] How we exactly want to compose these different pieces
+[1862.0-1865.3] to accomplish a goal is still to be discussed.
+[1865.3-1867.4] But we have API and we have MCP
+[1867.4-1871.9] and we really want to enable the agentic workflow.
+[1871.9-1875.0] And we think every company is trying to figure it out as well.
+[1875.0-1877.4] So we're really excited about that.
+[1877.4-1879.9] I guess for the API business,
+[1879.9-1881.9] so much of a design is iteration.
+[1881.9-1883.5] It's a long tail of a design.
+[1883.5-1885.4] It's no longer just you prompt something,
+[1885.4-1887.7] you get an image and call it a day, right?
+[1887.7-1890.0] It's so much of a, get an image,
+[1890.0-1894.2] use the edit model to edit it, see if it works well,
+[1894.2-1897.3] if it doesn't get another image with the JSON blob,
+[1897.3-1900.3] which is easier for control.
+[1900.3-1902.2] What are the new use cases you have seen
+[1902.2-1904.3] after launching a model of how people
+[1904.3-1907.1] do like compose different API calls
+[1907.1-1909.0] on the ideal grandma?
+[1909.0-1911.3] What's interesting is, yes,
+[1911.3-1915.8] we have these agents, a lot of them live in a chat bot.
+[1915.8-1919.4] And that's not enough for iteration unfortunately.
+[1919.4-1921.1] So I think what's unique about that
+[1921.1-1923.4] is you can really scale creativity,
+[1923.4-1925.9] like kind of give it some high level direction
+[1925.9-1929.3] and ask it to go and explore many different approaches
+[1929.3-1933.0] and come back with hundreds of thousands of designs
+[1933.0-1936.3] that can be easily looked at
+[1936.3-1937.8] and then you get a better sense of,
+[1937.8-1939.5] okay, I want to explore more in this direction.
+[1939.5-1943.9] So the language model interaction allows
+[1943.9-1947.8] for kind of very large scale exploration
+[1947.8-1950.4] of creative possibilities.
+[1950.4-1952.6] But once you know what you want,
+[1953.5-1957.9] you need the UI, you need a UX to be able to go and edit
+[1957.9-1960.0] and whether it's regional editing
+[1960.0-1961.3] or text-based editing,
+[1961.3-1964.2] I think at the end of the day you want your canvas,
+[1964.2-1966.2] you want to be able to point to things
+[1966.2-1969.1] and then you want to also talk to it with national language.
+[1969.1-1971.8] And it's actually very hard work
+[1971.8-1973.2] because models are changing
+[1973.2-1976.1] and now you're also designing the user interface
+[1976.1-1977.3] at the same time.
+[1977.3-1980.6] So kudos to the best designers
+[1980.6-1982.2] who understand how these models work
+[1982.2-1984.5] and are trying to figure this product.
+[1984.5-1986.2] There's a still a lot of work to do.
+[1987.3-1990.9] In terms of the things we've seen from the model,
+[1990.9-1994.5] again, design is something that's coming up a lot
+[1994.5-1998.2] and I saw a tweet before coming here
+[1998.2-2001.0] that somebody said, I have no design training
+[2001.0-2005.2] and I got this design in two minutes
+[2005.2-2008.0] and it actually looked really, really nice.
+[2009.8-2012.5] That's, that was one example.
+[2012.5-2016.4] And then people are really excited
+[2016.4-2018.2] about the art possibilities
+[2018.2-2019.7] because this model was trained
+[2019.7-2023.6] with very unique style description as part of training.
+[2023.6-2027.0] We actually stripped that from the JSON prompt
+[2027.0-2029.3] because it became too much.
+[2029.3-2033.8] But the model has a lot of artistic possibilities
+[2033.8-2038.6] and like many different styles are embedded into a model.
+[2038.6-2042.1] And if you've seen some of the frontier models
+[2042.1-2045.2] actually that score very highly in the leaderboards,
+[2045.7-2050.7] they don't have a lot of kind of design variation.
+[2053.0-2055.6] They always produce the same exact look.
+[2055.6-2057.2] And I believe that's because they did a lot
+[2057.2-2058.6] of reinforcement learning training.
+[2058.6-2061.0] And I actually have done very little reinforcement learning.
+[2061.0-2063.1] So this is a very raw model.
+[2063.1-2065.8] Now with that, the outcome is
+[2065.8-2068.3] you need to be much more precise with your prompting
+[2068.3-2070.4] while you can get a lot of different styles
+[2070.4-2073.2] from the model and people seem to be very excited
+[2073.2-2075.6] about that aspect of the model,
+[2075.6-2077.6] especially in the art community.
+[2077.6-2080.4] I think when you talk both about the design in the art,
+[2080.4-2083.0] it really brings back the taste point you made earlier
+[2083.0-2085.2] because for so many sorts of designs,
+[2085.2-2087.8] you're trying to communicate some sort of idea
+[2087.8-2090.2] whether it's like an infographic or an ad
+[2090.2-2091.8] or a logo or whatever.
+[2091.8-2094.8] And it kind of needs to stand out
+[2094.8-2097.1] and like be distinct to you or have a unique style.
+[2097.1-2098.6] And I've totally noticed what you said,
+[2098.6-2102.6] a lot of the frontier, the historical frontier image models,
+[2102.6-2104.9] like you're scrolling the feed and you just see like,
+[2104.9-2107.1] I've now seen this style like 50 times.
+[2107.1-2108.2] I've seen it a hundred times.
+[2108.2-2110.0] It doesn't like catch my eye anymore.
+[2110.0-2114.3] And it feels like now when I prompt ideogram four,
+[2114.3-2117.5] I often get something that like makes me stop and be like,
+[2117.5-2119.7] wow, this is different than anything I've seen
+[2119.7-2121.6] before coming out of an image model.
+[2121.6-2124.0] And like this is doing an amazing job
+[2124.0-2125.9] of both communicating what I want to communicate
+[2125.9-2127.7] and also holding someone's attention.
+[2128.6-2134.6] Yeah, so we tried to be enabling very different styles.
+[2134.6-2136.7] And that was one of our goals.
+[2136.7-2140.2] We still want to produce tasteful output.
+[2140.2-2145.2] But that doesn't mean we have to force a complex output.
+[2145.2-2148.1] If you want a minimalist design,
+[2148.1-2149.4] you should be able to get that.
+[2149.4-2151.9] Actually, our minimalist is too minimalist in my opinion.
+[2151.9-2155.7] I was saying we should ban the word minimalist
+[2155.7-2159.3] from the output, but you get what I mean.
+[2159.3-2162.0] It's like the model can do many different things
+[2162.0-2163.9] and that's by design.
+[2163.9-2166.2] We know what's the first ideogram model
+[2166.2-2168.0] we're going to your post-training
+[2168.0-2170.8] would be a A16z marketing brand style Art Deco.
+[2170.8-2172.1] A16z Art Deco.
+[2172.1-2173.1] Yeah, that's right.
+[2173.1-2176.6] For the new brand, yeah, that's very exciting.
+[2176.6-2179.8] Yeah, so I guess the question also becomes like,
+[2179.8-2182.0] I kind of ask you the representation question before,
+[2182.0-2185.0] which is, here's a JSON representation.
+[2185.0-2189.2] As an artist, obviously, if you abstract it out far enough,
+[2189.2-2191.1] all the lines are pixels.
+[2191.1-2194.8] So you could say that the composability is on a pixel level,
+[2194.8-2197.6] which is actually different from the diffusion representation.
+[2197.6-2202.0] It's like denoising and they're operating a different space.
+[2202.0-2203.4] Where does this lead to?
+[2203.4-2207.0] If you travel down the JSON path granular enough,
+[2207.0-2208.5] does it lead to pixels?
+[2208.5-2210.1] Does it lead to SVGs?
+[2210.1-2213.0] Does it lead to language or something else?
+[2213.0-2214.2] That's a very good question.
+[2214.3-2217.9] So in general, the recipe for building
+[2217.9-2219.9] more powerful models in my opinion
+[2219.9-2223.8] is making the task as a straightforward as possible
+[2223.8-2225.2] for the diffusion model.
+[2225.2-2230.4] That is specify the exact details of the image.
+[2230.4-2233.4] And so now if you kind of make that extreme,
+[2233.4-2235.4] then it becomes the pixels themselves.
+[2235.4-2237.6] So the fusion model doesn't have to do anything.
+[2237.6-2241.0] Now, the catch is what we would like to do
+[2241.0-2243.4] is to get the language model to produce
+[2243.4-2245.8] that intermediate representation.
+[2245.8-2247.8] And language models, as of now,
+[2247.8-2250.9] they aren't very good with continuous output.
+[2250.9-2253.9] They aren't very good with pixel values
+[2253.9-2258.2] or very high dimensional vector representations.
+[2258.2-2261.9] So I guess the constraint here is that the representation
+[2261.9-2265.2] has to be tokens of like,
+[2265.2-2267.9] I'm depending on your language model power.
+[2267.9-2269.6] Maybe it can be a million tokens.
+[2269.6-2271.0] Maybe it can be like that.
+[2271.0-2274.7] That's too extreme for us, it's about 4,000 tokens.
+[2274.7-2278.6] And that's where we still use national language
+[2278.6-2280.3] because these large language models
+[2280.3-2281.8] are trained with national language.
+[2281.8-2283.4] So they are very good with national language.
+[2283.4-2286.6] But it may become more close to HTML, for example.
+[2286.6-2287.8] That's okay, because again,
+[2287.8-2290.3] large language models are trained with HTML
+[2290.3-2292.2] and they know the tokens.
+[2292.2-2293.2] But it's going to be...
+[2293.2-2295.2] Would you have to design your own version of HTML
+[2295.2-2297.1] or would you align to HTML?
+[2297.1-2298.3] That's actually kind of alluding
+[2298.3-2300.6] to the editable model that I'm talking about.
+[2300.6-2302.6] And we've had a lot of black and forth.
+[2302.6-2304.3] Are we going to have our own JSON
+[2304.3-2309.0] for different text elements and buttons and stuff
+[2309.0-2311.4] or are we going to use HTML?
+[2311.4-2314.2] And seems like HTML makes more sense
+[2314.2-2316.5] just because these large language models
+[2316.5-2318.3] have already been trained on HTML
+[2318.3-2321.7] as opposed to us introducing a new JSON structure.
+[2321.7-2325.0] But I would say to answer your question,
+[2325.0-2327.9] that representation needs to be easy
+[2327.9-2329.3] for the language model.
+[2329.3-2331.9] With the particular design that we have right now,
+[2331.9-2333.3] which is a language model,
+[2333.3-2338.5] does some expansion of the ideas.
+[2338.5-2342.8] And then the image model takes those expanded descriptions
+[2342.8-2345.0] and turn them into images.
+[2345.0-2347.3] We'd love to hear if there's anyone who's interested in
+[2347.3-2349.6] working an ideogram or working with you guys
+[2349.6-2351.6] as a customer to find to a model.
+[2351.6-2353.9] What's the best way for them to get in touch with you
+[2353.9-2355.6] and the team?
+[2355.6-2358.9] First of all, we would love to work
+[2358.9-2361.9] with more engineers, like cracked engineers.
+[2361.9-2363.2] We have a very tiny team.
+[2363.2-2366.8] You see what we were able to produce with such a tiny team.
+[2366.8-2370.4] And if you want high agency, you know,
+[2370.4-2373.2] if you want your work to matter and part of,
+[2373.2-2376.5] and you want to be part of the academic
+[2376.5-2378.8] and open source ecosystem,
+[2378.8-2381.5] then this is the perfect time to join us.
+[2381.5-2384.9] Now, in addition, enterprises see the potential
+[2384.9-2387.5] and we would like to work with the most creative brands
+[2387.5-2391.8] out there to help them produce the best designs,
+[2391.8-2395.1] produce most provocative ads.
+[2395.1-2400.0] And also, we would like to partner with other startups
+[2400.0-2403.6] or other companies at different levels of the stack.
+[2403.6-2406.3] This is open weight so we can make it win-win.
+[2406.3-2410.1] And we would love to offer a different option
+[2410.1-2414.5] to companies who want more control
+[2414.5-2418.9] and data privacy and sovereignty.
+[2420.4-2423.2] So we would love to work with other enterprises
+[2423.2-2424.7] as well across the stack.
+[2424.7-2426.1] And in the best way would be like,
+[2426.1-2428.8] we have this email, partnerships at Idlegram,
+[2428.8-2431.2] you can DM me on Twitter or LinkedIn,
+[2431.2-2434.7] and I'm very active on both platforms.
+[2434.7-2437.0] Today, if I want to find to my own style,
+[2437.0-2438.8] where should I go on Idlegram?
+[2438.8-2442.2] Is there a play called you action?
+[2442.2-2444.0] Where should I tell people?
+[2444.0-2447.3] There is actually a model tab.
+[2447.3-2450.2] If you log into Idlegram, there's a model tab
+[2450.2-2452.9] and then you can go and upload your images
+[2452.9-2454.3] and train your model.
+[2454.3-2455.7] It's a little more expensive.
+[2455.7-2459.4] It's $60 for two model training per month,
+[2459.4-2462.2] but bidding for professionals that's totally worth it.
+[2462.2-2463.1] Absolutely.
+[2463.1-2466.6] And how many images do you need to get started?
+[2466.6-2469.2] I think you need at least 15.
+[2469.2-2470.6] So where I enter price,
+[2470.6-2474.3] if they want to find to their own model on Idlegram,
+[2474.3-2477.3] like what's your guidance on what they should upload
+[2477.3-2479.3] on Idlegram to start finding in the model?
+[2479.3-2480.8] I think for enterprise,
+[2480.8-2484.7] again, we have some sales forms they can fill
+[2484.7-2487.9] and then come talk to us because we see that
+[2487.9-2492.0] there are many differences in what different companies want.
+[2492.0-2493.7] Some companies get more about editing,
+[2493.7-2498.2] some companies want more like on the marketing side
+[2498.2-2500.1] to automate some of their ads
+[2500.1-2502.4] and we should talk first
+[2502.4-2505.0] and then figure out what's the best solution for that.
+[2505.0-2505.8] Great, awesome.
+[2505.8-2507.0] Thanks so much for joining us.
+[2507.0-2510.5] Thank you so much.
+[2510.5-2512.0] Thanks for listening to this episode
+[2512.0-2514.0] of the A16z podcast.
+[2514.0-2515.1] If you liked this episode,
+[2515.1-2517.3] be sure to like, comment, subscribe,
+[2517.3-2519.0] leave us a rating or review
+[2519.0-2521.2] and share it with your friends and family.
+[2521.2-2524.0] For more episodes, go to YouTube, Apple Podcasts,
+[2524.0-2525.3] and Spotify.
+[2525.3-2528.9] Follow us on X at A16z and subscribe to our substack
+[2528.9-2531.4] at a16z.substack.com.
+[2531.4-2532.6] Thanks again for listening
+[2532.6-2534.2] and I'll see you in the next episode.
+[2535.9-2539.1] As a reminder, the content here is for informational purposes only.
+[2539.1-2540.6] Should not be taken as legal business,
+[2540.6-2542.2] tax, or investment advice
+[2542.2-2544.9] or be used to evaluate any investment or security
+[2544.9-2546.4] and is not directed at any investors
+[2546.4-2549.6] or potential investors in any A16z fund.
+[2549.6-2551.6] Please note that A16z and its affiliates
+[2551.6-2553.6] may also maintain investments in the companies discussed
+[2553.6-2554.8] in this podcast.
+[2554.8-2557.6] For more details, including a link to our investments,
+[2557.6-2561.8] please see A16z.com forward slash disclosures.

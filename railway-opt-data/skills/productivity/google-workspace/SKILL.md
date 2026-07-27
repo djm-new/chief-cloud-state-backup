@@ -169,6 +169,20 @@ Should print `AUTHENTICATED`. Setup is complete — token refreshes automaticall
 
 All commands go through the API script. Set `GAPI` as a shorthand:
 
+## Attachment intake
+
+For Slack/Drive documents, prefer an uploaded file, then a Drive share link/file ID, then a Slack message/thread link. If the user only gives sender + topic, use local archives, Slack/email context, or session notes to narrow the candidate document before asking for the direct link.
+
+If a document is mentioned in Slack/email but the content is gated behind Google auth, retrieve the surrounding conversation and exact URL first, then report the auth wall clearly instead of guessing from the title alone.
+
+If the environment has multiple connected Google accounts, treat the default token as non-authoritative. Check the relevant account(s) before declaring a Drive item inaccessible, and verify which account owns the file when a document seems to be missing from a folder.
+
+See `references/attachment-intake.md` for the quick triage flow and `references/google-multi-account-discovery.md` for the account-sweep pattern.
+
+See `references/attachment-intake.md` for the quick triage flow, and `references/drive-doc-auth-triage.md` for the token/profile probing recipe.
+
+For temporary review files, use `My Drive > Chief_of_Staff > Projects > Hermes_temp_folder` in DJ's personal Drive. See `references/drive-temporary-folder.md` for the live-folder-ID lookup and upload verification pattern.
+
 ```bash
 GAPI="python ${HERMES_HOME:-$HOME/.hermes}/skills/productivity/google-workspace/scripts/google_api.py"
 ```
@@ -277,6 +291,8 @@ $GAPI sheets update SHEET_ID "Sheet1!A1:B2" --values '[["Name","Score"],["Alice"
 $GAPI sheets append SHEET_ID "Sheet1!A:C" --values '[["new","row","data"]]'
 ```
 
+For user-facing log Sheets, do not expose every backend/debug column by default. Put the human-use columns first (for example thumbnail, decision, reviewer, ET date, batch, item ID, category, notes) and hide or move audit/provenance fields such as UTC timestamp, session ID, device, raw URLs, rotation, source file, and app URL. DJ prefers Sheets that are immediately useful for review, not raw API exports.
+
 ### Docs
 
 ```bash
@@ -330,8 +346,11 @@ All commands return JSON. Parse with `jq` or read directly. Key fields:
 | `HttpError 403: Insufficient Permission` | Missing API scope — `$GSETUP --revoke` then redo Steps 3-5 |
 | `AUTHENTICATED (partial)` or "Token missing scopes" | New write capabilities (Drive write/delete, Docs create/edit) require re-authorization. `$GSETUP --revoke` then redo Steps 3-5 to grant the upgraded scopes. |
 | `HttpError 403: Access Not Configured` | API not enabled — user needs to enable it in Google Cloud Console |
-| `ModuleNotFoundError` | Run `$GSETUP --install-deps`. If the host has no `pip`/`ensurepip` but has `uv`, run the API script through `uv run --with google-api-python-client --with google-auth-oauthlib --with google-auth-httplib2 python ...` as a no-system-install fallback. |
+| `ModuleNotFoundError` | Run `$GSETUP --install-deps`. If the host has no `pip`/`ensurepip` but has `uv`, install the Google client deps directly into the Hermes interpreter with `uv pip install --python /opt/hermes/.venv/bin/python google-api-python-client google-auth-oauthlib google-auth-httplib2`. |
+| Multiple Google accounts | Set `HERMES_HOME=/opt/data/google-accounts/<account>` before running `setup.py` or `google_api.py`, then verify auth for the intended account explicitly. |
 | Advanced Protection blocks auth | Workspace admin must allowlist the OAuth client ID |
+
+See `references/google-auth-recovery.md` for the recovery recipe and account-targeting pattern.
 
 ## Revoking Access
 

@@ -1,0 +1,431 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-06-26_2104",
+  "usage": {
+    "prompt_tokens": 7063,
+    "completion_tokens": 1644,
+    "total_tokens": 8707
+  },
+  "episodes": [
+    {
+      "id": "920cb954807e4f9073081f73",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Money: Stock Valuations Should Worry Investors",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/0626moneyshowfinal-podcast",
+      "published": "2026-06-26T20:05:00+00:00",
+      "summary": "Bloomberg Money takes the pulse of your financial life, powered by the reporting of our global newsroom. Today's guests: Abby Joseph Cohen, the former Goldman Sachs partner and now Columbia Business School professor. Dan Skelly, Morgan Stanley Head: Wealth Management See omnystudio.com/listener for privacy information.",
+      "duration": "2291",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "920cb954807e4f9073081f73",
+        "score": 55,
+        "tier": "scan",
+        "reason": "Cohen and Skelly offer market valuation insights, but lacks AI or operational depth DJ prioritizes.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "66551f1e9cc1b95c16035385",
+      "show_name": "Cerebral Valley Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "The AI Industry Voted. OpenAI Lost. | Cerebral Valley Show LIVE",
+      "link": "https://podcasters.spotify.com/pod/show/cerebral-valley-show/episodes/The-AI-Industry-Voted--OpenAI-Lost---Cerebral-Valley-Show-LIVE-e3lap53",
+      "published": "2026-06-26T18:59:56+00:00",
+      "summary": "We polled AI insiders at a live Cerebral Valley event, and the results were not what we expected. In this special live episode, we survey a room full of AI founders, investors, and developers on the biggest questions in the industry right now. The crowd picked Anthropic over OpenAI as the company they most want to own, chose OpenAI as the company they most want to short, and overwhelmingly said we are in a bubble that has not burst yet. We also debate whether Codex has overtaken Claude Code, which incumbents are most threatened by AI agents, whether OpenAI will ship a hardware product by end of year, and close with a rapid fire round of the audience's spiciest anonymous takes on AI. Cerebral Valley Show is a biweekly AI podcast hosted by journalist Eric Newcomer alongside founders Max Child and James Wilsterman. Each episode breaks down the biggest stories in AI and venture, debates who's winning and losing, and puts bold predictions on the record.",
+      "duration": "00:17:05",
+      "old_score": 38,
+      "old_label": "skip",
+      "qwen": {
+        "id": "66551f1e9cc1b95c16035385",
+        "score": 80,
+        "tier": "digest",
+        "reason": "Live AI industry sentiment poll with founders/investors offers rare insider perspective on market dynamics and bubble concerns.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "edda4ea433b1360f2b026d2c",
+      "show_name": "New Yorker Radio Hour",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "low",
+      "title": "America at 250: A View from Britain, with “The Rest Is History”",
+      "link": "https://www.wnycstudios.org/podcasts/tnyradiohour",
+      "published": "2026-06-26T17:40:00+00:00",
+      "summary": "Americans tend to see the Declaration of Independence and the Revolutionary War as milestones in world history that inaugurated the era of modern democracy. But the British, unsurprisingly, see these events quite differently. David Remnick talks with the historians who host the popular podcast “The Rest Is History,” Dominic Sandbrook and Tom Holland. Growing up in Britain, Sandbrook explains, the Revolution seemed like “a parade of quite boring men talking very earnestly about liberty, [with] battles that involved twenty people in a field somewhere. . . . It’s not Waterloo!” The King was “annoyed” to lose the thirteen colonies to the new nation, but, for his government, “it could have been a lot worse.” Sandbrook and Holland discuss historical events that overshadow the American Revolution in the British mind; the 1619 Project and the subject of slavery; the “colossally consequential” Presidency of Donald Trump; and the fate of the British monarchy. Further reading and listening: “ The American Revolution Wasn’t the Main Event ,” by Daniel Immerwahr America at 250 , a special issue of The New Yorker “ Was the Declaration of Independence Better Before the Edits? ,” by Jill Lepore “ Scandal, Protest, Goofiness, and Grandeur at the U.S. Bicentennial ,” by Jill Lepore “ We Could Have Been Canada ,” by Adam Gopnik New episodes of The New Yorker Radio Hour drop every Tuesday and Friday. Join host David Remnick as he discusses the latest in politics, news, and current events in conversation with political leaders, newsmakers, innovators, New Yorker staff writers, authors, actors, and musicians. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:49:18",
+      "old_score": 0,
+      "old_label": "skip",
+      "qwen": {
+        "id": "edda4ea433b1360f2b026d2c",
+        "score": 30,
+        "tier": "skip",
+        "reason": "Historical perspective on American Revolution lacks relevance to DJ's market/tech/operator focus.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "5cb6bc4b2024fa86055a8e8c",
+      "show_name": "Stratechery",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "2026.26: Summer Vibes",
+      "link": "https://stratechery.com/2026/summer-vibes/",
+      "published": "2026-06-26T17:00:00+00:00",
+      "summary": "The best Stratechery content from the week of June 22, 2026, including a vibe coding adventure, Apple in Europe, and a midsummer mailbag.",
+      "duration": "",
+      "old_score": 30,
+      "old_label": "skip",
+      "qwen": {
+        "id": "5cb6bc4b2024fa86055a8e8c",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Stratechery's curated tech/business analysis, including Apple and European regulatory dynamics, aligns with DJ's interests.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "0f3219bea162d33084fbf28f",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: June 26th, 2026",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-june-26th-2026",
+      "published": "2026-06-26T16:15:48+00:00",
+      "summary": "Featuring: Cameron Dawson, Chief Investment Officer at Newedge Wealth Vivek Arya, Technology Analyst at Bank of America Securities Edward Fishman, Director of the Center for Geoeconomics at the Council on Foreign Relations See omnystudio.com/listener for privacy information.",
+      "duration": "1206",
+      "old_score": 4,
+      "old_label": "skip",
+      "qwen": {
+        "id": "0f3219bea162d33084fbf28f",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Bloomberg Surveillance with industry guests, but lacks specific AI or operational focus DJ prioritizes.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "e2045ecb1f248c27a41744d2",
+      "show_name": "Dishcast with Andrew Sullivan",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "low",
+      "title": "Robert Wright On AI And Evolution",
+      "link": "https://andrewsullivan.substack.com/p/robert-wright-on-ai-and-evolution",
+      "published": "2026-06-26T15:59:58+00:00",
+      "summary": "This is a free preview of a paid episode. To hear more, visit andrewsullivan.substack.com Bob is a journalist and the author of many books, including The Moral Animal , Nonzero , The Evolution of God , and Why Buddhism Is True . He’s written for countless magazines, including The New Republic, where he co-wrote the TRB column with Mickey Kaus. They also co-founded Bloggingheads TV, and Bob taught in the psych department at Penn and the religion department at Princeton. Today you can find him on Substack at the NonZero Newsletter , and his new book is The God Test : Artificial Intelligence and Our Coming Cosmic Reckoning . For two clips of the episode — how AI flatters its users, and the rapidly converging threats from AI — head to our YouTube page . Other topics: Bob’s reporting on AI in the early 1980s; Geoffrey Hinton — “the godfather of AI” — warning us about AI; “doomer-in-chief” Eliezer Yudkowsky; Bob’s own evolution on AI; the Tree of Knowledge; how AI is a more challenging global issue than nukes; the need for international regulation; the noosphere, our “global brain” — and its author, the visionary Christian, Teilhard de Chardin; neural networks; ChatGPT; Musk and self-driving cars; BF Skinner; philosopher John Searle; olfactory AI; virtual reality; AI designing drugs to induce spirituality; Anthropic’s Dario Amodei; Sam Altman calling Trump an NPC; AI stoking conspiracies; Leo’s encyclical; cognitive empathy; the Iran War; China vs Taiwan; kids befriending AI agents; Hal in 2001 ; the movie Her ; silicon neurons that evolve; AI threatening the human need to be needed; job losses; scams; electoral risks; populism and tribalism; how is AI a continuation of human evolution; and the many positive potentials of AI. Browse the Dishcast archive for an episode you might enjoy. Coming up: John Gray on Trump’s new world, Stephen Grosz on the struggles of love, David Thomson on cinema history, John O’Sullivan on conservatism, Robby George on all our disagreements, and Megan McArdle on pretty much anything. Please send any guest recs, dissents, and other comments to dish@andrewsullivan.com .",
+      "duration": "2990",
+      "old_score": 90,
+      "old_label": "must_listen",
+      "qwen": {
+        "id": "e2045ecb1f248c27a41744d2",
+        "score": 45,
+        "tier": "scan",
+        "reason": "AI and evolution discussion with Robert Wright, but leans philosophical and speculative rather than actionable.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "14773c2a61dad323e56f6938",
+      "show_name": "Dwarkesh Podcast",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "The next big breakthrough will be AIs learning on the job",
+      "link": "https://www.dwarkesh.com/p/the-next-paradigm",
+      "published": "2026-06-26T15:51:34+00:00",
+      "summary": "Read it here . Thanks to Mercury for sponsoring this essay. Mercury has automated basically my entire bill pay process for my business. I just give contractors a dedicated email address, and when they send an invoice, Mercury automatically creates a draft payment for me to review. I no longer have to hunt through my inbox for invoices or deal with messy spreadsheets to track my bills. Mercury handles it all. Learn more at mercury.com Timestamps: (00:00:00) – The big research bet the labs are making (00:02:12) – Grindability is just as important as verifiability (00:06:10) – Will RLVR alone generalize? (00:08:41) – Getting the learning back to the weights (00:15:22) – Dreaming (00:17:23) – What 2027 looks like Get full access to Dwarkesh Podcast at www.dwarkesh.com/subscribe",
+      "duration": "1193",
+      "old_score": 22,
+      "old_label": "skip",
+      "qwen": {
+        "id": "14773c2a61dad323e56f6938",
+        "score": 85,
+        "tier": "listen",
+        "reason": "Dwarkesh explores AI learning on the job, a critical frontier with implications for model training and deployment.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "6f704bdb7c33dfdecd3c8ec0",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Stocks Fall at End of Bruising Week for AI",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/stocks-fall-at-end-of-bruising-week-for-ai",
+      "published": "2026-06-26T15:50:35+00:00",
+      "summary": "The latest in finance, economics and investment. Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF . Bloomberg Surveillance hosted by Tom Keene & Paul SweeneyFriday, June 26, 2026 Featuring: 1) Nancy Tengler, CEO and CIO at Laffer Tengler investments 2) Diane Swonk, KPMG Chief Economist 3) Kristen Bitterly, Head: Wealth at Work at Citi 4) Robert Schiffman, Senior Tech Credit Analyst with Bloomberg Intelligence See omnystudio.com/listener for privacy information.",
+      "duration": "1756",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "6f704bdb7c33dfdecd3c8ec0",
+        "score": 60,
+        "tier": "digest",
+        "reason": "Market analysis on AI sector volatility offers timely context for capital allocation decisions.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "7f2ce0866f33ff33dcfd8d01",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Of course Meta thinks gambling is the future",
+      "link": "",
+      "published": "2026-06-26T15:34:00+00:00",
+      "summary": "Meta's business is doing just fine. But Meta as a company, and Meta as a series of products? That is, uh, messier. David and Nilay discuss the company's ongoing desire to be relevant and cool, the unceasing importance of Instagram, and why it makes perfect sense that Facebook would clone Polymarket. After that, the hosts talk about Apple's huge price increases, and the ways in which RAMageddon might change the gadget market forever. Then it's time for Brendan Carr is a dummy, the latest on the movie Artificial, and the looming fight over AI data. Further reading: ⁠The Steam Machine is the most ambitious game console I’ve ever played ⁠ ⁠Valve prices the Steam Machine at $1,049 ⁠ ⁠How much would the Steam Machine cost to build? ⁠ ⁠Valve describes just how brutal RAM negotiations are in 2026 ⁠ ⁠The Steam Machine is the start of an even more expensive future for game consoles ⁠ ⁠I drove the Slate Truck — there’s more to it than EV minimalism ⁠ ⁠The Slate Auto pickup truck starts at $24,950 ⁠ ⁠Meta pauses employee tracking tool after internal leak. ⁠ ⁠Now Meta will track what employees do on their computers to train its AI agents ⁠ ⁠Meta CTO Andrew Bosworth Admits the Company’s AI Reorg Was ‘Atrocious’ | WIRED⁠ ⁠Zuckerberg reportedly wants a Polymarket clone — but without real money⁠ ⁠Polymarket paid creators to post fake videos of themselves placing and winning bets. ⁠ ⁠Meta plans to release AI-powered prediction market app⁠ ⁠Facebook’s Creator Studio has been revived as an AI companion app⁠ ⁠Kaleidescape’s Strato E player blows streaming, and your wallet, away ⁠ ⁠Something’s off with Midjourney’s pivot to body scanners ⁠ ⁠People Inc. CEO says it’s “probably” headed for a confrontation with Google over AI crawling.⁠ ⁠ABC encourages viewers to back network amid FCC investigations⁠ ⁠Bob Iger’s Disney wanted Apple, Twitter, and 007 ⁠ ⁠The film about Sam Altman has been dropped by Amazon MGM ⁠ Subscribe to The Verge for unlimited access to theverge.com, subscriber-exclusive newsletters, and our ad-free podcast feed. We love hearing from you! Email your questions and thoughts to vergecast@theverge.com or call us at 866-VERGE11. (Timestamps are approximate.) 00:01:00 Cannes Cold Open 00:07:00 Coach x Spotify Absurdity 00:10:00 Vox Media PMX Shakeup 00:14:00 Meta Chaos vs Money 00:26:00 Gambling as Engagement 00:33:00 Ramageddon Hits Gadgets 00:44:00 Slate Truck Price 00:45:00 Range And Truck Feel 00:48:00 Tech Bloat Backlash 00:50:00 BYD Versus Tesla 00:56:00 FCC Targets The View 01:04:00 Amazon Drops Artificial 01:08:00 Kaleidescape Versus Blu Ray 01:13:00 Bob Iger Merger Rumors 01:17:00 Blocking AI Crawlers 01:22:00 Wrap Up And Next Week Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "5012",
+      "old_score": 75,
+      "old_label": "digest_only",
+      "qwen": {
+        "id": "7f2ce0866f33ff33dcfd8d01",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Meta's gambling pivot and Apple's pricing moves provide business model insights relevant to tech strategy.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "53046802e7af8f3c0da82cfd",
+      "show_name": "The Breakdown with NLW",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "How Strategy Insiders Insulated Themselves From the Crash",
+      "link": "",
+      "published": "2026-06-26T14:55:00+00:00",
+      "summary": "FOLLOW THE SHOW › David — https://x.com/dcanellis › The Breakdown — https://x.com/TheBreakdownBW › The Breakdown Newsletter — https://blockworks.com/newsletter/the-breakdown DISCLAIMER As always, remember this podcast is for informational purposes only, and any views expressed by anyone on the show are solely their opinions, not financial advice.",
+      "duration": "1296",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "53046802e7af8f3c0da82cfd",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Crypto-focused crash analysis, but lacks DJ's preferred operational or AI depth.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "58faaa98a1d05e6fe5b31943",
+      "show_name": "NYT Book Review",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "low",
+      "title": "Book Club: Let's Talk About 'Yesteryear,' by Caro Claire Burke",
+      "link": "https://www.nytimes.com/column/book-review-podcast",
+      "published": "2026-06-26T14:33:42+00:00",
+      "summary": "“Yesteryear,” Caro Claire Burke’s debut novel, tells the story of Natalie Heller Mills: an ultrasuccessful tradwife influencer who posts about her life on Yesteryear Ranch, a homestead where she grows her own food, tends to cows and chickens, raises her six children and models a particular brand of conservative Christian womanhood. But not all is as it seems. Behind the cameras, nannies care for the children, Natalie shops for the types of groceries she decries online, she detests her husband with his manosphere beliefs, and she’s on the cusp of being exposed by a rogue video producer. One day she wakes up and discovers she has been transported to 1855, forced to live the pioneer persona she has been performing online. How did she get there? How can she escape? And what does her misery mean about the lifestyle she has embraced for profit? \"Yesteryear\" was met with fanfare after it was published in April. Even before the book was released, it was scooped up for a film adaptation that Anne Hathaway is set to star in and produce. The novel was selected as a “Good Morning America” Book Club pick ; Burke appeared on “ Late Night With Seth Meyers ”; and the book has spent more than a month on The Times’s best-seller list. Everyone, it seems, is talking about “Yesteryear.” But does it live up to the hype? On this episode of the Book Review Book Club, the host MJ Franklin discusses the book with his colleagues Jennifer Harlan and Joumana Khatib. Other books mentioned in this episode: “Running Out of Time,” by Margaret Peterson Haddix “Gone Girl,” by Gillian Flynn “The Power,” by Naomi Alderman “Eileen,” by Ottessa Moshfegh “The Compound,” by Aisling Rawle “Hot Girls With Balls,” by Benedict Nguyen “Just Watch Me,” by Lior Torenberg “A Good Person,” by Kirsten King “The Guest,” by Emma Cline Subscribe today at nytimes.com/podcasts or on Apple Podcasts and Spotify. You can also subscribe via your favorite podcast app here https://www.nytimes.com/activate-access/audio?source=podcatcher . For more podcasts and narrated articles, download The New York Times app at nytimes.com/app. Subscribe today at nytimes.com/podcasts or on Apple Podcasts and Spotify. You can also subscribe via your favorite podcast app here https://www.nytimes.com/activate-access/audio?source=podcatcher . For more podcasts and narrated articles, download The New York Times app at nytimes.com/app. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:58:19",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "58faaa98a1d05e6fe5b31943",
+        "score": 25,
+        "tier": "skip",
+        "reason": "Fiction book review lacks relevance to DJ's market/tech/operator focus.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "3f0f9d2b56ff4e9df1538aaf",
+      "show_name": "Hard Fork",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "‘The Daily’ and ‘The Opinions’: How A.I. Is Changing Loneliness and Taste",
+      "link": "https://www.nytimes.com/column/hard-fork",
+      "published": "2026-06-26T11:00:00+00:00",
+      "summary": "This week, we’re bringing you two A.I.-related stories from our colleagues at The New York Times. First, Rachel Abrams, a host of “The Daily,” talks with the Times reporter Eli Saslow about a woman in a remote part of Washington who is using an A.I. companion robot to keep her independence, and to keep her company. Then, the Times Opinion culture editor Nadja Spiegelman talks to the New Yorker writer Kyle Chayka and the journalist and critic Sophie Haigney. They get into the rise of “taste slop” and what happens to culture if the internet collapses into just a few chatbots that serve us everything. “Hard Fork” will be back with an original episode next week. Guests: Eli Saslow , a reporter for The New York Times who writes in-depth stories about the impact of major national issues on people’s lives. Kyle Chayka , staff writer at The New Yorker covering technology and online culture. Sophie Haigney , a critic and journalist. Additional Reading: Can A.I. Make People Feel Less Lonely? What Silicon Valley Is Coming for Next We want to hear from you. Email us at hardfork@nytimes.com. Find “Hard Fork” on YouTube and TikTok . Subscribe today at nytimes.com/podcasts or on Apple Podcasts and Spotify. You can also subscribe via your favorite podcast app here https://www.nytimes.com/activate-access/audio?source=podcatcher . For more podcasts and narrated articles, download The New York Times app at nytimes.com/app. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:59:33",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "3f0f9d2b56ff4e9df1538aaf",
+        "score": 55,
+        "tier": "scan",
+        "reason": "AI companions and cultural impact of chatbots offer sociocultural context but limited operational value.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "c7b94fe04bcd8f275a4a2ee6",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "AI Is Crossing the Frontier of Human Knowledge | Kevin Weil",
+      "link": "https://a16z.simplecast.com/episodes/ai-is-crossing-the-frontier-of-human-knowledge-kevin-weil-jewVLsTo",
+      "published": "2026-06-26T10:16:31+00:00",
+      "summary": "Kevin Weil, the previous CPO & Vice President of Science at OpenAI, joins Speedrun to discuss the future of AI, scientific discovery, and startup building. After helping build products at Twitter, Instagram, and Facebook, Weil is now focused on one of AI's most ambitious applications: accelerating science itself. He explains why modern AI models are beginning to solve problems that sit beyond the frontier of existing human knowledge, and how advances in reasoning, coding, and autonomous research could reshape fields ranging from mathematics to medicine. The conversation explores scientific discovery, robotic labs, AI agents, product design, startup opportunities, and why the current wave of AI may create entirely new categories of companies. Along the way, Weil shares lessons from scaling products used by billions of people and explains what founders should understand about building in a world where AI capabilities continue to improve at an unprecedented pace. Resources: Follow Kevin Weil on X: https://x.com/kevinweil Follow Speedrun on X: https://x.com/speedrun Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:34:09",
+      "old_score": 57,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "c7b94fe04bcd8f275a4a2ee6",
+        "score": 88,
+        "tier": "listen",
+        "reason": "OpenAI's Kevin Weil discusses AI's frontier in science and product design—high relevance to DJ's interests.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "0a756c1b43132423620af2a9",
+      "show_name": "No Priors",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Why Traditional Benchmarks Fail Modern AI Models with OpenAI Research Scientist Noam Brown",
+      "link": "",
+      "published": "2026-06-26T10:13:00+00:00",
+      "summary": "When a new AI model drops, it’s judged based on a static benchmark grid that doesn’t account for how long the model is allowed to think. How then should we measure a model’s true capability? OpenAI research scientist Noam Brown returns to talk with Sarah Guo about his latest essay on why the AI industry’s traditional benchmark grids are broken, and how large-scale test-time compute is fundamentally changing how models are evaluated. Noam explains how, if properly scaffolded, today’s models can reason for weeks or even months on complex tasks. He also discusses real-world implications of test-time compute, from building poker solver bots to disproving legendary math conjectures. Together, they also unpack the large gaps in current AI safety frameworks, explore the bottlenecks for recursive self-improvement, and look ahead at the future of multi-agent collaboration and global knowledge sharing. Read more: Implications of Large-Scale Test-Time Compute Sign up for new podcasts every week. Email feedback to show@no-priors.com Follow us on Twitter: @NoPriorsPod | @Saranormous | @EladGil | @polynoamial | @OpenAI Chapters: 00:00 – Cold Open 00:43 – Noam Brown Introduction 01:23 – Why Benchmarks Are Broken 04:19 – Compute Budgets and Projections 05:34 – How Long Should Models Think? 06:47 – Benchmark-Maxxing 08:34 – Using Poker Bots as Evals 11:26 – Safety Evals When Model Capability Scales With Budget 14:41 – Release Cycle vs. Agent Runtime 17:06 – Latent Model Capability 20:59 – Limits on Recursive Self-Improvement 27:09 – Large-Scale Multi-Agent Coordination 29:11 – Competition at the Frontier 31:51 – Breaking the Benchmark Grid Equilibrium 33:29 – Why Benchmarks Should be Evaluated by Cost 36:18 – Conclusion",
+      "duration": "2178",
+      "old_score": 57,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "0a756c1b43132423620af2a9",
+        "score": 90,
+        "tier": "listen",
+        "reason": "Noam Brown on AI benchmarking and long-term reasoning offers foundational insight into model evaluation and safety.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "27c3fb4f48bd51aeef59e20c",
+      "show_name": "Plain English with Derek Thompson",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "SpaceX, AI Bubble Fears, and The Age of the Trillion-Dollar, Zero-Profit Company",
+      "link": "",
+      "published": "2026-06-26T10:00:00+00:00",
+      "summary": "For decades, investors valued companies based on a familiar formula: Grow revenue, earn profits, and reward shareholders. But a new era may be beginning - one where trillion-dollar companies can lose billions of dollars a year and still command enormous valuations. SpaceX recently became one of the world's most valuable public companies despite reporting multibillion-dollar losses. Meanwhile, OpenAI and Anthropic are also racing toward public markets with sky-high valuations and no expectation of near-term profitability. These companies are spending staggering sums on chips, data centers, and AI infrastructure, as they bet that today's losses will create tomorrow's economic winners. Today, Derek is joined by Michael Batnick and Ben Carlson of Ritholtz Wealth Management and the Animal Spirits podcast to explore the rise of the trillion-dollar, zero-profit company and what it says about the future of technology, investing, and the American economy. Subscribe to our YouTube channel here:https://www.youtube.com/@PlainEnglishwithDerekThompson If you have questions, observations, or ideas for future episodes, email us at PlainEnglish@Spotify.com. Host: Derek Thompson Guest: Ben Carlson and Michael Batnick Producer: Devon Baroldi Additional Production Support: Ben Glicksman Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "3224",
+      "old_score": 38,
+      "old_label": "skip",
+      "qwen": {
+        "id": "27c3fb4f48bd51aeef59e20c",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Thompson and Ritholtz explore trillion-dollar, zero-profit companies—key context for tech investing trends.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "518065ac35bf0f8dab76de18",
+      "show_name": "Sharp Tech",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "(Preview) A Summer Break Mailbag: Memory Mania, Vibe Coding, Mafia PR, Caffeine Intake, Garages, and How to Fix Soccer",
+      "link": "https://sharptech.fm/member/episode/preview-a-summer-break-mailbag-memory-mania-vibe-coding-mafia-pr-caffeine-intake-garages-and-how-to-fix-soccer",
+      "published": "2026-06-26T08:59:50+00:00",
+      "summary": "Ben and Andrew begin with an extended look at the market for memory chips, including market history, the supply crunch driving up today’s valuations, the myopia from SK Hynix, Samsung and Micron, new entrants from China, and why the timing of Apple’s price increases are a bearish signal. From there: Both hosts share their daily caffeine regimen, garage takes, and lots of thoughts on vibe coding after Ben’s 10-day foray into AI-assisted engineering. At the end: Codex marketing and an imminent OpenAI super app, Sam Altman’s appearance in a game of mafia, could the EU push Apple to better business strategy, stock buyback clarification, ocean data centers, metricmaxxing, and an update on last week’s hydration break take along with a better fix for international soccer.",
+      "duration": "00:26:20",
+      "old_score": 71,
+      "old_label": "digest_only",
+      "qwen": {
+        "id": "518065ac35bf0f8dab76de18",
+        "score": 60,
+        "tier": "digest",
+        "reason": "Memory chip market analysis and AI-assisted engineering insights align with DJ's hardware and productivity interests.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "6ada37dd7218321432de0e63",
+      "show_name": "The Meb Faber Show",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Ben Carlson: The Numbers That Break Your Brain About Long Term Investing | #637",
+      "link": "",
+      "published": "2026-06-26T08:30:00+00:00",
+      "summary": "Today’s guest is Ben Carlson of Ritholtz Wealth Management, author of A Wealth of Common Sense and host of the Animal Spirits podcast. In today’s episode, Ben unpacks the counterintuitive math behind long term investing. He reveals that picking the wrong asset every year still makes money, that the average up year tops 20%, and that stocks grow less volatile than bonds the longer you hold. To close, Ben explains why patience has never been harder. (0:00) Starts (2:05) Ben Carlson on the secret to investing (5:00) The worst investor ever (15:20) Tax management as new alpha (17:12) Inflation’s impact on asset classes (21:06) \"Now do Japan\" (33:02) Lessons from bear markets (41:54) Discretionary investing challenges (46:31) Poor performance of hyperactive traders ----- Sponsor: ⁠⁠Ivy Invest⁠ ⁠- To learn more about Ivy Invest's SEC-registered endowment-style fund, view the prospectus, and learn how to invest, visit⁠ ⁠ivyinvest.co/fund ----- Follow Meb on X, LinkedIn and YouTube For detailed show notes, click here To learn more about our funds and follow us, subscribe to our mailing list or visit us at cambriainvestments.com ----- Follow The Idea Farm: X | LinkedIn | Instagram | TikTok ----- Interested in sponsoring the show? Email us at Feedback@TheMebFaberShow.com ----- Past guests include Ed Thorp, Richard Thaler, Jeremy Grantham, Joel Greenblatt, Campbell Harvey, Ivy Zelman, Kathryn Kaminski, Jason Calacanis, Whitney Baker, Aswath Damodaran, Howard Marks, Tom Barton, and many more. ----- Meb's invested in some awesome startups that have passed along discounts to our listeners. Check them out here! ----- Editing and post-production work for this episode was provided by The Podcast Consultant (https://thepodcastconsultant.com). Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "duration": "3454",
+      "old_score": 63,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "6ada37dd7218321432de0e63",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Investing insights from Ben Carlson, but lacks specific AI or operational focus DJ prioritizes.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "0d5dbd6fe3afed22dbc1cac7",
+      "show_name": "Odd Lots",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "Rory Johnston on Why His $200 Oil Prediction Didn't Turn Out Right",
+      "link": "https://omny.fm/shows/odd-lots/rory-johnston-on-why-his-200-oil-prediction-didnt-turn-out-right",
+      "published": "2026-06-26T08:00:00+00:00",
+      "summary": "The Strait of Hormuz has (mostly) re-opened! Crude prices are still up since the start of the war with Iran, but popular predictions earlier this year of $200-a-barrel Brent didn’t pan out. Why is that? We last talked to Rory Johnston, the founder of the Commodity Context newsletter, at the start of the conflict. And in that conversation he said that the Strait’s closure would lead to $200 oil if it persisted for any length of time. Today, he returns to tell us what he’s learned about the oil market since then. He explains the various factors that kept a lid on prices, including some re-routing, Trump jawboning, and (crucially) surprise import reductions from China. Previous: Rory Johnston on How Oil Could Surge to Over $200 a Barrel Only Bloomberg.com subscribers can get the Odd Lots newsletter in their inbox, plus unlimited access to the site and app. bloomberg.com/subscriptions/oddlots See omnystudio.com/listener for privacy information.",
+      "duration": "1935",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "0d5dbd6fe3afed22dbc1cac7",
+        "score": 55,
+        "tier": "scan",
+        "reason": "Oil market analysis with geopolitical context, but not core to DJ's tech/operator focus.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "b2fc388ec67d34238a681f2b",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "The Week: Iran, Brexit, SpaceX, and the Business of Sports",
+      "link": "",
+      "published": "2026-06-26T08:00:00+00:00",
+      "summary": "George Hahn connects the dots across the week's biggest stories: whether the Iran ceasefire can hold, what Britain's political turmoil says ten years after Brexit, why SpaceX is already facing a reality check, and how the World Cup is reshaping the economics of media. We’d love your feedback as we build this show! Let us know what you think: info@profgmedia.com. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "1106",
+      "old_score": 4,
+      "old_label": "skip",
+      "qwen": {
+        "id": "b2fc388ec67d34238a681f2b",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Week-in-review format covers broad topics but lacks depth in DJ's priority areas.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "ac55af4328f6bd293dfa8c95",
+      "show_name": "The James Altucher Show",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "How to Find Sure Things on Kalshi | Prediction Markets #1",
+      "link": "https://art19.com/shows/the-james-altucher-pod/episodes/cf16010c-c0aa-4596-9065-dc4d7ee4102d",
+      "published": "2026-06-26T07:00:00+00:00",
+      "summary": "Episode Description: Prediction markets allow people to trade contracts tied to real-world events—from elections and weather to rocket launches, airport traffic, awards, and the words a public figure might use during a speech. But James argues that having an opinion isn’t enough. Betting on your favorite team, preferred candidate, or a vague feeling about what might happen is speculation without an edge. His rule is simple: only participate when you believe you have an unfair advantage. In this solo episode, James explains the two advantages he looks for. The first comes from understanding how prediction-market participants behave—especially their tendency to overlook outcomes that appear almost certain because the potential payout looks small. The second comes from researching a particular market more thoroughly than the other participants. He walks through three trades he made: whether the U.S. government will confirm the existence of extraterrestrial life before 2027, whether SpaceX will exceed a specified number of June launches, and whether Donald Trump will use the phrase “movie star” during an upcoming speech. He also examines TSA passenger data to show why good research sometimes leads to the most important decision of all: not making the trade. The larger lesson is not that any outcome is guaranteed. It is that a repeatable process—researching the data, comparing your estimated probability with the market price, diversifying, and walking away when the edge is unclear—is more useful than betting on instinct. Editorial Note: Prediction-market contracts are speculative and can result in the loss of the full amount committed to a position. Short-term returns expressed on an annualized basis are hypothetical comparisons, not guarantees that the same opportunity can be repeated throughout a year. This episode is educational and reflects James’s personal reasoning, not individualized financial advice. What You’ll Learn: How binary prediction-market contracts are priced and settled. Why James avoids trades based only on personal preference or intuition. The two types of informational advantage he looks for before entering a market. Why apparently likely outcomes can still be priced below James’s estimate of their probability. How to compare a contract’s price with your independent estimate of the outcome. Why diversification matters when a single losing contract can erase several smaller gains. How historical speeches, launch schedules, and public datasets can inform a trade. Why declining to place a bet is often the correct conclusion when the evidence is inconclusive. Timestamped Chapters: [02:00] The Search for an Unfair Advantage Why James believes a feeling or personal preference is not a sufficient reason to place a bet. [02:43] What Is a Prediction Market? How event contracts cover subjects ranging from weather and elections to entertainment, sports, and public speeches. [03:29] How Yes-or-No Contracts Work A hypothetical presidential contract illustrates pricing, payouts, and profit. [04:26] Don’t Bet on What You Want to Happen Why fandom, political preference, and intuition can distort judgment. [05:12] Two Types of Informational Advantage James distinguishes between understanding market behavior and possessing unusually strong research about one event. [06:30] Why Traders May Overlook Near-Certainties How small-looking payouts and the cost of tying up capital can leave heavily favored outcomes below full value. [07:52] Will the Government Confirm That Aliens Exist? James explains why he bought “No” contracts on an official confirmation occurring before 2027. [10:40] Diversifying a Basket of High-Probability Trades Why James prefers multiple positions rather than concentrating everything in one supposedly certain outcome. [11:20] The SpaceX Launch Trade Using completed launches, the remaining calendar, and an upcoming mission to evaluate a five-day contract. [13:38] Turning Presidential Speeches Into Data How James a",
+      "duration": "00:22:18",
+      "old_score": 0,
+      "old_label": "skip",
+      "qwen": {
+        "id": "ac55af4328f6bd293dfa8c95",
+        "score": 40,
+        "tier": "scan",
+        "reason": "Prediction market strategies, but speculative and lacks operational or AI focus DJ prioritizes.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "9b2f7e0397c16942a236dd34",
+      "show_name": "RenMac",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "RenMac Off-Script: Flying Blind",
+      "link": "https://podcasters.spotify.com/pod/show/renmac-it/episodes/RenMac-Off-Script-Flying-Blind-e3lajk4",
+      "published": "2026-06-26T04:05:00+00:00",
+      "summary": "RenMac breaks down a hawkish shift from the Fed and why higher real yields are reshaping market leadership beneath the surface. The team discusses Treasury Secretary Scott Bessent's economic agenda, the rotation away from the Mag 7, mounting stress in private credit, the outlook for Iran and oil prices, and why improving market breadth is encouraging—but not yet an all-clear signal",
+      "duration": "00:37:48",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "9b2f7e0397c16942a236dd34",
+        "score": 82,
+        "tier": "digest",
+        "reason": "Discusses Fed policy impact on market leadership, real yields, and private credit stress with macro context relevant to capital allocation.",
+        "confidence": "high"
+      }
+    }
+  ]
+}

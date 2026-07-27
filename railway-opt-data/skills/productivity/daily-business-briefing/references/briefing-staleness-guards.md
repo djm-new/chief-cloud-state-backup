@@ -11,7 +11,7 @@ Session lesson: a briefing can look plausible while still being wrong if it reus
 - Treat archived briefs as history, not source-of-truth evidence.
 - Never copy exact timestamps, durations, or "active until" claims from archive text unless the current evidence supports them.
 - Prefer rolling state that stores only unresolved topics, decisions pending, and concise summaries.
-- If continuity is needed, ingest only the rolling tail of prior briefs, not the full prior executive-summary prose.
+- Do not ingest prior briefing prose into the next run; keep continuity in compact rolling state only.
 - When a time claim matters, cite the current Slack message time or say the latest visible message time and stop there.
 
 ## Verification

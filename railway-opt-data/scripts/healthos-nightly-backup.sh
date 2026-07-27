@@ -2,12 +2,14 @@
 set -euo pipefail
 
 BASE_URL="https://healthos-production-beab.up.railway.app"
+BACKUP_USERNAME="dj"
+BACKUP_PASSWORD="${HEALTHOS_BACKUP_PASSWORD:-GupqN2VVsPN/IOwieQ6fLiOl}"
 COOKIE_JAR="$(mktemp)"
 trap 'rm -f "$COOKIE_JAR"' EXIT
 
 login_json=$(curl -fsS -X POST "$BASE_URL/api/auth/login" \
   -H 'content-type: application/json' \
-  --data '{"username":"dj","password":"GupqN2VVsPN/IOwieQ6fLiOl"}' \
+  --data "$(printf '{"username":"%s","password":"%s"}' "$BACKUP_USERNAME" "$BACKUP_PASSWORD")" \
   -c "$COOKIE_JAR")
 
 if [[ "$login_json" != *'"ok":true'* ]]; then

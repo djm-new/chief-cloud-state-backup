@@ -1,0 +1,366 @@
+{
+  "run_id": "e9bc2c409829",
+  "created_at": "2026-07-09T21:02:56.598239+00:00",
+  "days": 1,
+  "semantic_queries_run": 45,
+  "feeds_found": 0,
+  "candidate_episodes_scored": 0,
+  "episodes_inserted_for_briefing": 0,
+  "generated_people": [
+    {
+      "name": "Ben Thompson",
+      "why": "Exemplifies strategic analysis of tech platforms and business models",
+      "archetype": "market/business shapers"
+    },
+    {
+      "name": "Benedict Evans",
+      "why": "Provides macro-level tech industry trends and platform evolution insights",
+      "archetype": "platform strategy thinkers"
+    },
+    {
+      "name": "Naval Ravikant",
+      "why": "Focuses on value creation, capital allocation, and tech-driven leverage",
+      "archetype": "rational AI economics and value-accrual analysts"
+    },
+    {
+      "name": "Marc Andreessen",
+      "why": "Pioneer of platform thinking and tech-driven economic transformation",
+      "archetype": "market/business shapers"
+    },
+    {
+      "name": "Ben Horowitz",
+      "why": "Operator-focused insights on company-building and platform strategy",
+      "archetype": "platform strategy thinkers"
+    },
+    {
+      "name": "Dwarkesh Patel",
+      "why": "Deep, long-form conversations with original thinkers and allocators",
+      "archetype": "high-leverage tech philosophers"
+    },
+    {
+      "name": "Tyler Cowen",
+      "why": "Economic lens on technology, markets, and societal change",
+      "archetype": "original framework builders"
+    },
+    {
+      "name": "Stanley Druckenmiller",
+      "why": "Elite allocator with deep macroeconomic and market structure insights",
+      "archetype": "elite allocators/operators"
+    },
+    {
+      "name": "Paul Tudor Jones",
+      "why": "Macro investor with strategic views on markets and economic shifts",
+      "archetype": "elite allocators/operators"
+    },
+    {
+      "name": "Bill Ackman",
+      "why": "High-conviction allocator with strategic business model insights",
+      "archetype": "elite allocators/operators"
+    },
+    {
+      "name": "Howard Marks",
+      "why": "Value investor with deep understanding of market cycles and capital allocation",
+      "archetype": "capital allocation and market structure analysts"
+    },
+    {
+      "name": "Gavin Baker",
+      "why": "Tech-focused investor with unique insights into platform economics",
+      "archetype": "rational AI economics and value-accrual analysts"
+    },
+    {
+      "name": "Philippe/Thomas Laffont",
+      "why": "Quantitative and strategic approach to tech investing and market structure",
+      "archetype": "capital allocation and market structure analysts"
+    },
+    {
+      "name": "Ray Dalio",
+      "why": "Macro-economic framework builder with systems-thinking approach",
+      "archetype": "original framework builders"
+    },
+    {
+      "name": "Ken Griffin",
+      "why": "Operator and allocator with deep insights into market structure",
+      "archetype": "elite allocators/operators"
+    },
+    {
+      "name": "Satya Nadella",
+      "why": "Platform builder with strategic vision for AI and enterprise transformation",
+      "archetype": "platform strategy thinkers"
+    },
+    {
+      "name": "Brian Chesky",
+      "why": "Operator with deep insights into platform design and marketplaces",
+      "archetype": "platform strategy thinkers"
+    },
+    {
+      "name": "Jensen Huang",
+      "why": "Architect of AI infrastructure and platform strategy",
+      "archetype": "high-leverage tech philosophers"
+    },
+    {
+      "name": "Patrick Collison",
+      "why": "Builder of platforms that redefine economic infrastructure",
+      "archetype": "platform strategy thinkers"
+    },
+    {
+      "name": "Dara Khosrowshahi",
+      "why": "Operator navigating platform economics and global markets",
+      "archetype": "platform strategy thinkers"
+    },
+    {
+      "name": "Alex Karp",
+      "why": "Philosophical and strategic thinker on data, power, and platform dynamics",
+      "archetype": "original framework builders"
+    },
+    {
+      "name": "Jamie Dimon",
+      "why": "Operator with strategic insights into financial platforms and market structure",
+      "archetype": "platform strategy thinkers"
+    },
+    {
+      "name": "Sam Altman",
+      "why": "Frontier thinker on AI, platforms, and economic transformation",
+      "archetype": "high-leverage tech philosophers"
+    },
+    {
+      "name": "Dario Amodei",
+      "why": "AI leader with deep insights into alignment and business implications",
+      "archetype": "high-leverage tech philosophers"
+    },
+    {
+      "name": "Demis Hassabis",
+      "why": "AI research and strategy at the frontier of business and science",
+      "archetype": "high-leverage tech philosophers"
+    },
+    {
+      "name": "Andrej Karpathy",
+      "why": "Technical and strategic insights into AI and software transformation",
+      "archetype": "high-leverage tech philosophers"
+    },
+    {
+      "name": "Richard Sutton",
+      "why": "AI thought leader on reinforcement learning and long-term economic impact",
+      "archetype": "high-leverage tech philosophers"
+    },
+    {
+      "name": "Fei-Fei Li",
+      "why": "Pioneer in AI with strategic insights into labor, productivity, and ethics",
+      "archetype": "high-leverage tech philosophers"
+    },
+    {
+      "name": "Nick Bostrom",
+      "why": "Framework builder on tech risk, AI, and long-term economic implications",
+      "archetype": "original framework builders"
+    },
+    {
+      "name": "Michael Pollan",
+      "why": "Framework builder on systems thinking and cultural-technological change",
+      "archetype": "original framework builders"
+    },
+    {
+      "name": "Byrne Hobart",
+      "why": "Analyzes business models, platforms, and market structure through a tech lens",
+      "archetype": "capital allocation and market structure analysts"
+    },
+    {
+      "name": "Eugene Wei",
+      "why": "Deep strategic thinker on platforms, culture, and business models",
+      "archetype": "platform strategy thinkers"
+    },
+    {
+      "name": "Matthew Ball",
+      "why": "Metaverse and platform economy thought leader with strategic frameworks",
+      "archetype": "platform strategy thinkers"
+    },
+    {
+      "name": "Patrick O'Shaughnessy",
+      "why": "Investor and thinker on business models, capital allocation, and platforms",
+      "archetype": "capital allocation and market structure analysts"
+    },
+    {
+      "name": "Luca Netto",
+      "why": "Operator and investor with insights into platform economics and company-building",
+      "archetype": "platform strategy thinkers"
+    },
+    {
+      "name": "Shaan Puri",
+      "why": "Entrepreneur and thinker on AI, business models, and platform strategy",
+      "archetype": "high-leverage tech philosophers"
+    },
+    {
+      "name": "David Sacks",
+      "why": "Operator and investor with strategic insights into platform economics",
+      "archetype": "platform strategy thinkers"
+    }
+  ],
+  "generated_topics": [
+    {
+      "topic": "platform economics",
+      "why": "Core to understanding value creation in tech and business models"
+    },
+    {
+      "topic": "capital allocation frameworks",
+      "why": "Essential for understanding investor and operator decision-making"
+    },
+    {
+      "topic": "AI-driven productivity",
+      "why": "Key to understanding future labor, software, and business transformation"
+    },
+    {
+      "topic": "market structure analysis",
+      "why": "Critical for understanding how markets evolve and where value accrues"
+    },
+    {
+      "topic": "tech-driven leverage",
+      "why": "Central to understanding how AI and software create outsized outcomes"
+    },
+    {
+      "topic": "business model innovation",
+      "why": "Key to how platforms and companies create and capture value"
+    },
+    {
+      "topic": "platform strategy",
+      "why": "Essential for understanding how companies scale and shape markets"
+    },
+    {
+      "topic": "AI economics",
+      "why": "Critical for understanding how AI changes value accrual and business models"
+    },
+    {
+      "topic": "systems thinking in business",
+      "why": "Helps build frameworks for understanding complex market dynamics"
+    },
+    {
+      "topic": "investor philosophy",
+      "why": "Reveals how top allocators think about markets and company-building"
+    },
+    {
+      "topic": "AI and labor markets",
+      "why": "Key to understanding future work, productivity, and ownership"
+    },
+    {
+      "topic": "software transformation",
+      "why": "Central to how businesses and industries are reshaped by tech"
+    },
+    {
+      "topic": "marketplace dynamics",
+      "why": "Critical for understanding how platforms create and capture value"
+    },
+    {
+      "topic": "economic frameworks",
+      "why": "Helps explain how AI and tech change scarcity, ownership, and value"
+    },
+    {
+      "topic": "tech philosophy",
+      "why": "Essential for understanding the long-term implications of AI and platforms"
+    },
+    {
+      "topic": "company-building frameworks",
+      "why": "Key to understanding how platforms and businesses scale"
+    },
+    {
+      "topic": "AI and business models",
+      "why": "Critical for understanding how AI changes how companies operate and scale"
+    },
+    {
+      "topic": "platform governance",
+      "why": "Important for understanding how platforms shape markets and society"
+    },
+    {
+      "topic": "tech investing",
+      "why": "Reveals how top investors think about platforms and market structure"
+    },
+    {
+      "topic": "AI and economic theory",
+      "why": "Helps understand how AI changes markets, labor, and value creation"
+    },
+    {
+      "topic": "operator insights",
+      "why": "Reveals how top CEOs think about platform strategy and business models"
+    },
+    {
+      "topic": "AI and ownership",
+      "why": "Key to understanding how AI changes value accrual and control"
+    },
+    {
+      "topic": "AI and productivity",
+      "why": "Central to understanding how AI transforms labor and business outcomes"
+    },
+    {
+      "topic": "platform ecosystems",
+      "why": "Important for understanding how platforms scale and shape industries"
+    },
+    {
+      "topic": "tech and market cycles",
+      "why": "Reveals how platforms and markets evolve over time"
+    },
+    {
+      "topic": "AI and economic transformation",
+      "why": "Critical for understanding how AI reshapes industries and markets"
+    },
+    {
+      "topic": "platform monetization",
+      "why": "Key to understanding how platforms capture value and scale"
+    },
+    {
+      "topic": "AI and business strategy",
+      "why": "Essential for understanding how AI reshapes corporate strategy"
+    },
+    {
+      "topic": "platform regulation",
+      "why": "Important for understanding how platforms interact with policy and markets"
+    },
+    {
+      "topic": "AI and market structure",
+      "why": "Critical for understanding how AI changes how markets function"
+    }
+  ],
+  "queries": [
+    "Ben Thompson podcast",
+    "Benedict Evans podcast",
+    "Naval Ravikant podcast",
+    "Marc Andreessen podcast",
+    "Ben Horowitz podcast",
+    "Dwarkesh Patel podcast",
+    "Tyler Cowen podcast",
+    "Stanley Druckenmiller podcast",
+    "Paul Tudor Jones podcast",
+    "Bill Ackman podcast",
+    "Howard Marks podcast",
+    "Gavin Baker podcast",
+    "Philippe/Thomas Laffont podcast",
+    "Ray Dalio podcast",
+    "Ken Griffin podcast",
+    "Satya Nadella podcast",
+    "Brian Chesky podcast",
+    "Jensen Huang podcast",
+    "Patrick Collison podcast",
+    "Dara Khosrowshahi podcast",
+    "Alex Karp podcast",
+    "Jamie Dimon podcast",
+    "Sam Altman podcast",
+    "Dario Amodei podcast",
+    "Demis Hassabis podcast",
+    "Andrej Karpathy podcast",
+    "Richard Sutton podcast",
+    "Fei-Fei Li podcast",
+    "Nick Bostrom podcast",
+    "Michael Pollan podcast",
+    "Byrne Hobart podcast",
+    "Eugene Wei podcast",
+    "Matthew Ball podcast",
+    "Patrick O'Shaughnessy podcast",
+    "Luca Netto podcast",
+    "AI and business model innovation",
+    "platform economics and value creation",
+    "capital allocation in the age of AI",
+    "AI-driven productivity and labor markets",
+    "market structure analysis and tech",
+    "tech-driven leverage and business models",
+    "platform strategy and company-building",
+    "AI economics and value accrual",
+    "systems thinking in business and tech",
+    "investor philosophy and market structure"
+  ],
+  "top": []
+}

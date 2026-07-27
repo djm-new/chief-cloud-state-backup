@@ -1,0 +1,648 @@
+[0.0-3.4] So we could edit this set so it looks like we're okay.
+[3.4-6.2] Yeah, I want this where we were talking off camera.
+[6.2-7.8] Like we should do that for the intro,
+[7.8-10.6] because I think it just like makes all this stuff more capable.
+[10.6-14.6] I've seen these examples of like such subtle nuance
+[14.6-17.8] that like make me appreciate that it's like the world understanding playing out.
+[17.8-24.7] I was giving a talk and was on stage with with my friend Tulsi who leads the model team.
+[24.7-27.9] I had mentioned to someone in the crowd to like edit the video
+[27.9-31.0] and they literally like took the picture edit it with Omni in real time.
+[31.0-33.9] And this like dog came on the stage in the edited version.
+[33.9-36.6] The other guests sort of like look down and see the dog.
+[36.6-37.8] They like chuck a little bit.
+[37.8-40.0] This is wall. I'm like opining about whatever.
+[40.0-43.2] Yeah, it was not my jokes.
+[43.2-44.7] They laugh at the dog coming up.
+[44.7-46.0] It jumps onto my lap.
+[46.0-47.9] I sort of like acknowledge the dog.
+[47.9-48.8] I keep talking.
+[48.8-50.6] I'm like petting it or whatever.
+[50.6-55.4] And just like there's like so much subtle subtlety in getting that right.
+[55.4-56.7] And the model crushed it.
+[56.8-59.5] And it's just it's very interesting.
+[59.5-63.5] And like still trying to like absorb and digest like what that means for
+[63.5-66.2] you know the way we make content and all these other things.
+[66.2-67.1] That's so interesting.
+[83.9-86.7] I'm delighted to have Logan on the show.
+[86.7-90.2] Logan runs Google AI Studio in the Gemini API.
+[90.2-93.7] You spend a lot of your time thinking and building for the next generation of builders.
+[93.7-94.1] Yes.
+[94.1-98.1] So I'm excited to talk to you about everything from agentic AI to AI coding,
+[98.1-102.1] world models, and more today and right off the heels of Google I.O.
+[102.1-103.3] So what better timing?
+[103.3-104.2] Yeah, I'm super excited.
+[104.2-105.2] Thank you for having me.
+[105.2-105.7] Wonderful.
+[106.4-108.4] Let's start with agentic AI.
+[108.4-113.2] So Sundar opens at IO by calling this the agentic Gemini era.
+[113.2-115.4] What does agentic AI mean for Google?
+[115.4-117.1] Yeah, it's a good question.
+[117.1-121.2] I think and we were we sort of if you if you followed closely,
+[121.2-124.4] we did sort of mention some of these things back with like Gemini 2.0
+[124.4-126.1] which I think was like a little bit early.
+[126.1-129.7] And so I think this era, this like Gemini 3.5 era,
+[129.7-132.1] feels like it's actually becoming true now.
+[132.1-135.8] And we're in the era of agentic coding or agentic products
+[135.8-138.5] and everything agents as far as Gemini goes.
+[138.5-141.7] I think for us, this agentic layer,
+[141.7-145.7] and I think we announced this actually at IO sort of being powered by the
+[145.7-149.9] anti-gravity agent harness is this like additional through line for Google
+[149.9-153.5] that sort of connects all of our products that they're sort of like based on now.
+[153.5-155.7] And so historically like prior to Gemini,
+[155.7-158.3] there actually like wasn't a through line for the, you know,
+[158.3-162.1] probably sub hundred number of Google products that we have,
+[162.1-165.0] the 50 Google products we have, there wasn't a through line.
+[165.0-166.9] We had Gemini, it became this through line.
+[166.9-169.6] Everything is now sort of using Gemini in some way.
+[169.6-173.4] That's now becoming true for anti-gravity as sort of all of the products
+[173.4-177.7] rebase to become sort of like agentic native products
+[177.7-179.9] and like actually taking action on behalf of users
+[179.9-181.5] and helping them get things done.
+[181.5-183.7] You see this like new through line emerging,
+[183.7-185.5] which I think is actually really, really interesting.
+[186.5-190.1] I'm sorry, help me with anti-gravity is the IDE, right?
+[190.1-191.3] For the non-IDE.
+[191.3-193.2] Yeah, anti-gravity is a lot of things,
+[193.2-197.0] which I think is sort of again is an opportunity for us.
+[197.6-199.3] You have sort of a core IDE.
+[199.3-202.7] You have sort of like the agent first experience if you wanted on the web.
+[202.7-204.4] You have a CLI, you have an SDK.
+[204.4-206.9] So I actually think, and I don't know how much we've framed it this way,
+[206.9-209.6] but like it really is an ecosystem of stuff that we built.
+[209.6-212.2] And it's designed to sort of like meet developers wherever they are.
+[212.2-214.4] So you could use it through the Gemini API.
+[214.4-216.1] If you want to and you want a managed agent
+[216.1-219.0] that you don't have to do any of the sort of infrastructure work for.
+[220.0-221.7] And then the most interesting bit is like,
+[221.7-224.9] it's not just the ecosystem of anti-gravity stuff.
+[224.9-227.6] It's also powering like literally the same harness
+[227.6-229.6] is actually powering all the other Google products.
+[229.6-232.9] So anti-gravity will be powering a bunch of agent stuff in search
+[232.9-238.0] in the Gemini app across like Cloud and Studio, which is really exciting.
+[238.0-240.1] I see. So it used to be the Gemini API.
+[240.1-242.3] So like the language model was the through line.
+[242.3-245.3] In terms of how I get spaked into every Google product.
+[245.3-245.7] Yeah.
+[245.7-247.3] And now it's not only the API.
+[247.3-249.0] It's the coding harness.
+[249.0-249.7] Exactly.
+[249.7-251.9] That's being used in each of these products.
+[251.9-256.5] And therefore it's a coding agent itself that's driving more agentic properties.
+[256.5-256.8] Yeah.
+[256.8-257.7] To the products.
+[257.7-258.2] Yeah.
+[258.2-258.9] Fair description.
+[258.9-259.7] Fair description.
+[259.7-262.6] I think more generically too is just like it is the agent harness.
+[262.6-266.4] I think like coding is sort of like a specialized use case of the agent harness.
+[266.4-267.9] I think is obviously powerful.
+[267.9-271.2] But it is like coding has proved to be the general purpose agent harness
+[271.2-273.4] in addition to also working really well for coding.
+[273.4-277.3] Are agent harness and coding harness synonymous or not?
+[277.3-278.3] There's definitely nuance.
+[278.3-281.5] I think there's like optimization that you can squeeze out of like specializing.
+[281.5-283.7] And actually you see this where like the, you know,
+[283.7-288.0] technically the agent harness that gets used for the way the data studio uses it
+[288.0-291.0] is like a little bit specialized for, you know, the vibe coding use case.
+[291.0-293.8] And the way that the Gemini app is using the agent harness
+[293.8-298.8] is a little bit specialized for the sort of consumer always on 24 by 7 agent.
+[299.4-304.5] So I think you have that base harness that like probably has like 80% of the same stuff
+[304.5-307.7] and then you specialize for coding or for whatever the use cases.
+[307.7-311.2] How do you think about the cannibalization of the existing business,
+[311.2-315.5] especially now that you are, you know, going much more aggressively into
+[315.5-318.9] agentic properties because I could see, for example,
+[318.9-321.7] if all you're doing is search or summarization,
+[322.6-325.5] there's, you know, not as much of a cannibalization fear.
+[325.5-328.2] Whereas if you're actually going through my emails,
+[328.2-331.7] replying to them for me, like, am I even going through my email anymore?
+[331.7-336.2] And so I could imagine that there's actually just fewer human eyeball hours
+[337.5-340.8] on your products as a result of having more agentic capabilities.
+[340.8-344.0] Is that fair or how do you think about the cannibalization?
+[344.0-344.9] Yeah, it's interesting.
+[344.9-349.4] I think one sort of observation I have is that like at the beginning
+[349.4-352.9] and I think Sundar has done a great job of sort of talking through this is
+[352.9-355.6] at the beginning of the sort of current AI era,
+[355.6-359.7] like everyone assumed that AI being able to answer questions
+[359.7-364.1] for you was going to be like negative sum for, for search.
+[364.7-367.9] And actually what's ended up happening is it's been an incredibly positive sum for search.
+[367.9-370.3] Like people are searching more, people are doing more.
+[370.3-371.1] And so I think...
+[371.1-372.1] And agents are searching too.
+[372.1-376.1] Yeah and agent, actually again, there's like this whole market that spawned
+[376.1-378.1] at the same time that agents are doing more,
+[378.2-380.4] at the same time that humans are also searching more.
+[380.4-384.1] And so I think it will be, obviously there's a finite amount of human time in the world.
+[385.3-388.9] But from like my early feelings of how a lot of this is playing out,
+[388.9-393.3] it does feel like it's very positive so I'm from like an ecosystem value creation,
+[393.3-396.5] like how the human behavior aspect of it turns out,
+[396.5-399.7] I think is like somewhat clear in the next one to two years,
+[399.7-404.5] much less clear three to five years from now when the technology is improved
+[404.5-406.9] and the products probably look a little bit different than the way that they do.
+[406.9-409.8] But ultimately like that is the success of product.
+[409.8-413.6] I think like we have a bunch of conversations with Demis all the time and it's like
+[413.6-418.3] the point of building the technology is so that it can go and do stuff for you.
+[418.3-421.3] Like the point like success for Google like probably doesn't look like,
+[421.8-424.9] you know, maximizing eyeball time in front of our products.
+[424.9-428.6] It's like maximizing outcome for customers to like do the thing that they want to do
+[428.6-430.9] so that they can go and live their life and do what they want.
+[430.9-436.1] And so I feel like you'll probably see us go down the route of like maximizing outcomes for
+[436.1-438.6] customers and like not maximizing eyeballs. Yeah.
+[439.5-442.0] I have this term second-hand agent-led growth.
+[442.0-446.9] Like it seems to me, so I'm using coding agents a lot in my personal time and, you know,
+[446.9-449.6] I just let the agent make all the infrastructure choices for me.
+[449.6-452.5] I'm like, I don't care which database. You tell me. Yeah.
+[452.5-457.2] And so and the reason I ask is, you know, it's true in coding today.
+[457.2-460.5] I would imagine it's maybe going to be generally true for a lot of things.
+[460.5-462.9] Let's say shopping down the line.
+[463.7-467.4] How do you think that's going to change how advertising works?
+[467.4-470.5] How value capture works for for the aggregators?
+[470.5-473.7] It feels like it's a very similar trend.
+[473.7-476.8] This isn't perfectly true, but a lot of these things are just like proxies
+[476.8-478.5] of each other like the way that SEO works.
+[478.5-484.2] I think like is directly correlated with like the way that like I forgot what the term now for.
+[484.2-489.2] It's like GEO is like the generative engine optimization or whatever it's called.
+[490.1-494.9] And so it does feel like there's a lot of correlation between the things.
+[494.9-500.3] My guess is it looks like much less of a radical shift than the then I think maybe
+[500.3-504.1] what we assume right now just because these things compound on top of each other.
+[504.6-510.8] If you were to, you know, grade the scale of agentickness in terms of crawl walk run,
+[510.8-513.9] where are we in terms of how agentick the Google suite of products is.
+[513.9-515.5] Yeah, that's a great question.
+[515.5-517.7] It's definitely like crawl right now.
+[517.7-522.8] And I think some of this is like all of the inherent product tension for Google is like you have
+[522.8-529.5] what 13 billion plus user products and so like I actually think we have some more like labs
+[529.5-533.5] like experiences where you're probably closer to running or walking.
+[534.1-538.5] But I think like most of the product experience today is definitely closer to crawling.
+[538.5-542.1] And I think that's just like the stewardship responsibility we have sort of building a product
+[542.1-546.0] that's being used by lots of people like I don't think the long tail of customers are like
+[546.0-549.7] ready to have AI running and just doing all the things like they probably they want to be in the
+[549.7-554.9] driver's seat. They're cautiously taking the first step. And I think the the Google team in
+[554.9-558.3] like search is maybe like the most quintessential example of this like I think they have a lot of
+[558.3-562.5] responsibility to actually do that in a way that it brings people along and doesn't just like
+[563.3-567.1] change everything of how they interact with the internet and the way they associate with products
+[567.1-571.3] and stuff like that. So yeah, which products do you think are closest to the walk?
+[571.3-575.2] That's a good question. I think Gemini app is definitely closest to walk. And so for
+[575.2-580.1] first spark, I think having a 24 seven always on agent like literally going and potentially doing
+[580.1-585.0] a bunch of actions on your behalf is definitely like one of the frontier use cases. And I think
+[585.0-589.4] you'll see I think like anti-gravities and other one where it's like you could have autonomous
+[589.4-594.5] coding agents, you know, rebuilding operating systems and doing you know billions of tokens
+[594.5-599.7] and spending thousands of dollars on your behalf. And I think those are again like more and
+[599.7-604.5] actually like they're in GDM as well as another angle of this. So I think like GDM is taking like very
+[604.5-609.0] much like a frontier look at this where I think like the rest of Google's products I think are like
+[609.0-613.0] more incrementally getting there, which again makes makes reasonable sense to me. Yeah.
+[613.7-620.3] Do you think that Google ends up with one, two, three product surfaces for for using AI or
+[620.3-626.8] thousands? It's tough. I think a lot of this is actually big than just like how humans consume
+[626.8-633.8] products. And my sense is that there's something nice about like having this like compartmentalization
+[633.8-639.0] and this like specialization of products where like it becomes if you end up with a product that
+[639.0-643.7] is like doing everything for you inherently there's more work involved in using that version of
+[643.7-647.0] the product. I think I think would be like the default state. I think maybe somebody will spend
+[647.0-651.2] together like the truly magic experience that doesn't make that true. But I think I think the
+[651.2-655.9] long tail of folks end up having to spend more mental energy and more time to actually like get the
+[655.9-660.2] general purpose product to do the thing that they actually want to do versus like there's something
+[660.2-665.2] nice about I click my calendar app. It just shows me my calendar like I don't need to worry and deal
+[665.2-669.7] with anything else. This is my hot take for why slide decks have existed for so long of just like
+[670.2-674.0] you know the thing the piece of information you want to be exactly in the same place.
+[675.3-680.2] I think like we as humans are just actually very used used to that as opposed to the idea of
+[680.2-684.0] a generation of their face sounds so cool to me. But it's like our do our brains really isn't
+[684.0-687.7] that just more cognitive overhead for us. It definitely is in certain cases and I think somebody
+[687.7-691.8] needs to again there's there's a lot of incredibly smart people in the world and so maybe somebody
+[691.8-698.6] will find the experience that like makes it feel more natural. But to me right now I'm maybe not
+[698.6-704.2] 10,000 is the extreme version. I'm guessing it looks more like more products going after sort of
+[704.2-708.5] like different. And maybe the other answer is like I don't know what it looks like for Google
+[708.5-712.3] for the ecosystem. It looks like a lot more products I think like and that that's really
+[712.3-716.5] exciting. I think like how Google will end up strategically deciding like do our customers want
+[716.5-721.6] to deal with us having 10,000 products or would it be better to only have three will come down to
+[721.6-727.7] like a strategic decision for us. That's only makes sense. When I talk to companies in the enterprise
+[727.7-732.9] they say you know everyone's talking about agentic AI but the only place they've seen agents
+[732.9-739.0] really working is coding agents. Do you agree or disagree with that take? Yeah I think it depends
+[739.0-743.0] what you're bar for working is which I think is a lot of the nuance of this like I think if you're
+[743.0-749.9] if you're truly trying to like offload very complicated tasks for for domains in which like it's
+[749.9-754.2] the models haven't actually crossed the threshold of quality then like I think that's definitely true
+[754.2-758.3] like the it's not going to solve the problem but this is something that I want I wish we could like
+[758.3-763.9] measure a good example is like open router for example is like measuring you know the the total
+[763.9-768.1] token consumption that's happening and so you can sort of like see these trends play out over time
+[768.1-773.9] of like how much more intelligence is in the world you know now versus a year ago in parallel the
+[773.9-779.9] thing that I'm actually really interested to measure is like how long is the average like thing the
+[779.9-784.3] average like agent run or the average task actually taking place and it's I don't think it's something
+[784.3-788.3] that they publish but I feel like they probably have interesting data I'm sure there's others because
+[788.3-794.9] because I do think you're like seeing these like new model capability lands or new model drop
+[794.9-800.4] and and it's like spiking up and and maybe the the curve is still like very low right now but like
+[800.4-804.9] you're seeing those like early signs of it spiking up where to like long running tasks and all
+[804.9-809.7] the model labs are talking about like we've released this new model and it did you know three days
+[809.7-815.8] of autonomous work or whatever it is that that's the extreme but I think in practice you're seeing
+[815.9-820.9] that like trickling up like pretty pretty quickly which is really interesting so even if the
+[820.9-826.6] enterprises haven't felt it outside of coding like they are going to like this year as sort of a
+[826.6-830.8] bunch of those other use cases get get much better as well from like a you know from the deep mind
+[830.8-836.4] perspective do you think long horizon agents is like a KPI that matters is it they is it the KPI that
+[836.4-841.6] matters it definitely it definitely matters I think for deep mind like we're doing lots of things
+[841.6-846.6] which which we can talk more about later like there's you know a huge portfolio of different
+[846.6-850.6] bets that are taking place long running agents obviously matters a lot and I think also like
+[850.6-855.7] specifically coding agents and that matters a lot like it clearly is an accelerant of like every
+[855.7-860.7] other part of your business if you have a great coding model and so making sure we have that I think
+[860.7-866.9] is super top of mind got it I'd love to shift gears a little bit and talk about coding yeah okay
+[867.1-874.0] that's a hard question a lot of my developer friends were using cloud for a long time opening
+[874.0-879.5] I saw that declared code red code x is now really good I would say my friends are maybe split 50 50
+[879.5-886.1] now in using cloud and using code x I don't hear a ton of them using Gemini which is always kind of
+[886.1-891.9] puzzled me what's going on with that yeah it's a great question I think there's one there's one
+[891.9-896.7] part of the story that I'll add which is which which makes it even more interesting which is
+[898.1-904.2] December the narrative was that Google had won and when we landed Gemini 3 I think it was like
+[904.2-909.0] such a such a profound improvement from a model capability perspective I think a lot of the narrative
+[909.0-914.7] was like Google has taken a hugely forward and and made that happen and I think what was interesting
+[914.7-921.0] to see sort of as an ecosystem participant is like how not how quickly that narrative
+[921.0-925.6] shifted but just like the next wind of the narrative obviously was like all the agente coding
+[925.6-931.3] stuff that happened over over the holidays and then into January and beyond and that was that was
+[931.3-938.2] not that long ago and so it's a it is a yeah for sure and it but it is it's a meta reminder of
+[938.2-946.0] like just how fast things can can change I think the observation is not is not unreasonable I do think
+[946.0-950.4] the what's happening behind the scenes for us is like trying to push the frontier as fast as
+[950.4-955.2] possible on coding and so I think anti gravity actually like is an important part of that I think
+[955.2-959.8] one of the takeaways is that it's actually really hard to make a great coding model for this like
+[961.4-967.7] for this developer use case of like really long running sweet work if you don't actually have a
+[967.7-971.6] product that does that and so I think like Google realized that that's why the sort of like when
+[971.6-976.5] surf deal happened it's why those folks came over and then ultimately build anti gravity and sort of
+[976.5-981.7] we've been using internally actually and soon are showed this at IO just like the graph of growth
+[981.7-987.7] of token consumption inside of Google so you sort of like you need that engine to spin and sort of
+[987.7-992.6] the meta comment again is like the engine is spinning it takes time in order to like actually make
+[992.6-998.1] model progress but I'm super confident I think the the folks the group of folks who we have working
+[998.1-1005.3] on code is like I describe it as like the Avengers of AI internally and so like it really is like
+[1005.7-1009.6] some of the best people inside of Google trying to push the rock up the hill on this stuff and
+[1009.6-1015.5] taking it super seriously and trying to push and I think three flash you know notwithstanding
+[1015.5-1020.8] like some of the conversation about like the price and stuff like that like is sort of a step towards
+[1020.8-1025.7] actually starting to bring a lot of these capabilities and like the fruits of that labor paying
+[1025.7-1030.5] off like it's a flash model that's better than any pro model we've ever released from a coding
+[1030.5-1036.3] standpoint and the pro models were really good before so there's another threat of this also which
+[1036.3-1041.8] is like everyone forgets that there's like pre training windows and I wonder like somebody should
+[1041.8-1046.5] like track this online which would be interesting to see meaning like the big run like what clusters
+[1046.5-1051.7] have been available exactly the big the big runs are like are an interesting threat of this and so
+[1051.7-1057.3] it like look it might look from an external perspective that like oh you're you're super behind
+[1057.3-1062.5] in some way and like actually you you miss all the context of like where the big runs are and where
+[1062.5-1068.5] the large pre training runs are so I think that that also like obviously there's pre trainings
+[1068.5-1071.5] historically been like a massive strength for a deep mind like we have some of the best people in
+[1071.5-1075.8] the world and so excited to see sort of the fruits of that labor and everything else that's happened
+[1075.8-1083.2] like 3.5 flash was like all post training gains which is really cool so a huge a huge testament to
+[1083.2-1087.7] the team the work that that team did to actually like make the level of gains and like surpass
+[1087.7-1093.0] the previous pro model literally just with post training which is awesome how religious are you all
+[1093.0-1098.8] about dog pooping internally like our for example our deep mind folks still add to use other models
+[1098.8-1103.0] or is it like you guys are using the Gemini hardest now and we have to make this really really good
+[1103.0-1107.8] yeah there's I mean I think people it's so healthy to be using other models just because like it's
+[1107.8-1111.8] it's so sometimes hard to like actually grok what's happening in ecosystem if you're not so like
+[1111.8-1117.7] I use all the models I use all the products I think like you know folks across the rest of deep
+[1117.7-1122.8] mind are doing the same thing you definitely have to use the Gemini models though it's just like great
+[1122.8-1127.3] from a from a feedback flywheel perspective and it's part of how they get better is like deep mind
+[1127.3-1133.4] has and Google more broadly has like 100,000 plus incredible engineers who are using the models
+[1133.4-1137.7] and giving feedback and like it should be a competitive advantage for Google because we have that
+[1137.7-1141.8] scale of sort of engineering resources and like the depth of the talent and can run you know
+[1141.8-1147.3] AB tests and live experiments and all that stuff so um I think you have to use all the models but I
+[1147.3-1151.8] think for for the majority of folks it's like Gemini as the daily driver which is great
+[1151.8-1156.3] do you believe in this narrative around like a like a soft takeoff of like once you have a good enough
+[1156.3-1162.9] agent to coding model then it accelerates the pace of research progress and like it's a self reinforcing
+[1162.9-1168.3] cycle it seems obvious that that's true but I maybe I'm I'm too I'm drinking too much
+[1168.3-1173.3] cool aid that that's the case are you seeing the signs of it yet yeah I mean I you definitely see
+[1173.3-1179.7] some signs of this I think the signs that are like still early is doing this from a model perspective
+[1179.7-1184.9] and I think part of the context of that is like the resource allocation for some of these like larger
+[1184.9-1189.6] training runs is just like significant and so like you you definitely still have like a human in the
+[1189.6-1194.3] driver's seat of making those decisions because like you're not gonna accidentally you know take
+[1194.3-1200.1] 10,000 TPUs to go kick off some job that like actually doesn't make that much sense but from a
+[1200.1-1204.8] product perspective you for sure see it like I think we're seeing this on our team like we've built
+[1204.8-1209.1] mobile apps using anti gravity and like we'll want them to the world like faster than I think
+[1209.1-1214.5] any team at Google has ever built a mobile app Josh's team did this with the Gemini macOS app and
+[1214.5-1219.4] sort of like and to and delivered an app sort of faster than any team had I never delivered a
+[1219.4-1224.5] mac app at Google and it's because of it's because of a dented coding and so it's great from
+[1224.5-1228.6] our product perspective I think you said in the past that if you could have a system that could
+[1228.6-1234.5] build anything with code humans can't compete on the same level and that's narrow super intelligence
+[1234.5-1242.4] do you think we've reached that point it is interesting I think this like narrow super intelligence
+[1242.4-1247.8] example is interesting to see how obviously it kind of feels that way for coding right now we're
+[1247.8-1254.3] like coding is like just so good that it does kind of feel like narrow super intelligence I don't know
+[1255.2-1258.9] it depends how you actually end up the details of quantifying this but I think the important thing is
+[1258.9-1266.1] like to your point earlier it works incredibly well for code and so it would be great if it did a bunch
+[1266.1-1271.3] of other things but it's actually just like so impactful that it can be great at code and so I
+[1271.3-1276.9] spent a lot of time just like letting that that fact sort of just like wash over me because I
+[1276.9-1282.1] think it's like obviously building AGI super important and very interesting but like building AGI
+[1282.1-1288.5] if it sort of like takes away from the story of like the current present capability of the technology
+[1288.5-1293.4] I think is actually like kind of a bad a bad sort of like trade off and so I'm trying to like always
+[1293.4-1297.4] hold these two things in my head equal at the same time which is we need to build general purpose
+[1297.4-1302.6] technology but obviously it's so impactful to have this thing and it feels like it hasn't
+[1302.6-1309.7] taken away sort of it's been one of the best positive outcomes is that I feel like it hasn't
+[1309.7-1315.7] taken away from like human developers it really does feel like an accelerant of what human
+[1315.7-1320.3] development like I as a human developer feel like I have more agency in the world I feel like I can
+[1320.3-1324.7] tackle my personal experience I feel like I can tackle more ambitious problems I feel like
+[1324.7-1332.3] I used to kick around ideas and they were like slightly out of reach and I would just be like
+[1332.3-1337.0] I wouldn't it be nice and now I have the opposite problem which is I'm kicking around an idea
+[1337.0-1341.6] and I'm like I could probably make this even more ambitious and sort of it does it adds a
+[1341.6-1348.8] different layer of sort of responsibility or like some a different layer of burden actually
+[1348.8-1353.7] because I'm like oh I can't just like do the the sort of MVP of this like I actually need to like
+[1353.7-1359.0] go 10 steps further because the technology enables me and like resetting my my level of ambition
+[1359.0-1362.7] I think is something that I I've also spent a bunch of time thinking about but I think that will
+[1362.7-1369.7] happen in other these like vertical super intelligence domains which will be interesting and it feels
+[1369.7-1375.3] like we're going to get a bunch of those before we've like solved like it's almost like jagged
+[1375.3-1379.4] like jagged super intelligence I think is what we'll end up with what verticals do you think we'll
+[1379.4-1384.5] get super intelligence at next that's a great question I do spend a lot of my time too much time
+[1384.5-1389.4] probably thinking about coding these days so I'll think for a second of like the other the other
+[1389.4-1395.2] domains um I think part of this is like things that have like better verifiability obviously are
+[1395.2-1400.5] like the ones where you'll you'll see the gains happen more quickly um so like things with like math
+[1400.5-1406.1] and finance actually like science could be a really interesting one like it would be fascinating to see
+[1406.1-1412.9] like some of these domains where there's some level of verifiability like actually like really start
+[1412.9-1418.8] to take off um which would be cool and I also think like an important thing in this like broader
+[1418.8-1424.2] narrative about just like what what impact AI is having on the world like you almost like want
+[1424.2-1428.7] that to be the case and the sequencing of like things that work you want you know a lot of these
+[1428.7-1434.2] like really really good impactful positive things for the world to happen um as early on as humanly
+[1434.2-1439.0] possible so that like folks understand what the potential positive impact of the technology is so
+[1439.0-1442.5] I think science could be a really interesting one yeah other obviously there's all the stuff
+[1442.5-1446.3] happening right now with like math proofs and stuff like that which I'm not a mathematician so
+[1446.3-1452.3] it's somewhat over my head but um I saw a great sweet beginning uh why did there's so many problems
+[1452.3-1458.9] exactly that's a good one I like that that is that's a good like t-shirt um so funny okay I
+[1458.9-1462.6] but speaking of Twitter I went through your Twitter before this so I'm gonna read back another
+[1462.6-1466.1] tweet at you look the good thing out Twitter is there's a public record of all your predictions so
+[1466.1-1471.2] I need to turn on that auto to deleting feature or whatever last October you tweeted
+[1471.2-1477.2] everyone is going to be able to vibe code video games by the end of 2025 yeah did that end up
+[1477.2-1482.8] being true it feels close and I think there's I mean it obviously not AAA games like you're not
+[1482.8-1490.1] building a you know the next call duty or GTA yet um but I think it's it feels closer than it's ever
+[1490.1-1498.2] been um and I think a lot actually a lot of the interesting bit about video games is you actually
+[1498.2-1502.5] need to end up building a lot of this like other stuff like models and we were talking off camera
+[1502.5-1506.9] before this like 3JS is a great example this like 3JS makes a lot of things possible that weren't
+[1506.9-1512.8] before but there's still all these like rough edges that like just a coding agent doesn't solve
+[1512.8-1516.7] and so you need like you know sprite generation and like the models aren't very good at doing
+[1516.7-1521.1] that natively and so you need like some orchestration layer and tooling in order to make that happen
+[1521.1-1527.4] there's a bunch of other things like that that like our core to like the gaming video game experience
+[1528.4-1533.2] that need to have a high degree of reliability that I think it feels like it's within reach but
+[1533.2-1538.3] actually like requires a lot of like product scaffolding work in order to create experiences that are
+[1538.3-1543.7] like reusable and replayable and sort of like have the level of depth and requires a little bit of taste
+[1543.7-1549.1] in there um do you see people making a lot of video games inside AI Studio and the other developer
+[1549.1-1554.0] surfaces that you have yeah and so this was actually based on like us looking at the early data
+[1554.0-1558.1] and there was something like an AI Studio at the time it was like 20% of all apps that folks were
+[1558.1-1562.1] making were actually games like people trying to build games a lot of it. Is that the most popular
+[1562.1-1567.3] category? It's not the most popular category anymore um just because I think like the the ecosystem
+[1567.3-1571.7] is shifted and like the user base have shifted has shifted but it's a lot of a lot of games um
+[1571.9-1577.2] what is the most popular category? I think it was like it's like 20% like finance related stuff
+[1577.2-1582.3] 20% people like counting their money that much. People like I think it's something around crypto
+[1582.3-1587.1] actually I think is what people are doing a lot of stuff with uh with finance a lot of like personal
+[1587.1-1592.5] productivity things and a lot of gen media stuff actually because obviously the Google suite of
+[1592.5-1599.3] gen media stuff has amazing yeah has done a great job um but I also think gdm has sort of like a
+[1599.3-1603.8] obviously dumbest cares a ton about games and sort of like started his career and doing AI stuff
+[1603.8-1609.7] because of games um and so I think we'll we'll have some interesting swings at this and um our team
+[1609.7-1614.3] actually in in Kaggle which is sort of a bunch of the AI benchmarking stuff we do in gdm
+[1614.3-1619.4] sort of works with gdm to build this uh game arena which is uh sort of our way of sort of like
+[1619.4-1625.3] testing progress towards agi like using games as a proxy which again is like very deeply rooted in
+[1625.3-1631.6] in gdm's uh history so how close do you think we are to you know rando off the street with a good
+[1631.6-1637.7] idea can vibe code a really fun playable game I want to say this year I actually I think it's but
+[1637.7-1641.8] I think the model capability makes it possible I think this is where like I've gotten excited on
+[1641.8-1645.2] the product side and then what you know we're again we are also talking off camera about sort of like
+[1645.2-1650.5] the startups in this ecosystem because um it feels like it's possible it doesn't feel like there's
+[1650.5-1655.7] a gap in model quality it feels like there's a gap in like you someone who knows what it takes to
+[1655.7-1659.7] build a great game actually like putting the scaffolding together in the right way to make that
+[1659.7-1664.1] possible I think there are folks who are doing this right now and so um some of it is like a
+[1664.1-1668.5] discoverability and awareness thing that like people just don't even know that they can do that um
+[1668.5-1673.7] and some of it is just like maybe certain categories of model capabilities are just like slightly
+[1673.7-1678.5] often we're like you know weeks or months away from like that chasm being crossed and then it
+[1678.6-1683.1] just like working for most people and so this is a good segue into I'm going to ask you about
+[1683.1-1690.9] world models next but do you think vibe-coded video games is more likely um going to be you know
+[1690.9-1697.6] game engine plus coding agents based or do you think it's more likely to be world model based
+[1697.6-1702.9] yeah I think the well we'll end up happening is the definition of world models world blur which we
+[1702.9-1710.9] should know which we should talk about with Omni um and it will still I think the like coding agent
+[1710.9-1719.3] will look like some sort of world model type system um but you actually do need to make world
+[1719.3-1724.2] models useful for like real things you need like scaffolding um and so I think there's
+[1724.2-1728.5] again there's actually a bunch of interesting startups like doing work like figuring out what is
+[1728.5-1734.0] the scaffolding for world models so that you can take them from these like very open-ended
+[1734.0-1739.0] of the inherent design of world models very open-ended spaces and like do it in a tangible way so
+[1739.0-1743.6] that it's like grounded in a use case that like you could use in a reoccurring way and that could be
+[1743.6-1748.2] somebody maybe will figure out the scaffolding for world models to make games possible like the
+[1748.2-1753.2] inherent nature of world models right now I think make it so that it's like actually not well suited
+[1754.1-1758.6] for like games in the current form but the progress has been crazy so who knows maybe in
+[1758.6-1764.2] like two years the versions will be able to but at least in the short term it's like coding agent plus
+[1764.2-1768.8] some sort of game engine I think is like where you'll see way more alpha from a games perspective
+[1768.8-1773.4] that makes sense okay so you said the definitions of world models are blurry can we unpack that?
+[1773.4-1778.9] yeah I mean I think like Omni is a is an example of this you know we launched this at IO you can sort
+[1778.9-1784.9] of taking any input create any output and I think Demis sort of like framed it to the world
+[1785.8-1790.2] rightfully so as a world model because of just like the level of understanding that it has of the
+[1790.2-1796.2] world I think that like technically looks different than and I'm not an architecture expert on like
+[1796.2-1800.3] the way that we've done world models before but it is different from an architectural standpoint
+[1800.3-1806.2] than what's happened in the past which I think is positive because it's getting closer to like some
+[1806.2-1811.3] of the ways in which it might actually be more scalable and historically like it's been like
+[1811.3-1817.7] super not scalable it's like very very expensive to run yeah traditional like online world models
+[1817.7-1822.5] like Genie being like yeah exactly so if you think of traditional world models as being like an
+[1822.5-1829.5] action conditions video model yeah then like right now what we're when we say world model what we
+[1829.5-1834.5] actually mean is a model that has some understanding of the world as opposed to being strictly technically
+[1834.9-1839.7] action condition video model yeah and and so the interesting thing though is like it has
+[1839.7-1844.9] understanding of the world but then it also has that like really great and that's where like the
+[1844.9-1850.2] line is blurry to me where it's like it can do a lot of those same use case it's not real time
+[1850.2-1854.7] right now but like it can do a lot of those same use cases that you could describe or like
+[1855.5-1860.5] visually could create with that same exact world model which I think is what's most interesting to me
+[1860.5-1867.1] so I do feel like this like world model video model thing is gonna is gonna change and play out
+[1867.1-1871.9] in a different way than was obvious before and how does it work under the hood like whatever you're
+[1871.9-1878.3] able to share like is it Gemini plus video models is it something different entirely it is it is
+[1878.3-1882.9] a single model which I think is the important part like this was actually part of the original
+[1882.9-1890.2] desire was like you were training like eight different models to do all of those things historically
+[1890.2-1895.5] it's like you have a text model with the baseline Gemini model you have audio you have music models with
+[1895.5-1901.1] Lyria you have nano banana you have video video models you have we have a whole suite of audio models
+[1901.1-1907.3] and like it would be great for us our customers if you just had a single model to do all those
+[1907.4-1913.5] things so it is like a new setup that sort of makes that possible it's not like routing to a
+[1913.5-1917.4] bunch of different models which like we you could have imagined we could have done something like that
+[1917.4-1923.6] actually before and done like a Gemini Omni model but this is like a true Omni model and it's
+[1923.6-1927.3] starting with like the the use case that works the best right now which is the why it's the one
+[1927.3-1935.1] that's available is this like video editing capability the technically it's like functional with the
+[1935.1-1940.4] other things it's just like the quality isn't isn't like perfect and is not state of the art so we
+[1940.4-1946.5] haven't rolled that out yet it's also just like the first crank of the model turn on Omni it's
+[1946.5-1952.4] the Omni Flash model the first iteration and so we'll have like much much more capable powerful
+[1952.4-1957.5] versions which will be which will be exciting to see so we could edit this set so it looks like we
+[1957.5-1962.1] should yes yeah yeah we I want this we again we're talking off camera like we should do that for
+[1962.1-1966.9] the intro because I think it just like makes all this stuff more capable and I've seen these
+[1966.9-1972.9] examples of like such subtle nuance that like make me appreciate that it's like the world understanding
+[1972.9-1979.7] playing out I was I was giving a talk and was on stage with with my friend Tulsi who leads the
+[1979.7-1983.4] model team but I don't know if you've ever had on before but she's amazing I love Tulsi
+[1984.7-1990.2] and in I had mentioned to someone in the crowd to like edit the video and they literally took
+[1990.2-1995.7] the picture edit it with Omni in real-time and this like dog came on the stage and like the other
+[1995.7-2000.1] in the edited version the other guests sort of like look down and see the dog they like chuck
+[2000.1-2006.7] a little bit this is wall I'm like opining about whatever yeah yeah it was not my jokes they laugh
+[2006.7-2011.7] at the dog coming up it jumps onto my lap I sort of like acknowledge the dog I keep talking I'm
+[2011.7-2018.2] like petting it or whatever and just like there's like so much subtle subtlety and getting that right
+[2018.2-2024.1] and the model crushed it and it's just it's very interesting and like still trying to like absorb
+[2024.1-2028.9] and digest like what that means for you know the way we make content and all these other things
+[2028.9-2034.5] that's so interesting yeah I'm the biggest bull on generative media and what it means and
+[2035.3-2039.4] I mean one of the things we've thought about for our podcast is the visuals matter as much as the
+[2039.4-2044.1] content for sure um that's how you catch people's attention in the first place right yeah and and
+[2044.1-2048.5] so okay I'm excited to I'm excited to play with Omni I'm excited to and I think the and I think
+[2048.5-2052.5] you probably feel this way as somebody who makes content but I've historically like been like
+[2053.2-2058.2] very for myself personally like I don't use AI to make any content that I produce like it's
+[2058.2-2063.6] all my words it's always my voice it's always my image and picture showing up like I just I feel
+[2063.6-2068.5] like there's just like so much alpha and authenticity and so like I would much rather it be me then
+[2068.5-2075.9] some AI version of me what I like so much about Omni is that it's like not changing me um it is
+[2075.9-2080.8] like changing a bunch of these other bits which are not me like I didn't choose any of the like set
+[2080.8-2086.1] around us or the the coffee table it's like so our words can stay the same and like you can change
+[2086.1-2091.2] these bits that are like not personal um and do something more interesting with that which I think
+[2091.2-2098.0] is really really cool and feels feels like the version of what I want sort of like gen media to be
+[2098.0-2104.9] which is like not a bunch of like AI avatars uh no fruit island videos exactly truly like it really
+[2104.9-2109.7] is like it's the original content it's the person it's like the personhood is there it's just
+[2110.4-2114.8] different and amplified super interesting okay I'm excited to play with it yeah we should we
+[2114.8-2119.5] should send some prompts right after this and try and I don't mind the fruit videos though I'm
+[2119.5-2125.6] I'm happy for all of both um on the coding side you launch the ability in AI studio from
+[2125.6-2131.2] people to vibe code Android apps yeah yeah um I'd love to you know hear how that's going so far
+[2131.2-2136.1] and and to where you plan to take that yeah it's super exciting I think one of the strategic things
+[2136.1-2141.1] for AI studio and actually this is based on like a lot of the feedback from the ecosystem and actually
+[2141.1-2145.9] from developers from others it's like so many Google products um there's so many different like ways
+[2145.9-2150.9] in which you like touch Google through all these different journeys of building a startup or bringing
+[2150.9-2156.1] idea to your life and so um we have this like first class principle of like how do we bring
+[2157.0-2162.9] things into AI studio that make it so that you are exposed to other parts of the Google ecosystem
+[2162.9-2168.1] without having to like go through nine different UIs across Google um and so Android's are like a great
+[2168.1-2174.5] example um not only of that but also of enabling people who wouldn't have otherwise built an Android
+[2174.5-2180.5] app and so I literally built my first Android app in AI studio um very cool to see it's uh
+[2180.5-2186.1] what is it yeah I just did like a plan not a crypto app just a plant one I was planting trees in
+[2186.1-2191.3] my backyard yeah and so it was just like playing around with a gardening app as I as I was
+[2191.3-2196.3] kicking the tires um I haven't had my like breakthrough idea yet of what I want for a mobile app but
+[2196.3-2200.5] I'm gonna I'm gonna come up with something and see go compete on the app store have you seen
+[2200.5-2204.3] anything that I've coded like really fly in the app store yet that's a good I know I should be
+[2204.3-2209.6] interesting to like see some analysis I don't know I'm sure it's like accelerating a lot of things
+[2209.6-2213.3] on the app store but I don't know how much like I don't know anyone like personally who's who's
+[2213.3-2218.2] down that yeah it is interesting and I was going to make the observation too that I think the last
+[2218.2-2223.6] time I checked the numbers we were reviewing it this morning it was like 350,000 Android apps built
+[2223.6-2230.5] in AI studios since last week which is crazy um and like excitingly it's like 350,000 apps that like
+[2230.5-2235.1] probably no one was going to build before a lot of these are personal too and so this is where I
+[2235.1-2241.2] think this like maybe GenUI is like farther out there but I think like the idea of you building
+[2241.2-2246.6] software to solve your personal problem is like very real right now and like people are doing that
+[2246.6-2251.6] it's like one of the most common use cases of a lot of these products um and being able to like
+[2251.6-2255.3] unlock a bunch of the native capabilities of the phone I think is also really interesting because
+[2255.3-2261.8] you just have so much context that's like in different places um so I'm I'm getting very excited about
+[2261.8-2268.5] sort of that opportunity and uh Android feels like it's becoming the the platform for builders
+[2268.5-2272.3] does it matter that something is an app versus just like the web is so powerful now
+[2272.3-2276.7] yeah that is it's also very interesting to see that play out web is definitely powerful there are
+[2276.7-2282.4] certain things that the operating systems have that like you just can't unlock um like lots of
+[2282.4-2289.5] like native richness that actually like make experiences feel so much richer I think about this
+[2289.5-2293.7] for like text messaging actually that like the text messaging experience in all of the
+[2294.2-2299.9] and all the main operating systems feel way richer to me than like any AI chat app that I've ever
+[2299.9-2305.2] used like if I could just talk to AI and whatever texting app I use like I would be way happier than
+[2305.2-2310.5] having to go to some other app um because I think we're also just like conditioned on like the operating
+[2310.5-2315.9] systems so yeah makes sense okay I want to ask about the model eats the harness or the model eats
+[2315.9-2320.5] the scaffolding of your thoughts yeah I think it's true and I think part of this is like
+[2321.3-2328.6] what we have historically thought of as the model is not the model anymore like when I think like
+[2328.6-2334.3] two years ago when LLMs were popular it was like the model was like actually just a set of weights
+[2335.0-2339.3] it was a set of weights and it was like really like how can you like as simple as possible
+[2339.3-2344.2] send tokens in and get tokens out and I think we've just like progressively step by step by step
+[2344.2-2349.3] we still call it the model we still call it you know Gemini 3.5 you still call it GPT whatever
+[2349.3-2354.5] and and clawed whatever but like it's actually not just the weights anymore it's like an entire
+[2355.5-2360.5] expanse expanding sprawling system that's built around the weights that sort of like enable a lot of
+[2360.5-2365.1] these like next generation experiences from agentic tool calling to tool you know like all these
+[2365.1-2371.3] hosted tools search code execution etc you know the models are now being spun up in containers and
+[2371.3-2377.9] sort of have an agent harness and all that stuff so the scaffolding is like oftentimes a couple
+[2377.9-2382.9] of steps ahead of like where the act what is like baked directly into the model and then what
+[2382.9-2386.9] ends up happening is like the model eats that scaffolding and it becomes part of like the native
+[2386.9-2392.6] model system and there's still value in having sort of the external scaffolding in certain cases
+[2392.6-2396.5] and like search maybe as an example of this like there's lots of folks who use different search
+[2396.5-2400.7] providers and there's different like use cases that you want and so like sure maybe the model
+[2400.7-2405.5] can natively use search but you also want something else code execution another example of that
+[2406.7-2412.2] but it does feel like like maybe the agent harness is like the quintessential example of this
+[2412.2-2416.1] right now where like everyone's like we got to go build a harness and like the harness is where the
+[2416.1-2421.7] alpha is and like I think that perhaps won't be true at least in the way that we think of the
+[2421.7-2426.4] harness today in 12 months I think the models will have sort of just like digested a bunch of that
+[2426.4-2430.9] it'll be upstreamed into the model and the alpha will be somewhere else now it won't be
+[2430.9-2435.7] in sort of trying to spin your own harness because the model just like does it natively
+[2435.7-2438.7] but I thought that the part of the reason why people are building their own harness is because
+[2438.7-2442.1] if you use a harness from any given model provider you're locked in right so a lot of the
+[2442.1-2446.1] application companies want flexibility which is why they're building their own harnesses yeah and I
+[2446.1-2450.8] think that's part of the scaffolding story is like that starts out perhaps true but then as the
+[2450.8-2455.2] model capability improves like it becomes less true over time actually I think the model
+[2455.3-2461.3] that like you you don't have a generalized model if it can't use another harness and so it is
+[2461.3-2466.0] it is important and I mentioned this in another conversation with someone a few weeks ago but we
+[2466.0-2470.6] need something like harness bench which is like actually measuring like how good are all these
+[2470.6-2474.5] different models at adapting to all the different harnesses I feel like that seems like a reasonable
+[2474.5-2480.1] thing we should we should measure as an ecosystem and I'd be curious to see like what models are
+[2480.1-2487.1] actually best but I think over time you expect they'd be able to use every harness unless you're
+[2487.1-2492.1] like completely out of distribution which in that case like you're still going to be completely
+[2492.1-2496.7] out of distribution even if you're using your own harness so not sure it matters much fair enough
+[2496.7-2503.2] what about the application layer how do you think about where independent companies can you know
+[2503.2-2508.1] have a hope of surviving when the model eats the harness and eats you know the stuff around it
+[2508.1-2513.1] yeah it feels like there's yeah it's an interesting story that like both of these things feel true
+[2513.1-2518.3] both on one hand I everywhere I look I'm like there's never been more opportunity to go and build
+[2518.3-2522.1] something at the same time obviously the models are doing more than they've ever done before
+[2522.9-2526.9] I think there's like you know there's that thread of capability overhang which I think there's
+[2526.9-2531.6] a huge amount of alpha and there's the thread of the model companies are like going after these
+[2531.6-2538.6] like very general problems and there's just like so much value in these like verticalized domains
+[2538.6-2542.4] if you have expertise in that domain you sort of like know the customers you know the ecosystem
+[2542.4-2548.5] like this you can really like run laps around even the best model labs because like focus is the
+[2548.5-2554.5] like super power of startups like if you can focus you can do anything and if you look at all of the
+[2554.5-2560.3] companies that are big or doing lots of stuff like there's just not a lot of focus and for some for
+[2560.3-2565.8] some reasons like rightfully so because yeah maybe I'm overly justifying you know Google strategy
+[2565.8-2568.9] but like we just have a lot of products we have a lot of users we have a lot of different things going
+[2568.9-2573.2] on and so like we actually can't focus in one domain we have an obligation to do a bunch of
+[2573.2-2579.0] things as a big company I think that's not true for startups and so I think like 24 months ago
+[2579.0-2584.0] we were all asking ourselves like oh wow it seems like that seems like the opportunity space is
+[2584.0-2589.0] shifting and maybe it's it's possible one of the outcomes is there's less opportunity for startups
+[2589.0-2594.1] in the future that feels like so far in a way not what has ended up playing out which is really
+[2594.1-2598.6] positive if anything it feels like there's just even more opportunity than there was like now
+[2598.6-2604.0] coding has helped you like close the gap on like larger companies that have like established code
+[2604.0-2608.3] bases and all this other stuff because you can just like run way faster and write software quicker
+[2610.1-2616.1] the agentic like primitive is like a new category that you can sort of build products around that like
+[2616.1-2620.9] actually in a lot of cases to the conversation about like the risks involved with building like
+[2620.9-2624.9] there's risk involved and so like what's your like the risk appetite of different companies is
+[2624.9-2629.4] different and so if you're willing to take more risk in some domains like you can win a user cohort
+[2629.4-2634.5] who's like interested in also taking risk there's so much opportunity awesome I'd love to talk
+[2634.5-2641.9] about Google deep minds culture and I'm curious what does it feel like to be inside gdm right now
+[2641.9-2647.0] you know what we had Demis at AI sent he was so inspiring I've heard Sergei's back I've
+[2647.0-2652.7] you guys have known Shazir back like walk me through what it's like to be at gdm right now
+[2652.7-2658.9] it's incredible I do try to take it all in because it is like it's like a moment I try to reflect
+[2658.9-2663.1] as much as possible in the chaos of all the things that are happening just because there's like so
+[2663.1-2671.3] much cool stuff going on gdm's culture is interesting and like maybe three observations one back to
+[2671.3-2677.6] this thread of like focus we're doing a lot of things and so I think you see sort of I think
+[2677.6-2681.9] about this a lot like from a portfolio perspective I think we have like one of the strongest portfolios
+[2681.9-2686.7] which is really exciting but you do see these moments were like another lab or another company whatever
+[2686.7-2691.7] it is will like pull ahead in a certain area where like we under invested just like hadn't been
+[2691.7-2700.5] focused enough in that domain and it's cool to see like the the way we go about trying to like close
+[2700.5-2707.1] that gap I very much I very much appreciate it I think I've I've watched the demos thinking game
+[2707.1-2713.4] documentary a few times and like you see sort of like a lot of like details of that like original
+[2713.4-2717.6] culture and just like the way that strikes work and all this stuff is actually really similar today
+[2717.6-2722.1] is like you just get a bunch of smart people together and like go solve the problem and I love that
+[2722.1-2729.9] and it's like very cool to to be a part of another one is this I think you see the culture
+[2729.9-2738.1] permeate from like who the leaders are and as I maybe this isn't like a perfect characterization
+[2738.1-2746.0] of the ecosystem but like Demis is a Nobel prize scientist and like the sort of OG of a lot of
+[2746.0-2750.8] this stuff and sort of you feel that in the deep mind culture I think like Sam is like the you know
+[2750.8-2755.2] maybe one of the world's best businessmen ever and like you sort of see that in the open AI
+[2755.2-2759.8] culture and the way that they go about the world I don't have a strong sense of who Dario is
+[2760.5-2764.7] but like I think that topic is a very interesting place and you sort of at least as an external
+[2764.7-2770.4] observer like there he seems like an interesting guy and so someone esoteric and so it seems like
+[2770.4-2774.4] they're sort of like that in the DNA and the culture of the company you know all the other labs
+[2774.4-2781.2] are interesting but I like this like very scientific approach to the world and the way that like
+[2781.2-2788.2] Demis looks at like the reason he's doing this and the reason they started this mission was like
+[2788.2-2792.4] literally to like solve disease and all these things and it's like so easy to get
+[2792.4-2796.4] again I'm always trying to pull myself out of the moment but like it's so easy to get lost in
+[2796.4-2802.5] this like competitive race of who's pushing a number higher on sweet bench or whatever it is
+[2802.5-2806.6] it's very easy to lose sight lose sight of like the reason we're doing that is so that like we're
+[2807.8-2813.7] consult problems that humans actually have and there's uh uh my my favorite quote from all
+[2813.7-2817.7] of Silicon Valley is something like you know we can't let other people make the world a better place
+[2817.7-2822.1] more than we can which is like what this moment feels like and I just the Gavin Nelson good
+[2822.1-2826.6] and I think about that all the time and it's like we're all fighting over who can make the world
+[2826.6-2831.1] better more than the other person which just like when you frame it like that seems really goofy to
+[2831.1-2839.7] me um and so it's very much not zero sum um and I think that's like a a way of looking out the
+[2839.7-2843.7] world I think the last thing about Demis culture is like we're very we're it's sort of the
+[2843.7-2848.4] engine room of Google which I think is like literally the twitter bio now of the the deep mind twitter
+[2848.4-2854.7] account which I love um you man the deep mind I don't I don't want any responsibility manning other
+[2854.7-2860.9] people's accounts online too much too much responsibility to do that but it does feel like that too so
+[2860.9-2865.2] it's like on one hand you have sort of like the deep rooted lab culture in the other hand you have
+[2865.2-2869.6] sort of like all of these partners across the Google ecosystem that we're collaborating with everybody
+[2869.6-2875.3] from Android that we talked about earlier to Google Cloud to you know Gmail to workspace etc etc and
+[2875.3-2881.4] so it's an interesting blend of like I think there's lots of research work happening but like there's
+[2881.4-2886.6] tons of applied work that's happening to like actually like work with some of like the forefront
+[2886.6-2893.3] customers like deploying Gemini to billion user products is a problem that like only two companies in
+[2893.3-2898.5] the world have um and we have 13 of those products and like we the you know Google goes through this all
+[2898.5-2903.2] the time now and it's such an interesting place to like see that happen and see the innovation
+[2903.2-2907.5] that takes place in order to make that actually possible and I feel like it's you can only do that
+[2907.5-2912.9] inside of inside of Google which is really cool beautifully said did they uh did it give them a lot
+[2912.9-2918.5] of heartburn when you joined and we're tweeting a lot that's a good question I have to get sign off
+[2918.5-2928.5] from I'm very uh one of the the silver linings to my Google experience has been just like how great
+[2929.1-2934.4] that group of like folks across marketing comes are to work with and I think like a you know their
+[2934.4-2938.7] job is protect Google make sure we tell the right story and make sure a bunch of bad things don't
+[2938.7-2943.2] happen and so I have a ton of appreciation and partnership with them but it's been an incredible
+[2943.2-2948.8] experience to like be able to go try to tell the story that resonates with developers in a way
+[2948.8-2955.7] that feels authentic uh and not have a huge amount of you know I know you know I don't have to get my
+[2955.8-2960.1] tweets approved all the time and all this stuff like it's a very very positive culture and I think
+[2960.1-2966.2] hopefully I'm always trying to walk the line of uh not not burning uh the trust and goodwill that
+[2966.2-2970.2] that I've accumulated with those folks but it's been super positive because ultimately I think it's
+[2970.2-2976.1] like it's really hard for Google to tell this like authentic stories just so there's like
+[2976.1-2980.5] it's a big company there's a lot of people there's a lot of opinions and so you take the like
+[2980.5-2986.1] magic of Google and you water it down through like a lot of people and a lot of process and you
+[2986.1-2990.6] actually yeah you you miss the beautiful story which is like Google's doing the most interesting
+[2990.6-2994.7] technology in the world and like helping our users with some of the hardest problems in the world
+[2994.7-2999.7] and um it feels it's a privilege to like get to help tell that story so it's it's a lot of fun
+[2999.7-3004.2] I enjoy it I love what you're doing I love what Josh is doing and you guys have put a really
+[3004.5-3009.8] sincere human touch on as you put it the most important problem of time so thank you
+[3010.5-3015.0] well wonderful Logan thank you so much for joining me today to say very far-ranging conversation
+[3015.0-3021.1] everything from agents and coding to world models and harnesses and gdm culture and you
+[3021.1-3025.1] lots lots of nuggets here uh thank you for for joining me today this is what's on the phone
+[3025.1-3029.7] thank you for having me and I'm excited to see what the uh folks cook up where we've been sitting
+[3029.7-3036.5] this whole time maybe in front of us uh maybe they'll be a dog a dog I love it awesome thanks
+[3036.5-3043.3] of course

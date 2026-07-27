@@ -1,0 +1,231 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-07-08_2103",
+  "usage": {
+    "prompt_tokens": 3853,
+    "completion_tokens": 824,
+    "total_tokens": 4677
+  },
+  "episodes": [
+    {
+      "id": "a3b21e9a14f8ad6f40fa97ae",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "It's still way too hard to switch phones",
+      "link": "",
+      "published": "2026-07-08T19:10:00+00:00",
+      "summary": "How much smartphone is too much smartphone? Why is it so hard to switch from one phone to another, even in 2026? And is your smartwatch finally ready to replace your phone, even for a few things? These are the questions you have, and The Verge's Allison Johnson is here to answer them. If you have others, keep 'em coming! Call the Vergecast Hotline at 866-VERGE11, email ⁠vergecast@theverge.com⁠, tell us everything. Further reading: Google announces Pixel 11 launch event in August | The Verge The whole Pixel line could get more expensive this year | The Verge Meta’s glasses will turn off the camera if you tamper with the privacy light | The Verge This jumping $800 robot camera dog filled me with joy ⁠Ditching my phone for an LTE smartwatch was a humbling experience⁠ ⁠I switch phones once a week — here’s how I manage the chaos⁠ ⁠Welp, I bought an iPhone again⁠ Subscribe to The Verge for unlimited access to theverge.com, subscriber-exclusive newsletters, and our ad-free podcast feed. We love hearing from you! Email your questions and thoughts to vergecast@theverge.com or call us at 866-VERGE11. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "1986",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "a3b21e9a14f8ad6f40fa97ae",
+        "score": 35,
+        "tier": "scan",
+        "reason": "Consumer tech usability issues; not core to AI, capital allocation, or operator insights.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "b549d87dfc2a742fbeee6233",
+      "show_name": "Big Technology Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Meta CTO Andrew Bosworth: Our Path To Frontier AI, Renting Models, Consumer AI's Struggles",
+      "link": "",
+      "published": "2026-07-08T17:07:00+00:00",
+      "summary": "Andrew \"Boz\" Bosworth is the chief technology officer of Meta. Bosworth joins Big Technology to discuss why Meta fell behind in the frontier AI race and how it plans to turn its models, products, and distribution into an advantage. Tune in to hear his candid explanation of what went wrong with Llama, why the best AI products will use multiple models, and what it will take for consumer agents to break through. We also cover Meta’s AI glasses, the future of augmented reality, employee tracking and training programs, AI companions, and the painful process of adapting a company to a technological revolution. Hit play for a revealing conversation about Meta’s AI comeback and the products that could shape how we interact with computers. --- Enjoying Big Technology Podcast? Please rate us five stars ⭐⭐⭐⭐⭐ in your podcast app of choice. Want a discount for Big Technology on Substack + Discord? Here’s 25% off for the first year: https://www.bigtechnology.com/subscribe?coupon=0843016b Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "duration": "2812",
+      "old_score": 40,
+      "old_label": "skip",
+      "qwen": {
+        "id": "b549d87dfc2a742fbeee6233",
+        "score": 82,
+        "tier": "listen",
+        "reason": "Meta CTO discusses frontier AI strategy, model economics, and product challenges; strong operator insight.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "0b6c46613b498bda9d0c21fd",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: July 8th, 2026",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-july-8th-2026",
+      "published": "2026-07-08T16:22:00+00:00",
+      "summary": "Featuring: Ed Yardeni, President & Chief Investment Strategist of Yardeni Research Scott Chronert, Managing Director & Head: US Equity Strategy for Citigroup Global Markets Samantha Dart, Managing Director & Head: Natural Gas Research at Goldman Sachs See omnystudio.com/listener for privacy information.",
+      "duration": "1154",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "0b6c46613b498bda9d0c21fd",
+        "score": 40,
+        "tier": "scan",
+        "reason": "Market commentary with limited depth; generic Bloomberg surveillance episode.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "77582455400d0b856cbecebb",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Markets and Geopolitical Swings",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/markets-and-geopolitical-swings",
+      "published": "2026-07-08T15:47:23+00:00",
+      "summary": "The latest in finance, economics and investment. Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF . Bloomberg Surveillance hosted by Tom Keene & Paul SweeneyWednesday, July 8, 2026 Featuring: 1) Sarah Hunt, Chief Market Strategist at Alpine Saxon Woods, talks about market gyrations amid geopolitical swings. 2) Fatima Boolani, Co-Head of the US Software Equity Research at Citi, talks the tech selloff and SaaS-pocalyse and the outlook for tech. 3) Effram Kaplan, Co-CEO and Head of our Services & Infrastructure Verticals, talks about the infrastructure reinvestment cycle and if he's witnessing infrastructure transitions amid geopolitical uncertainty and energy price increases. 4) Mark McCormick, Chief FX Strategist at BMO Capital Markets, joins to discuss the \"New Policy Order\" reshaping markets. See omnystudio.com/listener for privacy information.",
+      "duration": "1932",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "77582455400d0b856cbecebb",
+        "score": 55,
+        "tier": "digest",
+        "reason": "Geopolitical and market swings; relevant for macro context but not deep insight.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "62828ec5ca89ba5080b6c7c3",
+      "show_name": "Conversations with Tyler",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "Joel Mokyr on Clans, Corporations, and a Culture of Growth",
+      "link": "https://cowenconvos.libsyn.com/joel-mokyr-on-clans-corporations-and-a-culture-of-growth",
+      "published": "2026-07-08T12:00:00+00:00",
+      "summary": "Joel Mokyr co-won the 2025 economics Nobel for exploring the question that traces back to the beginning of economics: how did sustained economic growth suddenly become normal? For nearly all of human history, cleverness didn't compound. What changed, according to Mokyr, was twofold: first, you need to know why something works, so that one advance can seed the next; second, you need a culture willing to tolerate the disruption. His new book contrasts Europe with China, showing how Europeans learned to cooperate with people they weren't related to, in guilds, monasteries, cities, and universities, while China organized itself around the extended clan. One path led to internal stability and peace; the other, more restless and outward-looking, was the one that decided the world could always be made better. Tyler and Joel discuss European corporations vs. Chinese clans, why the Catholic Church became obsessed with cousin-marriage, how persistent cultural trends really are, why Chinese cities became so populous relative to Europe, why it took so long for European living standards to surpass China's, why sinified invaders kept getting swallowed by the dynasties they conquered, how geography kept Europe fragmented and China unified, where India fits into the story, why the Romans never made spectacles, why British soldiers stood two inches taller than the French, what powered the sudden rise of 19th-century German science, how disruptive winning a Nobel is, and much more. Read a full transcript enhanced with helpful links, or watch the full video on the new dedicated Conversations with Tyler channel. Recorded February 20th, 2026 . This episode was made possible through the support of the John Templeton Foundation. Other ways to connect Follow us on X and Instagram Follow Tyler on X Sign up for our newsletter Join our Discord Email us: cowenconvos@mercatus.gmu.edu Learn more about Conversations with Tyler and other Mercatus Center podcasts here . Timestamps: 00:00:00 - Intro 00:00:54 - Europe vs. China's Paths to Prosperity 00:10:22 - China's Growth 00:13:24 - Europe's Growth 00:18:56 - The Fall of Song China 00:21:56 - India 00:25:08 - Industrial Revolution 00:39:52 - 19th-Century German Science 00:43:37 - Being a Nobel Laureate 00:45:29 - Outro Photo Credit: Shane Collins",
+      "duration": "46:00",
+      "old_score": 21,
+      "old_label": "skip",
+      "qwen": {
+        "id": "62828ec5ca89ba5080b6c7c3",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Nobel-winning economist on growth culture and institutions; durable frameworks for long-term thinking.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "9b9d1c8d0c11d00c00a3d3cb",
+      "show_name": "Stratechery",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "XBOX Cuts; Bundling and the Internet Solvent; Transaction, Coordination, and Sunk Costs",
+      "link": "https://stratechery.com/2026/xbox-cuts-bundling-and-the-internet-solvent-transaction-coordination-and-sunk-costs/",
+      "published": "2026-07-08T10:00:00+00:00",
+      "summary": "Microsoft's Xbox division is conducting big layoffs, as the company deals with abject failure of its Game Pass strategy.",
+      "duration": "",
+      "old_score": 38,
+      "old_label": "skip",
+      "qwen": {
+        "id": "9b9d1c8d0c11d00c00a3d3cb",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Microsoft Xbox layoffs and bundling strategy; relevant for tech business models.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "f9a7c6117f973aade6185c1f",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Adam Neumann: This Is How You Build Iconic Companies",
+      "link": "https://a16z.simplecast.com/episodes/adam-neumann-this-is-how-you-build-iconic-companies-_2mqt7jy",
+      "published": "2026-07-08T10:00:00+00:00",
+      "summary": "Adam Neumann joins Marc Andreessen, Ben Horowitz, and Erik Torenberg for a candid conversation about entrepreneurship, failure, and building Flow. Neumann reflects on his childhood, military service, immigration to the United States, the rise and fall of WeWork, and what he learned from one of the most scrutinized founder journeys in technology. He explains why Flow is focused on rethinking housing, community, and belonging, and why he believes technology can fundamentally improve how people live. The conversation explores resilience, company building, leadership, real estate, software, flexible living, and the global housing crisis. Along the way, Neumann discusses rebuilding trust, designing for community, and why some of the biggest entrepreneurial opportunities emerge from deeply personal experiences. Resources: Read Marc's blog post about Flow: https://a16z.com/announcement/flow/ Marc on X: https://x.com/pmarca Marc’s Substack: https://pmarca.substack.com/ Ben on X: https://x.com/bhorowitz Erik on X: https://x.com/eriktorenberg Erik's Substack: https://eriktorenberg.substack.com/ Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "01:30:06",
+      "old_score": 100,
+      "old_label": "must_listen",
+      "qwen": {
+        "id": "f9a7c6117f973aade6185c1f",
+        "score": 60,
+        "tier": "digest",
+        "reason": "Adam Neumann on entrepreneurship and Flow; personal journey with mixed relevance.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "c42c84b91c8adedb8e786e69",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "The Fed's Next Move, and How Couples Should Actually Handle Money",
+      "link": "",
+      "published": "2026-07-08T08:00:00+00:00",
+      "summary": "Scott Galloway breaks down why the Fed may raise rates instead of cutting them, unpacks the shifting dynamics of money and separate accounts in modern relationships, and explains how to protect your work when your success starts attracting competition. Want to be featured in a future episode? Send a voice recording to officehours@profgmedia.com, or drop your question in the r/ScottGalloway subreddit. Plus, you can now call or text Scott a question at our new Office Hours hotline: ‪(201) 472-3656‬. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "1237",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "c42c84b91c8adedb8e786e69",
+        "score": 45,
+        "tier": "scan",
+        "reason": "Fed policy and personal finance advice; partial relevance to market read.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "9c3b881a2944f97989cf9cf5",
+      "show_name": "Possible",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Introducing Tokens to the Future: free tokens for builders",
+      "link": "",
+      "published": "2026-07-08T07:01:00+00:00",
+      "summary": "Tokens to the Future is a new limited series from Possible about how AI is expanding what people can build—with more tokens, custom agents, and a community behind them. In this first episode, Reid sits down with Parth Patil, co-creator of Reid AI and co-architect of the Token Grantee program, to lay out the thesis behind it. Through the program, a small inaugural group of creators and builders—working across film, gaming, comics, print, digital art and more—each receive a recurring grant of $1,000 a week in tokens, access to a custom fleet of AI agents, and an ongoing collaboration with Parth. There are no restrictions on which tools they use; the freedom to choose is the point. Grantees will join the series over the next few months. Each episode features one of them showcasing how they're using these tools to build products that could reshape their work, role and industries. Along the way, Reid and Parth discuss how AI agents are becoming persistent collaborators, why the biggest opportunities may lie in creative rather than technical domains, and how closing the gap between an idea and a finished product is changing entrepreneurship. For more info on the podcast and transcripts of all the episodes, visit https://www.possible.fm/podcast/",
+      "duration": "1928",
+      "old_score": 32,
+      "old_label": "skip",
+      "qwen": {
+        "id": "9c3b881a2944f97989cf9cf5",
+        "score": 50,
+        "tier": "scan",
+        "reason": "AI grants and creative tools; light on business model insight, heavy on promo.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "1729b139c61d05748bcb465a",
+      "show_name": "The James Altucher Show",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Frank Miller on Push the Wall, Batman, and Having No Plan B",
+      "link": "https://art19.com/shows/the-james-altucher-pod/episodes/34f7c3fc-a194-458d-bea0-365e912d2c7e",
+      "published": "2026-07-08T07:00:00+00:00",
+      "summary": "A Note from James: This is a very special episode for me. There have only been a few times in the history of this podcast when I’ve had the chance to sit down with one of my heroes. This is one of those times. Frank Miller is one of the most important storytellers of my life. When I first picked up Batman: The Dark Knight Returns in 1986, it completely changed what I thought comics could be. This wasn’t just another Batman story. It was a revolution. Frank took Batman out of the colorful, campy world I grew up with and turned him into something darker, mythic, terrifying, and psychologically real. There is a comic book industry before The Dark Knight Returns , and there is a comic book industry after The Dark Knight Returns . Every Batman movie since then carries Frank’s fingerprints in some way. But it wasn’t just Batman. Frank changed Daredevil. He created Ronin . He created Sin City . He showed that comics could handle adult stories, painful arcs, crime, tragedy, mythology, obsession, and moral ambiguity. But what matters most to me is that Frank is a master storyteller. And I love storytelling. Whether it’s books, podcasts, articles, comics, or just how we make sense of our lives, story is everything. So getting to sit down with Frank Miller and talk about Batman, myth, creativity, mentorship, discipline, and his new book, Push the Wall: My Life, Writing, Drawing, and the Art of Storytelling , was a dream come true. This was my first in-person podcast in years. Jay drove up from Atlanta. I flew into the city. And yes, I brought my copy of The Dark Knight Returns for Frank to sign. Episode Description: Frank Miller didn’t just write and draw some of the most influential comics of the modern era. He changed the grammar of comics. In this conversation, James sits down with Miller to talk about Batman: The Dark Knight Returns , Daredevil , Ronin , Sin City , and Miller’s new book, Push the Wall . The conversation begins with Batman, but quickly becomes a larger discussion about how characters become myths. For Miller, Batman was never just a rich detective in a costume. The material was already there from the beginning: a child witnessing the murder of his parents, growing up without powers, building himself into a force through discipline, intelligence, and obsession. Miller’s goal was to pull that core truth out and make Batman stand beside older pulp and mythic figures like Zorro, The Shadow, and the hard-edged heroes of crime cinema. James and Frank also talk about how myths are built around simple central values. Superman is hope. Batman is justice, vengeance, effort, and fear. The art is not in making those ideas complicated. The art is in placing them inside a human context so they feel emotionally true. The discussion moves into the craft of comics itself: page layouts, panel borders, visual rhythm, and how the pictures carry most of the story. Miller reflects on the influence of Jack Kirby, Neal Adams, Denny O’Neil, Japanese samurai films, martial arts movies, Greek tragedy, Jean Giraud/Moebius, Lone Wolf and Cub , and the creative power of combining worlds that do not obviously belong together. They also talk about mentorship. Miller describes calling Neal Adams from the phone book, bringing him drawings, and enduring brutally honest criticism. That toughness, he says, was part of the training. To survive as an artist, you need egoism without egotism: enough belief to keep coming back, but enough humility to keep learning. The episode closes with practical advice for young artists today: go to conventions, build the strongest portfolio you can, seek out hard criticism, don’t chase only the biggest titles, protect your original ideas, and look for “losers” you can make great. What You’ll Learn: Why Frank Miller wanted Batman to become a myth, not just another superhero. How The Dark Knight Returns helped move comics toward darker, more adult storytelling. Why Batman’s lack of superpowers is exactly what makes him comp",
+      "duration": "00:41:22",
+      "old_score": 4,
+      "old_label": "skip",
+      "qwen": {
+        "id": "1729b139c61d05748bcb465a",
+        "score": 30,
+        "tier": "skip",
+        "reason": "Comic book storytelling; not relevant to DJ's focus areas.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "1718c04e28d53d9c8facaea8",
+      "show_name": "The Tim Ferriss Show",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "#874: Guy Oseary — The Legendary Hollywood Power Broker on 5-Minute Decisions, 36 Years of Managing Madonna, 26 IPOs, and Spotting Magic First",
+      "link": "",
+      "published": "2026-07-07T21:30:00+00:00",
+      "summary": "Guy Oseary ( @guyoseary ) has been spotting talent before anyone else could see it for nearly four decades. Under his leadership at Maverick Records, Maverick sold more than 100 million albums. Guy has managed some of the biggest names in music, including Madonna, the Red Hot Chili Peppers, and U2, and was named Variety 's Music Mogul of the Year in 2022. He executive produced Twilight , which became one of the most successful franchises in movie history, generating more than $3.5B. Guy was also an early investor in Vita Coco and co-founded A-Grade Investments and then Sound Ventures , now with nearly $2 billion under management. At A-Grade, his hits included Airbnb, Uber, and Spotify. Sound Ventures launched with less than $100M and has since had 86 exits and 26 IPOs. This episode is brought to you by: Momentous high-quality creatine for cognitive and muscular support: https://livemomentous.com/Tim AG1 all-in-one nutritional supplement: DrinkAG1.com/Tim Timestamps [00:00:00] Start. [00:02:01] How a West Hollywood balcony became a backstage pass. [00:03:51] A knife on Pico Boulevard and the snap decision to switch schools. [00:05:54] Faking a Beverly Hills address to get inside another world. [00:08:10] Wise Guy Records: a 15-year-old builds a portfolio out of nothing. [00:10:09] Guy's alternative terms when Bernie Brillstein offered $25,000. [00:11:34] The one moment that confirmed Guy was on the right path. [00:12:29] Freddy DeMann enters the picture and Guy proves himself with Ice-T's crew. [00:15:07] A desk at Maverick Records in exchange for no salary. [00:17:08] Chasing Hole and Rage Against the Machine — and losing both. [00:23:34] Candlebox in five minutes: seeing thousands in a room of 30. [00:24:11] Why \"magic\" beats everything else. [00:26:37] Signing Alanis off a single song, and stopping Muse mid-audition. [00:31:59] The real Alanis story: \"Perfect,\" Joni Mitchell, and a 30-million-selling debut. [00:35:24] What Madonna taught Guy about thinking without walls. [00:38:50] From bands to Twilight : the power of a blank canvas. [00:45:30] How Guy got into investing, and the IdeaLab bet that wiped him out before the crash. [00:54:31] Why Guy is known as a great curator of people. [00:58:32] The three-month window that caught OpenAI and Anthropic. [01:06:07] AI music and the battle to ensure human musicians get paid. [01:09:30] How Spotify solved the problems Napster couldn't overcome. [01:14:50] SpaceX and Bitcoin: the ones that got away. [01:17:32] The rewards, rigors, and responsibilities of back-to-back touring. [01:21:44] Why Guy never stops to celebrate. [01:24:45] Splitting with Ashton Kutcher after 20 years. [01:27:30] Final thoughts on Guy's first podcast. * For show notes and past guests on The Tim Ferriss Show , please visit tim.blog/podcast . For deals from sponsors of The Tim Ferriss Show , please visit tim.blog/podcast-sponsors Sign up for Tim’s email newsletter ( 5-Bullet Friday ) at tim.blog/friday . For transcripts of episodes, go to tim.blog/transcripts . Discover Tim’s books: tim.blog/books . Follow Tim: Twitter : twitter.com/tferriss Instagram : instagram.com/timferriss YouTube : youtube.com/timferriss Facebook : facebook.com/timferriss LinkedIn: linkedin.com/in/timferriss See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info .",
+      "duration": "01:32:43",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "1718c04e28d53d9c8facaea8",
+        "score": 55,
+        "tier": "digest",
+        "reason": "Talent spotting, music management, and investing; partial relevance to capital allocation and operator insights.",
+        "confidence": "medium"
+      }
+    }
+  ]
+}

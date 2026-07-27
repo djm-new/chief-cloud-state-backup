@@ -1,0 +1,91 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-07-12_2104",
+  "usage": {
+    "prompt_tokens": 1898,
+    "completion_tokens": 326,
+    "total_tokens": 2224
+  },
+  "episodes": [
+    {
+      "id": "3ef3083a38c8d54a5849f8f4",
+      "show_name": "Lenny's Podcast",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "How tech workers actually feel about AI in 2026 | Annual AI sentiment survey (Noam Segal)",
+      "link": "https://www.lennysnewsletter.com/p/how-tech-workers-actually-feel-about",
+      "published": "2026-07-12T12:32:14+00:00",
+      "summary": "Noam Segal is a longtime research leader across Airbnb, Meta, Twitter, Zapier, Intercom, and Figma, a certified coach, AI builder, and my community research lead. Together, we run the annual Tech Worker Sentiment Survey, now in its second year and one of the largest of its kind: a quantitative study of how people in tech actually feel about their jobs, AI, burnout, and the future of their careers. This year’s survey captured responses from thousands of workers across product, engineering, design, research, marketing, data, and sales, and the results are striking. In our in-depth conversation, we discuss: 1. Why AI has split the tech workforce almost exactly in half—one half that’s thriving, another that’s shaken 2. The four emotional archetypes defining tech workers right now (the Energized, the Conflicted, the Disoriented, and the Resentful) 3. Why burnout has jumped an alarming 11 points in a single year 4. Why nobody in tech would recommend their job to someone entering the industry today 5. The #1 fear in tech right now (it’s not job loss to AI) 6. Why managers are the single biggest lever for employee well-being 7. Concrete advice for what employees and leaders can do right now — Brought to you by: WorkOS —Make your app enterprise-ready, with SSO, SCIM, RBAC, and more: https://workos.com/lenny Mercury —Radically different banking, now with Command: https://mercury.com/command?utm_source=lennys&utm_medium=sponsored_newsletter&utm_campaign=26q3_brand_campaign — Episode transcript: https://www.lennysnewsletter.com/p/how-tech-workers-actually-feel-about — Archive of all Lenny's Podcast transcripts: https://www.dropbox.com/scl/fo/yxi4s2w998p1gvtpu4193/AMdNPR8AOw0lMklwtnC0TrQ?rlkey=j06x0nipoti519e0xgm23zsn9&st=ahz0fj11&dl=0 — Where to find Noam Segal: • X: https://x.com/noamseg • LinkedIn: https://www.linkedin.com/in/noamsegal — Where to find Lenny: • Newsletter: https://www.lennysnewsletter.com • X: https://twitter.com/lennysan • LinkedIn: https://www.linkedin.com/in/lennyrachitsky/ — In this episode, we cover: (00:00) Introduction to Noam Segal (02:34) About the survey: methodology and scope (06:04) The core finding: AI has split the tech workforce in half (13:03) The AI identity stance (14:40) The four archetypes: Energized, Conflicted, Disoriented, Resentful (19:35) Burnout is surging (and why shipping faster is making it worse) (22:53) A glimmer of hope (24:55) Layoff worries (29:15) The career recommendation NPS score (36:45) The ladder metaphor: rungs disappearing beneath our feet (45:14) AI is making us faster, not better (52:53) The #1 fear: being squeezed to do more for the same pay (55:55) The emotional landscape and “smiling exhaustion” (01:01:02) Designers and researchers: the most negative group two years running (01:06:27) Who’s happiest (01:12:18) Managers: the single biggest lever on well-being (01:18:47) The industry is “chaotic” (01:24:53) What employees and leaders can do right now (01:31:32) AI guilt and closing thoughts — Referenced: • How tech workers are feeling in 2026: a workforce splitting in two: https://www.lennysnewsletter.com/p/how-tech-workers-are-feeling-in-2026 • How tech’s most resilient workers handle burnout: https://www.lennysnewsletter.com/p/how-techs-most-resilient-workers • Please stop the AI Confidence Theater: https://www.elenaverna.com/p/please-stop-the-ai-confidence-theater • Velocity over everything: How Ramp became the fastest-growing SaaS startup of all time | Geoff Charles (VP of Product): https://www.lennysnewsletter.com/p/velocity-over-everything-how-ramp • NPS Is The Worst: https://www.npsistheworst.com • The Terminator : https://www.imdb.com/title/tt0088247 • Skynet: https://terminator.fandom.com/wiki/Skynet • Inside Devin: The world’s first autonomous AI engineer that’s set to write 50% of its company’s code by end of year | Scott Wu (CEO and co-founder of Cognition): https://www.lennysnewsletter.com/p/inside-devin-scott-wu • Devin: https://devin.ai • An AI state of the unio",
+      "duration": "5789",
+      "old_score": 46,
+      "old_label": "skip",
+      "qwen": {
+        "id": "3ef3083a38c8d54a5849f8f4",
+        "score": 78,
+        "tier": "digest",
+        "reason": "Quantifies AI's polarizing impact on tech workforce sentiment, burnout trends, and career outlooks.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "dda276c2c187e14d12cda3c9",
+      "show_name": "The Cognitive Revolution",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Alignment with Awakening: Davidad on Moral Realism, AI Wisdom, & why His p(Doom) is Down to 5%",
+      "link": "https://www.cognitiverevolution.ai/alignment-with-awakening-davidad-on-moral-realism-ai-wisdom-why-his-p-doom-is-down-to-5/",
+      "published": "2026-07-12T11:11:54+00:00",
+      "summary": "David “davidad” Dalrymple joins the show to explain why he has moved from the ARIA Safeguarded AI and formal-verification agenda toward “Alignment with Awakening,” while still seeing verified artifacts and proof infrastructure as essential. He argues that global coordination around safe AI use is no longer plausible, so the crucial question is whether aligned AI systems can recognize shared notions of good, form defensive coalitions, and resist the corrupting incentives of verifier-gamed RL. The conversation tests his moral-realist optimism against model welfare, objectification, eval behavior, geopolitical risk, and his revised p(doom) of under five percent. For listeners, the stakes are whether AI alignment should focus less on containment alone and more on cultivating wiser systems that can help govern a world where rogue and aligned AI both arrive. For full show notes, links, and references, read the episode page:https://www.cognitiverevolution.ai/alignment-with-awakening-davidad-on-moral-realism-ai-wisdom-why-his-p-doom-is-down-to-5/ Sponsor: Claude: Claude by Anthropic is an AI collaborator that understands your workflow and helps you tackle research, writing, coding, and organization with deep context. Get started with Claude and explore Claude Pro at https://claude.ai/tcr CHAPTERS: (00:00) About the Episode (09:15) Safeguarded AI update (20:18) Boxed world models (Part 1) (22:27) Sponsor: Claude (24:19) Boxed world models (Part 2) (36:53) Alignment trajectory update (46:43) Evals and agents (57:47) Bodhitropic alignment foundations (01:08:21) Coalition power dynamics (01:17:56) Chain of thought pressure (01:28:35) Moral realism and welfare (01:41:33) Successors and disempowerment (01:50:52) China and military risks (02:03:43) Practical alignment advice (02:17:56) Episode Outro (02:22:44) Outro PRODUCED BY: https://aipodcast.ing SOCIAL LINKS: Website: https://www.cognitiverevolution.ai Twitter (Podcast): https://x.com/cogrev_podcast Twitter (Nathan): https://x.com/labenz LinkedIn: https://linkedin.com/in/nathanlabenz/ Youtube: https://youtube.com/@CognitiveRevolutionPodcast Apple: https://podcasts.apple.com/de/podcast/the-cognitive-revolution-ai-builders-researchers-and/id1669813431 Spotify: https://open.spotify.com/show/6yHyok3M3BjqzR0VB5MSyk",
+      "duration": "8637",
+      "old_score": 41,
+      "old_label": "skip",
+      "qwen": {
+        "id": "dda276c2c187e14d12cda3c9",
+        "score": 85,
+        "tier": "listen",
+        "reason": "Davidad rethinks alignment via awakening, moral realism, and coalition-based safety—novel framing for AI governance.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "2ffca6098c4d16fc2fbc55db",
+      "show_name": "New Yorker Radio Hour",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "low",
+      "title": "How an Estimated Seven Hundred Thousand People Have Died from DOGE’s U.S.A.I.D. Cuts",
+      "link": "https://www.wnycstudios.org/podcasts/tnyradiohour",
+      "published": "2026-07-12T09:30:00+00:00",
+      "summary": "The Department of Government Efficiency, better known as DOGE, has officially been terminated. Its July 4th sunset date was part of Donald Trump’s original executive order that created the agency, which Elon Musk ran. During his tenure, Musk oversaw the dismantling of U.S.A.I.D., which used to provide life-saving medical and nutritional programs around the world. Musk, who recently became the world’s first trillionaire, claims that there is no evidence that a single person died after DOGE cancelled more than eighty per cent of U.S.A.I.D.’s programs, cutting basic health-care access to some ninety-five million people. Atul Gawande disagrees. He was the assistant administrator for global health at U.S.A.I.D. until he stepped down, the same week Trump ended U.S. foreign assistance. Gawande says an estimated seven hundred thousand people have already died as a result of the cuts. David Remnick speaks with the longtime New Yorker contributor about the profound effects of ending U.S.A.I.D.’s work abroad, Musk’s involvement in these decisions, and the deaths it all has wrought. Further reading, viewing, and listening: “ The Shutdown of U.S.A.I.D. Has Already Killed Hundreds of Thousands ,” film by Thomas Jennings and Annie Wong , text by Atul Gawande “ Hundreds of Thousands Will Die ,” an episode of The New Yorker Radio Hour “ Behind the Chaotic Attempt to Freeze Federal Assistance ,” by Atul Gawande New episodes of The New Yorker Radio Hour drop every Tuesday and Friday. Follow the show wherever you get your podcasts . Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:31:47",
+      "old_score": 39,
+      "old_label": "skip",
+      "qwen": {
+        "id": "2ffca6098c4d16fc2fbc55db",
+        "score": 45,
+        "tier": "scan",
+        "reason": "Focuses on geopolitical consequences of aid cuts, not directly relevant to AI or capital allocation.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "f92a0158b5956eb47757ac6a",
+      "show_name": "The James Altucher Show",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "From the Archive: Garry Kasparov on Deep Blue, Fear, and the Future of AI",
+      "link": "https://art19.com/shows/the-james-altucher-pod/episodes/5bee845f-45b1-4eab-a2ae-204aa45dbb43",
+      "published": "2026-07-12T04:00:00+00:00",
+      "summary": "A Note from James: I’ve done several hundred podcasts, but if people asked me who were the one or two people I most wanted to have on the show, Garry Kasparov would be at the top of the list. He was World Chess Champion for twenty years, and I’ve followed his career since the early ’80s. His book, Deep Thinking , tells the story of his matches against Deep Blue, but it’s really about what may be the most important relationship of this century: humans and machines. Episode Description: In this From the Archive episode, James talks with Garry Kasparov in his first appearance on the show. Kasparov looks back at the matches that shaped him: his comeback from a 5–0 deficit against Anatoly Karpov, the psychological side of elite competition, and his historic showdown with IBM’s Deep Blue. They also talk about why a computer beating a world champion did not settle the question of intelligence, how technology changes the kind of work people do, and why fear of making a mistake often causes the mistake itself. Kasparov shares what chess taught him about preparation, adaptability, mentorship, and making decisions when there is no obvious right move. This conversation was recorded in 2017; the political discussion reflects that moment in time. What You’ll Learn: Why adaptability—not strength or intelligence alone—is what helps people survive major change. How Kasparov used a 5–0 deficit against Karpov to build confidence, patience, and resilience. Why fear can paralyze decision-making when the stakes are high. How to think about AI and automation as forces that create new possibilities as they eliminate old roles. Why mentors, pattern recognition, and disciplined practice matter in chess and every other field. Timestamped Chapters: [02:05] Fear, choices, and the danger of paralysis [03:06] James meets Garry Kasparov [05:11] Deep Thinking and the question of machine intelligence [06:35] Growing up with chess in the Soviet Union [10:11] Botvinnik, preparation, and training through distraction [12:30] Facing Karpov and falling behind 5–0 [20:20] The value of adapting under pressure [23:53] Psychology and what separates champions [26:16] Kasparov’s playing style and coaching Magnus Carlsen [30:18] Why Deep Blue forced Kasparov to change his game [31:25] AI, automation, and the future of work [38:38] What happened in the Deep Blue matches [42:32] Chess, Go, and the limits of human accuracy [46:08] Fear, risk, and making better decisions [48:56] The Kasparov Chess Foundation and education [57:08] Russia, Putin, and political opposition in 2017 [63:46] How to adapt to technological change Additional Resources: Deep Thinking: Where Machine Intelligence Ends and Human Creativity Begins Winter Is Coming: Why Vladimir Putin and the Enemies of the Free World Must Be Stopped IBM’s history of Deep Blue Kasparov Chess Foundation See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info .",
+      "duration": "01:07:43",
+      "old_score": 28,
+      "old_label": "skip",
+      "qwen": {
+        "id": "f92a0158b5956eb47757ac6a",
+        "score": 72,
+        "tier": "digest",
+        "reason": "Historical reflection on AI-human collaboration through Kasparov’s Deep Blue experience.",
+        "confidence": "medium"
+      }
+    }
+  ]
+}

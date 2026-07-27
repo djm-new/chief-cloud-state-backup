@@ -7,16 +7,19 @@ SNAPSHOT_DIR="$REPO_DIR/railway-opt-data"
 BRANCH="main"
 
 if [ -z "${GITHUB_TOKEN:-}" ]; then
-  echo "Cronjob Response: Daily Chief cloud-state GitHub backup sync not successful: GITHUB_TOKEN is not set in Railway variables."
-  exit 0
+echo "Cronjob Response: Daily Chief cloud-state GitHub backup sync not successful: GITHUB_TOKEN is not set in Railway variables."
+exit 0
 fi
 
 auth_url="https://x-access-token:${GITHUB_TOKEN}@github.com/djm-new/chief-cloud-state-backup.git"
 mkdir -p /opt/data/github
 
 if [ ! -d "$REPO_DIR/.git" ]; then
-  rm -rf "$REPO_DIR"
-  git clone "$auth_url" "$REPO_DIR" >/dev/null 2>&1
+rm -rf "$REPO_DIR"
+if ! git clone "$auth_url" "$REPO_DIR" >/dev/null 2>&1; then
+echo "Cronjob Response: Daily Chief cloud-state GitHub backup sync not successful: unable to clone from GitHub (check GITHUB_TOKEN and repo access)."
+exit 1
+fi
 fi
 
 cd "$REPO_DIR"
@@ -27,6 +30,8 @@ git remote set-url origin "$auth_url"
 git fetch origin "$BRANCH" >/dev/null 2>&1 || true
 git checkout "$BRANCH" >/dev/null 2>&1 || git checkout -b "$BRANCH" >/dev/null 2>&1
 git pull --ff-only origin "$BRANCH" >/dev/null 2>&1 || true
+git reset --hard "origin/$BRANCH" >/dev/null 2>&1 || true
+git clean -fdx >/dev/null 2>&1 || true
 
 rm -rf "$SNAPSHOT_DIR"
 mkdir -p "$SNAPSHOT_DIR"
@@ -65,36 +70,43 @@ Do not replace this selective sync with a blind copy of all `/opt/data`.
 POLICY
 
 copy_file() {
-  local src="$1"
-  local dest="$2"
-  if [ -f "$src" ]; then
-    mkdir -p "$(dirname "$dest")"
-    cp "$src" "$dest"
-  fi
+local src="$1"
+local dest="$2"
+if [ -f "$src" ]; then
+mkdir -p "$(dirname "$dest")"
+cp "$src" "$dest"
+fi
 }
 
 copy_dir_filtered() {
-  local src="$1"
-  local dest="$2"
-  if [ -d "$src" ]; then
-    mkdir -p "$dest"
-    (cd "$src" && tar \
-      --exclude='.git' \
-      --exclude='__pycache__' \
-      --exclude='*.pyc' \
-      --exclude='*.pyo' \
-      --exclude='*.log' \
-      --exclude='*.db' \
-      --exclude='*.db-*' \
-      --exclude='*.sqlite' \
-      --exclude='*.sqlite-*' \
-      --exclude='.env' \
-      --exclude='auth.json' \
-      --exclude='google_token.json' \
-      --exclude='google_client_secret.json' \
-      --exclude='google_accounts/*.json' \
-      -cf - .) | (cd "$dest" && tar -xf -)
-  fi
+local src="$1"
+local dest="$2"
+if [ -d "$src" ]; then
+mkdir -p "$dest"
+(cd "$src" && tar \
+--exclude='.git' \
+--exclude='__pycache__' \
+--exclude='*.pyc' \
+--exclude='*.pyo' \
+--exclude='*.log' \
+--exclude='*.db' \
+--exclude='*.db-*' \
+--exclude='*.sqlite' \
+--exclude='*.sqlite-*' \
+--exclude='*.mp3' \
+--exclude='*.m4a' \
+--exclude='*.wav' \
+--exclude='*.flac' \
+--exclude='*.aac' \
+--exclude='*.ogg' \
+--exclude='*.mp4' \
+--exclude='.env' \
+--exclude='auth.json' \
+--exclude='google_token.json' \
+--exclude='google_client_secret.json' \
+--exclude='google_accounts/*.json' \
+-cf - .) | (cd "$dest" && tar -xf -)
+fi
 }
 
 # Generate redacted session transcripts inside the thoughts repo before snapshotting.
@@ -117,22 +129,43 @@ find "$SNAPSHOT_DIR" -type d -empty -exec touch {}/.gitkeep \;
 
 # Remove any sensitive filenames if they slipped through nested folders.
 find "$SNAPSHOT_DIR" -type f \( \
-  -name '.env' -o \
-  -name 'auth.json' -o \
-  -name 'google_token.json' -o \
-  -name 'google_client_secret.json' -o \
-  -name '*.db' -o \
-  -name '*.db-shm' -o \
-  -name '*.db-wal' -o \
-  -name '*.sqlite' -o \
-  -name '*.sqlite-shm' -o \
-  -name '*.sqlite-wal' -o \
-  -name '*.log' \
+-name '.env' -o \
+-name 'auth.json' -o \
+-name 'google_token.json' -o \
+-name 'google_client_secret.json' -o \
+-name '*.db' -o \
+-name '*.db-shm' -o \
+-name '*.db-wal' -o \
+-name '*.sqlite' -o \
+-name '*.sqlite-shm' -o \
+-name '*.sqlite-wal' -o \
+-name '*.log' \
 \) -delete
 
 if [ -n "$(git status --porcelain)" ]; then
-  git add -A
-  git commit -m "chore: Railway Chief cloud-state snapshot $(date +%Y-%m-%d)" >/dev/null
-  git push origin "$BRANCH" >/dev/null 2>&1
-  echo "Cronjob Response: Daily Chief cloud-state GitHub backup sync successfully pushed."
+git add -A
+git commit -m "chore: Railway Chief cloud-state snapshot $(date +%Y-%m-%d)" >/dev/null
+push_err_file="$(mktemp)"
+push_ok=0
+for attempt in 1 2 3; do
+if git push origin "$BRANCH" >/dev/null 2>"$push_err_file"; then
+push_ok=1
+break
 fi
+sleep "$((attempt * 5))"
+done
+if [ "$push_ok" -ne 1 ]; then
+echo "Cronjob Response: Daily Chief cloud-state GitHub backup sync not successful: git push to GitHub failed (check GITHUB_TOKEN and repo access)."
+if [ -s "$push_err_file" ]; then
+echo "Git stderr:"
+sed -n '1,20p' "$push_err_file"
+fi
+rm -f "$push_err_file"
+exit 1
+fi
+rm -f "$push_err_file"
+echo "Cronjob Response: Daily Chief cloud-state GitHub backup sync successfully pushed."
+fi
+
+
+

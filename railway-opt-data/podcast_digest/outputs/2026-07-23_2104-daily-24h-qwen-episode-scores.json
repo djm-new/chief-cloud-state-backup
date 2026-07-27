@@ -1,0 +1,291 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-07-23_2104",
+  "usage": {
+    "prompt_tokens": 4939,
+    "completion_tokens": 1100,
+    "total_tokens": 6039
+  },
+  "episodes": [
+    {
+      "id": "4e96f7e762db84d2e7eb9a9c",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Why read anymore?",
+      "link": "",
+      "published": "2026-07-23T20:02:00+00:00",
+      "summary": "TikTok is endless. Netflix is already starting the next episode. Who's making time to read a book? Today we're chatting with The Atlantic's Rose Horowitch to discuss her story \"The End of Reading is Here\" and the role technology plays in reducing how much time — and attention — people have to read long pieces of writing. In a world where we're inundated with more text than ever from social media feeds, AI, and group chats, is it really possible that we're taking in less than before? Further reading: ⁠The End of Reading Is Here⁠ Subscribe to The Verge for unlimited access to theverge.com, subscriber-exclusive newsletters, and our ad-free podcast feed.We love hearing from you! Email your questions and thoughts to vergecast@theverge.com or call us at 866-VERGE11. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "1798",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "4e96f7e762db84d2e7eb9a9c",
+        "score": 45,
+        "tier": "scan",
+        "reason": "Discusses tech's impact on reading habits; relevant but not urgent for capital or AI strategy.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "79f6cd7d9149b85c4d6114fd",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "AI Spending Spooks the Market",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/ai-spending-spooks-the-market",
+      "published": "2026-07-23T14:07:03+00:00",
+      "summary": "The latest in finance, economics and investment. Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF. Bloomberg Surveillance hosted by Tom Keene & Paul Sweeney Thursday, July 23, 2026 Featuring: 1) Jim Caron, CIO: Cross Asset Solutions at Morgan Stanley Investment Management, talks about the Fed's cultural change and what it means for the direction of markets. 2) Matt Bloxham, Senior Analyst at Bloomberg Intelligence, covers a slew of tech news, including Google AI spending and Tesla's and IBM's misses. 3) Daragh Maher, Senior FX Strategist & Head of Digital Assets Research at HSBC, talks dollar strength and his digital assets call. 4) Julia Coronado, President/Founder of Macropolicy Perspectives, talks about the Fed speak reversal and economic data noise. See omnystudio.com/listener for privacy information.",
+      "duration": "1802",
+      "old_score": 28,
+      "old_label": "skip",
+      "qwen": {
+        "id": "79f6cd7d9149b85c4d6114fd",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Covers AI spending trends and market implications; valuable for macro and tech investment context.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "24dcd4e086ce836ca1f59376",
+      "show_name": "Infinite Loops",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Philip Howard - How to Bring Common Sense Back to America (Ep. 324)",
+      "link": "https://infiniteloopspodcast.com/324",
+      "published": "2026-07-23T12:00:00+00:00",
+      "summary": "Philip Howard joins Infinite Loops to explain how America's legal and regulatory system became too complicated to function effectively—and how we can rebuild it around judgment, accountability, and human agency. We discuss why government has become unmanageable, how thousand-page rulebooks discourage individual judgment, why infrastructure projects can take decades to approve, and how public institutions end up costing more while delivering less.",
+      "duration": "01:16:06",
+      "old_score": 4,
+      "old_label": "skip",
+      "qwen": {
+        "id": "24dcd4e086ce836ca1f59376",
+        "score": 60,
+        "tier": "digest",
+        "reason": "Explores regulatory complexity and institutional dysfunction; useful for governance and policy context.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "0aa9cdd123be29094797b144",
+      "show_name": "No Priors",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Building an Autonomous Delivery Experience with DoorDash Co-Founders Andy Fang and Stanley Tang",
+      "link": "",
+      "published": "2026-07-23T10:00:00+00:00",
+      "summary": "DoorDash is not just a delivery company. From its inception, co-founders Andy Fang and Stanley Tang operated it as a robotics and autonomy company. Andy and Stanley join Sarah Guo to explain how autonomous tech and AI are reshaping consumer habits, commerce, and delivery. Andy and Stanley talk about the rollout of Ask DoorDash, a natural-language interface that’s driving both restaurant discovery and larger grocery orders. They also discuss Dot, their in-house autonomous delivery robot that has operated in Phoenix for over two years, and how it highlights the operational and hardware challenges they have faced and solved in autonomous tech. Andy and Stanley also speak about the “first and last 100 feet problem” in autonomous delivery, why multimodal strategies are the key to success, scaling autonomy and operations, and why they believe that more Dashers, not fewer, are the future of DoorDash. Sign up for new podcasts every week. Email feedback to show@no-priors.com Follow us on Twitter: @NoPriorsPod | @Saranormous | @EladGil | @stanleytang | @andyfang | @DoorDash Chapters: 00:00 – Andy Fang and Stanley Tang Introduction 00:34 – Agentic Commerce and Behavioral Changes 03:52 – Next Steps for Ask DoorDash 06:54 – Investing in Robotics and Autonomy 16:31 – Building Autonomous Tech in the Physical World 21:20 – Dot: DoorDash’s Autonomous Delivery Robot 22:08 – Collecting Realistic Data 25:48 – Why Work at DoorDash 28:04 – Challenges in Scaling Up Autonomy 39:30 – Productivity Benchmarks 44:56 – Future of Agentic Commerce 49:10 – Conclusion",
+      "duration": "2959",
+      "old_score": 49,
+      "old_label": "skip",
+      "qwen": {
+        "id": "0aa9cdd123be29094797b144",
+        "score": 85,
+        "tier": "listen",
+        "reason": "DoorDash co-founders discuss autonomy and AI in delivery; strong insights on AI ops and logistics.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "c5adbd47553e3d8d982ec772",
+      "show_name": "Sharp Tech",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "(Preview) An OpenAI Model Escapes Sandboxing, Intelligence Will Be a Commodity Market, The Chinese Model Conundrum",
+      "link": "https://sharptech.fm/member/episode/preview-an-open-ai-model-escapes-sandboxing-intelligence-will-be-a-commodity-market-the-chinese-model-conundrum",
+      "published": "2026-07-23T09:00:24+00:00",
+      "summary": "On today’s show Ben and Andrew begin with takeaways from OpenAI’s sandboxing snafu, including a reminder that the big bad wolf is real, OpenAI’s failures, and the timing challenge with warnings from AI labs. From there: Talking through Ben’s article on Kimi K3 and the future of open weights AI models in the U.S., including why the U.S. open source market has stagnated, the motives of various tech constituencies to drive competition with OpenAI and Anthropic, the difference between the training market and the inference market, intelligence as a commodity, and why OpenAI and Anthropic may have a more defensible lead than it seems. At the end: The government’s disagreements about how to handle Chinese models, the argument for encouraging U.S. distillation, the security risks of building atop Chinese infrastructure, an email about Chinese innovation, concerns over American credentialism, and a potential curveball from the CCP after a week of Kimi anxiety.",
+      "duration": "00:11:25",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "c5adbd47553e3d8d982ec772",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Covers model commoditization, open weights, and US-China dynamics; relevant for AI infrastructure strategy.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "4c1c246be3e646a85451d687",
+      "show_name": "Decoder with Nilay Patel",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "What Apple’s OpenAI lawsuit is really about",
+      "link": "",
+      "published": "2026-07-23T09:00:00+00:00",
+      "summary": "Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about the major trade secrets lawsuit between Apple and OpenAI, and what this tells us about OpenAI’s future. Hayden has been covering OpenAI for years now, and she also just talked to a bunch of lawyers who specialize in intellectual property and trade secret law to get a sense of how serious this case is. The answer is not entirely positive for OpenAI. This legal battle could also affect OpenAI’s hardware plans, its forthcoming IPO, and its already-damaged reputation. Links: Sam Altman didn’t need another lawsuit | The Verge OpenAI’s first device will be moveable, screenless speaker | Bloomberg Apple sues OpenAI for allegedly stealing hardware secrets | The Verge The 6 wildest claims in Apple’s lawsuit against OpenAI | The Verge OpenAI is buying Jony Ive’s AI hardware company | The Verge Subscribe to The Verge to access the ad-free version of Decoder! Credits: Decoder is a production of The Verge and part of the Vox Media Podcast Network. Decoder is produced by Kate Cox and Nick Statt and edited by Ursa Wright. Our editorial director is Kevin McShane. The Decoder music is by Breakmaster Cylinder. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "2645",
+      "old_score": 63,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "4c1c246be3e646a85451d687",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Apple vs OpenAI lawsuit analysis; legal and reputational risk implications for OpenAI and AI sector.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "8affb4ef941a1e28f819b1cb",
+      "show_name": "Masters of Scale",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Author Jim Collins on unlocking your potential",
+      "link": "",
+      "published": "2026-07-23T09:00:00+00:00",
+      "summary": "Jim Collins is the author of some of the most important business books of all time, like Good to Great and Built to Last. For his latest project, instead of profiling iconic companies, he zoomed in on extraordinary individuals we can learn from. He joined host Jeff Berman to reveal how icons like Grace Hopper and John Glenn illustrate lessons on how to navigate the cliffs and fog of life. Find out more about the book: jimcollins.com See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info .",
+      "duration": "00:32:09",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "8affb4ef941a1e28f819b1cb",
+        "score": 55,
+        "tier": "scan",
+        "reason": "Jim Collins on personal potential; useful for leadership but not core AI or market focus.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "e9018dd2fb65812b1659c555",
+      "show_name": "My First Million",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "The $150B dollar business hiding in plain sight",
+      "link": "",
+      "published": "2026-07-23T08:00:00+00:00",
+      "summary": "Unsexy Business Ideas Database: https://clickhubspot.com/kpfm Episode 844: Sam Parr ( https://x.com/theSamParr ) and Shaan Puri ( https://x.com/ShaanVP ) talk about how one of the richest families in America makes its money. — Show Notes: (0:00) The Cargill family (13:15) projects vs empires (15:00) family meetings create family dynasties (22:55) Jevon's paradox (29:00) the story of Luddites (39:19) Where's the opportunity (49:00) the phrases we tell ourselves (52:00) The ice king — Links: • The Medici effect - https://www.amazon.com/dp/1591391865 — Check Out Sam's Stuff: • Hampton (joinhampton.com): My community for founders. Average member does $25m/year. Many of the guests are members. Get after it...apply: http://joinhampton.com/mfm — Check Out Shaan's Stuff: • Shaan's weekly email - https://www.shaanpuri.com • Visit https://www.somewhere.com/mfm to hire worldwide talent like Shaan and get $500 off for being an MFM listener. Hire developers, assistants, marketing pros, sales teams and more for 80% less than US equivalents. • Mercury - Shaan uses Mercury across all of his companies. you can too: http://mercury.com/ Mercury is a fintech company, not an FDIC-insured bank. Banking services provided by Choice Financial Group, Column, N.A., Members FDIC • I run all my newsletters on Beehiiv and you should too + we're giving away $10k to our favorite newsletter, check it out: beehiiv.com/mfm-challenge My First Million is a HubSpot Original Podcast // Brought to you by HubSpot Media // Production by Arie Desormeaux // Editing by Ezra Bakker Trupiano /",
+      "duration": "3203",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "e9018dd2fb65812b1659c555",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Discusses unsexy business opportunities; light on actionable insights for AI or capital strategy.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "71de03e2cff5541eb84ca5e4",
+      "show_name": "Odd Lots",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "Why Apple Is Heading Into a Pivotal Moment",
+      "link": "https://omny.fm/shows/odd-lots/why-apple-is-heading-into-a-pivotal-moment",
+      "published": "2026-07-23T08:00:00+00:00",
+      "summary": "There used to be a time when the latest product release from Apple was a huge deal. But lately, it's been kind of 'meh,' and a lot of the hype in the tech world has been directed at companies doing things with AI. For better or worse, Apple seems to have largely missed the AI boom. But there are signs things might be changing. In addition to appointing John Ternus as the new CEO to replace Tim Cook, Apple is expected to unleash a slate of new products, including AirPods with cameras and foldable phones. Meanwhile, it's also raising prices on a bunch of its devices for the first time in its history, thanks to a shortage of memory. So can Apple recapture the hype and find new products to entice customers? In this episode we speak with Mark Gurman, managing editor for consumer tech at Bloomberg and one of the world's most prominent Apple-watchers. We talk to him about Apple's AI strategy, the origins of the OpenAI and Apple legal battle, what to expect with Ternus in the CEO seat, and when and why iPhones stopped being a sexy piece of hardware. See omnystudio.com/listener for privacy information.",
+      "duration": "2946",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "71de03e2cff5541eb84ca5e4",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Apple's AI and product strategy under new CEO; relevant for tech market dynamics.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "eb2983a5ab4588d39997be3b",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Inside the Anti-Social Century — with Derek Thompson",
+      "link": "",
+      "published": "2026-07-23T08:00:00+00:00",
+      "summary": "In a conversation recorded live on Substack, Scott Galloway and Derek Thompson discuss the rise of the “antisocial century” — and what our growing isolation is doing to our happiness, relationships, and politics. They also explore the optimization of everyday life, young men’s retreat into the digital world, AI’s economic bubble, and whether moderate drinking has been unfairly caught in the wellness backlash. Plus, Derek explains the rise of democratic socialism and offers three simple rules for dating in the antisocial century. Subscribe to Prof G+ to join our next livestream at profgmedia.com. And if you're not already reading Derek’s work, check out his Substack. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "4122",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "eb2983a5ab4588d39997be3b",
+        "score": 60,
+        "tier": "digest",
+        "reason": "Discusses social isolation and AI's economic bubble; useful for cultural and macro context.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "47ea028faa9dc4649b602035",
+      "show_name": "The Twenty Minute VC",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "20VC: OpenAI and Anthropic Threatened by Kimi? | Should the US Ban Chinese Open-Source Models | Should Openrouter Sell & Value in the Routing Layer? | Stripe Buying Paypal: What You Need to Know",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-openai-and-anthropic-threatened-by-kimi-should-the-us-ban-chinese-open-source-models-should-openrouter-sell-value-in-the-routing-layer-stripe-buying-paypal-what-you-need-to-know",
+      "published": "2026-07-23T07:07:00+00:00",
+      "summary": "AGENDA: 00:04 China's Kimi and Qwen Put Frontier AI on Notice 00:08 Washington Debates Whether Chinese AI Models Should Be Banned 00:17 Can America Build a Profitable Open-Weight AI Champion? 00:21 OpenRouter's Moment: Is This the Perfect Time to Sell? 00:31 Fireworks' $1.5B Raise Signals the Real AI Money Is in Infrastructure 00:39 Why Every Great AI App May Need to Build Its Own Model 00:50 Stripe's Bold Play to Buy PayPal 01:01 The AI Funding Frenzy: Why Late-Stage Venture Is Winning 01:12 Nuclear Startups Go Wild While Databricks and Stripe Stay Private 01:15 The AI Supply Chain War: TSMC, ASML, DRAM—and Nvidia's Next Move",
+      "duration": "01:23:12",
+      "old_score": 38,
+      "old_label": "skip",
+      "qwen": {
+        "id": "47ea028faa9dc4649b602035",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Covers US-China AI model debate, routing layer value, and Stripe/PayPal speculation; solid market context.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "805305e20518ddaf856486ba",
+      "show_name": "Latent Space",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Inside the Model Factory — Eiso Kant, Poolside AI",
+      "link": "https://www.latent.space/p/poolside",
+      "published": "2026-07-23T05:09:14+00:00",
+      "summary": "In recent months, the open vs closed, and US vs China discussions on model ownership and sovereign/local AI have heated up to a fever pitch. So it is very very good news that Poolside AI are finally emerging with new models, like Laguna S 2.1 , that are beating Thinking Machines’ recent release nearly 10 times their size . Poolside’s recent tech report got a lot of praise due to their level of detail, and Vibhu first covered Laguna’s recent technical report on our paper club: From spending $12 million building language models for code before the world cared to creating a Model Factory that can take a model from pre-training to release in eight weeks , Eiso Kant has spent more than a decade betting that code is the path to AGI . In this episode, the Poolside co-founder joins swyx and Vibhu to explain why ChatGPT felt like vindication, why Poolside embraced open weights and open research, and why he would rather live in a world with 100 foundation model companies than five even if Poolside were one of the five. We go deep on Poolside’s Model Factory : the engineering systems behind 10,000–20,000 experiments per month, streaming data directly into training, reproducible experimentation, low-precision compute, and agents that increasingly write code, launch jobs, evaluate results, and modify the pipelines used to train future models. Eiso also unpacks their recent launch Laguna S , why persistence, verification, and backtracking may matter more than raw intelligence, how much capability remains inside smaller models, why reinforcement learning will move earlier into pre-training, and why next-token prediction is still extracting too little from the web. We also discuss model-harness co-design , Poolside’s path from coding agents to AGI, why Eiso thinks MCP and traditional tool calls are “stupid,” the real economics behind frontier-model training, Poolside’s $500 million raise , open-source AI, regulation, NVIDIA and TSMC’s influence , engineering productivity in the agent era, high-agency teams, and hiring at Poolside. We discuss: * How Andrej Karpathy’s RNN work inspired Eiso to start building language models for code in 2015 * Why Eiso spent four years and $12 million pursuing an idea before the market cared * Why ChatGPT felt like vindication and brought Poolside back to open source * Why Eiso would prefer 100 foundation model companies over an oligopoly of five * The difference between releasing open weights and publishing genuinely open research * Why Poolside deliberately built a global research organization outside the Bay Area talent war * Why model building is ultimately 90% engineering * The Model Factory : Poolside’s end-to-end system for rapidly training and improving models * How fewer than 70 researchers run roughly 10,000–20,000 experiments each month * How Poolside moved from six-month model cycles to five- and eight-week launches * Why streaming data directly into training unlocked faster experimentation * How immutable data, versioned code, and reproducibility enable rigorous model research * Why Eiso wants capable researchers to leave their labs and become Poolside’s competitors * Why 95% of model building can be reduced to better data or compute efficiency * Laguna S and why persistence, verification, and backtracking can outperform raw intelligence * Why smaller models may handle far more knowledge work than previously expected * Why reinforcement learning will move earlier into pre-training * Why next-token prediction is still failing to extract enough knowledge from the web * Why distillation and environments have become the AI industry’s favorite “drugs” * Why mid-training is really an early form of curriculum design * Low-precision training, networking bottlenecks, and the next gains in compute efficiency * Laguna S: 118 billion total parameters, 8 billion active , and eight weeks from training to launch * Why model builders can often evaluate a new checkpoint within its first 30 minutes * Model versus har",
+      "duration": "6873",
+      "old_score": 51,
+      "old_label": "skip",
+      "qwen": {
+        "id": "805305e20518ddaf856486ba",
+        "score": 80,
+        "tier": "listen",
+        "reason": "Eiso Kant on open models and model factory efficiency; strong signal for AI infrastructure and open weights.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "5199a2049f3ebad3a7f3785c",
+      "show_name": "Plain English with Derek Thompson",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "What Translator Emily Wilson Thinks of Christopher Nolan’s ‘The Odyssey'",
+      "link": "",
+      "published": "2026-07-22T23:10:00+00:00",
+      "summary": "Christopher Nolan's 'The Odyssey' has brought one of history's oldest stories back into the spotlight. It’s also sparked a fresh debate about what it means to adapt a classic. Today, Derek is joined by acclaimed classicist and translator Emily Wilson, whose celebrated translation of 'The Odyssey' helped inspire Nolan's film. They explore why Homer's epic has remained the foundation of so much Western storytelling and what gets lost and gained in the act of translating. Thenm Wilson gives her take on Nolan's adaptation. She lets us know what it captures brilliantly, where it departs from Homer, and what those changes reveal about both the ancient world and our own. Subscribe to our YouTube channel here: https://www.youtube.com/@PlainEnglishwithDerekThompson If you have questions, observations, or ideas for future episodes, email us at PlainEnglish@Spotify.com. Host: Derek Thompson Guest: Emily Wilson Producer: Devon Baroldi Additional Production Support: Ben Glicksman Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "3568",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "5199a2049f3ebad3a7f3785c",
+        "score": 40,
+        "tier": "skip",
+        "reason": "Literary discussion on Homer's Odyssey; not relevant to AI, markets, or capital strategy.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "e56d6585709e6c23e378c0e5",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Travis Kalanick Is Back | Building the Future of Industrial AI",
+      "link": "https://a16z.simplecast.com/episodes/travis-kalanick-is-back-building-the-future-of-industrial-ai-FA8ioD1f",
+      "published": "2026-07-22T21:26:58+00:00",
+      "summary": "Travis Kalanick, Ben Horowitz, and Erik Torenberg reunite to reflect on Uber's early days, the investment that almost happened, and why Kalanick believes the next great technology opportunity lies beyond software. They discuss the lessons of building Uber, the value of founder-led companies, and why Kalanick spent nearly eight years quietly building Atoms before stepping back into the spotlight. The conversation explores industrial AI, robotics, autonomy, mining, food production, and Kalanick's vision for digitizing the physical world, where software, manufacturing, real estate, and transportation come together to transform entire industries. Resources: Follow Travis Kalanick on X: https://x.com/travisk Follow Ben Horowitz on X: https://x.com/bhorowitz Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "01:32:13",
+      "old_score": 70,
+      "old_label": "digest_only",
+      "qwen": {
+        "id": "e56d6585709e6c23e378c0e5",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Travis Kalanick on industrial AI and digitizing the physical world; useful for long-term AI ops trends.",
+        "confidence": "medium"
+      }
+    }
+  ]
+}

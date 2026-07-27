@@ -6,7 +6,9 @@ This note captures the fix for daily/weekly spend briefing jobs.
 
 A daily spend briefing originally used `agent.spend_ledger.summarize_spend(...)` over the raw `llm_usage_events` ledger. That path was useful for event-level attribution, but it underreported the full session-level spend picture the user expected.
 
-## Correct reporting source
+## Correct reporting source (superseded — see unified note)
+
+**2026-07 update:** the `InsightsEngine` session path below is itself insufficient as the user-facing source — it reports `$0.00` for subscription-included Codex usage and has no project/Telegram-topic attribution, which DJ explicitly rejected ("this is clearly broken... how can estimated cost be zero?"). The current architecture is the unified helper in `references/unified-spend-reporting.md`: SessionDB sessions + deduped ledger events + OpenRouter reference-rate valuation + topic/project attribution. Treat the rest of this file as history.
 
 Use:
 - `hermes_state.SessionDB`

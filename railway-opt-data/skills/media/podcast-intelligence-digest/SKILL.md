@@ -18,11 +18,39 @@ Use this skill for DJ's "global podcast conversation radar": identifying the hig
 
 The product is **not** a generic podcast newsletter. It should behave like a sharp analyst scanning the podcast world for conversations DJ would actually act on, listen to, or use to update a mental model.
 
-**Critical calibration rule:** score and evaluate **episodes**, not podcasts. Shows are source priors/discovery funnels only. A low-priority show can produce a must-listen episode; a high-priority show can produce a skip. Final recommendations must be episode-level.
-
-**Daily vs weekly distinction:** the daily text digest should cast a wider net and summarize what was said across more potentially relevant episodes. The weekly "podcast of podcasts" audio should be much more finely tuned: only the highest-signal, DJ-specific themes/conversations should make it into the script.
+## Daily vs weekly distinction:
+- the daily text digest should cast a wider net and summarize what was said across more potentially relevant episodes.
+- the weekly "podcast of podcasts" audio should be much more finely tuned: only the highest-signal, DJ-specific themes/conversations should make it into the script.
 
 **Storage principle:** persist learnings, not artifacts. Keep durable taste calibration, final labels, and an idea index; do not keep raw daily Qwen JSON, calibration markdown, transcripts, or scratch files forever. Daily outputs should be delivered as iPhone-friendly plain text and optionally kept only in a short rolling archive.
+
+## Pipeline operations and delivery triage
+
+Use the pipeline-specific notes when a podcast digest run is empty, stale, timed out, or partially broken. The goal is to preserve the intended workflow without turning transient incidents into permanent top-level skills.
+
+### Diagnose in the right order
+1. Check the latest run log, semantic discovery output, and rendered markdown first.
+2. Verify freshness from the episode DB, not only the wrapper output.
+3. Validate collection before blaming ranking.
+4. Keep semantic discovery bounded rather than removing it.
+5. Only then run scoring/rendering.
+6. Confirm the final artifact path exists before delivery.
+
+### Common failure modes
+- Blank `published` timestamps can hide fresh episodes; fall back to raw RSS XML parsing before declaring the window empty.
+- A stale DB does not prove stale feeds; it may indicate a parser/collector problem.
+- 404s usually mean feed hygiene issues, not a pipeline-wide outage.
+- Scoring helpers can break on metadata plumbing if runtime context is passed implicitly instead of explicitly.
+- Cron timeouts should be solved with scheduler budget plus bounded internal steps, not by deleting intended work.
+
+### Delivery conventions
+- Prefer current-state-first explanations: what is the latest verified artifact, what changed, and what still blocks delivery.
+- Be explicit about whether the issue is no fresh episodes, collector/parsing failure, scoring/rendering failure, or cron/timeout failure.
+- For user-facing times, default to America/New_York unless asked otherwise.
+
+### See also
+- `references/rss-recovery.md` for the feed parsing and blank-published recovery pattern.
+- `references/podcast-briefing-pipeline.md` for the condensed incident-to-operating-model notes absorbed from the former sibling skill.
 
 **Calibration from DJ's first Qwen episode pass:** Qwen's first pass was too generous with `listen`. Treat `listen` as scarce original-audio-worthy, `digest` as worth summarizing, `scan` as investigate/brief mention, `skip` as omit. DJ explicitly liked/listened to: Benedict Evans appearances/rational AI economics, Mercor CEO on AI labor/model economics, Dara/Uber AV strategy, Gita Gopinath global rates, Ranjan Roy on AI boom warnings, Toast business breakdown, and Stratechery best-of content. DJ wanted summaries for enterprise data infrastructure/Fivetran agents, Axiom Math, operator-led PE, RenMac market models, Mark Pincus product frameworks, evolutionary AI models, personal AI workflows, Terry Sejnowski, and China vs Nvidia. DJ skipped high-scoring but too-narrow/noisy items like Exa search infra promo, continual-learning research, video/generative-media agent demos, generic AI consciousness/alarmism, vertical AI vendor stories, Corgi culture promo, Elon/media narrative, consumer brand playbooks, crypto chatter, and generic Bloomberg/news recaps.
 
@@ -44,6 +72,8 @@ If the task is purely converting an already-written script into audio, use `podc
 Every candidate episode must pass this question:
 
 > Will this conversation give DJ an action, framework, market read, operator insight, allocation implication, or mental-model shift?
+
+**Context-sensitive framing:** if an episode touches Flow, Adam Neumann, or another entity DJ owns/operates closely, surface that relationship explicitly in the recommendation. Do not present it like a generic third-party podcast when it is actually about DJ's company or day-to-day leadership surface.
 
 Prioritize:
 
@@ -264,6 +294,7 @@ Rules:
 - **OpenRouter/Qwen JSON quirks**: if `response_format: {type: json_object}` produces strange thinking/garbled output, remove JSON mode and add `/no_think` plus "Return only JSON". Prefer a smoke test before full scoring.
 - **Railway redeploy env visibility**: after DJ adds `OPENROUTER_API_KEY`, terminal subprocesses may not see it even though the gateway does. Check `/proc/1/environ` without printing secrets before declaring the key missing.
 - **Direct OpenRouter scripts bypass Hermes spend**: podcast scoring/rendering scripts can call OpenRouter directly and report usage from the API response. Hermes `spend.db` will miss those tokens unless the script emits its own accounting.
+- **Dict usage can zero out spend**: if a helper passes `data.get('usage', {})` straight into `normalize_usage()`, convert it to an attribute-style object first or the canonical token counts can collapse to zero.
 - **Under-ranking CEOs/operators**: a CEO interview with modest metadata can be more valuable than a keyword-rich panel.
 - **Duplicate interview clusters**: same event/interview may appear in multiple feeds. Collapse before presenting.
 - **Panel/news formats**: high topicality but often low durable insight. Penalize unless the guests are exceptional or the conversation reveals a reusable framework.
@@ -313,7 +344,9 @@ These paths are conventions, not universal facts. Verify them before editing.
 
 - `references/prototype-radar-notes.md` — condensed notes from the first DJ prototype run, including source model, scoring lessons, and calibration findings.
 - `references/openrouter-qwen-episode-scoring.md` — OpenRouter/Qwen setup notes, Railway env visibility quirk, compact scoring schema, and observed cost from the 100-episode calibration pass.
-- `references/openrouter-spend-attribution.md` — how to attribute OpenRouter usage from the podcast scripts into Hermes spend reporting, including backfill keys and stage names.
+- `references/openrouter-spend-attribution.md` — how to attribute OpenRouter usage from the podcast scripts into Hermes spend reporting, including backfill keys and stage names, plus the dict-usage normalization pitfall.
+- `references/openrouter-accounting-bug-and-backfill.md` — the dict-normalization pitfall, symptom, and one-time ledger backfill recipe.
+- `references/openrouter-usage-object-quirk.md` — the dict-vs-object usage bug that can zero out podcast spend, plus the backfill/verification pattern.
 - `references/openrouter-direct-accounting.md` — legacy/raw HTTP accounting notes for podcast scripts, plus the reason to prefer the shared helper for new code.
 - `references/openrouter-shared-helper.md` — shared helper API, rollout pattern, and verification checklist for new podcast scripts.
 - `references/daily-digest-calibration.md` — 24h daily digest workflow, funnel reporting requirements, DJ editorial calibration, and first-run lessons.

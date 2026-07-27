@@ -291,7 +291,11 @@ git push origin main
 git remote set-url origin https://github.com/<owner>/<repo>.git
 ```
 
+See `references/headless-token-push.md` for the reusable temporary-remote pattern.
+
 **For persistent access:** use `git config --global credential.helper store` and trigger a credential prompt once (via `git ls-remote`), which saves to `~/.git-credentials`.
+
+**When a cron or backup script builds an authenticated Git URL**, keep the token in an env var and expand it at runtime (for example `https://x-access-token:${GITHUB_TOKEN}@github.com/...`). Do not leave a redacted placeholder in the executable script.
 
 **Note:** `openai-codex` provider on Railway is Cloudflare-blocked — this is a separate issue from GitHub auth and unrelated to git push operations.
 

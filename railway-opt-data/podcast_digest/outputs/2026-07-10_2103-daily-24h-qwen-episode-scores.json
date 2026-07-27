@@ -1,0 +1,411 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-07-10_2103",
+  "usage": {
+    "prompt_tokens": 6554,
+    "completion_tokens": 1542,
+    "total_tokens": 8096
+  },
+  "episodes": [
+    {
+      "id": "43dbfe5826d6e0bfeb2dd410",
+      "show_name": "Founders",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "#424 Peter Thiel on How to Build a Creative Monopoly",
+      "link": "",
+      "published": "2026-07-10T20:47:00+00:00",
+      "summary": "What I learned from reading Zero to One: Notes on Startups, or How to Build the Future by Peter Thiel and Blake Masters (for the 3rd or 4th time) Made possible by: Ramp: ⁠https://ramp.com⁠ Applovin: ⁠https://www.applovin.com/⁠ Vanta: ⁠https://vanta.com/founders",
+      "duration": "3223",
+      "old_score": 51,
+      "old_label": "skip",
+      "qwen": {
+        "id": "43dbfe5826d6e0bfeb2dd410",
+        "score": 85,
+        "tier": "digest",
+        "reason": "Thiel's insights on creative monopolies offer durable frameworks for capital allocation and market positioning.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "5d356790a0d0e00bda2d5033",
+      "show_name": "Dishcast with Andrew Sullivan",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "low",
+      "title": "Stephen Grosz On Love And Psychoanalysis",
+      "link": "https://andrewsullivan.substack.com/p/stephen-grosz-on-love-and-psychoanalysis",
+      "published": "2026-07-10T18:12:29+00:00",
+      "summary": "This is a free preview of a paid episode. To hear more, visit andrewsullivan.substack.com Stephen is a psychoanalyst and author. He used to teach clinical technique at the Institute of Psychoanalysis, and also psychoanalytic theory at University College London. He’s the author of The Examined Life: How We Lose and Find Ourselves , and his latest book is Love’s Labor : How We Break and Make the Bonds of Love . For two clips of the episode — on what psychoanalysis is really for, and the benefits of friendship vs romantic love — head to our YouTube page . Other topics: born in Gary, Indiana; his birth defect requiring many surgeries; his Jewish family emigrating from Eastern Europe; college at Berkeley and Oxford; arrested at the Chicago Dem convention; befriending Anna Freud; Sigmund and his studies in hysteria; loneliness in adolescence; how falling in love is very different than love; my own psychoanalyst of 25 years; trauma from my childhood; the losses that marriage entails; breakthroughs after breakdowns; detaching from the idea of yourself; legal marriages vs psychological ones; falling back into trauma because it’s familiar; the power of love’s precarity; victimology; Philip Roth’s “the ecstasy of sanctimony”; lessons from Othello; surrender vs submission; Esther Perel’s Mating in Captivity ; seeking traits in a partner that mirror a dysfunctional parent; how sex is different for men and women; gay promiscuity; male-male marriages lasting the longest; HIV and the threat of deportation; dating with HIV in the ‘90s; and how to be a better listener. Browse the Dishcast archive for an episode you might enjoy. Coming up: David Thomson on cinema in US history and culture, John O’Sullivan on conservatism, Robby George on natural law, and Megan McArdle on pretty much anything. Please send any guest recs, dissents, and other comments to dish@andrewsullivan.com .",
+      "duration": "2842",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "5d356790a0d0e00bda2d5033",
+        "score": 40,
+        "tier": "scan",
+        "reason": "Psychoanalysis and love are interesting but lack direct relevance to business, AI, or capital allocation.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "0e6cf76358f1eda0a8a71569",
+      "show_name": "New Yorker Radio Hour",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "low",
+      "title": "The World Cup, the Knicks, and LeBron James’s Fate: An All-Time Summer in Sports",
+      "link": "https://www.wnycstudios.org/podcasts/tnyradiohour",
+      "published": "2026-07-10T17:40:00+00:00",
+      "summary": "With all the sports news at play this summer, from the New York Knicks winning the N.B.A. Finals to Donald Trump having a direct impact on FIFA’s decisions during the World Cup, it’s time for a deep dive into the biggest sports moments of late. The New Yorker sportswriter Louisa Thomas and David Remnick talk about the most significant stories of the week, and what to keep an eye on in the days and weeks ahead. Further reading, viewing, and listening: “ The U.S. Crashes Out of the World Cup ,” by Louisa Thomas “ Serena Williams Returns to Wimbledon ,” by Louisa Thomas “ The Knicks Win the N.B.A. Title: A Post-Game Conversation ,” with David Remnick, Vinson Cunningham, and Louisa Thomas New episodes of The New Yorker Radio Hour drop every Tuesday and Friday. Follow the show wherever you get your podcasts . Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:18:29",
+      "old_score": 0,
+      "old_label": "skip",
+      "qwen": {
+        "id": "0e6cf76358f1eda0a8a71569",
+        "score": 30,
+        "tier": "skip",
+        "reason": "Sports commentary is off-topic and lacks actionable insights for DJ's focus areas.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "fc661940d21b53defce611c2",
+      "show_name": "RenMac",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "RenMac Off-Script: Redistributing the Oxygen*",
+      "link": "https://podcasters.spotify.com/pod/show/renmac-it/episodes/RenMac-Off-Script-Redistributing-the-Oxygen-e3ltrog",
+      "published": "2026-07-10T17:06:30+00:00",
+      "summary": "Big Technology podcast host Alex Kantrowitz joins the RenMac Off-Script team to discuss whether the AI buildout has quietly become the load-bearing pillar of the U.S. economy and what breaks if it stalls. The team breaks down why the compute crunch is separating clear winners from losers, why the semiconductor tape is flashing classic top-of-cycle signals, and why the productivity boom needed to justify the capex simply isn't showing up in the data. They also explore how real rates rather than inflation are tightening financial conditions, why the Warsh Fed is tilting hawkish toward a possible hike, and how a populist revolt against data centers and the escalating China race are reshaping the policy backdrop.",
+      "duration": "00:57:45",
+      "old_score": 28,
+      "old_label": "skip",
+      "qwen": {
+        "id": "fc661940d21b53defce611c2",
+        "score": 80,
+        "tier": "digest",
+        "reason": "Discusses AI as a load-bearing pillar of the economy, compute crunch, and policy shifts—key macro context.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "81d0464cb36c7330068fc990",
+      "show_name": "Stratechery",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "2026.28: XBOX On the Rocks",
+      "link": "https://stratechery.com/2026/xbox-on-the-rocks/",
+      "published": "2026-07-10T17:00:00+00:00",
+      "summary": "The best Stratechery content from the week of July 6, 2026, including a word from Mark Zuckerberg*, pulling the plug on XBOX, and toilet talk.",
+      "duration": "",
+      "old_score": 57,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "81d0464cb36c7330068fc990",
+        "score": 60,
+        "tier": "scan",
+        "reason": "Stratechery's best content offers tech strategy insights, but this summary is too vague to justify 'listen'.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "4ff9041e6cf33abb70634b6e",
+      "show_name": "Dwarkesh Podcast",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "Adam Brown – A deep but accessible introduction to general relativity",
+      "link": "https://www.dwarkesh.com/p/adam-brown-gr",
+      "published": "2026-07-10T16:23:56+00:00",
+      "summary": "Adam Brown is back! General relativity is said to be the most beautiful idea the human mind has ever produced. Most of us will never get to fully appreciate its elegance by taking the 20-lecture graduate course Adam taught on it at Stanford. But in this episode, Adam distills the key idea at its heart so clearly and compellingly that even I could keep up lol. At the core of general relativity, Einstein is trying to figure out the principle behind a particular coincidence: that the mass that resists acceleration and the mass that gravity pulls on just happen to be exactly the same. Adam then leads us through the path of insight which Einstein called his “happiest thought.” Then Adam lectures on black holes. First, by showing how even under special relativity you could create a perpetual motion machine if black holes weren’t truly black. And then, by explaining why the observations of an infalling observer and a distant bystander to the black hole would be so radically different Adam leads Blueshift, the team at Google DeepMind cracking science and reasoning, which gave us the opportunity to discuss at the very end how close we are to AIs that could rediscover general relativity from scratch. Stay till the close for some philosophy of science. Watch on YouTube ; read the transcript . Sponsors * Jane Street has traders from all sorts of different backgrounds. For example, I recently got to speak with Jed Thompson, a trader who started his career in particle physics. Jed told me how the habits he built as a physicist (like never running a calculation without first having a good guess at the answer) helped him build good trading intuition. So no matter what field you’re working in right now, your experience may be more applicable than you think. Check out open positions at janestreet.com/dwarkesh * Crusoe gave me early access to their new serverless fine-tuning product, so I decided to try fine-tuning a Dwarkesh-style question generator. Crusoe made this really easy: I just turned my interview transcripts into training data and then kicked off a run – I never had to touch infra or tweak hyperparameters. After training was done, I ran a blind eval with my team: they preferred the fine-tuned model’s proposed questions over my own suggestions about 30% of the time. Serverless fine-tuning goes live next week. Learn more at crusoe.ai/dwarkesh * Cursor ’s iOS app lets me kick off real work no matter where I am. For example, recently I was at dinner with friends when I had an idea about how to investigate the past few years of progress in sample efficiency. I pulled out the Cursor app, dumped my thoughts into a voice note, and 15 minutes later, Cursor had cloned the relevant repo, done the necessary analysis, and written up its findings. And now I’m expanding that work into a full write-up. Without the Cursor app, the idea would’ve floated away. Check out the app now at cursor.com/dwarkesh Timestamps (00:00:00) – The coincidence that led Einstein to general relativity (00:16:42) – Gravity is a consequence of curved spacetime, not a force (00:31:46) – Why black holes prevent unlimited energy extraction (00:47:12) – Black holes are the ultimate power plants (01:13:50) – What falling into a black hole would actually feel like (01:18:51) – The three ways we know black holes are real (01:24:21) – The first time we saw gravity bend light (01:29:33) – How far can AI get without experimental evidence? Get full access to Dwarkesh Podcast at www.dwarkesh.com/subscribe",
+      "duration": "5904",
+      "old_score": 42,
+      "old_label": "skip",
+      "qwen": {
+        "id": "4ff9041e6cf33abb70634b6e",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Clear distillation of general relativity and black holes offers intellectual tools with potential analogs in tech thinking.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "6e54de86728a14108ca7aed9",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: July 10th, 2026",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-july-10th-2026",
+      "published": "2026-07-10T16:14:31+00:00",
+      "summary": "Featuring: George Goncalves, Managing Director & Head: US Macro Strategy at MUFG Securities Jay Goldberg, Senior Analyst at Seaport Group Liz Ann Sonders, Managing Director & Chief Investment Strategist at Charles Schwab See omnystudio.com/listener for privacy information.",
+      "duration": "1201",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "6e54de86728a14108ca7aed9",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Market commentary is generic and lacks specific actionable insights for DJ's focus.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "2d78c9a0196185575108bfd1",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Netflix is turning into YouTube",
+      "link": "",
+      "published": "2026-07-10T15:32:00+00:00",
+      "summary": "Netflix makes shows. And movies. And podcasts. And games. And… YouTube videos, apparently. So what even is Netflix anymore? Nilay and David have ideas. After that, they talk about Meta’s ongoing smart glasses mess, and whether Meta or anyone can make these devices work. Finally, it's time for Brendan Carr, RAMageddon, the state of X, and a dumb TV mystery. Further reading: Bloomberg: ⁠Netflix Viewers Are Abandoning Shows After One Season⁠ ⁠Of course viewers are giving up on Netflix shows ⁠ ⁠Netflix is about to host videos from BuzzFeed, Condé Nast, and other publishers⁠ ⁠Netflix Bets on Short Videos to Compete With YouTube - Business Insider⁠ ⁠Netflix's video podcast engagement numbers 'are low,' per insider⁠ ⁠Emmy Nominations List 2026: BEEF, The Diplomat, The Beast in Me, Black Rabbit, and More - Netflix Tudum⁠ ⁠If Microsoft sold off Xbox, who would even buy it?⁠ ⁠Meta is reportedly working on smart glasses that would be recording all the time ⁠ ⁠Meta’s glasses will turn off the camera if you tamper with the privacy light ⁠ ⁠Solos debuts an even lighter version of its camera-less smart glasses ⁠ ⁠Boz describes how Meta’s smart glasses facial recognition feature would work. ⁠ ⁠Another verdict on camera glasses in court: nope! ⁠ ⁠ABC tells the government to get out of its newsrooms⁠ ⁠Meta’s new Muse Image model can pull other Instagram users into AI photos ⁠ ⁠You can (and should) opt out of letting people use your Instagram posts with Meta’s AI.⁠ ⁠Are you ready for what it takes to stop ghost guns?⁠ ⁠Vizio accidentally made the best dumb TV on the market⁠ ⁠PC shipments fell for the first time in over two years thanks to RAMageddon. ⁠ ⁠A tough chart about the RAM crisis. ⁠ ⁠Subscribe to The Verge⁠ for unlimited access to ⁠theverge.com⁠, subscriber-exclusive newsletters, and our ⁠ad-free podcast feed⁠.We love hearing from you! Email your questions and thoughts to ⁠vergecast@theverge.com⁠ or call us at 866-VERGE11. (Timestamps are approximate.) 00:01:00 Intro 00:04:00 Netflix Identity Crisis 00:08:00 Creators Versus Netflix 00:15:00 Netflix Buys YouTube Videos 00:18:00 Go90 Scale Check In 00:19:00 Netflix Should Buy Xbox 00:28:00 Smart Glasses Panopticon 00:46:00 Backlash And Offline Tech 00:49:00 Smart Glasses Without Cameras 00:55:00 FCC Chilling Effect 01:03:00 Ramageddon Price Shock 01:07:00 Regulating Ghost Guns 01:14:00 X Product Reality Check 01:20:00 Vizio Dumb TV Mystery 01:25:00 Wrap Up And Plugs Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "5130",
+      "old_score": 28,
+      "old_label": "skip",
+      "qwen": {
+        "id": "2d78c9a0196185575108bfd1",
+        "score": 65,
+        "tier": "scan",
+        "reason": "Discusses Netflix's evolving strategy and Meta's smart glasses, relevant to media and tech strategy.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "a3869ddd12d1cce11168810d",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Markets Price in AI and Geopolitics",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/markets-price-in-ai-and-geopolitics",
+      "published": "2026-07-10T15:01:49+00:00",
+      "summary": "The latest in finance, economics and investment. Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF . Bloomberg Surveillance hosted by Tom Keene & Paul SweeneyFriday, July 10, 2026 Featuring: 1) George Noble, Managing Partner at Noble Capital Advisors and former Fidelity Fund Manager, joins for an extended discussion about the bear case for AI 2) Neil Dutta, Head: US Economic Research at Renaissance Macro, joins for a discussion on the Fed, markets, and inflation outlook. 3) Marques Colston, former star NFL receiver and co-founder of his private sports fund \"The Champion Fund,\" talks investing in private sports assets and attractive investment characteristics of sports. 4) Chieh Huang, CEO at Pelgo, joins to discuss how AI is resetting the labor market and how it could serve as a tool for displaced workers rather than a job slashing tool. See omnystudio.com/listener for privacy information.",
+      "duration": "2146",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "a3869ddd12d1cce11168810d",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Covers AI's labor market impact, bear case for AI, and Fed policy—relevant to macro and tech labor trends.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "32c7f221fb6e9e9803b2543e",
+      "show_name": "Eye on AI",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "What Industrial AI Actually Looks Like | Kriti Sharma, Nexus Black",
+      "link": "https://aneyeonai.libsyn.com/what-industrial-ai-actually-looks-like-kriti-sharma-nexus-black",
+      "published": "2026-07-10T15:00:00+00:00",
+      "summary": "Most AI is built for people sitting at desks. Kriti Sharma builds it for the people who work in refineries, aircraft hangars, and utility networks responding to wildfires at 4 a.m. and she spends weekends on-site with them to make sure what she builds actually holds up. In this episode, Kriti joins Craig Smith to discuss what industrial AI really looks like when failure genuinely isn't an option, and why the gap between an impressive AI pilot and a production-grade AI system is so much wider in the physical world than most technology companies appreciate. The conversation is grounded in three specific products from Nexus Black, the elite AI unit Kriti leads inside IFS. The first is Resolve, a predictive maintenance platform built in close collaboration with William Grant's - the distillery behind Glenfiddich and Hendricks Gin - that is projected to save £8.4 million per year at a single factory by reading complex engineering schematics, identifying failure patterns before they occur, and giving frontline technicians step-by-step guidance on their phones without requiring them to remove a safety glove to type. The second is an airworthiness compliance tool for commercial airlines that automates a process currently consuming weeks of human engineering time, where a single mistake carries regulatory fines of up to $20 million and grounding a fleet costs $140 million per day. The third is a disaster response coordination system for utilities, built in partnership with Anthropic, designed to help field crews coordinate during wildfires, hurricanes, and grid outages in ways that, as a California disaster responder told Kriti directly after the most recent wildfire season, will get communities back online and hospitals lit up faster than ever before. Subscribe to Eye on A.I. for weekly conversations with the people building and deploying the future of AI.",
+      "duration": "23:02",
+      "old_score": 32,
+      "old_label": "skip",
+      "qwen": {
+        "id": "32c7f221fb6e9e9803b2543e",
+        "score": 88,
+        "tier": "listen",
+        "reason": "Concrete examples of industrial AI deployment with measurable ROI—high signal for AI in operations.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "2df7e9c456f6ba9ee0198ddf",
+      "show_name": "Hard Fork",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Do Social Media Bans Work? + A Conversation About A.I. Consciousness + Tool Time",
+      "link": "https://www.nytimes.com/column/hard-fork",
+      "published": "2026-07-10T11:00:00+00:00",
+      "summary": "This week, with news that the U.S. Supreme Court declined to take up Texas’ age verification law for app stores, we check in on how social media bans are going around the globe and what may be coming soon to a state near you. Then, we’re joined by Jeff Sebo, an associate professor at N.Y.U., to discuss new research into “A.I. welfare” and whether A.I. could ever become conscious. And finally, in our latest edition of Tool Time, we show each other some of the latest tech tools we’ve been experimenting with. Guest: Jeff Sebo , associate professor and the director of the Center for Mind, Ethics, and Policy at N.Y.U. Additional Reading: Why Social Media Bans Are Gaining Steam Four in Five Under-16s in Australia Using Social Media Despite Ban, Study Shows It Turns Out Banning Teens From Social Media Is Hard Studying A.I. Welfare Empirically A Global Workspace in Language Models We want to hear from you. Email us at hardfork@nytimes.com . Find “Hard Fork” on YouTube and TikTok . Subscribe today at nytimes.com/podcasts or on Apple Podcasts and Spotify. You can also subscribe via your favorite podcast app here https://www.nytimes.com/activate-access/audio?source=podcatcher . For more podcasts and narrated articles, download The New York Times app at nytimes.com/app. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "01:19:01",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "2df7e9c456f6ba9ee0198ddf",
+        "score": 55,
+        "tier": "scan",
+        "reason": "AI consciousness and social media bans are speculative or off-topic for DJ's focus.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "9db9a6e8203c2c267665f0b0",
+      "show_name": "My First Million",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Brainstorming business ideas with a billion-dollar founder",
+      "link": "",
+      "published": "2026-07-10T10:00:00+00:00",
+      "summary": "140+ Business Ideas (Database): https://clickhubspot.com/efdj Episode 840: Sam Parr ( https://x.com/theSamParr ) and Shaan Puri ( https://x.com/ShaanVP ) talk to Mark Pincus ( https://x.com/markpinc ) about figuring out what projects to spend your life on. — Show Notes: (0:00) $0- $38M in 7 months (3:00) if you pick the right body of water, you don't have to have the right boat (16:51) pattern matching (23:17) there's always a new freak (25:00) picking macros (27:48) a case for gold (39:50) How to know what to chase (49:12) create a book of life (59:59) Frameworks vs instincts (1:09:00) being hated and misunderstood (1:11:13) the story of farmville (1:15:00) avoiding the fur coat moment (1:19:49) the nickelback problem (1:22:02) introspection vs rumination — Links: • Life At The Speed of Play - https://www.amazon.com/Life-Speed-Play-Launch-Products/dp/0063352575 — Check Out Sam's Stuff: • Hampton (joinhampton.com): My community for founders. Average member does $25m/year. Many of the guests are members. Get after it...apply: http://joinhampton.com/mfm — Check Out Shaan's Stuff: • Shaan's weekly email - https://www.shaanpuri.com • Visit https://www.somewhere.com/mfm to hire worldwide talent like Shaan and get $500 off for being an MFM listener. Hire developers, assistants, marketing pros, sales teams and more for 80% less than US equivalents. • Mercury - Shaan uses Mercury for banking across all of his companies. you can too: http://mercury.com/ Mercury is a fintech company, not an FDIC-insured bank. Banking services provided by Choice Financial Group, Column, N.A., and Evolve Bank & Trust, Members FDIC • I run all my newsletters on Beehiiv and you should too + we're giving away $10k to our favorite newsletter, check it out: beehiiv.com/mfm-challenge My First Million is a HubSpot Original Podcast // Brought to you by HubSpot Media // Production by Arie Desormeaux // Editing by Ezra Bakker Trupiano /",
+      "duration": "5244",
+      "old_score": 32,
+      "old_label": "skip",
+      "qwen": {
+        "id": "9db9a6e8203c2c267665f0b0",
+        "score": 72,
+        "tier": "digest",
+        "reason": "Mark Pincus shares frameworks on idea selection and macro picking—valuable for operators and investors.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "173d7fdb8b3493965e4457b4",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "How Bitcoin Rewired a Classic Computer Science Problem",
+      "link": "https://a16z.simplecast.com/episodes/how-bitcoin-rewired-a-classic-computer-science-problem-0_lm073b",
+      "published": "2026-07-10T10:00:00+00:00",
+      "summary": "We're excited to share a special feed drop from The a16z Crypto Show. In the first episode of First Principles: The Scientific Roots of Blockchain Technology , Tim Roughgarden and Ittai Abraham trace the decades of computer science research that laid the foundation for modern blockchains. Long before Bitcoin, researchers were studying one of distributed computing's hardest challenges: how independent machines can reliably agree on a shared state, even when some participants are faulty or malicious. Bitcoin didn't invent that problem, but it introduced a breakthrough solution in a radically different, permissionless setting. The conversation explores Byzantine agreement, state machine replication, proof of work, proof of stake, Tendermint, Casper, DAG-based protocols, and why concepts developed decades ago continue to shape the design of today's fastest and most secure blockchain networks. Resources: Follow Tim Roughgarden on X: https://x.com/Tim_Roughgarden Follow Ittai Abraham on X: https://x.com/ittaia Follow a16z Crypto on X: https://x.com/a16zcrypto Subscribe to The a16z Crypto Show: https://a16zcrypto.substack.com/subscribe/ Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:21:35",
+      "old_score": 27,
+      "old_label": "skip",
+      "qwen": {
+        "id": "173d7fdb8b3493965e4457b4",
+        "score": 68,
+        "tier": "scan",
+        "reason": "Bitcoin's distributed systems roots are intellectually interesting but not directly actionable for DJ.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "8e1bcb473131d4acf7ff2934",
+      "show_name": "Ezra Klein Show",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "The Very Good and Very Bad News on Climate",
+      "link": "https://www.nytimes.com/2026/07/10/opinion/ezra-klein-podcast-bill-mckibben.html",
+      "published": "2026-07-10T09:00:00+00:00",
+      "summary": "Already this summer, there have been huge wildfires in the Southwest and Great Plains and an extraordinary heat wave in Europe, as the world stares down the barrel of a powerful El Niño. Climate change is accelerating, and yet climate politics right now is in disarray. But something else is happening, too. Advances in clean energy technology mean it is now possible to build a world of energy abundance that was the stuff of dreams just a few years ago. That means a new kind of climate politics is possible — one that doesn’t just talk about sacrifice and disaster prevention but also can present decarbonization as a path to somewhere better, where everyone has more, not less. Bill McKibben is one of the best people at articulating that vision. He’s a founder of the climate action groups 350.org and Third Act, and he’s been at the vanguard of the climate movement for decades. His 1989 book, “The End of Nature,” is considered the first book on global warming written for a general audience. His latest book, published last year, is “Here Comes the Sun: A Last Chance for the Climate and a Fresh Chance for Civilization.” Mentioned: “ Global Electricity Review 2026 ” by Ember The End of Nature by Bill McKibben “ The New Right’s Very Old Vision of Men ,” The Ezra Klein Show with Helen Lewis “ We’re All Living in the ‘Mirror World’ Now ,” The Ezra Klein Show with Naomi Klein Book Recommendations: The Glorians by Terry Tempest Williams The Beginning Comes After the End by Rebecca Solnit The Carbon Wave by Leah C. Stokes Brought to You By by Amy Westervelt End Times Fascism by Naomi Klein and Astra Taylor Thoughts? Guest suggestions? Email us at ezrakleinshow@nytimes.com. You can find the transcript and more episodes of “The Ezra Klein Show” at nytimes.com/ezra-klein-podcast . Book recommendations from all our guests are listed at https://www.nytimes.com/article/ezra-klein-show-book-recs.html This episode of “The Ezra Klein Show” was produced by Jack McCordick. Fact-checking by Michelle Harris and Julie Beer. Our senior engineer is Jeff Geld, with additional mixing by Johnny Simon. Our recording engineer is Johnny Simon. Cinematography by Kyle Kelley and Marina King. Video editing by Brandon Belk-Yee, Dani Dillon and Julian Hackney. Our executive producer is Claire Gordon. The show’s production team also includes Marie Cascione, Annie Galvin, Rollin Hu, Kristin Lin and Emma Kehlbeck. Original music by Pat McCusker. Audience strategy by Shannon Busta. The director of New York Times Opinion Shows is Annie-Rose Strasser. Subscribe today at nytimes.com/podcasts or on Apple Podcasts and Spotify. You can also subscribe via your favorite podcast app here https://www.nytimes.com/activate-access/audio?source=podcatcher . For more podcasts and narrated articles, download The New York Times app at nytimes.com/app. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "01:25:22",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "8e1bcb473131d4acf7ff2934",
+        "score": 60,
+        "tier": "scan",
+        "reason": "Climate politics and tech intersect, but lacks direct capital allocation or AI implications.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "94385cbf24d9acf6599f8741",
+      "show_name": "Sharp Tech",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "(Preview) Meta and Its Messaging Problem, The XBOX Reset, Q&A on Token Costs, American Soccer, Starlink in Nature",
+      "link": "https://sharptech.fm/member/episode/preview-meta-and-its-messaging-problem-the-xbox-reset-q-a-on-token-costs-american-soccer-starlink-in-nature",
+      "published": "2026-07-10T08:59:07+00:00",
+      "summary": "On today’s show Andrew and Ben begin with a look at the state of Meta. Topics include: Mark Zuckerberg’s sins of commission vs. omission as a messenger, Meta’s AI opportunity, directionally correct investments, the problems with Meta as a cloud provider, and the absence of religion in Menlo Park. From there: Why Microsoft should move on from the XBOX era, and the shift in gaming habits that doomed Game Pass from the outset. At the end: OpenAI introduces GPT-Live, a question about the cost of Ben’s vibe coding adventure spawns a digression on future token costs, the cost of youth sports, American soccer and learning Chinese, tech weirdos and the future of normie app building, and Ben gets castigated for bringing a Starlink on vacation.",
+      "duration": "00:21:53",
+      "old_score": 55,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "94385cbf24d9acf6599f8741",
+        "score": 62,
+        "tier": "scan",
+        "reason": "Meta's messaging issues and Xbox reset offer tech strategy insights but lack depth for 'listen'.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "cfbfd3385f85c4ac236cec97",
+      "show_name": "The Meb Faber Show",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Joseph Moore: How to Get Rich in American History: 300 Years of Financial Advice That Worked (& Didn’t) | #639",
+      "link": "",
+      "published": "2026-07-10T08:30:00+00:00",
+      "summary": "My guest today is Joseph Moore, a historian and former professor who spent over a decade in the archives studying 300 years of American financial advice, which he explains in his new book, How to Get Rich in American History: 300 Years of Financial Advice That Worked (& Didn’t). In today’s episode, Joseph explains what 300 years of American financial advice reveals about getting rich. He shares why real estate barely appreciated for a century, why bonds beat stocks for decades, and how modern investing advice was born chasing inflation and taxes. To close, Joseph reveals the five timeless principles that built wealth in every era. (0:00) Starts (1:34) Joseph Moore shares a historical perspective on money (13:04) Real estate investment strategies (20:59) Stocks vs. bonds debate (25:45) Should you try to beat the market? (33:32) Key financial lessons from history (39:54) Joseph's most memorable investments (42:10) Surprising historical financial statistics ----- Follow Meb on X, LinkedIn and YouTube For detailed show notes, click here To learn more about our funds and follow us, subscribe to our mailing list or visit us at cambriainvestments.com ----- Follow The Idea Farm: X | LinkedIn | Instagram | TikTok ----- Interested in sponsoring the show? Email us at Feedback@TheMebFaberShow.com ----- Past guests include Ed Thorp, Richard Thaler, Jeremy Grantham, Joel Greenblatt, Campbell Harvey, Ivy Zelman, Kathryn Kaminski, Jason Calacanis, Whitney Baker, Aswath Damodaran, Howard Marks, Tom Barton, and many more. ----- Meb's invested in some awesome startups that have passed along discounts to our listeners. Check them out here! ----- Editing and post-production work for this episode was provided by The Podcast Consultant (https://thepodcastconsultant.com). Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "duration": "3062",
+      "old_score": 51,
+      "old_label": "skip",
+      "qwen": {
+        "id": "cfbfd3385f85c4ac236cec97",
+        "score": 65,
+        "tier": "scan",
+        "reason": "Historical financial advice offers perspective but not direct relevance to current AI or tech trends.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "a38d6d00d6a894bc293d3cb3",
+      "show_name": "Capital Allocators",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "WTT: 5.5 Lessons at 55.5",
+      "link": "https://tedseides.libsyn.com/wtt-55-lessons-at-55",
+      "published": "2026-07-10T08:00:00+00:00",
+      "summary": "This WTT, 5.5 Lessons at 55.5 reflects on what five-and-a-half decades of investing, podcasting, and mistakes have taught me about people, markets, and myself. Read Ted's blog here . Editing and post-production work for this episode was provided by The Podcast Consultant ( ⁠ https://thepodcastconsultant.com ⁠ )",
+      "duration": "08:09",
+      "old_score": 44,
+      "old_label": "skip",
+      "qwen": {
+        "id": "a38d6d00d6a894bc293d3cb3",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Personal investing reflections are generic and lack actionable insights.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "18cd6e9d6d871d39810f6b49",
+      "show_name": "Odd Lots",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "The Korean Levered ETFs Shaking Markets All Around the World",
+      "link": "https://omny.fm/shows/odd-lots/the-korean-levered-etfs-shaking-markets-all-around-the-world",
+      "published": "2026-07-10T08:00:00+00:00",
+      "summary": "Retail participation in the stock market is booming. And of course the biggest story in markets is the AI trade, which has created an incredible amount of demand for chips and memory. These two broad themes have come together in the form of leveraged, single-stock ETFs. And while these products are popular in the US, the scale coming out of Korea is enormous. It's a good week to talk about this intersection, because some of the biggest stories of the week include Samsung's earnings and SK Hynix's new US listing. Barclays's Global Head of Equities Tactical Strategies Alexander Altmann has used the word “terrifying” to describe the amount of notional exposure coming from these levered ETFs. He explains to us why that is and we talk to him about why, in such a short period of time, the world of levered ETFs has gotten to be so large, with AUM increasing threefold in Asia alone. He also us gets into how he is thinking through risk management and how we as society — and retail investors in particular — got to be overexposed on equities and why that keeps him up at night. Read: SK Hynix’s $26.5 Billion Listing Reopens Asia Route to US Market Only Bloomberg.com subscribers can get the Odd Lots newsletter in their inbox, plus unlimited access to the site and app. Sign up: bloomberg.com/subscriptions/oddlots See omnystudio.com/listener for privacy information.",
+      "duration": "2608",
+      "old_score": 32,
+      "old_label": "skip",
+      "qwen": {
+        "id": "18cd6e9d6d871d39810f6b49",
+        "score": 78,
+        "tier": "digest",
+        "reason": "Korean levered ETFs driving global market volatility—important macro and liquidity implications.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "2a5c16238b7c52a99cd316f0",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "The Week: Who Does the Market Actually Work For?",
+      "link": "",
+      "published": "2026-07-10T08:00:00+00:00",
+      "summary": "George Hahn connects the dots across the week’s biggest stories: how presidential favor can move markets, why OpenAI wants the government as an investor, and what SpaceX’s fast track into the Nasdaq-100 means for ordinary investors. Plus, why Americans feel less patriotic as the country turns 250 — and how an 18-month-old podcast built a media business worth hundreds of millions. We’d love your feedback as we build this show! Let us know what you think: info@profgmedia.com. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "1066",
+      "old_score": 28,
+      "old_label": "skip",
+      "qwen": {
+        "id": "2a5c16238b7c52a99cd316f0",
+        "score": 55,
+        "tier": "scan",
+        "reason": "Market commentary is surface-level and lacks deep insights for DJ's focus.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "cc390c3de0ac68c6cf7683ef",
+      "show_name": "All-In Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Open Source Wins, AGI Is Here, and Scorsese's AI Toolkit with CEOs of Cerebras & Black Forest Labs",
+      "link": "https://allinchamathjason.libsyn.com/open-source-wins-agi-is-here-and-scorseses-ai-toolkit-with-ceos-of-cerebras-black-forest-labs",
+      "published": "2026-07-10T01:26:00+00:00",
+      "summary": "(0:00) The AI Buildout: Datacenters Bigger Than Cities (Andrew Feldman) (1:50) Reasoning, Inference, and Breaking Moore's Law (16:28) Open Source, AI Sovereignty, and the Road to AGI (40:54) The Innovation Behind Generative Video (Robin Rombach) (47:31) Martin Scorsese, Robots, and the Future of Hollywood IP Thanks to our partners for making this possible! AppLovin Ads - AppLovin's AI advertising platform reaches over a billion daily active users across mobile games. Full-screen video ads with a 35-second median watch time. Advertisers are profitably spending hundreds of thousands of dollars a day and advertiser access is still in closed beta. The window is open at https://applovin.com/ALLIN Nasdaq - Industries, capital, and intelligence are converging into a single, interconnected system, and the infrastructure behind it needs to evolve just as quickly. Nasdaq was built for this moment: Powering more than 135 marketplaces and regulators globally and connecting capital to the companies shaping the future. As the innovation economy accelerates, connectivity becomes the critical asset. Nasdaq is the technology platform that makes it possible, and scalable. Learn more at https://Nasdaq.com Follow Andrew: https://x.com/andrewdfeldman Follow Robin: https://x.com/robrombach Follow the besties: https://x.com/chamath https://x.com/Jason https://x.com/DavidSacks https://x.com/friedberg Follow on X: https://x.com/theallinpod Follow on Instagram: https://www.instagram.com/theallinpod Follow on TikTok: https://www.tiktok.com/@allin Follow on LinkedIn: https://www.linkedin.com/company/allinpod Intro Music Credit: https://rb.gy/tppkzl https://x.com/yung_spielburg",
+      "duration": "01:03:57",
+      "old_score": 32,
+      "old_label": "skip",
+      "qwen": {
+        "id": "cc390c3de0ac68c6cf7683ef",
+        "score": 90,
+        "tier": "listen",
+        "reason": "Cerebras and Black Forest Labs CEOs discuss open source, AGI, and generative video—high signal for AI trends.",
+        "confidence": "high"
+      }
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-06-25_2104",
+  "usage": {
+    "prompt_tokens": 4474,
+    "completion_tokens": 1018,
+    "total_tokens": 5492
+  },
+  "episodes": [
+    {
+      "id": "758cfbf18e068d8219e91b25",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "How to train your data",
+      "link": "",
+      "published": "2026-06-25T19:16:00+00:00",
+      "summary": "Training data is the raw material of the AI industry. Claude, ChatGPT, Gemini, and the rest are built on top of oceans of stuff. What is that stuff? Books. Blog posts. YouTube videos. Reddit comments. All of it and more, in virtually incomprehensible quantities. Alex Reisner, a staff writer at The Atlantic who has been investigating training data, explains how AI companies get all this data, why they'd really prefer you not know what's in it, and whether training data could ever be a fair trade. Further reading: Apple raises prices on Macs, iPads, and more by hundreds of dollars | The Verge⁠ ⁠Disney agrees to pay $50 million to YouTube TV and DirecTV subscribers | The Verge⁠ Two handlebars are better than one, right? | The Verge⁠ At Least 15 Million YouTube Videos Have Been Snatched by AI Companies⁠⁠ ⁠⁠The Hypocrisy at the Heart of the AI Industry ⁠⁠ ⁠⁠The Millions of Songs Mashed Into AI-Generated Music⁠⁠ ⁠⁠Common Crawl Is Doing the AI Industry’s Dirty Work⁠⁠ Subscribe to The Verge for unlimited access to theverge.com, subscriber-exclusive newsletters, and our ad-free podcast feed. We love hearing from you! Email your questions and thoughts to vergecast@theverge.com or call us at 866-VERGE11. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "1601",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "758cfbf18e068d8219e91b25",
+        "score": 82,
+        "tier": "digest",
+        "reason": "Training data is foundational to AI economics; this episode explores its sources, ethics, and industry opacity.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "97e1413dcdc9c37a48aff583",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: June 25th, 2026",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-june-25th-2026",
+      "published": "2026-06-25T16:39:59+00:00",
+      "summary": "Featuring: Sebastien Page, CIO & Co-Head of Global Investments at T. Rowe Price Heath Terry, Managing Director & Global Head: Technology & Communication Research at Citigroup Former New York Fed President Bill Dudley See omnystudio.com/listener for privacy information.",
+      "duration": "1436",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "97e1413dcdc9c37a48aff583",
+        "score": 65,
+        "tier": "scan",
+        "reason": "Bloomberg Surveillance features market commentary but lacks specific AI or durable insight focus.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "d6c3456272558c02d115283a",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "PCE Reaction and US Eco Outlook",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/pce-reaction-and-us-eco-outlook",
+      "published": "2026-06-25T15:51:06+00:00",
+      "summary": "The latest in finance, economics and investment. Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF . Bloomberg Surveillance hosted by Tom Keene & Paul SweeneyThursday, June 25, 2026 Featuring: 1) Rob Sockin, Chief US Economist at PGIM Credit, Andrew Szczurowski, Senior Fixed Income Portfolio Manager at Morgan Stanley Investment Management, and Marija Veitmane, Managing Director, react to PCE. 2) Sebastien Page, Head: Global Multi-Asset and Chair of the Asset Allocation Steering Committee at T. Rowe Price, talks about his inflation and economic outlook. 3) Suki Cooper, Global Head: Commodities Research at Standard Chartered Bank, joins to talk gold, metals, and her commodities outlook. 4) Lee Roberts, Chancellor at UNC-Chapel Hill, joins for an extended discussion on higher education, funding, and recruiting students in the age of AI.Eric Mollo See omnystudio.com/listener for privacy information.",
+      "duration": "2505",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "d6c3456272558c02d115283a",
+        "score": 70,
+        "tier": "digest",
+        "reason": "PCE and economic outlook discussions offer market read and macro implications relevant to capital allocation.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "5b5fb7809f3a286e190010a7",
+      "show_name": "The Tim Ferriss Show",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "#871: The “Divine Leaf” with 8,000+ Years of Use — Exploring the Many Benefits of Coca with Dr. Andrew Weil and Wade Davis",
+      "link": "",
+      "published": "2026-06-25T15:00:00+00:00",
+      "summary": "\"Coca is to cocaine what potatoes are to vodka\" — Dr. Andrew Weil and Wade Davis on the health benefits, sacred history, and unjust prohibition of the most misunderstood plant on Earth. Dr. Andrew Weil is a pioneer in integrative medicine and founder of the Andrew Weil Center for Integrative Medicine at the University of Arizona, where he holds the Lovell-Jones Endowed Chair and serves as Clinical Professor of Medicine and Professor of Public Health. Wade Davis is an ethnographer, writer, photographer, and filmmaker. From 2014 to 2024 he served as Professor of Anthropology and BC Leadership Chair in Cultures and Ecosystems at Risk at the University of British Columbia, and from 2000 to 2013 as Explorer-in-Residence at the National Geographic Society. Connect with the Beneficial Plant Research Association (BPRA) : Website (scroll down to donate) | Coca Leaf Research | Coca Leaf Documentary | Coca Leaf Retreat This episode is brought to you by: Incogni, which automatically removes your personal data from the web, helping shield you from fraud, scams, and identity theft: Incogni.com/Tim (use code TIM at checkout and get 60% off an annual plan) Maui Nui Venison​ delicious, nutrient-dense, and responsible red meat: https://mauinuivenison.com/tim 5-Bullet Friday , my very own free email newsletter: https://tim.blog/friday Timestamps: [00:00:00] Start. [00:02:38] When coca tea cured my brutal altitude sickness in Chile. [00:04:01] Andy meets coca, 1965: the Andes' master medicine for gut, energy, mood, metabolism. [00:06:20] 14 alkaloids, one scapegoat. [00:07:11] The paradox: one remedy for both diarrhea and constipation. [00:11:37] 8,000 years, zero addiction — and the 1975 study no one wanted to run. [00:13:11] Eradication began 60 years before there was a cocaine problem. [00:16:27] Two nations inside Peru: alcohol versus coca. [00:17:05] The 1950 UN commission that dictated coca policy by pseudoscience, fear, and racism. [00:18:10] Filed beside fentanyl and heroin; 250,000 families and the price of peace. [00:20:03] What coca actually feels like: milder than half a coffee, no crash, no withdrawal. [00:24:19] Decoupling the leaf from the cartels; why crop substitution is a fantasy. [00:25:54] Domesticated three times; the accident of Schedule II. [00:27:49] The sacred leaf: k'intu, cruceta, Pachamama, runakuna. [00:31:11] Hayo in the Sierra Nevada, and Latin America's most-denied gift. [00:32:53] The wedge in the door: demand, the FDA, and an entrepreneur's gold mine. [00:40:22] The story coca deserves — a film, green powders, and one good study. [00:43:12] Monkey mind, the tax of consciousness, and an 84th birthday on coca. [00:47:35] Who to fund: McCurdy and the hunt for legal leaves. [00:49:17] Could coca treat cocaine addiction? Cost, and NIDA's timing. [00:53:18] \"Green cocaine\" at the airport: coca is to cocaine as potatoes are to vodka. [00:56:58] A 24-hour ritual run powered entirely by coca. [00:59:07] Why two men gave their careers to one leaf — and the pharmaceutical body count. [01:06:22] America's legal cocaine capital, and Coke's secret recipe. [01:09:08] No accident: the hideous prose behind laws we still obey. [01:15:42] Parting thoughts. * For show notes and past guests on The Tim Ferriss Show , please visit tim.blog/podcast . For deals from sponsors of The Tim Ferriss Show , please visit tim.blog/podcast-sponsors Sign up for Tim’s email newsletter ( 5-Bullet Friday ) at tim.blog/friday . For transcripts of episodes, go to tim.blog/transcripts . Discover Tim’s books: tim.blog/books . Follow Tim: Twitter : twitter.com/tferriss Instagram : instagram.com/timferriss YouTube : youtube.com/timferriss Facebook : facebook.com/timferriss LinkedIn: linkedin.com/in/timferriss See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info .",
+      "duration": "01:22:32",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "5b5fb7809f3a286e190010a7",
+        "score": 45,
+        "tier": "skip",
+        "reason": "Coca benefits and prohibition are off-topic and lack relevance to AI, markets, or durable frameworks.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "d7b544c302c9d432f27c5bad",
+      "show_name": "Stratechery",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "An Interview with Figma CEO Dylan Field About Design and AI",
+      "link": "https://stratechery.com/2026/an-interview-with-figma-ceo-dylan-field-about-design-and-ai/",
+      "published": "2026-06-25T10:00:00+00:00",
+      "summary": "An interview with Figma CEO Dylan Field about building Figma, and why he believes AI gives the company a tailwind.",
+      "duration": "",
+      "old_score": 38,
+      "old_label": "skip",
+      "qwen": {
+        "id": "d7b544c302c9d432f27c5bad",
+        "score": 88,
+        "tier": "listen",
+        "reason": "Figma CEO Dylan Field offers operator insight into AI integration and product strategy in a high-signal show.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ba0ea261ec6feb1f7cd3d0d4",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Marc Andreessen on AI, Technology, and the Future of Humanity",
+      "link": "https://a16z.simplecast.com/episodes/marc-andreessen-on-ai-technology-and-the-future-of-humanity-C2m9nf_J",
+      "published": "2026-06-25T10:00:00+00:00",
+      "summary": "Michael Malice sits down with Marc Andreessen to discuss artificial intelligence, technological progress, economic growth, and the future of human flourishing. Drawing on decades of experience spanning the birth of the commercial internet through today’s AI boom, Andreessen argues that many of the most common fears about technology are rooted in a misunderstanding of how innovation creates opportunity. He explains how modern AI systems work, why large language models differ from earlier visions of artificial intelligence, and why he believes AI will ultimately expand human capability rather than replace it. The discussion covers AI, automation, productivity, cybersecurity, economic growth, creativity, and the recurring historical pattern of technological disruption. Along the way, Andreessen shares his views on optimism, abundance, and why he believes technological progress remains one of humanity’s most powerful tools for solving problems. Resources: Follow Marc Andreessen on X: https://x.com/pmarca Follow Michael Malice on X: https://x.com/michaelmalice Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "01:04:10",
+      "old_score": 86,
+      "old_label": "must_listen",
+      "qwen": {
+        "id": "ba0ea261ec6feb1f7cd3d0d4",
+        "score": 90,
+        "tier": "listen",
+        "reason": "Marc Andreessen offers a high-level, optimistic view on AI and tech progress with durable frameworks for thinking.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "8ee40351f31d00f93d25b13a",
+      "show_name": "Infinite Loops",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Gretchen Rubin - How Curiosity Becomes a Calling (Ep. 320)",
+      "link": "https://infiniteloopspodcast.com/320",
+      "published": "2026-06-25T09:10:00+00:00",
+      "summary": "Gretchen Rubin joins guest host and Infinite Books CEO Jimmy Soni to discuss her journey from Supreme Court clerk to bestselling author, the creative obsessions that shaped her career, and the daily habits that fuel her work. They cover her transition from law to writing Power Money Fame Sex , why she often ends up writing the book before the proposal, the art of editing until the final hour (even during pass pages), her 5:30 AM writing routine, and why \"know thyself\" remains the foundation of all her books - from 40 Ways to Look at Winston Churchill to Life in Five Senses . Important Links: Learn more about Gretchen: https://gretchenrubin.com/ Read more of Gretchen's work: https://gretchenrubin.com/books Listen to Gretchen's podcast: https://gretchenrubin.com/happier/",
+      "duration": "01:23:43",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "8ee40351f31d00f93d25b13a",
+        "score": 50,
+        "tier": "skip",
+        "reason": "Gretchen Rubin discusses curiosity and habits; lacks business or AI insight relevant to DJ's focus.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "7510c205575ae42ed0a2c442",
+      "show_name": "Decoder with Nilay Patel",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Rewind: CEO Jim Farley on Ford's EV gamble",
+      "link": "",
+      "published": "2026-06-25T09:00:00+00:00",
+      "summary": "Hey everyone, Nilay here. You might remember I took a break from Decoder last year — we had a baby, so I took some leave. In my place, we had an excellent slate of guest hosts, and we’ve been working hard to bring you those episodes in full video since we launched our official Decoder YouTube channel. So today, we’re featuring a really great interview conducted by my very good friend Joanna Stern, now the founder and CEO of New Things, and Ford CEO Jim Farley. Joanna pulled some exclusive news out of Jim at the time, including some telling quotes on Trump’s tariff policy, on Ford competing with Chinese EVs, and the company's stance on Apple CarPlay. Read the full interview transcript on The Verge. Links: Ford CEO Jim Farley on China, tariffs, and the quest for a $30,000 EV | Decoder Joanna Stern is not a robot, but she lived with them | Decoder Ford's Jim Farley: 'I totally would’ve done it differently.’ | The Verge Ford pulls the plug on the all-electric F-150 Lightning pickup truck | NPR Inside the lab where Ford is trying to crack the code on cheap EVs | The Verge Ford is fighting against physics to build affordable EVs | The Verge Ford reveals breakthrough process for lower priced EVs | The Verge Ford CEO Jim Farley on building the electric F-150 | Decoder (2021) Subscribe to The Verge to access the ad-free version of Decoder! Credits: Decoder is a production of The Verge and part of the Vox Media Podcast Network. Our producers are Kate Cox and Nick Statt. This episode was edited by Kabir Chopra. The Decoder music is by Breakmaster Cylinder. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "3828",
+      "old_score": 32,
+      "old_label": "skip",
+      "qwen": {
+        "id": "7510c205575ae42ed0a2c442",
+        "score": 60,
+        "tier": "scan",
+        "reason": "EV strategy from Ford CEO offers some market and operational insight but not AI or capital allocation focus.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "713d259c61b9026b22e211be",
+      "show_name": "Masters of Scale",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "How to balance a two-sided marketplace, with Care.com CEO Brad Wilson",
+      "link": "",
+      "published": "2026-06-25T09:00:00+00:00",
+      "summary": "Care.com is the digital marketplace that connects caregiving professionals with people who need help with kids, seniors, pets, and more. It’s the market leader in an area where the need is constantly growing. Host Jeff Berman talks with CEO Brad Wilson about how companies can create more loyal employees by supporting caregiving, why the future of work needs to be flexible, how he’s leading through transformational technology change at the company, and more. Subscribe to the Masters of Scale weekly newsletter: https://mastersofscale.com/subscribe See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info .",
+      "duration": "00:31:51",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "713d259c61b9026b22e211be",
+        "score": 68,
+        "tier": "digest",
+        "reason": "Balancing a two-sided marketplace offers practical operator insight relevant to platform economics.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "aff999c0112d13f1d5ecb165",
+      "show_name": "Odd Lots",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "How the 1994 World Cup Transformed the Business of Football Forever",
+      "link": "https://omny.fm/shows/odd-lots/how-the-1994-world-cup-transformed-the-business-of-football-forever",
+      "published": "2026-06-25T08:00:00+00:00",
+      "summary": "The last time the World Cup came to the US was 1994. Before then, the World Cup was an enormously popular event with surprisingly limited commercial significance; the 1990 tournament in Italy, for instance, lost money for broadcasters. But that all changed in 1994, when American companies sought to make their mark in the form of advertisements and sponsorships: firms like McDonalds, Mastercard, and General Motors saw the potential to reach a global audience through one of the world's most watched sports events. Today, we speak with Joey D'Urso — a freelance sports journalist and author of the recent book More Than A Shirt: How Football Shirts Explain Global Politics, Money and Power — about the 1994 World Cup and this year's competition, which is being held jointly, by the US, Canada, and Mexico. We also talk about other surprising stories of corporate and geopolitical influence in the world of football. Read more: Unilever, Pepsi Tap Celebrities, Players During World Cup Mexico’s Sheinbaum Invites Merlín the Duck to National Palace Amid Soccer Craze Only Bloomberg - Business News, Stock Markets, Finance, Breaking & World News subscribers can get the Odd Lots newsletter in their inbox each week, plus unlimited access to the site and app. Subscribe at bloomberg.com/subscriptions/oddlots Subscribe to the Odd Lots Newsletter Join the conversation: discord.gg/oddlots See omnystudio.com/listener for privacy information.",
+      "duration": "3044",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "aff999c0112d13f1d5ecb165",
+        "score": 55,
+        "tier": "scan",
+        "reason": "Historical business of football offers some market dynamics but is tangential to DJ's core focus.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "b5fe5995b6f6807a9db8fd88",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "The Crisis of Adulthood — with John Burn-Murdoch",
+      "link": "",
+      "published": "2026-06-25T08:00:00+00:00",
+      "summary": "Scott Galloway speaks with Financial Times columnist and chief data reporter John Burn-Murdoch to unpack the forces reshaping modern life. They discuss why birth rates are collapsing, why fewer young people are forming relationships, and how housing costs, social media, and remote work are changing the path to adulthood. They also explore financial nihilism, the growing divide between young men and women, the impact of AI on work, and what it will take to rebuild connection, purpose, and opportunity for the next generation. Follow John, @jburnmurdoch. Want to listen to this and other episodes ad-free? You can, if you subscribe at profgmedia.com. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "3379",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "b5fe5995b6f6807a9db8fd88",
+        "score": 72,
+        "tier": "digest",
+        "reason": "Discusses AI's impact on work and broader societal shifts relevant to future labor and capital trends.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "f1c2a9349bad68b31e5bc65d",
+      "show_name": "The Twenty Minute VC",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "20VC: Deepseek Raises $50BN | Wall St's $725BN AI Question | The Rise of Open Source & How it Threatens OpenAI & Anthropic | OpenAI Builds it's Own Chip: Jalapeno | The Death of Moats & The New AI Software Winners",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-deepseek-raises-50bn-wall-sts-725bn-ai-question-the-rise-of-open-source-how-it-threatens-openai-anthropic-openai-builds-its-own-chip-jalapeno-the-death-of-moats-the-new-ai-software-winners",
+      "published": "2026-06-25T07:07:00+00:00",
+      "summary": "AGENDA: 00:00 – Google Loses Two AI Legends as Anthropic Wins the Talent War 14:45 – China's $50B DeepSeek Bet Changes the AI Power Balance 27:15 – AI's Memory Crisis Has Begun — Apple Warns of a '100-Year Flood' 30:00 – Wall Street Finally Asks the $725 Billion Question: Who Pays for AI? 41:00 – We Built an AI Finance VP... and It's Better Than Humans 46:30 – The Death of Moats? Why Founders Should Stop Talking About Defensibility 58:30 – Databricks, ServiceNow & the New AI Software Winners 01:07:00 – The Seat-Based SaaS Model Is Dying 01:12:00 – OpenAI's Custom Models Could Rewrite Enterprise Software 01:17:00 – OpenAI's Biggest Threat Isn't Anthropic Anymore",
+      "duration": "01:24:22",
+      "old_score": 38,
+      "old_label": "skip",
+      "qwen": {
+        "id": "f1c2a9349bad68b31e5bc65d",
+        "score": 80,
+        "tier": "digest",
+        "reason": "Covers AI infrastructure, open source, and enterprise software trends with capital allocation implications.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "23afd1af1225db01576d64d2",
+      "show_name": "The James Altucher Show",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Zynga Founder Mark Pincus: Why All New Fails + How to Copy to Millions",
+      "link": "https://art19.com/shows/the-james-altucher-pod/episodes/e3c1c4fe-a60f-45a7-953f-45c0e765adfe",
+      "published": "2026-06-25T07:00:00+00:00",
+      "summary": "A Note from James: Mark Pincus is one of the true OGs of the internet. You probably know him as the founder of Zynga, the company behind FarmVille , Zynga Poker , and Words With Friends . Zynga was eventually acquired by Take-Two in a transaction valued at approximately $12.7 billion. Before Zynga, Mark started Tribe, one of the first social networks—before MySpace and Facebook. He has spent more than 25 years building, failing, and studying what gets millions of people to click, play, share, and come back. His new book, Life at the Speed of Play , inspired me to start coming up with new business ideas while we were still recording. What I really love is how Mark teaches people to copy like a master without looking like a copycat. He has a framework called “Proven–Better–New.” Start with something that has already been proven. Make it obviously better. Then isolate the new idea you want to test. It’s one of the best systems I’ve heard for creating products people actually want. We talk about the early days of Facebook and MySpace, the failure of Tribe, the gaming industry, consumer psychology, AI coding, and how agents could eventually network and work for us while we’re doing something else. I loved talking with Mark. I was still thinking about this conversation afterward—and I’m literally building businesses based on what I learned. His new book is called Life at the Speed of Play . Listen to this episode, and then read the book. Episode Description: Most founders begin with an idea and then spend months—or years—trying to prove that people want it. Mark Pincus thinks that process is backward. At Zynga, Mark’s teams built “failure machines”: simple systems that allowed them to test hundreds of concepts before writing the code. They put unfinished ideas in front of real users, watched what people clicked, and refused to build anything until the demand was obvious. The objective wasn’t to avoid failure. It was to make failure fast, cheap, and useful. Mark explains the framework behind that process: Proven–Better–New . First, study an existing success down to every screen, click, and design decision. Then identify one improvement that current users would immediately recognize as better. Only after that should a team add the unproven idea—the part most likely to fail. James and Mark also examine the problems facing today’s consumer entrepreneurs. AI has made software easier to build, but distribution has become harder. People aren’t searching for new apps, established platforms restrict organic growth, and algorithmic reach isn’t the same as users actively sharing something with friends. Mark uses the failure of his early social network, Tribe, to explain why virality is not enough. Tribe grew quickly but lacked retention and trust. He ignored the communities users loved because they didn’t match the business model he had already chosen. That painful mistake became the foundation for much of his later product philosophy. The conversation ends with Mark’s current experiments: personal AI agents modeled after members of his family, a proposed work network built specifically for agents, an enterprise AI company called Hivemind, and the difficult decision to end a four-year passion project without abandoning the instinct behind it. This is a practical conversation about testing ideas, separating instinct from ego, learning from the past, and killing the wrong product before it consumes the right opportunity. What You’ll Learn: How to build a failure machine: Test headlines, offers, videos, and fake doors before investing in a finished product. How to apply Proven–Better–New: Begin with a proven behavior, make one unmistakable improvement, and isolate the risky innovation. Why distribution is now harder than development: AI can generate a prototype quickly, but it cannot guarantee attention, trust, or adoption. Why Tribe failed despite rapid growth: Virality without retention, safety, and alignment with user behavior does not create ",
+      "duration": "01:21:12",
+      "old_score": 30,
+      "old_label": "skip",
+      "qwen": {
+        "id": "23afd1af1225db01576d64d2",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Mark Pincus offers product frameworks and startup insights with relevance to innovation and execution.",
+        "confidence": "medium"
+      }
+    }
+  ]
+}

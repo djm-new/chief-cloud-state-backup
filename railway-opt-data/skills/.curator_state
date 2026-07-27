@@ -1,9 +1,9 @@
 {
-  "last_report_path": "/opt/data/logs/curator/20260609-201651",
-  "last_run_at": "2026-06-09T20:16:51.896925+00:00",
-  "last_run_duration_seconds": 132.361735,
-  "last_run_summary": "auto: no changes; llm: I found one real umbrella opportunity in the filtered set and consolidated it:\n\n- I folded `podcast-audio-production` into `podcast-intelligence-digest`, since they’re both parts of the same podcast workflow: the digest skill already handle…\narchived 1 skill(s):\n  • podcast-audio-production → podcast-intelligence-digest\nfull report: hermes curator status\nkeep an umbrella stable: hermes curator pin podcast-intelligence-digest",
+  "last_report_path": "/opt/data/logs/curator/20260721-233640",
+  "last_run_at": "2026-07-21T23:36:40.544139+00:00",
+  "last_run_duration_seconds": 107.977717,
+  "last_run_summary": "auto: no changes; llm: I consolidated the only clear overlap in this set: `web-app-authentication` now lives under `railway-app-deployment` as an auth/session recovery subsection, with a compact support note at `references/auth-recovery.md`. The old skill directo…\narchived 1 skill(s):\n  • web-app-authentication → railway-app-deployment\nfull report: hermes curator status\nkeep an umbrella stable: hermes curator pin railway-app-deployment",
   "last_run_summary_shown_at": null,
   "paused": false,
-  "run_count": 4
+  "run_count": 10
 }

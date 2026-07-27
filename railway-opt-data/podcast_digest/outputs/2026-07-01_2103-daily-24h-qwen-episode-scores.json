@@ -1,0 +1,251 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-07-01_2103",
+  "usage": {
+    "prompt_tokens": 4294,
+    "completion_tokens": 864,
+    "total_tokens": 5158
+  },
+  "episodes": [
+    {
+      "id": "e49425998172736616fb70ed",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Rivian’s last chance to take on Tesla",
+      "link": "",
+      "published": "2026-07-01T19:33:00+00:00",
+      "summary": "For years, Rivian has looked like one of the most compelling electric vehicle companies in America — and maybe the car maker most equipped to take on Tesla. All that potential comes down to this: the R2, the long-awaited and more affordable car that Rivian hopes can make it truly mainstream. After a journey to the R2's factory earlier this year, The Verge's Andrew Hawkins explains what the R2 is, why it matters, and what happens to Rivian if it's a hit — or a flop. Further reading: ⁠Range anxiety⁠ ⁠The Rivian R2 is too much fun to let drive itself⁠ ⁠Rivian surprises with R3 and R3X electric SUVs⁠ Subscribe to The Verge for unlimited access to theverge.com, subscriber-exclusive newsletters, and our ad-free podcast feed. We love hearing from you! Email your questions and thoughts to vergecast@theverge.com or call us at 866-VERGE11. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "2098",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "e49425998172736616fb70ed",
+        "score": 55,
+        "tier": "scan",
+        "reason": "EV market dynamics with Rivian's R2 launch may offer competitive insights.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "3a00f3caec1bae0fd5ebbd1c",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: July 1st, 2026",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-july-1st-2026",
+      "published": "2026-07-01T16:18:08+00:00",
+      "summary": "Featuring: Victoria Fernandez, Chief Market Strategist at Crossmark Global Angelo Zino, Senior VP & Head: Technology at CFRA Ivan Espinosa, President & CEO of Nissan Motor Co. See omnystudio.com/listener for privacy information.",
+      "duration": "1266",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "3a00f3caec1bae0fd5ebbd1c",
+        "score": 45,
+        "tier": "scan",
+        "reason": "Market commentary from Bloomberg Surveillance offers macro context.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "419f12dfa70ee0614786fa15",
+      "show_name": "Latent Space",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "🔬 The Coolest Diffusion Research Isn't in LLMs — Evan Feinberg & Sergey Edunov, Genesis Molecular AI",
+      "link": "https://www.latent.space/p/the-coolest-diffusion-research-isnt",
+      "published": "2026-07-01T14:42:39+00:00",
+      "summary": "This episode has a fun personal twist: There’s a counterfactual world where I was employee #1 at Genesis Molecular AI , the company behind today’s episode. A certain introduction happened a few weeks too late and I had already happily signed at Atomwise, another ML-for-drug-discovery startup. Same problem, different company. I was certain ML was going to transform small molecule drug discovery. Early results were underwhelming. Useful at times, but nowhere near revolutionary. In the last year I’ve seen signs that ML is finally ready to deliver on my convictions from a decade ago. Genesis is one of the places that might have finally cracked this problem. I was super excited to come full circle and catch up with co-founder Evan Feinberg and CTO Sergey Edunov . If you are at all interested in small molecule drug discovery, we think you will find this fascinating! In our nearly two hour chat we cover: * What is small molecule drug discovery, and why is it hard * Structure prediction as a hotbed of innovation in AI algorithms * How advances in AI elsewhere have enabled stepwise improvements in predictive power * How the community benchmarks are essentially calling AI slop good enough * The Genesis flagship model (PEARL) can routinely hit a threshold that is necessary for real-world applications * New agentic workflows enabled by these highly accurate models Read on for more, and also some personal thoughts on the future at the end. The coolest diffusion research is happening at Genesis Sergey Edunov came to Genesis from Meta where he led Llama 2 training and Llama 3 pretraining. Sergey was a former physicist who thought he was done with physics after many years of training LLMs. Then, he discovered Genesis, and was blown away with all the novel architecture work they’ve been developing. It probably surprises no one that modern LLM research has not resulted in fundamentally novel or exciting updates in architectures since almost the advent of the transformer — the entire field is using variants on the same idea that came out in the original “Attention is all you need” paper. Sure, some were quite useful (mixture-of-experts in particular allowed for the massive model paradigm we’re at today), but there was very little conceptually exciting. “We sort of had to wait for the right primitive to get created, and that turned out to be diffusion… Actually, some of the most innovative diffusion research that’s happening in our field is happening in 3D structure prediction right now.” — Evan Feinberg The field of 3D structure prediction on the other hand has been a hotbed of research. Genesis’ recent model PEARL (Place Every Atom at the Right Location) is able to understand protein flexibility, and model not just where the ligand goes, but also make small adjustments of the protein so that the two fit better than either alone. The field knew this was missing for a long time, but it was really hard to model until now. Agentic Discovery What makes this problem so hard? As Sergey points out, there are 10^60 possible drug-like small molecules. You’ll never be able to search them all, and trying to find the good ones is something like finding a needle in a haystack — except everything except your needle is dangerous. “There are 10 to the 60 drug-like small molecules in the universe… it’s like finding a needle in a haystack, where everything except your needle is very, very dangerous.” — Sergey Edunov “Or finding hay in a needle stack might be a more apt analogy.” — Evan Feinberg Trying to solve the multi-parameter optimization problem is even worse. What makes a strong binder and a molecule with good “ADMET Properties” are oftentimes at tension with each other. For example, a good binder is likely greasy, but a greasy molecule is likely insoluble so it won’t enter the bloodstream and get to where it needs to go! Genesis’ advances in generative AI have now pushed them beyond the threshold where they believe agentic drug discovery loops are finally ",
+      "duration": "6519",
+      "old_score": 53,
+      "old_label": "skip",
+      "qwen": {
+        "id": "419f12dfa70ee0614786fa15",
+        "score": 80,
+        "tier": "digest",
+        "reason": "AI in drug discovery with Genesis Molecular offers actionable technical and business insights.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "5c9ed0b542ffda4a20d3edbb",
+      "show_name": "The Breakdown with NLW",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "2 Groups Now Control Ethereum's Future. Here's What They Want.",
+      "link": "",
+      "published": "2026-07-01T14:01:00+00:00",
+      "summary": "David sits down with Paul Dylan-Ennis — lecturer at University College Dublin and member of the Ethereum Foundation’s Silviculture Society — to map the split between the EF and the newly-formed ETH Labs. TIMESTAMPS: (00:00) Intro (00:41) EF Silviculture Society (03:28) Full Cypherpunk (14:15) Roadmaps and Governance (17:58) Capture Resistance Concerns (24:19) What is Ethereum Success (27:13) New Primitives and AI (32:32) Ossification Timeline FOLLOW THE SHOW › David — https://x.com/dcanellis › Paul Dylan-Ennis — https://x.com/post_polar_ › The Breakdown — https://x.com/TheBreakdownBW › The Breakdown Newsletter — https://blockworks.com/newsletter/the-breakdown DISCLAIMER As always, remember this podcast is for informational purposes only, and any views expressed by anyone on the show are solely their opinions, not financial advice.",
+      "duration": "2086",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "5c9ed0b542ffda4a20d3edbb",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Ethereum governance split may impact blockchain and decentralized AI infrastructure.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "9e46a3c1350b02b7f3b0b385",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Finding Market Direction Amid Uncertainty",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/finding-market-direction-amid-uncertainty",
+      "published": "2026-07-01T13:58:08+00:00",
+      "summary": "The latest in finance, economics and investment. Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF . Bloomberg Surveillance hosted by Tom Keene & Paul SweeneyWednesday, July 1, 2026 Featuring: 1) Michael Purves, CEO and founder, Tallbacken Capital Advisors, joins to discuss market volatility, his S&P target, and potential for a market pullback. 2) Jill Carey Hall, Equity Strategist and Head: US SMID Strategy at Bank of America, joins to talk about her mid-year outlook for small cap stocks. 3) Lindsey Piegza, Chief Economist at Stifel, previews the jobs report and discusses her long-before-consensus rate hike call. 4) Jay Pelosky, Founder and Principal at TPW Advisory, talks about the US macro view and US debasement trade. See omnystudio.com/listener for privacy information.",
+      "duration": "1651",
+      "old_score": 36,
+      "old_label": "skip",
+      "qwen": {
+        "id": "9e46a3c1350b02b7f3b0b385",
+        "score": 60,
+        "tier": "digest",
+        "reason": "Market volatility and small-cap outlook relevant for capital allocation decisions.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "bebb5c72b183e0537907dd25",
+      "show_name": "Big Technology Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "OpenAI's Plan To Merge Chat And Agents — With Greg Brockman",
+      "link": "",
+      "published": "2026-07-01T10:00:00+00:00",
+      "summary": "Greg Brockman is the president and co-founder of OpenAI. Brockman joins Big Technology Podcast live from the Big Technology AI Summit to discuss OpenAI's trajectory, the state of the frontier, and why he believes compute will ultimately decide the AI race. Tune in to hear Brockman make the case that there will never be enough compute to satisfy demand, why he thinks the interface itself will eventually melt away into a persistent agent that acts on your behalf, and how he expects pricing to evolve as today's premium intelligence becomes tomorrow's commodity. We also cover the competitive dynamic with Microsoft and the \"models are a commodity\" argument, the path to a personal AGI, voice as an interface, and why Brockman is most excited about AI's potential in health. Hit play for a wide-ranging conversation about where OpenAI and the frontier go next. Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "duration": "2938",
+      "old_score": 46,
+      "old_label": "skip",
+      "qwen": {
+        "id": "bebb5c72b183e0537907dd25",
+        "score": 85,
+        "tier": "listen",
+        "reason": "OpenAI's roadmap and agent interface vision from Greg Brockman is strategically important.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "d3fa5c957c8afc0abc2aa70c",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Rick Rubin on AI, Creativity, and The Way of Code",
+      "link": "https://a16z.simplecast.com/episodes/rick-rubin-on-ai-creativity-and-the-way-of-code-KUxKnIS1",
+      "published": "2026-07-01T10:00:00+00:00",
+      "summary": "Rick Rubin joins Marc Andreessen, Ben Horowitz, Anjney Midha, and Erik Torenberg to discuss creativity, artificial intelligence, and his book The Way of Code , which reimagines the Tao Te Ching for the age of AI. The conversation explores vibe coding, remix culture, artistic process, entrepreneurship, and what AI changes, and doesn't change, about creativity. Rubin argues that AI is best understood not as a replacement for artists, but as another creative tool, one that expands what's possible while making taste, curiosity, and individual perspective even more valuable. Along the way, they discuss music, philosophy, startup building, collective intelligence, and why the most enduring creative work begins with staying true to yourself rather than trying to satisfy an audience. Resources: Follow Rick Rubin on X: https://x.com/rickrubin Follow Marc Andreessen on X: https://x.com/pmarca Follow Ben Horowitz on X: https://x.com/bhorowitz Follow Anjney Midha on X: https://x.com/AnjneyMidha Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "01:15:58",
+      "old_score": 100,
+      "old_label": "must_listen",
+      "qwen": {
+        "id": "d3fa5c957c8afc0abc2aa70c",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Rick Rubin's perspective on AI and creativity offers unique insights for innovation strategy.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "c73bf0bf77de6df6bb47e73d",
+      "show_name": "The Cognitive Revolution",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "1000 Designs a Day: Neural Concept's Thomas von Tschammer on AI-Native Engineering",
+      "link": "https://www.cognitiverevolution.ai/1000-designs-a-day-neural-concept-s-thomas-von-tschammer-on-ai-native-engineering/",
+      "published": "2026-07-01T09:29:52+00:00",
+      "summary": "Thomas von Tschammer, co-founder and Managing Director US of Neural Concept, argues that physics-aware AI is driving a third revolution in engineering physical products. Neural Concept’s models learn from simulation and test data to evaluate 3D designs in minutes, helping Jaguar Land Rover move from about 50 external-aerodynamics evaluations per day to 1,500 and enabling battery cool-plate suppliers to cut development cycles while improving performance. The episode explains why AI is not replacing numerical simulation, but shifting it later in the process while expanding early design exploration across automotive, Formula 1, and manufacturing workflows. The stakes are competitive: companies that make engineering iterations AI-led can compress development cycles, while legacy OEMs risk falling further behind faster-moving Chinese and digital-native hardware competitors. For full show notes, links, and references, read the episode page:https://www.cognitiverevolution.ai/1000-designs-a-day-neural-concept-s-thomas-von-tschammer-on-ai-native-engineering/ Mercury: Command is Mercury’s new conversational interface, giving you natural-language access to your finances and helping you take actions within your existing permissions and approval policies. Visit https://mercury.com to learn more and apply online in minutes. Sponsor: Claude: Claude by Anthropic is an AI collaborator that understands your workflow and helps you tackle research, writing, coding, and organization with deep context. Get started with Claude and explore Claude Pro at https://claude.ai/tcr CHAPTERS: (00:00) About the Episode (03:52) Special Sponsor (05:40) AI design revolutions (12:00) Physics models and data (Part 1) (18:40) Sponsor: Claude (20:32) Physics models and data (Part 2) (21:56) Copilots and workflows (33:22) Automation versus engineers (40:39) Industry speed gaps (48:26) Foundation models and racing (58:03) Surprising AI designs (01:06:15) Adoption and differentiation (01:17:02) Robotics and abundance (01:24:36) Episode Outro (01:28:10) Outro PRODUCED BY: https://aipodcast.ing SOCIAL LINKS: Website: https://www.cognitiverevolution.ai Twitter (Podcast): https://x.com/cogrev_podcast Twitter (Nathan): https://x.com/labenz LinkedIn: https://linkedin.com/in/nathanlabenz/ Youtube: https://youtube.com/@CognitiveRevolutionPodcast Apple: https://podcasts.apple.com/de/podcast/the-cognitive-revolution-ai-builders-researchers-and/id1669813431 Spotify: https://open.spotify.com/show/6yHyok3M3BjqzR0VB5MSyk",
+      "duration": "5362",
+      "old_score": 49,
+      "old_label": "skip",
+      "qwen": {
+        "id": "c73bf0bf77de6df6bb47e73d",
+        "score": 82,
+        "tier": "digest",
+        "reason": "AI-native engineering with Neural Concept shows tangible impact on product development cycles.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "cd60e3ceee4e8fdd3559ee39",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "How to Build Wealth on Less Than $60K a Year + Investing for Retirement Income (ft. Nick Maggiulli)",
+      "link": "",
+      "published": "2026-07-01T08:00:00+00:00",
+      "summary": "In this special Office Hours episode, Scott Galloway and Nick Maggiulli, COO of Ritholtz Wealth Management, answer listener questions on building wealth at every stage of life. They talk about paying down debt on a modest income, generating retirement income without over-obsessing on dividends, and whether young families should keep investing or wait on an inheritance. Want to be featured in a future episode? Send a voice recording to officehours@profgmedia.com, or drop your question in the r/ScottGalloway subreddit. Plus, you can now call or text Scott a question at our new Office Hours hotline: ‪(201) 472-3656‬. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "1505",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "cd60e3ceee4e8fdd3559ee39",
+        "score": 35,
+        "tier": "skip",
+        "reason": "Personal finance advice is off-focus for DJ's capital and AI priorities.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "679b996617ff4adb1cc3261e",
+      "show_name": "Possible",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "America's aerospace rebirth",
+      "link": "",
+      "published": "2026-07-01T07:01:00+00:00",
+      "summary": "Blake Scholl joins Reid and Aria to explain why the future of aviation won't be built by reviving the past, but by reinventing it. They explore how Boom Supersonic rebuilt an entire aerospace supply chain, why small AI-powered engineering teams are outperforming legacy organizations, and how software is transforming the way physical products are designed, tested, and manufactured. Blake explains why building their own engine changed everything, how AI is accelerating hardware innovation far beyond coding, and why America's biggest bottleneck isn't technology but its ability to build. Together, they unpack what it takes to solve seemingly impossible problems—and why the next generation of industrial innovation may come from startups willing to rethink entire systems. For more info on the podcast and transcripts of all the episodes, visit https://www.possible.fm/podcast/",
+      "duration": "4571",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "679b996617ff4adb1cc3261e",
+        "score": 78,
+        "tier": "digest",
+        "reason": "Aerospace innovation and AI-driven engineering offer durable frameworks for hardware startups.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "03da02befa481542e2dbd9fc",
+      "show_name": "The Tim Ferriss Show",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "#872: Graham Duncan — Talent Is the Best Asset Class (Repost)",
+      "link": "",
+      "published": "2026-07-01T03:30:00+00:00",
+      "summary": "Graham Duncan ( @GrahamDuncanNYC ) is the co-founder of East Rock Capital , a multibillion-dollar multi-family investment office he launched in 2006. He is also Chairman of the Sohn Conference Foundation , which funds pediatric cancer research. This episode was originally published in February 2019. Show notes: https://tim.blog/2019/02/28/graham-duncan/ This episode is brought to you by: Shopify global commerce platform, providing tools to start, grow, market, and manage a retail business: Shopify.com/tim Eight Sleep Pod Cover 5 sleeping solution for dynamic cooling and heating: EightSleep.com/Tim AG1 all-in-one nutritional supplement: DrinkAG1.com/Tim 5-Bullet Friday , my very own free email newsletter: https://tim.blog/friday * For show notes and past guests on The Tim Ferriss Show , please visit tim.blog/podcast . For deals from sponsors of The Tim Ferriss Show , please visit tim.blog/podcast-sponsors Sign up for Tim’s email newsletter ( 5-Bullet Friday ) at tim.blog/friday . For transcripts of episodes, go to tim.blog/transcripts . Discover Tim’s books: tim.blog/books . Follow Tim: Twitter : twitter.com/tferriss Instagram : instagram.com/timferriss YouTube : youtube.com/timferriss Facebook : facebook.com/timferriss LinkedIn: linkedin.com/in/timferriss See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info .",
+      "duration": "01:34:17",
+      "old_score": 28,
+      "old_label": "skip",
+      "qwen": {
+        "id": "03da02befa481542e2dbd9fc",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Talent as an asset class may provide long-term investment frameworks.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "03040aa1914a31dbd66a18e4",
+      "show_name": "Lex Fridman Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "#498 – Anthony Kaldellis: Roman Empire, Byzantine Empire, Rise & Fall of Empires",
+      "link": "https://lexfridman.com/anthony-kaldellis/?utm_source=rss&utm_medium=rss&utm_campaign=anthony-kaldellis",
+      "published": "2026-06-30T21:33:40+00:00",
+      "summary": "Anthony Kaldellis is a historian of the Roman Empire and author of “The New Roman Empire”, a comprehensive history of the Byzantine Empire (Eastern Roman Empire). Thank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep498-sc See below for timestamps, transcript, and to give feedback, submit questions, contact Lex, etc. Transcript: https://lexfridman.com/anthony-kaldellis-transcript CONTACT LEX: Feedback – give feedback to Lex: https://lexfridman.com/survey AMA – submit questions, videos or call-in: https://lexfridman.com/ama Hiring – join our team: https://lexfridman.com/hiring Other – other ways to get in touch: https://lexfridman.com/contact EPISODE LINKS: Anthony’s Books: https://amzn.to/49AX7Q1 Anthony’s Publications: https://kaldellispublications.weebly.com Anthony’s University of Chicago page: https://classics.uchicago.edu/people/anthony-kaldellis The New Roman Empire (book): https://amzn.to/3PTFTqk Streams of Gold (book): https://amzn.to/4fgRMRq Byzantium & Friends Podcast: https://byzantiumandfriends.podbean.com/ The History of Byzantium Podcast: https://thehistoryofbyzantium.com/ SPONSORS: To support this podcast, check out our sponsors & get discounts: Upwork: Platform for hiring freelancers. Go to https://upwork.com/lex Fin: AI agent for customer service. Go to https://fin.ai/lex BetterHelp: Online therapy and counseling. Go to https://betterhelp.com/lex LMNT: Zero-sugar electrolyte drink mix. Go to https://drinkLMNT.com/lex Shopify: Sell stuff online. Go to https://shopify.com/lex Perplexity: AI-powered answer engine. Go to https://perplexity.ai/ OUTLINE: (00:00) – Introduction (00:11) – Sponsors, Comments, and Reflections (08:45) – The Roman Empire and the Byzantine Empire (12:42) – 2,200 Years of Roman History (33:06) – Power, violence, and civil war (54:20) – Edict of Caracalla (1:07:17) – Crisis of the Third Century (1:21:45) – Constantine and the new Roman Empire (1:33:46) – Christianity in the Roman Empire (1:59:14) – Fall of the Western Roman Empire (2:12:11) – Eunuchs, Taxes, and Power (2:37:17) – Emperor Justinian and wars of conquest (2:54:19) – The Arab conquests (3:13:55) – Why the Roman empire survived so long (3:40:01) – Lessons from history PODCAST LINKS: – Podcast Website: https://lexfridman.com/podcast – Apple Podcasts: https://apple.co/2lwqZIr – Spotify: https://spoti.fi/2nEwCF8 – RSS: https://lexfridman.com/feed/podcast/ – Podcast Playlist: https://www.youtube.com/playlist?list=PLrAXtmErZgOdP_8GztsuKi9nrraNbKKp4 – Clips Channel: https://www.youtube.com/lexclips",
+      "duration": "",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "03040aa1914a31dbd66a18e4",
+        "score": 40,
+        "tier": "skip",
+        "reason": "Historical analysis of empires is not directly relevant to DJ's focus areas.",
+        "confidence": "low"
+      }
+    }
+  ]
+}

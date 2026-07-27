@@ -1,0 +1,311 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-07-24_2104",
+  "usage": {
+    "prompt_tokens": 4758,
+    "completion_tokens": 1099,
+    "total_tokens": 5857
+  },
+  "episodes": [
+    {
+      "id": "e70731cb37d1032c3089e616",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Money: Inflation Angst Returns & Micron Millionaires",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-money-inflation-angst-returns-micron-millionaires",
+      "published": "2026-07-24T20:15:16+00:00",
+      "summary": "Bloomberg Money takes the pulse of your financial life, powered by the reporting of our global newsroom. Today’s guests are: Ed Yardeni, president of Yardeni Research & Tricia Scarlata, executive director and head of education savings at JP Morgan Asset Management See omnystudio.com/listener for privacy information.",
+      "duration": "2578",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "e70731cb37d1032c3089e616",
+        "score": 45,
+        "tier": "scan",
+        "reason": "Inflation and market dynamics are relevant but generic macro commentary.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "35d92f3aefa7084306db3200",
+      "show_name": "New Yorker Radio Hour",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "low",
+      "title": "One Refugee’s Journey Through ICE Detention",
+      "link": "https://www.wnycstudios.org/podcasts/tnyradiohour",
+      "published": "2026-07-24T17:40:00+00:00",
+      "summary": "In 2025, as ICE was struggling to meet an impossible goal of three thousand immigration arrests per day, the agency took an unprecedented step: picking people up when they arrived at immigration court. These were immigrants seeking legal status through appropriate channels. The staff writer Jonathan Blitzer , who has been reporting on immigration for over a decade, tells the story of one man detained this way, a Guinean refugee who was seeking asylum after a severe beating and death threats by his government. His first name is Alsainy, and his story exemplifies the ways that the Trump Administration is sabotaging the system of legal immigration. Further reading: “ Inside ICE’s Largest Detention Center ,” by Jonathan Blitzer “ For the Nation’s Birthday, Making It Harder to Become an American ,” by Jonathan Blitzer “ Trump’s Mass-Detention Campaign ,” by Jonathan Blitzer New episodes of The New Yorker Radio Hour drop every Tuesday and Friday. Join host David Remnick as he discusses the latest in politics, news, and current events in conversation with political leaders, newsmakers, innovators, New Yorker staff writers, authors, actors, and musicians. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:34:01",
+      "old_score": 0,
+      "old_label": "skip",
+      "qwen": {
+        "id": "35d92f3aefa7084306db3200",
+        "score": 30,
+        "tier": "skip",
+        "reason": "Immigration policy focus unlikely to provide market or AI insights.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "11828ab6965e521c389532c8",
+      "show_name": "Stratechery",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "2026.30: The Copium Wars",
+      "link": "https://stratechery.com/2026/the-copium-wars/",
+      "published": "2026-07-24T17:00:00+00:00",
+      "summary": "The best Stratechery content from the week of July 20, 2026 including Chinese models and frontier futures, what happened to Hugging Face, and the NBA and its second apron bet.",
+      "duration": "",
+      "old_score": 18,
+      "old_label": "skip",
+      "qwen": {
+        "id": "11828ab6965e521c389532c8",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Stratechery's curated content likely includes durable frameworks and AI analysis.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "b17906c4c13083114587838d",
+      "show_name": "Dishcast with Andrew Sullivan",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "low",
+      "title": "Robby George On Natural Law And Christianity",
+      "link": "https://andrewsullivan.substack.com/p/robby-george-on-natural-law-and-christianity",
+      "published": "2026-07-24T16:53:33+00:00",
+      "summary": "This is a free preview of a paid episode. To hear more, visit andrewsullivan.substack.com Robert P. George is a legal scholar and political philosopher. At Princetown, he’s the McCormick Professor of Jurisprudence and the director of the James Madison Program in American Ideals and Institutions. He’s also a senior fellow at both the American Enterprise Institute and the Witherspoon Institute, which he co-founded. His many books include Making Men Moral and In Defense of Natural Law . We spent many years sparring in print over marriage, gays, and Catholicism. For two clips of the episode — on disobeying unjust laws, and the supposed harms of gay marriage — head to our YouTube page . Other topics: his dad’s harrowing service in WWII; Robby growing up in Appalachia with his grandfathers in the coal mines; first in his family to go to college; stories of both of us being at Oxford at the same time; the origins of bluegrass; Robert Byrd’s legacy; Plato’s Gorgias ; Aristotle and friendship; Robby’s close friendship with Cornel West; Montaigne; Aquinas; Vatican II; Eastern Orthodox liturgy; neo-scholasticism; Darwin’s survival of the fittest; Nietzsche; loving one’s enemy as uniquely Christian; just law and unjust law; MLK’s letter from a Birmingham jail; Hume; Oakeshott; natural law theorists vs legal positivists; the AIDS crisis; Christian marriage vs civil marriage; divorce; the Manhattan Declaration; Henry VIII’s annulments; the sexual habits of Clinton and Trump; illiberalism on the left and right; and the beached squids of Ptown. Browse the Dishcast archive for an episode you might enjoy. Coming up: Ross Barkan on the DSA and Mamdani, John O’Sullivan on conservatism, Azam Ahmed on terrifying new drugs, and Megan McArdle on pretty much anything. Please send any guest recs, dissents, and other comments to dish@andrewsullivan.com .",
+      "duration": "3817",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "b17906c4c13083114587838d",
+        "score": 25,
+        "tier": "skip",
+        "reason": "Philosophy and religion focus doesn't align with DJ's operational or market priorities.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "31efe3052ae1740048707a2e",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: July 24th, 2026",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-july-24th-2026",
+      "published": "2026-07-24T16:21:41+00:00",
+      "summary": "Featuring: Keith Lerner, Chief Investment Officer at Truist Advisory Services Monica Guerra, Executive Director & Head: US Policy at Morgan Stanley Republican Senator from Pennsylvania Dave McCormick See omnystudio.com/listener for privacy information.",
+      "duration": "1160",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "31efe3052ae1740048707a2e",
+        "score": 40,
+        "tier": "scan",
+        "reason": "Policy and market commentary is baseline relevant but not deeply insightful.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "59ef2ad9416a82c70f68348f",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "You can't ignore Google Zero anymore",
+      "link": "",
+      "published": "2026-07-24T16:21:00+00:00",
+      "summary": "Google Zero continues to affect website after website, and publisher after publisher. David and Nilay discuss Google's increased focus on AI, the web companies finally starting to fight back, and whether there's a way forward for Google's pact with the open web. After that, they talk about a big week in AI detection software, which sometimes works and frequently doesn't. Then it's time for the Hype Desk, Brendan Carr is a dummy, the Light Flip, and more. Further reading: Google hit with $1 billion fine for breaking EU antitrust rules Reddit might cut ties with Google as traffic drops. From the NYT: How Google’s A.I. Search Is Imperiling the Open Web Google says Gemini now has 950 million monthly users. Google earnings China delivers a one-two punch to America’s AI dominance OpenAI says it accidentally hacked Hugging Face with a new AI system Substack adds an AI detector to help spot blogs written by no one Anthropic’s $1.5 billion book piracy settlement approved by judge Jeff Bezos is getting involved with centering Amazon’s AI in Prime Video Meta made its own AI detection system. It should have just used Google’s Ford picks Apple Maps for its next EV platform and updated BlueCruise Apple’s rumored ‘Upgrade’ program brings lease-to-own pricing for iPhones, Macs, and iPads iOS code could reportedly let Apple cut off apps when users miss iPhone payments Framework’s premium laptop is shipping with less RAM The higher-end prebuilt Framework Laptop 13 Pro now costs $800 more. The Light Flip is a minimalist flip phone with a point to prove Judge pauses Paramount’s attempt to buy Warner Bros. Discovery Paramount’s Warner deal gets conditional approval in the EU. Subscribe to The Verge for unlimited access to theverge.com, subscriber-exclusive newsletters, and our ad-free podcast feed. We love hearing from you! Email your questions and thoughts to vergecast@theverge.com or call us at 866-VERGE11. (Timestamps are approximate.) 00:00:00 Intro 00:01:00 Claude Reads the Meters 00:04:00 Google Zero and Reddit Deal 00:15:00 AI Overviews Death Spiral 00:25:00 OpenAI Hacks Hugging Face 00:32:00 Substack AI Detector Debate 00:39:00 Prime Video Goes All In 00:44:00 Meta Content Seal Cynicism 00:53:00 Avengers Doomsday 01:03:00 Comic Con And Feige Reset 01:04:00 Brendan Carr Is a Dummy 01:12:00 Ramageddon Hits Framework 01:17:00 Apple Leasing Lockdown 01:21:00 Light Flip Phone Trend 01:26:00 Ford Picks Apple Maps 01:35:00 Paramount Merger Mess 01:35:00 Wrap Up And Plugs Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "5627",
+      "old_score": 32,
+      "old_label": "skip",
+      "qwen": {
+        "id": "59ef2ad9416a82c70f68348f",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Google AI's impact on the open web and publisher dynamics is strategically important.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "3847a8897cbb79e432c60934",
+      "show_name": "RenMac",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "RenMac Off-Script: The First Crack",
+      "link": "https://podcasters.spotify.com/pod/show/renmac-it/episodes/RenMac-Off-Script-The-First-Crack-e3mgfvh",
+      "published": "2026-07-24T16:01:36+00:00",
+      "summary": "RenMac breaks down the case for a Fed hike next week — Neil Dutta's \"Why Not Now?\" call, with September already priced at 100% — as AI capex, rising oil, and tariffs push inflation the wrong way and Warsh weighs moving in his honeymoon. The team also discusses the momentum crash and why the bounce is better sold than endorsed, real yields zapping gold and duration, $100 oil as the Iran conflict shuts the Red Sea, tariff maneuvering after Section 122's expiry, rotation into banks and healthcare, and the week ahead in the July 29 FOMC and core PCE.",
+      "duration": "00:45:46",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "3847a8897cbb79e432c60934",
+        "score": 80,
+        "tier": "digest",
+        "reason": "RenMac's inflation and AI capex analysis offers actionable macro and tech insights.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "60a3ecb5e317512768e8ffc1",
+      "show_name": "Hard Fork",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "OpenAI Models Go Rogue + Kimi K3 Freakout + A.I. Superforecasting",
+      "link": "https://www.nytimes.com/column/hard-fork",
+      "published": "2026-07-24T11:00:00+00:00",
+      "summary": "This week, OpenAI reported that two of its models escaped their testing sandbox and launched an autonomous cyberattack, turning what sounds like science fiction into reality. We discuss the implications for efforts to align artificial intelligence and for the release of future A.I. models. Then, we ask how the United States should respond to Kimi K3, a new A.I. model from the Chinese company Moonshot AI that the White House says was built by distilling American models. Finally, we’re joined by Veniamin Veselovsky, the chief executive and a co-founder of Preseen, to discuss A.I. superforecasting. He tells us why A.I. is starting to match and even beat humans at predicting the future. Guest : Veniamin Veselovsky, co-founder and chief executive of Preseen. Additional Reading : OpenAI Says Its A.I. Models Went Rogue and Attacked a Digital Library China Rewrites the ‘Soft Power’ Playbook for the A.I. Age The Secret Trump Administration Battle to Fight Chinese A.I. China Has a New Top Model The A.I. Superforecasters Are Here We want to hear from you. Email us at hardfork@nytimes.com. Find “Hard Fork” on YouTube and TikTok . Subscribe today at nytimes.com/podcasts or on Apple Podcasts and Spotify. You can also subscribe via your favorite podcast app here https://www.nytimes.com/activate-access/audio?source=podcatcher . For more podcasts and narrated articles, download The New York Times app at nytimes.com/app. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "01:08:14",
+      "old_score": 28,
+      "old_label": "skip",
+      "qwen": {
+        "id": "60a3ecb5e317512768e8ffc1",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Escaped AI models and China's Kimi K3 raise alignment and competitive concerns.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "02fce9f57fb0ca25ba22c7b8",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Sriram Krishnan on Open Source AI's Biggest Week Yet",
+      "link": "https://a16z.simplecast.com/episodes/sriram-krishnan-on-open-source-ais-biggest-week-yet-1yfA3ln5",
+      "published": "2026-07-24T10:00:00+00:00",
+      "summary": "Sriram Krishnan joins Theo Jaffee and Sofia Puccini just after concluding his tenure as Senior White House Policy Advisor on AI to discuss one of the biggest weeks yet for open-source AI. They unpack the rapid release of models including Kimi K3 and Qwen, why open models are putting pressure on frontier labs, and what it means for pricing, competition, and the future of AI infrastructure. They also discuss AI policy, distillation, cybersecurity, the role of open-weight models, whether the U.S. should respond to China's growing AI capabilities, and how governments and frontier labs should navigate the next phase of AI development. Resources: Follow Sriram Krishnan on X: https://x.com/sriramk Follow Theo Jaffee on X: https://x.com/theojaffee Follow Sofia Puccini on X: https://x.com/schisofrenia Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:23:04",
+      "old_score": 39,
+      "old_label": "skip",
+      "qwen": {
+        "id": "02fce9f57fb0ca25ba22c7b8",
+        "score": 85,
+        "tier": "listen",
+        "reason": "Open-source AI dynamics and U.S.-China competition are critical for DJ's focus.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "b4ed8ec99c3870b0d1e2850a",
+      "show_name": "Ezra Klein Show",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "Platner’s Top Campaign Strategist on What Went Wrong",
+      "link": "https://www.nytimes.com/2026/07/24/opinion/ezra-klein-podcast-morris-katz.html",
+      "published": "2026-07-24T09:00:00+00:00",
+      "summary": "Morris Katz helped orchestrate Zohran Mamdani’s historic victory and Graham Platner’s ultimately disastrous run for Senate. It’s quite a résumé for a political consultant who is still in his 20s. Platner’s implosion could prove particularly costly for Democrats. It may mean the difference between winning and losing a Senate majority. But before the rape accusation that ended his campaign, Platner had come out of nowhere to beat Janet Mills, the sitting governor of Maine, who was Chuck Schumer’s hand-picked candidate. The lessons to take from that campaign remain angrily contested. Katz, a senior adviser to Platner, has been central to many of the most attention-grabbing, populist campaigns in recent years: Besides Mamdani’s New York mayoral upset, he worked on John Fetterman’s 2022 Senate campaign and Dan Osborn’s 2024 independent Senate run in Nebraska. He has figured something out about this political moment. Along the way, he has become a controversial figure himself. So what has he gotten right? And what has he learned from what he’s gotten wrong? This episode contains strong language. Ask Me Anything: We’re going to be recording an “Ask Me Anything” episode soon. If you would like to submit a question, email ezrakleinshow@nytimes.com with the subject line “AMA.” Mentioned: “ Several Women Who Dated Graham Platner Recall ‘Unsettling’ Behavior ” by Katie Glueck and Lisa Lerer “ How Economic Anxiety Is Driving the Democratic Socialists’ Surge ” by Emma Goldberg “ The search for Carter ” by Norman Mailer “ The warrior and the priest ” by Ronald Brownstein Book Recommendations: Life and Fate by Vasily Grossman The Shame by Makenna Goodman The Fourth Branch by Daniel Squadron Thoughts? Guest suggestions? Email us at ezrakleinshow@nytimes.com . You can find the transcript and more episodes of “The Ezra Klein Show” at nytimes.com/ezra-klein-podcast. Book recommendations from all our guests are listed at https://www.nytimes.com/article/ezra-klein-show-book-recs.html This episode of “The Ezra Klein Show” was produced by Rollin Hu, Annie Galvin and Marie Cascione. Fact-checking by Michelle Harris, with Kate Sinclair, Mary Marge Locker and Julie Beer. Our senior engineer is Jeff Geld, with additional mixing by Johnny Simon and Isaac Jones. Our recording engineer is Johnny Simon. Cinematography by Kyle Kelley. Video editing by Dani Dillon, Julian Hackney and Jan Kobal. Our executive producer is Claire Gordon. The show’s production team also includes Kristin Lin, Emma Kehlbeck, Jack McCordick and Marina King. Original music by Pat McCusker. Audience strategy by Shannon Busta. The director of New York Times Opinion Shows is Annie-Rose Strasser. Special thanks to Rebecca Shaid. Subscribe today at nytimes.com/podcasts or on Apple Podcasts and Spotify. You can also subscribe via your favorite podcast app here https://www.nytimes.com/activate-access/audio?source=podcatcher . For more podcasts and narrated articles, download The New York Times app at nytimes.com/app. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "01:18:27",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "b4ed8ec99c3870b0d1e2850a",
+        "score": 35,
+        "tier": "scan",
+        "reason": "Political campaign analysis is tangential to DJ's core interests.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "90a7126689fd726bbba65a45",
+      "show_name": "NYT Book Review",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "low",
+      "title": "Let’s Talk About the Best Books of the Year (So Far)",
+      "link": "https://www.nytimes.com/column/book-review-podcast",
+      "published": "2026-07-24T09:00:00+00:00",
+      "summary": "The editors at The New York Times Book Review spend almost the entire year discussing, debating and sometimes arguing about the year’s best books. We’re halfway through 2026, which means it’s time for the host Gilbert Cruz and the Book Review editors Joumana Khatib and MJ Franklin to talk about some of the best releases of the year as well as a few hidden gems that captured their attention and affection. Fiction “Whistler,” by Ann Patchett “The Calamity Club,” by Kathryn Stockett “Transcription,” by Ben Lerner “The Keeper,” by Tana French “Kin,” by Tayari Jones “This Is Where the Serpent Lives,” by Daniyal Mueenuddin Nonfiction “Fear and Fury: The Reagan Eighties, the Bernie Goetz Shootings, and the Rebirth of White Rage,” by Heather Ann Thompson “Dangerous, Dirty, Violent, and Young: My Fugitive Family in the Revolutionary Underground,” by Zayd Ayers Dohrn “Trash!,” by Simon Paré-Poupart “London Falling: A Mysterious Death in a Gilded City and a Family’s Search for Truth,” by Patrick Radden Keefe “Days of Love and Rage: A Story of Ordinary People Forging a Revolution,” by Anand Gopal Hidden Gems “Lost Lambs,” by Madeline Cash “A Sudden Flicker of Light: A Revisionist History of Movies,” by David Thomson “American Han,” by Lisa Lee Subscribe today at nytimes.com/podcasts or on Apple Podcasts and Spotify. You can also subscribe via your favorite podcast app here https://www.nytimes.com/activate-access/audio?source=podcatcher . For more podcasts and narrated articles, download The New York Times app at nytimes.com/app. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:39:21",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "90a7126689fd726bbba65a45",
+        "score": 20,
+        "tier": "skip",
+        "reason": "Book review content is unlikely to provide actionable insights.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "e5fb04aa2a8c870eb8f82909",
+      "show_name": "The Meb Faber Show",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Zombie Stocks and Hidden Value With Bob Robotti | #641",
+      "link": "",
+      "published": "2026-07-24T08:30:00+00:00",
+      "summary": "Today’s guest is Bob Robotti, founder and CIO of Robotti and Company Advisors, which he’s been running the firm since 1983. In today’s episode, Bob explains why volatile markets driven by passive flows keep handing opportunities to stock pickers. He makes the case for offshore oil services and homebuilders, shows why zombie companies can be dollars trading for 20 cents, and argues 2% inflation is a pipe dream. To close, Bob shares the biggest loss of his career, selling a winner too early. (0:00) Starts (1:23) Bob Robotti's investment framework and value traps (3:01) Evolution of investment strategies and market consistency (5:22) Sector opportunities in energy and homebuilding (14:13) Managing cyclical and long-term investments (17:05) Housing policies, build-to-rent, and affordability (20:19) Homebuilding outlook, Airbnb, and commercial real estate (22:32) Small cap opportunities (27:40) Distressed investing and zombie companies (37:35) Inflation and interest rates (45:47) Building a lasting investment firm and Bob's most memorable investment ----- Follow Meb on X, LinkedIn and YouTube For detailed show notes, click here To learn more about our funds and follow us, subscribe to our mailing list or visit us at cambriainvestments.com ----- Follow The Idea Farm: X | LinkedIn | Instagram | TikTok ----- Interested in sponsoring the show? Email us at Feedback@TheMebFaberShow.com ----- Past guests include Ed Thorp, Richard Thaler, Jeremy Grantham, Joel Greenblatt, Campbell Harvey, Ivy Zelman, Kathryn Kaminski, Jason Calacanis, Whitney Baker, Aswath Damodaran, Howard Marks, Tom Barton, and many more. ----- Meb's invested in some awesome startups that have passed along discounts to our listeners. Check them out here! ----- Editing and post-production work for this episode was provided by The Podcast Consultant (https://thepodcastconsultant.com). Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "duration": "3593",
+      "old_score": 67,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "e5fb04aa2a8c870eb8f82909",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Zombie stocks and value investing in volatile markets aligns with capital allocation focus.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "b50e2cafed88a307b022fdbc",
+      "show_name": "Odd Lots",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "How Franchise Restaurants Opened the Door to the Gig Economy",
+      "link": "https://omny.fm/shows/odd-lots/how-franchise-restaurants-opened-the-door-to-the-gig-economy",
+      "published": "2026-07-24T08:00:00+00:00",
+      "summary": "When the fast food industry began booming in the 1950s, it did so via a new business model known as the franchise. This model allowed independent operators to license trademarks from a business like McDonald's or Dunkin Donuts, and it soon spread across the country, with huge consequences for how Americans are employed. Legal battles fought by franchises eventually opened the door to what's now known as the gig economy, allowing Uber drivers to be treated in much the same way as the operator of a local Chick-fil-A. To better understand the history of the franchise model, we speak with Brian Callaci, chief economist of the Open Markets Institute, and author of the book Chains of Command: The Rise and Cruel Reign of the Franchise Economy . Callaci helps break down how the franchise model works, how franchise contracts are structured to precisely dictate how franchisees are supposed to run their businesses, the relationship between the franchise model and gig work, as well as how franchises pioneered worker surveillance. Read more: Taco Bell Traffic Sinks After Lettuce Tied to Parasite Cases Chicken Back on Menu as Cyber-Hit Nichirei Restores Operations Only http://Bloomberg.com subscribers can get the Odd Lots newsletter in their inbox each week, plus unlimited access to the site and app. Subscribe at bloomberg.com/subscriptions/oddlots Subscribe to the Odd Lots Newsletter Join the conversation: discord.gg/oddlots See omnystudio.com/listener for privacy information.",
+      "duration": "2671",
+      "old_score": 28,
+      "old_label": "skip",
+      "qwen": {
+        "id": "b50e2cafed88a307b022fdbc",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Franchise and gig economy analysis offers some labor market context.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "88b972254ee52526c55c3962",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "The Week: China Is Undercutting America’s AI Boom",
+      "link": "",
+      "published": "2026-07-24T08:00:00+00:00",
+      "summary": "George Hahn connects the dots across the week’s biggest stories: how cheaper Chinese models are challenging America’s AI dominance, why Oracle’s growing debt is raising alarms about the AI boom, and what Derek Thompson’s “antisocial century” reveals about risk, isolation, and the declining power of friendship. We’d love your feedback as we build this show! Let us know what you think: info@profgmedia.com. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "1179",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "88b972254ee52526c55c3962",
+        "score": 65,
+        "tier": "digest",
+        "reason": "China's AI cost advantage and Oracle debt concerns are worth monitoring.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "5942a3d8e9d4a1be23bd6f89",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: July 23rd, 2026",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-july-23rd-2026",
+      "published": "2026-07-24T01:26:05+00:00",
+      "summary": "Featuring: Jim Caron, CIO: Portfolio Solutions at Morgan Stanley Investment Management Arkansas Republican Congressman French Hill Sophia Kearney-Lederman, Senior Economist at FHN Financial See omnystudio.com/listener for privacy information.",
+      "duration": "1270",
+      "old_score": 0,
+      "old_label": "skip",
+      "qwen": {
+        "id": "5942a3d8e9d4a1be23bd6f89",
+        "score": 40,
+        "tier": "scan",
+        "reason": "Macro commentary is baseline relevant but not deeply insightful.",
+        "confidence": "medium"
+      }
+    }
+  ]
+}

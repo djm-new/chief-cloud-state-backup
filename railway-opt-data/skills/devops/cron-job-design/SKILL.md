@@ -29,7 +29,8 @@ A cron job that fires every N minutes and delivers verbose stats even when nothi
   3. **Broken** — something is broken; say what is broken and what DJ needs to do now.
 - Alert only when something actionable is happening. The output must answer: *what broke, what context do I need to understand it, and what exact action does DJ need to take?* If the action is for Hermes, say `DJ action: none. Hermes should ...` explicitly.
 - Never send a raw status block — not memory/disk/process stats, not file ages, not check counts. Those belong in a status file written to disk for later inspection, not pushed to the user proactively.
-- Sanitize any upstream context that will be concatenated into a cron prompt or briefing. Invisible Unicode (especially `U+FEFF`) in copied email/snippet text can trip the injection scanner before the agent runs.
+- Sanitize any upstream context that will be concatenated into a cron prompt or briefing. Invisible Unicode (especially `U+200B`, `U+200C`, `U+200D`, `U+2060`, and `U+FEFF`) in copied email/snippet text can trip the injection scanner before the agent runs.
+- Treat collector output as untrusted input even when it already looks like Markdown. Re-sanitize the exact files that feed the prompt after any fallback read or retry path.
 
 ## Report jobs: daily + weekly, with truthful zeroes
 
@@ -46,6 +47,40 @@ Rules:
 For spend reports, the primary question is: *what did the ledger record in the window?* Not: *did the job run?*
 
 ---
+
+## Auto-repair monitor pattern
+
+For recurring, deterministic cron failures, prefer a *self-heal monitor* over repeated manual triage.
+
+Use it when:
+- the failure signature is exact and stable;
+- the fix is small and safe to apply automatically;
+- you can verify the patch with a compile or dry-run step;
+- the same class of failure is likely to recur.
+
+Workflow:
+1. Scan recent cron output artifacts for new failures.
+2. Keep a last-scan timestamp and seen-failure set so old failures are not reprocessed.
+3. If the signature matches a known narrow class, patch the live script in place.
+4. Re-run a compile or dry-run verification immediately.
+5. Emit a concise Telegram message only if a fix was applied or human attention is still needed.
+
+DJ's escalation rule (explicit, 2026-07): **fix first, then report.** "Don't tell me about errors unless you fixed them already or explicitly need my approval or input." A self-heal notification should say what was *fixed*, not what broke — raw failure dumps belong in the status file. Only escalate un-fixed when the failure is ambiguous, unsafe to patch blindly (auth/permissions), or genuinely needs a human decision.
+
+Pitfalls:
+- Don’t auto-fix ambiguous auth/permission issues.
+- Don’t widen the patch to unrelated cleanup.
+- Don’t spam repeated alerts for the same failure unless the failure is genuinely new.
+- If the script exists in more than one mirrored location, patch every runtime copy, not just the source-of-truth checkout.
+- `jobs.json` job records may use `id` rather than `job_id`; support both when resolving job metadata so the monitor can name the job correctly.
+- `read_file` masks secret-looking values as `***` in its output. Before patching auth-adjacent strings (tokens in URLs, keys), confirm the actual file bytes via `terminal` (e.g. `repr()` of the line) — the redacted display can make a correct file look broken and a broken edit look applied.
+- When a self-heal patch touches mirrored cron scripts, verify both trees compile cleanly before calling it fixed.
+
+Support file:
+- `references/self-heal-monitor.md`
+- `references/cron-self-heal-and-spend-briefing-lessons.md` — session notes on self-healing cron failures, dedup state, the `jobs.json` id-field pitfall, and subscription-included spend reporting.
+- `references/daily-health-spend-wrapper.md` — combined daily health + spend wrapper pattern, including once-per-day ET guarding.
+- `references/unified-spend-reporting.md` — SessionDB-primary spend attribution, pricing aliasing, and Telegram topic propagation.
 
 ## Alert output format
 
@@ -91,14 +126,26 @@ Guideline:
 
 This keeps token tracking, cost estimation, and ledger attribution aligned across future projects.
 
-## Spend reports: use the session insights path, not the raw ledger
+## Spend reports: unified SessionDB-primary reporting
 
-For Hermes daily/weekly spend reporting, the authoritative reporting source is the *session insights* path (`SessionDB` + `InsightsEngine`), not the narrower `agent.spend_ledger` table alone.
+For Hermes daily/weekly spend reporting, the authoritative source is a **unified report built from the SessionDB `sessions` table plus deduped ledger events** — not `agent.spend_ledger` alone, and (as of 2026-07) not `InsightsEngine` either. InsightsEngine reports `$0.00` for subscription-included Codex usage and has no project/topic attribution; DJ explicitly rejected that output.
 
-Why:
+Requirements DJ holds the briefing to:
+- **Estimated dollar value even for subscription-included usage.** `billing_mode=subscription_included` records `$0.00`; the report must price tokens at OpenRouter reference rates and label it "API-rate value", with billed status shown separately. A bare `$0.0000` next to millions of tokens reads as broken.
+- **Token usage by project.** Cron sessions map to job names via `cron/<job_id>` prefix + `jobs.json` (field is `id`, not `job_id`); script events map via `metadata_json.workflow`/`stage`.
+- **Telegram topic attribution.** Gateway `sessions.json` only holds the current session per topic — accumulate a persistent snapshot and propagate through `parent_session_id` chains and `session_reset` timestamp pairs.
+- **Dedupe.** Exclude ledger rows whose `session_id` exists in the sessions table or usage double-counts.
+
+When the cron runtime cannot import Hermes modules, keep the helper stdlib-only for data access (direct SQLite) and use Hermes imports only opportunistically (pricing), with an HTTP fallback.
+
+Support files:
+- `references/unified-spend-reporting.md` — full architecture: sources, cost model, pricing aliasing, topic propagation, verification
+- `references/standalone-spend-report-fallback.md`
+
+Why (historical):
 - the raw ledger can show only a partial view of spend attribution;
-- `InsightsEngine.generate(days=...)` already exposes `estimated_cost` and `actual_cost` plus session/model/platform breakdowns;
-- daily and weekly reports should answer: estimated spend, billed spend status, sessions, tokens, and the top models/platforms driving cost.
+- `InsightsEngine.generate(days=...)` exposes `estimated_cost` and `actual_cost` plus session/model/platform breakdowns, but marks subscription usage `$0` and lacks workstream labels — use it as a cross-check, not the briefing source;
+- daily and weekly reports should answer: estimated spend (API-rate value), billed spend status, sessions, tokens, and the top models/projects/topics driving cost.
 
 Recommended reporting shape:
 - *Daily*: last 24h estimated spend, billed spend status, sessions, tokens, included sessions, unknown pricing sessions, top models, top platforms.
@@ -116,6 +163,7 @@ For Anthropic specifically, remember that the dashboard’s Usage chart may incl
 
 Support file:
 - `references/spend-billing-reconciliation.md`
+- `references/self-heal-monitor.md` — pattern for a lightweight cron monitor that auto-repairs narrow, deterministic failure classes and stays silent on repeats/newness.
 
 Support files:
 - `references/spend-reporting.md`
@@ -269,6 +317,7 @@ Then make each cron script output its own concise self-identifying line, e.g. `C
 - **Don't suppress logs** — write full detail to a status file so Hermes can read it on-demand; just don't push it to Telegram automatically.
 - **If a user message in a Telegram topic seems to get no response, first verify whether it is a live gateway conversation vs. a cron delivery.** Cron jobs are intentionally silent on OK and may only emit output on failure; a live topic reply should come from the gateway session, not the cron runner.
 - **Legitimate empty windows are silent success.** If a batch/collector/scorer runs cleanly but there is nothing new to report in the requested window, exit `0` and send nothing rather than treating the absence of items as a failure.
+- **If a cron job authenticates to an app, prefer a dedicated machine secret over a human password.** Human login credentials are often rotated as part of normal hygiene; cron should use a separate backup/service token or an internal endpoint that does not depend on the user’s interactive password.
 - **Bound long-running delivery pipelines.** If a cron wrapper chains collection, discovery, scoring, and rendering, time-box the earlier stages and make non-essential stages optional so the final deliverable can still ship inside the cron budget. Prefer a partial-but-valid artifact over a timeout.
 - **If the wrapper still hits the outer cron limit, raise the cron scheduler budget instead of deleting intended work.** Hermes cron enforces a script timeout at the scheduler layer; use `cron.script_timeout_seconds` / `HERMES_CRON_SCRIPT_TIMEOUT` for jobs that are meant to run the full designed workflow, then keep inner `timeout` guards around substeps for safety.
 - **Some podcast feeds only expose fresh episodes through raw RSS `pubDate`.** If `feedparser` leaves `published` blank, fall back to raw XML parsing and RFC 2822 date decoding before concluding the window is empty.
@@ -279,9 +328,12 @@ Then make each cron script output its own concise self-identifying line, e.g. `C
 - **Clear the fingerprint on resolution** — if you only clear it when issues appear, a persistent-then-resolved-then-recurring issue will be silenced on second occurrence.
 - **Rate-limit is per-issue-fingerprint, not per-script** — different issue combinations get separate alerting behavior automatically because the fingerprint changes.
 
-Support files:
+Support file:
+- `references/self-heal-cron-monitor.md` — cron self-heal monitor pattern: scan new failures once, auto-repair known deterministic classes, and stay silent on repeats.
 - `references/podcast-digest-cron-fix.md` — podcast digest wrapper lessons: optional import fallbacks, silent zero-result runs, and the outer cron timeout fix.
 - `references/spend-accounting-reconciliation.md` — how to reconcile cron-delivered LLM work against the spend ledger when tokens appear missing.
+- `references/cloud-state-backup-cron.md` — selective GitHub backup sync pattern, explicit token auth, redacted exports, and clear clone/push failure messaging.
+- `references/healthos-cron-auth.md` — why app-login-based backups should use a dedicated backup secret or internal token instead of a rotating human password.
 
 ---
 
@@ -290,5 +342,6 @@ Support files:
 - `references/chief-health-check-design.md` — the specific Railway Chief health check implementation and the DJ feedback that shaped this pattern.
 - `references/telegram-vs-cron-replies.md` — how to tell a live Telegram topic reply from a silent cron delivery when a user says a topic is "not replying."
 - `references/spend-reporting.md` — daily/weekly spend report lessons: truthful zeroes, pricing caveats, attribution shape, and ledger/session-insights reporting.
+- `references/unified-spend-reporting.md` — current spend briefing architecture: SessionDB-primary merge, API-rate valuation for subscription usage, pricing id aliasing, Telegram topic propagation, verification.
 - `references/spend-billing-reconciliation.md` — when billed spend is missing/zero, how to label it and where to reconcile real Anthropic billing.
 - `references/cron-failure-triage.md` — step-by-step debugging flow for failed cron jobs and wrapper logs.

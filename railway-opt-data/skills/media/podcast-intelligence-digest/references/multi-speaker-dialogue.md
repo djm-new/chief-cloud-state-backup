@@ -48,3 +48,5 @@ When falling back, still use separate voices per speaker and disclose the limita
 ## Failure mode to avoid
 
 A single voice reading labels aloud sounds like one person reading a script, not a conversation. If that is the only possible output path, tell the user before producing it or label it clearly as a rough narration draft.
+
+Also avoid assuming the model will emit clean `MAYA:` / `SAM:` lines. In practice the script may arrive with markdown emphasis (`**MAYA:**`), blank spacer lines after labels, or other formatting noise. Normalize those away before parsing, then synthesize from speaker turns plus explicit pause cues.

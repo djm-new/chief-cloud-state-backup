@@ -1,0 +1,291 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-06-23_2104",
+  "usage": {
+    "prompt_tokens": 4839,
+    "completion_tokens": 1109,
+    "total_tokens": 5948
+  },
+  "episodes": [
+    {
+      "id": "00ef97d9fe625135a0ea3a1f",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Why Big Tech can't quit smart glasses",
+      "link": "",
+      "published": "2026-06-23T18:56:00+00:00",
+      "summary": "A huge portion of the tech industry has decided that smart glasses are the next big thing. But why? Smart glasses are incredibly hard to make, hugely socially complicated, and require users to want to wear a gadget on their face. The Verge's Victoria Song helps us figure out which features, if any, will make smart glasses worth all the trouble. Further reading: All these smart glasses and nothing to do Subscribe to The Verge for unlimited access to theverge.com, subscriber-exclusive newsletters, and our ad-free podcast feed. We love hearing from you! Email your questions and thoughts to vergecast@theverge.com or call us at 866-VERGE11. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "2583",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "00ef97d9fe625135a0ea3a1f",
+        "score": 55,
+        "tier": "scan",
+        "reason": "Smart glasses analysis from The Verge offers tech industry insight but lacks direct capital or AI platform implications.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "d578257a430726f57bd053ad",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: June 23rd, 2026",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-june-23rd-2026",
+      "published": "2026-06-23T16:13:14+00:00",
+      "summary": "Featuring: Julian Emanuel, Senior Managing Director & Chief Equity and Quantitative Strategist at Evercore ISI Amos Hochstein, Managing Partner of TWG Global Matthew Witheiler, Head of Late Stage Growth at Wellington Management Company See omnystudio.com/listener for privacy information.",
+      "duration": "1691",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "d578257a430726f57bd053ad",
+        "score": 60,
+        "tier": "scan",
+        "reason": "Bloomberg Surveillance episode covers market strategy and growth insights, relevant but not urgent for DJ's focus.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "72a433cfe2654693b74fa89c",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Market Pullback and Alan Greenspan's Legacy",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/market-pullback-and-alan-greenspans-legacy",
+      "published": "2026-06-23T15:59:59+00:00",
+      "summary": "The latest in finance, economics and investment. Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF . Bloomberg Surveillance hosted by Tom Keene & Paul SweeneyTuesday, June 23, 2026 Featuring: 1) Phil Camporeale, Chief Investment Strategist at JPMorgan Wealth Management, talks tech multiples, the market pullback, and peak rates and inflation. 2) Ellen Fraser, Partner and Energy expert at Baringa Partners, discusses the recent moves in oil as US greenlights Iran to sell on the open market. 3) Gary Gensler, former SEC Chair and MIT Professor, talks about the passing of Alan Greenspan, his legacy, and a new era of \"irrational exuberance.\" 4) Bill Dudley, Bloomberg Opinion columnist and former NY Federal Reserve president, talks about the passing of Alan Greenspan and his role in changing Fed communication, as well as how it's being reshaped by the Warsh Fed. See omnystudio.com/listener for privacy information.",
+      "duration": "2019",
+      "old_score": 4,
+      "old_label": "skip",
+      "qwen": {
+        "id": "72a433cfe2654693b74fa89c",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Market pullback and Greenspan legacy offer macroeconomic context relevant to capital allocation and market dynamics.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "4cd3bb2da3c3bf049fffc8d7",
+      "show_name": "The Cognitive Revolution",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "The God We Deserve: Nonzero's Robert Wright on AI as Humanity's Ultimate Test",
+      "link": "https://www.cognitiverevolution.ai/the-god-we-deserve-nonzero-s-robert-wright-on-ai-as-humanity-s-ultimate-test/",
+      "published": "2026-06-23T15:47:47+00:00",
+      "summary": "Robert Wright of Nonzero joins Nathan to discuss The God Test, his argument that AI is humanity’s “God test” rather than just a technical challenge. They explore his evolutionary lens on deep learning, from training as selection to marketplace selection among models that may reward selectively honest, power-sensing, or deceptive agents. Wright connects those risks to the noosphere, US-China relations, cognitive empathy, and whether global coordination arrives deliberately or through a coercive singleton. The stakes are whether consumers, companies, and governments select for AIs that strengthen non-zero-sum cooperation or race toward systems that reflect and amplify our worst incentives. For full show notes, links, and references, read the episode page:https://www.cognitiverevolution.ai/the-god-we-deserve-nonzero-s-robert-wright-on-ai-as-humanity-s-ultimate-test/ Mercury: Command is Mercury’s new conversational interface, giving you natural-language access to your finances and helping you take actions within your existing permissions and approval policies. Visit https://mercury.com to learn more and apply online in minutes. Sponsor: Claude: Claude by Anthropic is an AI collaborator that understands your workflow and helps you tackle research, writing, coding, and organization with deep context. Get started with Claude and explore Claude Pro at https://claude.ai/tcr CHAPTERS: (00:00) About the Episode (04:23) Special Sponsor (06:10) Early AI encounters (18:36) Pretraining as evolution (Part 1) (19:50) Sponsor: Claude (21:42) Pretraining as evolution (Part 2) (32:19) Deceptive market pressures (41:13) Noosphere and directionality (51:02) Global brain choices (01:08:23) Designing wiser models (01:24:11) Reframing China relations (01:37:57) Building organic transparency (01:45:54) Positive nationalism and tools (01:54:21) Pausing superintelligence races (02:09:07) Applications and consciousness (02:25:27) Episode Outro (02:28:27) Outro PRODUCED BY: https://aipodcast.ing SOCIAL LINKS: Website: https://www.cognitiverevolution.ai Twitter (Podcast): https://x.com/cogrev_podcast Twitter (Nathan): https://x.com/labenz LinkedIn: https://linkedin.com/in/nathanlabenz/ Youtube: https://youtube.com/@CognitiveRevolutionPodcast Apple: https://podcasts.apple.com/de/podcast/the-cognitive-revolution-ai-builders-researchers-and/id1669813431 Spotify: https://open.spotify.com/show/6yHyok3M3BjqzR0VB5MSyk",
+      "duration": "8980",
+      "old_score": 33,
+      "old_label": "skip",
+      "qwen": {
+        "id": "4cd3bb2da3c3bf049fffc8d7",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Robert Wright's evolutionary AI analysis explores alignment risks and global coordination, offering durable frameworks for AI governance.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "78a8a8c023df6ac056cea970",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "What’s Next for Consumer AI? | Josh Elman Joins a16z",
+      "link": "https://a16z.simplecast.com/episodes/whats-next-for-consumer-ai-josh-elman-joins-a16z-DsQwKWIh",
+      "published": "2026-06-23T14:00:00+00:00",
+      "summary": "Anish Acharya sits down with Josh Elman to discuss the future of consumer technology and Josh's decision to join a16z. Over the past two decades, Elman has helped shape some of the most important consumer technology products and companies, including LinkedIn, Facebook, Twitter, Robinhood, Discord, Musical.ly, TikTok, and Apple. Drawing on those experiences, he reflects on how technology has evolved from a niche industry into a central force in everyday life. The conversation explores consumer AI, product design, distribution, social networks, creator ecosystems, and the changing relationship between technology and human behavior. They discuss why AI may unlock an entirely new generation of consumer products, how discovery and distribution are changing, and what founders can learn from previous platform shifts. Along the way, Elman shares his views on retention, network effects, product-market fit, and the opportunities he believes remain underexplored in consumer technology. Resources: Follow Josh Elman on X: https://x.com/joshelman Follow Anish Acharya on X: https://x.com/illscience Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:53:54",
+      "old_score": 43,
+      "old_label": "skip",
+      "qwen": {
+        "id": "78a8a8c023df6ac056cea970",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Josh Elman discusses consumer AI evolution and product-market fit, valuable for understanding platform shifts and founder strategies.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "1c0b0f79fbe01a445194a3e1",
+      "show_name": "New Yorker Radio Hour",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "low",
+      "title": "From Critics at Large: Steve Spielberg's Blockbusters",
+      "link": "https://www.wnycstudios.org/podcasts/tnyradiohour",
+      "published": "2026-06-23T10:00:00+00:00",
+      "summary": "When “Jaws” hit theatres in 1975, no one—neither the studio executives involved nor the film’s twenty-six-year-old director, Steven Spielberg—was betting on its success. But it dominated at the box office and promptly revolutionized the way movies were promoted, distributed, and merchandised. On this episode of Critics at Large, Vinson Cunningham, Naomi Fry, and Alexandra Schwartz trace how Spielberg inaugurated a new phenomenon in Hollywood: the blockbuster. He would tap his own playbook again and again with such hits as “Close Encounters of the Third Kind,” “E.T.,” and “Jurassic Park,” all of which drew impressive audiences and profits. The hosts talk through his filmography, culminating in his new release, “Disclosure Day,” which both replicates and iterates on themes and techniques found in his earlier work. Though other directors may share his capacity for spectacle and action-packed set pieces, much of his appeal lies in his profound earnestness. “What Spielberg is so good at is bringing the human to the fore in these extreme, sci-fi circumstances,” Schwartz says. “And that’s what makes a great blockbuster.” New episodes of The New Yorker Radio Hour drop every Tuesday and Friday. Join host David Remnick as he discusses the latest in politics, news, and current events in conversation with political leaders, newsmakers, innovators, New Yorker staff writers, authors, actors, and musicians. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:51:12",
+      "old_score": 0,
+      "old_label": "skip",
+      "qwen": {
+        "id": "1c0b0f79fbe01a445194a3e1",
+        "score": 40,
+        "tier": "skip",
+        "reason": "Spielberg film analysis is culturally interesting but lacks relevance to DJ's focus on markets and AI.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "2294e4820402a65337b585bc",
+      "show_name": "Plain English with Derek Thompson",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "The Iran War Is Ending. Everybody Lost.",
+      "link": "",
+      "published": "2026-06-23T10:00:00+00:00",
+      "summary": "Four months ago, the U.S. and Israel launched a surprise attack on Iran. Supporters predicted a decisive victory that would curb Iran’s nuclear ambitions and reshape the balance of power in the Middle East. Instead, the war became a costly stalemate. Iran's power continued, the conflict dragged on, and the closure of the Strait of Hormuz disrupted global energy markets, sending economic shockwaves around the world. Now, a ceasefire has ended the fighting. But critics argue that the agreement gives Iran major concessions in exchange for empty promises about its nuclear program that prove difficult to enforce. Today, Karim Sadjadpour returns to the podcast to examine the end of the Iran war. Why did the Trump administration agree to this deal, and will history remember it as a necessary compromise or a strategic failure? Subscribe to our YouTube channel here:https://www.youtube.com/@PlainEnglishwithDerekThompson If you have questions, observations, or ideas for future episodes, email us at PlainEnglish@Spotify.com. Host: Derek ThompsonGuest: Karim SadjadpourProducer: Devon BaroldiAdditional Production Support: Ben Glicksman Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "3406",
+      "old_score": 4,
+      "old_label": "skip",
+      "qwen": {
+        "id": "2294e4820402a65337b585bc",
+        "score": 60,
+        "tier": "scan",
+        "reason": "Iran War analysis offers geopolitical context but limited direct market or AI implications.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "b92058d99961a3b06ca6c1a5",
+      "show_name": "Stratechery",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "Memory Chips and China, Microsoft and Chinese Models",
+      "link": "https://stratechery.com/2026/memory-chips-and-china-microsoft-and-chinese-models/",
+      "published": "2026-06-23T10:00:00+00:00",
+      "summary": "The big three memory makers may come to regret opening up the door to Chinese memory makers; Microsoft, meanwhile, is very incentivized to use Chinese models.",
+      "duration": "",
+      "old_score": 30,
+      "old_label": "skip",
+      "qwen": {
+        "id": "b92058d99961a3b06ca6c1a5",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Stratechery dissects memory chip dynamics and Microsoft's use of Chinese models, relevant for AI infrastructure and geopolitics.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "7ebd62066aa8271b4bc9feeb",
+      "show_name": "The Knowledge Project adjacent interviews",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "How to Repair and Nourish Your Gut | Dr. Giulia Enders",
+      "link": "https://fs.blog/knowledge-project-podcast/dr-giulia-enders/",
+      "published": "2026-06-23T10:00:00+00:00",
+      "summary": "Dr. Giulia Enders has changed the way millions of people think about the human body. As a physician, microbiome researcher, and bestselling author, she has spent years studying the surprising role the gut plays in everything from digestion and immunity to mood, sleep, metabolism, and long-term health. In this conversation, Giulia explains how your gut shapes your health, how stress quietly damages it, what ultra-processed foods are doing to you, and what your body’s been trying to tell you all along. This episode is packed with practical advice you can use right away. You’ll understand your body better and leave with a simple framework for improving your health, without complicated diets, expensive supplements, or extreme interventions. If you’ve ever wondered why you feel the way you do, this conversation is a great place to start. ------ Timestamps: (00:00) How A Thriving Gut Can Unlock Your Health (02:23) Foods to Eat to Improve Gut Health (07:57) The Link Between Your Gut and Immune System (09:28) How to Get Prebiotics in Your Food (10:22) Why Fiber is Key to a Healthy Gut (10:47) How Cooling Starches Can Help You Lose Weight (12:48) Why Fiber Reduces Your Risk of Cancer (14:13) How Sugar Causes Inflammation (15:40) Are Some Sugars Better than Others? (16:25) What Your Poop Is Telling You (17:53) Healthy vs Unhealthy Poop (20:01) How to Rebuild the Gut After Antibiotics (22:08) Warning Signs You Should See a Doctor (23:11) The Best Position for Pooping (26:26) Constipation: Causes & Solutions (28:06) Importance of Chewing (31:07) How Long Does it Take to Heal Your Gut? (34:25) Why Dopamine is Driving Your Bad Cravings (36:40) Three Things to Watch Out for on Ingredients List (36:56) Effect of Alcohol on Gut (37:55) Is Caffeine Bad for Your Gut? (39:56) Impact of Snacking on Gut and Metabolism (41:28) Do Gut Cleanses Work? (43:07) Are Supplements Worth It? (44:59) The Benefits of Walking After a Meal (49:29) The Number One Thing to Change for Better Gut Health (49:51) Why Sanitizer Isn't the Best Approach to Hygiene ------ Newsletter: The Brain Food newsletter delivers actionable insights and thoughtful ideas every Sunday. It takes 5 minutes to read, and it’s completely free. Learn more and sign up at ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠fs.blog/newsletter⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ ------ Follow Shane Parrish: X: ⁠⁠⁠⁠⁠⁠https://x.com/shaneparrish⁠ Insta: ⁠https://www.instagram.com/farnamstreet/⁠ LinkedIn: ⁠https://www.linkedin.com/in/shane-parrish-050a2183/⁠ ------ Follow Dr. Giulia Enders X: https://x.com/giulia_enders Check out Dr. Giulia’s Books: Gut: The Inside Story of Our Body’s Most Underrated Organ: https://a.co/d/0hqm72mN Organ Speak: What It Really Means to Listen to Our Bodies: https://a.co/d/07ClmNVu ------ Thank you to the sponsors for this episode: +CoinShares: Delivering Reason to Digital Asset Investing. ⁠https://coinshares.com/⁠ +Granola AI, The AI notepad for people in back-to-back meetings: https://www.granola.ai/shane Check out the Granola Notes +HeyGen is a message-first AI video platform that helps people and AI agents turn ideas into professional video in minutes. Try for free at https://www.heygen.com/ +LMNT: My go-to zero sugar electrolytes — get a free LMNT Sample Pack here: DrinkLMNT.com/TKP Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "duration": "3342",
+      "old_score": 38,
+      "old_label": "skip",
+      "qwen": {
+        "id": "7ebd62066aa8271b4bc9feeb",
+        "score": 45,
+        "tier": "skip",
+        "reason": "Gut health discussion is informative but off DJ's focus areas of markets, AI, and capital allocation.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "0a0823d4586346dfbcff1cb5",
+      "show_name": "Masters of Scale",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "$300m in year two. The controversy came free, with David Protein’s Peter Rahal",
+      "link": "",
+      "published": "2026-06-23T09:00:00+00:00",
+      "summary": "David protein bars went from startup to one of the hottest consumer products in America in under two years. But the ride has been anything but smooth. Founder and CEO Peter Rahal joins Rapid Response to talk about building a breakout brand through lawsuits, a Jeffrey Epstein association, and the kind of social media heat most companies would run from. Rahal also revisits his $600 million sale of RXBar to Kellogg and what he learned about keeping your edge after a defining win. Visit the Rapid Response website here: https://www.rapidresponseshow.com/ See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info .",
+      "duration": "00:20:43",
+      "old_score": 32,
+      "old_label": "skip",
+      "qwen": {
+        "id": "0a0823d4586346dfbcff1cb5",
+        "score": 55,
+        "tier": "scan",
+        "reason": "David Protein's brand-building story offers consumer insights but lacks durable frameworks or AI relevance.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "a2893ebecfa30d9becef47cd",
+      "show_name": "The Meb Faber Show",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Meb Faber's Investing in America, Out July 4th (Investing in America Series) | #636",
+      "link": "",
+      "published": "2026-06-23T08:30:00+00:00",
+      "summary": "In today's episode, Meb celebrates the release of his new book, Investing in America, a coffee table history of the 250 year bull market. He explains the magic of compounding, why every decade feels like chaos, and the surprising fact that stocks become less volatile than bonds over long horizons. To close, Meb weighs today's valuations against the long view. ----- Follow Meb on⁠ X⁠,⁠ LinkedIn⁠ and⁠ YouTube⁠ For detailed show notes, click ⁠here⁠ To learn more about our funds and follow us, subscribe to our ⁠mailing list⁠ or visit us at⁠ cambriainvestments.com⁠ ----- Follow The Idea Farm: ⁠X⁠ | ⁠LinkedIn⁠ | ⁠Instagram⁠ | ⁠TikTok⁠ ----- Interested in sponsoring the show? Email us at Feedback@TheMebFaberShow.com ----- Past guests include ⁠Ed Thorp⁠, ⁠Richard Thaler⁠, ⁠Jeremy Grantham⁠, ⁠Joel Greenblatt⁠, ⁠Campbell Harvey⁠, ⁠Ivy Zelman⁠, ⁠Kathryn Kaminski⁠, ⁠Jason Calacanis⁠, ⁠Whitney Baker,⁠ ⁠Aswath Damodaran⁠, ⁠Howard Marks⁠, ⁠Tom Barton⁠, and many more. ----- Meb's invested in some awesome startups that have passed along discounts to our listeners. Check them out ⁠here⁠! ----- Editing and post-production work for this episode was provided by The Podcast Consultant (⁠https://thepodcastconsultant.com⁠). Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "duration": "1564",
+      "old_score": 51,
+      "old_label": "skip",
+      "qwen": {
+        "id": "a2893ebecfa30d9becef47cd",
+        "score": 60,
+        "tier": "scan",
+        "reason": "Meb Faber's investing history offers long-term context but is light on AI or current market read.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "b850b17a7de5366cbef9a2c0",
+      "show_name": "Invest Like the Best",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "Vlad Barbalat - Investing $120 Billion in Permanent Capital - [Invest Like the Best, EP.479]",
+      "link": "https://colossus.com/episode/the-power-of-permanent-capital/",
+      "published": "2026-06-23T08:00:00+00:00",
+      "summary": "My guest today is Vlad Barbalat, the Chief Investment Officer of Liberty Mutual Investments, the $120 billion investment platform that sits within one of the largest insurance companies in the world. Vlad grew up in Soviet Moldova, came to America in 1990, and built a career that eventually led him to one of the most distinctive capital allocator seats anywhere in finance. Today we talk about how the mutual insurance structure creates a unique investment platform, what Liberty looks for in a new deal or partner, and what it means to build a career and a life in a country that gave you opportunities you never would have had anywhere else. Please enjoy my conversation with Vlad Barbalat. For the full show notes, transcript, and links to mentioned content, check out the episode page ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠here⁠⁠⁠⁠⁠. ----- Become a Colossus member to get our quarterly print magazine and private audio experience, including exclusive profiles and early access to select episodes. Subscribe at ⁠colossus.com/subscribe⁠. ----- ⁠Ramp’s⁠ mission is to help companies manage their spend in a way that reduces expenses and frees up time for teams to work on more valuable projects. Go to⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ ⁠ramp.com/invest⁠⁠ to sign up for free and get a $250 welcome bonus. ----- Trusted by thousands of businesses, ⁠Vanta⁠ continuously monitors your security posture and streamlines audits so you can win enterprise deals and build customer trust without the traditional overhead. Invest Like the Best listeners get a special offer of $1,000 off Vanta when you go to ⁠vanta.com/invest⁠. ----- WorkOS⁠ is the infrastructure B2B and AI-native companies use to sell to enterprise. It covers everything enterprise security requires: SSO, SCIM, RBAC, Audit Logs, AI governance, and more. Trusted by 2,000+ fast-growing companies, including OpenAI, Anthropic, Cursor, and Vercel. ----- Rogo is the AI platform for finance. They're building agents for Wall Street that are trained to understand how bankers and investors actually do work: from diligence and modeling, to turning analysis into deliverables. To learn more, visit rogo.ai/invest. ----- ⁠Ridgeline⁠ has built a complete, real-time, modern operating system for investment managers. It handles trading, portfolio management, compliance, customer reporting, and much more through an all-in-one real-time cloud platform. Visit⁠ ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ridgeline.ai⁠. ----- Editing and post-production work for this episode was provided by The Podcast Consultant.⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ Timestamps: (00:00:00) Welcome to Invest Like The Best (00:00:53) Vlad Barbalat (00:01:28) The Most Interesting Seat in the Market (00:05:53) Breaking Down the $120B (00:10:41) How the Portfolio Is Constructed (00:11:00) The House View (00:13:49) What Liberty Looks for in a GP (00:16:32) Why Not Just Buy Bonds (00:18:30) Benefits of the Mutual Structure (00:23:40) The Luxury of the American Citizen Through Immigrant Eyes (00:30:26) How Immigration Shaped His Worldview (00:32:45) Direct Deals vs. GP Allocations (00:35:23) Branded Capital (00:39:07) Geopolitics & Investing (00:43:48) AI's Impact on Investing (00:46:22) The Valuation Debate (00:50:47) Public vs. Private Markets (00:53:53) Lessons from Goldman (00:54:41) Why Excellence Matters (00:57:30) Managing Permanent Capital (01:03:54) The Kindest Thing",
+      "duration": "4177",
+      "old_score": 54,
+      "old_label": "skip",
+      "qwen": {
+        "id": "b850b17a7de5366cbef9a2c0",
+        "score": 80,
+        "tier": "listen",
+        "reason": "Vlad Barbalat's $120B capital allocation insights from Liberty Mutual offer rare operator perspective on permanent capital investing.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "23628b74c14348c6afce0d98",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "China Decode: Hong Kong's AI Crackdown, Lululemon’s Marketing Backlash, and World Cup Fever",
+      "link": "",
+      "published": "2026-06-23T08:00:00+00:00",
+      "summary": "Alice Han and James Kynge dive into why JPMorgan has cut its Hong Kong employees off from Anthropic's Claude. That comes after Goldman Sachs quietly restricted AI access for their employees in the city. With ChatGPT already blocked on the mainland, are U.S. companies drawing a new line around Hong Kong? And what does it mean for the city's future as a global financial hub? They also discuss Lululemon's Great Wall yoga festival, which was meant to celebrate Chinese culture. Instead, a Japanese-style drum in the promotional imagery set off a nationalist firestorm — over 50 million views on Weibo and counting. It's the latest in a long line of foreign brand missteps in China. Why is it so hard to get it right? And finally: China hasn't qualified for the World Cup — but football fans have found someone to root for: Chinese referee Ma Ning, who has picked up sponsorships from Lenovo and Hisense and 210,000 new social media followers. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "2385",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "23628b74c14348c6afce0d98",
+        "score": 60,
+        "tier": "scan",
+        "reason": "China AI crackdown and brand missteps offer regional context but lack broader framework value.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "2cb64ae3d7cda8eb0fb6cd84",
+      "show_name": "Latent Space",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Red-Teaming after Mythos — Zico Kolter & Matt Fredrikson, Gray Swan",
+      "link": "https://www.latent.space/p/gray-swan",
+      "published": "2026-06-22T21:06:55+00:00",
+      "summary": "AI Engineer World’s Fair regular bird tix will sell out ~today! Join us next week ahead of the Late Bird price hike and get >$40,000 in sponsor credits for attending ! Thanks to the US Government issuing an export control directive on Mythos and Fable , the risks of jailbreaks and (industry term) indirect prompt injection are suddenly the talk of the town, though we have been covering AI security for a few years now, from Hackaprompt to the enigmatic Pliny the Elder . Zico Kolter, member of OpenAI’s board of directors on the Safety & Security Committee , and Matt Fredrikson, CMU professor and CEO of Gray Swan , co-authored the definitive paper on Indirect Prompt Injections , and Gray Swan were cited authorities on the Mythos model card , directly investigating the exact capabilities that are under scrutiny right now: We seized the opportunity to ask them the state of AI Red Teaming, and Shade , the adversarial red teaming tool that Anthropic used to evaluate the robustness of their models against prompt injection attacks in coding environments. Shade is part of their overall toolkit covering Simon Willison’s Lethal Trifecta , including Cygnal , an AI guardrails product, and the world’s largest AI Red Teaming Arena , including AIRT celebrity Wyatt Walls . All of this security tooling, and yet, we’re only staving off the inevitable. The risks of extremely smart AI increasingly feel like gray swan events: an event that everyone can see coming. In this episode, Gray Swan cofounders Zico Kolter and Matt Fredrikson join swyx to explain why AI security is not just “cybersecurity with AI,” why agents introduce a new class of vulnerabilities, and why the next major AI incident may be a gray swan: unlikely, but clearly visible before it happens. We go deep on prompt injection , automated red teaming , model robustness, agent identity, computer-use agents , enterprise guardrails, and the emerging AI insurance/compliance stack. Zico and Matt also explain why frontier models are not automatically safer as they scale, why specialized red-teaming models can now beat humans at breaking AI systems , and why the future of AI security may depend on AI systems attacking, defending, and interpreting other AI systems. We discuss: * Why AI systems need a different security mindset from traditional software * How prompt injection creates a new exploit class for agents like Codex and Claude Code * Gray Swan Arena and the rise of community red teaming * Shade : AI that can outperform humans at breaking models * Why LLMs are an alien form of intelligence that fail differently from humans * Human vs browser-agent robustness and why humans ranked fourth * Why eval awareness and capability elicitation matter * Cygnal : Gray Swan’s guardrail model for policy enforcement * Why bigger models do not automatically become more robust * The lethal trifecta : untrusted data, private data, and exfiltration * Why “just prompt it better” is not enough for enterprise AI security * OpenClaw , computer-use agents, and the agent security nightmare * Agent-native identity , permissions, and enterprise deployment * Why AI security may become part of insurance and compliance * Why the first major AI prompt-injection breach may be inevitable Gray Swan * Website: https://www.grayswan.ai/ Zico Kolter * X: https://x.com/zicokolter * Website: https://zicokolter.com/ * LinkedIn: https://www.linkedin.com/in/zico-kolter-560382a4/ Matt Fredrikson * Website: https://www.mattfredrikson.com/ * LinkedIn: https://www.linkedin.com/in/matt-fredrikson-7596349/ Timestamps 00:00:00 Introduction 00:02:31 Why AI Security Is Different 00:06:38 Testing Claude, Codex, and Prompt Injection 00:07:47 Gray Swan Arena and Automated Red Teaming 00:11:14 AI That Breaks Models Better Than Humans 00:14:00 LLMs as Alien Intelligence 00:19:00 Humans vs AI Agents 00:24:35 Red Teaming, Jailbreaks, and Capability Elicitation 00:26:11 Cygnal: Guardrails for AI Agents 00:34:04 The Lethal Trifecta 00:39:31 Can AI ",
+      "duration": "3983",
+      "old_score": 43,
+      "old_label": "skip",
+      "qwen": {
+        "id": "2cb64ae3d7cda8eb0fb6cd84",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Zico Kolter and Matt Fredrikson discuss AI security and red-teaming, directly relevant to AI platform risk and governance.",
+        "confidence": "high"
+      }
+    }
+  ]
+}

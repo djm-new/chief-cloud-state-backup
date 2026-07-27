@@ -1,0 +1,251 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-07-14_2103",
+  "usage": {
+    "prompt_tokens": 4212,
+    "completion_tokens": 877,
+    "total_tokens": 5089
+  },
+  "episodes": [
+    {
+      "id": "5142da61b46f769bca4d85d7",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "The problem with Suno and AI music",
+      "link": "",
+      "published": "2026-07-14T18:47:00+00:00",
+      "summary": "AI-generated music is suddenly everywhere. On social media, music streaming services, and elsewhere, stuff made on Suno is becoming unavoidable. The Verge's Terrence O'Brien joins David to talk about where Suno came from, whether it can truly change the way we create and consume music, and how we can and should respond to AI music. We also have some thoughts on whether these songs might someday be bangers. Further reading: X admits its broken algorithm made the site feel like a ‘battleground’ | The Verge The Pixel colors might rule this year | The Verge Pixel Watch 5 leak shows off four different finishes | The Verge New York becomes the first state to enact a data center moratorium | The Verge Suno is a music copyright nightmare Suno leans into customization with v5.5 Nobody wants to tell me why they only listen to their own Suno slop Suno’s upgraded AI music generator is technically impressive, but still soulless Subscribe to The Verge for unlimited access to theverge.com, subscriber-exclusive newsletters, and our ad-free podcast feed.We love hearing from you! Email your questions and thoughts to vergecast@theverge.com or call us at 866-VERGE11. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "1864",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "5142da61b46f769bca4d85d7",
+        "score": 45,
+        "tier": "scan",
+        "reason": "Discusses AI music and copyright issues, but lacks operator insight or durable frameworks.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "fe8701d0d1657ecc1ab391aa",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: July 14th, 2026",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-july-14th-2026",
+      "published": "2026-07-14T16:00:00+00:00",
+      "summary": "Featuring: Christopher Verrone, Partner & Head: Technical & Macro Strategy at Strategas Securities William Dudley, Bloomberg Opinion Columnist and Former New York Fed President Tiffany Wilding, Managing Director & Economist at PIMCO See omnystudio.com/listener for privacy information.",
+      "duration": "1200",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "fe8701d0d1657ecc1ab391aa",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Features macro commentary but lacks specific actionable insights or AI focus.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "85d164fcbd9acd0846479969",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "June CPI and Kevin Warsh",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/june-cpi-and-kevin-warsh",
+      "published": "2026-07-14T15:17:47+00:00",
+      "summary": "The latest in finance, economics and investment. Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF . Bloomberg Surveillance hosted by Tom Keene & Paul SweeneyTuesday, July 14, 2026 Featuring: 1) Constance Hunter, Chief Economist at EIU, Frances Donald, Chief Economist at RBC Capital Markets, and Marija Veitmane, Head of US Equity Strategy at State Street, react to CPI. 2) Dan Tobon, Director: Research and Rates at Citi, talks about the path of the dollar and FX moves amid US inflation uncertainty. 3) Mark Gurman, Chief Correspondent: Tech & Apple at Bloomberg News, talks latest on Apple-Open AI. 4) Matt Sigel, Head: Digital Assets Research at VanEck, talks Bitcoin and outlook for digital assets. See omnystudio.com/listener for privacy information.",
+      "duration": "2309",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "85d164fcbd9acd0846479969",
+        "score": 60,
+        "tier": "digest",
+        "reason": "Covers inflation, Apple-AI developments, and digital assets with macro relevance.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "c9f2579dabfa5bd6650c573c",
+      "show_name": "Plain English with Derek Thompson",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "A Philosopher’s One-Word Theory for Why the World Feels So Weird",
+      "link": "",
+      "published": "2026-07-14T10:00:00+00:00",
+      "summary": "Why does it feel like everything is more divided and exhausting than it used to be? Philosopher Agnes Callard has a surprisingly simple answer: the unicontext. It's her term for what happens when billions of people are all forced to inhabit the same global conversation through the internet and social media. In this episode, Derek talks with Callard about how the unicontext has reshaped the way we experience time, attention, and morality. They explore why online life feels overwhelmingly negative and why public discourse has become so focused on outrage and identity. It's a conversation that connects philosophy with the modern experience of living online, ultimately offering a framework for understanding why our world just feels so weird. Subscribe to our YouTube channel here:https://www.youtube.com/@PlainEnglishwithDerekThompson If you have questions, observations, or ideas for future episodes, email us at PlainEnglish@Spotify.com. Host: Derek ThompsonGuest: Agnes CallardProducer: Devon BaroldiAdditional Production Support: Ben Glicksman Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "3486",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "c9f2579dabfa5bd6650c573c",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Philosophical framework on digital discourse and attention economy impacts.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "323e44e1045f486cbbf61086",
+      "show_name": "Stratechery",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "The OpenAI Super App, ChatGPT = Codex, Whither Chat",
+      "link": "https://stratechery.com/2026/the-openai-super-app-chatgpt-codex-whither-chat/",
+      "published": "2026-07-14T10:00:00+00:00",
+      "summary": "OpenAI has refashioned Codex as the new ChatGPT; is the company abandoning the chat category they pioneered?",
+      "duration": "",
+      "old_score": 30,
+      "old_label": "skip",
+      "qwen": {
+        "id": "323e44e1045f486cbbf61086",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Analyzes OpenAI's strategic shift and implications for AI product evolution.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "e75e0a4970a8ee949a0e3374",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Is AI a Bubble? | Gavin Baker on Data Centers, GPUs, and the AI Economy",
+      "link": "https://a16z.simplecast.com/episodes/is-ai-a-bubble-gavin-baker-on-data-centers-gpus-and-the-ai-economy-HMRKhpqK",
+      "published": "2026-07-14T10:00:00+00:00",
+      "summary": "As part of our summer replay series, we're revisiting one of the standout conversations from Runtime, a16z's conference on AI infrastructure and the future of computing. Gavin Baker, Managing Partner and CIO of Atreides Management, joins David George to examine the biggest questions surrounding today's AI investment cycle. Is AI a bubble? What does the unprecedented buildout of data centers, GPUs, and compute infrastructure mean for the economy? And how should investors think about the companies building the next generation of AI? The conversation explores frontier models, Nvidia, Google, custom silicon, AI infrastructure, application software, robotics, and why Baker believes today's AI investment cycle looks fundamentally different from the internet bubble of the early 2000s. Along the way, they discuss the economics of GPUs, enterprise software, AI business models, and what comes next as AI moves from experimentation into the broader economy. Resources: Follow Gavin Baker on X: https://x.com/GavinSBaker Follow Atreides Management on X: https://x.com/atreidesmgmt Follow David George on X: https://x.com/DavidGeorge83 Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:31:49",
+      "old_score": 84,
+      "old_label": "digest_only",
+      "qwen": {
+        "id": "e75e0a4970a8ee949a0e3374",
+        "score": 80,
+        "tier": "listen",
+        "reason": "Evaluates AI infrastructure economics and investment cycle with operator insight.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "fd0c4ad43227581e4927ea2c",
+      "show_name": "Ezra Klein Show",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "What Xi Jinping Wants",
+      "link": "https://www.nytimes.com/2026/07/14/opinion/ezra-klein-podcast-kevin-rudd.html",
+      "published": "2026-07-14T09:00:00+00:00",
+      "summary": "You can’t understand China today without understanding its president, Xi Jinping. Since coming to power in 2012, Xi has doubled down on communist ideology and significantly consolidated his own power while transforming China into an industrial juggernaut unrivaled in the world. And Xi’s ambitions for China go far beyond that. So what does Xi want for China in the coming years? And how should the United States respond? Kevin Rudd has a unique perspective on these questions. He first met Xi in the 1980s, when Rudd was a China analyst in Australia’s foreign service and Xi was a local party official. Decades later, when Rudd was the prime minister of Australia and Xi was China’s vice president, the two men got to know each other better. And after leaving office, Rudd decided to really try to understand Xi; his latest book, “ On Xi Jinping: How Xi’s Marxist Nationalism Is Shaping China and the World ,” is built off the doctorate he pursued at Oxford after his time as prime minister. Rudd recently finished a stint as Australia’s ambassador to the United States and is now the global president and chief executive of the Asia Society. In this conversation, Rudd explains Xi’s ideology and the forces that shaped it, his ambitions for China and strategy for achieving them, and what Xi thinks of the United States and Trump. Mentioned: On Xi Jinping by Kevin Rudd The Avoidable War by Kevin Rudd Book Recommendations The Party’s Interests Come First by Joseph Torigian The Souls of China by Ian Johnson Magnifica Humanitas by Pope Leo XIV Thoughts? Guest suggestions? Email us at ezrakleinshow@nytimes.com . You can find the transcript and more episodes of “The Ezra Klein Show” at nytimes.com/ezra-klein-podcast. Book recommendations from all our guests are listed at https://www.nytimes.com/article/ezra-klein-show-book-recs.html This episode of “The Ezra Klein Show” was produced by Rollin Hu. Fact-checking by Michelle Harris, with Kate Sinclair and Mary Marge Locker. Our senior engineer is Jeff Geld, with additional mixing by Johnny Simon. Our recording engineer is Johnny Simon. Cinematography by Marina King. Video editing by Steph Khoury, Dani Dillon and Kristen Williamson. Our executive producer is Claire Gordon. The show’s production team also includes Marie Cascione, Annie Galvin, Kristin Lin, Emma Kehlbeck and Jack McCordick. Original music by Pat McCusker and Diane Wong. Audience strategy by Shannon Busta. The director of New York Times Opinion Shows is Annie-Rose Strasser. And special thanks to Joseph Torigian and Eyck Freymann. Transcript editing by Sarah Murphy and Marlaine Glicksman. Subscribe today at nytimes.com/podcasts or on Apple Podcasts and Spotify. You can also subscribe via your favorite podcast app here https://www.nytimes.com/activate-access/audio?source=podcatcher . For more podcasts and narrated articles, download The New York Times app at nytimes.com/app. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "01:43:53",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "fd0c4ad43227581e4927ea2c",
+        "score": 55,
+        "tier": "scan",
+        "reason": "Provides geopolitical context but lacks direct capital allocation or AI focus.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "4b3722bf890a455abe53bfef",
+      "show_name": "Masters of Scale",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "The quiet reinvention of a $42b business, with Canva’s Cameron Adams",
+      "link": "",
+      "published": "2026-07-14T09:00:00+00:00",
+      "summary": "In the last year, Canva redefined itself from the ground up. Co-founder and Chief Product Officer Cameron Adams joins Rapid Response live from the Cannes Lions festival to explain why the so-called SaaSpocalypse never kept him up at night, how Canva shifted from a design company to an AI company without losing what made it great, and why being only 1% of the way there is actually the most exciting place to be. Adams also shares the specific steps anyone can take to get real impact from AI tools rather than just falling down the rabbit hole, and makes the case that in a world of commoditized models, your organization's unfair advantage is the only thing that matters. Eager for more of Cam? Take a moment to listen and download his own podcast, Prompted ! Visit the Rapid Response website here: https://www.rapidresponseshow.com/ See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info .",
+      "duration": "00:23:35",
+      "old_score": 32,
+      "old_label": "skip",
+      "qwen": {
+        "id": "4b3722bf890a455abe53bfef",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Discusses Canva's AI transformation and practical AI implementation strategies.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "9aab2e3876b004eaa7a0a45a",
+      "show_name": "Training Data",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Anthropic's Katelyn Lesse & Angela Jiang: Building an Ecosystem, not a Walled Garden",
+      "link": "",
+      "published": "2026-07-14T09:00:00+00:00",
+      "summary": "Katelyn Lesse and Angela Jiang lead the team building Anthropic's developer platform - the layer that both outside builders and Anthropic's own products run on top of. Angela frames the platform as a three-layer stack: knowledge, execution, and coordination. She argues the real leverage is what’s at the top: \"strategies,\" or meta-harnesses that give each token a different job, from advising to executing to reflecting to memory. On the question of open ecosystem vs. walled garden, they say they aren't precious about owning the stack. Katelyn points to Anthropic's self-hosted sandboxes with partners like Modal, Vercel, and Cloudflare. Whether the work runs on Anthropic's infrastructure or someone else's, what really matters to them is that the architecture is sound. The deeper bet is standards: they hand skills and MCP to the whole industry, build connectors on the MCP spec, and help agents (Claude and non-Claude) work together. The one place they stay closed is model routing: they argue harnesses should be tuned to a model family, so they're designing for Claude rather than routing across models. Angela's frame for the ecosystem bet is electricity: transformative only because everyone could plug in, and no company wired it alone.Hosted by Sonya Huang and Lauren Reeder, Sequoia Capital 00:00 Introduction 01:49 Two North Stars 02:27 External Builders And Primitives 03:54 What To Externalize 06:00 From Messages To Agents 08:19 Managed Agents Adoption 09:07 Three Layer Cake 10:22 Execution Harnesses Explained 11:09 Coordination Strategies Roadmap 12:13 Ecosystem Standards And Safety 15:39 Open Ecosystem Not Walled 17:12 Vertical Products And Form Factors 22:26 Claude Tag Under The Hood 26:04 Harness Best Practices 38:13 Token Costs And Whats Next",
+      "duration": "2934",
+      "old_score": 44,
+      "old_label": "skip",
+      "qwen": {
+        "id": "9aab2e3876b004eaa7a0a45a",
+        "score": 75,
+        "tier": "listen",
+        "reason": "Anthropic execs discuss platform architecture, ecosystem strategy, and agent coordination frameworks.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "a9fdbba0eb1a7e9ace101c75",
+      "show_name": "Invest Like the Best",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "John Kim - How to Raise a Few Billion Dollars - [Invest Like the Best, EP.482]",
+      "link": "https://colossus.com/episode/how-to-raise-a-few-billion-dollars/",
+      "published": "2026-07-14T08:00:00+00:00",
+      "summary": "Today my guest is John Kim. John is one of the world's top and most prolific fundraisers. He was chief client officer at General Catalyst, where he helped raise many of the firm's flagship funds. He is now chairman and president of corporate development at Lila Sciences, a company building scientific superintelligence, where he has helped raise several hundred million dollars. He is also the author of The Tao of Fundraising. This conversation is really a guide on how to raise money from someone who has done it at the highest level. We talk about why persuasion equals desire minus fear, the difference between belief and trust, the laws of fundraising, and how to build the consensus that moves big pools of capital. Please enjoy my conversation with John Kim. For the full show notes, transcript, and links to mentioned content, check out the episode page ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠here⁠⁠⁠⁠⁠. ----- Become a Colossus member to get our quarterly print magazine and private audio experience, including exclusive profiles and early access to select episodes. Subscribe at ⁠colossus.com/subscribe⁠. ----- ⁠Ramp’s⁠ mission is to help companies manage their spend in a way that reduces expenses and frees up time for teams to work on more valuable projects. Go to⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ ⁠ramp.com/invest⁠⁠ to sign up for free and get a $250 welcome bonus. ----- Trusted by thousands of businesses, ⁠Vanta⁠ continuously monitors your security posture and streamlines audits so you can win enterprise deals and build customer trust without the traditional overhead. Invest Like the Best listeners get a special offer of $1,000 off Vanta when you go to ⁠vanta.com/invest⁠. ----- WorkOS⁠ is the infrastructure B2B and AI-native companies use to sell to enterprise. It covers everything enterprise security requires: SSO, SCIM, RBAC, Audit Logs, AI governance, and more. Trusted by 2,000+ fast-growing companies, including OpenAI, Anthropic, Cursor, and Vercel. ----- Rogo is the AI platform for finance. They're building agents for Wall Street that are trained to understand how bankers and investors actually do work: from diligence and modeling, to turning analysis into deliverables. To learn more, visit rogo.ai/invest. ----- ⁠Ridgeline⁠ has built a complete, real-time, modern operating system for investment managers. It handles trading, portfolio management, compliance, customer reporting, and much more through an all-in-one real-time cloud platform. Visit⁠ ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ridgeline.ai⁠. ----- Editing and post-production work for this episode was provided by The Podcast Consultant. Timestamps: (00:00:00) Welcome to Invest Like The Best (00:02:02) Introduction of John Kim (00:02:39) Money Moves at the Speed of Trust (00:05:06) How to Start a Fundraising Campaign (00:08:03) Persuasion Equals Desire Minus Fear (00:12:20) How to Raise a Few Billion Dollars (00:15:58) The Benchmark Story (00:18:36) The Law of Differentiation (00:24:13) Law of Tradeoffs and Law of Pipeline (00:27:52) The Karpman Drama Triangle (00:30:42) Oprah Winfrey (00:33:49) Most Common Fundraising Mistakes (00:38:35) Secretary of State (00:45:40) The Inner Game (00:47:38) The Kindest Thing",
+      "duration": "3020",
+      "old_score": 62,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "a9fdbba0eb1a7e9ace101c75",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Fundraising masterclass with actionable persuasion and capital allocation insights.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "78c42bf24e6b1a0d36c25ea7",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "China Decode: China Drops Its Jobs Target, Tencent Buys Back Manus, and the Rise of \"Tier 3 City\" Living",
+      "link": "",
+      "published": "2026-07-14T08:00:00+00:00",
+      "summary": "Alice Han and James Kynge look at why, for the first time in decades, China's new Five-Year Plan sets no numerical target for urban job creation. With unemployment at 5.1%, producer prices at a four-year high, and AI anxiety rippling through the labor market, what does it mean when Beijing, a government that treats jobs numbers as sacred, stops setting one? Then: Tencent is in talks to become the largest shareholder in Manus, the Chinese AI agent startup Meta tried to buy for $2 billion before Beijing forced the deal to unwind. Alice and James unpack why Chinese regulators intervened, what happened to Manus's founders, and what this all signals about Beijing's grip on its AI sector. Finally: Gen Z in China is skipping the megacities. Alice and James dig into why more young people are choosing Tier 3 and Tier 4 cities over Beijing and Shanghai, and whether it's a lifestyle choice or a symptom of a tougher economy. Subscribe to China Decode on Substack for weekly analysis, livestreams, and deep dives into the biggest story shaping the global economy: chinadecode.profgmedia.com Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "2977",
+      "old_score": 32,
+      "old_label": "skip",
+      "qwen": {
+        "id": "78c42bf24e6b1a0d36c25ea7",
+        "score": 50,
+        "tier": "scan",
+        "reason": "China labor and AI regulatory analysis, but lacks durable frameworks or operator insight.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "0c6b7b1ca5d9e2e222454a06",
+      "show_name": "All-In Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "The Trillion-Dollar Industries AI Is Disrupting: Voice, Law & the End of the Billable Hour",
+      "link": "https://allinchamathjason.libsyn.com/the-trillion-dollar-industries-ai-is-disrupting-voice-law-the-end-of-the-billable-hour",
+      "published": "2026-07-13T22:07:00+00:00",
+      "summary": "(0:00) ElevenLabs' $600M ARR Ramp, 600 Employees & Life Without PMs (15:34) Celebrity Voice Deals, Deepfake Impersonation & Racing OpenAI and Anthropic (31:42) Legora's Hypergrowth, Disrupting Law Firms & the Billable Hour (42:31) LexisNexis Decline, Legal Data Moats & Legora's Narrow AI Models Thanks to our partners for making this possible! Airwallex is a leading global payments and financial platform for modern businesses, offering trusted solutions to manage everything from business accounts, payments, treasury, and spend management to embedded finance. https://airwallex.com/allin Oracle powers AI at every scale—from frontier labs to enterprise production. Your data. Leading models. No lock-in. One platform, architected for AI. Built for business. Visit https://www.oracle.com/artificial-intelligence/ai-experience/?source=:ex:sn:::::AllIn&SC=:ex:sn:::::AllIn&pcode= Follow Mati: https://x.com/mati Follow Max: https://x.com/MaxJunestrand Follow the besties: https://x.com/chamath https://x.com/Jason https://x.com/DavidSacks https://x.com/friedberg Follow on X: https://x.com/theallinpod Follow on Instagram: https://www.instagram.com/theallinpod Follow on TikTok: https://www.tiktok.com/@allin Follow on LinkedIn: https://www.linkedin.com/company/allinpod Intro Music Credit: https://rb.gy/tppkzl https://x.com/yung_spielburg And a special thank you to Raise Summit for hosting us in Paris",
+      "duration": "51:33",
+      "old_score": 46,
+      "old_label": "skip",
+      "qwen": {
+        "id": "0c6b7b1ca5d9e2e222454a06",
+        "score": 80,
+        "tier": "listen",
+        "reason": "Covers AI disruption in voice, legal services, and enterprise workflows with startup insights.",
+        "confidence": "high"
+      }
+    }
+  ]
+}

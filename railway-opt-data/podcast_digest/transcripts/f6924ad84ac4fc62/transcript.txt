@@ -1,0 +1,7 @@
+[2.0-6.5] Hello, and welcome to The Vertcast, the flagship podcast of asterisks and underlines.
+[6.5-10.0] I'm your friend David Pierce, and today on the show, we're going to talk about Markdown.
+[10.0-14.8] Now, Markdown is probably very familiar to you if you're like a deep nerd about no-taking apps
+[14.8-19.0] like I am, and maybe a word you've never even heard of otherwise.
+[19.0-22.5] If you're in that ladder group, don't worry, we're going to get into it.
+[22.5-26.5] The way to understand Markdown is basically as a way of writing text
+[26.5-30.0] that both a computer and a human can understand.

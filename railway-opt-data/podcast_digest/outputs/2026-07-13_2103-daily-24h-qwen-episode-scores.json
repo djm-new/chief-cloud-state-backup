@@ -1,0 +1,251 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-07-13_2103",
+  "usage": {
+    "prompt_tokens": 4006,
+    "completion_tokens": 913,
+    "total_tokens": 4919
+  },
+  "episodes": [
+    {
+      "id": "5bff5ed4def656e605fc0026",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Watch, headphones, phone: Which AI gadget is best?",
+      "link": "",
+      "published": "2026-07-13T20:58:00+00:00",
+      "summary": "So far, there have been exactly zero great AI-first gadgets. But that hasn't stopped the tech industry from trying to figure out what shape and size these new gadgets might take, and whether any of them can best the device in your pocket. The Verge's Allison Johnson and Victoria Song join David to rank all those shapes, from pendant to smartwatch to rectangle, to see whether there is actually a next big thing out there. Further reading: ⁠Apple sues OpenAI for allegedly stealing hardware secrets | The Verge⁠ ⁠Less is more with the Oura Ring 5 | The Verge⁠ Subscribe to The Verge for unlimited access to theverge.com, subscriber-exclusive newsletters, and our ad-free podcast feed. We love hearing from you! Email your questions and thoughts to vergecast@theverge.com or call us at 866-VERGE11. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "2612",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "5bff5ed4def656e605fc0026",
+        "score": 45,
+        "tier": "scan",
+        "reason": "Discusses AI gadgets but lacks depth on business or technical implications.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "acc8f039a3b5c53183e8247c",
+      "show_name": "Eye on AI",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Inside the Enterprise Browser Rebuilding Security for the AI Era | Bradon Rogers, Island",
+      "link": "https://aneyeonai.libsyn.com/inside-the-enterprise-browser-rebuilding-security-for-the-ai-era-bradon-rogers-island",
+      "published": "2026-07-13T17:26:00+00:00",
+      "summary": "AI is moving faster than enterprise security systems were designed to handle. In this episode of Eye on A.I., Craig Smith speaks with Bradon Rogers, Chief Customer Officer at Island, Island about how companies are struggling to govern the rise of AI agents, browser-based workflows, and unsanctioned AI tools inside the workplace. The conversation explores why traditional \"block-and-control\" security models are breaking down and how a new approach, embedding policy directly into the browser and user workflows, may offer a path forward. It also dives into emerging risks like prompt injection and autonomous agent behavior, and why enterprises are increasingly becoming multi-AI environments by default. Subscribe to Eye on A.I. for weekly conversations with the people building and deploying the future of AI.",
+      "duration": "55:37",
+      "old_score": 28,
+      "old_label": "skip",
+      "qwen": {
+        "id": "acc8f039a3b5c53183e8247c",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Covers enterprise AI security challenges and evolving governance models, relevant for business and technical strategy.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "9109034cdfd25b6704e1b4fa",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: July 13th, 2026",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-july-13th-2026",
+      "published": "2026-07-13T16:20:01+00:00",
+      "summary": "Featuring: Geoffrey Yu, Senior Strategist: EMEA Markets at BNY Mellon Stephen Auth, Executive VP & CIO: Equity at Federated Hermes Edward Bastian, Chief Executive Officer of Delta Air Lines See omnystudio.com/listener for privacy information.",
+      "duration": "1530",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "9109034cdfd25b6704e1b4fa",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Market-focused but lacks specific actionable insights or unique perspectives.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "bf7c5206cffad20370cd8371",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Market Jitters Amid Geopolitical and Tech Uncertainty",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/market-jitters-amid-geopolitical-and-tech-uncertainty",
+      "published": "2026-07-13T13:29:43+00:00",
+      "summary": "Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF . Bloomberg Surveillance hosted by Tom Keene & Paul SweeneyMonday, July 13, 2026 Featuring: 1) Steve Auth, CIO: Equities at Federated Hermes, on the 13-year equity bull run. 2) Anneka Treon, Global head of Private Banking, Wealth Management and Investments, talks tech rotation and why fears may be overblown. 3) Ed Morse, Senior Advisor and Commodity Strategist at Hartree Partners, talks about the oil moves and what's next for energy markets amid uncertainty in the Strait of Hormuz. 4) Henrietta Treyz, co-founder at Veda Partners, talks about the latest news from Capitol Hill and remembers Lindsey Graham and his impact. See omnystudio.com/listener for privacy information.",
+      "duration": "1742",
+      "old_score": 32,
+      "old_label": "skip",
+      "qwen": {
+        "id": "bf7c5206cffad20370cd8371",
+        "score": 60,
+        "tier": "digest",
+        "reason": "Discusses market uncertainty and tech rotation, relevant for macro context.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "461b4995e04d2e6052022f62",
+      "show_name": "EconTalk",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "From Sawdust to Paw Patrol: The Spin Master Story (with Ronnen Harary)",
+      "link": "https://www.econtalk.org/from-sawdust-to-paw-patrol-the-spin-master-story-with-ronnen-harary/",
+      "published": "2026-07-13T10:30:00+00:00",
+      "summary": "A nylon stocking filled with sawdust that grows grass for hair launched one of the most successful toy companies in the world. Ronnen Harary, co-founder of Spin Master and co-creator of Paw Patrol, talks about his book No Experience Necessary with EconTalk's Russ Roberts. Harary traces his journey from selling grass-growing novelty heads at 23, through Devil Sticks and Air Hogs, to building Bakugan and Paw Patrol into global franchises touching the lives of millions of children. Along the way, he reflects on the artistry of commercial creation and what it means to build something that outlives its founders. The conversation closes on the eternal magic of toys and our childhoods.",
+      "duration": "01:09:20",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "461b4995e04d2e6052022f62",
+        "score": 55,
+        "tier": "scan",
+        "reason": "Interesting founder story but light on durable frameworks or business model insights.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "4606b21cd72e4008b4f09243",
+      "show_name": "Stratechery",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "Apple Sues OpenAI, Apple’s Real Problem",
+      "link": "https://stratechery.com/2026/apple-sues-openai-apples-real-problem/",
+      "published": "2026-07-13T10:00:00+00:00",
+      "summary": "Apple is suing AI for stealing trade secrets; there is one guilty employee, but this mostly feels like lashing out.",
+      "duration": "",
+      "old_score": 38,
+      "old_label": "skip",
+      "qwen": {
+        "id": "4606b21cd72e4008b4f09243",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Apple's legal action against OpenAI has implications for IP and AI industry dynamics.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "feaf56c6a9928a170808b763",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Before Blockchains, There Was State Machine Replication",
+      "link": "https://a16z.simplecast.com/episodes/before-blockchains-there-was-state-machine-replication-gGXd4DoC",
+      "published": "2026-07-13T10:00:00+00:00",
+      "summary": "Every blockchain today relies on replication techniques first developed in the 1980s by researchers who weren't thinking about cryptocurrencies at all. In this episode, Tim Roughgarden speaks with MIT professor and Turing Award winner Barbara Liskov, one of the pioneers of programming languages, fault tolerance, and distributed systems. Joined by a16z crypto research partner Ittai Abraham, they trace the evolution of ideas that now underpin modern blockchain networks. The conversation explores viewstamped replication, Practical Byzantine Fault Tolerance (PBFT), state machine replication, and why concepts developed decades before Bitcoin became the foundation for today's blockchain protocols. Along the way, Liskov reflects on the relationship between theory and practice, the importance of modularity and formal reasoning, and why AI is creating a new generation of systems research. Resources: Follow Tim Roughgarden on X: https://x.com/Tim_Roughgarden Follow Ittai Abraham on X: https://x.com/ittaia Follow a16z Crypto on X: https://x.com/a16zcrypto Subscribe to The a16z Crypto Show: https://a16zcrypto.substack.com/subscribe/ Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:37:20",
+      "old_score": 23,
+      "old_label": "skip",
+      "qwen": {
+        "id": "feaf56c6a9928a170808b763",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Historical context on state machine replication and its relevance to blockchain and systems research.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "fd7f0b54f8fe7353459e7f2b",
+      "show_name": "Decoder with Nilay Patel",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Yes, even Nvidia's head of automotive is fighting for compute",
+      "link": "",
+      "published": "2026-07-13T09:00:00+00:00",
+      "summary": "Nvidia is obviously in the news constantly because of the AI boom — but it's also a major supplier to the entire auto industry As head of Nvidia's automotive division, Xinzhou Wu has a front-row seat to all the challenges EVs and autonomous vehicles are facing, especially in the US. And of course, you can’t talk about electric cars or vehicle autonomy in the US without talking about Elon Musk and Tesla. So I asked Xinzhou pretty directly if Tesla full self driving can actually do what Elon claims it will be able to do without using LiDAR. You tell me if you think his answer holds up. Links: Nvidia’s head of autonomous driving opens up about his plans | The Verge Hyundai, Nissan, BYD, and Geely Join Nvidia’s Level 4 | MotorTrend Nvidia, auto suppliers roll out partnerships to rekindle self-driving | Reuters Meet Alpamayo, Nvidia’s new AI model for autonomous cars | Forbes I tested Nvidia’s FSD competitor — Tesla should be worried | The Verge Subscribe to The Verge to access the ad-free version of Decoder! Credits: Decoder is a production of The Verge and part of the Vox Media Podcast Network. Decoder’s producers are Kate Cox and Nick Statt; this episode was edited by Xander Adams. Our editorial director is Kevin McShane. The Decoder music is by Breakmaster Cylinder. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "4316",
+      "old_score": 79,
+      "old_label": "digest_only",
+      "qwen": {
+        "id": "fd7f0b54f8fe7353459e7f2b",
+        "score": 80,
+        "tier": "listen",
+        "reason": "Nvidia's automotive head discusses compute challenges and autonomous driving strategy, relevant for AI and mobility trends.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "7e8e3089bf09ed936f34043e",
+      "show_name": "Capital Allocators",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Economic Growth, Governance, and Capital Allocation – Dambisa Moyo (EP.410)",
+      "link": "https://tedseides.libsyn.com/economic-growth-governance-and-capital-allocation-dambisa-moyo-ep410",
+      "published": "2026-07-13T08:00:00+00:00",
+      "summary": "Baroness Dambisa Moyo is a global economist, author, board member, and investor who sits at the intersection of public policy, corporate governance, and capital allocation. Dambisa serves in the U.K. House of Lords, sits on the boards of Chevron, Starbucks, Condé Nast, and Oxford University's investment committee, is Chair of the Economic Club of New York, and oversees Altered Trajectory alongside her husband, Jared Smith, the family office formed after his sale of Qualtrics in 2018. Our conversation traces Dambisa's journey from growing up in Zambia to becoming a leading voice on global economic development and governance. We discuss how her experiences across more than 80 countries and on the boards of four global companies shaped her judgment on economic growth, governance, and decision-making. We then turn to the application of those lessons at Altered Trajectory, including the evolution away from an endowment-style portfolio, balancing Dambisa's macro convictions with Jared's moonshot investing style, and positioning for long-term themes. Along the way, we discuss the challenge of investing through structural change while avoiding ideological thinking. Any leader should see for themselves the benefits of elite coaching. Try ALEX : tryalex.admiredleadership.com . Learn More Follow Ted on Twitter at @tseides or LinkedIn Subscribe to the mailing list Access Transcript with Premium Membership Editing and post-production work for this episode was provided by The Podcast Consultant ( ⁠ https://thepodcastconsultant.com ⁠ )",
+      "duration": "54:10",
+      "old_score": 52,
+      "old_label": "skip",
+      "qwen": {
+        "id": "7e8e3089bf09ed936f34043e",
+        "score": 85,
+        "tier": "listen",
+        "reason": "Dambisa Moyo offers insights on governance, capital allocation, and macroeconomic trends with global perspective.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "a966105cb16123155584a56f",
+      "show_name": "Odd Lots",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "Why AI Might Actually Create More Work for Lawyers",
+      "link": "https://omny.fm/shows/odd-lots/why-ai-might-actually-create-more-work-for-lawyers",
+      "published": "2026-07-13T08:00:00+00:00",
+      "summary": "It seems obvious that among the many industries that AI might disrupt, the legal profession might face some of the most adverse outcomes. When clerical, research-based tasks like searching through databases and reading contracts are automated, what is left for lawyers to do and how might they justify all those billable hours? In this episode we speak with Gary Wingens, chair and partner at the law firm Lowenstein Sandler. He talks about how his firm is using AI and why he thinks the technology could end up increasing legal work for lawyers as costs come down, creating a sort of “Jevon's paradox” for lawsuits, deals and litigation. We also talk about the billable hours model and training junior talent. Read more: AI Legal Startup Norm Valued at $1.2 Billion Funding Round Only Bloomberg.com subscribers can get the Odd Lots newsletter in their inbox — now delivered every weekday — plus unlimited access to the site and app. bloomberg.com/subscriptions/oddlots See omnystudio.com/listener for privacy information.",
+      "duration": "3325",
+      "old_score": 28,
+      "old_label": "skip",
+      "qwen": {
+        "id": "a966105cb16123155584a56f",
+        "score": 60,
+        "tier": "digest",
+        "reason": "Discusses AI's impact on legal work, including potential for increased demand despite automation.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "fa5c3e99a0e703efd31b288b",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "What SpaceX's IPO Means for Tech Stocks, and Coping With Panic Attacks",
+      "link": "",
+      "published": "2026-07-13T08:00:00+00:00",
+      "summary": "Scott Galloway breaks down what SpaceX's rocky debut means for the looming OpenAI and Anthropic IPOs, how to approach celebrities and CEOs without being \"that person,\" and what a lifetime of panic attacks has taught him. Want to be featured in a future episode? Send a voice recording to officehours@profgmedia.com, or drop your question in the r/ScottGalloway subreddit. Plus, you can now call or text Scott a question at our new Office Hours hotline: ‪(201) 472-3656‬. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "1416",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "fa5c3e99a0e703efd31b288b",
+        "score": 40,
+        "tier": "scan",
+        "reason": "Merges SpaceX IPO speculation with personal anecdotes; lacks actionable insights.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "70da0f3d14491007426b1018",
+      "show_name": "The Twenty Minute VC",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "20VC: Wix's Founder on What Wall St Gets Wrong About AI and Wix | Will Base44 Win the Vibe Coding Wars | The Truth About the Economics of Vibe-Coding | The Buyback Disaster: Lessons Learned with Avishai Abrahami",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-wixs-founder-on-what-wall-st-gets-wrong-about-ai-and-wix-will-base44-win-the-vibe-coding-wars-the-truth-about-the-economics-of-vibe-coding-the-buyback-disaster-lessons-learned-with-avishai-abrahami",
+      "published": "2026-07-13T07:07:00+00:00",
+      "summary": "Avishai Abrahami is the Co-Founder and CEO of Wix, the NASDAQ-listed website creation platform serving millions of businesses worldwide. Today, Wix generates more than $2BN in ARR and has a market capitalization of approximately $2.1BN, after reaching a peak valuation of $17BN over the past two years. The company also acquired Base44, one of the fastest-growing AI application-building platforms, scaling it to $150M in ARR in record time. AGENDA: 00:00 The SaaS Apocalypse: What Does Wall Street Still Not Understand About Wix? 07:00 Is the Market Valuing Wix's Core Business at Less Than Zero? 12:55 Will AI Kill Wix... or Make Base44 Bigger Than the Entire Company? 19:15 \"You Are NOT Going to Vibe Code Shopify\" — Why Everyone Is Getting AI Wrong 23:00 Would You Really Pay $80M for a One-Person Startup? 24:15 The Buyback Disaster: Would Avishai Do It All Again? 31:00 Why Every AI Customer Support Startup Keeps Failing (According to Wix) 37:00 Should a 22-Year-Old Still Learn to Code in the Age of AI? 42:20 Has AI Been Overhyped? Avishai's Most Controversial Prediction Yet 49:00 The Hardest Lessons on Leadership, Marriage & Building Through Chaos",
+      "duration": "57:20",
+      "old_score": 36,
+      "old_label": "skip",
+      "qwen": {
+        "id": "70da0f3d14491007426b1018",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Wix CEO discusses AI's impact on coding, valuation misperceptions, and buyback lessons.",
+        "confidence": "high"
+      }
+    }
+  ]
+}

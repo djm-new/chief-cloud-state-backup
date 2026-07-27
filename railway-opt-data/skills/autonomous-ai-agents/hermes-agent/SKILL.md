@@ -100,8 +100,11 @@ hermes config path          Print config.yaml path
 hermes config env-path      Print .env path
 hermes config check         Check for missing/outdated config
 hermes config migrate       Update config with new options
-hermes login [--provider P] OAuth login (nous, openai-codex)
-hermes logout               Clear stored auth
+hermes auth add PROVIDER    Add OAuth or API-key credentials to the pool
+hermes auth list [PROVIDER] List pooled credentials
+hermes auth remove P INDEX  Remove a pooled credential
+hermes auth reset PROVIDER  Clear exhaustion status for a provider
+hermes auth logout          Clear stored auth
 hermes doctor [--fix]       Check dependencies and config
 hermes status [--all]       Show component status
 ```
@@ -234,6 +237,7 @@ hermes update               Update to latest version
 Spend-monitor implementation notes: `references/spend-monitor-ledger.md`.
 Reporting dimensions and anti-misread rules: `references/spend-reporting-dimensions.md`.
 Auxiliary spend capture pattern (compression/title generation/session search side-channel usage): `references/spend-capture-auxiliary-models.md`.
+Codex OAuth auxiliary fallback pattern (main chat can stay Codex while helper slots move to OpenRouter/DeepSeek when needed): `references/codex-oauth-auxiliary-fallback.md`.
 Direct OpenRouter HTTP scripts: `references/openrouter-direct-http-spend-capture.md`.
 Workflow attribution and reporting shape: `references/openrouter-workflow-attribution.md`.
 Canonical main-response usage capture note: the primary response hook must also write a best-effort spend event after `normalize_usage(...)` + `estimate_usage_cost(...)` so OpenAI/Codex usage is not missed when it bypasses auxiliary helpers.
@@ -834,7 +838,7 @@ User docs: https://hermes-agent.nousresearch.com/docs/user-guide/features/cron
 
 **Chief project map:** for the full picture of what lives where (repos, live brain, workflows), see `references/chief-project-map.md`.
 
-**Cloud-state backups:** when durable runtime state should be viewable by other LLMs and preserved in GitHub, use the selective cloud-state backup pattern. It snapshots config/routing notes, scripts, skills, memories, cron jobs, health state, `SOUL.md`, selected gateway source, durable podcast artifacts, and *redacted session exports* while excluding secrets, tokens, SQLite DBs, raw sessions, logs, and caches. See `references/cloud-state-backup.md` and `references/redacted-session-exports.md`.
+**Cloud-state backups:** when durable runtime state should be viewable by other LLMs and preserved in GitHub, use the selective cloud-state backup pattern. It snapshots config/routing notes, scripts, skills, memories, cron jobs, health state, `SOUL.md`, selected gateway source, durable podcast artifacts, and *redacted session exports* while excluding secrets, tokens, SQLite DBs, raw sessions, logs, and caches. The live runtime-state hub is the `chief-cloud-state-backup` repo under `/opt/data/github/`; do not treat `/opt/hermes` as the source of truth for stored state. See `references/chief-project-map.md`, `references/cloud-state-backup.md`, `references/cloud-state-backup-cron.md`, and `references/redacted-session-exports.md`.
 
 **Local capture/synthesis systems:** when building a dedicated Telegram/Slack capture channel that writes markdown artifacts and scheduled syntheses, follow `references/thought-capture-systems.md`. It covers append-only repo layout, gateway bypass hooks, Telegram topic matching, DST-safe cron guards, and verification.
 
@@ -976,6 +980,16 @@ and logs — avoids shell-escaping backslashes in bash.
 
 ## Troubleshooting
 
+### Explaining setup or config changes to DJ
+DJ regularly asks "how do I enable/change X in Hermes?" and has corrected vague instructions many times ("stop making me do this", "we've had this conversation many times"). Match these rules:
+- **Exact numbered steps, one action each, verbatim values.** Give the exact model ID (`moonshotai/kimi-k3`, not `moonshot/kimi-k3`), exact command, exact menu label. Never paraphrase values he has to type.
+- **Never reference internal files DJ doesn't know.** Don't say "the Hermes environment file" or "add it to your .env" without the absolute path and the exact line to add. Better: don't make him touch files at all.
+- **Prefer in-chat slash commands over file edits.** `/model` in Telegram covers provider+model switches end-to-end; file edits are fallback only, with the full path spelled out.
+- **No discovery homework.** Don't tell DJ to find files, check versions, or inspect config — do it yourself or give the single exact command.
+- **OpenRouter needs no per-model key.** One `OPENROUTER_API_KEY` covers every OpenRouter model; "enabling" a new OpenRouter model = switching the model ID, nothing else.
+- **Say when it takes effect.** Model/provider changes apply to new sessions — tell him to start a new session (or restart the gateway if he wants it immediate).
+- **Narrate long investigations.** During multi-tool debugging, post one-line progress notes between tool batches. Long silent tool runs read to DJ as "what the heck is going on."
+
 ### Voice not working
 1. Check `stt.enabled: true` in config.yaml and confirm the selected provider (`local`, `groq`, `openai`, or `mistral`).
 2. Verify provider setup:
@@ -992,11 +1006,12 @@ and logs — avoids shell-escaping backslashes in bash.
 
 ### Model/provider issues
 1. `hermes doctor` — check config and dependencies
-2. `hermes login` — re-authenticate OAuth providers
+2. `hermes auth status openai-codex` / `hermes auth add openai-codex --type oauth --no-browser` — re-authenticate or re-add OAuth provider credentials
 3. Check `.env` has the right API key
 4. **Provider/model flip in a running gateway:** when DJ asks to change the primary provider/model and explicitly says not to restart or touch code, use `hermes config set model.provider <provider>` and `hermes config set model.default <model>` (or the full `/opt/hermes/.venv/bin/hermes` path if `hermes` is not on PATH), then verify `config.yaml`. Do not edit `/opt/hermes` and do not restart the gateway unless requested. Phrase the result as "configured for new sessions / next gateway model load" unless you have actually invoked a supported reload command and verified it.
-5. **Copilot 403**: `gh auth login` tokens do NOT work for Copilot API. You must use the Copilot-specific OAuth device code flow via `hermes model` → GitHub Copilot.
-6. **"Non-retryable error (HTTP None) — trying fallback" on every turn**: primary model is broken at connection level (not a 4xx). Check `config.yaml` — `model.provider` + `model.default` — and compare against which provider is actually succeeding (check gateway.log for "switching to fallback"). Fix: set `model.provider` and `model.default` to the working fallback provider. The `openai-codex` provider with `model.default: ''` auto-selects `gpt-5.5` and can silently fail on every request if the OAuth token is stale or the model is unavailable. Diagnose by grepping gateway.log for `"defaulting to"` and `"switching to fallback"` on the same turns.
+5. **OpenRouter model enablement:** if the user wants Kimi K3, set the exact model ID `moonshotai/kimi-k3` while keeping the existing OpenRouter key. There is no per-model key to add. See `references/openrouter-model-aliases.md`.
+6. **Copilot 403**: `gh auth login` tokens do NOT work for Copilot API. Use the Copilot-specific OAuth flow via `hermes auth add openai-codex --type oauth --no-browser` (or `hermes auth status openai-codex` / `hermes auth list openai-codex` to verify). 
+7. **"Non-retryable error (HTTP None) — trying fallback" on every turn**: primary model is broken at connection level (not a 4xx). Check `config.yaml` — `model.provider` + `model.default` — and compare against which provider is actually succeeding (check gateway.log for "switching to fallback"). Fix: set `model.provider` and `model.default` to the working fallback provider. The `openai-codex` provider with `model.default: ''` auto-selects `gpt-5.5` and can silently fail on every request if the OAuth token is stale or the model is unavailable. Diagnose by grepping gateway.log for `"defaulting to"` and `"switching to fallback"` on the same turns.
 
 ### Changes not taking effect
 - **Tools/skills:** `/reset` starts a new session with updated toolset
@@ -1084,6 +1099,8 @@ See `references/telegram-thoughts-routing-pitfall.md` for the Daily Brain Dump v
 
 See `references/top-of-mind-routing.md` for the canonical Daily ToM sync rule: explicit Top of Mind instructions must update the Google Doc, not just the session todo list, and stored items should be normalized to clean human-readable capitalization rather than copied verbatim in all-lowercase.
 
+See `references/daily-tom-sync-mechanics.md` for how the 5AM ET `daily-tom-sync.py` rollover actually behaves (carry rules, group-header requirement, done/in-progress shorthand, state files, offline audit recipe) — including the parked-task-drop bug found 2026-07-17 where `[Nd]`-marked tasks vanish from the doc.
+
 See `references/thought-capture-systems.md` for the capture pipeline that preserves text + screenshots/media in the daily brain dump before any ToM sync.
 
 See `references/telegram-thoughts-routing-pitfall.md` for the interactive-chat vs capture-only split that bit the Daily Brain Dump topic.
@@ -1097,6 +1114,18 @@ If `auxiliary` tasks (vision, compression, session_search) fail silently, the `a
 hermes config set auxiliary.vision.provider <your_provider>
 hermes config set auxiliary.vision.model <model_name>
 ```
+
+If compression/title generation/session search start throwing `401 token_expired` on `openai-codex`, treat that as stale auth on the auxiliary path — do *not* infer that main chat auth is broken just because one hidden helper failed. Move those helpers to a working provider instead of leaving chat-only auth in place. Preferred fallback order:
+1. keep the main chat on Codex OAuth if it still works
+2. move hidden helpers to `openrouter` + `deepseek/deepseek-v4-pro` when the user wants to avoid Anthropic
+3. use Anthropic only when the user explicitly accepts it or when OpenRouter is unavailable
+
+When changing multiple helper slots, update them as a set (`compression`, `session_search`, `title_generation`) and verify the effective routing with a helper-triggering action, not just by inspecting config on disk.
+
+After changing config, reload/restart the gateway so the new auxiliary routing is actually used.
+
+### Gateway restart gotcha
+When the gateway is stuck in a draining state, a normal restart may not apply config immediately. Stop the old instance first, then start a fresh gateway so the updated auxiliary routing takes effect. Use the least-forceful replacement that actually works; killing is only a last resort when the process will not exit cleanly.
 
 ---
 
@@ -1216,6 +1245,7 @@ python -m pytest tests/tools/ -q            # Specific area
 - Tests auto-redirect `HERMES_HOME` to temp dirs — never touch real `~/.hermes/`
 - Run full suite before pushing any change
 - Use `-o 'addopts='` to clear any baked-in pytest flags
+- When the runtime shell is stripped down, prefer the repo's own Python environment (for example `./.venv/bin/python`) over assuming `python`, `node`, or `npm` are present. Verify with the project-owned interpreter before concluding a dependency is missing.
 
 **Windows contributors:** `scripts/run_tests.sh` currently looks for POSIX venvs (`.venv/bin/activate` / `venv/bin/activate`) and will error out on Windows where the layout is `venv/Scripts/activate` + `python.exe`. The Hermes-installed venv at `venv/Scripts/` also has no `pip` or `pytest` — it's stripped for end-user install size. Workaround: install pytest + pytest-xdist + pyyaml into a system Python 3.11 user site (`/c/Program Files/Python311/python -m pip install --user pytest pytest-xdist pyyaml`), then run tests directly:
 
