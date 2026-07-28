@@ -12,7 +12,7 @@ DJ prefers the podcast intelligence digest delivered daily to the Telegram Brief
 §
 DJ wants verified current-state-first updates; times in ET. For visual app fixes, inspect actual produced UI/images before claiming completion.
 §
-DJ expects GitHub/Railway/deploy/pipeline issues solved autonomously when access exists; surface only true external blockers.
+DJ wants GitHub/Railway/deploy issues fixed autonomously when access exists and to keep going until resolved.
 §
 DJ does not want progress receipts or repeated prompts; for active projects, keep moving and report only the finished result unless blocked.
 §

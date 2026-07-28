@@ -1,0 +1,311 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-07-27_2105",
+  "usage": {
+    "prompt_tokens": 5197,
+    "completion_tokens": 1144,
+    "total_tokens": 6341
+  },
+  "episodes": [
+    {
+      "id": "e752e1f6a69eb0c67b175fa4",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Here's what an AI-first phone might look like",
+      "link": "",
+      "published": "2026-07-27T20:49:00+00:00",
+      "summary": "Some of the biggest players in AI — in particular OpenAI, SpaceX, and Amazon — are heavily invested in creating a world after smartphones. They're also all rumored to be building devices that sound a lot like smartphones. Verge contributor David Imel helps us figure out what these companies might actually be building, what an AI smartphone looks like, and whether anyone can unseat Apple and Google. Links: Elon Musk denies a report about SpaceX’s AI phone prototype OpenAI is reportedly launching a phone for ChatGPT Amazon is making an Alexa phone Subscribe to The Verge for unlimited access to theverge.com, subscriber-exclusive newsletters, and our ad-free podcast feed.We love hearing from you! Email your questions and thoughts to vergecast@theverge.com or call us at 866-VERGE11. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "2188",
+      "old_score": 59,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "e752e1f6a69eb0c67b175fa4",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Discusses AI-first phone concepts from major players like OpenAI, Amazon, and SpaceX, relevant to AI platform trends.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "0e48c6d1b2eb5992027ae992",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: July 27th, 2026",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-july-27th-2026",
+      "published": "2026-07-27T16:19:44+00:00",
+      "summary": "Featuring: Savita Subramanian, Managing Director & Head: US Equity & Quantitative Strategy at Bank of America Securities Tobin Marcus, Head of Policy & Politics at Wolfe Research Lindsey Piegza, Managing Director & Chief Economist at Stifel Nicolaus See omnystudio.com/listener for privacy information.",
+      "duration": "1215",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "0e48c6d1b2eb5992027ae992",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Market commentary with mixed macro insights but lacks deep durable frameworks or AI operator insights.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "d899d76f8cc7c8ba364dee53",
+      "show_name": "The Cognitive Revolution",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Nathan Goes to China – Part 1: Tech & Agent Setup, Chinese AI UX, WAIC, and Attitudes on AI",
+      "link": "https://www.cognitiverevolution.ai/nathan-goes-to-china-part-1-tech-agent-setup-chinese-ai-ux-waic-and-attitudes-on-ai/",
+      "published": "2026-07-27T16:09:25+00:00",
+      "summary": "Nathan returns from two weeks in Beijing and Shanghai for the first of three Chatham House–rules episodes on what China feels like at ground level: getting online, navigating an almost cashless society through WeChat, Alipay, DiDi, Trip.com, and Meituan, and weighing burner-device security advice against the practical reality that international roaming made the Great Firewall mostly irrelevant. He also describes using Claude at home as a semi-autonomous communications monitor while testing DeepSeek, Kimi, and MiniMax as tourist guides in China. The episode contrasts China’s striking digital convenience with pervasive observation, lower payment friction, and AI products that can be useful in everyday contexts yet still lose trust when the stakes feel medical or personal. It also surfaces Doubao’s mass consumer adoption and companionship role, suggesting that the most socially important AI in China may not be the model most discussed in the West. For full show notes, links, and references, read the episode page:https://www.cognitiverevolution.ai/nathan-goes-to-china-part-1-tech-agent-setup-chinese-ai-ux-waic-and-attitudes-on-ai/ Sponsor: Claude: Claude by Anthropic is an AI collaborator that understands your workflow and helps you tackle research, writing, coding, and organization with deep context. Get started with Claude and explore Claude Pro at https://claude.ai/tcr CHAPTERS: (00:00) Episode setup and caveats (Part 1) (12:34) Sponsor: Claude (14:26) Episode setup and caveats (Part 2) (14:26) Travel security setup (26:05) Super apps and payments (41:15) Agents and integration (54:31) Beijing AI tourism (01:09:30) Hospitality and service (01:19:10) Tech culture parallels (01:29:23) Ecosystem and incentives (01:42:05) Surveillance and safety (01:51:19) Comfort with contradictions (02:01:23) AI attitudes and diffusion (02:16:16) Resources and next steps (02:19:35) Episode Outro (02:22:49) Outro PRODUCED BY: https://aipodcast.ing SOCIAL LINKS: Website: https://www.cognitiverevolution.ai Twitter (Podcast): https://x.com/cogrev_podcast Twitter (Nathan): https://x.com/labenz LinkedIn: https://linkedin.com/in/nathanlabenz/ Youtube: https://youtube.com/@CognitiveRevolutionPodcast Apple: https://podcasts.apple.com/de/podcast/the-cognitive-revolution-ai-builders-researchers-and/id1669813431 Spotify: https://open.spotify.com/show/6yHyok3M3BjqzR0VB5MSyk",
+      "duration": "8641",
+      "old_score": 53,
+      "old_label": "skip",
+      "qwen": {
+        "id": "d899d76f8cc7c8ba364dee53",
+        "score": 85,
+        "tier": "listen",
+        "reason": "Firsthand insights from China on AI adoption, UX, and societal impact, with implications for global AI strategy.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "3fff69bd0e5f374c37ae036a",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Markets Face Central Bank and Earnings Volatility",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/markets-face-central-bank-and-earnings-volatility",
+      "published": "2026-07-27T13:52:44+00:00",
+      "summary": "The latest in finance, economics and investment. Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF . Bloomberg Surveillance hosted by Tom Keene & Paul SweeneyMonday, July 27, 2026 Featuring: 1) Isabelle Mateos y Lago, Chief Global Economist at BNP Paribas, joins to preview a slew of central bank decisions this week and talks about how each are pricing in effects of Iran war 2) Amanda Lynam, Chief Credit Strategist at Goldman Sachs, talks AI debt issuance and the latest spreads in credit. 3) Alvina Lo, Head of Advice, Planning & Fiduciary Services at BNY Wealth, discusses wealth planning for families and how she's allocating around client concerns. 4) Celine Woo, Portfolio Manager at Lazard Asset Management, talks the infrastructure, enabling, and application layers of tech and AI ahead of a key week of tech earnings. See omnystudio.com/listener for privacy information.",
+      "duration": "1676",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "3fff69bd0e5f374c37ae036a",
+        "score": 60,
+        "tier": "digest",
+        "reason": "Covers central bank decisions, AI debt issuance, and infrastructure layers relevant to capital allocation.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "bc1730c39d63c1858980c4d1",
+      "show_name": "EconTalk",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Savage Landscapes (with Cal Flyn)",
+      "link": "https://www.econtalk.org/savage-landscapes-with-cal-flyn/",
+      "published": "2026-07-27T10:30:00+00:00",
+      "summary": "What is wilderness when seven billion people share the planet and nowhere remains truly untouched? Author and journalist Cal Flyn discusses her book The Savage Landscape with EconTalk host Russ Roberts, weaving together journeys to some of Earth's most remote places, including a live volcanic eruption in Iceland she hiked toward despite the danger. Flyn rejects the myth of pristine, unpeopled wilderness, revealing that the wildest-looking landscapes have been shaped by humans for centuries. She explores spiritual quests at Mount Sinai, the return of predators to Europe, the uncomfortable economics of trophy hunting, and why we secretly crave discomfort in an age of endless comfort.",
+      "duration": "01:02:25",
+      "old_score": 4,
+      "old_label": "skip",
+      "qwen": {
+        "id": "bc1730c39d63c1858980c4d1",
+        "score": 40,
+        "tier": "skip",
+        "reason": "Environmental and philosophical themes, not directly relevant to market or AI operator insights.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "9d6cecf2be3ab8afcc8be214",
+      "show_name": "Stratechery",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "Vacation: Week of July 27",
+      "link": "https://stratechery.com/2026/vacation-week-of-july-27/",
+      "published": "2026-07-27T10:00:00+00:00",
+      "summary": "Stratechery is on vacation the week of July 27. There will be no Weekly Article or Updates. The next Update will be on Monday, August 3. Sharp Tech, and Greatest of All Talk will also return the week of August 3. Sharp China and Asianometry will continue to publish, and there will be one episode of Dithering next week. The […]",
+      "duration": "",
+      "old_score": 22,
+      "old_label": "skip",
+      "qwen": {
+        "id": "9d6cecf2be3ab8afcc8be214",
+        "score": 0,
+        "tier": "skip",
+        "reason": "Vacation episode, no content to evaluate.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "638055d053e280da04936d12",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Steven Sinofsky: AI Doesn't Need New Rules Yet",
+      "link": "https://a16z.simplecast.com/episodes/steven-sinofsky-ai-doesnt-need-new-rules-yet-BuNOSzIn",
+      "published": "2026-07-27T10:00:00+00:00",
+      "summary": "Steven Sinofsky joins Theo Jaffee and Sofia Puccini for a conversation on AI regulation, open-source models, and what history can teach us about technological revolutions. Drawing on decades of experience leading products at Microsoft, Sinofsky argues that governments are rushing to regulate AI before they fully understand the technology, risking innovation in the process. They discuss the \"precautionary principle,\" why open source has historically accelerated innovation, the role of regulation in emerging technologies, the AI competition between the U.S. and China, and why existing laws may already address many of the risks people attribute to AI. Resources: Follow Steven Sinofsky on X: https://x.com/stevesi Follow Theo Jaffee on X: https://x.com/theojaffee Follow Sofia Puccini on X: https://x.com/schisofrenia Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:29:16",
+      "old_score": 39,
+      "old_label": "skip",
+      "qwen": {
+        "id": "638055d053e280da04936d12",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Discusses AI regulation, open-source models, and innovation risks with historical context.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "1419fb4400c20e597d16e076",
+      "show_name": "Decoder with Nilay Patel",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Tariffs didn’t bring manufacturing jobs back to the US",
+      "link": "",
+      "published": "2026-07-27T09:00:00+00:00",
+      "summary": "Evan Smith, cofounder and CEO of Altana, was last on the show in early 2025 to talk about how Trump’s first few waves of tariffs were starting to affect global trade. It was a very alarming and also very illuminating chat; Evan and I got into the existential weeds of international relations and economics almost immediately. A year and a half later, and everything is somehow even more chaotic than it was the last time Evan and I talked — and that’s true about both trade and also the world of running a software company. Agentic AI, whack-a-mole tariff policy, war in Iran — we jumped right back into weeds yet again. Links: How Trump’s tariff chaos is already changing global trade | Decoder Skydio CEO Adam Bry on not drawing red lines for drone use | Decoder Trump imposes new global tariffs, drawing protests from trading partners | Reuters Greer: USMCA Talks Could Stretch Into Next Year | Wall Street Journal Trump hits Canada with new 50% tariffs | Associated Press Iran weaponized the Strait of Hormuz. Now neighbors are going around it | CNN The Iran war is testing Southeast Asia’s faith in the US | Politico Subscribe to The Verge to access the ad-free version of Decoder! Credits: Decoder is a production of The Verge and part of the Vox Media Podcast Network. Decoder’s producers are Kate Cox and Nick Statt. This episode was edited by Kabir Chopra. Our editorial director is Kevin McShane. The Decoder music is by Breakmaster Cylinder. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "4310",
+      "old_score": 32,
+      "old_label": "skip",
+      "qwen": {
+        "id": "1419fb4400c20e597d16e076",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Explores tariff impacts on global trade and agentic AI, relevant to macro and tech trends.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "40a26f4d4ba3a60be07d9d58",
+      "show_name": "My First Million",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Killer marketing secrets that always work (ft. Ogilvy Adman, Rory Sutherland)",
+      "link": "",
+      "published": "2026-07-27T09:00:00+00:00",
+      "summary": "$1M Attention Guide: 15+ ways to get eyeballs on what you're building https://clickhubspot.com/tkwc Episode 845: Sam Parr ( https://x.com/theSamParr ) and Shaan Puri ( https://x.com/ShaanVP ) talk to marketing legend Rory Sutherland ( https://x.com/rorysutherland ). — Show Notes: (0:00) Intro (1:44) Horsepower (12:15) Reverse benchmarking (17:38) Pay attention to what irritates you (21:47) Ogilvy secrets (27:28) Marketing hacks used by Apple, UBER, McDonald's (36:35) direct response marketing 101 (1:08:50) Recommended reading — Links: • Alchemy - https://www.amazon.com/dp/B01F1HOAWA • Illusion of Choice - https://www.amazon.com/dp/0857199749 • Nassim Taleb books - https://www.amazon.com/stores/Nassim-Nicholas-Taleb/author/B000APVZ7W • Ogilvy on Advertising - https://www.amazon.com/dp/039472903X • Writing That Works - https://www.amazon.com/dp/0060956437 • When More Is Not Better - https://www.amazon.com/dp/1647820065 • Scientific Advertising - https://a.co/d/0ixEJA1B • The Choice Factory - https://a.co/d/0ixa769O — Check Out Sam's Stuff: • Hampton (joinhampton.com): My community for founders. Average member does $25m/year. Many of the guests are members. Get after it...apply: http://joinhampton.com/mfm — Check Out Shaan's Stuff: • Shaan's weekly email - https://www.shaanpuri.com • Visit https://www.somewhere.com/mfm to hire worldwide talent like Shaan and get $500 off for being an MFM listener. Hire developers, assistants, marketing pros, sales teams and more for 80% less than US equivalents. • Mercury - Shaan uses Mercury across all of his companies. you can too: http://mercury.com/ Mercury is a fintech company, not an FDIC-insured bank. Banking services provided by Choice Financial Group, Column, N.A., Members FDIC • I run all my newsletters on Beehiiv and you should too + we're giving away $10k to our favorite newsletter, check it out: beehiiv.com/mfm-challenge My First Million is a HubSpot Original Podcast // Brought to you by HubSpot Media // Production by Arie Desormeaux // Editing by Ezra Bakker Trupiano /",
+      "duration": "4717",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "40a26f4d4ba3a60be07d9d58",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Marketing strategies with some useful frameworks but lacks durable or AI-specific insights.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "475d12cd161e4c6b0aa348e3",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Tariffs and Geopolitics and the Market Intersection",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/tariffs-and-geopolitics-and-the-market-intersection",
+      "published": "2026-07-27T08:32:20+00:00",
+      "summary": "Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF. Bloomberg Surveillance hosted by Tom Keene & Paul Sweeney Friday, July 24, 2026 Featuring: 1) Joe Lavorgna, Chief Economist as SMBC Nikko Securities, joins for a discussion on President Trump's new tariff plan and whether the President can execute his economic policy effectively amid the war in Iran. 2) Emily Roland, Co-Chief Investment Strategist at Manulife Investment Management, talks about the best of times for the S&P (earnings) and the worst of times for energy (oil prices). 3) Kara Murphy, Chief Investment Officer at Kestra Investment Management, brings us into the market open and discusses the market's opposing forces and how corporate earnings keep driving it higher. 4) Monica Guerra, Executive Director and Head of US Policy at Morgan Stanley Wealth Management, joins to talk Midterm concerns for the GOP and President Trump's new tariff strategy. See omnystudio.com/listener for privacy information.",
+      "duration": "1658",
+      "old_score": 0,
+      "old_label": "skip",
+      "qwen": {
+        "id": "475d12cd161e4c6b0aa348e3",
+        "score": 55,
+        "tier": "scan",
+        "reason": "Tariff and geopolitical commentary with market implications, but limited AI or operator insights.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "f1076f391b639ee65ecb6de5",
+      "show_name": "Business Breakdowns",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Applied Intuition: A Billion Intelligent Machines - [Business Breakdowns, EP.248]",
+      "link": "https://colossus.com/episode/applied-intuition/",
+      "published": "2026-07-27T08:00:00+00:00",
+      "summary": "Today, we are breaking down Applied Intuition. Our guests are co-founders Qasar Younis and Peter Ludwig, who started the company in 2017 with a mission to make a billion machines intelligent. The simplest way to understand Applied Intuition is that it builds the brains for machines, and the tools other companies use to build those brains. If a manufacturer wants its tractor, truck, or mining vehicle to drive itself, it can buy the intelligence from Applied Intuition or use its platform to develop its own. The analogy the founders use is Nvidia. Just as Nvidia sells chips into everyone else's machines, Applied Intuition sells intelligence into everyone else's machines, across automotive, defense, mining, agriculture, and robotics, without building any single machine itself. We discuss why the most important companies of the next 25 years will all be physical AI companies, Dana, their new agentic platform for developing and deploying these systems, and how the company raised a billion dollars without spending any of it. Please enjoy this Breakdown of Applied Intuition. For the full show notes, transcript, and links to the best content to learn more, check out the episode page⁠⁠⁠⁠⁠⁠⁠ here.⁠⁠⁠⁠⁠⁠⁠ ----- Become a Colossus member to get our quarterly print magazine and private audio experience, including exclusive profiles and early access to select episodes. Subscribe at ⁠colossus.com/subscribe⁠. ----- This episode is brought to you by⁠⁠⁠⁠ ⁠Portrait Analytics⁠⁠⁠⁠⁠ - your centralized resource for AI-powered idea generation, thesis monitoring, and personalized report building. Built by buy-side investors, for investment professionals. We work in the background, helping surface stock ideas and thesis signposts to help you monetize every insight. In short, we help you understand the story behind the stock chart, and get to \"go, or no-go\" 10x faster than before. Sign-up for a free trial today at ⁠⁠⁠⁠⁠portraitresearch.com⁠⁠⁠⁠⁠ ----- Stay up to date on all our podcasts by signing up to Colossus Weekly, our quick dive every Sunday highlighting the top business and investing concepts from our podcasts and the best of what we read that week. Sign up here. ----- Editing and post-production work for this episode was provided by The Podcast Consultant. Timestamps (00:00:00) Welcome to Business Breakdowns (00:02:16) Intro: Applied Intuition (00:03:26) State of the Physical AI Market (00:07:19) Why Physical AI Will Be Bigger Than Digital AI (00:09:14) What Applied Intuition Builds & Sells (00:12:36) Staying Flexible Across Technologies & Verticals (00:13:16) Founding Story & Strategic Choices (00:17:10) Evolution of the Business: Tools → OS → Autonomy Stack (00:20:59) Introducing Dana: The Agentic Platform (00:23:40) Building Dana: Customer Demand vs. Vision (00:24:51) Why Applied Intuition Is Uniquely Positioned to Build Dana (00:28:29) The Cross-Vertical Data Flywheel (00:33:25) Rate Limiters to Physical AI Adoption (00:35:41) Business Model & Revenue (00:37:06) Customer Base & Global Reach (00:39:22) Competitive Landscape (00:44:21) Capital Allocation & Financial Strategy (00:47:15) The Future of Physical AI",
+      "duration": "2833",
+      "old_score": 46,
+      "old_label": "skip",
+      "qwen": {
+        "id": "f1076f391b639ee65ecb6de5",
+        "score": 80,
+        "tier": "listen",
+        "reason": "Deep dive into Applied Intuition's AI platform for physical machines, relevant to AI infrastructure and business models.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "3ce37a7aa27f5d6cd05ff20e",
+      "show_name": "Capital Allocators",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Rebuilding the NYU Endowment – Michelle Knudsen (EP.513)",
+      "link": "https://tedseides.libsyn.com/rebuilding-the-nyu-endowment-michelle-knudsen-ep513",
+      "published": "2026-07-27T08:00:00+00:00",
+      "summary": "Michelle Knudsen is Chief Investment Officer of NYU, where she oversees the university's $8 billion endowment. Michelle joined NYU two years ago, after fourteen years as an allocator at Partners Capital and the Mellon Foundation, with a mandate to build a best-in-class endowment from a clean sheet of paper. Our conversation traces Michelle's lessons learned working at Goldman Sachs, a growing OCIO, and a foundation that shaped her investment philosophy and views on portfolio construction, risk management, and manager selection. We then turn to the transformation of NYU's investment office from the ground up across governance, portfolio strategy, investment process, and the team. Along the way, we discuss manager selection, emerging managers, venture capital, hedge funds, AI, stress tests, and what it takes to build an enduring investment organization. Any leader should see for themselves the benefits of elite coaching. Try ALEX: tryalex.admiredleadership.com . Learn more about our Strategic Investments: OWL. Learn More Follow Ted on Twitter at @tseides or LinkedIn Subscribe to the mailing list Access Transcript with Premium Membership Editing and post-production work for this episode was provided by The Podcast Consultant ( ⁠ https://thepodcastconsultant.com ⁠ )",
+      "duration": "01:10:45",
+      "old_score": 44,
+      "old_label": "skip",
+      "qwen": {
+        "id": "3ce37a7aa27f5d6cd05ff20e",
+        "score": 85,
+        "tier": "listen",
+        "reason": "Endowment rebuilding case study with insights on capital allocation, VC, and AI integration.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "7449990d28a99111418f5be4",
+      "show_name": "Odd Lots",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "Branko Milanovic on What Comes After Globalization",
+      "link": "https://omny.fm/shows/odd-lots/branko-milanovic-on-what-comes-after-globalization",
+      "published": "2026-07-27T08:00:00+00:00",
+      "summary": "It's pretty obvious by now that globalization has fallen out of favor. And while many pundits have deemed economic globalism dead, we are still figuring out what to call this new era. Branko Milanovic's chosen phrase is \"national market liberalism,\" a term that sums up how a world once defined by the free movement of capital has begun to contract as the most powerful governments have come to favor mercantilism and nationalism. In his new book, The Great Global Transformation: The United States, China, and the Remaking of the World Economic Order , the famed economist explains what comes after globalization. He talks to us about China's economic evolution, the pressure it has put on elites in the West, and much more. See omnystudio.com/listener for privacy information.",
+      "duration": "3677",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "7449990d28a99111418f5be4",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Discusses post-globalization economic shifts with implications for capital flows and AI geopolitics.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "145d126afbdf39fb717b91cc",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "How Much Money Is Enough? Plus, Why AI Won’t Replace Financial Advisors — with Jack Raines",
+      "link": "",
+      "published": "2026-07-27T08:00:00+00:00",
+      "summary": "Scott Galloway is joined by Jack Raines, writer of the Young Money newsletter and author of Young Money: A Field Guide to Wealth and Purpose in Your Twenties. Scott and Jack discuss what \"enough\" actually means, why the rent-versus-buy math rarely favors buying in the highest-cost cities, and what a financial advisor is really for once AI can place the trades. Want to be featured in a future episode? Send a voice recording to officehours@profgmedia.com, or drop your question in the r/ScottGalloway subreddit. Plus, you can now call or text Scott a question at our new Office Hours hotline: ‪(201) 472-3656‬. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "1390",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "145d126afbdf39fb717b91cc",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Personal finance and AI commentary, light on actionable frameworks or durable insights.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "6ce3b95f2bcb299aaddcb307",
+      "show_name": "The Twenty Minute VC",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "20VC: Leading Anthropic's First Ever Round | Will Open Source Threaten Anthropic's Business | Do Margins Matter in a World of AI | Why Triple, Triple, Double, Double is Not Good Enough Today | Why Series A is Hard Today with Matt Murphy @ Menlo",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-leading-anthropics-first-ever-round-will-open-source-threaten-anthropics-business-do-margins-matter-in-a-world-of-ai-why-triple-triple-double-double-is-not-good-enough-today-why-series-a-is-hard-today-with-matt-murphy-menlo",
+      "published": "2026-07-27T07:07:00+00:00",
+      "summary": "Matt Murphy is a Partner at Menlo Ventures, who just raised $3 billion in fresh capital, its largest pool ever. Matt's portfolio includes Anthropic, Lovable, Legora, OpenRouter, Chai Discovery, Axiom, OpenEvidence and more. AGENDA: 00:00 Why Menlo Broke All Its Investing Rules to Back Anthropic 09:00 Why Ownership Matters Less in an Outlier-Driven Venture Market 13:00 Do We Have an SPV Problem in Venture Today? 20:00 Do Margins Still Matter in AI? 23:00 Why Open Source Won't Derail Anthropic's Growth 26:00 Does Every Model Provider Need to Build Its Own Chips? 29:00 Why Anthropic Is Not a Threat to Legora 32:00 Why Series A Is the Hardest Place to Invest Today 36:00 Why Signalling Is B.S. and Every Fund Is Going Full Stack 42:00 Why Building a Company in Europe Is Hard Mode 47:00 Why Triple-Triple-Double-Double Is No Longer Venture-Scale Growth",
+      "duration": "01:02:34",
+      "old_score": 46,
+      "old_label": "skip",
+      "qwen": {
+        "id": "6ce3b95f2bcb299aaddcb307",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Covers venture dynamics, AI margins, and open-source implications for companies like Anthropic.",
+        "confidence": "medium"
+      }
+    }
+  ]
+}

@@ -4,7 +4,11 @@ Generated from `/opt/data/sessions/` and safe for cloud backup.
 
 ## Sessions
 
-- `20260727_065349_d438a512` | `2026-07-27` | `gpt-5.5` | `telegram` | `Coding 2` | `8` messages | `exports/sessions-redacted/2026/07/20260727_065349_d438a512.md`
+- `cron_d85ba3927717_20260727_210743` | `2026-07-27` | `gpt-5.5` | `cron` | `2` messages | `exports/sessions-redacted/2026/07/cron_d85ba3927717_20260727_210743.md`
+- `cron_d85ba3927717_20260727_130544` | `2026-07-27` | `gpt-5.5` | `cron` | `2` messages | `exports/sessions-redacted/2026/07/cron_d85ba3927717_20260727_130544.md`
+- `20260727_093044_4634bb` | `2026-07-27` | `gpt-5.4-mini` | `cli` | `2` messages | `exports/sessions-redacted/2026/07/20260727_093044_4634bb.md`
+- `20260727_083525_9f8336` | `2026-07-27` | `gpt-5.4-mini` | `telegram` | `180` messages | `exports/sessions-redacted/2026/07/20260727_083525_9f8336.md`
+- `20260727_065349_d438a512` | `2026-07-27` | `gpt-5.5` | `telegram` | `Coding 2` | `24` messages | `exports/sessions-redacted/2026/07/20260727_065349_d438a512.md`
 - `20260725_112226_bc8fcfa5` | `2026-07-27` | `gpt-5.4-mini` | `telegram` | `Coding 1` | `91` messages | `exports/sessions-redacted/2026/07/20260725_112226_bc8fcfa5.md`
 - `20260724_235521_2d4dd2` | `2026-07-27` | `gpt-5.4` | `telegram` | `222` messages | `exports/sessions-redacted/2026/07/20260724_235521_2d4dd2.md`
 - `cron_d85ba3927717_20260726_210615` | `2026-07-26` | `gpt-5.5` | `cron` | `12` messages | `exports/sessions-redacted/2026/07/cron_d85ba3927717_20260726_210615.md`
