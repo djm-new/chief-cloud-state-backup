@@ -30,25 +30,25 @@
     "created_at": "2026-05-27T12:08:01.270884+00:00",
     "created_by": "agent",
     "last_patched_at": "2026-07-25T12:26:26.291067+00:00",
-    "last_used_at": "2026-07-25T12:26:30.973336+00:00",
-    "last_viewed_at": "2026-07-25T12:26:30.964029+00:00",
+    "last_used_at": "2026-07-28T23:51:20.616757+00:00",
+    "last_viewed_at": "2026-07-28T23:51:20.600115+00:00",
     "patch_count": 69,
     "pinned": false,
     "state": "active",
-    "use_count": 66,
-    "view_count": 66
+    "use_count": 67,
+    "view_count": 67
   },
   "daily-business-briefing": {
     "archived_at": null,
     "created_at": "2026-05-26T21:01:01.030914+00:00",
     "created_by": null,
     "last_patched_at": "2026-07-08T22:52:18.462965+00:00",
-    "last_used_at": "2026-07-27T21:07:43.796615+00:00",
+    "last_used_at": "2026-07-28T21:06:52.968479+00:00",
     "last_viewed_at": "2026-07-08T22:52:03.019549+00:00",
     "patch_count": 50,
     "pinned": false,
     "state": "active",
-    "use_count": 143,
+    "use_count": 145,
     "view_count": 38
   },
   "devops/cron-job-design": {
@@ -134,26 +134,26 @@
     "created_at": "2026-06-08T13:35:29.338609+00:00",
     "created_by": "agent",
     "last_patched_at": "2026-07-12T23:02:49.699512+00:00",
-    "last_used_at": "2026-07-25T12:27:04.351964+00:00",
-    "last_viewed_at": "2026-07-25T12:27:04.347298+00:00",
+    "last_used_at": "2026-07-28T23:51:20.645593+00:00",
+    "last_viewed_at": "2026-07-28T23:51:20.624087+00:00",
     "patch_count": 13,
     "pinned": false,
     "state": "active",
-    "use_count": 13,
-    "view_count": 13
+    "use_count": 14,
+    "view_count": 14
   },
   "legal-document-analysis": {
     "archived_at": null,
     "created_at": "2026-05-27T00:38:29.916627+00:00",
     "created_by": "agent",
     "last_patched_at": null,
-    "last_used_at": "2026-07-27T10:38:40.672924+00:00",
-    "last_viewed_at": "2026-07-27T10:38:40.668090+00:00",
+    "last_used_at": "2026-07-28T23:51:20.653814+00:00",
+    "last_viewed_at": "2026-07-28T23:51:20.635358+00:00",
     "patch_count": 0,
     "pinned": false,
     "state": "active",
-    "use_count": 9,
-    "view_count": 9
+    "use_count": 10,
+    "view_count": 10
   },
   "media:podcast-intelligence-digest": {
     "archived_at": null,
@@ -173,13 +173,13 @@
     "created_at": "2026-06-04T16:57:48.542313+00:00",
     "created_by": "agent",
     "last_patched_at": "2026-07-08T21:22:32.245537+00:00",
-    "last_used_at": "2026-07-21T23:36:48.325899+00:00",
-    "last_viewed_at": "2026-07-21T23:36:48.307208+00:00",
+    "last_used_at": "2026-07-28T23:51:20.657707+00:00",
+    "last_viewed_at": "2026-07-28T23:51:20.640176+00:00",
     "patch_count": 81,
     "pinned": false,
     "state": "active",
-    "use_count": 53,
-    "view_count": 53
+    "use_count": 54,
+    "view_count": 54
   },
   "private-review-gallery-apps": {
     "archived_at": null,
@@ -225,13 +225,13 @@
     "created_at": "2026-06-04T15:54:08.698228+00:00",
     "created_by": "agent",
     "last_patched_at": "2026-07-24T21:38:28.746189+00:00",
-    "last_used_at": "2026-07-24T22:58:03.862912+00:00",
-    "last_viewed_at": "2026-07-24T22:58:03.859373+00:00",
+    "last_used_at": "2026-07-28T23:51:20.649927+00:00",
+    "last_viewed_at": "2026-07-28T23:51:20.630268+00:00",
     "patch_count": 77,
     "pinned": false,
     "state": "active",
-    "use_count": 47,
-    "view_count": 47
+    "use_count": 48,
+    "view_count": 48
   },
   "software-development/systematic-debugging": {
     "archived_at": null,
