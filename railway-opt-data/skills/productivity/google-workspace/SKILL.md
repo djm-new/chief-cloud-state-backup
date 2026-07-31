@@ -169,6 +169,24 @@ Should print `AUTHENTICATED`. Setup is complete — token refreshes automaticall
 
 All commands go through the API script. Set `GAPI` as a shorthand:
 
+## Memo / onboarding doc formatting
+
+When the user asks for an onboarding memo, transition doc, or other DJ-facing working document, default to a plain Google Doc style with:
+- title line
+- date subtitle
+- blank spacer
+- `Why this document`
+- `What this role actually is`
+- `Current state` by function
+- `Questions to answer early`
+- `30/60/90 day focus`
+- `Open deliverables`
+- closing note
+
+Keep the doc legible and business-first. Avoid decorative phrasing, over-nesting, or inventing a new structure if the user references an existing memo layout.
+
+See `references/memo-formatting.md` for the canonical shape.
+
 ## Attachment intake
 
 For Slack/Drive documents, prefer an uploaded file, then a Drive share link/file ID, then a Slack message/thread link. If the user only gives sender + topic, use local archives, Slack/email context, or session notes to narrow the candidate document before asking for the direct link.

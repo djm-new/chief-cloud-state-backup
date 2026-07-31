@@ -17,3 +17,5 @@ For review/gallery apps, DJ prefers mobile-first grid (3x3/3x4), green check/red
 Google Workspace scripts should use /opt/data/google-accounts/.venv/bin/python; the system shell has Python 3.13 and no node/npm.
 §
 User prefers onboarding/role docs to drive actual behavior with specific deliverables and cadence, not just polished wording or generic objectives.
+§
+Hermes CLI in this environment is run from /opt/hermes/.venv/bin/hermes, and the live config file is /opt/data/config.yaml with secrets in /opt/data/.env.

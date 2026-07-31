@@ -1013,6 +1013,20 @@ DJ regularly asks "how do I enable/change X in Hermes?" and has corrected vague 
 6. **Copilot 403**: `gh auth login` tokens do NOT work for Copilot API. Use the Copilot-specific OAuth flow via `hermes auth add openai-codex --type oauth --no-browser` (or `hermes auth status openai-codex` / `hermes auth list openai-codex` to verify). 
 7. **"Non-retryable error (HTTP None) — trying fallback" on every turn**: primary model is broken at connection level (not a 4xx). Check `config.yaml` — `model.provider` + `model.default` — and compare against which provider is actually succeeding (check gateway.log for "switching to fallback"). Fix: set `model.provider` and `model.default` to the working fallback provider. The `openai-codex` provider with `model.default: ''` auto-selects `gpt-5.5` and can silently fail on every request if the OAuth token is stale or the model is unavailable. Diagnose by grepping gateway.log for `"defaulting to"` and `"switching to fallback"` on the same turns.
 
+### Hermes feels worse than the browser
+When the user says Hermes is broadly dumber than the browser or another direct chat surface, do a live-config audit before blaming the base model.
+
+1. Run `hermes config` and `hermes config path` to inspect the active config, not the stale mental model of it.
+2. Check the live main-chat model (`model.default` + `model.provider`) and confirm it is really the intended strongest route.
+3. Check for quality distorting knobs:
+   - `display.personality` (avoid cute/novelty personas for serious work)
+   - `compression.enabled` / `compression.threshold` / `compression.protect_last_n`
+   - any hidden helper models that can shape titles, compression, search, or triage
+4. Re-test in a fresh session after changes, because config changes do not reliably affect the current turn.
+5. If Hermes still loses, compare the exact same prompt in a new session and inspect gateway logs for fallback or compression events around the turn.
+
+Reference checklist: `references/quality-diagnostics.md`.
+
 ### Changes not taking effect
 - **Tools/skills:** `/reset` starts a new session with updated toolset
 - **Config changes:** In gateway: `/restart`. In CLI: exit and relaunch.

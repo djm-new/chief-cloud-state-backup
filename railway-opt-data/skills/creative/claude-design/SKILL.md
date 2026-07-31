@@ -307,6 +307,18 @@ Use 1–2 background colors max unless the brand system requires more.
 
 Keep slides sparse. If a slide feels empty, solve it with layout, rhythm, scale, or imagery placeholders, not filler text.
 
+### Mobile delivery for decks
+
+If the user will view the deck in chat/mobile, do not assume an attached HTML file is usable. Provide a phone-viewable rendered preview in addition to the source artifact when possible:
+
+- a contact sheet PNG for immediate visual scanning
+- an MP4 or image sequence/PDF when the platform previews those natively
+- the original HTML/source file as the editable artifact
+
+When creating the mobile preview, preserve the intended aspect ratio unless the user specifically wants portrait. Do not squeeze a 16:9 deck into a portrait video by default. Prefer a 16:9 MP4/contact sheet that matches the deck, or redesign intentionally for portrait as a separate format.
+
+Before sending the mobile preview, inspect the rendered pixels for clipping, overlap, and legibility. File metadata alone is not enough.
+
 ## Prototype Rules
 
 For interactive prototypes:
@@ -547,6 +559,20 @@ Better:
 - test key interactions
 - test light/dark or variants if present
 - test responsive breakpoints if relevant
+
+### Visual-artifact inspection is mandatory when producing previews
+
+If you generate a visual deliverable or preview image/video/PDF/contact sheet, do **not** rely only on structural checks like file existence, byte count, slide count, or ffprobe metadata. Actually inspect the rendered output before sending it.
+
+For decks and graphic-heavy artifacts:
+
+1. Render or export a contact sheet / representative screenshot when possible.
+2. Inspect it visually with available vision tools or browser screenshot tools.
+3. Check specifically for: clipped titles, text overflow, overlapping graphics, illegible small copy, awkward composition, crude/unintentional-looking illustrations, and mobile readability.
+4. If anything looks bad, fix and re-render before reporting completion.
+5. Only say visual quality was verified if you actually inspected pixels, not just markup or metadata.
+
+User-facing implication: if the user asks for a designed deck, a phone-viewable preview, or any visual style (e.g. “crayon drawings”), the agent must look at the graphics before claiming the result is ready. A structurally valid but ugly or clipped visual artifact is a failed deliverable.
 
 If verification is limited by environment, say exactly what was and was not verified.
 

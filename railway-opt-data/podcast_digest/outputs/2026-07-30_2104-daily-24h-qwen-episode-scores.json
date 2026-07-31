@@ -1,0 +1,311 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-07-30_2104",
+  "usage": {
+    "prompt_tokens": 5000,
+    "completion_tokens": 1117,
+    "total_tokens": 6117
+  },
+  "episodes": [
+    {
+      "id": "0290f9806ce91f182255c1f0",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Instant Reaction: Amazon Reports Cloud Sales Growth for Fifth Straight Quarter",
+      "link": "https://omny.fm/shows/the-tape/instant-reaction-amazon-reports-cloud-sales-growth-for-fifth-straight-quarter",
+      "published": "2026-07-30T20:48:41+00:00",
+      "summary": "Amazon.com reported cloud-computing revenue that beat analyst estimates, with booming demand for artificial intelligence services accelerating sales for the fifth straight quarter. Revenue jumped 37% to $42.2 billion at Amazon Web Services, which generates about a fifth of the company’s revenue and most of its operating profit, the company said Thursday in a statement. It was the fastest pace of growth since the fourth quarter of 2021. Analysts, on average, forecast sales of $40.6 billion, according to data compiled by Bloomberg. For instant reaction and analysis, Bloomberg Businessweek Daily hosts Carol Massar and Tim Stenovec speak with: Ed Ludlow, Bloomberg Tech co-host Poonam Goyal, Bloomberg Intelligence Senior Analyst for E-Commerce and Athleisure Anurag Rana, Bloomberg Intelligence Senior Technology Analyst See omnystudio.com/listener for privacy information.",
+      "duration": "1090",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "0290f9806ce91f182255c1f0",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Amazon AWS growth signals AI adoption trends with implications for cloud and enterprise strategy.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "a964d60ef5f58f3b667c8f98",
+      "show_name": "The Cognitive Revolution",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Is Offense or Defense Dominant? FAR.AI's Adam Gleave on the AI Security Leaderboard",
+      "link": "https://www.cognitiverevolution.ai/is-offense-or-defense-dominant-far-ai-s-adam-gleave-on-the-ai-security-leaderboard/",
+      "published": "2026-07-30T20:42:48+00:00",
+      "summary": "FAR.AI co-founder and CEO Adam Gleave joins Nathan to discuss FAR.AI’s AI Security Leaderboard, the first systematic head-to-head evaluation of the misuse safeguards frontier developers actually ship. The findings expose a major measurement gap: while Claude Fable 5 and GPT-5.6 Sol withstood FAR.AI’s suite, Grok 4.5 and Gemini 3.1 Pro yielded hundreds of universal jailbreaks at low cost. Adam explains why many effective attacks look more like social engineering than advanced ML, why “jailbreak tax” should not be relied on for safety, and how FAR.AI scores whether a model is genuinely helping an attacker. The episode’s stakes are whether AI developers can measure and harden real deployed defenses before threat actors make routine use of increasingly capable systems. - FAR.AI AI Security Leaderboard: http://leaderboard.far.ai/ - People can e-mail owsa@far.ai if they're interested in the open-weight safety accelerator grantmaking program. For full show notes, links, and references, read the episode page:https://www.cognitiverevolution.ai/is-offense-or-defense-dominant-far-ai-s-adam-gleave-on-the-ai-security-leaderboard/ Sponsor: Claude: Claude by Anthropic is an AI collaborator that understands your workflow and helps you tackle research, writing, coding, and organization with deep context. Get started with Claude and explore Claude Pro at https://claude.ai/tcr CHAPTERS: (00:00) About the Episode (03:22) AI security leaderboard (07:56) Universal jailbreaks explained (16:26) Finding social jailbreaks (Part 1) (16:31) Sponsor: Claude (18:01) Finding social jailbreaks (Part 2) (30:48) Layered safeguard defenses (42:25) Uneven frontier safeguards (51:10) Sharing safety standards (01:00:30) Offense versus defense (01:08:50) Open-weight model safety (01:17:25) Control failure warnings (01:30:05) Coordination and risk (01:39:24) Episode Outro (01:42:52) Outro PRODUCED BY: https://aipodcast.ing SOCIAL LINKS: Website: https://www.cognitiverevolution.ai Twitter (Podcast): https://x.com/cogrev_podcast Twitter (Nathan): https://x.com/labenz LinkedIn: https://linkedin.com/in/nathanlabenz/ Youtube: https://youtube.com/@CognitiveRevolutionPodcast Apple: https://podcasts.apple.com/de/podcast/the-cognitive-revolution-ai-builders-researchers-and/id1669813431 Spotify: https://open.spotify.com/show/6yHyok3M3BjqzR0VB5MSyk",
+      "duration": "6267",
+      "old_score": 41,
+      "old_label": "skip",
+      "qwen": {
+        "id": "a964d60ef5f58f3b667c8f98",
+        "score": 90,
+        "tier": "listen",
+        "reason": "FAR.AI's security leaderboard reveals critical AI safety gaps and real-world model vulnerabilities.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "11c69be49fde69b7e5d7d327",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Meta's Oversight Board is coming for ChatGPT and Claude",
+      "link": "",
+      "published": "2026-07-30T18:39:00+00:00",
+      "summary": "A new study from the Oversight Board found that leading AI systems are less likely to criticize authoritarian governments than democratic ones. It's a wild finding — but wait? Why is the Oversight Board studying systems from OpenAI and Anthropic in the first place? Suzanne Nossel, who sits on the board, joined us to discuss the findings and why the Oversight Board's future might involve looking at more than just Meta. Further reading: Zoox can now charge for rides in its steering-wheel-free robotaxis Spotify Running Mode helps match tunes to tempo Friend re-launches its AI pendant with a speaker that talks to you, for twice the price ⁠How Facebook undercut the Oversight Board⁠ Subscribe to The Verge for unlimited access to theverge.com, subscriber-exclusive newsletters, and our ad-free podcast feed.We love hearing from you! Email your questions and thoughts to vergecast@theverge.com or call us at 866-VERGE11. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "2273",
+      "old_score": 28,
+      "old_label": "skip",
+      "qwen": {
+        "id": "11c69be49fde69b7e5d7d327",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Meta Oversight Board study raises geopolitical implications for AI content moderation.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "0cb0e83dbf5c9adee4c3d351",
+      "show_name": "Eye on AI",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Real AI Transformation Costs HALF of Everyone's Salary for 2 Years | Chris Blackburn, Liatrio",
+      "link": "https://aneyeonai.libsyn.com/real-ai-transformation-costs-half-of-everyones-salary-for-2-years-chris-blackburn-liatrio",
+      "published": "2026-07-30T17:00:00+00:00",
+      "summary": "Most companies think they're transforming with AI. They're not, and the gap between what they believe and what's actually happening on the ground is costing them far more than they realize. In this episode, Craig Smith sits down with Chris Blackburn, founder and CEO of Liatrio, a consultancy that has spent a decade embedding directly inside large enterprises to help them actually change how they work, not just what tools they use. The conversation opens with a striking data point: the average enterprise Blackburn works with operates at just 5 to 6% efficiency, meaning employees spend only three to three-and-a-half hours per week on work that genuinely creates value, compared to Toyota's benchmark of 70%. The core argument is that AI is being applied to the wrong part of the problem: individual productivity gains don't flow through to the bottom line if the organizational system around the individual - the approvals, handoffs, bureaucracy, and middle management layers - stays exactly the same. Blackburn introduces a concept he calls \"strangling the enterprise\": rather than trying to transform a 5,500-person organization all at once, build a small, low-bureaucracy unit inside it that operates with radical autonomy, proves the model works, and expands outward. The episode closes with a frank conversation about what real transformation actually costs: roughly half of total compensation spend across the organization, sustained for two years, a number Blackburn describes as \"absolutely insane\" and one he believes most CFOs aren't yet prepared to confront. Key Topics Covered: ● Why the average enterprise operates at 5-6% efficiency, and what Toyota's 70% benchmark reveals about the scale of the opportunity AI could unlock ● The critical distinction between individual productivity gains and system-level improvement, and why saving an hour doesn't automatically improve the bottom line ● \"Strangle the enterprise\": how to build a small, autonomous AI-native unit inside a large organization rather than trying to transform the whole thing at once ● Why most CEOs are dangerously disconnected from the actual work being done, and what McKinsey says about how much time they should be spending on transformation ● What AI transformation actually costs: roughly half of total compensation spend, sustained over two years, and why most CFOs aren't ready for that number ● Why AI isn't just changing jobs but changing life - from shorter work weeks to longer health spans - and what the farming analogy reveals about how slowly societies absorb new productivity As enterprises pour money into AI tools while reporting little bottom-line impact, this conversation offers the most operationally honest account available of why that gap exists, and what organizations that actually want to close it need to be willing to do differently. Subscribe to Eye on A.I. for weekly conversations with the people building and deploying the future of AI. Craig Smith on X: https://x.com/craigss EYE On A.I. on X: https://x.com/EyeOn_AI Connect with Chris Blackburn LinkedIn: https://www.linkedin.com/in/chrisblackburn",
+      "duration": "01:05:38",
+      "old_score": 32,
+      "old_label": "skip",
+      "qwen": {
+        "id": "0cb0e83dbf5c9adee4c3d351",
+        "score": 85,
+        "tier": "listen",
+        "reason": "Liatrio CEO reveals systemic inefficiencies in enterprise AI transformation and true cost implications.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "d13afac8ccf7f79842c1df1c",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: July 30th, 2026",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-july-30th-2026",
+      "published": "2026-07-30T16:00:00+00:00",
+      "summary": "Featuring: Barbara Reinhard, CIO: Multi Asset Strategies & Solutions at Voya Investment Management Paul Sankey, Founder of Sankey Research James Bullard, Dean of Purdue University Business School & Former St. Louis Fed President See omnystudio.com/listener for privacy information.",
+      "duration": "1125",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "d13afac8ccf7f79842c1df1c",
+        "score": 50,
+        "tier": "scan",
+        "reason": "General market commentary with limited actionable insight or AI focus.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "13fa716f63e72ad1cb17a720",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Reacting to PCE, GDP, and Kevin Warsh",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/reacting-to-pce-gdp-and-kevin-warsh",
+      "published": "2026-07-30T13:46:55+00:00",
+      "summary": "The latest in finance, economics and investment. Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF . Bloomberg Surveillance hosted by Tom Keene & Paul SweeneyThursday July 30, 2026 Featuring: 1) Tani Fukui, Senior Director of Economic & Market Strategy at MetLife Investment Management, Andrew Szczurowski, Senior Fixed Income Portfolio Manager at Morgan Stanley Investment Management, and Seema Shah, Chief Global Strategist at Principal Asset Management, react to today's inflation data and Fed Chair Kevin Warsh's press conference yesterday. 2) Paul Sankey, founder at Sankey Research, talks about the Houthi v. Saudi escalation and how it's affecting energy, and why everyone's focused on the wrong oil price. 3) Gil Luria, Head: Technology Research at DA Davidson & Co., breaks down Meta and Microsoft earnings and previews Amazon and Apple. 4) Sophia Drossos, Economist at Point72, talks about whether the Fed's in wait and see mode and if less Fed speak is sustainable. See omnystudio.com/listener for privacy information.",
+      "duration": "2543",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "13fa716f63e72ad1cb17a720",
+        "score": 70,
+        "tier": "digest",
+        "reason": "PCE and GDP data reaction offers macroeconomic context relevant to capital allocation decisions.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "7a795abecb71b18019eb0c5d",
+      "show_name": "Infinite Loops",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Nat Eliason - The High School That Guarantees You'll Make $1 Million (Ep. 325)",
+      "link": "https://infiniteloopspodcast.com/325",
+      "published": "2026-07-30T12:00:00+00:00",
+      "summary": "Nat Eliason joins guest host Jimmy Soni to discuss Founders School, a new high school for entrepreneurs that guarantees students will generate $1 million in gross profit by graduation or get their tuition refunded. We explore how AI is changing what teenagers can build, why traditional entrepreneurship education falls short, and what happens when we take young people seriously. Important Links: Learn more about Founders School: https://founders.school/ Read more from Nat here: https://www.nateliason.com/",
+      "duration": "01:36:38",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "7a795abecb71b18019eb0c5d",
+        "score": 60,
+        "tier": "scan",
+        "reason": "Founders School concept is interesting but speculative and light on durable frameworks.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "077d3472234a103c4b2538c7",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "AI for America's Small Businesses | Lassie",
+      "link": "https://a16z.simplecast.com/episodes/ai-for-americas-small-businesses-lassie-bwImYMRh",
+      "published": "2026-07-30T10:00:00+00:00",
+      "summary": "Alex Rampell and Olivia Moore speak with Lassie cofounders Steijn Pelle and Frédéric Renken about bringing AI to one of the most overlooked parts of the economy: small businesses. Inspired by time spent working inside dental practices, Pelle and Renken set out to automate the administrative work that keeps healthcare providers away from patients. They discuss how AI agents are changing billing, insurance claims, patient payments, and other operational workflows, allowing practices to spend less time on paperwork and more time delivering care. The conversation explores AI agents, software that performs work rather than simply storing information, onboarding AI into real-world businesses, and why healthcare administration offers one of the biggest opportunities for automation. Along the way, they discuss product design, go-to-market strategy, and what it takes to build AI systems that operate reliably in complex business environments. Resources: Follow Steijn Pelle on X: https://x.com/steijnpelle Follow Frédéric Renken on X: https://x.com/fredericrenken Follow Alex Rampell on X: https://x.com/arampell Follow Olivia Moore on X: https://x.com/omooretweets Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:58:58",
+      "old_score": 49,
+      "old_label": "skip",
+      "qwen": {
+        "id": "077d3472234a103c4b2538c7",
+        "score": 80,
+        "tier": "digest",
+        "reason": "Lassie cofounders discuss practical AI applications in small business and healthcare workflows.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "af0b4b8faf6c9ef19f5e3432",
+      "show_name": "Decoder with Nilay Patel",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "The end of the human internet",
+      "link": "",
+      "published": "2026-07-30T09:00:00+00:00",
+      "summary": "Hey everyone, this is Nick Statt, senior producer on Decoder. We’re taking a brief publishing break while Nilay is out on vacation. We’ll resume regular programming next week, and we’ve got some great episodes in the works. In the meantime, we wanted to share an episode from the excellent podcast The Gray Area, with host Sean Illing. In this one, Sean sat down with The Atlantic journalist Charlie Warzel to talk specifically about the state of the internet in 2026 — and what it means that it feels increasingly overrun by non-human actors. Links: The Gray Area with Sean Illing | Apple Podcasts Galaxy Brain | The Atlantic The internet is all bots now | The Gray Area (YouTube) The feeling of control slipping away | The Atlantic How much of the internet is fake? Turns out, a lot of it, actually| New York Magazine How bots took over our lives | The New Yorker The ‘dead internet theory’ is real — and it’s killing the web | Fast Company The fanfare around the band Geese actually was a psyop | Wired Credits: Decoder is a production of The Verge and part of the Vox Media Podcast Network. Decoder is produced by Kate Cox and Nick Statt and edited by Ursa Wright. Our editorial director is Kevin McShane. The Decoder music is by Breakmaster Cylinder. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "2584",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "af0b4b8faf6c9ef19f5e3432",
+        "score": 55,
+        "tier": "scan",
+        "reason": "Substitute episode on internet botification lacks direct AI platform or business model insight.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "a88abede4c44de42ab747d85",
+      "show_name": "Masters of Scale",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "How to beef up your business, with ButcherBox CEO Mike Salguero",
+      "link": "",
+      "published": "2026-07-30T09:00:00+00:00",
+      "summary": "After his first VC-backed business flopped, ButcherBox CEO and founder Mike Salguero turned lessons learned the hard way into the fuel that built his subscription meat delivery business. Salguero joined host Jeff Berman to reveal how a blend of clean ingredients, clever marketing, and hiring for grit helped him scale into a business that’s now making more than $600M a year and expanding into retail nationwide. Subscribe to the Masters of Scale weekly newsletter: https://mastersofscale.com/subscribe See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info .",
+      "duration": "00:35:44",
+      "old_score": 32,
+      "old_label": "skip",
+      "qwen": {
+        "id": "a88abede4c44de42ab747d85",
+        "score": 65,
+        "tier": "digest",
+        "reason": "ButcherBox CEO shares operational lessons in scaling a consumer business with grit and marketing.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "f80f6265e703f063bfee543c",
+      "show_name": "Capital Allocators",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Building Durable Real Estate Portfolios at Morgan Stanley – Lauren Hochfelder (EP.514)",
+      "link": "https://tedseides.libsyn.com/building-durable-real-estate-portfolios-at-morgan-stanley-lauren-hochfelder-ep514",
+      "published": "2026-07-30T08:00:00+00:00",
+      "summary": "Lauren Hochfelder is Head of Global Real Assets at Morgan Stanley, where she oversees a team of 300 investment professionals across 13 countries, managing $80 billion across real estate, infrastructure, equity and credit. Lauren joined Morgan Stanley as an investment banking analyst directly out of Yale 26 years ago and has spent her entire career at the firm, helping build one of the industry's leading platforms. Our conversation traces Lauren's journey from analyst to Global Head and the evolution of Morgan Stanley's real estate business before, during, and after the Global Financial Crisis. We cover the firm's thematic approach to investing behind structural demand tailwinds, combination of global perspectives and on-the-ground teams, operational improvements to assets, portfolio construction, and themes across industrial real estate and infrastructure, senior housing, and net lease properties. We also touch on riskier areas of real estate and Lauren's new role adding infrastructure to her real estate oversight. Learn More Follow Ted on Twitter at @tseides or LinkedIn Subscribe to the mailing list Access Transcript with Premium Membership Editing and post-production work for this episode was provided by The Podcast Consultant ( ⁠ https://thepodcastconsultant.com ⁠ )",
+      "duration": "44:37",
+      "old_score": 52,
+      "old_label": "skip",
+      "qwen": {
+        "id": "f80f6265e703f063bfee543c",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Morgan Stanley real estate head discusses durable portfolio construction and infrastructure themes.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "f6d3e7f65b4de92fd8b63dcd",
+      "show_name": "Odd Lots",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "How the Iranian Economy Actually Works",
+      "link": "https://omny.fm/shows/odd-lots/how-the-iranian-economy-actually-works",
+      "published": "2026-07-30T08:00:00+00:00",
+      "summary": "After the Iranian Revolution of 1979, the country's new leaders — religious and political — promised to redistribute the country's wealth and made moves to make Iran independent from western influence and business interests. In the decades since, Iran's economy completely transformed, and it is closer to what Yeganeh Torbati and Bozorgmehr Sharafedin describe as a \"mafia state,\" where fealty to various factions is baked into the country's political economy. In their new book Stolen Revolution: Betrayal and Hope in Modern Iran they trace the massive changes Iran's political economy has undergone since the revolution, and they speak to us today about this history, how average Iranians navigate everyday cronyism, how Iranian leaders treated the country's burgeoning tech sector, and why the recent peace talks might not change all that much about how the country's economy currently operates. Read more: A New Age of Missiles Reshapes Battlefields Around The World US War With Iran Set to Drag On for Months Over Hormuz Deadlock Only http://Bloomberg.com subscribers can get the Odd Lots newsletter in their inbox each week, plus unlimited access to the site and app. Subscribe at bloomberg.com/subscriptions/oddlots Subscribe to the Odd Lots Newsletter Join the conversation: discord.gg/oddlots See omnystudio.com/listener for privacy information.",
+      "duration": "3446",
+      "old_score": 0,
+      "old_label": "skip",
+      "qwen": {
+        "id": "f6d3e7f65b4de92fd8b63dcd",
+        "score": 60,
+        "tier": "scan",
+        "reason": "Iranian economy analysis offers geopolitical context but limited direct market read.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "164b36db6b91e9bc16643b3d",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "The New Rules of Money in Your 20s — with Jack Raines",
+      "link": "",
+      "published": "2026-07-30T08:00:00+00:00",
+      "summary": "Scott Galloway speaks with Jack Raines, author of Young Money: A Field Guide to Wealth and Purpose in Your 20s, about why young people may be over-optimizing for retirement at the expense of actually living. Subscribe to Prof G+ to join our next livestream at profgmedia.com. And if you're not already reading Jack’s work, check out his Substack. Pre-order his book, Young Money, here. Algebra of Happiness: Start writing. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "3008",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "164b36db6b91e9bc16643b3d",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Personal finance advice for 20-somethings lacks capital allocation or AI relevance.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "e3ad25d1257d4295c6873073",
+      "show_name": "The Twenty Minute VC",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "20VC: Jensen's Open-Weights Letter | Travis Kalanick Raises $1.7B for Atoms | Google Cloud Grows 82% But The Market Tanks | Francisco Partners Raises $21BN | Etched Raises $300M to Take on Nvidia",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-jensens-open-weights-letter-travis-kalanick-raises-17b-for-atoms-google-cloud-grows-82-but-the-market-tanks-francisco-partners-raises-21bn-etched-raises-300m-to-take-on-nvidia",
+      "published": "2026-07-30T07:07:00+00:00",
+      "summary": "AGENDA: 05:00 Jensen's Open-Weights Letter Puts Anthropic on an Island 10:00 OpenAI's Model Targets Hugging Face in a Cyber-Security Scare 18:00 America's Open-Model Push Accelerates as China Looms Large 30:00 Etched Raises $300M to Take on Nvidia 34:00 Google Cloud Grows 82%—So Why Did the Market Panic? 41:00 Travis Kalanick Raises $1.7B for Atoms and Physical AI 51:00 Francisco Partners Raises $21B: Can Private Equity Still Save SaaS? 1:00:00 Mark Pincus Says Quit When It's Too Hard—Jason Lemkin Erupts 1:07:00 Stripe vs Revolut: Which $100B+ Fintech Would You Own?",
+      "duration": "01:17:30",
+      "old_score": 46,
+      "old_label": "skip",
+      "qwen": {
+        "id": "e3ad25d1257d4295c6873073",
+        "score": 70,
+        "tier": "digest",
+        "reason": "VC news and market updates offer context on funding trends and AI infrastructure competition.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ebbafb43e35c5e259a6b13dd",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Earnings Roundup: Meta, Microsoft & Qualcomm",
+      "link": "https://omny.fm/shows/the-tape/earnings-roundup-meta-microsoft-qualcomm",
+      "published": "2026-07-29T21:15:37+00:00",
+      "summary": "Listen for instant reaction and analysis of megacap tech earnings from Meta, Microsoft and Qualcomm. Meta Platforms gave a disappointing revenue forecast for the current quarter, intensifying investor concerns about the social media giant’s unprecedented spending on artificial intelligence and sending shares lower afterhours. Microsoft’s cloud unit grew at the fastest pace in four years, suggesting that the company’s computing infrastructure and artificial intelligence services continue to make inroads with businesses. Shares of Microsoft rose in extended trading. Qualcomm, the largest maker of smartphone processors, gave a weak profit forecast for the current quarter, signaling that component shortages and rising costs are taking a toll on its main market. The company’s stock fell afterhours. To break down all of this, Bloomberg Businessweek Daily hosts Carol Massar and Tim Stenovec speak with: Ed Ludlow, Host, Bloomberg Tech Mandeep Singh, Global Head of Technology Research, Bloomberg Intelligence See omnystudio.com/listener for privacy information.",
+      "duration": "1060",
+      "old_score": 28,
+      "old_label": "skip",
+      "qwen": {
+        "id": "ebbafb43e35c5e259a6b13dd",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Meta and Microsoft earnings reactions highlight AI investment and cloud growth dynamics.",
+        "confidence": "high"
+      }
+    }
+  ]
+}
