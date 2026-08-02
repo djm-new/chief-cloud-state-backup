@@ -1,0 +1,131 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-08-01_2103",
+  "usage": {
+    "prompt_tokens": 2466,
+    "completion_tokens": 492,
+    "total_tokens": 2958
+  },
+  "episodes": [
+    {
+      "id": "1fb7e64c3cedcf6d9b9ea4fe",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Marc Andreessen and Chris Dixon: What’s at Stake in Crypto Regulation",
+      "link": "https://a16z.simplecast.com/episodes/marc-andreessen-and-chris-dixon-whats-at-stake-in-crypto-regulation-2sleSszn",
+      "published": "2026-08-01T15:38:28+00:00",
+      "summary": "Marc Andreessen, Chris Dixon, and Robert Hackett discuss one of the most consequential policy debates facing the crypto industry: the push for comprehensive U.S. market structure legislation and what regulatory clarity could mean for innovation, financial markets, and America's technological leadership. They explore the CLARITY Act, stablecoins, securities law, consumer protection, and why both builders and financial institutions are calling for clear rules of the road. Along the way, they discuss the lessons of the early internet, FTX, open financial networks, and why they believe thoughtful regulation can strengthen innovation rather than slow it down. Resources: Follow Marc Andreessen on X: https://x.com/pmarca Follow Chris Dixon on X: https://x.com/cdixon Follow Robert Hackett on X: https://x.com/rhackett Follow a16z Crypto on X: https://x.com/a16zcrypto Why Bitcoin matters: https://a16z.com/why-bitcoin-matters/ What builders need to know about the CLARITY Act: https://a16zcrypto.com/posts/article/clarity-act-what-why-matters Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:59:55",
+      "old_score": 70,
+      "old_label": "digest_only",
+      "qwen": {
+        "id": "1fb7e64c3cedcf6d9b9ea4fe",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Discusses crypto regulation implications for innovation and financial markets, relevant for capital allocation context.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "3a5b9825d01670530b9a834b",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "No Mercy / No Malice: Shoulders of Giants",
+      "link": "",
+      "published": "2026-08-01T08:02:00+00:00",
+      "summary": "As read by George Hahn. https://www.profgmedia.com/p/shoulders-of-giants Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "998",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "3a5b9825d01670530b9a834b",
+        "score": 40,
+        "tier": "scan",
+        "reason": "Short read-style format; lacks depth on actionable frameworks or market insights DJ prioritizes.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "131ae5e64f81480403f1fc7c",
+      "show_name": "The Twenty Minute VC",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "20VC: The Best AI Companies Have Unique Data Acquisition Strategies | Will Simile Kill Kalshi, Polymarkets and NASDAQ | How to Sign Fortune 500 Companies As Customers in Weeks with Joon Sung Park, Simile",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-the-best-ai-companies-have-unique-data-acquisition-strategies-will-simile-kill-kalshi-polymarkets-and-nasdaq-how-to-sign-fortune-500-companies-as-customers-in-weeks-with-joon-sung-park-simile",
+      "published": "2026-08-01T07:07:00+00:00",
+      "summary": "Joon Sung Park is the Founder and CEO of Simile, the AI simulation company building foundation models of human behaviour; allowing companies to test how real people may think, decide and act before making a decision in the real world. Simile has now raised $300 million in total, including a $200 million Series B announced last week at a $2 billion valuation, led by Greenoaks and Index Ventures. AGENDA: 00:00 We Will Pay $100M for a Single Query on Some Models 10:00 Why Stock Markets May Not Exist in 5 Years Time 15:00 The Best Companies All Have Unique Data Acquisition Strategies 19:00 The Best AI Companies Have Clear and Fast Reward Functions 24:00 How We Sign Fortune 500 Companies for $10M Contracts in Weeks 32:00 Does Similie Kill Kalshi and Polymarket? Prediction vs Changing the Future 42:00 Inside Similie's $300M Raise; What Every Founder Needs to Know",
+      "duration": "01:03:41",
+      "old_score": 38,
+      "old_label": "skip",
+      "qwen": {
+        "id": "131ae5e64f81480403f1fc7c",
+        "score": 85,
+        "tier": "listen",
+        "reason": "CEO discusses AI simulation, data acquisition strategies, and Fortune 500 sales tactics; directly relevant to DJ's focus areas.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "1c04e20abed2f15769fffcb3",
+      "show_name": "The James Altucher Show",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Perfect Is Boring: Tyra Banks and Carolyn London [From the Archive]",
+      "link": "https://art19.com/shows/the-james-altucher-pod/episodes/c8b35255-99fa-4ab0-95b5-e5f4a246efae",
+      "published": "2026-08-01T07:00:00+00:00",
+      "summary": "Episode Description: This From the Archive episode features Tyra Banks and her mother, Carolyn London, in a conversation about beauty, business, motherhood, reinvention, and the power of not trying to be perfect. There is no “A Note from James” section for this episode. James begins by explaining why America’s Next Top Model mattered to him as a father. He watched the show with his daughters, and what stood out was not just modeling or fashion. It was the way Tyra taught that success depended on personality, presence, charisma, preparation, and knowing how to use what made you different. Tyra and Carolyn discuss their book Perfect Is Boring , which grew out of the raw, funny, and sometimes embarrassing conversations Carolyn had with Tyra throughout her life. Carolyn did not want Tyra to enter adulthood ignorant, ashamed, or unprepared. That meant frank talks about sex, periods, modeling, business, self-worth, and how to handle a world that would constantly try to define her. A major theme of the conversation is preparation. When Tyra chose Paris Fashion Week over college, Carolyn told her that the choice was hers—but if she was going to model, she had to treat it like a business. She had to study designers the way she had studied for the SAT. She had to understand the industry, the clients, the aesthetics, and the opportunities before she got on the plane. That preparation became one of Tyra’s biggest advantages. She explains how she studied Chanel, Yves Saint Laurent, Dior, and other designers, adjusting her look and walk from audition to audition. She later used the same strategic mindset when high-fashion clients criticized her body and told her to lose weight. Instead of starving herself, she and Carolyn sat down over pizza and made a list of clients and models who embraced a curvier, more commercial look. That list changed her career. Tyra also talks about becoming the first Black model to achieve several milestones at Victoria’s Secret, and how one early failure came not from her lack of ability, but from a hairdresser who did not know how to work with Black hair. A year later, she took control of the situation, prepared her own hair, fought for another chance, and rebuilt that opportunity on her terms. The conversation then moves into television. Tyra explains how America’s Next Top Model came to her as a blend of American Idol and The Real World , set inside the modeling industry. Her agent dismissed the idea, but Tyra found another path, worked with Kenya Barris and Ken Mok, and became deeply involved in producing and editing the show. Finally, Tyra reflects on success, burnout, delegation, motherhood, and legacy. At the height of her career, she was on magazine covers, running shows, and being recognized as one of the most influential people in the world—but she says she was also at the bottom of her spirit. Today, success means something different: building things that outlive her and continue expanding the definition of beauty long after people remember who created them. Editorial Note: This is a From the Archive episode. References to Tyra’s projects, America’s Next Top Model , her cosmetics company, future business plans, and her daily schedule reflect the original recording period. The book’s official subtitle is 10 Things My Crazy, Fierce Mama Taught Me About Beauty, Booty, and Being a Boss . What You’ll Learn: Why Carolyn London’s honesty became one of Tyra’s greatest advantages. How Tyra learned to treat modeling as a business, not just a talent contest. Why preparation beat natural beauty in Tyra’s first Paris Fashion Week season. How Tyra and Carolyn turned body criticism into a career pivot. Why “perfect is boring” became both a beauty philosophy and a business strategy. How Tyra’s “fierce, funny, heart” filter helps her decide what to say yes to. Why success without balance left Tyra “at the bottom of her spirit.” How Tyra learned to delegate instead of fixing everything herself. Why America’s Next Top Mo",
+      "duration": "00:55:22",
+      "old_score": 36,
+      "old_label": "skip",
+      "qwen": {
+        "id": "1c04e20abed2f15769fffcb3",
+        "score": 30,
+        "tier": "skip",
+        "reason": "Focuses on beauty, motherhood, and reinvention; off-topic for DJ's professional and market-oriented priorities.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "b4b63d9ec7219c748ff5c9aa",
+      "show_name": "People I Mostly Admire",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "33. Travis Tygart Is Coming for Cheaters — Just Ask Lance Armstrong",
+      "link": "https://www.siriusxm.com",
+      "published": "2026-08-01T00:00:00+00:00",
+      "summary": "He’s the C.E.O. of the United States Anti-Doping Agency (USADA), which, under his charge, exposed the most celebrated American cyclist as a cheater. And Steve’s been studying cheaters for the last 25 years, so he’s also excited to talk to Travis about the incentives to cheat and the advances in testing technology — and offers his services as an anti-doping data detective for the sport of horse racing. This episode originally aired on June 25th, 2021. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:45:10",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "b4b63d9ec7219c748ff5c9aa",
+        "score": 35,
+        "tier": "scan",
+        "reason": "Anti-doping and cheating incentives; niche context, low relevance to AI, capital allocation, or durable frameworks.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "69a761570ab793487e49529e",
+      "show_name": "All-In Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Chip Stocks Crash, $20B Fund Margin Called, Frontier Labs: SLOW DOWN AI, Mamdani's Grocery Stores",
+      "link": "https://allinchamathjason.libsyn.com/chip-stocks-crash-20b-fund-margin-called-frontier-labs-slow-down-ai-mamdanis-grocery-stores",
+      "published": "2026-07-31T22:23:00+00:00",
+      "summary": "(0:00) Bestie intros (1:19) Chip stocks crash, Leopold Aschenbrenner's $20B fund gets margin called (20:20) China's advantage and green shoots for the US economy (34:12) Frontier Labs say \"SLOW DOWN AI\" (1:01:15) Why are frontier labs \"burning books\"? (1:14:45) Socialism Corner: Mamdani's grocery stores and the \"Socialist Spectacle\" (1:24:44) Science Corner: Understanding and mapping the brain Apply for All-In Summit 2026: https://allin.com/events Follow the besties: https://x.com/chamath https://x.com/Jason https://x.com/DavidSacks https://x.com/friedberg Follow on X: https://x.com/theallinpod Follow on Instagram: https://www.instagram.com/theallinpod Follow on TikTok: https://www.tiktok.com/@allin Follow on LinkedIn: https://www.linkedin.com/company/allinpod Intro Music Credit: https://rb.gy/tppkzl https://x.com/yung_spielburg Intro Video Credit: https://x.com/TheZachEffect Referenced in the show: https://www.cnbc.com/2026/07/30/leopold-aschenbrenners-hedge-fund-is-facing-steep-ai-losses.html https://www.wsj.com/finance/citadel-buys-situational-awarenesss-stock-portfolio-after-big-losses-in-ai-5117159b https://polymarket.com/event/fed-decision-in-september-762 https://situational-awareness.ai https://www.cnbc.com/quotes/US30Y https://x.com/nicolasfulghum/status/2082083884578050299 https://theprint.in/science/breakthrough-china-artificial-sun-project-6-5-tesla-magnet/2999321 https://www.pacingthefrontier.com/ https://www.cnbc.com/2026/07/29/openai-cfo-sarah-friar-tells-employees-arr-in-july-topped-all-of-q2.html https://www.dwarkesh.com/p/why-compute-might-get-10x-more-expensive vhttps://www.reuters.com/world/china/china-starts-production-home-grown-immersion-duv-chipmaking-tools-source-2026-07-28 https://www.google.com/finance/beta/quote/ASML:NASDAQ https://www.cnbc.com/2026/07/27/cxmt-china-market-debut-chipmaker-ipo.html https://polymarket.com/event/ipos-before-2027 https://polymarket.com/event/us-enacts-ai-safety-bill-before-2027/us-enacts-ai-safety-bill-before-2027 https://x.com/v_nefodov/status/2082927219224060043 https://www.wsj.com/opinion/the-ai-future-is-for-everyone-a0c24e20 https://punchbowl.news/article/tech/thune-anthropic https://www.wsj.com/tech/ai/anthropic-doubles-midterm-spending-to-40-million-to-push-ai-regulation-9cd547ae https://x.com/OpenAI/status/2082577277246972300 https://www.carltonfields.com/insights/publications/2025/no-copyright-protection-for-ai-assisted-creations-thaler-v-perlmutter https://x.com/Jason/status/2082577230941557068 https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-companies-are-reportedly-shredding-millions-of-books-to-train-models-tech-giants-outsource-to-middlemen-to-secretly-buy-up-books-for-training-material https://www.404media.co/ai-companies-are-buying-tons-of-old-books-because-theyre-free-of-ai-slop https://www.youtube.com/watch?v=d1azwUwKrPo&t=39s https://arxiv.org/pdf/2602.16417",
+      "duration": "01:36:34",
+      "old_score": 40,
+      "old_label": "skip",
+      "qwen": {
+        "id": "69a761570ab793487e49529e",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Covers chip stocks, frontier AI labs, and economic implications; valuable for market read and capital context.",
+        "confidence": "high"
+      }
+    }
+  ]
+}
