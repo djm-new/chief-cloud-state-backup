@@ -1,0 +1,111 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-08-02_2104",
+  "usage": {
+    "prompt_tokens": 2274,
+    "completion_tokens": 389,
+    "total_tokens": 2663
+  },
+  "episodes": [
+    {
+      "id": "15eede199c6452b53cd615f3",
+      "show_name": "Lenny's Podcast",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "This CPO regrets that product management exists | Tom Verrilli (CPO of Whatnot)",
+      "link": "https://www.lennysnewsletter.com/p/this-cpo-regrets-that-product-management",
+      "published": "2026-08-02T12:32:02+00:00",
+      "summary": "Tom Verrilli is the chief product officer at Whatnot, a live shopping platform that’s become the fastest-growing U.S. marketplace business in history, with over $8 billion in GMV. Before joining Whatnot, Tom was CPO at Twitch and director of product growth at Twitter (during one of the most turbulent periods in the company’s history). In our in-depth conversation, we discuss: 1. Why Whatnot’s product team was founded on the premise “we regret that product management exists” 2. How AI is reshaping the PM role 3. What Tom looks for when hiring PMs 4. The shift toward senior ICs doing the work 5. How AI has transformed data science at Whatnot 6. Tom’s “play the accordion” mental model 7. Why “hire great people and get out of their way” fails 8. His biggest lessons from his time at Twitter — Brought to you by: WorkOS —Make your app enterprise-ready, with SSO, SCIM, RBAC, and more Mercury —Radically different banking, now with Command — Episode transcript: https://www.lennysnewsletter.com/p/this-cpo-regrets-that-product-management — Archive of all Lenny's Podcast transcripts: https://www.dropbox.com/scl/fo/yxi4s2w998p1gvtpu4193/AMdNPR8AOw0lMklwtnC0TrQ?rlkey=j06x0nipoti519e0xgm23zsn9&st=ahz0fj11&dl=0 — Where to find Tom Verrilli: • X: https://x.com/tdrobbo • LinkedIn: https://www.linkedin.com/in/tom-robertson-042 — Where to find Lenny: • Newsletter: https://www.lennysnewsletter.com • X: https://twitter.com/lennysan • LinkedIn: https://www.linkedin.com/in/lennyrachitsky/ — In this episode, we cover: (00:00) Introduction (02:40) “We regret that product management exists”: what it means and why (08:30) When specialization makes sense, and when it doesn’t (15:20) How Whatnot structures its PM org (17:28) What 31,832 PM applications revealed about the function (19:40) How to develop systems thinking (22:10) The shift to senior ICs doing IC work (32:26) Advice for PMs struggling in today’s market (35:22) How AI has transformed work at Whatnot (41:14) The data scientist problem (42:48) Which roles are trending up and down (44:48) What the product team of the future looks like (46:29) Why core PM skills are the most durable in an AI world (49:23) How to get the most out of the people you hire (53:32) Navigating the CPO-founder relationship (57:34) Advice for aspiring CPO’s (59:16) How to know when to stand firm and when to step back (01:01:38) Play the accordion: balancing strategic vision with fast iteration (01:06:35) Agentic commerce vs. live commerce (01:09:46) Lessons from Twitter (01:13:07) Failure corner (01:15:45) Lightning round and final thoughts — Referenced: • Whatnot: https://www.whatnot.com • Building, and Whatnot: https://www.linkedin.com/pulse/building-whatnot-tom-verrilli-bwkdc • Twitch: https://www.twitch.tv • Why Netflix is betting on systems thinkers—not specialists—in the AI era | Elizabeth Stone (CPTO): https://www.lennysnewsletter.com/p/netflix-cpto-on-ai-and-the-future • Peter Bailis on LinkedIn: https://www.linkedin.com/in/pbailis • Mike Krieger on LinkedIn: https://www.linkedin.com/in/mikekrieger • Anthropic’s CPO on what comes next | Mike Krieger (co-founder of Instagram): https://www.lennysnewsletter.com/p/anthropics-cpo-heres-what-comes-next • Ben Kus on LinkedIn: https://www.linkedin.com/in/benkus • Henry Shi on LinkedIn: https://www.linkedin.com/in/henrythe9th • Hex Threads: https://hex.tech/product/threads • Product management theater | Marty Cagan (Silicon Valley Product Group): https://www.lennysnewsletter.com/p/product-management-theater-marty • Grant LaFontaine on LinkedIn: https://www.linkedin.com/in/grantlafontaine • Logan Head on LinkedIn: https://www.linkedin.com/in/logan-head • Emmett Shear on LinkedIn: https://www.linkedin.com/in/emmettshear • Kara Swisher on X: https://x.com/karaswisher • Jeff Bezos: Amazon and Blue Origin—Lex Fridman Podcast: https://www.youtube.com/watch?v=DcWqzZ3I2cY • Star City on AppleTV+: https://tv.apple.com/us/show/star-city/umc.cmc.2l8p785osmtmiyk64bh6tfde1 • For All Manki",
+      "duration": "5098",
+      "old_score": 38,
+      "old_label": "skip",
+      "qwen": {
+        "id": "15eede199c6452b53cd615f3",
+        "score": 82,
+        "tier": "digest",
+        "reason": "Insight into AI's impact on product management and data science from a seasoned CPO.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "7186605fbec03ffd976163c5",
+      "show_name": "Ezra Klein Show",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "Christopher Nolan Stared Into Elon Musk’s Soul",
+      "link": "https://www.nytimes.com/2026/08/02/opinion/ezra-klein-odyssey.html",
+      "published": "2026-08-02T11:00:00+00:00",
+      "summary": "'The Odyssey' is the political movie of the decade. Thoughts? Guest suggestions? Email us at ezrakleinshow@nytimes.com . You can find the transcript and more episodes of “The Ezra Klein Show” at nytimes.com/ezra-klein-podcast. Book recommendations from all our guests are listed at https://www.nytimes.com/article/ezra-klein-show-book-recs.html This column read was produced by Marie Cascione, Claire Gordon and Emma Kehlbeck. Fact-checking by Jack McCordick and Rollin Hu. Our senior engineer is Jeff Geld, with additional mixing by Johnny Simon. Our recording engineer is Johnny Simon. Our executive producer is Claire Gordon. Cinematography by Kyle Kelley. Video editing by Jan Kobal. The show’s production team also includes Annie Galvin, Michelle Harris, and Marina King. Original music by Pat McCusker. Audience strategy by Shannon Busta. The director of New York Times Opinion Audio is Annie-Rose Strasser. Subscribe today at nytimes.com/podcasts or on Apple Podcasts and Spotify. You can also subscribe via your favorite podcast app here https://www.nytimes.com/activate-access/audio?source=podcatcher . For more podcasts and narrated articles, download The New York Times app at nytimes.com/app. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:16:04",
+      "old_score": 63,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "7186605fbec03ffd976163c5",
+        "score": 30,
+        "tier": "skip",
+        "reason": "Cultural commentary with low relevance to market dynamics or operational insights.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "d8efc40942f83bfefd56f8f2",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Ruby Thelot on Internet Culture, AI, and the Future of Taste",
+      "link": "https://a16z.simplecast.com/episodes/ruby-thelot-on-internet-culture-ai-and-the-future-of-taste-CvhHSpzt",
+      "published": "2026-08-02T10:46:36+00:00",
+      "summary": "Sophia Dew and Sofia Puccini are joined by Ruby Thelot, designer, artist, cyberethnographer, professor at NYU, and founder of 13101401, for a wide-ranging conversation about internet culture, AI, digital communities, and how technology is reshaping the way we relate to one another. Drawing on years of research into online behavior, Ruby explains how digital cultures form, why algorithms shape more than just what we see, and what AI is changing about creativity, communication, and identity. They discuss cyberethnography, online subcultures, \"machinic taste,\" AI companions, social norms, internet language, and why Americans often say they dislike AI—even as they increasingly rely on it in everyday life. Resources: Follow Ruby X: https://x.com/being_on_line Substack: h ttps://beingonline.substack.com/ Follow Sophia on X: https://x.com/sophiadew Follow Sofia on X: https://x.com/schisofrenia Follow MTS on X: https://x.com/mtslive Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:34:08",
+      "old_score": 35,
+      "old_label": "skip",
+      "qwen": {
+        "id": "d8efc40942f83bfefd56f8f2",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Explores AI's influence on culture, taste, and communication; relevant for broader context.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "b98a29c2c013b79a338b858c",
+      "show_name": "The James Altucher Show",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Ray Dalio: Principles, Failure, and the Formula for a Successful Life [From the Archive]",
+      "link": "https://art19.com/shows/the-james-altucher-pod/episodes/2479bbef-5f24-4287-8c5e-9e79c3f12454",
+      "published": "2026-08-02T07:00:00+00:00",
+      "summary": "Episode Description: This is a From the Archive episode with Ray Dalio. Ray Dalio built Bridgewater Associates into one of the most influential investment firms in the world. But in this archive conversation, James is less interested in the headline version of success and more interested in the painful turning point that made Ray rethink everything. At 34, Ray’s business nearly failed. He had been confident—by his own description, arrogant—and a wrong market call left him broke, humbled, and forced to decide whether to quit or rebuild. That failure became the origin story behind many of his principles. Ray explains that the experience taught him to fear being wrong in a useful way. Instead of retreating, he began seeking out the smartest people who disagreed with him. He learned to triangulate among independent thinkers, write down his decision criteria, study how similar events had happened in history, and build systems that reduced risk without giving up upside. The conversation then moves into the central ideas of Principles : pain plus reflection equals progress; failure equals success if you turn it into learning; and every person should write down the principles they use to deal with reality. James and Ray discuss the five-step process for success: set audacious goals, identify the problems blocking those goals, diagnose root causes, design ways around them, and execute. Ray emphasizes that no one is good at all five steps, which is why people need others who can supply the strengths they lack. A large part of the episode focuses on Bridgewater’s culture. Ray explains idea meritocracy, radical truth, radical transparency, thoughtful disagreement, and believability-weighted decision-making. In his view, the goal is not democracy or autocracy. The goal is to get the best ideas on the table, stress test them, and make better decisions. James pushes on the human side of this: what happens when disagreement feels like a fight? Ray answers by describing the “two yous”—the thoughtful, logical self and the emotional, reactive self—and why writing down principles can clarify which values bring people together and which values separate them. The conversation closes with habits, meditation, creativity, the economy, debt cycles, wealth inequality, cryptocurrencies, and Ray’s formula for a successful life: dreams plus reality plus determination. Editorial Note: This is a From the Archive episode. References to Bridgewater’s assets, Ray’s Forbes net worth, the economic cycle, cryptocurrencies, interest rates, central-bank policy, and current market conditions reflect the original recording period. This episode discusses investing, markets, debt cycles, and cryptocurrencies, but it should not be treated as financial advice. What You’ll Learn; Why Ray Dalio sees his early career failure as one of the most important events of his life. How being wrong pushed him toward radical open-mindedness. Why Ray believes pain plus reflection equals progress. How to turn mistakes into principles you can use next time. Why failure can become success if it produces learning. The five-step process Ray uses for achieving goals. Why no one is good at every step of success. How thoughtful disagreement can improve decision-making. What an idea meritocracy is and why Bridgewater built around it. How believability-weighted decision-making differs from democracy or hierarchy. Why Ray believes meaningful work and meaningful relationships must go together. How writing down principles clarifies relationships, teams, and personal choices. Why habits control so much of life—and how they can be changed. How meditation helps Ray access calm, creativity, and clearer thinking. How Ray thinks about debt cycles, economic risk, wealth inequality, and cryptocurrencies. Timestamped Chapters: [03:00] The Failure That Changed Everything James asks about the early mistake that left Ray’s business nearly finished at age 34. [04:06] Humility Balancing Audacity Ray explains how ",
+      "duration": "01:18:17",
+      "old_score": 59,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "b98a29c2c013b79a338b858c",
+        "score": 68,
+        "tier": "scan",
+        "reason": "Ray Dalio's principles on failure and risk offer some capital allocation insight.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "499e4c446040be33522c0763",
+      "show_name": "Founders",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "#427 How Raymond Plank Built a $50 Billion Oil Company",
+      "link": "",
+      "published": "2026-08-01T23:58:00+00:00",
+      "summary": "Raymond Plank founded Apache Corporation with just $250,000 in 1954. 50 years later his company was worth $50 billion. This episode examines the life and entrepreneurial philosophy of Raymond Plank through his memoir A Small Difference Rather than presenting a conventional history of Apache, this episode focuses on the lessons, maxims, and beliefs Plank accumulated over seven decades in business. Written when he was nearly 90, the memoir reads like a lifelong diary of how to think about opportunity, courage, cost control, resourcefulness, and adaptation. Lots of wild stories in this one. Made possible by: Ramp: ⁠⁠⁠https://ramp.com⁠⁠⁠ Applovin: ⁠⁠⁠https://www.applovin.com⁠ Vanta: ⁠⁠⁠https://vanta.com/founders⁠ ⁠Add your email here⁠ and I will send you my top 10 quotes from every episode: https://davidsenra.substack.com",
+      "duration": "2290",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "499e4c446040be33522c0763",
+        "score": 60,
+        "tier": "scan",
+        "reason": "Historical entrepreneurial lessons from a founder, but limited modern market relevance.",
+        "confidence": "low"
+      }
+    }
+  ]
+}

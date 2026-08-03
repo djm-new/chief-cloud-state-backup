@@ -4,6 +4,9 @@ Generated from `/opt/data/sessions/` and safe for cloud backup.
 
 ## Sessions
 
+- `cron_d85ba3927717_20260802_210616` | `2026-08-02` | `gpt-5.5` | `cron` | `6` messages | `exports/sessions-redacted/2026/08/cron_d85ba3927717_20260802_210616.md`
+- `cron_d85ba3927717_20260802_130628` | `2026-08-02` | `gpt-5.5` | `cron` | `6` messages | `exports/sessions-redacted/2026/08/cron_d85ba3927717_20260802_130628.md`
+- `20260730_133703_27def60e` | `2026-08-02` | `gpt-5.4-mini` | `telegram` | `Coding 2` | `55` messages | `exports/sessions-redacted/2026/08/20260730_133703_27def60e.md`
 - `cron_d85ba3927717_20260801_210615` | `2026-08-01` | `gpt-5.5` | `cron` | `6` messages | `exports/sessions-redacted/2026/08/cron_d85ba3927717_20260801_210615.md`
 - `cron_d85ba3927717_20260801_130622` | `2026-08-01` | `gpt-5.5` | `cron` | `6` messages | `exports/sessions-redacted/2026/08/cron_d85ba3927717_20260801_130622.md`
 - `20260801_130048_38e333` | `2026-08-01` | `gpt-5.4-mini` | `cli` | `2` messages | `exports/sessions-redacted/2026/08/20260801_130048_38e333.md`
@@ -12,7 +15,6 @@ Generated from `/opt/data/sessions/` and safe for cloud backup.
 - `cron_d85ba3927717_20260730_210655` | `2026-07-30` | `gpt-5.5` | `cron` | `6` messages | `exports/sessions-redacted/2026/07/cron_d85ba3927717_20260730_210655.md`
 - `cron_d85ba3927717_20260730_130619` | `2026-07-30` | `gpt-5.5` | `cron` | `6` messages | `exports/sessions-redacted/2026/07/cron_d85ba3927717_20260730_130619.md`
 - `20260730_135703_43d300` | `2026-07-30` | `gpt-5.4-mini` | `telegram` | `50` messages | `exports/sessions-redacted/2026/07/20260730_135703_43d300.md`
-- `20260730_133703_27def60e` | `2026-07-30` | `gpt-5.4-mini` | `telegram` | `Coding 2` | `44` messages | `exports/sessions-redacted/2026/07/20260730_133703_27def60e.md`
 - `20260730_123126_4eb45e` | `2026-07-30` | `gpt-5.4-mini` | `telegram` | `72` messages | `exports/sessions-redacted/2026/07/20260730_123126_4eb45e.md`
 - `20260730_120437_017c18ab` | `2026-07-30` | `gpt-5.5` | `telegram` | `General` | `88` messages | `exports/sessions-redacted/2026/07/20260730_120437_017c18ab.md`
 - `20260730_120353_10d49f` | `2026-07-30` | `gpt-5.5` | `telegram` | `60` messages | `exports/sessions-redacted/2026/07/20260730_120353_10d49f.md`
