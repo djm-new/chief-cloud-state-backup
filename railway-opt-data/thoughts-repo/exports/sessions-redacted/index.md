@@ -4,6 +4,9 @@ Generated from `/opt/data/sessions/` and safe for cloud backup.
 
 ## Sessions
 
+- `cron_d85ba3927717_20260803_210800` | `2026-08-03` | `gpt-5.5` | `cron` | `6` messages | `exports/sessions-redacted/2026/08/cron_d85ba3927717_20260803_210800.md`
+- `cron_d85ba3927717_20260803_130603` | `2026-08-03` | `gpt-5.5` | `cron` | `6` messages | `exports/sessions-redacted/2026/08/cron_d85ba3927717_20260803_130603.md`
+- `20260803_093043_d4a13f` | `2026-08-03` | `gpt-5.4-mini` | `cli` | `8` messages | `exports/sessions-redacted/2026/08/20260803_093043_d4a13f.md`
 - `cron_d85ba3927717_20260802_210616` | `2026-08-02` | `gpt-5.5` | `cron` | `6` messages | `exports/sessions-redacted/2026/08/cron_d85ba3927717_20260802_210616.md`
 - `cron_d85ba3927717_20260802_130628` | `2026-08-02` | `gpt-5.5` | `cron` | `6` messages | `exports/sessions-redacted/2026/08/cron_d85ba3927717_20260802_130628.md`
 - `20260730_133703_27def60e` | `2026-08-02` | `gpt-5.4-mini` | `telegram` | `Coding 2` | `55` messages | `exports/sessions-redacted/2026/08/20260730_133703_27def60e.md`
