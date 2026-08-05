@@ -4,6 +4,9 @@ Generated from `/opt/data/sessions/` and safe for cloud backup.
 
 ## Sessions
 
+- `20260805_001104_34db2a` | `2026-08-05` | `gpt-5.4-mini` | `curator` | `9` messages | `exports/sessions-redacted/2026/08/20260805_001104_34db2a.md`
+- `cron_d85ba3927717_20260804_210715` | `2026-08-04` | `gpt-5.5` | `cron` | `2` messages | `exports/sessions-redacted/2026/08/cron_d85ba3927717_20260804_210715.md`
+- `cron_d85ba3927717_20260804_130543` | `2026-08-04` | `gpt-5.5` | `cron` | `6` messages | `exports/sessions-redacted/2026/08/cron_d85ba3927717_20260804_130543.md`
 - `cron_d85ba3927717_20260803_210800` | `2026-08-03` | `gpt-5.5` | `cron` | `6` messages | `exports/sessions-redacted/2026/08/cron_d85ba3927717_20260803_210800.md`
 - `cron_d85ba3927717_20260803_130603` | `2026-08-03` | `gpt-5.5` | `cron` | `6` messages | `exports/sessions-redacted/2026/08/cron_d85ba3927717_20260803_130603.md`
 - `20260803_093043_d4a13f` | `2026-08-03` | `gpt-5.4-mini` | `cli` | `8` messages | `exports/sessions-redacted/2026/08/20260803_093043_d4a13f.md`

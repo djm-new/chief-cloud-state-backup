@@ -1,9 +1,9 @@
 {
-  "last_report_path": "/opt/data/logs/curator/20260728-235113",
-  "last_run_at": "2026-07-28T23:51:13.843770+00:00",
-  "last_run_duration_seconds": 23.747054,
-  "last_run_summary": "auto: no changes; llm: I scanned the full candidate set and found no true consolidation clusters worth absorbing.\n\nWhy nothing moved:\n- `cron-job-design` is already the umbrella for cron behavior, alerting, self-heal, spend reporting, and wrapper patterns.\n- `hea…",
+  "last_report_path": "/opt/data/logs/curator/20260805-001104",
+  "last_run_at": "2026-08-05T00:11:04.529833+00:00",
+  "last_run_duration_seconds": 25.806844,
+  "last_run_summary": "auto: no changes; llm: I scanned the full candidate set and grouped the only obvious domain cluster I found:\n\n- **DevOps / automation cluster:** `cron-job-design` and `railway-app-deployment`\n  - I reviewed whether they should be merged into a broader automation …",
   "last_run_summary_shown_at": null,
   "paused": false,
-  "run_count": 11
+  "run_count": 12
 }
