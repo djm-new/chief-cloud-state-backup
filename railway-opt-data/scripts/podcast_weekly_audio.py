@@ -39,7 +39,11 @@ BASE = Path("/opt/data/podcast_digest")
 OUTDIR = BASE / "outputs"
 DAILY_GLOB = "*daily-podcast-digest-24h.md"
 WEEKLY_MODEL = os.getenv("PODCAST_WEEKLY_MODEL", "qwen/qwen3-235b-a22b")
-WEEKLY_TTS_BACKEND = os.getenv("PODCAST_WEEKLY_TTS_BACKEND", "kokoro").strip().lower()
+# Default to edge (cloud, ships with the gateway venv, no disk cost).  The
+# local engines need /opt/data/venvs/podcast-tts, which orphaned in June 2026
+# and was removed; defaulting to kokoro silently killed the audio step for six
+# weeks while the script artifacts kept being written.
+WEEKLY_TTS_BACKEND = os.getenv("PODCAST_WEEKLY_TTS_BACKEND", "edge").strip().lower()
 WEEKLY_TTS_PYTHON = os.getenv("PODCAST_WEEKLY_TTS_PYTHON", "/opt/data/venvs/podcast-tts/bin/python")
 WEEKLY_OUTPUT_SPEED = float(os.getenv("PODCAST_WEEKLY_OUTPUT_SPEED", "1.5") or "1.5")
 WEEKLY_PIPER_PYTHON = os.getenv("PODCAST_WEEKLY_PIPER_PYTHON", WEEKLY_TTS_PYTHON)
@@ -676,10 +680,34 @@ def make_silence_wav(output_path: Path, seconds: float) -> Path:
     return output_path
 
 
+def resolve_tts_backend() -> str:
+    """Return a backend that can actually run right now.
+
+    piper and kokoro both shell out to WEEKLY_TTS_PYTHON.  If that interpreter
+    is gone (deleted venv, wiped volume, orphaned pyvenv.cfg), fall back to
+    edge rather than dying after the script artifacts have already been
+    written — that failure mode looked like "runs clean, produces nothing".
+    """
+    backend = WEEKLY_TTS_BACKEND
+    if backend not in {"piper", "kokoro"}:
+        return backend
+    interpreter = WEEKLY_PIPER_PYTHON if backend == "piper" else WEEKLY_TTS_PYTHON
+    if Path(interpreter).exists():
+        return backend
+    print(
+        f"WARNING: TTS backend '{backend}' needs {interpreter}, which is missing. "
+        f"Falling back to edge.",
+        file=sys.stderr,
+    )
+    return "edge"
+
+
 def synthesize_audio(script: str, output_base: Path) -> Path:
     segments = parse_dialogue(script)
     if not segments:
         raise RuntimeError("No dialogue segments found to synthesize")
+
+    backend = resolve_tts_backend()
 
     audio_paths: list[Path] = []
     with tempfile.TemporaryDirectory(prefix="weekly-podcast-tts-") as tmpdir:
@@ -696,7 +724,7 @@ def synthesize_audio(script: str, output_base: Path) -> Path:
             voice_cfg = speaker_voice(speaker)
             parts = split_if_needed(str(seg.get("text", "")))
             for part_idx, part in enumerate(parts, 1):
-                if voice_cfg["backend"] == "piper":
+                if backend == "piper":
                     wav_path = tmp / f"{seg_idx}-{speaker.lower()}-{part_idx}.wav"
                     audio_paths.append(
                         synthesize_piper_wav(
@@ -706,7 +734,7 @@ def synthesize_audio(script: str, output_base: Path) -> Path:
                             output_path=wav_path,
                         )
                     )
-                elif voice_cfg["backend"] == "kokoro":
+                elif backend == "kokoro":
                     wav_path = tmp / f"{seg_idx}-{speaker.lower()}-{part_idx}.wav"
                     audio_paths.append(
                         synthesize_kokoro_wav(
@@ -776,12 +804,25 @@ def main() -> int:
     args = ap.parse_args()
 
     if os.getenv("PODCAST_WEEKLY_FORCE_RUN", "0") != "1":
+        tz_ok = True
         try:
             from zoneinfo import ZoneInfo
             et_hour = dt.datetime.now(ZoneInfo("America/New_York")).hour
-        except Exception:
-            et_hour = dt.datetime.utcnow().hour
+        except Exception as tz_err:
+            # Without tzdata this falls back to UTC, which never equals 17 —
+            # the job would no-op forever.  Say so instead of exiting silently.
+            tz_ok = False
+            et_hour = dt.datetime.now(dt.timezone.utc).hour
+            print(f"WARNING: ZoneInfo unavailable ({tz_err}); using UTC hour "
+                  f"{et_hour}. The 17:00-ET gate cannot match — set "
+                  f"PODCAST_WEEKLY_FORCE_RUN=1 or install tzdata.",
+                  file=sys.stderr)
         if et_hour != 17:
+            # Cron fires at both 21:00 and 22:00 UTC so one of them lands on
+            # 17:00 ET in either DST state; the other is expected to no-op.
+            print(f"Skipping: hour is {et_hour} ({'ET' if tz_ok else 'UTC'}), "
+                  f"job only runs at 17:00 ET. "
+                  f"Use PODCAST_WEEKLY_FORCE_RUN=1 to override.")
             return 0
 
     digest_files = latest_daily_outputs(limit=args.days)
