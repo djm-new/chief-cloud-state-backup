@@ -26,6 +26,23 @@ Delegate coding tasks to [Claude Code](https://code.claude.com/docs/en/cli-refer
 - **Version check:** `claude --version` (requires v2.x+)
 - **Update:** `claude update` or `claude upgrade`
 
+## Windows / PowerShell launch gotcha
+
+When the user is in PowerShell, do **not** give Bash chaining syntax like `cd ... && claude`. Use PowerShell forms instead:
+
+```powershell
+Set-Location 'G:\My Drive\beast'
+claude
+```
+
+or
+
+```powershell
+Set-Location 'G:\My Drive\beast'; claude
+```
+
+If the path is a Linux/WSL path such as `/opt/data/...`, say so explicitly and tell the user it must be run inside WSL/Linux, not native PowerShell. See `references/windows-powershell-launch.md`.
+
 ## Two Orchestration Modes
 
 Hermes interacts with Claude Code in two fundamentally different ways. Choose based on the task.
@@ -742,4 +759,5 @@ Use `/context` in interactive mode to see a colored grid of context usage. Key t
 7. **Clean up tmux sessions** — kill them when done to avoid resource leaks
 8. **Report results to user** — after completion, summarize what Claude did and what changed
 9. **Don't kill slow sessions** — Claude may be doing multi-step work; check progress instead
-10. **Use `--allowedTools`** — restrict capabilities to what the task actually needs
+10. **Use `--allowedTools`** — restrict capabilities to what the task actually needs (e.g., `Read` only for reviews)
+11. **Windows PowerShell launch tip** — use `Set-Location 'C:\path\to\repo'; claude` (semicolon separator). `&&` is Bash syntax; in PowerShell it will throw a parser error. If the repo only exists on GitHub, clone it locally first and then launch Claude from the clone. Use `--add-dir` for any additional local folders you want Claude to inspect.

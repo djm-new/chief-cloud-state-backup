@@ -1,0 +1,702 @@
+[0.0-3.0] 70% of France is still nuclear in terms of its power generation.
+[3.0-8.9] 70% were all the accidents and were all the kerfuffles and nothing, nothing's happened.
+[8.9-11.7] US is 18% and we haven't built a reactor in 40 years.
+[11.7-15.6] We had a safety lobby in the 70s basically kill a button to clean energy for us.
+[15.6-18.0] There are real outcomes where safety has hurt us.
+[18.0-21.3] And the question is where do we want this spectrum to be on AI for the stuff?
+[21.3-25.2] And there's many worlds, many scenarios, many outcomes.
+[31.8-34.2] Hi listeners, welcome back to No Pires.
+[34.2-38.5] Today is just me and a lot, talking about risk management, RSI,
+[38.5-43.7] how many trillion dollar companies there can really be in the ill's unregulatory capture.
+[43.7-48.2] For any new founders out there, it's also time to apply to embed convictions
+[48.2-53.9] low overhead high signal grant program for 10 exceptional startups building at the frontier.
+[53.9-59.0] We hold this program twice a year, and it's $250,000 in cash on an uncapped note,
+[59.0-62.3] as well as compute and services from our partners, open AI, and through
+[62.3-64.2] topic, base 10 and others.
+[64.2-66.6] Most importantly, it's about the company you keep.
+[66.6-70.2] Our first handful of cohorts have included companies like Cognition,
+[70.2-74.5] Child Discovery, Listen Labs, Physical Intelligence, and Flappy Airplanes.
+[74.5-79.2] People advancing the frontier and diffusing AI into every corner of the economy.
+[79.2-83.0] Find the app online at embed.conviction.com.
+[83.0-84.6] Okay, let's get started.
+[84.6-87.0] Sarah G, are you doing?
+[87.1-88.5] A lot is good to see you.
+[88.5-92.1] It's been a while since we just get to hang out with each other.
+[92.1-93.2] And now it's been too long.
+[93.2-94.2] What happened?
+[94.2-95.2] Where you been?
+[95.2-98.6] You know, working out companies in DC, trying to take a day off.
+[98.6-99.6] You?
+[99.6-101.2] Ah, there's just so much going on right now, Neon AI.
+[101.2-102.2] There's so much going on.
+[102.2-103.2] It's a non-stop.
+[103.2-104.8] It's very exciting times.
+[104.8-108.5] You're chasing the next trillion dollar company.
+[108.5-112.6] Yeah, it's a really interesting point because basically what we had is over the last five
+[112.6-113.6] years or so.
+[113.6-114.6] We had three companies.
+[114.6-117.3] We definitely go from close to zero to a trillion dollars in market cap, right?
+[117.3-120.1] Anthropic basically didn't exist five years ago.
+[120.1-123.0] Open AI was still quite early.
+[123.0-127.5] I think GPT-3 just came out and SpaceX was trading at 80, 100, something like that.
+[127.5-133.4] And so suddenly, we had this massive inflection in terms of valuations of these companies.
+[133.4-136.7] And I think a lot of people now are assuming that there's a bunch of other trillion dollar
+[136.7-140.6] companies that will be formed in three to five years, and you know, that's unprecedented
+[140.6-141.6] in human history.
+[141.6-142.6] Usually, it takes 20 years, right?
+[142.6-148.4] SpaceX actually took since the early 2000s, and Google took since the 90s, and you know,
+[148.4-152.1] these are usually 15, 20 year arcs, and then we had this weird five year inflection.
+[152.1-155.4] And so I feel like a lot of people now are looking at different areas that are very exciting,
+[155.4-159.4] very promising areas, robotics, materials, and everything in everybody's mind is going
+[159.4-160.8] to be a trillion dollar company.
+[160.8-164.6] And maybe some of these well over the next decade, but it's unlikely that we'll see that
+[164.6-166.5] many more in the next three to five years.
+[166.5-172.5] I mean, there's one I can think of that could maybe get there, but not multiple.
+[172.5-173.5] So yeah.
+[173.5-174.5] What's the one?
+[174.5-179.3] I'm not going to say a lot, where am I going to put my money?
+[179.3-180.3] I don't know.
+[180.3-182.3] It's like throwing darts.
+[182.3-183.3] Yeah.
+[183.3-184.3] So we have the dart board here.
+[184.3-190.4] So you think it's actually just like a very good, special point in time vintage versus,
+[190.4-192.4] you know, the ecosystem always gets bigger.
+[192.4-194.8] Well, it's more like a punctuated equilibrium, right?
+[194.8-198.3] If you look at like theories of evolution, one of them is punctuated equilibrium, where
+[198.3-201.7] you have like a Cambridge explosion, and then you have consolidation, and things are kind
+[201.7-202.7] of steady state for all.
+[202.7-203.7] I mean, I'm an explosion.
+[203.7-206.4] And so that's kind of like the history of technology, right?
+[206.4-210.0] If you think about it, we had a big social wave, isn't like a dozen new social companies
+[210.0-211.0] at the time right now.
+[211.0-214.2] And we had a SaaS wave, and then, you know, they kind of settled down, and so we just had
+[214.2-215.2] a giant AI wave.
+[215.2-217.2] And there's still more to come, right?
+[217.2-220.3] Like one could argue that internet had like four or five periods to it, right?
+[220.3-226.8] I had the internet of the 90s, it had social of the early to like 2010, 2012ish kind of
+[226.8-228.3] era.
+[228.3-231.6] You had SaaS, you had cloud, you had, you know, big security
+[231.6-234.7] companies, so you had kind of like, you had crypto as a wave, so you had like all these
+[234.7-235.7] waves happening.
+[235.7-237.3] And sometimes they had two pieces, right?
+[237.3-242.8] Bitcoin had two, a couple of different cycles, and you know, other technologies will have
+[242.8-246.4] that AI and data, they'll be some giant breakthrough and model capability, and we'll see
+[246.4-247.4] another step and something.
+[247.4-248.8] They'll be startups again, right?
+[248.8-255.4] But we see these moments in time where things go from zero to a lot, and then those things
+[255.4-259.5] become consolidators, and then the question is, what comes after that?
+[259.5-265.8] And so I think we've now seen at least some of the consolidators emerge, and the question
+[265.8-269.7] is how many more giant companies are come in in the next handful of years, and that's
+[269.7-271.6] different from saying what happens over the next 20 years.
+[271.6-274.5] Of course, there's going to be tons of interesting stuff over 20 years.
+[274.5-278.1] Over two years, three years, there's still things that will grow a lot.
+[278.1-280.8] You know, there's still a lot of hundred billion dollar companies to be built, but multi-try
+[280.8-282.6] and dollar companies are kind of hard to get to.
+[282.6-288.9] I want to talk to the investors you're talking to because I feel like I run more into a failure
+[288.9-295.5] of imagination of how much bigger or better something can be than the closest proxy market
+[295.5-298.4] from a previous era.
+[298.4-305.1] And I think being able to rethink market size is just still like a key underpriced investor
+[305.1-307.1] skill right now at any stage, right?
+[307.1-312.2] If you think about, take some of the application companies that we have in common or that other
+[312.2-317.6] people are invested in, there are a lot of investors who have intellectually recognized
+[317.6-322.1] this idea of AI companies delivering services value, but they don't act like they believe
+[322.1-323.1] it.
+[323.1-325.2] They look at everything a little bit more linearly, right?
+[325.2-329.3] So think of, if you're looking at Harvey or Bridge or something, then they think about
+[329.3-335.0] a per seat or per, yeah, per like lawyer or per doctor, Tam.
+[335.0-338.4] And they're not actually, you know, asking the question of like, what does the company
+[338.4-341.5] look like if they can charge for outcomes?
+[341.5-345.8] And actually thinking about like what's happening in the coding domain, which is consumption
+[345.8-350.2] and value, you know, 100 X from here, coding I think is like a much, much bigger market
+[350.2-351.2] than anyone thought.
+[351.2-354.2] And you know, think both of us were saying that a year or two ago, but now the evidence
+[354.2-355.2] is out there.
+[355.2-357.6] You don't have to be a genius to like take that to domains.
+[357.6-361.6] The evidence out there, but it's also what is a, what is a trillion dollar market and
+[361.6-364.8] one is a hundred billion dollar market, but those are big numbers, right?
+[364.8-369.0] I actually wrote a blog post like in 2010 or something talking about how hard it was
+[369.0-373.0] to get the 10 billion market cap, right, which is now like a seed round for some of these
+[373.0-374.0] neolabs.
+[374.0-375.0] You know, don't get me wrong.
+[375.0-380.5] I think that the reality is that there's a lot of these things that could be a hundred,
+[380.5-381.5] but I don't think there's that many.
+[381.5-382.5] They could be a trillion.
+[382.5-385.0] Those are just different orders of magnitude.
+[385.0-387.5] And so then the question is, what are these things that could actually be a trillion dollar
+[387.5-388.5] market?
+[388.5-390.7] Because you just think of the revenue basis as needed for that, right?
+[390.7-394.1] You need a hundred billion of revenue or 50 to a hundred billion pretty easily.
+[394.1-396.2] And so then the question is with good margin, right?
+[396.2-399.9] So then the question is, where are the 50 to a hundred billion dollar revenue streams
+[399.9-402.2] for single companies?
+[402.2-406.4] That's a different question than is the tam really, really big, right?
+[406.4-407.9] That's huge tam, right?
+[407.9-412.1] That's a very small number of markets in the world.
+[412.1-413.1] There's a lot of them.
+[413.1-418.7] You know, there's like, you know, it doesn't plus companies that are there-ish, but how
+[418.7-420.6] many more will it be in the next five years?
+[420.6-421.6] That's my question.
+[421.6-422.6] It's not what in the next 20 years?
+[422.6-427.5] It's what in the next five years will be able to get to 50 to a hundred billion of revenue.
+[427.5-430.5] And that changes how you think about this, right?
+[430.5-433.1] Because tons of people can get to five or 10 billion of revenue and they'll be a hundred
+[433.1-434.1] billion dollar company.
+[434.1-438.0] I think I'm looking at more, both a little further out.
+[438.0-441.3] And then I'd say, like, I don't know that there are that many markets that are going
+[441.3-445.9] to get to a hundred billion of revenue in the next couple of years that aren't, like,
+[445.9-446.9] inference, right?
+[446.9-451.1] Tell me what else you think in that timeline.
+[451.1-455.0] Perhaps some supply chain, like energy type technologies.
+[455.0-456.0] Maybe, yeah.
+[456.0-457.0] Yeah, there's like a list.
+[457.0-460.6] I make a list of, like, five or six areas that seem promising.
+[460.6-464.9] And then part of it, too, is you actually, if it's a physically, it's a physical goods
+[464.9-470.2] company, energy or robotics, et cetera, do you actually have the footprint to get there
+[470.2-471.2] that fast?
+[471.2-473.9] Again, I'm not doubting the size of some of these markets.
+[473.9-477.2] I'm doubting the speed at which you can get there, yeah, a hundred percent.
+[477.2-478.8] And that's the issue.
+[478.8-485.8] And people are at least, in my experience, collectively, at least investing against the
+[485.8-489.4] fact that they believe the speed is there, which is different from the market size.
+[489.4-491.5] People are conflating the two things right now, in my opinion.
+[491.5-495.5] The other phenomenon that I think is happening is almost the opposite of it, which is I see
+[495.5-500.5] some really, really excellent founders going after niche markets because they're now
+[500.5-501.9] scared of the Neolabs.
+[501.9-504.1] And I think there's much less head-to-head competition.
+[504.1-510.4] If you look at the markets that Harvey or open evidence or Decagon or any of these folks
+[510.4-516.6] at Sierra and heard, you know, four or five years ago, three or four years ago, even cognition,
+[516.6-521.5] two or a year ago, it was big, big markets that could be in the red maps of these labs.
+[521.5-524.2] But I feel like the two things are happening at the same time.
+[524.2-530.0] One is for the mid-to-late stage technology markets, people are continuing to invest as
+[530.0-532.7] if there's velocity to get to a trillion from any companies where I don't think there's
+[532.7-533.7] a velocity.
+[533.7-537.3] Again, I think some will get to 20, some will get to 100, some of course will go to zero.
+[537.3-541.9] And then there's a separate thread of all the new stuff that's coming, how aggressive
+[541.9-545.7] and ambitious are the founders relative to what the labs are doing.
+[545.7-547.9] And I think that's why you're seeing a flight to hardware companies.
+[547.9-549.9] Oh, the labs will never do this hardware thing.
+[549.9-556.9] So we'll do that in American dynamism and niche applications of AI and something that
+[556.9-560.6] should be provided by an inference cloud and et cetera, right?
+[560.6-563.9] So there's a lot of these types of companies that I think are going to be potentially a
+[563.9-564.9] bit more derivative.
+[564.9-567.6] I remember all of these people doing huge amazing things simultaneously, right?
+[567.6-569.2] It's not every startup.
+[569.2-573.4] But there's more and more, at least to my perception of people doing smaller niche things
+[573.4-575.7] out of fear of the labs.
+[575.7-577.0] And that's also, I think, a negative.
+[577.0-581.2] And you feel like they're being too meek like they should just take on the head-on competition
+[581.2-585.9] because you can create a much better experience and go just compete on the product on the distribution
+[585.9-586.9] any of it.
+[586.9-587.9] I think so, yeah.
+[587.9-588.9] For certain markets.
+[588.9-589.9] Of course, those are the markets of the labs.
+[589.9-590.9] We'll just eat it naturally.
+[590.9-593.4] But there's a bunch of markets where they won't, but I think people are staying away
+[593.4-594.4] from both.
+[594.5-598.4] We have companies in the portfolio that are going against, like, pretty central premises.
+[598.4-600.5] So I don't think all the founders are being too meek.
+[600.5-601.6] Oh, I don't think it's all.
+[601.6-602.7] I think there's more.
+[602.7-606.3] My point is it's more a trend line and it's the newest stuff.
+[606.3-609.7] I'm not saying a thing that's a year old or two years old, or, you know, I feel like
+[609.7-610.7] it's a trend line that's shifting.
+[610.7-612.9] And again, it's not all of them.
+[612.9-617.7] It's just enough of a subset in a sense, it's a subset of the good founders.
+[617.7-620.3] I'm not concerned about the median founder.
+[620.3-621.7] I'm concerned about the best founders.
+[621.7-622.7] What are they doing?
+[622.7-629.6] And more often disappointed right now, that founders are being, like, less ambitious
+[629.6-630.6] and they could be.
+[630.6-632.6] So maybe that's the trend line I'm talking about.
+[632.6-637.2] We were talking about when companies, when founders should sell their companies.
+[637.2-640.2] What is your thinking on it at this point in time or your framework for it?
+[640.2-644.0] There's a handful of companies that should never ever sell at least any time in the near-term
+[644.0-645.0] affair and throttpick.
+[645.0-646.0] You shouldn't sell it.
+[646.0-647.0] If you're opening, I shouldn't sell it.
+[647.0-650.0] You know, there's a handful of these things that should never sell.
+[650.0-652.5] These companies in a negative and error should at least consider it.
+[652.5-656.9] And there's usually a time maximizing window where your best outcome is a sale within
+[656.9-657.9] that window.
+[657.9-658.9] It's like a 12 to 18-month period.
+[658.9-663.4] Usually where the companies were the most will ever be worth.
+[663.4-667.2] And I think we saw one major exit where that was probably the case.
+[667.2-672.7] Recently, recently, I think there's other companies that, you know, should really actively
+[672.7-673.7] think about it.
+[673.7-677.5] And from a hygiene perspective, maybe what companies should do, I think Ben Horowitz wrote
+[677.5-678.5] about this once.
+[678.5-683.6] Basically, do a pre-planned once a year board meeting where the discussion topic is in
+[683.6-684.9] a non-emotional way.
+[684.9-688.6] Should we consider exiting this next six months period?
+[688.6-689.6] And it's pre-scheduled.
+[689.6-691.0] So it's not the founders pushing for it.
+[691.0-692.0] It's not the investors pushing it.
+[692.0-693.9] It's just a rational conversation.
+[693.9-696.4] And the answer to the conversation maybe now we should keep going.
+[696.4-698.0] We still think we have expose ahead of us.
+[698.0-699.0] It's amazing.
+[699.0-703.3] But I think it's very useful for people to have that sort of conversation because I feel
+[703.3-708.3] like in this cycle, every year of AI time is like three to four years of normal cycle time.
+[708.3-710.8] And so three years is like a decade, right?
+[710.8-714.9] Like, if you think of what existed in AI three years ago from a model capability perspective,
+[714.9-720.1] from a vertical app perspective, from AI rollups, from you name it, any of the stuff like
+[720.1-725.4] infrastructure, whatever, radically different world three years ago.
+[725.4-730.5] And so we're on an accelerated timeline right now where everything is moving faster.
+[730.5-735.6] And that means that you should double check your thinking more frequently because the underlying
+[735.6-739.1] fact set is changing faster than it ever has.
+[739.1-741.1] I don't know, what do you think?
+[741.1-743.5] What's your approach to exits or not exits?
+[743.5-749.5] I agree with you that there are a set of companies that should never sell, almost they
+[749.5-753.7] cannot finance their future, right?
+[753.7-761.4] If I think about maybe one principle that is like new for this point in time is I might
+[761.4-765.3] ask at that board meeting or at that meeting once a quarter or once a year or whatever
+[765.3-769.1] you think is the right pacing today and it's more often than it was a few years ago.
+[769.1-770.2] Yeah, it's every six months.
+[770.2-771.2] Okay.
+[771.2-772.8] Every six months great.
+[772.8-777.3] Are you capturing value as cost-falling capabilities increase?
+[777.3-783.3] Because if you're on the wrong side of this secular change and you can't get to the other
+[783.3-787.3] side of it, you should in fact like sell, you don't have good ideas about how to be on
+[787.3-789.5] the right side of history.
+[789.5-791.9] So I think that's a question people should ask themselves.
+[791.9-799.5] And then if you think about our friends, I'd cursor is the way you want to compete,
+[799.5-806.9] capital, compute access and is it perhaps a maximally valuable point in time?
+[806.9-808.3] That's an interesting question.
+[808.3-815.5] But I think like more broadly, it's a, I feel like it's very personal and very interesting
+[815.5-816.9] risk management question.
+[816.9-819.7] I do think people should ask themselves, right?
+[819.7-824.3] Like the idea that there is pride around like never considering this is nonsense.
+[824.3-828.4] The situational awareness situation is a good reminder that everyone has to stay alive
+[828.4-829.4] to profit as well.
+[829.4-834.0] I had to run different companies, they have to survive to compound, but I think even just
+[834.0-839.0] the premise of like you need to match your financing structure to your thesis horizon
+[839.0-843.9] and then be able to like continually finance the company to the promised land of whatever
+[843.9-844.9] you're trying to do.
+[844.9-848.2] Yeah, I think the financing part that was going to be there because basically what's happening
+[848.2-854.2] because of this rapid rise of $3 trillion plus companies in a short time frame, an enormous
+[854.2-857.1] amount of venture capital is starting to get returned.
+[857.1-859.9] And that means people are raising bigger and bigger funds and they need to put it somewhere
+[859.9-862.6] and they're going to put it against trillion dollar companies of the future.
+[862.6-867.9] And so I do think we're going to see an ongoing rise in valuations, most likely over the
+[867.9-871.5] next year or two, much more than we've seen today and obviously there'll be some great
+[871.5-874.2] things in there and there'll be a bunch of stuff that doesn't deserve it, but I actually
+[874.2-877.2] think financing is going to get easier and not harder.
+[877.2-882.7] And so I'd view it less as financing and more, what do you think is the true likely expected
+[882.7-883.7] outcome of your company?
+[883.7-886.4] Not what investors are telling you, not what the press is telling you, not what Twitter
+[886.4-889.3] is telling you, like just sit down and run the math.
+[889.3-894.5] And then remember that at some point, you'll probably take it, trade it like 10X or something,
+[894.5-896.9] you know, maybe 15X.
+[896.9-899.9] And so then the question is what is your thing going to be worth, right?
+[899.9-903.0] And remember eventually I think slow down in terms of compounding too.
+[903.0-904.7] And you can decide where that slow down happens.
+[904.7-908.5] But you kind of do that math, you do future dilution, you look at your potential outcome,
+[908.5-911.3] you look at years of work, it'll take to get there.
+[911.3-914.0] And you can come to a conclusion because there's two types of opportunity costs that
+[914.0-915.0] are risk management.
+[915.0-919.9] There's risk management against the value of the thing you're doing.
+[919.9-922.8] But the biggest opportunity cost is your time.
+[922.8-926.9] Your most productive years of your life are on the line right now.
+[926.9-930.5] And you can either walk away with a good amount of money, go do the next giant thing.
+[930.5-934.5] Now having done it before, they're going to work with you again, et cetera, et cetera,
+[934.5-935.5] where you can roll the dice.
+[935.5-936.6] And you can decide to roll the dice.
+[936.6-937.6] That may be the right answer.
+[937.6-939.7] And again, for some companies, absolutely, you should do that.
+[939.7-942.7] But for others, it may be, hey, actually now is maybe the time to go.
+[942.7-945.5] Secondary is an intermediate option, which actually don't think is always that great
+[945.5-953.4] because it sounds for some short-term needs, but it doesn't actually create a solution.
+[953.4-957.6] And you see a lot of people from 2020, 2021 store running companies five years later
+[957.6-959.2] that aren't working.
+[959.2-963.0] And think of that five or six-year period where they've been locked up when all the
+[963.0-964.6] AI change happened.
+[964.6-968.4] What is the cost of that to a great founder?
+[968.4-972.1] So I think there's that kind of cost that people don't really talk about as much, which
+[972.1-974.1] I think is the real cost.
+[974.1-975.1] It's your lifetime cost, right?
+[975.1-977.5] And you only live once, and it's a short life.
+[977.5-981.1] And so do you want to eventually be working on something that's going to continue to struggle
+[981.1-985.2] that's over-capitalized that has run away for the next 10 years?
+[985.2-986.2] Or not?
+[986.2-987.2] And that's where you end up.
+[987.2-988.8] That's what happened with the 2020-2021 cohort.
+[988.8-992.6] There's tons of people running these companies that aren't working still.
+[992.6-994.9] And we forgot about them because we're talking about AI all the time.
+[994.9-996.9] That is huge waste.
+[996.9-1005.0] My, I think my point was really that even if there are lots of dollars still rotating
+[1005.0-1010.9] into venture or being produced by these huge outcomes over, you know, now and over
+[1010.9-1015.9] the next year or two, private markets don't have to be rational or right for long periods
+[1015.9-1016.9] of time, right?
+[1016.9-1021.7] And so being smart about your ability to finance a company is the equivalent of avoiding
+[1021.7-1023.3] margin calls, right?
+[1023.3-1029.8] And I, you know, some founders who are working on something that requires like a technical
+[1029.8-1033.8] point of view, for example, or even a structural point of view about how the market resolves
+[1033.8-1038.4] can get very frustrated because investors will believe something that they think is wrong
+[1038.4-1040.2] or stupid for a long time.
+[1040.2-1044.1] And it's just the job of the founders to navigate that narrative or that set of beliefs.
+[1044.1-1049.7] And they, if they think it's untenable or if they think they're like down some wasteful
+[1049.7-1052.9] path of their time as you describe them, they should sell the company.
+[1052.9-1053.9] But it could be worse.
+[1053.9-1057.3] I mean, founders, they have the concentration risk, but they could be hedge fund managers
+[1057.3-1061.7] facing retail, irrational acts in the market and reductions next quarter.
+[1061.7-1065.2] So it's just different, different environment.
+[1065.2-1068.1] But I don't think it's as simple as like financing is not free.
+[1068.1-1073.2] I do think it is going to skew, as you said, toward scale of opportunity naturally or
+[1073.2-1074.2] perceived scale.
+[1074.2-1075.2] Percieve scale.
+[1075.2-1076.2] Yeah.
+[1076.2-1077.2] Percieve scale is important.
+[1077.2-1078.2] I go.
+[1078.2-1082.8] So the other thing a lot of people here are working on or talking about is if you talk
+[1082.8-1087.0] to people with the labs, there's this enormous manic energy right now.
+[1087.0-1091.6] We're six months sish or towards the end of the year to be completely done with code
+[1091.6-1093.9] like it's a solve problem.
+[1093.9-1099.7] And then we'll probably hit some form of, you know, light RSI by end of next year.
+[1099.7-1103.7] And at that point, you'll have models training big chunks of the models themselves.
+[1103.7-1105.6] I think it's probably more post-training initially.
+[1105.6-1109.1] Maybe it could, in fact, be training over time more quickly as well.
+[1109.1-1113.7] And because of that, many people believe, hey, you know, if I have a year, year and a half
+[1113.7-1118.8] left of productive work in my career, I should be working 16 hours a day because every week
+[1118.8-1123.0] is, you know, 2% of all the time I have left to be productive before I get displaced
+[1123.0-1124.8] by AI.
+[1124.8-1125.8] What do you think of that?
+[1125.8-1128.3] Like, do I believe it or what happens if it's true?
+[1128.3-1129.3] Do you believe it?
+[1129.4-1138.2] I think the idea that the models can improve their own training if the leading scientist
+[1138.2-1144.7] working on this, believe it, ends an extension of what we are already seeing in code and
+[1144.7-1145.7] math.
+[1145.7-1147.2] Of course, you should believe it, right?
+[1147.2-1152.3] Yeah, but on that timeline, the data I have is that a number of very smart and even
+[1152.3-1159.8] very self-aware research scientists have felt that, you know, there was some knee in the
+[1159.8-1167.4] curve on recursive self-improvement, or ASI, 18 months away, every 18 months for last
+[1167.4-1168.7] five years.
+[1168.7-1171.4] So how good of it is a predictor?
+[1171.4-1172.4] It's not clear.
+[1172.4-1181.4] I think the extension from code to training code to data pipeline work is way easier to
+[1181.4-1182.4] believe.
+[1182.4-1187.7] The question of how you are going to go gather that data for less verifiable, more complex
+[1187.7-1195.1] domains, or do you run into the actual constraints on the physical compute accessibility side?
+[1195.1-1199.8] Like, I think that's probably more of a limiter than this being algorithmically possible.
+[1199.8-1203.8] Yeah, I mean, the physical compute basically reinforces an oligopoly market because what
+[1203.8-1208.4] it does is it creates a ceiling on the rate of progress any single lab can get, if effectively
+[1208.4-1213.7] assume the compute is roughly prorada across the ecosystem to the big labs.
+[1213.7-1216.9] And so in the absence of a lack of compute constraints, you are almost having an enforced
+[1216.9-1221.7] oligopoly market up to a point, or at least you force closer competition between the players
+[1221.7-1225.0] than would exist otherwise, which I think is an interesting out-of-fact of this moment
+[1225.0-1226.0] in time.
+[1226.0-1228.6] And the question is, when does that lift and what does that look like?
+[1228.6-1230.2] So yeah, it's kind of, it's a very exciting time.
+[1230.2-1234.1] I mean, I was wondering about second-order effects of that belief of its 18 months away because
+[1234.1-1236.7] that does suggest there could be a burnout cycle in 18 months.
+[1236.7-1241.0] Like I know some people at one of the major labs who, for a while, brought up with me,
+[1241.0-1242.0] should they get married?
+[1242.0-1243.0] Like do people want to get married?
+[1243.0-1244.0] Should they get married?
+[1244.0-1245.9] Because I don't know what happens in 18 months to the world.
+[1245.9-1247.8] It's like, you should get married.
+[1247.8-1251.2] You should go ahead, it'll be okay.
+[1251.2-1257.1] And so I do think we're living through this very manic, very exciting, very intense work
+[1257.1-1258.1] period.
+[1258.1-1261.7] So yeah, it's really fun stuff.
+[1261.7-1263.9] I think it's kind of tragic, man.
+[1263.9-1264.9] Really why?
+[1264.9-1270.2] I think the reactions of some really extraordinary research friends to it, it feels a little bit tragic.
+[1270.2-1275.2] I think it like, I feel like it's psychologically, most similar to if people think they're
+[1275.2-1276.2] going to die.
+[1276.2-1277.2] Right?
+[1277.2-1279.2] Like how would you spend the last two years of your life?
+[1279.2-1282.7] Would you spend it the way you are today or would you spend it in a very different way?
+[1282.7-1287.2] Is it like a not unrelated philosophical question?
+[1287.2-1292.0] And so you do have people who are like, ah, like my contribution is a bit irrelevant given
+[1292.0-1293.9] our aside in the next 18 months.
+[1293.9-1295.8] So should I get married?
+[1295.8-1297.0] Should I bother to work?
+[1297.0-1298.0] Should I travel?
+[1298.0-1300.1] Should I only work?
+[1300.1-1306.3] And, you know, I just actually think it's a much more stable and satisfying state if
+[1306.3-1309.5] people act as if they have, but maybe you think it's blind.
+[1309.5-1314.0] Yeah, I just think there's a lot of second order effects that are happening or going to
+[1314.0-1315.0] happen.
+[1315.0-1320.5] And part of them are driven by this belief system and potential burnout over time.
+[1320.5-1325.4] One of it is going to be, you know, one thing that I've noticed that is happening at
+[1325.4-1332.0] some of the labs is that, you know, as compute becomes really the scarce resource, it turns
+[1332.0-1336.5] out that there's say a few dozen researchers that drive a lot of like 80% of the results
+[1336.5-1340.4] at any given place, which is a really interesting human power law, right?
+[1340.4-1344.6] If you actually look at it in any field, there's at most a few dozen people who drive the
+[1344.6-1345.6] field.
+[1345.6-1349.0] You look at breast cancer research, you look at certain stuff, it feels a mathematics, you
+[1349.0-1353.5] look at subfills of physics, you look at the entrepreneurial ecosystem and founders,
+[1353.5-1358.6] like there's a handful of people, dozens of people who drive most progress.
+[1358.6-1361.8] And that also happens in AI research.
+[1361.8-1365.7] And, you know, increasingly compute is differentially provided to those people, right?
+[1365.7-1370.3] And so I know some labs have slowed down on their hiring of researchers unless they're
+[1370.3-1374.2] above a very, very high bar because the cost isn't the researchers that compute associate
+[1374.2-1375.2] with the person.
+[1375.2-1377.3] That's where the real bottleneck is.
+[1377.6-1383.4] I think there's a broader concept of like return on invested tokens, like an ROIT kinematic,
+[1383.4-1387.0] which is if you have a certain token budget, who do you give it to and why?
+[1387.0-1390.0] And this is kind of like engineering back in the day, right?
+[1390.0-1394.7] The internal tools teams that companies were always starved for resources because many
+[1394.7-1398.1] of these tech companies would rather use the same engineers to build product than to build
+[1398.1-1401.1] internal tools that would make other functions more productive.
+[1401.1-1405.6] That's why I think the death of SAS is a little bit overstated because why would you use tokens
+[1405.6-1409.9] on a bunch of SAS stuff that you're not actually paying that much for per year, relative
+[1409.9-1413.7] to the outcome of those same tokens being invested against a core product or against
+[1413.7-1416.3] some massive margin lift or some other thing, right?
+[1416.3-1420.6] And so I think increasingly we've shifted from a world where people said, hey, everybody
+[1420.6-1425.1] use AI and do whatever you want, today we have to like measure or spend and move more
+[1425.1-1426.1] things to open source.
+[1426.1-1430.6] And then I think the next way is, what are the projects and people that should actually
+[1430.6-1434.5] get outsized pieces of a token budget?
+[1434.5-1436.0] And what is that return on investment?
+[1436.0-1437.8] It's this sort of next shift that's coming.
+[1437.8-1438.8] I'll take some time though.
+[1438.8-1442.0] I mean, many people are still at like, hey, everybody try AI or whatever, you know, a
+[1442.0-1443.0] big enterprises.
+[1443.0-1450.8] What do you think is the appropriate compute like token budget for a business or a human
+[1450.8-1452.7] being three to five years from now?
+[1452.7-1453.9] Should I look at it like rent?
+[1453.9-1456.7] No, I mean, it depends on what the budget is for what?
+[1456.7-1459.5] I mean, people forget to minecraft was like, what was it?
+[1459.5-1460.5] Five people.
+[1460.5-1463.7] Ten people and it was bought for billions of dollars by Microsoft.
+[1463.7-1467.0] People keep talking about someday there will be like a multi-billion dollar single-person
+[1467.0-1468.0] company.
+[1468.0-1469.0] That was basically minecraft.
+[1469.0-1473.0] Roughly, it already happened like 15 years ago whenever that was.
+[1473.0-1480.0] So there are always people who can take outsized advantages of technology and AI has accelerated
+[1480.0-1482.4] that radically.
+[1482.4-1486.8] And so at some point it's like why give tokens to people who can't do that on a relative
+[1486.8-1489.5] basis unless you just run out of those people.
+[1489.5-1490.5] And you may run out of them.
+[1490.5-1495.7] This is back to like, well, all the engineers get laid off probably not anytime soon, but
+[1495.7-1498.6] you could argue that at some companies, even before AI, there was a bunch of engineers
+[1498.6-1502.2] that weren't that productive that could be let go, especially some of the big tech companies.
+[1502.2-1508.2] And I think a lot of those folks will be very coveted by GE or PG&E or Hershey's or even
+[1508.2-1511.7] if there is some displacement of engineers at some point in the future.
+[1511.7-1513.6] I don't know when that is or if that happens.
+[1513.6-1518.6] But if it does happen, there's lots and lots of homes for them because there's tons of enterprises
+[1518.6-1522.9] that never had the capability set or ability to recruit these people and they want the
+[1522.9-1525.3] capabilities they bring.
+[1525.3-1528.2] Even if they're mediocre in the context of a Google or Meta or whatever, they may be
+[1528.2-1532.9] exceptional in the context of a certain subset of old school enterprises.
+[1532.9-1539.2] And so I do think there's going to be this permeation through the enterprise landscape
+[1539.2-1542.5] of engineering talent in an unexpected way.
+[1542.5-1543.5] This is probably many years away.
+[1543.5-1545.5] I'm just saying I think that's probably a likely outcome.
+[1545.5-1552.8] I think, relatedly, if you are a researcher, 800, and you have not been allocated an
+[1552.8-1559.6] outsized number of tokens to work with at one of the major labs, I think the opportunity
+[1559.6-1567.4] to go spend your energy on something where you have like compared advantage and understanding
+[1567.4-1572.0] and should benefit from all of this, the supply chain bottlenecks, domains that should
+[1572.0-1576.2] accelerate like bio, diffusion into other valuable fields.
+[1576.2-1582.5] To me, that seems a lot more exciting than being concerned about the downfall of mathematics
+[1582.5-1585.0] and going on in invocation until the world ends.
+[1585.0-1589.7] I have lots of places to go do stuff and I do think that's where a subset of the research
+[1589.7-1592.8] community will end up over time.
+[1592.8-1596.1] That's an interesting question is how many researchers do you need if you're a top-of-the-eye
+[1596.1-1597.1] log?
+[1597.1-1601.2] And how does that number relate to the number that you have now and is that you have the
+[1601.2-1606.7] right number, is that you need five times as many people, is that you need half as many
+[1606.7-1610.9] of it, the only newbie above a certain bar because it's compute constrained, and you want
+[1610.9-1615.0] to map it against the best ideas and the best ideas come from a subset of people on average,
+[1615.0-1616.0] not always, but on average.
+[1616.0-1619.8] And so it's a really interesting question of like, how does all this stuff fall out and
+[1619.8-1625.2] then where does the N plus 1 person go, and there's lots and lots and lots of places
+[1625.2-1627.2] for the N plus 1 person to go?
+[1627.2-1631.0] There's still exceptional, there's still top of the bulker, again, I don't want to have
+[1631.0-1635.0] that misinterpreted as the person is not being amazing, it's just at some point people
+[1635.0-1638.3] will do some cutoff on their power law.
+[1638.3-1642.9] I think you will appreciate this, maybe you've heard it because it's an old ex-Google
+[1642.9-1648.5] or joke, but when Google is like, I don't know, 50,000 people or something, the question
+[1648.5-1651.5] was how many people does it take to run Google?
+[1651.5-1655.2] And if you ask somebody within search and ads, they're like, oh, like 20% of the people
+[1655.2-1656.2] in search and ads.
+[1656.2-1660.9] And if you ask somebody outside of search and ads, they'd say like 50,000 people or
+[1660.9-1670.1] whatever Google is, so I think this is probably some very perspective on the concentration
+[1670.1-1671.9] of contribution.
+[1671.9-1674.0] I don't know, I think, never worked at Google.
+[1674.0-1679.2] Yeah, I mean, we definitely know that, yeah, I mean, I worked at Google a thousand
+[1679.2-1680.7] wonderful plays.
+[1680.7-1681.7] In search.
+[1681.7-1688.9] I worked on mobile search a bit and I worked on, I worked on ads a bit, I mean, I worked
+[1688.9-1692.6] on a bunch of mobile stuff and then I worked on a bunch of like AI ads related stuff.
+[1692.6-1696.7] I ask you a very different question, which is like, can you think of anything that could
+[1696.7-1698.3] disrupt this all right now?
+[1698.3-1704.7] You could have like investors, like a number of different players collapse in their commitment
+[1704.7-1707.4] on the CapEx side because the markets hate it.
+[1707.4-1711.6] There's some sort of freak out about the debt and the returns profile.
+[1711.6-1715.9] You seem like minor indication of that, but not real pressure yet.
+[1715.9-1719.6] And the last one is, do you think there's a technological disruption that's possible,
+[1719.6-1722.7] like alternatives to transformers, does that still matter at all?
+[1722.7-1725.7] Is there anything that would make the landscape look really different technically?
+[1725.7-1732.3] I think there's always technology unknowns and then I, I think the idea of attempting
+[1732.3-1741.0] to restrict model usage of models we already have or open source to dramatically constrain
+[1741.0-1743.7] like pace of progress, I think is the other.
+[1743.7-1745.5] Yeah, and I agree with the regulatory angle.
+[1745.5-1748.4] What do you think is going to happen in California?
+[1748.4-1753.4] So they pass the billionaire tax and then, I mean, the Democratic Party in California came
+[1753.4-1757.7] out in favor of it.
+[1757.7-1762.5] You're a founder of one of these companies that you've backed that's now worth 10 billion
+[1762.5-1763.5] plus.
+[1763.5-1768.3] Is the founder going to have a forced asset sale now next year?
+[1768.3-1769.3] Assuming it passes.
+[1769.3-1774.1] Well, dozens of founders have to sell big chunks of their companies.
+[1774.1-1780.8] It's not clear the regulators have thought through the execution and compliance of this.
+[1780.8-1788.7] But I think the immediate effect is that a huge number of people that are attempting to create
+[1788.7-1792.9] value or do new things in California choose to leave.
+[1792.9-1794.9] That's already happening.
+[1794.9-1798.5] It's hard to move an entire ecosystem very quickly.
+[1798.5-1802.6] This is the fastest way I can think of to chase the entire ecosystem out.
+[1802.6-1803.6] What do you think happens?
+[1803.6-1807.6] I mean, the way that law is written is my sense is it's reasonably broad in terms of
+[1807.6-1813.1] once it passes, they can re-implement it, they can lower the bar in future years, etc.
+[1813.1-1822.4] My sense is in 2008, there's increasing talk about also trying to add a exit tax in California.
+[1822.4-1826.0] So if you actually try and leave, they'll try and take a big chunk as sort of a penalty
+[1826.0-1827.0] for that.
+[1827.0-1830.8] So is your prediction mass migration in 27 to Miami?
+[1830.8-1834.0] Finally happens.
+[1834.0-1837.6] I think it will take some time.
+[1837.6-1842.0] I think the people who wrote the bill want the flight to happen.
+[1842.0-1844.8] I think they want people to leave.
+[1844.8-1850.1] I think that two really negative signs for California was that were this bill and then
+[1850.1-1852.1] this sort of ballot harvesting initiatives.
+[1852.1-1855.9] I think those are the two things that kind of make it a potentially worse future for
+[1855.9-1858.6] the state in different ways.
+[1858.6-1863.8] I can't fall as usual that California figures it out, but I think if there's any alternative
+[1863.8-1870.2] that was easy to do, even more people would be leaving.
+[1870.2-1871.5] I do think a lot of people are leaving.
+[1871.5-1877.2] I know quite a few who are starting to go now or planning to go by the fall next month
+[1877.2-1878.2] or so.
+[1878.2-1879.6] What is your second choice ecosystem?
+[1879.6-1884.0] I think that there's a few different places that a lot of people are considering and the
+[1884.0-1890.2] question is like what is critical mass of like in two years at each one of those spots.
+[1890.2-1894.2] So I think I think a lot of these things kind of self assemble and people talk about
+[1894.2-1898.7] weather and they talk about all these other things, but the reality is Boston used to be
+[1898.7-1901.3] one of the main startup hubs.
+[1901.3-1903.5] It still is for biotech.
+[1903.5-1908.6] They sort of lost competitively in the early 90s and the 80s Boston was sort of the kind
+[1908.6-1913.5] of way to Silicon Valley and the weather there's awful.
+[1913.5-1918.2] And so I think it's more about where do you have enough smart people aggregated working
+[1918.2-1922.0] on common things and then that's where these were in a census tend to happen.
+[1922.0-1930.4] I think it's been really exciting to see the amount of like great technology migration
+[1930.4-1938.9] and innovation in Texas around energy because that is really like a reaction to regulatory
+[1938.9-1944.3] environment and demand where I've seen a lot of people either move from Silicon Valley
+[1944.3-1951.4] or move from other places because it is a place where you can experiment and there is
+[1951.4-1953.8] actually an ecosystem now that's super exciting.
+[1953.8-1958.5] Energy and hardware actually there's a really growing hardware core over there as well,
+[1958.5-1962.3] which is, you know, it was originally all around El Segundo because that's where SpaceX
+[1962.3-1967.4] was and then Andrew and now, you know, SpaceX and I think part of Tesla and stuff moved
+[1967.4-1973.5] to Texas and so there's like this new ecosystem kind of emerging around sort of a part of
+[1973.5-1975.3] Texas as well in addition to Austin.
+[1975.3-1979.4] So I do think we are seeing these shifts and these shifts are purely driven by regulation.
+[1979.4-1983.0] They're not driven by this Texas that are worse based to live.
+[1983.0-1986.8] I mean, it impacts things, right, but it's regulatory shifts driving people out.
+[1986.8-1991.3] You didn't take my bait on architecture and it's like technology.
+[1991.3-1993.0] What do you think about architectures?
+[1993.0-1999.1] I think we are going to like as an industry consume all of the compute and power available,
+[1999.1-2003.2] whatever the underlying architectures.
+[2003.2-2010.6] So the idea that you are going to have a lot of pressure to find more memory or power
+[2010.6-2018.6] efficient architectures is like more interesting than ever, but catching up to transformers in
+[2018.6-2023.6] scale and match for hardware remains pretty tough, but I think people make that, they will
+[2023.6-2028.2] make that bet as they get more desperate in terms of more experimentation.
+[2028.2-2031.0] I don't think it changes the direction of the industry.
+[2031.0-2034.1] I think whatever it is gets copied and then the labs do it and they have a little compute
+[2034.1-2035.1] on it.
+[2035.1-2037.8] You know, that's the high probability outcome.
+[2037.8-2038.8] It's not the only outcome.
+[2038.8-2043.7] There could be some lower probability thing where some neola comes up with something that
+[2043.7-2047.8] keeps it super, super secret, they scale on it and suddenly their model is better than
+[2047.8-2050.1] anyone wants by far.
+[2050.1-2053.2] And then they can afford all that extra compute and everything else and everybody rallies
+[2053.2-2054.2] around them.
+[2054.2-2057.3] You know, you could always imagine a scenario like that, but you could also imagine a scenario
+[2057.3-2060.9] or just one person from that team leaves for Anthropical Open AI and the knowledge spreads
+[2060.9-2065.3] and the next thing you know, everybody has it, which is what's been happening so far in
+[2065.3-2066.3] terms of these models.
+[2066.3-2072.4] Do you think if the dominant thing is access to compute then and it's an oligopoly because
+[2072.4-2073.4] of it.
+[2073.4-2081.7] Do you see the labs using that access to compute, to control other verticals that they want
+[2081.7-2082.7] to be in?
+[2082.7-2085.7] What is the safety that's really needed that's actually protective of people, right?
+[2085.7-2087.3] What is the risk?
+[2087.3-2088.5] What is the outcome?
+[2088.5-2092.2] That's kind of the, you know, Jensen from Jensen pharmaceuticals.
+[2092.2-2097.3] You know, he's considered one of the best drug developers of all times.
+[2097.3-2101.1] He has these great videos on YouTube where he's interviewed 30, 40 years ago talking about
+[2101.1-2103.0] regulatory capture and forma.
+[2103.0-2108.0] And the reason things got so expensive and so slow is number one, regulatory capture in
+[2108.0-2111.8] the second is risk-reward scenarios where the FDA, in his mind, I'm not saying this
+[2111.8-2119.2] is correct or incorrect, in his mind, the FDA focuses too much on safety and risk and not
+[2119.2-2120.2] enough on benefit.
+[2120.2-2121.4] And so there's no risk reward.
+[2121.4-2122.4] There's only risk.
+[2122.4-2126.1] So that slows everything down because you're only looking at one side of the equation.
+[2126.1-2130.4] One could imagine a scenario where in the labs, a version of that is created as well.
+[2131.1-2131.4] Right?
+[2131.4-2136.7] Where the safety burden is so high, even if the outcome is even higher, even if the positive
+[2136.7-2140.2] outcome is dramatically higher, relative to the risk.
+[2140.2-2144.0] And so this is back to if you only focus on one side of the equation, you'll always constrain
+[2144.0-2145.0] things.
+[2145.0-2149.4] And if you constrain things, but then push progress forward internally on an exponent
+[2149.4-2154.0] in a year is worth three or four years in normal time, then you're a year ahead internally
+[2154.0-2157.4] that's a massive advantage.
+[2157.4-2162.2] And so this is a very interesting question of like, where do we as society feel comfortable
+[2162.2-2164.3] on the risk-reward spectrum for different things?
+[2164.3-2169.2] Like, if my email gets hacked, is that so terrible and relative to better healthcare
+[2169.2-2172.7] or through AI models sooner, right?
+[2172.7-2175.2] And so that's kind of the trade-off.
+[2175.2-2178.4] So yeah, these are all things we'll have to work through from a societal perspective.
+[2178.4-2184.3] I think part of the challenge here is it's not a comfortable stance for the regulators
+[2184.3-2190.3] to for many policy makers to hear from technologists that you have to see what happens
+[2190.3-2192.3] to the technology versus control.
+[2192.3-2193.3] We've always said that.
+[2193.3-2195.6] We've always been a tech thing.
+[2195.6-2199.9] It's always been throughout history, hey, like, of course, this technology could be used
+[2199.9-2203.4] in negative ways, right?
+[2203.4-2208.5] Every technology has both positive and negative applications.
+[2208.5-2211.7] Biotech, you could create a virus, but you can cure cancer.
+[2212.0-2214.8] You could have free, cheap, abundant energy.
+[2214.8-2217.7] You can also create weapons.
+[2217.7-2221.9] And if you actually look at it, you know, 70% of France is still nuclear in terms of its
+[2221.9-2223.1] power generation, right?
+[2223.1-2224.1] 70%.
+[2224.1-2229.2] We're all the accidents and we're all the kerfuffles and nothing, nothing's happened.
+[2229.2-2230.2] US is 18%.
+[2230.2-2231.8] And we haven't built a reactor in 40 years.
+[2231.8-2233.7] Japan is 25%.
+[2233.7-2238.1] Very safe, very abundant, but we had a safety lobby in the 70s basically kill abundantly
+[2238.1-2239.7] clean energy for us, right?
+[2240.0-2241.8] Well, we're making them now.
+[2241.8-2243.5] We just need to make a lot of them.
+[2243.5-2245.8] We're not making much, we're not making much.
+[2245.8-2251.6] So I think we've seen, there are real outcomes where safety has hurt us.
+[2251.6-2254.4] And that's hurt us in power and energy production.
+[2254.4-2256.0] It's hurt us in aspects of medicine.
+[2256.0-2258.0] It's hurt us in lots of places.
+[2258.0-2261.2] And the question is, where do we want this spectrum to be on AI for this stuff?
+[2261.2-2266.5] And there's many worlds, many scenarios, many outcomes.
+[2266.5-2272.2] And societally, we kind of get to choose, where do we want to place that needle on that,
+[2272.2-2275.2] on the wheel of safety versus risk versus outcome.
+[2275.2-2283.9] Glad before we go, what is something that you're just excited about that is on the positive
+[2283.9-2285.9] end of that wheel?
+[2285.9-2288.2] I mean, there's so much stuff I'm excited about there.
+[2288.2-2292.9] Like I think there's so much we can do from a human productivity perspective, from an
+[2292.9-2297.8] education perspective, from a health care perspective, from a daily life, and benefit
+[2297.8-2302.4] to life perspective, self-driving, and elderly, everything, you know, like there's so much
+[2302.4-2305.4] good that can come of all this.
+[2305.4-2311.1] So I'm optimistic about a lot of applications, and that's why I'm cautious about where we
+[2311.1-2316.4] should end up on that spectrum because I do think it's always good to make sure that
+[2316.4-2321.5] we have the proper safeguards societally, but I think that historically, for big industries
+[2321.5-2326.7] we've gone too far, and the reason tech has been so successful so quickly, and it's had
+[2326.7-2333.7] so much human impact, is because it's been lightly regulated, and I think it's better
+[2333.7-2338.5] to keep it that way than not, and we'll lose optimism, we'll lose momentum, we'll
+[2338.5-2341.9] lose progress, and that's what happened in biotech, and that's what's happened in a variety
+[2341.9-2342.9] of areas over time.
+[2342.9-2345.4] That's what happened in energy for a long time.
+[2345.4-2347.6] Call to arms against regulatory capture.
+[2347.6-2351.2] All right, we'll see you guys.
+[2351.2-2353.9] Find us on Twitter at no priors pod.
+[2353.9-2357.0] Subscribe to our YouTube channel if you want to see our faces.
+[2357.0-2360.6] Follow the show on Apple podcasts, Spotify, or wherever you listen.
+[2360.6-2362.7] That way you get a new episode every week.
+[2362.7-2367.1] And sign up for emails or find transcripts for every episode at no-priors.com.

@@ -1,0 +1,91 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-08-16_2109",
+  "usage": {
+    "prompt_tokens": 1762,
+    "completion_tokens": 320,
+    "total_tokens": 2082
+  },
+  "episodes": [
+    {
+      "id": "109ee8b0dd7d794aa4ebd518",
+      "show_name": "Lenny's Podcast",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "OpenAI’s Head of Design: This is the best time in history to be a designer | Ian Silber",
+      "link": "https://www.lennysnewsletter.com/p/openais-head-of-design-this-is-the",
+      "published": "2026-08-16T12:31:42+00:00",
+      "summary": "Ian Silber is the head of product design at OpenAI, where he has led the design of ChatGPT, Codex, and all of OpenAI’s product experience for the past three years. Before OpenAI, he was at Artifact, the AI-powered news app built by the founders of Instagram. Prior to that, he spent eight years at Instagram, where he worked on products including Reels. Ian is one of the most consequential designers working in AI today, and he takes us inside how OpenAI designs ChatGPT, Codex, and the future of how we will interact with AI. In our in-depth conversation, we discuss: 1. Why Ian believes this is the best time in history to be a product designer 2. Why engineers 10x’d with AI but design teams haven’t 3. What OpenAI looks for when hiring designers 4. “Just do less”: Ian’s counterintuitive advice to his designers 5. The future of ChatGPT as a super app 6. Where humans still win: user understanding, invention, and point of view — Brought to you by: WorkOS —Make your app enterprise-ready, with SSO, SCIM, RBAC, and more Mercury —Radically different banking, now with Command — Where to find Ian Silber: • X: https://x.com/iansilber • LinkedIn: https://www.linkedin.com/in/iansilber • Website: https://iansilber.com — Where to find Lenny: • Newsletter: https://www.lennysnewsletter.com • X: https://twitter.com/lennysan • LinkedIn: https://www.linkedin.com/in/lennyrachitsky/ — In this episode, we cover: (00:00) Introduction to Ian Silber (02:14) Why designers in general feel anxious about AI (09:01) What makes specific designers thrive in the AI era (13:41) Why Ian says it’s the best time in history to be a designer (17:13) How product roles are converging (22:24) Can AI design great products? (23:54) Where human judgment still matters (27:34) What Ian looks for when hiring designers (30:20) Why systems thinking matters (32:53) Balancing speed and craft (38:05) Designing for vastly different audiences (41:57) Solving the blank-box problem (43:31) How ChatGPT is evolving beyond chat (46:07) The vision for Codex (49:07) What Ian wishes he knew on day one (51:40) Why humility matters in AI (53:41) Advice for designers who are feeling overwhelmed (55:16) AI corner (57:43) Failure corner (01:00:45) Lightning round and final thoughts (01:05:52) Lessons from Groupon — Referenced: • OpenAI: https://openai.com • How tech workers are feeling in 2026: a workforce splitting in two: https://www.lennysnewsletter.com/p/how-tech-workers-are-feeling-in-2026 • Marc Andreessen: The real AI boom hasn’t even started yet: https://www.lennysnewsletter.com/p/marc-andreessen-the-real-ai-boom • 3 Spiderman Pointing meme template: https://www.kapwing.com/explore/3-spiderman-pointing-meme-template • OpenAI Codex lead on the new shape of product work | Andrew Ambrosino: https://www.lennysnewsletter.com/p/openai-codex-lead-on-the-new-shape • Notion: https://www.notion.com • The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude): https://www.lennysnewsletter.com/p/the-design-process-is-dead • Joel Lewenstein on LinkedIn: https://www.linkedin.com/in/joel-lewenstein • Anthropic’s CPO on what comes next | Mike Krieger (co-founder of Instagram): https://www.lennysnewsletter.com/p/anthropics-cpo-heres-what-comes-next • ChatGPT Work: https://openai.com/chatgpt-work • OpenAI’s CPO on how AI changes must-have skills, moats, coding, startup playbooks, more | Kevin Weil (CPO at OpenAI, ex-Instagram, Twitter): https://www.lennysnewsletter.com/p/kevin-weil-open-ai • Please Stop the AI Confidence Theater: https://www.elenaverna.com/p/please-stop-the-ai-confidence-theater • The new AI growth playbook for 2026: How Lovable hit $200M ARR in one year | Elena Verna (Head of Growth): https://www.lennysnewsletter.com/p/the-new-ai-growth-playbook-for-2026-elena-verna • Maybe Happy Ending : https://www.maybehappyending.com • The Invite : https://www.imdb.com/title/tt14173636 • Rivian: https://rivian.com • Waymo: https://waymo.com • Groupon: https://www.grou",
+      "duration": "4324",
+      "old_score": 81,
+      "old_label": "digest_only",
+      "qwen": {
+        "id": "109ee8b0dd7d794aa4ebd518",
+        "score": 78,
+        "tier": "digest",
+        "reason": "Insight into OpenAI's design philosophy and future of AI interaction from head of product design.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "d0b47470acb77c9da3da4a92",
+      "show_name": "The James Altucher Show",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Nancy Cartwright: Bart Simpson, Fellini, and Finding the Artist Inside [From the Archive]",
+      "link": "https://art19.com/shows/the-james-altucher-pod/episodes/0598ad4a-df9e-475f-a324-ef5feeaa2371",
+      "published": "2026-08-16T07:00:00+00:00",
+      "summary": "Episode Description: Nancy Cartwright is best known as the voice of Bart Simpson. But in this archive conversation, James is interested in the artist behind the voice. Nancy joins the show to talk about In Search of Fellini , the film she co-wrote with Peter Kjenaas based on her own trip to Italy in the 1980s. At the time, Nancy was already working as an actress and voiceover performer, but she became obsessed with Federico Fellini’s La Strada . She studied scenes from the film in acting class, felt deeply connected to Giulietta Masina’s performance, and eventually decided she wanted to get the rights to adapt La Strada for the stage. So she wrote Fellini letters. When she finally got a response telling her not to come because Fellini would be working, Nancy heard something else: he would be there. She went anyway. That decision becomes the central metaphor of the episode. Nancy describes the trip not as a business errand, but as an immersion into life, art, culture, language, risk, chance encounters, and personal transformation. The film’s line—sometimes you have to travel far, far away to find what is closest to you—comes from one of those real encounters. James and Nancy also talk about her earlier career. Nancy explains how she found her way from speech competitions in Ohio to radio work, to studying with Daws Butler, to acting classes with Milton Katselas. She shares stories about auditioning for Cheers , getting a part after walking straight out of the casting room, and learning that if you surprise yourself, you can surprise everyone else. That lesson also applies to The Simpsons . Nancy originally went in to audition for Lisa, but when she saw Bart’s description—“a 10-year-old school-hating underachiever and proud of it”—she knew instantly that was the part. She trusted the instinct. The conversation becomes a meditation on creativity. Mentorship matters. Preparation matters. But at some point, the artist has to do the work, throw it away, walk into the room, and trust what happens. Nancy’s story is about voice acting, Fellini, and Bart Simpson. But it is also about making the leap from talent to authorship, from performing other people’s words to finding the story only you can tell. Editorial Note: This is a From the Archive episode. References to In Search of Fellini as a new or limited-release film, The Simpsons at that point in its run, Nancy’s projects, and release timing reflect the original recording period. What You’ll Learn: Why Nancy Cartwright calls herself one of the most recognizable voices attached to an unrecognizable face. How Bart Simpson’s voice fits into Nancy’s own personality and childhood mischief. Why La Strada affected Nancy so deeply as a young actress. How Nancy’s trip to Italy became the foundation for In Search of Fellini . Why “sometimes you have to travel far, far away to find what is closest to you” became the emotional center of the film. How Nancy learned voice acting from Daws Butler. What Milton Katselas taught her about surprising herself. Why walking out of a Cheers audition helped her get the role. How to create an effect without making it feel calculated. Why auditions are not just competitions, but opportunities to fulfill a decision. How Nancy knew Bart was the right role even though she had been called in for Lisa. Why artists need preparation, mentorship, instinct, immersion, and commitment. How The Simpsons has lasted through writing, love, improv, and a giant universe of relatable characters. Why Nancy believes artists have a responsibility to connect with people on a deeper wavelength. How making In Search of Fellini took more than 20 years of persistence, revision, and collaboration. Timestamped Chapters: [02:00] The Most Unknown Famous Person in the World James introduces Nancy Cartwright and asks what it is like to be instantly recognizable by voice but not by face. [02:43] Bart Simpson Enters the Room Nancy demonstrates why millions of people know her even if they do no",
+      "duration": "01:15:27",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "d0b47470acb77c9da3da4a92",
+        "score": 35,
+        "tier": "skip",
+        "reason": "Artistic journey of a voice actor, low relevance to market, capital, or AI platform insights.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "da9368ef83aee20485fd5938",
+      "show_name": "The Cognitive Revolution",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Let There Be Germicidal Light: This $500 Fixture Could Stop the Next Pandemic, from Complex Systems",
+      "link": "https://www.cognitiverevolution.ai/let-there-be-germicidal-light-this-500-fixture-could-stop-the-next-pandemic-from-complex-systems/",
+      "published": "2026-08-16T05:43:02+00:00",
+      "summary": "Patrick McKenzie (patio11) hosts Aerolamp CEO Misha Gurevich and Chief Scientist Vivian Belenky, a Columbia University researcher, for a Complex Systems conversation about far-UVC germicidal light at roughly 222 nanometers. Belenky explains why this wavelength can inactivate airborne pathogens while being absorbed by the dead outer layer of human skin, and why room-scale deployments may function like an extremely strong air purifier. The guests argue that the biggest barriers are awareness and adoption rather than cost or basic science, with fixtures around $500 and straightforward installation. The stakes are concentrated in schools, transport hubs, long-term care, and future respiratory pandemics, where making clean shared air into ordinary infrastructure could sharply reduce transmission. For full show notes, links, and references, read the episode page:https://www.cognitiverevolution.ai/let-there-be-germicidal-light-this-500-fixture-could-stop-the-next-pandemic-from-complex-systems/ Sponsors: Deepgram Flux TTS: Deepgram Flux TTS brings lifelike AI voices with real personalities that handle interruptions, pauses, and natural conversation. Try all the voices free through September 12 at https://deepgram.com/keep-talking Granola: Granola is an AI-powered notepad that securely transcribes meetings and turns rough notes into clean, structured action items. Try it free at https://granola.ai/tcr Claude: Claude by Anthropic is an AI collaborator that understands your workflow and helps you tackle research, writing, coding, and organization with deep context. Get started with Claude and explore Claude Pro at https://claude.ai/tcr CHAPTERS: (00:00) About the Episode (03:19) Far-UVC science and safety (12:41) Deployment and economics (Part 1) (18:04) Sponsors: Deepgram Flux TTS | Granola (20:04) Deployment and economics (Part 2) (27:11) Evidence and pandemics (Part 1) (32:43) Sponsor: Claude (34:13) Evidence and pandemics (Part 2) (38:14) Built environment strategy (47:27) Scaling and home use (56:06) Uncertainty and immunity (01:05:38) Risk and awareness (01:20:45) Episode Outro (01:24:26) Outro PRODUCED BY: https://aipodcast.ing SOCIAL LINKS: Website: https://www.cognitiverevolution.ai Twitter (Podcast): https://x.com/cogrev_podcast Twitter (Nathan): https://x.com/labenz LinkedIn: https://linkedin.com/in/nathanlabenz/ Youtube: https://youtube.com/@CognitiveRevolutionPodcast Apple: https://podcasts.apple.com/de/podcast/the-cognitive-revolution-ai-builders-researchers-and/id1669813431 Spotify: https://open.spotify.com/show/6yHyok3M3BjqzR0VB5MSyk",
+      "duration": "5113",
+      "old_score": 41,
+      "old_label": "skip",
+      "qwen": {
+        "id": "da9368ef83aee20485fd5938",
+        "score": 82,
+        "tier": "digest",
+        "reason": "Technical and market discussion on germicidal light's potential to stop pandemics, with cost and adoption analysis.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "4d297afb91be0a7eb44f54e0",
+      "show_name": "Founders",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "#429 Bob Dylan's Autobiography",
+      "link": "",
+      "published": "2026-08-16T00:19:00+00:00",
+      "summary": "What I learned from rereading Bob Dylan's autobiography. Made possible by: Ramp: ⁠⁠https://ramp.com⁠⁠ Applovin: ⁠⁠https://www.applovin.com Vanta: ⁠⁠https://vanta.com/founders",
+      "duration": "3604",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "4d297afb91be0a7eb44f54e0",
+        "score": 40,
+        "tier": "skip",
+        "reason": "Reflection on Bob Dylan's autobiography, lacks actionable business or AI insight.",
+        "confidence": "medium"
+      }
+    }
+  ]
+}

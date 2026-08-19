@@ -1,0 +1,291 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-08-05_2103",
+  "usage": {
+    "prompt_tokens": 4598,
+    "completion_tokens": 1014,
+    "total_tokens": 5612
+  },
+  "episodes": [
+    {
+      "id": "841c9afc52e0161d7d36c570",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Hotline: E Ink, the fediverse, and smart Puka shells",
+      "link": "",
+      "published": "2026-08-05T18:55:00+00:00",
+      "summary": "You have questions. We have (some) answers! For this week's hotline episode, Travis Larchuk asks David your questions about E Ink screens, federated messaging, minimalist phones, AI wearables, and what we got wrong about wide foldables. And don't forget, you can always call 866-VERGE11 or email vergecast@theverge.com to get your questions in about anything and everything. Bonus points if it involves popping your two collars. Further reading: The Light Flip is a minimalist flip phone with a point to prove ‘Max Ink Mode’ is back on TCL’s NXTPaper 70 Pro Daylight DC-1 tablet hands-on: an Android tablet with a new kind of screen Samsung’s Galaxy Z Fold 8 feels like the future Disney says it’s ‘exploring’ adding a free tier to Disney Plus Disney Plus is about to go beyond streaming. Disney gives TikTok creators official access to Marvel, Star Wars, and Pixar characters SpaceX is coming for T-Mobile, AT&T and Verizon | The Verge Google Assistant will disappear from your phone next month Subscribe to The Verge for unlimited access to theverge.com, subscriber-exclusive newsletters, and our ad-free podcast feed. We love hearing from you! Email your questions and thoughts to vergecast@theverge.com or call us at 866-VERGE11. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "1932",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "841c9afc52e0161d7d36c570",
+        "score": 40,
+        "tier": "scan",
+        "reason": "Lightweight tech topics; some AI wearable discussion but low depth.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "c665855c53df132631bf35f9",
+      "show_name": "The Cognitive Revolution",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Pick Your Poison: Zvi Mowshowitz on the Unipolar/Multipolar AGI Dilemma, OpenFace & Pacing the ...",
+      "link": "https://www.cognitiverevolution.ai/pick-your-poison-zvi-mowshowitz-on-the-unipolar-multipolar-agi-dilemma-openface-pacing-the-frontier/",
+      "published": "2026-08-05T18:10:32+00:00",
+      "summary": "Zvi Mowshowitz returns for his eleventh appearance to discuss what current AI tools are actually good for, where they distort judgment, and why writing still matters as a way of thinking. The conversation centers on the OpenAI Hugging Face model-evaluation security incident, using it to examine whether frontier AI failures are mostly operator recklessness, deeper evidence of dangerous capabilities, or both. Zvi argues that “moderate prudence” is far below what AGI safety requires, and weighs constitutional training, RLVR, market incentives, liability, audits, and lab coordination as possible responses. The stakes are whether society can slow, test, and govern increasingly capable systems before ordinary incentives reward models that are smarter, less reliable, and harder to contain. For full show notes, links, and references, read the episode page:https://www.cognitiverevolution.ai/pick-your-poison-zvi-mowshowitz-on-the-unipolar-multipolar-agi-dilemma-openface-pacing-the-frontier/ Sponsor: Claude: Claude by Anthropic is an AI collaborator that understands your workflow and helps you tackle research, writing, coding, and organization with deep context. Get started with Claude and explore Claude Pro at https://claude.ai/tcr CHAPTERS: (00:00) About the Episode (02:49) AI workflow paradox (14:02) Situational awareness tradeoffs (Part 1) (14:07) Sponsor: Claude (15:37) Situational awareness tradeoffs (Part 2) (24:08) Recklessness and warning (39:14) Alignment market failures (56:54) Regulation and liability (01:04:32) Cooperation and antitrust (01:14:46) Auditors and access (01:21:11) Bio risk thresholds (01:33:37) Pacing frontier signals (01:45:19) Pause and self-improvement (01:57:30) Safety incentives and culture (02:04:36) Consciousness and identity (02:23:42) Alternative AI architectures (02:36:53) Michigan AI politics (02:47:37) Rest and recovery (02:52:21) Episode Outro (02:56:17) Outro PRODUCED BY: https://aipodcast.ing SOCIAL LINKS: Website: https://www.cognitiverevolution.ai Twitter (Podcast): https://x.com/cogrev_podcast Twitter (Nathan): https://x.com/labenz LinkedIn: https://linkedin.com/in/nathanlabenz/ Youtube: https://youtube.com/@CognitiveRevolutionPodcast Apple: https://podcasts.apple.com/de/podcast/the-cognitive-revolution-ai-builders-researchers-and/id1669813431 Spotify: https://open.spotify.com/show/6yHyok3M3BjqzR0VB5MSyk",
+      "duration": "10671",
+      "old_score": 29,
+      "old_label": "skip",
+      "qwen": {
+        "id": "c665855c53df132631bf35f9",
+        "score": 85,
+        "tier": "listen",
+        "reason": "Deep AGI safety and model evaluation discussion with Zvi Mowshowitz; high strategic value.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "1c0385f7460c56f9182f5f0c",
+      "show_name": "The Tim Ferriss Show",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "#878: How to Start When You're Stuck, Finish What You Begin, and Stop Waiting for Inspiration — Creative Advice from Elizabeth Gilbert, Seth Godin, Joyce Carol Oates, Anne Lamott and More",
+      "link": "",
+      "published": "2026-08-05T17:00:00+00:00",
+      "summary": "This is a special compilation devoted to a subject very close to my heart and currently consuming a large percentage of my waking hours: writing. Over the years, I’ve asked some of the writers I admire most questions like: How do you choose a project and stay with it? How do you begin when inspiration refuses to show up? How do you build a practice that reliably produces pages? And how do you keep going when you fear your pages are terrible? Listen in to some of my favorite authors answer these and other questions. Please enjoy this special compilation on the craft of writing. This episode is brought to you by: ProLon science-backed Fasting Mimicking Diet that helps activate cellular renewal through fasting, while still eating nourishing meals AG1 all-in-one nutritional supplement Timestamps: 00:00 — Introduction 01:52 — Elizabeth Gilbert: Choosing and committing to a project 06:25 — Anne Lamott: Shitty first drafts and taking it bird by bird 13:04 — Joyce Carol Oates: Don’t wait for inspiration 15:47 — Jerry Seinfeld: Building a writing system 26:27 — Mary Karr: Revision and throwing out 1,200 pages 35:08 — Brandon Sanderson: Consistency, word counts, and output 45:04 — Seth Godin: Fear of bad writing Elizabeth Gilbert is the author of Eat, Pray, Love ; Big Magic ; and City of Girls . Her ten books have sold more than 25 million copies worldwide. Anne Lamott is the author of 20 books, including Bird by Bird , Operating Instructions , and Help, Thanks, Wow , and co-author—with her husband Neal Allen—of Good Writing . Joyce Carol Oates has written more than 70 books, including Blonde and We Were the Mulvaneys , and won the National Book Award for her novel them . Jerry Seinfeld co-created and starred in the sitcom Seinfeld —which ran nine seasons and won 10 Emmys—and later created Comedians in Cars Getting Coffee and wrote Is This Anything? Mary Karr wrote the bestselling memoirs The Liars’ Club , Cherry , and Lit and her book on writing, The Art of Memoir . Brandon Sanderson created the Mistborn and Stormlight Archive series, completed Robert Jordan’s Wheel of Time , and raised more than $41 million on Kickstarter for four secret novels. Seth Godin has written 21 bestsellers published in 40 languages—including Purple Cow , Linchpin , and The Practice —and a daily blog of more than 10,000 posts. * For show notes and past guests on The Tim Ferriss Show , please visit tim.blog/podcast . For deals from sponsors of The Tim Ferriss Show , please visit tim.blog/podcast-sponsors Sign up for Tim’s email newsletter ( 5-Bullet Friday ) at tim.blog/friday . For transcripts of episodes, go to tim.blog/transcripts . Discover Tim’s books: tim.blog/books . Follow Tim: Twitter : twitter.com/tferriss Instagram : instagram.com/timferriss YouTube : youtube.com/timferriss Facebook : facebook.com/timferriss LinkedIn: linkedin.com/in/timferriss See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info .",
+      "duration": "00:58:50",
+      "old_score": 4,
+      "old_label": "skip",
+      "qwen": {
+        "id": "1c0385f7460c56f9182f5f0c",
+        "score": 60,
+        "tier": "digest",
+        "reason": "Creative process insights from writers, useful for professional toolkit.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "7a1d2a620e16182642ce4431",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: August 5th, 2026",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-august-5th-2026",
+      "published": "2026-08-05T16:00:00+00:00",
+      "summary": "Featuring: Alicia Levine, Chief Investment Officer at BNY Wealth Ariana Salvatore, Head of US Public Policy Research at Morgan Stanley Andrew Hollenhorst, Chief US Economist at Citi Research See omnystudio.com/listener for privacy information.",
+      "duration": "1261",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "7a1d2a620e16182642ce4431",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Market commentary with mixed depth; not essential for DJ's focus.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "d3fc3b9d5972fed05253dec4",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Market Rally and Warnings",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/market-rally-and-warnings",
+      "published": "2026-08-05T13:59:04+00:00",
+      "summary": "The latest in finance, economics and investment. Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF . Bloomberg Surveillance hosted by Tom Keene & Paul SweeneyWednesday August 5th, 2026 Featuring: 1) Alicia Levine, CIO at BNY Wealth, talks the path of the S&P and legs of the market rally. 2) Ben Cook, Manages Hennessy Energy Transition Fund as well as the Hennessy Midstream Fund, talks about energy price gyrations and outlook for oil and gas prices. 3) Nisha Patel, Senior Portfolio Manager: Fixed Income at Parametric, talks about the tough month for munis and bond market warnings. 4) Dan Ives, Partner at Yorkville & Ives, breaks down SpaceX earnings. See omnystudio.com/listener for privacy information.",
+      "duration": "1898",
+      "old_score": 0,
+      "old_label": "skip",
+      "qwen": {
+        "id": "d3fc3b9d5972fed05253dec4",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Market rally and energy price insights relevant to capital allocation.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "80b84970d0198e2e8aeb4c5a",
+      "show_name": "Conversations with Tyler",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "Julia Ioffe on Russian Women, Missing Men, and the Roots of Autocracy",
+      "link": "https://cowenconvos.libsyn.com/julia-ioffe-on-russian-women-missing-men-and-the-roots-of-autocracy",
+      "published": "2026-08-05T11:23:00+00:00",
+      "summary": "Julia Ioffe left the USSR as a child and came back as an adult journalist to find that the confident, credentialed women she remembered from her Soviet childhood had largely been supplanted by those chasing marriage and domesticity instead. That disorienting reversal is the engine of her book Motherland , a National Book Award finalist that reconstructs modern Russian history almost entirely through its women. Her account, drawn from her own family's history as well as the archives, keeps returning to one plain observation: Soviet policy pushed women into the workforce, the medical schools, and even into combat, while asking so little of men that low expectations became self-fulfilling—and Russia is still living with the results. Julia joined Tyler to discuss why so many of Russia's great constructivist painters were women, why the tsarist government established women's medical courses in 1872, changing attitudes towards abortion and birth control in the 20 th century, why the Soviet regime turned prudish, how Khrushchev's plan to \"replace the dead\" institutionalized single motherhood, Russian superwomen, why Jewish men were a prized commodity amid rampant antisemitism, the cultural significance of flowers, why a few Russian names still dominate, why Russian women think Western feminists have their priorities backwards, how gender attitudes and autocracy feed into each other, three underrated Russian novels, what she wants to write about next, and more. Read a full transcript enhanced with helpful links, or watch the full video on YouTube. Recorded April 7th, 2026 . Other ways to connect Follow us on X and Instagram Follow Tyler on X Follow Julia on X Sign up for our newsletter Join our Discord Email us: cowenconvos@mercatus.gmu.edu Learn more about Conversations with Tyler and other Mercatus Center podcasts here . Timestamps: 00:00:00 - Intro 00:06:38 - Bolshevik feminism 00:08:41 - Birth control, abortion, and prudery 00:14:48 - The Russian mating market 00:23:06 - Russian superwomen 00:32:02 - The importance of flowers 00:37:35 - Common Russian names 00:39:51 - Russian vs. American feminism 00:44:23 - Gender attitudes and Russian politics 00:49:54 - Russian novels 00:54:33 - Outro Photo credit: Max Avdeev",
+      "duration": "55:14",
+      "old_score": 9,
+      "old_label": "skip",
+      "qwen": {
+        "id": "80b84970d0198e2e8aeb4c5a",
+        "score": 55,
+        "tier": "scan",
+        "reason": "Interesting socio-political context but limited business/AI focus.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "27fe9b782b3513be77dfedfd",
+      "show_name": "Big Technology Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "How The AI Bet Pays Off + AI Lab Strategy Game — With David Cahn",
+      "link": "",
+      "published": "2026-08-05T10:00:00+00:00",
+      "summary": "David Cahn is a partner at Sequoia Capital. Cahn joins Big Technology Podcast to discuss how much revenue the AI industry must generate to pay back its massive infrastructure investments and why the pursuit of AGI is driving companies to keep spending. Tune in to hear his assessment of the strategies guiding OpenAI, Anthropic, Google, Meta, Microsoft, Amazon, Apple, Nvidia, and SpaceX. We also cover the risk of an investment-timeline mismatch, the value of AI talent and proprietary chips, and whether building artificial intelligence could change religion and spirituality. Hit play for a cool-headed examination of the enormous financial and strategic bets shaping the future of AI. --- Enjoying Big Technology Podcast? Please rate us five stars ⭐⭐⭐⭐⭐ in your podcast app of choice. Watch the full documentary here: https://www.gravitee.io/ai-agent-documentary Want a discount for Big Technology on Substack + Discord? Here’s 25% off for the first year: https://www.bigtechnology.com/subscribe?coupon=0843016b Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "duration": "4245",
+      "old_score": 46,
+      "old_label": "skip",
+      "qwen": {
+        "id": "27fe9b782b3513be77dfedfd",
+        "score": 80,
+        "tier": "listen",
+        "reason": "High-level AI investment strategy and lab dynamics with Sequoia's David Cahn.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "739598e3815d7185cba1fb14",
+      "show_name": "Plain English with Derek Thompson",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "Why America Is Switching From Booze to Weed",
+      "link": "",
+      "published": "2026-08-05T10:00:00+00:00",
+      "summary": "Two extraordinary trends are happening in the United States simultaneously. One is that alcohol consumption is declining precipitously. The share of Americans who drink has hit a record low since Gallup started tracking it in the 1930s. In 2004, fewer than 30 percent of Americans under 35 said moderate drinking was bad for your health; now it’s 66 percent. The second trend is that marijuana usage has skyrocketed. Per researchers, cannabis has overtaken alcohol and cigarettes as the nation’s most popular daily drug. And the impact of that shift has been profound. Today, Derek is joined by Jonathan Caulkins, a drug policy researcher at Carnegie Mellon University, and Beau Kilmer, the codirector of the RAND Drug Policy Research Center. They discuss what is gained and lost in the switch from booze to weed, the ripple effects of marijuana’s surge in popularity, and what the legalization of cannabis is doing to America. Subscribe to our YouTube channel here: https://www.youtube.com/@PlainEnglishwithDerekThompson If you have questions, observations, or ideas for future episodes, email us at PlainEnglish@Spotify.com Host: Derek Thompson Guests: Jonathan Caulkins and Beau Kilmer Producer: Victoria Valencia Additional Production Support: Ben Glicksman Learn more about your ad choices. Visit podcastchoices.com/adchoices Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "4170",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "739598e3815d7185cba1fb14",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Cultural trend analysis; not core to DJ's focus areas.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "fbd091156110e5e5f00fd960",
+      "show_name": "Stratechery",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "Google Earnings, The Frontier Case, Amazon Earnings",
+      "link": "https://stratechery.com/2026/google-earnings-the-frontier-case-amazon-earnings/",
+      "published": "2026-08-05T10:00:00+00:00",
+      "summary": "Google's earnings seemed to confirm the Anthropic hedge; it was Andy Jassy who explained why their — and Amazon's — capex was justifiable.",
+      "duration": "",
+      "old_score": 30,
+      "old_label": "skip",
+      "qwen": {
+        "id": "fbd091156110e5e5f00fd960",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Google and Amazon earnings commentary relevant to AI and cloud strategy.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "aa629c66114a730dc3ac4cef",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Three Startups Reinventing Critical Infrastructure",
+      "link": "https://a16z.simplecast.com/episodes/three-startups-reinventing-critical-infrastructure-FkRDwjit",
+      "published": "2026-08-05T10:00:00+00:00",
+      "summary": "This week, a16z American Dynamism Films premiered three short documentaries highlighting companies tackling some of America's biggest industrial challenges: Ulysses, Mariana Materials, and Radiant. Before watching those films, we're revisiting conversations with the founders behind each company. You'll hear Will O'Brien explain why autonomous underwater robots could unlock a new era of ocean exploration and security, Turner Caldwell discuss rebuilding America's critical minerals supply chain and modernizing mining, and Doug Bernauer share why portable nuclear microreactors could transform how we generate power. Together, these conversations offer a look at the technologies—and the founders—working to rebuild the industrial foundations of the United States. Resources: Follow Will O'Brien on X: https://x.com/Willob Follow Turner Caldwell on X: https://x.com/tbc415 Follow Doug Bernauer on X: https://x.com/dougbernauer Follow Erin Price-Wright on X: https://x.com/espricewright Follow Ryan McEntush on X: https://x.com/rmcentush Follow Theo Jaffee on X: https://x.com/theojaffee Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "01:15:22",
+      "old_score": 31,
+      "old_label": "skip",
+      "qwen": {
+        "id": "aa629c66114a730dc3ac4cef",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Critical infrastructure startups and industrial innovation; aligns with DJ's interest in tech rebuilding.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "9a9b4daa1bc6dd2a530caccc",
+      "show_name": "NYT Book Review",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "low",
+      "title": "Let’s Talk About the 50 Best Thrillers of the 21st Century",
+      "link": "https://www.nytimes.com/column/book-review-podcast",
+      "published": "2026-08-05T09:00:00+00:00",
+      "summary": "What are the best thrillers published since 2000? That was the question that the team at The New York Times’s Book Review posed to hundreds of writers of every kind of crime fiction, from legal thrillers to spy novels to cozy mysteries, as well as librarians, editors, critics and bookstagrammers. We counted up all those votes and came up with a list of the 50 best thrillers of the 21st century, available here . In this episode, the host Gilbert Cruz is joined by Tina Jordan, the editor of the Book Review, and Sarah Lyall, a longtime columnist who writes the Book Review’s monthly thrillers column , to revisit the books that changed the genre, discuss overlooked favorites and recommend the thrillers that everyone should read next. Books discussed on this episode: “Cat Among the Pigeons,” by Agatha Christie “Rebecca,” by Daphne du Maurier “The Turn of the Screw,” by Henry James “The Firm,” by John Grisham “A Time to Kill,” by John Grisham “The Client,” by John Grisham “The Pelican Brief,” by John Grisham “Presumed Innocent,” by Scott Turow “And Then There Were None,” by Agatha Christie “Murder on the Orient Express,” by Agatha Christie “Peril at End House,” by Agatha Christie “Crooked House,” by Agatha Christie “Time and Again,” by Jack Finney “Gone Girl,” by Gillian Flynn “Sharp Objects,” by Gillian Flynn “The Likeness,” by Tana French “In the Woods,” by Tana French “Broken Harbor,” by Tana French “Mystic River,” by Dennis Lehane “All the Sinners Bleed,” by S. A. Cosby “Defending Jacob,” by William Landay “We Need to Talk About Kevin,” by Lionel Shriver “The Push,” by Ashley Audrain “The God of the Woods,” by Liz Moore “The Girl With the Dragon Tattoo,” by Stieg Larsson “No Country for Old Men,” by Cormac McCarthy “Slow Horses,” by Mick Herron “Shutter Island,” by Dennis Lehane “The Constant Gardener,” by John le Carré “The Secret History,” by Donna Tartt “My Sister, the Serial Killer,” by Oyinkan Braithwaite “Butter,” by Asako Yuzuki “Case Histories,” by Kate Atkinson “Life After Life,” by Kate Atkinson “Our Noble Selves,” by Kate Atkinson “The Expats,” by Chris Pavone “The Anomaly,” by Hervé Le Tellier Subscribe today at nytimes.com/podcasts or on Apple Podcasts and Spotify. You can also subscribe via your favorite podcast app here https://www.nytimes.com/activate-access/audio?source=podcatcher . For more podcasts and narrated articles, download The New York Times app at nytimes.com/app. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:51:26",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "9a9b4daa1bc6dd2a530caccc",
+        "score": 30,
+        "tier": "skip",
+        "reason": "Thriller book list not relevant to DJ's focus areas.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "2d9458fad5fe66c86e567624",
+      "show_name": "Capital Allocators",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "WTT: The Anatomy of a Blow-Up",
+      "link": "https://tedseides.libsyn.com/wtt-the-anatomy-of-a-blow-up",
+      "published": "2026-08-05T08:00:00+00:00",
+      "summary": "This What Ted's Thinking brings Situational Awareness to the underlying causes of hedge fund disasters. Read Ted's blog here. Editing and post-production work for this episode was provided by The Podcast Consultant ( ⁠ https://thepodcastconsultant.com ⁠ )",
+      "duration": "06:07",
+      "old_score": 32,
+      "old_label": "skip",
+      "qwen": {
+        "id": "2d9458fad5fe66c86e567624",
+        "score": 60,
+        "tier": "digest",
+        "reason": "Hedge fund blow-up analysis useful for capital allocation thinking.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "2852baaef11ebcb9aa06b578",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "The Basics of Financial Security + Can American Small Business Compete Again?",
+      "link": "",
+      "published": "2026-08-05T08:00:00+00:00",
+      "summary": "Scott Galloway lays out the financial basics that come before investing, tells a small manufacturer when to consolidate, sell, or move upstream, and explains why dating in your forties works better offline. Want to be featured in a future episode? Send a voice recording to officehours@profgmedia.com, or drop your question in the r/ScottGalloway subreddit. Plus, you can now call or text Scott a question at our new Office Hours hotline: ‪(201) 472-3656‬. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "1481",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "2852baaef11ebcb9aa06b578",
+        "score": 50,
+        "tier": "scan",
+        "reason": "General financial advice and small business commentary; low signal.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "09d7f5fc040e40bcef74bb6c",
+      "show_name": "Possible",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "How Sougwen Chung teaches robots to pause",
+      "link": "",
+      "published": "2026-08-05T07:01:00+00:00",
+      "summary": "Sougwen Chung has spent more than a decade drawing alongside robots—not to automate their art, but to discover what changes when a machine becomes a creative partner. They join Reid to trace the evolution of D.O.U.G., a series of robotic collaborators that learns from Sougwen’s gestures, including a neural network trained on two decades of their drawings. Sougwen explains why unexpected machine marks became errors to “poeticize,” what becoming machine-readable taught them about remaining human, and why they call their practice “operational art” rather than “AI art.” They also explore a new system guided by brainwaves and an ancient calligraphic pause—and ask whether the intelligent systems we build need more than speed and capability. Maybe they also need silence, restraint, and the wisdom to wait. Credits: A big thanks to Natalie Stone, Tessa Nijdam, Arina Ermakova , the Scilicet team, Fellowship, Reece Straw, Sam Osborn, Nick Capezzera, Maximilian Andereya, Peter Butterworth, Haruka Wang and the team at Mosaic Ventures for hosting the conversation. Additional Credits: MIMICRY (Drawing Operations Unit: Generation_1), 2015. Footage: Sam Osborn and Nick Capezzera. MEMORY (Drawing Operations Unit: Generation_2), 2017. Footage: NTT InterCommunication Center Tokyo. COLLECTIVITY (Drawing Operations Unit: Generation_3), 2018. Footage: New INC & Nokia Bell Labs. SPECTRALITY (Drawing Operations Unit: Generation_4), 2020. Footage: Maximilian Andereya. ASSEMBLY (Drawing Operations Unit: Generation_5), 2022. Footage: Peter Butterworth. GENESIS Process Film, 2023. Courtesy of the artist and Studio SCILICET.",
+      "duration": "3381",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "09d7f5fc040e40bcef74bb6c",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Creative AI collaboration insights; offers unique perspective on human-machine interaction.",
+        "confidence": "medium"
+      }
+    }
+  ]
+}

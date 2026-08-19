@@ -978,7 +978,7 @@ and logs — avoids shell-escaping backslashes in bash.
 
 ---
 
-## Troubleshooting
+### Troubleshooting
 
 ### Explaining setup or config changes to DJ
 DJ regularly asks "how do I enable/change X in Hermes?" and has corrected vague instructions many times ("stop making me do this", "we've had this conversation many times"). Match these rules:
@@ -989,6 +989,9 @@ DJ regularly asks "how do I enable/change X in Hermes?" and has corrected vague 
 - **OpenRouter needs no per-model key.** One `OPENROUTER_API_KEY` covers every OpenRouter model; "enabling" a new OpenRouter model = switching the model ID, nothing else.
 - **Say when it takes effect.** Model/provider changes apply to new sessions — tell him to start a new session (or restart the gateway if he wants it immediate).
 - **Narrate long investigations.** During multi-tool debugging, post one-line progress notes between tool batches. Long silent tool runs read to DJ as "what the heck is going on."
+- **Artifact requests are exact deliverables.** If DJ asks for a PDF, transcript, or other file of the conversation, produce that exact artifact type rather than substituting a text summary or a different file. Include the current/latest user message in the captured content unless the user explicitly excludes it.
+- **Verify the artifact before replying.** For PDFs and other files, confirm the file opens, matches the requested format, and is uploaded to the requested Drive folder before claiming completion. If the first artifact is wrong or malformed, replace it rather than layering on a second confusing deliverable.
+- **Drive-bound file requests go to the named folder.** When DJ specifies a Google Drive location, upload there and return the Drive link; do not leave the file only on the local machine or mention a local path as the deliverable. See `references/artifact-delivery.md` for the artifact checklist.
 
 ### Voice not working
 1. Check `stt.enabled: true` in config.yaml and confirm the selected provider (`local`, `groq`, `openai`, or `mistral`).
@@ -1008,8 +1011,10 @@ DJ regularly asks "how do I enable/change X in Hermes?" and has corrected vague 
 1. `hermes doctor` — check config and dependencies
 2. `hermes auth status openai-codex` / `hermes auth add openai-codex --type oauth --no-browser` — re-authenticate or re-add OAuth provider credentials
 3. Check `.env` has the right API key
-4. **Provider/model flip in a running gateway:** when DJ asks to change the primary provider/model and explicitly says not to restart or touch code, use `hermes config set model.provider <provider>` and `hermes config set model.default <model>` (or the full `/opt/hermes/.venv/bin/hermes` path if `hermes` is not on PATH), then verify `config.yaml`. Do not edit `/opt/hermes` and do not restart the gateway unless requested. Phrase the result as "configured for new sessions / next gateway model load" unless you have actually invoked a supported reload command and verified it.
-5. **OpenRouter model enablement:** if the user wants Kimi K3, set the exact model ID `moonshotai/kimi-k3` while keeping the existing OpenRouter key. There is no per-model key to add. See `references/openrouter-model-aliases.md`.
+4. **Provider/model flip in a running gateway:** when DJ asks to change the primary provider/model and explicitly says not to restart or touch code, use `hermes config set model.provider <provider>` and `hermes config set model.default <model>` (or the full `/opt/hermes/.venv/bin/hermes` path if `hermes` is not on PATH), then verify `config.yaml`. Do not edit `/opt/hermes` and do not restart the gateway unless requested. Phrase the result as "configured for new sessions / next gateway model load" unless you have actually invoked a supported reload command and verified it. If DJ says `--global`, check CLI help first: current `hermes config set` has no `--global` flag; the active config path from `hermes config path` is the global target.
+5. **Global quality/model tuning bundle:** when DJ provides exact `hermes config set ...` commands for model/context/memory/auxiliary tuning, apply them rather than re-explaining. First inspect the live key names in `/opt/data/config.yaml` so you do not create ignored near-miss keys. In this environment the active key observed was `model.contextlength` (not `model.context_length`). After setting blank auxiliary models, also check the corresponding auxiliary providers: blank model plus `provider: openrouter` still routes to OpenRouter; to let compression/session_search inherit the main model, set `auxiliary.<task>.provider auto` and `auxiliary.<task>.model ''`. Verify by printing the final values.
+6. **Config section display:** `hermes config show compression` is not valid on current CLI; use `hermes config show` for the whole config or read `/opt/data/config.yaml` and print the requested section. Do not present the failed command as user error; provide the actual section value.
+7. **OpenRouter model enablement:** if the user wants Kimi K3, set the exact model ID `moonshotai/kimi-k3` while keeping the existing OpenRouter key. There is no per-model key to add. See `references/openrouter-model-aliases.md`.
 6. **Copilot 403**: `gh auth login` tokens do NOT work for Copilot API. Use the Copilot-specific OAuth flow via `hermes auth add openai-codex --type oauth --no-browser` (or `hermes auth status openai-codex` / `hermes auth list openai-codex` to verify). 
 7. **"Non-retryable error (HTTP None) — trying fallback" on every turn**: primary model is broken at connection level (not a 4xx). Check `config.yaml` — `model.provider` + `model.default` — and compare against which provider is actually succeeding (check gateway.log for "switching to fallback"). Fix: set `model.provider` and `model.default` to the working fallback provider. The `openai-codex` provider with `model.default: ''` auto-selects `gpt-5.5` and can silently fail on every request if the OAuth token is stale or the model is unavailable. Diagnose by grepping gateway.log for `"defaulting to"` and `"switching to fallback"` on the same turns.
 
@@ -1025,7 +1030,7 @@ When the user says Hermes is broadly dumber than the browser or another direct c
 4. Re-test in a fresh session after changes, because config changes do not reliably affect the current turn.
 5. If Hermes still loses, compare the exact same prompt in a new session and inspect gateway logs for fallback or compression events around the turn.
 
-Reference checklist: `references/quality-diagnostics.md`.
+Reference checklist: `references/quality-diagnostics.md`. For the exact global config bundle covering gpt-5.5, context auto-detection, expanded memory limits, and main-model auxiliary compression/session_search, see `references/global-model-quality-tuning.md`.
 
 ### Changes not taking effect
 - **Tools/skills:** `/reset` starts a new session with updated toolset
@@ -1091,13 +1096,27 @@ When DJ asks about the Hermes Telegram group/topic setup, keep the answer short 
 - **Topic/thread** = a named forum thread inside the group; Hermes delivery targets use `telegram:<chat_id>:<message_thread_id>`.
 - **Channel** = broadcast feed; usually not what DJ means for Hermes.
 
-Current target discovery via `send_message(action="list")` may show only `topic N`, not human-readable names. For DJ-facing explanations and reports, **do not refer to topics by numeric labels** like “topic 5”; use the actual human-readable topic names DJ has given. If the mapping is unknown, say the topic name is unresolved and build a durable map rather than presenting the number as the label. To build a durable map:
+Current target discovery via `send_message(action="list")` may show only `topic N`, not human-readable names. For DJ-facing explanations and reports, **do not refer to topics by numeric labels** like “topic 5”; use the actual human-readable topic names DJ has given. If the mapping is unknown, say the topic name is unresolved and build a durable map rather than presenting the number as the label.
+
+**New-topic delivery guardrail:** if DJ says he created a new Telegram topic while the current conversation is still happening in an existing topic, do **not** set cron delivery to `origin`. `origin` means the current conversation topic, not necessarily the new topic. First resolve the newly registered topic/thread ID explicitly, then set scheduled jobs to `telegram:<chat_id>:<thread_id>`.
+
+To build or refresh a durable map:
+Current target discovery via `send_message(action="list")` may show only `topic N`, not human-readable names. For DJ-facing explanations and reports, **do not refer to topics by numeric labels** like “topic 5”; use the actual human-readable topic names DJ has given. If the mapping is unknown, say the topic name is unresolved and build a durable map rather than presenting the number as the label.
+
+**Current-topic identification:** if DJ asks “what topic/number is this?” or tests a newly-created topic, inspect gateway logs before answering. Telegram batching log lines include the live thread id in keys like `agent:main:telegram:group:<chat_id>:<message_thread_id>` immediately before the inbound message. Example command:
+```bash
+grep -R "Flushing text batch\|inbound message" -n /opt/data/logs/gateway.log /root/.hermes/logs/gateway.log 2>/dev/null | tail -80
+```
+For a current message, pair the newest `Flushing text batch ...:<thread_id>` line with the following `inbound message` line. That `<thread_id>` is the topic number; the full delivery target is `telegram:<chat_id>:<thread_id>`. Do **not** treat a random word in DJ's question (e.g. “Milner”) as the topic name unless he explicitly confirms it.
+
+To build a durable map:
 1. List messaging targets and cron deliveries.
-2. If names are unknown, send one short marker to each known topic target: `ID check: topic N`.
-3. Ask DJ for one screenshot or a typed mapping from marker → visible topic name.
-4. Save the resulting `chat_id/topic_id/name` map to memory.
-5. Use `editForumTopic` through Telegram Bot API to rename topics when requested, if the bot has rights. `TOPIC_NOT_MODIFIED` means the name was already correct.
-6. Update scheduled jobs with exact `deliver=telegram:<chat_id>:<topic_id>` destinations, then verify with `hermes cron list` / cron tool.
+2. If the current topic is being tested, derive `chat_id` and `message_thread_id` from the gateway logs as above, then send one short marker to that exact target (for example: `Test from Hermes: this is the Podcast Digest topic`).
+3. If names remain unknown, send one short marker to each known topic target: `ID check: topic N`.
+4. Ask DJ for one screenshot or a typed mapping from marker → visible topic name.
+5. Save the resulting `chat_id/topic_id/name` map to memory, replacing any provisional or mistaken label immediately after DJ confirms.
+6. Use `editForumTopic` through Telegram Bot API to rename topics when requested, if the bot has rights. `TOPIC_NOT_MODIFIED` means the name was already correct.
+6. Update scheduled jobs with exact `deliver=telegram:<chat_id>:<topic_id>` destinations, then verify with `hermes cron list` / cron tool. **Do not use `origin` as a shortcut when the user means a different/new topic than the current conversation; resolve the explicit topic target first.**
 7. To change the default/home Telegram topic, update `TELEGRAM_HOME_CHANNEL_THREAD_ID` in the active gateway env/config location and restart/reload gateway only if the user approved or requested immediate effect.
 
 **Pitfall: interactive chat vs capture-only topic.** If a Telegram topic is being used as the live Daily Brain Dump chat, do *not* let the thought-capture integration silently consume ordinary messages. Keep the capture channel separate, or make capture *non-blocking* for that topic: capture first, then emit a lightweight `✓` ack and let the message fall through to the normal Hermes conversation so DJ gets a real reply in-topic. Retrieval-style prompts can still be routed directly to the thoughts repo.

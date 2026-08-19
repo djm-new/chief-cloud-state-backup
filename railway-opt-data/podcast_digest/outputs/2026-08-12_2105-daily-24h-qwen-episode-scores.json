@@ -1,0 +1,251 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-08-12_2105",
+  "usage": {
+    "prompt_tokens": 4275,
+    "completion_tokens": 901,
+    "total_tokens": 5176
+  },
+  "episodes": [
+    {
+      "id": "a924ad55a1ef270d1c081252",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Pixel 11 and Pixel Watch 5: Our first impressions | The Vergecast Livestream",
+      "link": "",
+      "published": "2026-08-12T19:55:00+00:00",
+      "summary": "Google just showed off its next generation of hardware, including the Pixel 11, Pixel 11 Pro, Pixel 11 Pro XL, and Pixel11 Pro Fold. (Whew, those names.) There's also the new Pixel Watch 5, the Pixel Tag, and a bunch of really interesting new ideas about smartphone cameras, GPS, and wellness. David Pierce, Nilay Patel, and Victoria Song went live to talk about the state of Google's hardware, and whether there's anything worth upgrading for this year. Further reading: The 7 biggest announcements of Google’s Pixel 11 launch Subscribe to The Verge for unlimited access to theverge.com, subscriber-exclusive newsletters, and our ad-free podcast feed. We love hearing from you! Email your questions and thoughts to vergecast@theverge.com or call us at 866-VERGE11. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "3431",
+      "old_score": 4,
+      "old_label": "skip",
+      "qwen": {
+        "id": "a924ad55a1ef270d1c081252",
+        "score": 40,
+        "tier": "scan",
+        "reason": "Consumer hardware launch details may lack durable frameworks or market implications DJ prioritizes.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "5c11792cb47caeaef8e0ce54",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: August 12th, 2026",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-august-12th-2026",
+      "published": "2026-08-12T16:50:01+00:00",
+      "summary": "Featuring: Keith Lerner, Chief Investment Officer at Truist Advisory Services Dr. Patrick Harker, Former Federal Bank of Philadelphia President Jessica Taylor, Senate & Governors Editor at the Cook Political Report See omnystudio.com/listener for privacy information.",
+      "duration": "1240",
+      "old_score": 4,
+      "old_label": "skip",
+      "qwen": {
+        "id": "5c11792cb47caeaef8e0ce54",
+        "score": 55,
+        "tier": "digest",
+        "reason": "Market commentary and policy insights align with DJ's interest in macroeconomic signals.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "2aac28d2943e9d8ee49d85d9",
+      "show_name": "Lex Fridman Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "#500 – Khabib Nurmagomedov: Dagestan, MMA, UFC, Islam, Conor, Fedor & Football",
+      "link": "https://lexfridman.com/khabib-nurmagomedov/?utm_source=rss&utm_medium=rss&utm_campaign=khabib-nurmagomedov",
+      "published": "2026-08-12T13:11:45+00:00",
+      "summary": "Khabib Nurmagomedov is one of the greatest fighters of all time, who retired from the UFC undefeated with a perfect 29-0 record. We did this conversation entirely in Russian. It’s translated and dubbed into English. Both language audio tracks (and subtitles) are available on YouTube. Here, only the English audio is available. We worked hard to make it enjoyable to listen to, by carefully dubbing the translation using voice-cloning, as we’ve done for previous foreign-language podcasts. Thank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep500-sc See below for timestamps, transcript, and to give feedback, submit questions, contact Lex, etc. Transcript: https://lexfridman.com/khabib-nurmagomedov-transcript CONTACT LEX: Feedback – give feedback to Lex: https://lexfridman.com/survey AMA – submit questions, videos or call-in: https://lexfridman.com/ama Hiring – join our team: https://lexfridman.com/hiring Other – other ways to get in touch: https://lexfridman.com/contact EPISODE LINKS: Khabib’s Instagram: https://instagram.com/khabib_nurmagomedov/ Khabib’s YouTube: https://youtube.com/@KhabibTheEagle Khabib’s Facebook: https://facebook.com/KhabibTheEagle/ Khabib’s X: https://x.com/TeamKhabib Khabib’s Telegram: https://t.me/khabib_nurmagomedov Khabib’s Website: https://khabib.com SPONSORS: To support this podcast, check out our sponsors & get discounts: Wispr Flow: AI-powered voice dictation app. Go to https://wisprflow.ai/lex LMNT: Zero-sugar electrolyte drink mix. Go to https://drinkLMNT.com/lex Shopify: Sell stuff online. Go to https://shopify.com/lex BetterHelp: Online therapy and counseling. Go to https://betterhelp.com/lex Perplexity: AI-powered answer engine. Go to https://perplexity.ai/ OUTLINE: (00:00) – Introduction (01:29) – Sponsors, Comments, and Reflections (08:24) – Why Dagestan produces so many great fighters (18:31) – History of Dagestan warrior culture (27:51) – Hard training in the mountains of Dagestan (31:42) – The trap of fame, money, and power (42:23) – The key to Khabib’s dominance (53:36) – Discipline and hard work (1:06:04) – Street fights in Dagestan (1:19:45) – Khabib’s top pressure (1:25:29) – Khabib vs Conor McGregor (1:38:14) – Khabib’s toughest fight (1:46:02) – Greatest MMA fighters of all time (2:03:46) – Coaching (2:09:19) – Daniel Cormier (2:13:38) – Islam Makhachev (2:23:35) – Dana White (2:27:05) – Joe Rogan (2:29:20) – Ali Abdelaziz (2:31:57) – Football (2:39:12) – Messi vs Ronaldo (2:57:12) – Dubai (3:01:03) – God (3:08:46) – Advice for young people",
+      "duration": "",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "2aac28d2943e9d8ee49d85d9",
+        "score": 30,
+        "tier": "skip",
+        "reason": "Celebrity athlete interview unlikely to provide actionable frameworks or business insights.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "04b054ee8f526d17112418b9",
+      "show_name": "Conversations with Tyler",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "Daron Acemoglu on Liberalism, Automation, and the Educated Elite",
+      "link": "https://cowenconvos.libsyn.com/daron-acemoglu-on-liberalism-automation-and-the-educated-elite",
+      "published": "2026-08-12T11:10:00+00:00",
+      "summary": "Daron Acemoglu returns for his second appearance with a new book, What Happened to Liberal Democracy? , which Tyler reads as an attempt to redefine and revitalize liberalism for our times. Where Daron's first visit was about how states and societies contend for the narrow corridor in which liberty survives, this one asks what liberals themselves got wrong, and the answer implicates the educated elite—that is to say, you. Tyler and Daron discuss what's wrong with social contract theories and Rousseau's general will, whether Acemoglu is more objectivist than Rorty, why he blames left liberalism's own establishment power for its collapse, what standard is left once you refuse to have a book of higher values, nondomination versus noninterference, who counts as working class, why automation alone will not lead to widespread prosperity, how he can call himself a free speech absolutist while wanting to regulate social media, why he worries we've given up on educating Americans, whether teachers' unions need to be reconstituted, what the life expectancy for an educated twenty year old is today, whether open-source models undercut the centralization worry, what pro-worker AI actually means, why the fertility crisis leaves him strangely close to a real business cycle position, whether AI will raise his own already prodigious paper output, why Armenia has disappointed economically, what he wants to learn next, and more. Read a transcript enhanced with helpful links, or watch the full video on YouTube. Recorded July 15th, 2026. Other ways to connect Follow us on X and Instagram Follow Tyler on X Follow Daron on X Sign up for our newsletter Join our Discord Email us: cowenconvos@mercatus.gmu.edu Learn more about Conversations with Tyler and other Mercatus Center podcasts here . Timestamps: 00:00:00 - Intro 00:08:57 - On the working class vs. the elite 00:13:16 - On automation 00:22:33 - On free speech 00:27:22 - On immigration 00:31:08 - On artificial intelligence 00:50:36 - On Armenia 00:53:22 - On what comes next 00:54:51 - Outro Image credit: Bryce Vickmark",
+      "duration": "55:38",
+      "old_score": 45,
+      "old_label": "skip",
+      "qwen": {
+        "id": "04b054ee8f526d17112418b9",
+        "score": 80,
+        "tier": "listen",
+        "reason": "Daron Acemoglu on liberalism and automation offers high-value frameworks relevant to DJ's interests.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "a4d2d8ea02ac96a7becef7b7",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Garry Tan on Taste, Agents and Founder Ambition",
+      "link": "https://a16z.simplecast.com/episodes/garry-tan-on-taste-agents-and-founder-ambition-5Wi5biPg",
+      "published": "2026-08-12T10:26:08+00:00",
+      "summary": "Anish Acharya is joined by Garry Tan, President and CEO of Y Combinator, for a conversation about how AI is rewriting the startup playbook, why founders should be more ambitious than ever, and what two decades of Silicon Valley booms, busts, and missed opportunities have taught Garry about building what's next. Garry reflects on turning down an early opportunity to join Palantir, why chasing what's \"hot\" is often the wrong strategy, and why the best ideas tend to begin with people pursuing strange, earnest obsessions outside the mainstream. They also explore how AI changes the economics of company building, why traditional SaaS may be losing its advantage, and how tiny teams equipped with hundreds of agents can build businesses at a scale that once required entire organizations. The conversation goes deeper into agentic companies, taste and agency, why \"a markdown file is an employee,\" and how AI could remove layers of bureaucracy that have historically limited organizations. Garry and Anish also discuss the future of consumer AI, the coming \"harness wars,\" why AI adoption may take longer than Silicon Valley expects, and what the next generation of founders can build with intelligence that was unimaginable just a few years ago. Resources: Follow Garry Tan on X: https://x.com/garrytan Follow Anish Acharya on X: https://x.com/illscience Follow Y Combinator on X: https://x.com/ycombinator Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:52:03",
+      "old_score": 47,
+      "old_label": "skip",
+      "qwen": {
+        "id": "a4d2d8ea02ac96a7becef7b7",
+        "score": 75,
+        "tier": "listen",
+        "reason": "Garry Tan on AI, startup ambition, and agentic companies aligns with DJ's core interests in innovation and capital allocation.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "faa0d8fdc78feb08c5f9d9d8",
+      "show_name": "Big Technology Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Here's How The AI Bubble Bursts — With Paul Kedrosky",
+      "link": "",
+      "published": "2026-08-12T10:00:00+00:00",
+      "summary": "Paul Kedrosky is an investor, analyst, and writer who studies technology, markets, and the forces shaping the global economy. Kedrosky joins Big Technology Podcast to discuss why he believes the historic surge in AI infrastructure spending has created a bubble that could soon unravel. Tune in to hear why rapidly falling token prices, constant hardware upgrades, and increasingly debt-funded data centers may make it extraordinarily difficult for investors to earn adequate returns. We also cover whether OpenAI and Anthropic can move up the software stack, what might cause the investment cycle to collapse, China’s competing approach, and what AI could look like after the bubble bursts. Hit play for a clear-eyed debate about whether transformative technology can still produce a disastrous investment cycle. --- Enjoying Big Technology Podcast? Please rate us five stars ⭐⭐⭐⭐⭐ in your podcast app of choice. Watch the full documentary here: https://www.gravitee.io/ai-agent-documentary Want a discount for Big Technology on Substack + Discord? Here’s 25% off for the first year: https://www.bigtechnology.com/subscribe?coupon=0843016b Stop online threats before they become real-world attacks. Visit ironwall.com/BIGTECHNOLOGY and request a free Risk Assessment to see exactly how exposed your executives are. Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "duration": "4024",
+      "old_score": 36,
+      "old_label": "skip",
+      "qwen": {
+        "id": "faa0d8fdc78feb08c5f9d9d8",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Paul Kedrosky on AI bubble risks provides actionable market analysis and cautionary insights.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "e804baaa6967248d4f4cf034",
+      "show_name": "My First Million",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "3 killer businesses hiding in plain sight",
+      "link": "",
+      "published": "2026-08-12T10:00:00+00:00",
+      "summary": "140+ real business ideas database: https://clickhubspot.com/pkce Episode 850: Sam Parr ( https://x.com/theSamParr ) and Shaan Puri ( https://x.com/ShaanVP ) talk about massive businesses hidden in plain sight. — Show Notes: (0:00) The wild economics of lab testing on monkeys (11:01) Salad oil crisis (15:35) the art of noticing (24:38) enthusiasm (27:39) know thy 8-year old self (32:32) be shameless (37:08) Sam goes to SF for 7 days — Links: • Qoves - https://www.qoves.com/ • Charles River - https://www.criver.com/ • How To Do Great Work - https://www.paulgraham.com/greatwork.html — Check Out Sam's Stuff: • Hampton (joinhampton.com): My community for founders. Average member does $25m/year. Many of the guests are members. Get after it...apply: http://joinhampton.com/mfm — Check Out Shaan's Stuff: • Shaan's weekly email - https://www.shaanpuri.com • Visit https://www.somewhere.com/mfm to hire worldwide talent like Shaan and get $500 off for being an MFM listener. Hire developers, assistants, marketing pros, sales teams and more for 80% less than US equivalents. • Mercury - Shaan uses Mercury across all of his companies. you can too: http://mercury.com/ Mercury is a fintech company, not an FDIC-insured bank. Banking services provided by Choice Financial Group, Column, N.A., Members FDIC • I run all my newsletters on Beehiiv and you should too + we're giving away $10k to our favorite newsletter, check it out: beehiiv.com/mfm-challenge My First Million is a HubSpot Original Podcast // Brought to you by HubSpot Media // Production by Arie Desormeaux // Editing by Ezra Bakker Trupiano /",
+      "duration": "2845",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "e804baaa6967248d4f4cf034",
+        "score": 45,
+        "tier": "scan",
+        "reason": "Business idea brainstorming may lack depth but could surface overlooked opportunities.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "aff8515908734ac30cdfc4fa",
+      "show_name": "Stratechery",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "Anthropic’s Watermarking, How It (Probably) Works, Worse Than It Seems",
+      "link": "https://stratechery.com/2026/anthropics-watermarking-how-it-probably-works-worse-than-it-seems/",
+      "published": "2026-08-12T10:00:00+00:00",
+      "summary": "Anthropic is adding watermarking in response to the E.U.'s AI law. It's a terrible idea, first and foremost for philosophical reasons.",
+      "duration": "",
+      "old_score": 38,
+      "old_label": "skip",
+      "qwen": {
+        "id": "aff8515908734ac30cdfc4fa",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Anthropic watermarking analysis offers technical and philosophical implications for AI policy.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "b49612650409c25ee0af5853",
+      "show_name": "The Tim Ferriss Show",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "#879: How to Reinvent Yourself and Make Bold Moves — Decisive Stories from Matthew McConaughey, Steve Young, Samin Nosrat, and More",
+      "link": "",
+      "published": "2026-08-12T10:00:00+00:00",
+      "summary": "This is a special compilation devoted to reinvention: how to shed an identity that no longer fits, decide on a new chapter, navigate uncertainty, and commit to what’s next. This episode is brought to you by: Shopify global commerce platform, providing tools to start, grow, market, and manage a retail business Momentous high-quality creatine for cognitive and muscular support In this episode: Matthew McConaughey explains why he stopped making romantic comedies, turned down $15 million, and waited nearly two years for Hollywood to see him differently. Steve Young talks about losing the identity that had defined him and the advice another legendary quarterback gave him. Lori Gottlieb explains how listening to a quiet inner voice led her from Hollywood to medicine, then to journalism, and finally to psychotherapy. Suleika Jaouad describes rebuilding her life after cancer when going back to her old life was no longer possible. Samin Nosrat on walking away from a wildly successful food business that was making her miserable, and making room for the writing career that ultimately became Salt, Fat, Acid, Heat. Martine Rothblatt tells the remarkable story of teaching herself biology and starting a pharmaceutical company to save her daughter’s life. Finally, Debbie Millman gives you a simple exercise for imagining—and creating—the life you truly want. Timestamps: 00:00 Intro from Tim 01:43 Matthew McConaughey 14:35 Steve Young 17:16 Lori Gottlieb 24:38 Suleika Jaouad 36:47 Samin Nosrat 45:04 Martine Rothblatt 56:51 Debbie Millman Short bios: Matthew McConaughey is an Academy Award-winning actor—whose career spans 40+ feature films—a cofounder of the Just Keep Livin’ foundation, and the bestselling author of Greenlights . Steve Young is a Pro Football Hall of Fame quarterback, Super Bowl MVP, and co-founder and chairman of private-equity firm HGGC. Lori Gottlieb is a psychotherapist, the New York Times “Ask the Therapist” advice columnist, and the bestselling author of Maybe You Should Talk to Someone . Suleika Jaouad is an Emmy Award-winning journalist, artist, and bestselling author of Between Two Kingdoms and The Book of Alchemy . Samin Nosrat is the James Beard Award–winning author of the New York Times bestseller Salt, Fat, Acid, Heat —also the title of her acclaimed Netflix series. Dr. Martine Rothblatt is the founder, chairperson, and CEO of United Therapeutics—a biotechnology company she started to save the life of one of her daughters—and a pioneer of satellite radio. Debbie Millman is one of the most influential designers working today, according to Graphic Design USA, an author, an educator, and the host of the pioneering podcast Design Matters , now celebrating its 21st year. * For show notes and past guests on The Tim Ferriss Show , please visit tim.blog/podcast . For deals from sponsors of The Tim Ferriss Show , please visit tim.blog/podcast-sponsors Sign up for Tim’s email newsletter ( 5-Bullet Friday ) at tim.blog/friday . For transcripts of episodes, go to tim.blog/transcripts . Discover Tim’s books: tim.blog/books . Follow Tim: Twitter : twitter.com/tferriss Instagram : instagram.com/timferriss YouTube : youtube.com/timferriss Facebook : facebook.com/timferriss LinkedIn: linkedin.com/in/timferriss See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info .",
+      "duration": "01:01:20",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "b49612650409c25ee0af5853",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Reinvention stories may offer personal toolkit insights but lack market or business focus.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "c5683d86b9932c1c01b29bc0",
+      "show_name": "The Meb Faber Show",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Teaser: Investing in America: The Rise Of A 250-Year Bull Market",
+      "link": "",
+      "published": "2026-08-12T08:30:00+00:00",
+      "summary": "In today's episode, I read the opening of my new book, Investing in America: The Rise of a 250-Year Bull Market, plus a couple of sidebars. The book is available now. Grab a copy on Amazon or learn more at www.investinginamericabook.com. ----- Follow Meb on⁠ X⁠,⁠ LinkedIn⁠ and⁠ YouTube⁠ To learn more about our funds and follow us, subscribe to our ⁠mailing list⁠ or visit us at⁠ cambriainvestments.com⁠ ----- Follow The Idea Farm: ⁠X⁠ | ⁠LinkedIn⁠ | ⁠Instagram⁠ | ⁠TikTok⁠ ----- Interested in sponsoring the show? Email us at Feedback@TheMebFaberShow.com ----- Past guests include ⁠Ed Thorp⁠, ⁠Richard Thaler⁠, ⁠Jeremy Grantham⁠, ⁠Joel Greenblatt⁠, ⁠Campbell Harvey⁠, ⁠Ivy Zelman⁠, ⁠Kathryn Kaminski⁠, ⁠Jason Calacanis⁠, ⁠Whitney Baker,⁠ ⁠Aswath Damodaran⁠, ⁠Howard Marks⁠, ⁠Tom Barton⁠, and many more. ----- Meb's invested in some awesome startups that have passed along discounts to our listeners. Check them out ⁠here⁠! ----- Editing and post-production work for this episode was provided by The Podcast Consultant (⁠https://thepodcastconsultant.com⁠). Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "duration": "773",
+      "old_score": 51,
+      "old_label": "skip",
+      "qwen": {
+        "id": "c5683d86b9932c1c01b29bc0",
+        "score": 40,
+        "tier": "scan",
+        "reason": "Book teaser on bull markets lacks actionable insight despite thematic relevance.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "6c97223e9838a6ecbec590c6",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "The Case for Moving Money and Life to Europe, and the Future of Podcast Ads",
+      "link": "",
+      "published": "2026-08-12T08:00:00+00:00",
+      "summary": "Scott Galloway assesses whether the \"make it in America, spend it in Europe\" thesis still holds, unpacks the metrics behind podcast ad dollars, and shares his views on the economics of higher ed and how to build a career in academia. Want to be featured in a future episode? Send a voice recording to officehours@profgmedia.com, or drop your question in the r/ScottGalloway subreddit. Plus, you can now call or text Scott a question at our new Office Hours hotline: ‪(201) 472-3656‬. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "1590",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "6c97223e9838a6ecbec590c6",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Galloway on Europe and podcast ads may offer market commentary but not deep frameworks.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "018f6ad11fb674ef87deafbb",
+      "show_name": "Possible",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Making taxes fun with Pikachu and AI | Cadi Zhang",
+      "link": "",
+      "published": "2026-08-12T07:01:00+00:00",
+      "summary": "Cadi Zhang joins Reid Hoffman and Parth Patil to explore how generative AI is changing game development, world models, and robotics. Drawing on her work across Unity games, VR teleoperation, AI accounting, and robotics product operations, Cadi explains what virtual worlds can teach embodied intelligence—and why physical robots still lack the tactile, real-world data that can’t be scraped from the internet. She shares how she uses GPT, Blender, PixelLab, and Aseprite to prototype games faster, including a duck-themed imposter game and PokéTax, her Pokémon-inspired tax-filing game. AI can rapidly generate code, gameplay mechanics, and 3D assets, she says, but it still can’t judge whether a game feels fun, maintain a consistent art style, or model the precise force needed to fold a sheet of paper. Reid, Parth, and Cadi discuss simulation-to-reality gaps, the limits of current world models, robot safety, humanoid versus task-specific form factors, and why human taste remains the decisive creative skill.",
+      "duration": "2077",
+      "old_score": 63,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "018f6ad11fb674ef87deafbb",
+        "score": 60,
+        "tier": "digest",
+        "reason": "Cadi Zhang on AI in game dev and robotics offers niche but relevant technical and product insights.",
+        "confidence": "medium"
+      }
+    }
+  ]
+}

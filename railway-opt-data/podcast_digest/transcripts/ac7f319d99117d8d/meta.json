@@ -1,0 +1,8 @@
+{
+  "show": "No Priors",
+  "episode": "Chasing Trillion-Dollar Companies, Founder Ambition, Token Budgets, and Regulatory Capture with Sarah & Elad",
+  "audio_url": "https://traffic.megaphone.fm/PDP3190127956.mp3",
+  "model": "base",
+  "max_seconds": 0,
+  "stdout": "{\"language\": \"en\", \"duration\": 2369.567375, \"segments\": 702}"
+}

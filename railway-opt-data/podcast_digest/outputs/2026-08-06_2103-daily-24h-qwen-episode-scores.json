@@ -1,0 +1,311 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-08-06_2103",
+  "usage": {
+    "prompt_tokens": 5266,
+    "completion_tokens": 1126,
+    "total_tokens": 6392
+  },
+  "episodes": [
+    {
+      "id": "ca17cfa715197933136cf2af",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "The next big thing in movies is 60-year-old IMAX tech",
+      "link": "",
+      "published": "2026-08-06T20:25:00+00:00",
+      "summary": "Christopher Nolan's The Odyssey is the first feature film ever shot entirely with IMAX 70mm film cameras, which is apparently a very big deal, and why it's been harder than usual to get a ticket to see Matt Damon. And now that Spider-Man is moving onto IMAX screens, it may be even harder to get a ticket. Why is this 60-year-old technology suddenly the hottest thing in movies? The Verge's film and TV reporter Charles Pulliam-Moore joins senior reviewer Jennifer Pattison Tuohy to compare the standard and IMAX versions of The Odyssey and talk us through the difference between IMAX, LieMAX, and Infinity Vision. Further reading: Christopher Nolan’s Odyssey will be the first movie shot entirely on IMAX film Don’t screw this up, Marvel The Odyssey turned me into an IMAX believer Google just announced a major shakeup of its top AI leadership Nintendo beats earnings thanks to US tariff refunds it won’t share with gamers Bose’s upgraded QuietComfort headphones add head-tracking immersive audio Subscribe to The Verge for unlimited access to theverge.com, subscriber-exclusive newsletters, and our ad-free podcast feed. We love hearing from you! Email your questions and thoughts to vergecast@theverge.com or call us at 866-VERGE11. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "1694",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "ca17cfa715197933136cf2af",
+        "score": 30,
+        "tier": "skip",
+        "reason": "Focuses on film technology trends, not relevant to market, AI, or capital allocation insights.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "4c0449e4c636aa19a9d23435",
+      "show_name": "Eye on AI",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Why People Are Paying 10x More for AI | Sid Sheth, d-Matrix",
+      "link": "https://aneyeonai.libsyn.com/why-people-are-paying-10x-more-for-ai-sid-sheth-d-matrix",
+      "published": "2026-08-06T17:00:00+00:00",
+      "summary": "The AI chip market looks monolithic from the outside - NVIDIA dominates, and everyone else is fighting for scraps. But d-Matrix's CEO Sid Sheth argues that the market is quietly splitting into two distinct tiers, and the one that's exploding right now is the one NVIDIA's architecture isn't built for. In this episode, Sid joins Craig Smith to explain the \"premium token economy\": a new class of AI inference where interactivity is the product, users pay ten times more per million tokens for instant responses, and the memory bandwidth limits of GPU-based systems create a structural ceiling that purpose-built architectures don't have. The conversation is unusually candid about what AI actually looks like at the executive level: Sid describes using Claude as a sounding board for M&A strategy, producing full integration plans in 15 minutes that used to require entire banking advisory teams, and watching AI shift from a tool that echoed his ideas back at him to one that genuinely disagrees, flags what he missed, and pushes back with enough confidence to be useful. He also makes the case that we're at the beginning of a shift from individual agents to what he calls \"organizational AI\" - teams of agents running entire company functions at a high level of abstraction - and that the infrastructure bet d-Matrix is making positions them directly in the path of that wave. Subscribe to Eye on A.I. for weekly conversations with the people building and deploying the future of AI.",
+      "duration": "50:46",
+      "old_score": 46,
+      "old_label": "skip",
+      "qwen": {
+        "id": "4c0449e4c636aa19a9d23435",
+        "score": 85,
+        "tier": "listen",
+        "reason": "Discusses AI inference economics, token pricing, and executive AI use cases with actionable insights.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "683aeffc8bc6b52a216a91a2",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: August 6th, 2026",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-august-6th-2026",
+      "published": "2026-08-06T16:33:54+00:00",
+      "summary": "Featuring: Bob Elliott, Co-Founder, CEO & CIO of Unlimited Funds Brian Hamilton, Live Switch Chairman Dr. Nela Richardson, Chief Economist & ESG Officer at ADP See omnystudio.com/listener for privacy information.",
+      "duration": "1112",
+      "old_score": 28,
+      "old_label": "skip",
+      "qwen": {
+        "id": "683aeffc8bc6b52a216a91a2",
+        "score": 40,
+        "tier": "scan",
+        "reason": "Standard Bloomberg Surveillance episode with limited specific detail on actionable insights.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "a829f9eeb85cfb9c7ab9aca2",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Commodity and Market Prices",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/commodity-and-market-prices",
+      "published": "2026-08-06T13:58:37+00:00",
+      "summary": "The latest in finance, economics and investment. Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF. Bloomberg Surveillance hosted by Tom Keene & Paul Sweeney Thursday, August 6th, 2026 Featuring: 1) Shusuke Yamada, Head of Japan FX/Rates at Bank of America, on yen intervention and his non-consensus yen view. 2) Ed Hirs, Energy Fellow at the University of Houston, joins to discuss the overall US energy landscape and potential price increases across the board. 3) Suki Cooper, Global Head, Commodities Research at Standard Chartered Bank, talks recent moves in gold. 4) Julia Hermann, Director: Global Market Strategy at New York Life Investment Management, talks tightening economic conditions and the pass through to equities. See omnystudio.com/listener for privacy information.",
+      "duration": "1722",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "a829f9eeb85cfb9c7ab9aca2",
+        "score": 55,
+        "tier": "digest",
+        "reason": "Covers energy, commodities, and FX insights relevant to market dynamics and macro trends.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "bbed61d323537bf4cc0812c5",
+      "show_name": "Infinite Loops",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Jesse Michels — American Alchemy (Infinite Loops Classics)",
+      "link": "https://infiniteloopspodcast.com/145",
+      "published": "2026-08-06T12:00:00+00:00",
+      "summary": "Hi everyone, Jim here. We're taking a short pause on new episodes through the end of August. In the meantime, we're digging out some of our favorite conversations from the archive. This one is from February 2023, so a few of the references have aged since (mine included), but the ideas have only gotten better. Enjoy this one with the wonderfully heretical Jesse Michels. Jesse Michels is an investor at Thiel Capital and the creator and host of 'American Alchemy', a Youtube channel dedicated to highlighting the most heretical thinkers and ideas of our time. He joins the show to discuss the transmission theory of consciousness, whether mushrooms are aliens, the reawakening of the Boomers and MUCH more! Important Links: - American Alchemy - https://www.youtube.com/@JesseMichels/about - Jesse's Twitter - https://twitter.com/alchemyamerican Books Mentioned: - The Half-Life of Facts: Why Everything We Know Has an Expiration Date; by Samuel Arbesman - The User Illusion: Cutting Consciousness Down to Size; by Tor Norretranders - Gödel, Escher, Bach: an Eternal Golden Braid; by Douglas Hofstadter - The Beginning of Infinity: Explanations That Transform the World; by David Deutsch - The Immortality Key : The Secret History of the Religion with No Name; by Brian C. Muraresku - The New Inquisition: Irrational Rationalism and the Citadel of Science; by Robert Anton Wilson - How to Change Your Mind: What the New Science of Psychedelics Teaches Us About Consciousness, Dying, Addiction, Depression and Transcendence; by Michael Pollan - Chaos: Charles Manson, the CIA, and the Secret History of the Sixties; by Tom O'Neill - Weird Scenes Inside the Canyon: Laurel Canyon, Covert Ops & the Dark Heart of the Hippie Dream; by David McGowan - Prometheus Rising; by Robert Anton Wilson - Quantum Psychology: How Brain Software Programs You & Your World; by Robert Anton Wilson - The Cosmic Trigger trilogy; by Robert Anton Wilson - Communion: A True Story; by Whitley Strieber",
+      "duration": "01:25:01",
+      "old_score": 51,
+      "old_label": "skip",
+      "qwen": {
+        "id": "bbed61d323537bf4cc0812c5",
+        "score": 35,
+        "tier": "skip",
+        "reason": "Philosophical and speculative content not aligned with actionable business or AI insights.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "1ff107e744fbbb182d348d3f",
+      "show_name": "My First Million",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "9 drunk ideas that sound stupid (but are secretly genius)",
+      "link": "",
+      "published": "2026-08-06T10:00:00+00:00",
+      "summary": "Business Ideas Database: https://clickhubspot.com/erhy Episode 849: Sam Parr ( https://x.com/theSamParr ), Shaan Puri ( https://x.com/ShaanVP ) and their producer Arie brainstorm 9 business ideas that are genius. — Show Notes: (0:00) Intro (2:07) IDEA 1: Reverse vacations (6:03) IDEA 2: Rap battle + UFC fight (13:18) IDEA 3: Giant claw machine (20:39) IDEA 4: Butter dispenser (27:32) IDEA 5: beepers for kids (35:35) IDEA 6: Mexican Benihana (40:01) IDEA 7: bulk custom gifts (44:10) IDEA 8: Slop Stop (49:06) IDEA 9: Take your roommate to work day — Check Out Sam's Stuff: • Hampton (joinhampton.com): My community for founders. Average member does $25m/year. Many of the guests are members. Get after it...apply: http://joinhampton.com/mfm — Check Out Shaan's Stuff: • Shaan's weekly email - https://www.shaanpuri.com • Visit https://www.somewhere.com/mfm to hire worldwide talent like Shaan and get $500 off for being an MFM listener. Hire developers, assistants, marketing pros, sales teams and more for 80% less than US equivalents. • Mercury - Shaan uses Mercury across all of his companies. you can too: http://mercury.com/ Mercury is a fintech company, not an FDIC-insured bank. Banking services provided by Choice Financial Group, Column, N.A., Members FDIC • I run all my newsletters on Beehiiv and you should too + we're giving away $10k to our favorite newsletter, check it out: beehiiv.com/mfm-challenge My First Million is a HubSpot Original Podcast // Brought to you by HubSpot Media // Production by Arie Desormeaux // Editing by Ezra Bakker Trupiano /",
+      "duration": "3468",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "1ff107e744fbbb182d348d3f",
+        "score": 45,
+        "tier": "scan",
+        "reason": "Casual business idea brainstorming, low signal for capital allocation or AI operator insights.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "2084c158060500197ed4010e",
+      "show_name": "No Priors",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Chasing Trillion-Dollar Companies, Founder Ambition, Token Budgets, and Regulatory Capture with Sarah & Elad",
+      "link": "",
+      "published": "2026-08-06T10:00:00+00:00",
+      "summary": "Is the tech industry moving too quickly, or are founders letting fear of AI labs stunt their ambitions? Sarah and Elad explore the current landscape of artificial intelligence, venture capital, and startup dynamics. They discuss the realities of building multi-trillion-dollar companies, shifting market sizes and outcome-based pricing models, and how founders are reacting to the rise of major AI labs. They also talk about what the framework for startup exits should look like, the potential for researcher burnouts in the next eighteen months as ASI looms on the horizon, bottlenecks for compute, and the impact of regulatory capture and shifting ecosystems from California to Texas. Apply for Embed - Conviction’s Catalyst for AI-Native Startups Sign up for new podcasts every week. Email feedback to show@no-priors.com Follow us on Twitter: @NoPriorsPod | @Saranormous | @EladGil Chapters: 00:00 – Cold Open Trailer 00:31 – Episode Introduction 01:44 – The Next Trillion-Dollar Company 03:12 – Tech Waves as Punctuated Equilibria 04:42 – TAM vs. Revenue Reality 07:14 – Market Size vs. Speed 10:32 – When Founders Should Sell 14:04 – Financing and Time Cost 17:57 – RSI and the Looming Promise of ASI 21:49 – Compute Power Laws 28:12 – Regulations and Disruption 33:06 – Beyond Transformers 34:26 – Tradeoffs - Safety vs. Progress 39:11 – Conclusion",
+      "duration": "2369",
+      "old_score": 59,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "2084c158060500197ed4010e",
+        "score": 80,
+        "tier": "listen",
+        "reason": "Explores AI startup dynamics, regulatory shifts, and founder ambition with strategic implications.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "97db65deb61a4199c29046ad",
+      "show_name": "a16z Live / AI + a16z variants",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Inside vLLM: The Engine Powering Open-Source AI",
+      "link": "https://ai-a16z.simplecast.com/episodes/inside-vllm-the-engine-powering-open-source-ai-etgKL1N9",
+      "published": "2026-08-06T10:00:00+00:00",
+      "summary": "Elena Burger and Matt Bornstein are joined by Simon Mo, co-founder and CEO of Inferact, the open-source inference engine powering many of today's most advanced AI applications. Together, they explore how open-source AI evolved from a research project into critical infrastructure, why inference has become one of the most important layers of the AI stack, and what it takes to bring frontier intelligence to developers around the world. The conversation covers vLLM's origins, the rise of open-weight models, why companies increasingly want control over their AI infrastructure, and how open-source inference enables the next generation of AI applications. They also discuss model licensing, the economics of open-weight AI, Kimi K3, distillation, AI infrastructure, and why Simon believes the gap between open and closed models is rapidly disappearing. Resources: Follow Simon Mo on X: https://x.com/simon_mo_ Follow Matt Bornstein on X: https://x.com/BornsteinMatt Follow Elena Burger on X: https://x.com/VirtualElena Follow Inferact: https://x.com/inferact Check out everything a16z is doing with artificial intelligence here , including articles, projects, and more podcasts. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:46:49",
+      "old_score": 51,
+      "old_label": "skip",
+      "qwen": {
+        "id": "97db65deb61a4199c29046ad",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Covers open-source AI infrastructure, model economics, and inference layer importance.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "c120b83839fb78542e51fc1e",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "The Engine Powering Open-Source AI",
+      "link": "https://a16z.simplecast.com/episodes/how-open-source-ai-became-critical-infrastructure-3yYJbsEz",
+      "published": "2026-08-06T10:00:00+00:00",
+      "summary": "Elena Burger and Matt Bornstein are joined by Simon Mo, co-founder and CEO of Inferact, the open-source inference engine powering many of today's most advanced AI applications. Together, they explore how open-source AI evolved from a research project into critical infrastructure, why inference has become one of the most important layers of the AI stack, and what it takes to bring frontier intelligence to developers around the world. The conversation covers vLLM's origins, the rise of open-weight models, why companies increasingly want control over their AI infrastructure, and how open-source inference enables the next generation of AI applications. They also discuss model licensing, the economics of open-weight AI, Kimi K3, distillation, AI infrastructure, and why Simon believes the gap between open and closed models is rapidly disappearing. Resources: Follow Simon Mo on X: https://x.com/simon_mo_ Follow Matt Bornstein on X: https://x.com/BornsteinMatt Follow Elena Burger on X: https://x.com/VirtualElena Follow Inferact: https://x.com/inferact Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:46:49",
+      "old_score": 47,
+      "old_label": "skip",
+      "qwen": {
+        "id": "c120b83839fb78542e51fc1e",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Covers open-source AI infrastructure, model economics, and inference layer importance.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "b7c21f667c9ba69b1e019b9d",
+      "show_name": "Decoder with Nilay Patel",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "The left and right agree on one thing: no data centers",
+      "link": "",
+      "published": "2026-08-06T09:00:00+00:00",
+      "summary": "Our guest today is Gaby Del Valle, a policy reporter here at The Verge, and we’re discussing the growing backlash against AI data centers. Gaby recently reported a fantastic piece about Hernando County, Florida, where last month the county commission unanimously approved a year-long moratorium on data center construction. So I wanted Gaby to talk me through what these protests look like on the ground, from voters whose party affiliations have typically aligned them with big business. Read the full interview transcript on The Verge. Links: Right-wingers protesting data centers have a lot in common with the left | The Verge No data centers in my backyard | Jasmine Sun Who’s afraid of the big, bad GPU? | The Verge NY becomes the first state to enact a data center moratorium | The Verge The fight against AI data centers is just beginning | The Verge Florida gives millions in tax breaks to data centers under DeSantis-backed law | Tampa Bay Times Subscribe to The Verge to access the ad-free version of Decoder! Credits: Decoder is a production of The Verge and part of the Vox Media Podcast Network. Decoder is produced by Kate Cox and Nick Statt and edited by Ursa Wright. Our supervising producer is Greg Ott, and our editorial director is Kevin McShane. The Decoder music is by Breakmaster Cylinder. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "2253",
+      "old_score": 40,
+      "old_label": "skip",
+      "qwen": {
+        "id": "b7c21f667c9ba69b1e019b9d",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Discusses growing political and community resistance to AI data centers with policy implications.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "17decbc4aa2dfc070088a75f",
+      "show_name": "Masters of Scale",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Always be the challenger, with Savannah Bananas founder Jesse Cole",
+      "link": "",
+      "published": "2026-08-06T09:00:00+00:00",
+      "summary": "Jesse Cole loved baseball. He also knew most people thought it was too long and boring. So he disrupted America’s pastime by putting on a yellow tux - and an incredible show. The founder of the Savannah Bananas welcomed host Jeff Berman to Anaheim Stadium before a show recently to talk about how he’s scaling Fans First Entertainment into a growing league that sells out pro sports stadiums all over the country. Subscribe to the Masters of Scale weekly newsletter: https://mastersofscale.com/subscribe See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info .",
+      "duration": "00:28:39",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "17decbc4aa2dfc070088a75f",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Sports business case study, limited relevance to AI or capital allocation frameworks.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "90ff9e859175a190da2b4b17",
+      "show_name": "Sharp Tech",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "(Preview) Microsoft’s Plan for Platform Survival, Meta and the Market’s Permission, A Lack of Situational Awareness",
+      "link": "https://sharptech.fm/member/episode/preview-microsofts-plan-for-platform-survival-meta-and-the-markets-permission-a-lack-of-situational-awareness",
+      "published": "2026-08-06T08:59:49+00:00",
+      "summary": "On today’s show Ben and Andrew begin with Microsoft, Meta and Google in the wake of their latest earnings reports. First: Microsoft’s push to be the middle layer for enterprise AI, threats to the company’s competitive position in the long run, and the subtext of the open weights open letter frenzy two weeks ago. Then: Parsing Google and Meta strategies as Google hedges its frontier bets, while Meta continues its frontier spending and announces questionable plans for an enterprise business. At the end: The future of the lending environment for Meta and the other hyperscalers, a bubble check-in, a rundown of what happened between Citadel and the Situational Awareness, close encounters with Ben’s vibe coded app, and an emailer offers a compelling theory on the push for Permanent Daylight Savings Time.",
+      "duration": "00:28:47",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "90ff9e859175a190da2b4b17",
+        "score": 60,
+        "tier": "digest",
+        "reason": "Discusses Microsoft, Meta, and Google strategies post-earnings with implications for AI platforms.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "94a5e0772cd6ddb36d7f132c",
+      "show_name": "Odd Lots",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "Brad Setser on the US's Unusual Japanese Yen Intervention",
+      "link": "https://omny.fm/shows/odd-lots/brad-setser-on-the-uss-unusual-japanese-yen-intervention",
+      "published": "2026-08-06T08:00:00+00:00",
+      "summary": "Last week, the US joined forces with Japan to try to stop the yen’s slide. It’s the first time the two sides have intervened in the Japanese currency in 15 years, and in many ways it was an unprecedented and unusual move, with Treasury Secretary Scott Bessent choosing to sell euros (as opposed to dollars) and the use of a little-known Federal Reserve repo facility. So why did the yen’s value drop so precipitously in the first place? And will this intervention be enough to stop it? Brad Setser, senior fellow at the Council on Foreign Relations, explains why the Bank of Japan initially refrained from raising rates, why East Asian currencies (not just the yen) have been so weak lately, the improving fiscal outlook for Japan, and what to look out for next. See omnystudio.com/listener for privacy information.",
+      "duration": "2520",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "94a5e0772cd6ddb36d7f132c",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Analyzes yen intervention and East Asian currency weakness with macroeconomic implications.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "508d1e8f95ce2cf2ede2e548",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Sam Harris on The Democrats’ Far-Left Problem",
+      "link": "",
+      "published": "2026-08-06T08:00:00+00:00",
+      "summary": "Scott Galloway speaks with neuroscientist and philosopher Sam Harris about why social media rewards political extremism, how our devices have made sustained attention nearly impossible, and why reclaiming control of our minds may be the key to a happier life. They also discuss the erosion of trust in expertise, the dangers of the AI arms race, and why Democrats need to draw a clearer line against the far left. Subscribe to Prof G+ to join our next livestream at profgmedia.com. And if you're not already reading Sam’s work, check out his Substack. PLUS! Join us for a live Prof G Pod recording at the Odoo Experience conference in San Francisco on Sept 3. You can register for the conference here. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "4154",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "508d1e8f95ce2cf2ede2e548",
+        "score": 35,
+        "tier": "skip",
+        "reason": "Political commentary and social media critique, not aligned with DJ's focus areas.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "3dc0c971d99ddea9c50189e9",
+      "show_name": "The Twenty Minute VC",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "20VC: Airtable Sold for $1.285BN | Leo Achenbrenner's Situational Awareness Blows Up | Moonshot AI Raises $3.5B at $35B | Anthropic Model Breaches Three Companies' Security | Big Tech Earnings: Why Palantir Beat The Rest",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-airtable-sold-for-1285bn-leo-achenbrenners-situational-awareness-blows-up-moonshot-ai-raises-35b-at-35b-anthropic-model-breaches-three-companies-security-big-tech-earnings-why-palantir-beat-the-rest",
+      "published": "2026-08-06T07:07:00+00:00",
+      "summary": "Special Guest: Nikesh Arora, CEO @ Palo Alto Networks. AGENDA: 04:50 Airtable Sold to Bending Spoons for $1.285B 17:00 Leo Aschenbrenner's Situational Awareness Blows Up as Citadel Buys His $16BN Book 22:30 Anthropic's AI Models Breach Three Companies as Cyber Threat Accelerates 33:35 Moonshot AI Raises $3.5B at $35B as Chinese Models Crush AI Prices 38:05 Valar Atomics Triples to $6B as Sequoia Bets on Nuclear Power for AI 42:50 OpenAI and Anthropic Could Trigger a Massive Public-Market Dislocation 52:55 Big Tech and Palantir Earnings Ignite the Next Phase of the AI Gold Rush 1:04:30 Procore Buys DroneDeploy for $900M in a High-Stakes 12x Revenue Bet 1:10:55 Scale AI Hits $1.5B ARR After the Meta Deal Left It for Dead",
+      "duration": "01:15:36",
+      "old_score": 38,
+      "old_label": "skip",
+      "qwen": {
+        "id": "3dc0c971d99ddea9c50189e9",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Covers AI security breaches, model economics, and Palantir's AI earnings performance.",
+        "confidence": "high"
+      }
+    }
+  ]
+}

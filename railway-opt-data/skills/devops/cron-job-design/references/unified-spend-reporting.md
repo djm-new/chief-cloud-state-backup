@@ -61,13 +61,21 @@ millions of tokens and "No workstreams found." This is the reference for how
   8=General (ad-hoc). 4/5/6 confirmed via cron delivery targets; 7 via the
   `telegram_topic_model_overrides` config + observed usage.
 
-## Report shape that landed well
+## Report shape DJ prefers: work-first, not session-count-first
 
-Per window (24h + 7d): tokens with in/out/cache split, estimated spend
-(API-rate value), billed status, activity counts. Then: **By project**
-(Cron: <job name>, Telegram: <topic>, CLI, Script: <workflow>), **By
-Telegram topic**, **By model** (with subscription-included tag), **Script
-stages** (workflow — stage), **Top sessions** (title, model, ~est).
+DJ rejected reports whose primary activity line was a count like "N agent sessions". The report should answer first: **what did Hermes actually do, in plain English, and what did that thing cost?**
+
+Preferred order:
+1. **What cost money — <window>**: list individual work items by title/task, estimated API-rate value, tokens, location/topic/job, model, and `subscription-included` when relevant.
+2. **Window totals**: estimated API-rate value, token split, billed-spend status, pricing gaps.
+3. **Where spend clustered**: project/topic/job rollup for context.
+4. **Model mix**: model/provider totals and included/estimated flags.
+
+Implementation notes:
+- Add or preserve a `work_items` array in `spend_report_helper.py`; do not make renderers reconstruct meaning from aggregate buckets alone.
+- Avoid foregrounding words like "agent sessions" or "script API calls" unless they are secondary diagnostics.
+- Drop zero-token/`$0.0000` rows from model/project/work sections; if a zero matters, explain the billing/pricing reason explicitly.
+- Unresolved numeric Telegram topic labels should be rendered as an unlabeled thread, not as a bare numeric topic name, until a durable human-readable mapping exists.
 
 ## Verification
 

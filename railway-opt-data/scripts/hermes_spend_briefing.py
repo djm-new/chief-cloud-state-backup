@@ -18,8 +18,6 @@ def usd(value) -> str:
         amount = float(value or 0)
     except Exception:
         amount = 0.0
-    if amount >= 100:
-        return f"${amount:,.2f}"
     if amount >= 1:
         return f"${amount:,.2f}"
     return f"${amount:,.4f}"
@@ -44,100 +42,99 @@ def num(value) -> str:
         return "0"
 
 
-def render_window(label: str, report: dict) -> list[str]:
+def clean_label(text: str | None) -> str:
+    text = (text or "").strip()
+    if not text:
+        return "Untitled work"
+    for prefix in ("Telegram: ", "Cron: ", "Script: "):
+        if text.startswith(prefix):
+            text = text[len(prefix):]
+    if text.startswith("Chief Group topic "):
+        text = "Unlabeled Chief Group thread"
+    return text
+
+
+def source_label(item: dict) -> str:
+    project = item.get("project") or item.get("source") or ""
+    source = item.get("source") or ""
+    if project.startswith("Telegram: "):
+        return clean_label(project)
+    if project.startswith("Cron: "):
+        return "scheduled job"
+    if project.startswith("Script: "):
+        return "script"
+    return source or clean_label(project)
+
+
+def render_summary(label: str, report: dict) -> list[str]:
     o = report.get("overview", {}) or {}
     lines = [f"**{label}**"]
-    lines.append(f"- Tokens: {num(o.get('total_tokens'))} "
-                 f"({tokens_compact(o.get('input_tokens'))} in · {tokens_compact(o.get('output_tokens'))} out · "
-                 f"{tokens_compact(o.get('cache_read_tokens'))} cache)")
-    lines.append(f"- Estimated spend (API-rate value): {usd(o.get('est_cost'))}")
+    lines.append(f"- Estimated API-rate value: {usd(o.get('est_cost'))}")
+    lines.append(f"- Tokens: {num(o.get('total_tokens'))} ({tokens_compact(o.get('input_tokens'))} in · {tokens_compact(o.get('output_tokens'))} out · {tokens_compact(o.get('cache_read_tokens'))} cache)")
     if o.get("has_billed"):
         lines.append(f"- Billed spend: {usd(o.get('billed_cost'))}")
     else:
-        lines.append("- Billed spend: unavailable (Codex usage is subscription-included)")
-    parts = [f"{num(o.get('sessions'))} agent session{'s' if o.get('sessions') != 1 else ''}"]
-    if o.get("events"):
-        parts.append(f"{num(o.get('events'))} script API calls")
-    if o.get("subscription_sessions"):
-        parts.append(f"{num(o.get('subscription_sessions'))} subscription-included")
-    lines.append(f"- Activity: {', '.join(parts)}")
+        lines.append("- Billed spend: unavailable; local value is API-rate estimate, and Codex usage is subscription-included")
     if o.get("unpriced_tokens"):
-        lines.append(f"- Unpriced tokens (no reference rate): {num(o.get('unpriced_tokens'))}")
+        lines.append(f"- Pricing gap: {num(o.get('unpriced_tokens'))} unpriced tokens")
     return lines
 
 
-def render_projects(report: dict, max_rows: int = 6) -> list[str]:
-    rows = report.get("projects", []) or []
+def render_work(report: dict, max_rows: int = 10) -> list[str]:
+    rows = [r for r in (report.get("work_items") or report.get("top_sessions") or []) if r.get("tokens")]
     if not rows:
-        return ["- No usage found."]
+        return ["- No usage recorded in this window."]
     lines = []
     for row in rows[:max_rows]:
-        bits = [f"{tokens_compact(row.get('tokens'))} tokens", f"~{usd(row.get('est_cost'))}"]
-        count_bits = []
-        if row.get("sessions"):
-            count_bits.append(f"{row['sessions']} session{'s' if row['sessions'] != 1 else ''}")
-        if row.get("events"):
-            count_bits.append(f"{row['events']} call{'s' if row['events'] != 1 else ''}")
-        if count_bits:
-            bits.append(", ".join(count_bits))
-        lines.append(f"- {row.get('project')}: " + " · ".join(bits))
+        title = clean_label(row.get("title") or row.get("project") or row.get("id"))
+        location = source_label(row)
+        model = row.get("model") or "unknown model"
+        cost = usd(row.get("est_cost")) if row.get("est_cost") is not None else "unpriced"
+        line = f"- **{title}** — ~{cost}, {tokens_compact(row.get('tokens'))} tokens"
+        details = []
+        if location:
+            details.append(location)
+        if model:
+            details.append(model)
+        if row.get("billing_mode") == "subscription_included":
+            details.append("subscription-included")
+        if details:
+            line += f" ({' · '.join(details)})"
+        lines.append(line)
     return lines
 
 
-def render_topics(report: dict, max_rows: int = 8) -> list[str]:
-    rows = report.get("telegram_topics", []) or []
+def render_project_rollup(report: dict, max_rows: int = 6) -> list[str]:
+    rows = [r for r in (report.get("projects", []) or []) if r.get("tokens")]
     if not rows:
-        return ["- No Telegram usage in window."]
+        return ["- No project rollup available."]
     lines = []
     for row in rows[:max_rows]:
-        lines.append(f"- {row.get('topic')}: {tokens_compact(row.get('tokens'))} tokens · ~{usd(row.get('est_cost'))}")
+        project = clean_label(row.get("project"))
+        lines.append(f"- {project}: ~{usd(row.get('est_cost'))}, {tokens_compact(row.get('tokens'))} tokens")
     return lines
 
 
 def render_models(report: dict, max_rows: int = 5) -> list[str]:
-    rows = report.get("models", []) or []
+    rows = [r for r in (report.get("models", []) or []) if r.get("tokens")]
     if not rows:
         return ["- No model usage."]
     lines = []
     for row in rows[:max_rows]:
+        flags = []
         modes = row.get("billing_modes") or []
-        mode_note = "subscription-included" if modes == ["subscription_included"] else (row.get("provider") or "")
-        suffix = f" · {mode_note}" if mode_note else ""
-        lines.append(
-            f"- {row.get('model')}: {tokens_compact(row.get('tokens'))} tokens · ~{usd(row.get('est_cost'))}{suffix}"
-        )
-    return lines
-
-
-def render_top_sessions(report: dict, max_rows: int = 4) -> list[str]:
-    rows = [r for r in (report.get("top_sessions") or []) if r.get("est_cost")]
-    if not rows:
-        return []
-    lines = []
-    for row in rows[:max_rows]:
-        title = row.get("title") or row.get("id")
-        lines.append(
-            f"- {title} ({row.get('model')}, {row.get('source')}): "
-            f"{tokens_compact(row.get('tokens'))} tokens · ~{usd(row.get('est_cost'))}"
-        )
-    return lines
-
-
-def render_stages(report: dict, max_rows: int = 4) -> list[str]:
-    rows = report.get("stages", []) or []
-    if not rows:
-        return []
-    lines = []
-    for row in rows[:max_rows]:
-        lines.append(f"- {row.get('stage')}: {tokens_compact(row.get('tokens'))} tokens · ~{usd(row.get('est_cost'))}")
+        if "subscription_included" in modes:
+            flags.append("included")
+        if row.get("provider"):
+            flags.append(row.get("provider"))
+        suffix = f" ({' · '.join(flags)})" if flags else ""
+        lines.append(f"- {row.get('model')}: ~{usd(row.get('est_cost'))}, {tokens_compact(row.get('tokens'))} tokens{suffix}")
     return lines
 
 
 def should_emit(now_et: datetime) -> bool:
     if os.getenv("HERMES_SPEND_REPORT_FORCE") == "1":
         return True
-    # Cron wakes at UTC candidates for 5 AM ET across DST. Only emit at the
-    # actual local hour, and only once per ET date.
     if now_et.hour != 5:
         return False
     et_date = now_et.strftime("%Y-%m-%d")
@@ -162,37 +159,21 @@ def main() -> int:
     print("## Hermes Spend Briefing")
     print(f"As of: {now_et.strftime('%a %b %-d, %-I:%M %p ET')}")
     print("")
-
-    print("\n".join(render_window("Last 24h", daily)))
+    print("**What cost money — last 24h**")
+    print("\n".join(render_work(daily, max_rows=8)))
     print("")
-    print("\n".join(render_window("Last 7d", weekly)))
+    print("\n".join(render_summary("Last 24h totals", daily)))
     print("")
-
-    print("**By project — last 24h**")
-    print("\n".join(render_projects(daily)))
+    print("**What cost money — last 7d**")
+    print("\n".join(render_work(weekly, max_rows=12)))
     print("")
-    print("**By project — last 7d**")
-    print("\n".join(render_projects(weekly, max_rows=8)))
+    print("\n".join(render_summary("Last 7d totals", weekly)))
     print("")
-
-    print("**By Telegram topic — last 7d**")
-    print("\n".join(render_topics(weekly)))
+    print("**Where the spend clustered — last 7d**")
+    print("\n".join(render_project_rollup(weekly)))
     print("")
-
-    print("**By model — last 7d**")
+    print("**Model mix — last 7d**")
     print("\n".join(render_models(weekly)))
-    print("")
-
-    stages = render_stages(weekly)
-    if stages:
-        print("**Script stages — last 7d**")
-        print("\n".join(stages))
-        print("")
-
-    top = render_top_sessions(weekly)
-    if top:
-        print("**Top sessions — last 7d**")
-        print("\n".join(top))
     return 0
 
 

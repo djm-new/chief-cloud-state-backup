@@ -88,6 +88,16 @@ Six sections, always in this order:
 
 Do **not** include a dedicated "Deliberately excluded" section in the final briefing by default. Exclusions already create clutter; if DJ explicitly asks what was filtered out, answer in one sentence inline or in a separate follow-up, not as a standing section.
 
+## Comment/export guardrail
+
+When DJ asks for a briefing artifact to review/comment on, default to the **complete briefing artifact**, not a partial excerpt, unless he explicitly says to include only one section. A complete briefing must include all present sections from the source archive/output: Executive summary, Action list additions, Worth knowing / monitor, Carry-forward context, and Appendix / links.
+
+Before creating a Markdown file or Google Doc for comments:
+1. Prefer the archived final brief in `/opt/data/slack_brief_archive/YYYY-MM-DD-HHMM.md` over a paginated snippet from cron output.
+2. If using cron output, read enough pages to include the full brief and check `total_lines` / truncation; never rely on a truncated `read_file` page.
+3. Verify the outgoing artifact contains `## Action list additions` and any available `## Appendix / links` section before sharing it.
+4. If the artifact is intentionally only an excerpt, label it clearly as an excerpt in both the filename/title and the message.
+
 See `references/slack-filter-calibration.md` for detailed content filtering rules.
 See `references/briefing-staleness-guards.md` for the archive-reuse / stale timestamp guard that prevents old executive-summary prose from being recycled into new briefs.
 See `references/briefing-rewrite-checklist.md` for the no-rerun rewrite workflow and repetition-reduction checklist when DJ asks to improve an existing brief using the same source data.
@@ -152,13 +162,43 @@ Do not present items neutrally as "this exists." Tell DJ what to do about it.
 ### Briefing output structure (enforced)
 ```
 ## Executive summary          ← 3-5 bullets max, most important first, decisive
-## Action list additions      ← ONE consolidated action section: decisions needed, ToM additions, active follow-ups, watchlist/carry-forward actions; ask approval before writing ToM
-## Worth knowing / monitor    ← context only; no action today; do not duplicate action items
-## Carry-forward context      ← optional non-action rolling context only; no duplicate action list items
-## Appendix / links           ← optional links or provenance if needed
+## Needs DJ                  ← only decisions/approvals/follow-ups that DJ personally needs to act on; max 3-5 bullets; no duplicate restatement of Executive summary
+## Watching                  ← important items being monitored for DJ, including follow-up-tracker items not yet requiring DJ action; compact
+## Carry-forward context     ← optional, only non-action context needed for continuity; omit if not useful
 ```
 
-Do **not** split action-like items across “Suggested top of mind,” “watchlist,” “carry forward,” “action/decision needed,” and “monitor.” Those collapse into **Action list additions** when they imply DJ should add, decide, follow up, or track something actively.
+Do **not** include a standing `Appendix / links` section in normal Telegram delivery. Links are allowed inline only when they are necessary for DJ to click now; otherwise keep provenance in the archive/source artifact, not the briefing body.
+
+Do **not** split action-like items across “Suggested top of mind,” “watchlist,” “carry forward,” “action/decision needed,” and “monitor.” Collapse them into `Needs DJ` only if DJ personally needs to decide, approve, respond, or assign. If the system should merely track whether something landed, put it in `Watching` or the follow-up tracker, not as a noisy ToM addition.
+
+The `Needs DJ` section must avoid repetitive task wording. Do not rephrase every executive-summary bullet as an action item. Each bullet should be one of:
+- a crisp yes/no or owner/date decision DJ needs to make;
+- an explicit approval request;
+- a follow-up DJ should send;
+- a suggested Daily ToM addition only when it is worth adding to the ToM doc and not already present.
+
+Hard cap: normally 3-5 `Needs DJ` bullets. If there are more, group related items under one bullet or downgrade to `Watching`.
+
+### Anti-repetition rule — one issue, one home
+
+Before writing the final briefing, create a private canonical issue list. Each issue/workstream may appear in **one section only**:
+- If DJ must decide/approve/respond/assign, put it in `Needs DJ` and do **not** repeat it in `Executive summary`, `Watching`, or `Carry-forward context`.
+- If it is important but not DJ-actionable, put it in `Watching` and do **not** repeat it in `Executive summary` or `Carry-forward context`.
+- `Executive summary` should synthesize the overall shape of the day, not restate the same issue bullets that appear below. If every high-priority item is already in `Needs DJ`, the executive summary should be 1-2 meta-observations or omitted if that would create repetition.
+- `Carry-forward context` is only for background that is **not already named** in `Needs DJ` or `Watching`. Never use it to restate why a Needs DJ item matters.
+
+Concrete bad pattern from 2026-08-18: `MENA comp/payroll` appeared in Executive summary, Needs DJ, and Carry-forward context. Correct version: keep the Saudi raises/payroll decision only in `Needs DJ`; do not mention it again elsewhere.
+
+## DJ-authored Slack follow-up tracing
+
+The briefing pipeline should track DJ's own Slack sends separately from general Slack discovery. Current deterministic script: `/opt/data/scripts/slack_dj_followup_trace.py`, included by `/opt/data/scripts/slack_business_brief_context.py`.
+
+Rules:
+- Track every DJ-authored Slack message found via `from:me` search in the lookback window.
+- Check each message around 48 hours and again around one week.
+- The check asks: did anyone respond, did the request land, is there evidence of completion, or is this still unclear?
+- Do not turn every tracked message into a briefing item. Surface only action-like or unresolved/high-importance traces; suppress greetings/thanks and apparently landed low-stakes messages.
+- Put surfaced traces in `Watching` unless DJ personally needs to act, then put them in `Needs DJ`.
 
 ## Slack filter reference
 

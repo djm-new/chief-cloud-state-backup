@@ -1,0 +1,91 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-08-15_2103",
+  "usage": {
+    "prompt_tokens": 1667,
+    "completion_tokens": 311,
+    "total_tokens": 1978
+  },
+  "episodes": [
+    {
+      "id": "6126d854bc35bb762ddba802",
+      "show_name": "The Twenty Minute VC",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "20Growth: How to Build a $100M Growth Engine: Lessons from Wispr Flow and Superhuman | Why You Should Do Paid Ads Today and How To Do Them | How to Build the Best Referral Programs and How to Crush UGC with Matt Swulinski",
+      "link": "https://thetwentyminutevc.libsyn.com/20growth-how-to-build-a-100m-growth-engine-lessons-from-wispr-flow-and-superhuman-why-you-should-do-paid-ads-today-and-how-to-do-them-how-to-build-the-best-referral-programs-and-how-to-crush-ugc-with-matt-swulinski",
+      "published": "2026-08-15T17:53:00+00:00",
+      "summary": "Matt Swulinski is one of the best growth leaders in AI. He is currently Head of Growth at Viktor, the Accel-backed AI coworker. Previously, he was Head of Growth at Wispr Flow, where he was marketing hire #1 and built the growth function from pre-launch to millions of users. Matt also built the AI-powered marketing OS that automated 100 newsletter sponsorships a month and enabled a lean team to scale dramatically faster. Before Wispr Flow, Matt worked in growth at Superhuman. AGENDA: 00:00 Why SaaS Founders Should Steal the E-Commerce Growth Playbook 04:47 How Does PLG Change When AI Agents Become the Customer? 07:46 When Should an Early-Stage Founder Start Spending on Paid Growth? 10:36 How Do You Build the Tracking Stack to Know Whether Paid Is Working? 17:38 How Much Should You Spend on Creative—and How Do You Produce 500 Ads a Month? 23:10 How Long Should You Test Paid—and How Do You Scale Meta, Google and YouTube? 39:38 How Do You Build Referral, Paywall and AEO Loops That Compound? 49:46 How Do You Hire and Structure an AI-Native Growth Team? 1:04:27 Which Growth Channels Are Most Underrated—and Most Overrated? 1:09:28 How Do You Build an AI Operating System That Makes Your Work Compound?",
+      "duration": "01:18:41",
+      "old_score": 46,
+      "old_label": "skip",
+      "qwen": {
+        "id": "6126d854bc35bb762ddba802",
+        "score": 82,
+        "tier": "digest",
+        "reason": "Insights from a top AI growth leader on paid ads, referral programs, and scaling with AI.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "6af5f6f2272ffb5b57b137e9",
+      "show_name": "Masters of Scale",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Pioneers of AI: Why AI conversations are always one-sided",
+      "link": "",
+      "published": "2026-08-15T09:00:00+00:00",
+      "summary": "Is it possible for us to ever wholeheartedly trust a machine the way we would a human? According to Charles Duhigg, Pulitzer Prize-winning journalist and New York Times bestselling author of The Power of Habit and Supercommunicators: How to Unlock the Secret Language of Connection, the answer is no. And that’s what stops us from being able to emotionally connect with AI chatbots. In this episode of Pioneers of AI, host Rana el Kaliouby and Duhigg dissect what's really happening when people confide in ChatGPT and why real connection depends on reciprocity and vulnerability, two things AI can't offer. Follow Pioneers of AI on all channels: https://linktr.ee/pioneersofai See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info .",
+      "duration": "00:39:19",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "6af5f6f2272ffb5b57b137e9",
+        "score": 65,
+        "tier": "scan",
+        "reason": "Interesting take on AI emotional connection, but light on actionable insights for operators.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "187a3cba6ada7850d26fa193",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "No Mercy / No Malice: The Prof G Storytelling Playbook",
+      "link": "",
+      "published": "2026-08-15T08:10:00+00:00",
+      "summary": "Written by Mia Silverio. As read by George Hahn. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "1045",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "187a3cba6ada7850d26fa193",
+        "score": 40,
+        "tier": "skip",
+        "reason": "Appears to be a ghostwritten storytelling episode with no clear operator or AI insight.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "e9e701def74a5237277a0767",
+      "show_name": "People I Mostly Admire",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "35. David Epstein Knows Something About Almost Everything",
+      "link": "https://www.siriusxm.com",
+      "published": "2026-08-15T00:00:00+00:00",
+      "summary": "He’s been an Arctic scientist, a sports journalist, and is now a best-selling author of science books. His latest, Range: Why Generalists Triumph in a Specialized World , makes the argument that early specialization does not give you a head start in life. David and Steve talk about why frustration is a good sign, and why the 10,000-hour rule is definitely not a rule. This episode originally aired on July 9th, 2021st. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:49:15",
+      "old_score": 4,
+      "old_label": "skip",
+      "qwen": {
+        "id": "e9e701def74a5237277a0767",
+        "score": 55,
+        "tier": "scan",
+        "reason": "Generalist vs specialist argument, but lacks direct relevance to AI or capital allocation.",
+        "confidence": "medium"
+      }
+    }
+  ]
+}

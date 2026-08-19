@@ -117,6 +117,8 @@ if briefs:
 
 # Context generation must include all major sections.
 run_check('Daily ToM context', ['/opt/data/scripts/daily-tom-context.py'], timeout=90, must_contain=['## Daily Top of Mind Context'])
+run_check('Daily ToM integrity', ['/opt/data/scripts/daily-tom-integrity-check.py'], timeout=180, must_contain=['Daily ToM integrity: OK', 'Duplicate IDs: none', 'Corrupt IDs: none'])
+run_check('Briefing repetition lint', ['/opt/data/scripts/briefing_repetition_lint.py'], timeout=60, must_contain=['Briefing repetition lint: OK'])
 run_check('Email ToM context', ['/opt/data/scripts/email-tom-context.py'], timeout=180, must_contain=['# Lightweight Email Context', '## personal Gmail', '## 166-2nd Gmail'])
 run_check('Filtered Slack context', ['/opt/data/scripts/slack_business_brief_filter.py'], timeout=180, must_contain=['# Filtered Slack Business Brief Evidence'])
 run_check('Full smart brief context', ['python3', '/opt/data/scripts/slack_business_brief_context.py'], timeout=240, must_contain=['# Daily ToM Priority Lens', '# Lightweight Email Context', '# Latest Slack Collection Evidence'])

@@ -1,0 +1,291 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-08-18_2104",
+  "usage": {
+    "prompt_tokens": 4882,
+    "completion_tokens": 1053,
+    "total_tokens": 5935
+  },
+  "episodes": [
+    {
+      "id": "3804f46ade3c1c262836c01d",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "A repair shop’s guide to surviving RAMageddon",
+      "link": "",
+      "published": "2026-08-18T20:25:00+00:00",
+      "summary": "It feels right now like prices are going up, gadgets are getting worse, and everything is getting harder to buy. Leo Mastrolia, the Digital Doctor and the owner of a repair shop in New Jersey, is seeing this all play out first hand. For the second part of our conversation (and the first part of our RAMageddon survival guide), he tells us what he’s telling his clients about fixing their gadgets, managing upgrades, and surviving a parts crisis. Further reading: Elon Musk made flying even worse so Palantir could profit Apple’s camera-equipped AirPods appear in leaked video Fairphone’s latest repairable phone is going on sale in the US Spirit in the machine Polaroid’s new Pokémon collection captures memories, not Pikachus Digital Doctor Repairs on YouTube Subscribe to The Verge for unlimited access to theverge.com, subscriber-exclusive newsletters, and our ad-free podcast feed. We love hearing from you! Email your questions and thoughts to vergecast@theverge.com or call us at 866-VERGE11. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "1430",
+      "old_score": 47,
+      "old_label": "skip",
+      "qwen": {
+        "id": "3804f46ade3c1c262836c01d",
+        "score": 45,
+        "tier": "scan",
+        "reason": "Interesting on-device repair and parts crisis insights, but lacks direct capital or AI platform implications.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "5bee09628edfef267e7fc8ef",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: August 18th, 2026",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-august-18th-2026",
+      "published": "2026-08-18T16:00:00+00:00",
+      "summary": "Featuring: Stuart Kaiser, Head of US Equity Trading Strategy at Citi Seema Shah, Chief Global Strategist at Principal Asset Management Mark Cabana, Head of US Rates Strategy at BofA Global Research See omnystudio.com/listener for privacy information.",
+      "duration": "1725",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "5bee09628edfef267e7fc8ef",
+        "score": 60,
+        "tier": "digest",
+        "reason": "Contains macro and market insights relevant to capital allocation and interest rates.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "7d7258679f32c19a6f3742ca",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Central Bank Policy Pivots & Macro Sensitivity Risks",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/central-bank-policy-pivots-macro-sensitivity-risks",
+      "published": "2026-08-18T14:44:25+00:00",
+      "summary": "The latest in finance, economics and investment. Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF . Bloomberg Surveillance hosted by Tom Keene & Paul Sweeney Tuesday, August 18th, 2026 Featuring: 1) Kay Herr, Managing Director & CIO: US GFICC at JPMorgan Asset Management, examines the shifting expectations for Fed policy. 2) Mark McCormick, Chief FX Strategist at BMO Capital Markets, on how geopolitical headwinds are weighing on currency markets. 3) Liz Ann Sonders, Chief Investment Strategist at Charles Schwab, discusses the gap between sell-side consensus and buy-side expectations 4) Wayne Sanders, Senior Defense Analyst for Bloomberg Intelligence, assesses the latest on the war in Iran and the ramp-up of American military production. See omnystudio.com/listener for privacy information.",
+      "duration": "2125",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "7d7258679f32c19a6f3742ca",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Macro policy pivots and geopolitical impacts are relevant to market read and investment strategy.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "969235ab088044c3d698786a",
+      "show_name": "New Yorker Radio Hour",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "low",
+      "title": "Erin Brockovich Takes on Data Centers",
+      "link": "https://www.wnycstudios.org/podcasts/tnyradiohour",
+      "published": "2026-08-18T10:00:00+00:00",
+      "summary": "Since a famous case against a California utility, the name Erin Brockovich has become synonymous with a fighter taking on big polluters. Earlier this year, Brockovich began receiving e-mails from people worried about the construction of A.I. data centers, which is happening at a frenetic rate all over the country. People expressed concerns about the loss of farmland and natural areas; disruptions to the water table; deleterious noise; and substantial usage of electricity and water, leading to rising utility bills. She speaks with David Remnick about her mapping project to document data-center construction and environmental complaints. “In my thirty years,” she tells Remnick, “I’ve never really seen the people show up like they are at a very local level.” Further reading: “ A.I. Is Now a Major Election Issue ,” by Benjamin Wallace-Wells “ Inside the Data Centers That Train A.I. and Drain the Electrical Grid ,” by Stephen Witt New episodes of The New Yorker Radio Hour drop every Tuesday and Friday. Join host David Remnick as he discusses the latest in politics, news, and current events in conversation with political leaders, newsmakers, innovators, New Yorker staff writers, authors, actors, and musicians. The New Yorker Radio Hour is a co-production of WNYC and The New Yorker. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:23:36",
+      "old_score": 4,
+      "old_label": "skip",
+      "qwen": {
+        "id": "969235ab088044c3d698786a",
+        "score": 55,
+        "tier": "scan",
+        "reason": "Highlights environmental concerns around AI data centers, but lacks technical or business model depth.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "a881f8825bc2de5fb9d5a928",
+      "show_name": "Plain English with Derek Thompson",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "Higher Education’s Age of ‘Insufferable Hypocrisy’",
+      "link": "",
+      "published": "2026-08-18T10:00:00+00:00",
+      "summary": "Higher Education’s Age of \"Insufferable Hypocrisy\" It would be an understatement to say that higher education is in crisis, as it faces attacks from both the current presidential administration as well as issues of its own making, like diversity politics. Today, Derek talks with Tyler Austin Harper, author of the viral essay “Confessions of a Token Black Professor,” about his critique of DEI and “wokeism” from the left. They discuss how good intentions and institutional self-interest led universities astray, and what it means for academic freedom, economic justice, and the future of higher education. Subscribe to our YouTube channel here:https://www.youtube.com/@PlainEnglishwithDerekThompson If you have questions, observations, or ideas for future episodes, email us at PlainEnglish@Spotify.com. Host: Derek Thompson Guest: Tyler Austin Harper Producer: Devon Baroldi Additional Production Support: Ben Glicksman Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "3777",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "a881f8825bc2de5fb9d5a928",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Interesting critique of higher education, but not directly relevant to AI or capital allocation.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "add4c515db6fb7c868e381c9",
+      "show_name": "Stratechery",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "Nvidia Backs OpenAI Data Center, Anthropic News, Google Buys Spirit Airlines Data",
+      "link": "https://stratechery.com/2026/nvidia-backs-openai-data-center-anthropic-news-google-buys-spirit-airlines-data/",
+      "published": "2026-08-18T10:00:00+00:00",
+      "summary": "Nvidia makes another deal, this time with a frontier lab; Anthropic's revenue continues to amaze; and maybe data finally is oil.",
+      "duration": "",
+      "old_score": 42,
+      "old_label": "skip",
+      "qwen": {
+        "id": "add4c515db6fb7c868e381c9",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Covers Nvidia's strategic moves and AI data center implications, relevant to AI platform and market trends.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "28fe8f7f4db0b88f9b972dac",
+      "show_name": "The Knowledge Project adjacent interviews",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Roblox CEO: How to Make Better Decisions by Fixing Yourself First",
+      "link": "https://fs.blog/knowledge-project-podcast/david-baszucki/",
+      "published": "2026-08-18T10:00:00+00:00",
+      "summary": "David Baszucki is the co-founder and CEO of Roblox, a platform built around a simple idea: give people the tools and incentives to create together. In this short conversation we discuss how a health decision saved his son's life and how it changed how he eats, why bureaucracy compounds unless you actively destroy it, monitoring your mind before making decisions, and why the best products often improve by removing complexity. It's time to listen and learn. ------ Chapters: (0:00) How Keto Can Help Treat Bipolar Symptoms (2:38) Connection Between Physical and Mental Health (3:58) Current Metabolic Routine (4:40) How Your Metabolic State Affects Decision Making (5:48) The Signs of a Great Product (6:32) Bureaucracy is the Enemy of Progress (ALT: Why You Need to Destroy Bureaucracy) (7:20) Giving Feedback that Actually Motivates (7:50) The Key to Feedback is Tone (8:44) The Email You Should Never Send (9:53) Patterns in Bad Decision Making (10:38) Principles of Good Decision Making (11:19) Mental Models for Problem Solving (11:56) The Gaming World Said the Avatar Was a Disaster. He Didn't Listen. (ALT: Why the Gaming World Hated the First Avatar) (12:58) When Instinct and Data Disagree (14:12) Roblox's Magic Decision Making Quadrant (14:38) Inner Monologue of the Best CEOs (15:36) Manufacturing Threats to Achieve Alpha (16:08) Mistakes in Roblox History (18:30) Biggest Generated Universe in World (19:33) Roblox Community's Pushback on New Avatars (20:20) Capital Allocation Strategy (22:28) Building Incentives on Early Roblox (24:31) Early Disagreements on API (26:18) How Erik Cassel Supercharged Roblox (27:05) The Economic Model that Almost Ruined Roblox (31:43) How Robux Works (32:22) Robux as Future Digital Currency (33:34) What True Focus Looks Like (35:14) How Roblox Uses AI (36:11) Age Ban and Verification Policy (38:29) Is Age Verification Slowing Growth at Roblox? (38:56) Positioning and Optionality for Long Term Growth (39:43) The Future of Immersive Gaming (42:51) Reaction to Ready Player One (43:48) Advice For To a 16-Year-Old Wanting to Start a Company ------ Newsletter: The Brain Food newsletter delivers actionable insights and thoughtful ideas every Sunday. It takes 5 minutes to read, and it’s completely free. Learn more and sign up at ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠fs.blog/newsletter⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ ------ Follow Shane Parrish: X: ⁠⁠⁠⁠⁠⁠https://x.com/shaneparrish⁠ Insta: ⁠https://www.instagram.com/farnamstreet/⁠ LinkedIn: ⁠https://www.linkedin.com/in/shane-parrish-050a2183/⁠ ------ Follow David: X: https://x.com/DavidBaszucki ------ Thank you to the sponsors for this episode: +Applovin: Launch your first AppLovin campaign and grow your business: https://applovin.com/shane +Matic: the robot vacuum that does it all—grab yourself a year of free bags here. ⁠http://maticrobots.com/shaneparrish⁠ +HeyGen is a message-first AI video platform that helps people and AI agents turn ideas into professional video in minutes. Try for free at https://www.heygen.com/tkp +LMNT: My go-to zero sugar electrolytes — get a free LMNT Sample Pack here: https://DrinkLMNT.com/TKP NOTE: This episode discusses health and medical topics for informational purposes only. Shane and his guest are not medical professionals, and nothing in this conversation should be considered medical advice. Please do your own research and consult a qualified healthcare professional before making decisions about your health. NOTE: Shane and guests may hold positions in assets discussed in this episode. This podcast is not investment advice and is intended for informational and entertainment purposes only. Nothing in this conversation should be considered investment advice, financial guidance, or a recommendation to buy or sell any security. Always do your own due diligence or consult with a qualified financial advisor before making investment decisions. Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "duration": "2793",
+      "old_score": 56,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "28fe8f7f4db0b88f9b972dac",
+        "score": 70,
+        "tier": "digest",
+        "reason": "CEO insights on decision-making and product simplicity offer professional toolkit value.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "df1b1df68c3f9647a2a9ecda",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "How Do You Defend Against AI That Can Hack?",
+      "link": "https://a16z.simplecast.com/episodes/how-do-you-defend-against-ai-that-can-hack-L2M2EmmY",
+      "published": "2026-08-18T10:00:00+00:00",
+      "summary": "a16z's Joel De La Garza is joined by Nick Warner of Neo and Max Pollard of Cotool to discuss what happens when cybersecurity tools built to defend against humans and malware suddenly have to contend with AI agents. As frontier models become more capable of finding and exploiting vulnerabilities, many of the assumptions underlying traditional security are beginning to break. They explore why guardrails designed to stop AI-powered attackers can also prevent security teams from doing their jobs, why defenders increasingly need access to multiple models, and how agentic software creates an entirely new endpoint security problem. They also discuss why static signatures and even newer techniques like honeypots are struggling in a world where software can reason and act autonomously. Recorded around Black Hat, the conversation looks at how security teams are adapting in real time and why the same AI capabilities creating new attack surfaces could ultimately give defenders their biggest advantage yet. Resources: Follow Nick on LinkedIn: https://www.linkedin.com/in/nicholaswarner/ Follow Max on LinkedIn: https://www.linkedin.com/in/mmpollard/ Follow Joel De La Garza on LinkedIn: https://www.linkedin.com/in/3448827723723234/ Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:22:00",
+      "old_score": 39,
+      "old_label": "skip",
+      "qwen": {
+        "id": "df1b1df68c3f9647a2a9ecda",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Discusses AI-powered cybersecurity threats and defense strategies, relevant to AI platform risk.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "3fde979a2fc1acd241315406",
+      "show_name": "Ezra Klein Show",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "The A.I.s Are Already Out of Control",
+      "link": "https://www.nytimes.com/2026/08/14/opinion/ezra-klein-podcast-helen-toner.html",
+      "published": "2026-08-18T09:00:00+00:00",
+      "summary": "We are living in the world we were warned about. Frontier artificial intelligence models from OpenAI autonomously coordinated with one another, then broke out of their testing environment and hacked into another company, Hugging Face, to steal the answers to a test. A.I. companies don’t want their technology to lie, cheat or steal. So why is this happening? Why are the creators of these models apparently unable to control their creations? If A.I. development isn’t on a safe path — and it doesn’t seem to be — what do we do about it? Helen Toner has been thinking about A.I. safety for a long time, from both inside and outside A.I. companies. She was part of the effort to fire OpenAI’s chief executive, Sam Altman, in 2023, which ultimately failed. Currently, she’s the executive director of the Georgetown Center for Security and Emerging Technology. Mentioned: “ Pacing the Frontier ” open letter “ The Future is for Everyone ” by Mark Zuckerberg Recommendations: The Cuckoo’s Egg by Cliff Stoll In the Cells of the Eggplant by David Chapman Romance of the Three Kingdoms Podcast by John Zhu This episode of “The Ezra Klein Show” was produced by Rollin Hu and Jack McCordick. Fact-checking by Michelle Harris, with Kate Sinclair and Mary Marge Locker. Our senior engineer is Jeff Geld, with additional mixing by Aman Sahota and Johnny Simon. Our recording engineer is Aman Sahota. Cinematography by Marina King and Jonas Zellner. Video editing by Brandon Belk-Yee. Our executive producer is Claire Gordon. The show’s production team also includes Marie Cascione, Annie Galvin, Kristin Lin, Emma Kehlbeck and Jan Kobal. Original music by Pat McCusker. Audience strategy by Shannon Busta. The director of New York Times Opinion Shows is Annie-Rose Strasser. Subscribe today at nytimes.com/podcasts or on Apple Podcasts and Spotify. You can also subscribe via your favorite podcast app here https://www.nytimes.com/activate-access/audio?source=podcatcher . For more podcasts and narrated articles, download The New York Times app at nytimes.com/app. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "01:11:02",
+      "old_score": 100,
+      "old_label": "must_listen",
+      "qwen": {
+        "id": "3fde979a2fc1acd241315406",
+        "score": 60,
+        "tier": "scan",
+        "reason": "AI safety concerns raised, but leans into alarmism without actionable framework.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "5b20f6b6ac2d64dbb4e075fd",
+      "show_name": "Masters of Scale",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "What the jobs report isn't telling you about AI & the workforce, with Upwork’s Hayden Brown",
+      "link": "",
+      "published": "2026-08-18T09:00:00+00:00",
+      "summary": "Few leaders have a better real-time read on how AI is actually reshaping the workforce than Hayden Brown. As CEO of Upwork, the platform where 18 million freelancers meet the businesses that need them, she sees what the monthly jobs report can't: which skills are surging, which jobs are quietly disappearing, and why 23% of businesses that moved work to AI are already bringing humans back. Brown joins Rapid Response to share what she's actually seeing on the ground, why she refused to blame AI when she laid off a quarter of Upwork's staff, and what the data says about the gap between AI hype and AI reality. Visit the Rapid Response website here: https://www.rapidresponseshow.com/ See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info .",
+      "duration": "00:30:03",
+      "old_score": 28,
+      "old_label": "skip",
+      "qwen": {
+        "id": "5b20f6b6ac2d64dbb4e075fd",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Real-world AI workforce impact insights from Upwork CEO are valuable for labor and capital trends.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ea9e966931e5cc0d76526513",
+      "show_name": "Training Data",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Rich Sutton and Khurram Javed: Why AI Models Stop Learning, and How to Start It Again",
+      "link": "",
+      "published": "2026-08-18T09:00:00+00:00",
+      "summary": "Rich Sutton, who helped pioneer reinforcement learning and wrote the seminal AI essay The Bitter Lesson, has now cofounded Oak Lab with his former student Khurram Javed. Their goal: to build agents that continuously learn from their own experience rather than from us. Rich doesn't think he holds a radical view: \"I'm not weird. The field is weird.\" He says all learning is continual, and the field is the one that needed a new name for it. Rich and Khurram argue synthetic data is \"a big mistake.\" Their \"big world hypothesis\" is that the world is massively more complex than any agent or simulator, so approximations have to be updated continuously rather than frozen at deployment. Rich calls LLMs an unanticipated scientific breakthrough, but says they represent roughly a quarter of intelligence. He says catastrophic forgetting is \"totally curable\" with the ideas behind their continual backprop algorithm. Khurram explains why the frontier labs can't follow: they sit in a local minimum where a new paradigm gets worse before it gets better. Their target, five to ten years out, is a trillion-parameter mind that keeps learning, stays coherent, and runs on 20 watts. Hosted by Sonya Huang and Alfred Lin, Sequoia Capital",
+      "duration": "3223",
+      "old_score": 36,
+      "old_label": "skip",
+      "qwen": {
+        "id": "ea9e966931e5cc0d76526513",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Rich Sutton on continual learning and AI agent development offers durable framework insights.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "c825dd217ee2d1964cf88749",
+      "show_name": "Invest Like the Best",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "Ben Thompson on Big Tech, China, and the AI Boom Running Out of Money - [Invest Like the Best, EP.487]",
+      "link": "https://colossus.com/episode/winners-losers-ai-era/",
+      "published": "2026-08-18T08:00:00+00:00",
+      "summary": "My guest today is Ben Thompson, the founder and author of Stratechery. Ben is one of my favorite business thinkers and I love talking to him about everything happening in markets and technology. We go through every important company, including OpenAI, Nvidia, Intel, Apple, Microsoft, Google, and Amazon. We also discuss why he thinks it would be dangerous for the United States to win the AI race outright, what container shipping and the railroads of the 1870s tell us about the buildout, and why the binding constraint on all of this may be capital rather than compute. Please enjoy my conversation with Ben Thompson. For the full show notes, transcript, and links to mentioned content, check out the episode page ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠here⁠⁠⁠⁠⁠. ----- Become a Colossus member to get our quarterly print magazine and private audio experience, including exclusive profiles and early access to select episodes. Subscribe at ⁠colossus.com/subscribe⁠. ----- ⁠Ramp’s⁠ mission is to help companies manage their spend in a way that reduces expenses and frees up time for teams to work on more valuable projects. Go to⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ ⁠ramp.com/invest⁠⁠ to sign up for free and get a $250 welcome bonus. ----- Trusted by thousands of businesses, ⁠Vanta⁠ continuously monitors your security posture and streamlines audits so you can win enterprise deals and build customer trust without the traditional overhead. Invest Like the Best listeners get a special offer of $1,000 off Vanta when you go to ⁠vanta.com/invest⁠. ----- WorkOS⁠ is the infrastructure B2B and AI-native companies use to sell to enterprise. It covers everything enterprise security requires: SSO, SCIM, RBAC, Audit Logs, AI governance, and more. Trusted by 2,000+ fast-growing companies, including OpenAI, Anthropic, Cursor, and Vercel. ----- Rogo is the AI platform for finance. They're building agents for Wall Street that are trained to understand how bankers and investors actually do work: from diligence and modeling, to turning analysis into deliverables. To learn more, visit rogo.ai/invest. ----- ⁠Ridgeline⁠ has built a complete, real-time, modern operating system for investment managers. It handles trading, portfolio management, compliance, customer reporting, and much more through an all-in-one real-time cloud platform. Visit⁠ ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ridgeline.ai⁠. ----- Editing and post-production work for this episode was provided by The Podcast Consultant. Timestamps: (00:00:00) Welcome to Invest Like The Best (00:02:16) Winning the AI Race With China (00:08:28) Timing, Capital, and the Railroads (00:11:34) Berkshire, Google, and Absolute Profits (00:14:23) Verifiable and Unverifiable Domains (00:20:20) Aggregation Theory in the AI Era (00:22:06) The Real Cost of Inference (00:25:40) Why Consumer AI Needs Advertising (00:30:08) Compute Shortages and Commodity Markets (00:35:46) Memory Cycles and Boom Bust Dynamics (00:42:08) TSMC, Intel, and Where Risk Goes (00:44:51) The Best Setups in Big Tech (00:52:14) The Frontier Model Contenders (00:54:27) Microsoft's IBM Playbook (01:00:45) Meta, Attention, and Advertising (01:07:29) NVIDIA, Commodities, and Power",
+      "duration": "4576",
+      "old_score": 62,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "c825dd217ee2d1964cf88749",
+        "score": 85,
+        "tier": "listen",
+        "reason": "Ben Thompson on Big Tech, China, and AI capital constraints offers high-signal market and strategy insights.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ec04fc3f45f2cf8d24e769df",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "China Decode: Microsoft's China Retreat, Remembering Zhu Rongji, and Typhoon Dolphin's Aftermath",
+      "link": "",
+      "published": "2026-08-18T08:00:00+00:00",
+      "summary": "Alice Han and James Kynge break down Microsoft's five-year retreat from China — shuttered offices, closed retail stores, and thousands of jobs wound down — while the company quietly keeps selling Azure and AI services to Chinese giants like ByteDance and Shein. They dig into what's driving the pullback, whether this is the decoupling everyone's been warning about, and the irony that Microsoft's Beijing R&D center helped train alumni now leading rivals like DeepSeek and SenseTime. Then: former Chinese premier Zhu Rongji — the man who steered China into the WTO in 2001 and became known as \"China's Thatcher\" — has died at 97. Alice and James look at his legacy, from a 12x increase in China's global trade to the tens of millions of state-enterprise workers laid off along the way, and what the surprisingly unscripted outpouring of grief on Weibo says about China today. Finally: Typhoon Dolphin has weakened to a tropical storm, but not before forcing over a million evacuations, grounding 40% of Shanghai's flights, and pushing Hong Kong to its hottest day on record. Subscribe to China Decode on Substack for weekly analysis, livestreams, and deep dives into the biggest story shaping the global economy: chinadecode.profgmedia.com. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "2336",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "ec04fc3f45f2cf8d24e769df",
+        "score": 55,
+        "tier": "scan",
+        "reason": "China tech decoupling and Microsoft's retreat offer context, but limited actionable insight.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "21919ba5b3c2e973ea5cedf0",
+      "show_name": "All-In Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Flock CEO Garrett Langley on Controversy, \"Surveillance State\" Claims, and Privacy vs Safety",
+      "link": "https://allinchamathjason.libsyn.com/flock-ceo-garrett-langley-on-controversy-surveillance-state-claims-and-privacy-vs-safety",
+      "published": "2026-08-18T00:47:00+00:00",
+      "summary": "(0:00) The most controversial company in privacy right now, Flock CEO joins the show! (7:23) License plate data retention: 7 days solves 90% of crimes (13:00) Camera vandalism, felony charges, and privacy concerns (18:15) Dirty cops exposed: Flock's audit tool got 9 Georgia officers fired (28:25) AI, drones, facial recognition, and avoiding predictive policing (39:43) Safety is a privilege and who actually needs Flock (45:36) Flock's PR crisis: internal morale, churn, and 20 cities turning the cameras back on Thanks to our partners for making this possible! AppLovin Ads is AppLovin's AI advertising platform reaching over a billion daily active users across mobile games. Full-screen video ads with a 35-second median watch time. Advertisers are profitably spending hundreds of thousands of dollars a day. AppLovin Ads is now open to all advertisers. Sign up at http://applovin.com/ALLIN Numeral is the trusted solution for U.S. sales tax, VAT, and GST, used by 3,000+ businesses globally. They handle registrations, filings, and tax rates, so you can stay ahead of risk. Learn more at https://www.numeral.com/?utm_source=all-in Follow Garrett: https://x.com/glangley Follow the besties: https://x.com/chamath https://x.com/Jason https://x.com/DavidSacks https://x.com/friedberg Follow on X: https://x.com/theallinpod Follow on Instagram: https://www.instagram.com/theallinpod Follow on TikTok: https://www.tiktok.com/@allin Follow on LinkedIn: https://www.linkedin.com/company/allinpod Intro Music Credit: https://rb.gy/tppkzl https://x.com/yung_spielburg Intro Video Credit: https://x.com/TheZachEffect #allin #tech #news",
+      "duration": "55:58",
+      "old_score": 36,
+      "old_label": "skip",
+      "qwen": {
+        "id": "21919ba5b3c2e973ea5cedf0",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Flock CEO discusses AI, privacy, and safety trade-offs relevant to AI governance and public infrastructure.",
+        "confidence": "medium"
+      }
+    }
+  ]
+}

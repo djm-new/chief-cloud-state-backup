@@ -1,0 +1,91 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-08-09_2109",
+  "usage": {
+    "prompt_tokens": 1483,
+    "completion_tokens": 318,
+    "total_tokens": 1801
+  },
+  "episodes": [
+    {
+      "id": "3fa408621ffe4e43bacd31ed",
+      "show_name": "Founders",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "#428 How Claude Shannon Worked",
+      "link": "",
+      "published": "2026-08-09T17:14:00+00:00",
+      "summary": "Claude Shannon changed your life and you probably don't even know it. Claude is the father of information theory. He transformed information into bits and created the intellectual foundation for computers, the Internet, digital media, high-speed communication, and Artificial Intelligence. The way Claude Shannon worked is what interested me the most. He combined extraordinary abstract reasoning with an engineer’s instinct to build. He reduced complex problems to their essential structure. He connected ideas across mathematics, engineering, cryptography, artificial intelligence, investing, chess, juggling, and robotics. He treated every experience as material that he might later combine into a new insight. He was also relentlessly independent, guided more by curiosity and freedom than recognition, money, or usefulness. This episode is what I learned from rereading A Mind at Play: How Claude Shannon Invented the Information Age by Jimmy Soni and Rob Goodman. Made possible by: Ramp: ⁠⁠https://ramp.com⁠⁠ Applovin: ⁠⁠https://www.applovin.com Vanta: ⁠⁠https://vanta.com/founders 0:00 — \"The great insights don't spring from curiosity alone, but from dissatisfaction... A genius is simply someone who is usefully irritated.\" 1:36 — \"It seems to be much easier to make two small jumps than one big jump in any kind of mental thinking.\" — Shannon 4:41 — \"He was a man almost entirely written out of a history that's defined by self-promoters. His was a life spent in the pursuit of curious, serious play.\" 5:20 — \"He worked with levity and played with gravity. He never acknowledged a distinction between the two.\" 6:00 — \"Geniuses are the luckiest of mortals because what they do is the same as what they most want to do.\" 6:59 — \"I do what comes naturally, and usefulness is not my main goal. I keep asking myself, 'How would you do this? Is it possible to make a machine to do this? Can I prove this theorem?'\" — Shannon 11:50 — \"Chemistry always seemed dull to me. There's too many isolated facts and too few general principles for my taste.\" — Shannon 19:09 — \"Specialization is the death of genius.\" — Vannevar Bush 19:18 — \"The possibilities of being at once both broad and deep did not pass with Leonardo da Vinci or Benjamin Franklin.\" — Vannevar Bush 25:13 — \"I had the freedom to do anything I wanted from almost the day I started. They never told me what to work on.\" — Shannon on Bell Labs 26:41 — \"I've been working on three different ideas simultaneously, and strangely enough, it seems a more productive method than sticking to one problem.\" — Shannon 32:55 — \"My fondest dream is to someday build a machine that thinks, learns, communicates, and manipulates its environment in a fairly sophisticated way.\" — Shannon 35:05 — \"Before Shannon, information was a telegram, a photograph, a paragraph, a song. After Shannon, information was entirely abstracted into bits.\" 38:04 — \"After the effort of discovery, the effort of communication was secondary by far. He had solved a problem to his own satisfaction, and that, as far as he was concerned, was enough.\" 40:55 — \"I've spent lots of time on totally useless things... He made no distinction between his interest in information and his interest in unicycles. They were all moves in the same game.\" 46:54 — \"Shannon seemed to think with ideas more than with words or formulas. A new problem was like a sculptor's block of stone, and Shannon's ideas chiseled away the obstacles until an approximate solution emerged.\" — Ed Thorp 47:19 — \"I simply removed everything that was not David.\" — Michelangelo 47:25 — \"I don't think I was ever motivated by the notions of winning prizes. I was more motivated by curiosity, never by the desire for financial gain. I just wondered how things were put together.\" — Shannon 47:49 — \"I think the history of science has shown that valuable consequences often proliferate from simple curiosity.\" — Shannon 48:37 — \"The important people and events of history are the thinkers and innovators, the",
+      "duration": "3078",
+      "old_score": 32,
+      "old_label": "skip",
+      "qwen": {
+        "id": "3fa408621ffe4e43bacd31ed",
+        "score": 92,
+        "tier": "listen",
+        "reason": "Shannon's interdisciplinary approach and foundational impact on AI/computing warrant deep study for framework thinkers.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "0577385b5b12ebfd1e0c5f12",
+      "show_name": "Lenny's Podcast",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "The playbook for building high talent density teams | Adam Ward, Head of Talent at Cursor",
+      "link": "https://www.lennysnewsletter.com/p/the-playbook-for-building-high-talent",
+      "published": "2026-08-09T12:31:29+00:00",
+      "summary": "Adam Ward is the Head of Talent at Cursor, one of the fastest-growing developer tools in history. Before joining Cursor, he founded Growth by Design, an independent recruiting and talent strategy firm that helped build teams at the most ambitious AI and technology companies in the world. Adam has spent more than 20 years building elite, high-talent-density teams across the industry and is widely regarded as one of the most effective and creative recruiters in tech. In our in-depth conversation, we discuss: 1. Inside today’s “tale of two cities” talent market 2. Why the traditional recruiting funnel—what Adam calls the “funnel of doom”—leads to mediocre hires 3. Adam’s three-step playbook: scoping, mapping, and relentless pursuit 4. The worst question to ask when sourcing great talent 5. The rise of the forward deployed engineer—and how to become one 6. The biggest mistake founders make when hiring their first recruiter — Brought to you by: WorkOS —Make your app enterprise-ready, with SSO, SCIM, RBAC, and more Mercury —Radically different banking, now with Command — Where to find Adam Ward • X: https://x.com/wardadamp • LinkedIn: https://www.linkedin.com/in/adampward — Where to find Lenny: • Newsletter: https://www.lennysnewsletter.com • X: https://twitter.com/lennysan • LinkedIn: https://www.linkedin.com/in/lennyrachitsky/ — In this episode, we cover: (00:00) Introduction (03:01) The state of the hiring market (06:41) What roles are trending up and what roles are trending down (11:25) The three-step hiring framework that changes everything (21:58) Getting the right people to actually respond (25:42) Keeping talent a top priority (29:16) Inside Cursor’s recruiting operation (32:19) How to relentlessly pursue top talent (35:42) “Caring is free” (38:33) The conversation most companies underestimate (39:19) Rethinking the atomic unit of a search (40:12) Other recruiting tactics (45:04) What the on-site is really for (49:35) The importance of work trials (53:10) The offer stage (57:53) Negotiations and comp (01:01:50) The details that actually close the deal (01:07:23) What it’s like working with an exec team who values recruiting (01:09:42) Talent density (01:11:18) The first recruiting hire most founders get wrong (01:15:00) Building incredible teams (01:18:12) The time between offer and acceptance (01:19:48) What’s next for the recruiting function (01:21:00) Lightning round — Referenced: • Cursor: https://cursor.com • Trilogy: https://trilogy.com • Brie Wolfson on LinkedIn: https://www.linkedin.com/in/brie-wolfson-17758724 • Inside Cursor: https://colossus.com/article/inside-cursor • SpaceX: https://www.spacex.com • Joe Gebbia’s website: https://joegebbia.com • The rise of Cursor: The $300M ARR AI tool that engineers can’t stop using | Michael Truell (co-founder and CEO): https://www.lennysnewsletter.com/p/the-rise-of-cursor-michael-truell • The Pitt on HBO Max: https://www.hbomax.com/shows/pitt-2024/e6e7bad9-d48d-4434-b334-7c651ffc4bdf • The Bear on Hulu: https://www.hulu.com/series/the-bear-05eb6a8e-90ed-4947-8c0b-e6536cbddd5f • Granola: https://www.granola.ai • Wispr Flow: https://wisprflow.ai • 11 products I love, free for a year—the biggest Product Pass expansion in 2 years: https://www.lennysnewsletter.com/p/productpass-summer2026launch • How to debug a team that isn’t working: the Waterline Model: https://www.lennysnewsletter.com/p/how-to-debug-a-team-that-isnt-working • The high-growth handbook: Molly Graham’s frameworks for leading through chaos, change, and scale: https://www.lennysnewsletter.com/p/the-high-growth-handbook-molly-graham — Recommended books: • Emotional Intelligence: Why It Can Matter More Than IQ : https://www.amazon.com/dp/055338371X • High Growth Handbook: Scaling Startups from 10 to 10,000 People : https://www.amazon.com/High-Growth-Handbook-Elad-Gil/dp/1732265100 • Scaling People: Tactics for Management and Company Building : https://press.stripe.com/scaling-people — Production and marketing by http",
+      "duration": "5446",
+      "old_score": 38,
+      "old_label": "skip",
+      "qwen": {
+        "id": "0577385b5b12ebfd1e0c5f12",
+        "score": 85,
+        "tier": "digest",
+        "reason": "Talent density strategies from a top recruiter offer actionable insights for high-growth AI teams.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "c587498fdebc04e52453c30d",
+      "show_name": "Odd Lots",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "Introducing: Our Town",
+      "link": "https://omny.fm/shows/ourtown/introducing-our-town",
+      "published": "2026-08-09T12:00:00+00:00",
+      "summary": "Our Town from Bloomberg’s Big Take podcast follows residents of Gainesboro, Tennessee, after a group of far-right Christians moves in with plans for a radical social experiment. Listen to Episode 1 on the Big Take. See omnystudio.com/listener for privacy information.",
+      "duration": "113",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "c587498fdebc04e52453c30d",
+        "score": 30,
+        "tier": "skip",
+        "reason": "Political social experiment podcast irrelevant to capital allocation, AI, or durable frameworks.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "35d72c6f67765b14fad8a9b1",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Introducing: Our Town",
+      "link": "https://omny.fm/shows/ourtown/introducing-our-town",
+      "published": "2026-08-09T10:00:00+00:00",
+      "summary": "Our Town from Bloomberg’s Big Take podcast follows residents of Gainesboro, Tennessee, after a group of far-right Christians moves in with plans for a radical social experiment. Listen to Episode 1 on the Big Take. See omnystudio.com/listener for privacy information.",
+      "duration": "113",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "35d72c6f67765b14fad8a9b1",
+        "score": 30,
+        "tier": "skip",
+        "reason": "Duplicate content with no relevance to DJ's core interests in markets and AI infrastructure.",
+        "confidence": "medium"
+      }
+    }
+  ]
+}

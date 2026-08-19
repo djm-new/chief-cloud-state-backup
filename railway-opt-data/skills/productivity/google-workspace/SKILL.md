@@ -200,6 +200,7 @@ See `references/attachment-intake.md` for the quick triage flow and `references/
 See `references/attachment-intake.md` for the quick triage flow, and `references/drive-doc-auth-triage.md` for the token/profile probing recipe.
 
 For temporary review files, use `My Drive > Chief_of_Staff > Projects > Hermes_temp_folder` in DJ's personal Drive. See `references/drive-temporary-folder.md` for the live-folder-ID lookup and upload verification pattern.
+For user-facing file artifacts (PDFs, docs, transcripts, exports), prefer the temp-folder flow and return the Drive webViewLink rather than a local Railway/VM path. See `references/artifact-delivery.md`.
 
 ```bash
 GAPI="python ${HERMES_HOME:-$HOME/.hermes}/skills/productivity/google-workspace/scripts/google_api.py"
@@ -216,6 +217,14 @@ $GAPI gmail search "has:attachment filename:pdf newer_than:7d"
 # Read full message (returns JSON with body text)
 $GAPI gmail get MESSAGE_ID
 
+# If gmail get returns an empty body for a multipart/Stripe-style email,
+# use the direct Gmail API with format=full and walk text/plain/html parts and attachments.
+# See references/gmail-multipart-receipts.md.
+```
+
+If `gmail get` returns an empty `body` for a Stripe/receipt/newsletter email, do not stop at the wrapper output. Fetch `format=full` with the Gmail API and recursively inspect `multipart/alternative` parts; Stripe receipts often put useful invoice line items in `text/plain` while the wrapper may return `body: ""`. See `references/gmail-multipart-receipts.md`.
+
+```bash
 # Send
 $GAPI gmail send --to user@example.com --subject "Hello" --body "Message text"
 $GAPI gmail send --to user@example.com --subject "Report" --body "<h1>Q4</h1><p>Details...</p>" --html

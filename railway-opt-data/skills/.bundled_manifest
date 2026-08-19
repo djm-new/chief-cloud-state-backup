@@ -13,7 +13,7 @@ claude-code:f438d67c46a38dbd05b9626929dc8c7f
 claude-design:2fbc7b1e11eeeab645b91e1af08f6f9b
 codebase-inspection:efbcc1317dff77882314739b1b9bc065
 codex:21b2653d97d8418a937b7e6db0458461
-comfyui:e4dc4b80842fdb1f88f65b3351cdf7f2
+comfyui:efacbf7968ef77ef0f80d1896153c66a
 debugging-hermes-tui-commands:dafa285c22a643506f11b6752318e836
 design-md:1d94c7fe53a5860496dcb3f951700f71
 dogfood:dfa2b6aaf60530363db4a23ea6a35a76
@@ -44,7 +44,7 @@ linear:3be0be631078adae31eff9c69c25ba64
 llama-cpp:2a98f49035775497261820a4fe96bc8a
 llm-wiki:845ec472b6323dc2c97a99bdade7a7df
 macos-computer-use:a0fd3f0eed76206270fa185c8f767ffa
-manim-video:9a69dc62104b1d843d9c041940859af3
+manim-video:45877a4fe69b4b4f57428e2ffd1f3e31
 maps:1c5134ef90463aa1e9a1b7f842ef29b6
 minecraft-modpack-server:48178755e534a2b010b0520687eb6364
 nano-pdf:ffc0c90fc7ed18952ccbf1b69ab3aabb
@@ -56,7 +56,7 @@ obsidian:72643a104b74db8d50539343cd400e19
 ocr-and-documents:78beeac9c55bd7676534eade66c8bbf7
 opencode:7bc2f5e07afb18b0212777b0900af70a
 openhue:ceea31a6a7da1dc2e02af90aeef9a900
-p5js:b3aca879f63ffd009f9814e8683fbd18
+p5js:b52a6a4705ddb84e7aeee1129da97b95
 pixel-art:96cd2eac1108d1d5f910fa7878943e22
 plan:459f6b7f3fc0725bf3f09bcd650453d6
 pokemon-player:3d9c95aa44c96b5d6f4689066312c0b5
@@ -78,7 +78,7 @@ subagent-driven-development:324ffbdeb76559751fe038c49060334a
 systematic-debugging:8e9a42f8fee0e180e2fe558fb7e971c4
 teams-meeting-pipeline:8e860628d4ae27cb53e96c6f1d48c710
 test-driven-development:46d6c5dd026a06330faf5d2a7ad2b654
-touchdesigner-mcp:beb36f10285962d0e0fbf59dec1e9842
+touchdesigner-mcp:2d6877ca0d987698cc0dcb3ee77a46ac
 webhook-subscriptions:8e88ac1124ee95562f20ecc16ac67698
 weights-and-biases:ac6555d7b36846283cb5add4e91e2dda
 writing-plans:5656eb7e8dfdf6c78243828405e52b0d

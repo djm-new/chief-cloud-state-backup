@@ -1,0 +1,291 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-08-10_2104",
+  "usage": {
+    "prompt_tokens": 4687,
+    "completion_tokens": 1100,
+    "total_tokens": 5787
+  },
+  "episodes": [
+    {
+      "id": "6422f2bab7a0e181b724b0e2",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Pencils down: We share our vibe-coded websites",
+      "link": "",
+      "published": "2026-08-10T18:45:00+00:00",
+      "summary": "We've spent the last month vibe coding our own corners of the internet. The Verge's Jake Kastrenakes and Hayden Field join David to talk about their use of Gemini, Codex, and Claude Code to build 90s-themed personal websites, vegetable-sharing systems, and photo boards. It wasn't always easy, and we didn't get everything done, but with a little AI and a lot of prompting, we made it work. Further reading: Four takeaways from Mark Zuckerberg’s massive AI manifesto | The Verge The first rival Android app store just arrived in the US Play Store | The Verge Space mirrors could ruin astronomy — and your eyes | The Verge Claude has been having a moment — can it keep it up? | The Verge The vibe-coding AI future is both exciting and terrifying | The Verge Welcome to the personal software revolution | The Verge Subscribe to The Verge for unlimited access to theverge.com, subscriber-exclusive newsletters, and our ad-free podcast feed. We love hearing from you! Email your questions and thoughts to vergecast@theverge.com or call us at 866-VERGE11. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "2805",
+      "old_score": 51,
+      "old_label": "skip",
+      "qwen": {
+        "id": "6422f2bab7a0e181b724b0e2",
+        "score": 40,
+        "tier": "scan",
+        "reason": "Vibe coding with AI tools is interesting but light on durable frameworks or deep insight.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "9aa2d81cb2800897d9230f08",
+      "show_name": "The Cognitive Revolution",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Lindy Teammate: Flo Crivello on Multiplayer Agents, Memory & Why He'd Ban the Chinese Models He Uses",
+      "link": "https://www.cognitiverevolution.ai/lindy-teammate-flo-crivello-on-multiplayer-agents-memory-why-he-d-ban-the-chinese-models-he-uses/",
+      "published": "2026-08-10T18:02:50+00:00",
+      "summary": "Flo Crivello returns to The Cognitive Revolution to launch Lindy Teammate, an AI employee that lives in Slack, connects to company tools, and accumulates a team’s shared context. He argues that multiplayer AI matters because intelligence without context is less useful than an ordinary coworker, and explains Lindy’s approach to agentic memory, editable file systems, context buckets, and large-scale tool outputs. The episode also examines the costs and operating realities of building for the next generation of models, from negative gross margins and cache rates to Lindy’s own dogfooding in engineering workflows. The stakes are whether AI workers become drop-in teammates, how long humans are still needed to cover model mistakes, and what happens when engineers spend more time managing the machines that do the work. Lindy: https://www.lindy.ai/?utm_source=podcast&utm_medium=youtube&utm_campaign=cognitive-revolution&utm_content=lindy-teammate-launch For full show notes, links, and references, read the episode page:https://www.cognitiverevolution.ai/lindy-teammate-flo-crivello-on-multiplayer-agents-memory-why-he-d-ban-the-chinese-models-he-uses/ Sponsor: Claude: Claude by Anthropic is an AI collaborator that understands your workflow and helps you tackle research, writing, coding, and organization with deep context. Get started with Claude and explore Claude Pro at https://claude.ai/tcr CHAPTERS: (00:00) About the Episode (02:56) Lindy Teammate launch (10:07) Agentic memory systems (Part 1) (19:58) Sponsor: Claude (21:28) Agentic memory systems (Part 2) (22:21) Reliability and caching (34:57) Slack data scaling (40:57) Memory retrieval tricks (48:16) Agent infrastructure choices (55:41) Company operations automate (01:03:34) Centaur era ideas (01:12:43) AI native organizations (01:17:59) Open-source model stack (01:27:39) Prompting and fine-tuning (01:38:03) Chinese model bans (01:45:09) Fairness and threat models (01:53:39) Audits and diplomacy (02:01:59) Episode Outro (02:05:18) Outro PRODUCED BY: https://aipodcast.ing SOCIAL LINKS: Website: https://www.cognitiverevolution.ai Twitter (Podcast): https://x.com/cogrev_podcast Twitter (Nathan): https://x.com/labenz LinkedIn: https://linkedin.com/in/nathanlabenz/ Youtube: https://youtube.com/@CognitiveRevolutionPodcast Apple: https://podcasts.apple.com/de/podcast/the-cognitive-revolution-ai-builders-researchers-and/id1669813431 Spotify: https://open.spotify.com/show/6yHyok3M3BjqzR0VB5MSyk",
+      "duration": "7613",
+      "old_score": 49,
+      "old_label": "skip",
+      "qwen": {
+        "id": "9aa2d81cb2800897d9230f08",
+        "score": 85,
+        "tier": "listen",
+        "reason": "Multiplayer agents, memory systems, and operational realities of AI teammates are high-signal for AI platform economics.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "67b20d3840b4681c84dde548",
+      "show_name": "Eye on AI",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "In 5 Years, 90% of What You Use AI For Will Run on Your Smartphone | Paolo Ardoino, Tether",
+      "link": "https://aneyeonai.libsyn.com/in-5-years-90-of-what-you-use-ai-for-will-run-on-your-smartphone-paolo-ardoino-tether",
+      "published": "2026-08-10T17:00:00+00:00",
+      "summary": "Hundreds of billions of dollars are flowing into AI data centers right now, and Paolo Ardoino, CEO of Tether - the company behind the world's most widely used stablecoin with 573 million users - thinks that investment is going to age very badly. In this episode, he joins Craig Smith to explain QVAC, Tether's open-source platform for running AI on smartphones, laptops, and edge devices, and to make a case that within five years, 90% of what ordinary people use AI for will run entirely on consumer hardware, without touching a data center. The evidence is already there: Tether's team built a 4-billion-parameter medical AI model that outperforms Google's 27-billion-parameter MedGemma, running on a good smartphone, and a 1.7-billion-parameter version that runs on the average $80 smartphone available in Africa. The deeper argument in this conversation is philosophical as much as technical. Ardoino applies the same disintermediation logic that made sending dollars to the world's unbanked free - zero transaction fees, revenue from treasury bill interest - to AI: \"not your AI, not your intelligence.\" If you don't control how your AI runs and your data never leaves your device, the AI is genuinely yours. If it does, someone else is getting smarter with your information. He also makes a pointed economic argument: the AI companies currently charging $200 for subscriptions that cost $1,000 to $5,000 to deliver are subsidizing growth while private, and when they go public, retail investors will absorb the gap. His prescription isn't to stop building, it's to build differently, toward millions of small interacting models rather than trillion-parameter monoliths, toward devices that think locally rather than systems that route everything through Ireland and back. Subscribe to Eye on A.I. for weekly conversations with the people building and deploying the future of AI.",
+      "duration": "58:37",
+      "old_score": 36,
+      "old_label": "skip",
+      "qwen": {
+        "id": "67b20d3840b4681c84dde548",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Edge AI and disintermediation of data centers is a durable framework with implications for AI infrastructure and capital allocation.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "80b1e4e00e38e0e4254de405",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: August 10th, 2026",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-august-10th-2026",
+      "published": "2026-08-10T16:34:37+00:00",
+      "summary": "Featuring: Eric Johnston, Chief Equity & Macro Strategist at Cantor Fitzgerald Sarah Kunst, Managing Director & General Partner of Cleo Capital Emily Bannister, Head of Private Credit at Wellington See omnystudio.com/listener for privacy information.",
+      "duration": "1366",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "80b1e4e00e38e0e4254de405",
+        "score": 30,
+        "tier": "scan",
+        "reason": "Light on substance; likely Bloomberg-style market commentary without deep insight.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "6a4d55f35f852ca9992786d8",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Sustaining S&P Rally amid Market Pressures",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/sustaining-s-p-rally-amid-market-pressures",
+      "published": "2026-08-10T13:58:11+00:00",
+      "summary": "The latest in finance, economics and investment. Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF . Bloomberg Surveillance hosted by Tom Keene & Paul SweeneyMonday, August 10th, 2026 Featuring: 1) Jim Caron, CIO of Cross Asset Solutions at Morgan Stanley Investment Management, talks about the shift toward higher nominal growth. 2) Jonathan Golub, Chief Equity Strategist at Seaport Advisors, discusses his S&P target and his favorite charts of August. 3) Heather Rice, US Products Line of Business Leader at KPMG, talks pricing under energy and tariff cost pressures. 4) Steve Odland, CEO at The Conference Board, talks about TCB initiatives and its new CEO survey. See omnystudio.com/listener for privacy information.",
+      "duration": "1726",
+      "old_score": 28,
+      "old_label": "skip",
+      "qwen": {
+        "id": "6a4d55f35f852ca9992786d8",
+        "score": 50,
+        "tier": "digest",
+        "reason": "Market commentary with potential read on S&P and macro trends, but not essential listening.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "d729cf3fd2502095ed01ed85",
+      "show_name": "EconTalk",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Ben Sasse on Faith, Family, and Facing Death",
+      "link": "https://www.econtalk.org/ben-sasse-on-faith-family-and-facing-death/",
+      "published": "2026-08-10T10:30:00+00:00",
+      "summary": "Six months into a stage-four pancreatic cancer diagnosis that gave him 90 days to live, Ben Sasse sits down with EconTalk's Russ Roberts for a conversation that refuses easy comfort. The former U.S. senator and University of Florida president is candid about his physical challenges but the heart of this exchange is elsewhere: what actually matters when time is short. Sasse reflects on faith and mortality, the \"shattering of idols\" like his own workaholism, and his pride in his marriage. Along the way he offers sharp diagnoses of Congress's abdication of responsibility, the crisis inside American universities, and a republic distracted by the \"digital casino\" in its pocket. Funny, unflinching, and deeply human, it closes with a meditation on raging against the dying of the light while walking with your head bowed.",
+      "duration": "01:21:11",
+      "old_score": 4,
+      "old_label": "skip",
+      "qwen": {
+        "id": "d729cf3fd2502095ed01ed85",
+        "score": 40,
+        "tier": "scan",
+        "reason": "Philosophical reflections on mortality and institutions, but not relevant to market or AI focus.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "f43b07edfa051183057637cd",
+      "show_name": "Stratechery",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "Apple Earnings, More on Amazon’s Earnings",
+      "link": "https://stratechery.com/2026/apple-earnings-more-on-amazons-earnings/",
+      "published": "2026-08-10T10:00:00+00:00",
+      "summary": "Apple's earnings (and stock) are limited not by memory but rather chip shortages; then, more on Amazon's earnings and Andy Jassy's market analysis.",
+      "duration": "",
+      "old_score": 22,
+      "old_label": "skip",
+      "qwen": {
+        "id": "f43b07edfa051183057637cd",
+        "score": 60,
+        "tier": "digest",
+        "reason": "Apple and Amazon earnings commentary with supply chain and market analysis relevant to tech investors.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "b45961c22c04c403584160c1",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "The Self-Improving Company | Kavak's AI Playbook",
+      "link": "https://a16z.simplecast.com/episodes/how-kavak-rebuilt-itself-around-ai-agents-alejandro-maza-ayala-lp7LuwGh",
+      "published": "2026-08-10T10:00:00+00:00",
+      "summary": "Angela Strange and Gabriel Vasquez are joined by Alejandro Maza Ayala, Chief Product & AI Officer at Kavak, to unpack how the Latin American used-car marketplace rebuilt itself around AI agents, with 96% of customer interactions and 95% of transactions now handled by agents. Alejandro explains why Kavak decided that simply giving employees AI tools wasn't enough, and instead redesigned the company's systems, teams, and customer experience around agents. They discuss why Kavak spends as much engineering effort on evals as it does building agents, how its AI sellers outperform its human teams, and an experiment where an AI \"CEO\" increased profits in one city by 50% in its first month. The conversation also explores what happens to organizational structure when agents do most of the work, why Kavak trains everyone from executives to mechanics to build with AI, and Alejandro's argument that companies looking for incremental AI adoption may be missing the larger opportunity: redesigning the organization itself. Resources: Follow Alejandro Maza Ayala on X: https://x.com/alehandromz Follow Angela Strange on X: https://x.com/astrange Follow Gabriel Vasquez on X: https://x.com/GEVS94 Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:37:20",
+      "old_score": 47,
+      "old_label": "skip",
+      "qwen": {
+        "id": "b45961c22c04c403584160c1",
+        "score": 80,
+        "tier": "listen",
+        "reason": "Kavak's AI agent-driven business transformation offers actionable insight into AI labor and company redesign.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "5748a497470a67b6d134e235",
+      "show_name": "Decoder with Nilay Patel",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Bose CEO Lila Snyder on the fight for high-quality audio",
+      "link": "",
+      "published": "2026-08-10T09:00:00+00:00",
+      "summary": "My guest today is Lila Snyder, the CEO of Bose. Lila was last on the show about four years ago, and since then she’s dramatically rearchitected the company — she sold off Bose Professional, acquired the high end audio brands McIntosh Labs and Sonus faber, and, perhaps most importantly, started licensing all that core Bose technology to other companies. That big change in the business comes with a big change in structure. Becoming a software company in addition to a product company comes with a whole new set of challenges, and Lila and I got into how it’s all working. Links: How Bose competes with AirPods, with CEO Lila Snyder | Decoder (2022) Bose thinks it can be a media company for some reason | The Verge Bose acquires premium audio brand McIntosh | The Verge Bose reinvented itself just in time. Now comes the tricky part | Wired Bose sells off its premium division after 50 years | Bose Subscribe to The Verge to access the ad-free version of Decoder! Credits: Decoder is a production of The Verge and part of the Vox Media Podcast Network. Decoder is produced by Kate Cox and Nick Statt. This episode was edited by Kabir Chopra. Our supervising producer is Greg Ott, and our editorial director is Kevin McShane. The Decoder music is by Breakmaster Cylinder. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "3994",
+      "old_score": 32,
+      "old_label": "skip",
+      "qwen": {
+        "id": "5748a497470a67b6d134e235",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Interesting pivot to software licensing and brand strategy, but not core to AI or capital allocation focus.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "2eb194cc45bd77175d86774b",
+      "show_name": "Capital Allocators",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Interdisciplinary Skills: Interviewing – The Art of the Interview",
+      "link": "https://tedseides.libsyn.com/interdisciplinary-skills-interviewing-the-art-of-the-interview",
+      "published": "2026-08-10T08:00:00+00:00",
+      "summary": "This week's Summer Series is a highly atypical episode, where I appear as the guest. Matt Breitfelder from Apollo asked to interview me about interviewing, something I learned far more from hosting the show the last nine years than I ever did while interviewing managers for 20. The conversation has been sufficiently popular that it made the Summer Series on investment process. Any leader should see for themselves the benefits of elite coaching. Try ALEX: tryalex.admiredleadership.com . Learn More Follow Ted on Twitter at @tseides or LinkedIn Subscribe to the mailing list Access Transcript with Premium Membership Editing and post-production work for this episode was provided by The Podcast Consultant ( ⁠ https://thepodcastconsultant.com ⁠ )",
+      "duration": "01:00:49",
+      "old_score": 40,
+      "old_label": "skip",
+      "qwen": {
+        "id": "2eb194cc45bd77175d86774b",
+        "score": 55,
+        "tier": "digest",
+        "reason": "Insight into elite interviewing techniques useful for professional toolkit, but not AI or market focused.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "23bfc2c290bff5fa62580386",
+      "show_name": "Odd Lots",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "NYT CEO Meredith Kopit Levien on Running a Media Brand in the Age of AI",
+      "link": "https://omny.fm/shows/odd-lots/nyt-ceo-meredith-kopit-levien-on-running-a-media-brand-in-the-age-of-ai",
+      "published": "2026-08-10T08:00:00+00:00",
+      "summary": "In the last decade, the New York Times has remade itself many times over. It has done that through acquisitions (The Athletic, Wirecutter, and the ever-popular Wordle) and by navigating all the different challenges that have emerged in the digital age and now the age of AI. Its video operation, for instance, has grown exponentially in the last few years. And they've used AI tools in their reporting, namely in several pieces they did on the Epstein Files. At the same time, the company is also suing the likes of OpenAI and Perplexity for copyright infringement. To understand the modern media landscape, you really do have to understand the Times , so today we speak with The New York Times Company's CEO and president, Meredith Kopit Levien. We talk to her about how to run a media business without seeing the news itself as a loss leader, the NYT's evolving bundle strategy, how the paper retains talent, why the current pivot to video is different from the first one, and the ideal set-up for AI companies and media properties to co-exist. See omnystudio.com/listener for privacy information.",
+      "duration": "3591",
+      "old_score": 32,
+      "old_label": "skip",
+      "qwen": {
+        "id": "23bfc2c290bff5fa62580386",
+        "score": 65,
+        "tier": "digest",
+        "reason": "NYT's AI strategy, media bundle evolution, and copyright stance offer insight into media and AI intersection.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "03ebe3c19cb7f583512a768e",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "The Surveillance Economy, and How Capitalism Can Fix Poverty",
+      "link": "",
+      "published": "2026-08-10T08:00:00+00:00",
+      "summary": "Scott Galloway weighs the costs and benefits of mass surveillance, makes the capitalist case for fixing poverty, and offers advice to young men caught between the incel movement and real connection. Want to be featured in a future episode? Send a voice recording to officehours@profgmedia.com, or drop your question in the r/ScottGalloway subreddit. Plus, you can now call or text Scott a question at our new Office Hours hotline: ‪(201) 472-3656‬. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "1370",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "03ebe3c19cb7f583512a768e",
+        "score": 35,
+        "tier": "scan",
+        "reason": "Galloway's commentary is opinionated but light on durable frameworks or market insight.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "b658c229c27bdecf303cb65b",
+      "show_name": "The Twenty Minute VC",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "20VC: Will OpenRouter Sell for $10BN to Stripe? | Why Chinese Open Models Are Beating America—and What Happens Next | Why Enterprises Are More Fearful of Anthropic and OpenAI Than China | Is the Routing Layer Becoming a Commodity with Alex Atallah",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-will-openrouter-sell-for-10bn-to-stripe-why-chinese-open-models-are-beating-americaand-what-happens-next-why-enterprises-are-more-fearful-of-anthropic-and-openai-than-china-is-the-routing-layer-becoming-a-commodity-with-alex-atallah",
+      "published": "2026-08-10T07:07:00+00:00",
+      "summary": "Alex Atallah is the Founder and CEO @ OpenRouter, the unified interface for LLMs. The company has raised over $153M in funding, with the latest valuation pricing the company at $1.3BN. OpenRouter is reportedly in an acquisition process with Stripe for $10BN. AGENDA: 00:00 Is OpenRouter Selling to Stripe for $10 Billion? 04:05 What Did Alex Learn From Scaling OpenSea? 06:38 What Did OpenRouter's Founding Thesis Get Wrong? 14:47 Is AI Model Routing Already Being Commoditized? 19:12 Do Falling Token Prices Help or Hurt OpenRouter? 27:16 Should America Be Alarmed by Chinese Open Models? 32:43 Will US Open-Source Models Compete With Chinese Models in the Next 12 Months? 39:26 Will the Router Be Swallowed by the Agent Framework? 48:56 Is Distillation Wrong—and How Should We Look at It? 50:01 Is the Reported $10 Billion Stripe Deal Actually Happening?",
+      "duration": "59:59",
+      "old_score": 46,
+      "old_label": "skip",
+      "qwen": {
+        "id": "b658c229c27bdecf303cb65b",
+        "score": 70,
+        "tier": "digest",
+        "reason": "OpenRouter's potential $10B exit and Chinese model competition offer relevant AI infrastructure and geopolitics insight.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "8b71f7516f11d384325bc1c3",
+      "show_name": "Acquired",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Disney: The Renaissance and the Empire",
+      "link": "https://www.acquired.fm/episodes/disney-the-renaissance-and-the-empire",
+      "published": "2026-08-10T04:41:43+00:00",
+      "summary": "In 1984, the Walt Disney Company was worth more dead than alive. Disney Animation — the heart of Walt's famous flywheel — had stagnated for years, bleeding away talent while corporate raiders circled, salivating over offers to sell off the film library to MGM and offload the parks to hotel operators. But what followed instead was the greatest turnaround in media history under Michael Eisner and Frank Wells. Beauty and the Beast. The Lion King. Broadway. Bringing the Disney Vault home on VHS and DVD. And the greatest media acquisition of all time — ESPN. And then... it all almost fell apart. Again. Euro Disney turned into a money pit. Boardroom and executive infighting ran rampant. Animation descended into a dumpster fire. (Remember Chicken Little? Us neither.) Comcast — Comcast!! — tried to steal the company via a hostile takeover. Out of the chaos, a new generation of Disney management emerged under Bob Iger to stage yet another epic comeback with Pixar, Marvel and Lucasfilm, creating the defining media empire of the 21st century…until the tech companies came along. Tune in for the ultimate Acquired thrill ride: Disney, Part II. Sponsors: Many thanks to our fantastic Fall '26 Season partners: Sierra Sentry WorkOS Anthropic Links: Sign up for email updates , get our takeaways and research photos from each episode, and vote on future topics! The Official Acquired Meetup on Sept 17th with our friends at Sentry. Join us! The Acquired Disney Part II Companion PDF Worldly Partners' Multi-Decade Disney Study All episode sources Carve Outs: Warby Parker Transitions Extra Active Michael Arndt's Toy Story 3 Story Presentation The Golden State Valkyries More Acquired: Get email updates and vote on future episodes! Join the Slack Check out the latest swag in the ACQ Merch Store ! 00:00:00 Start 00:00:50 Intro 00:05:07 Disney in Chaos (1984) 00:11:33 Eisner, Wells, Katzenberg Arrive (1984) 00:24:30 Animation Renaissance & CAPS Tech (1989) 00:37:33 Flywheel Extensions: Home Video, Retail & Broadway 00:54:32 Challenges & ABC/ESPN Acquisition (1994-1995) 01:05:55 ESPN: Disney's Accidental Goldmine 01:21:26 Eisner's Decline & Save Disney Campaign (2001-2004) 01:34:53 Comcast Hostile Takeover Bid (2004) 01:41:58 Bob Iger's Vision & Pixar Acquisition (2005-2006) 01:52:17 Pixar: From Lucasfilm to Steve Jobs (1979-1995) 02:03:11 Toy Story, IPO & Eisner Conflict (1995) 02:34:30 Disney Acquires Pixar (2006) 02:46:37 Marvel & Lucasfilm Acquisitions (2009-2012) 02:58:01 Streaming Pivot: Cord Cutting & BAMTech (2015) 03:06:30 The Disney+ Strategy & FOX Acquisition (2017-2019) 03:19:01 The Disney+ Launch, COVID, & Chapek's Tenure (2019-2022) 03:42:15 Iger's Return, Challenges & Parks Revival (2022-2026) 03:50:54 The Business Today: Parks & Streaming Focus 03:59:22 Analysis: Disney+ Strategy & The New Media Landscape 04:10:01 Analysis: Bull/Bear Cases 04:21:20 Quintessence 04:24:39 Carve-Outs + Outro ‍Note: Acquired hosts and guests may hold assets discussed in this episode. This podcast is not investment advice, and is intended for informational and entertainment purposes only. You should do your own research and make your own independent decisions when considering any financial transactions.",
+      "duration": "16376",
+      "old_score": 34,
+      "old_label": "skip",
+      "qwen": {
+        "id": "8b71f7516f11d384325bc1c3",
+        "score": 60,
+        "tier": "digest",
+        "reason": "Disney turnaround and acquisition strategy offer durable business lessons, though not AI-focused.",
+        "confidence": "medium"
+      }
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-08-07_2103",
+  "usage": {
+    "prompt_tokens": 5237,
+    "completion_tokens": 1185,
+    "total_tokens": 6422
+  },
+  "episodes": [
+    {
+      "id": "9b979d81e34d2bdb340ee912",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Money: Credit Card Indicators and Golf's Changing Fanbase",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/0807bloombergmoney-podcast",
+      "published": "2026-08-07T20:00:00+00:00",
+      "summary": "Bloomberg Money takes the pulse of your financial life, powered by the reporting of our global newsroom. This week's guests include: Meredith Whitney, CEO of Meredith Whitney Advisory Group David Kelly, Chief Global Strategist of JPMorgan Asset Management Brian Rolapp, PGA Tour CEO See omnystudio.com/listener for privacy information.",
+      "duration": "2575",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "9b979d81e34d2bdb340ee912",
+        "score": 45,
+        "tier": "scan",
+        "reason": "Credit card indicators may hint at consumer trends, but lacks AI or capital allocation depth.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "5fdcb79d4e0d0874361722b1",
+      "show_name": "New Yorker Radio Hour",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "low",
+      "title": "How Socialist Is the D.S.A.? Megan Romer Explains",
+      "link": "https://www.wnycstudios.org/podcasts/tnyradiohour",
+      "published": "2026-08-07T17:40:00+00:00",
+      "summary": "One of the biggest stories of this election cycle is the emergence, for the first time in a long time, of socialism as a force on the national stage. Inspired perhaps by Alexandria Ocasio-Cortez and Zohran Mamdani, D.S.A. candidates are running in congressional and state-level races all over the country. But some of those candidates, David Remnick thinks, talk more like F.D.R. Democrats than like students of Marx. How socialist is democratic socialism, and how does it square with the future of the Democratic Party? Remnick talks with a co-chair of the D.S.A., Megan Romer, who recently went viral for a lightning round of questions pitched at her on Fox News. Romer defends controversial D.S.A. positions on workers’ ownership of the means of production, U.S. support of Israel, the war in Ukraine, and defunding the police. Further reading: “ Will Left-Wing Democrats Reinvent the Party or Hurt Its Chances in November? ,” by Isaac Chotiner “ Which Way Should the Democratic Party Go Now? ,” by Benjamin Wallace-Wells “ An Idea for Democrats to Keep It Together in 2028 ,” by Bill McKibben “ Can Zohran Mamdani Sway the Commie Corridor’s ‘Civil War’? ,” by Naaman Zhou “ The Woman Who Made the Machine That Made Zohran Mamdani ,” by Molly Fischer New episodes of The New Yorker Radio Hour drop every Tuesday and Friday. Join host David Remnick as he discusses the latest in politics, news, and current events in conversation with political leaders, newsmakers, innovators, New Yorker staff writers, authors, actors, and musicians. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:33:21",
+      "old_score": 0,
+      "old_label": "skip",
+      "qwen": {
+        "id": "5fdcb79d4e0d0874361722b1",
+        "score": 30,
+        "tier": "skip",
+        "reason": "Political focus on DSA and socialism aligns poorly with DJ's market and tech priorities.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "b37127af32dd9f9ca26fdfc0",
+      "show_name": "Stratechery",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "2026.32: Earnings and Learnings",
+      "link": "https://stratechery.com/2026/earnings-and-learnings/",
+      "published": "2026-08-07T17:29:02+00:00",
+      "summary": "The best Stratechery content from the week of August 3, 2026, including earnings exposure, OpenAI's answer to Apple, and all about LeBron in Philly.",
+      "duration": "",
+      "old_score": 30,
+      "old_label": "skip",
+      "qwen": {
+        "id": "b37127af32dd9f9ca26fdfc0",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Stratechery's earnings analysis and OpenAI insights offer strategic value for tech and capital allocation.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "8b2187c0b0b4dc09df8f1eaa",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: August 7th, 2026",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-august-7th-2026",
+      "published": "2026-08-07T16:46:00+00:00",
+      "summary": "Featuring: Christopher Verrone, Partner & Chief Market Strategist at Baird Strategas Norman Roule, Senior Adviser: Warfare & Terrorism Program at Center for Strategic & International Studies Gene Seroka, Port of Los Angeles Executive Director See omnystudio.com/listener for privacy information.",
+      "duration": "1348",
+      "old_score": 4,
+      "old_label": "skip",
+      "qwen": {
+        "id": "8b2187c0b0b4dc09df8f1eaa",
+        "score": 40,
+        "tier": "scan",
+        "reason": "Market updates from Bloomberg Surveillance offer baseline economic context but lack depth.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "0967d088b524557cccf9ec52",
+      "show_name": "Dishcast with Andrew Sullivan",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "low",
+      "title": "Ross Barkan On The DSA And Mamdani",
+      "link": "https://andrewsullivan.substack.com/p/ross-barkan-on-the-dsa-and-mamdani",
+      "published": "2026-08-07T16:44:24+00:00",
+      "summary": "This is a free preview of a paid episode. To hear more, visit andrewsullivan.substack.com Ross is a journalist and novelist. He’s the editor-in-chief of The Metropolitan Review, and a columnist for the Nation and UnHerd. He’s the author of six books, including his new novel, Colossus . A new non-fiction book, about the rise of Zohran Mamdani, is coming soon. Find much more of his writing on his substack, “ Political Currents .” For two clips of the episode — on whether the DSA is truly dangerous, and the US elites’ obsession with Israel — head to our YouTube page . Other topics: growing up Jewish in diverse Bay Ridge, BK; parents both federal workers; his dad working at the WTC on 9/11; Ross’ cynicism over Obama’s rise; coming of age in the Great Recession; the DNC screwing over Bernie in ‘16; Ross running for the state senate with Mamdani as his manager; identifying as “left-populist, woke-skeptical”; engaging and persuading ideological rivals; universal health care; questioning Covid policies; US aid to Israel; the horrors of Oct 7; the war in Gaza and the civilian toll; no pro-Palestine speakers at the ‘24 Dem convention; the decentralized DSA; calls to abolish prisons and the Senate; Jon Chait; AOC’s move to the center; border security; Trump’s norm-busting; Buckley and the Birchers; trans athletes; the + in LGBTQ+; corporations ditching DEI; the Arday scandal; The Odyssey ; Jon Ossoff; the surprising surge of El-Sayed; and debating whether wokeness is dead. Browse the Dishcast archive for an episode you might enjoy. Coming up: John O’Sullivan on conservatism, Emily Eakin on postmodernism, Azam Ahmed on terrifying new drugs, and Arianna Huffington on anything but politics. Please send any guest recs, dissents, and other comments to dish@andrewsullivan.com .",
+      "duration": "2718",
+      "old_score": 0,
+      "old_label": "skip",
+      "qwen": {
+        "id": "0967d088b524557cccf9ec52",
+        "score": 35,
+        "tier": "skip",
+        "reason": "Political discussion on DSA lacks actionable market or tech insights.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "da0c64a1620bf7dbdad867f4",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "What's behind the Google AI shakeup",
+      "link": "",
+      "published": "2026-08-07T16:32:00+00:00",
+      "summary": "Google underwent a big AI shakeup this week, leaving a lot of people wondering whether there are big problems on team Gemini. David and Nilay start the show by discussing what's next for Jeff Dean and Demis Hassabis, before diving into the ways in which Google and Reddit have become existentially, problematically dependent on one another. After that, we talk through Disney's plan to turn Disney Plus into an everything app, and all the reasons we think that's a terrible idea and a sign of big problems in the streaming biz. Finally, in the lightning round, Brendan Carr is still a dummy, Snapchat wants AI out of your feed, and BMW has a Spider-Man to sell you. Further reading: The messy politics behind Google’s big AI shakeup | The Verge Google just announced a major shakeup of its top AI leadership Google Assistant will disappear from your phone next month Can Reddit fend off a new wave of AI SEO spam? Reddit is introducing a new moderator: AI Reddit says it plans to “make changes” to old Reddit Bluesky CEO Toni Schneider wants to grow the platform and the protocol Disney says it’s ‘exploring’ adding a free tier to Disney Plus Disney gives TikTok creators official access to Marvel, Star Wars, and Pixar characters Despite Spider-Man: Brand New Day’s success, the MCU is on shaky ground Disney Plus is about to go beyond streaming Paramount and WBD’s antitrust trial is set for March 2027 David Ellison promises he’s not going to ruin CNN. Almost half of HBO Max subscribers watch with ads. | The Verge Federal Communications Commission scraps limit on broadcast TV ownership SpaceX is barely Space and mostly X SpaceX is coming for T-Mobile, AT&T and Verizon BMW’s in-car Spider-Man ad is villain behavior X product chief Nikita Bier is leaving after one year | The Verge Snapchat will no longer recommend ‘wholly AI-generated videos’ in its vertical video feed Snap reports 971 million monthly active users ahead of its Specs launch event on September 16th Subscribe to The Verge for unlimited access to theverge.com, subscriber-exclusive newsletters, and our ad-free podcast feed. We love hearing from you! Email your questions and thoughts to vergecast@theverge.com or call us at 866-VERGE11. 0:00 Cold Open01:05 Google AI Shakeup Explained03:24 Gemini Product Mess05:29 Demis Hassabis and the AGI Split14:06 Is Google Actually Behind?15:29 AI Overviews Fail Parade18:12 Gemini Users and Distribution20:55 Google Plus Warning Signs24:14 Reddit as Search Lifeline27:35 AI Slop and Dead Internet29:32 Google Buys Reddit Theory33:51 Reddit Earnings Reality Check35:40 Smoking Community Vibes38:20 Disney Everything App44:25 Time Spent Arms Race47:39 Free Tier and Ads52:08 Paramount Warner Deal Drama01:00:23 Brendan Carr is a Dummy01:11:51 Nikita Bier Leaves X01:13:53 SpaceX Telecom Dreams01:20:15 Snapchat Versus AI Slop01:25:26 BMW In Car Ads01:31:19 Wrap And Subscribe Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "5798",
+      "old_score": 51,
+      "old_label": "skip",
+      "qwen": {
+        "id": "da0c64a1620bf7dbdad867f4",
+        "score": 80,
+        "tier": "listen",
+        "reason": "Google's AI shakeup and implications for tech strategy are critical for understanding AI leadership shifts.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "9e13b0a0c3f46257ebe99a84",
+      "show_name": "a16z Live / AI + a16z variants",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "How AI Is Rewriting the Rules of Cybersecurity | Truffle Security & Socket",
+      "link": "https://ai-a16z.simplecast.com/episodes/the-reality-of-ai-powered-cyberattacks-truffle-security-socket-f9XcoAFq",
+      "published": "2026-08-07T16:32:00+00:00",
+      "summary": "Joel De La Garza is joined by Dylan Ayrey, co-founder and CEO of Truffle Security, and Feross Aboukhadijeh, founder and CEO of Socket, to discuss one of the biggest shifts happening in cybersecurity: AI models are no longer just finding vulnerabilities—they're exploiting them. As frontier models become increasingly capable of hacking, software security, supply chain attacks, and cyber defense are entering a fundamentally new era. The conversation explores AI-powered hacking, software supply chain attacks, leaked credentials, zero-day vulnerabilities, package manager security, and why the path of least resistance for increasingly autonomous AI systems may also be the most dangerous. They also discuss what enterprises, developers, and the open-source ecosystem need to do to adapt as the gap between vulnerability discovery and exploitation continues to shrink. Resources: Follow Dylan Ayrey on X: https://x.com/InsecureNature Follow Feross Aboukhadijeh on X: https://x.com/Feross Follow Joel De La Garza on LinkedIn: https://www.linkedin.com/in/3448827723723234/ Check out everything a16z is doing with artificial intelligence here , including articles, projects, and more podcasts. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:23:51",
+      "old_score": 47,
+      "old_label": "skip",
+      "qwen": {
+        "id": "9e13b0a0c3f46257ebe99a84",
+        "score": 85,
+        "tier": "listen",
+        "reason": "AI-powered cybersecurity insights directly impact enterprise risk and tech investment strategies.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "6154a0e064e0dd1088fa2b00",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "July Jobs Report",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/july-jobs-report",
+      "published": "2026-08-07T14:29:26+00:00",
+      "summary": "The latest in finance, economics and investment. Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF. Bloomberg Surveillance hosted by Tom Keene & Paul Sweeney Friday, August 7th, 2026 Featuring: 1) Claudia Sahm, Chief Economist at New Century Advisors, Constance Hunter, Chief Economist at EIU, Kristina Campmany, Senior Portfolio Manager at Invesco,, react to the July jobs report. 2) Nicole Bichaud, Chief Economist at ZipRecruiter, brings us into the market open and talks about hiring in the US. 3) Gene Seroka, CEO of the Port of LA, discusses tariffs and supply shocks in the US. 4) Bruce Wolfe, founder at CS Wolfe & Associates, joins to discuss retiring in the US in an inflationary environment and his non-consensus views on the US retirement system. See omnystudio.com/listener for privacy information.",
+      "duration": "3480",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "6154a0e064e0dd1088fa2b00",
+        "score": 50,
+        "tier": "scan",
+        "reason": "July jobs report offers macroeconomic context but lacks specific tech or capital allocation insights.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "c86984c86cb36af236f7ee2d",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Instant Reaction: Employers Unexpectedly Shed Jobs; Unemployment Rate Falls",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/instant-reaction-employers-unexpectedly-shed-jobs-unemployment-rate-falls",
+      "published": "2026-08-07T13:38:11+00:00",
+      "summary": "US employers unexpectedly cut jobs in July and hiring in the prior two months was revised lower, suggesting the labor market is weaker than previously thought after surprising strength earlier this year. Nonfarm payrolls decreased 23,000 last month following a combined 103,000 downward revision to the May and June figures, Bureau of Labor Statistics data showed Friday. The unemployment rate fell to 4.1% as labor force participation continued to slide, and wage growth slowed. Bloomberg's Tom Keene and Damian Sassower break down the numbers with: Claudia Sahm, Chief Economist at New Century Advisors Constance Hunter, Chief Economist at EIU Kristina Campmany, Senior Portfolio Manager at Invesco Andrew Hollenhorst, Chief US Economist at Citi Stephanie Roth, Wolfe Research Chief Economist See omnystudio.com/listener for privacy information.",
+      "duration": "2050",
+      "old_score": 4,
+      "old_label": "skip",
+      "qwen": {
+        "id": "c86984c86cb36af236f7ee2d",
+        "score": 55,
+        "tier": "digest",
+        "reason": "Unexpected job losses signal labor market shifts relevant to capital allocation and economic outlook.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "fa30c637face1a44b2d5fd60",
+      "show_name": "Hard Fork",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "The White House’s Secret A.I. Rules + The State of Model Alignment With METR’s Chris Painter + The Final Hot Mess Express",
+      "link": "https://www.nytimes.com/column/hard-fork",
+      "published": "2026-08-07T11:00:00+00:00",
+      "summary": "This week, the White House announced a new framework for regulating A.I. models, but it isn’t letting the public read it. We break down what we know about the rules and what the implications are for the industry and A.I. safety as a whole. Then, yet another report details new incidents in which A.I. agents have gone rogue. Chris Painter, the president of METR, an independent A.I. evaluation organization, joins to discuss how we get these models under control. And finally, we're hopping on the Hot Mess Express for the very last time. We’ll rate the craziest tech headlines from the week, including Google’s announcement that Demis Hassabis is stepping into a new role. Guests: Chris Painter, president of METR. Additional Reading: White House Readies A.I. Framework to Review Security Risks Inside Trump's AI framework How Do You Measure an A.I. Boom? METR’s Frontier Risk Report Google Shakes Up A.I. Leadership Did an A.I. Music App Just Snitch on the Song of the Summer? This AI Assistant Wants to Make Up for Your Boyfriend’s Incompetence Google Earth’s AI deepfake tool only lasted one day US government map of Africa mislabels every country at global conference Contractor who built Colossus and Colossus II says Elon Musk owes him colossal amount of money We want to hear from you. Email us at hardfork@nytimes.com. Find “Hard Fork” on YouTube and TikTok . Subscribe today at nytimes.com/podcasts or on Apple Podcasts and Spotify. You can also subscribe via your favorite podcast app here https://www.nytimes.com/activate-access/audio?source=podcatcher . For more podcasts and narrated articles, download The New York Times app at nytimes.com/app. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "01:05:29",
+      "old_score": 86,
+      "old_label": "must_listen",
+      "qwen": {
+        "id": "fa30c637face1a44b2d5fd60",
+        "score": 70,
+        "tier": "digest",
+        "reason": "White House AI rules and model alignment issues are strategically important for AI governance.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "1b40f34abe016c60cc0479b2",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "The Reality of AI-Powered Cyberattacks | Truffle Security & Socket",
+      "link": "https://a16z.simplecast.com/episodes/the-reality-of-ai-powered-cyberattacks-truffle-security-socket-vbyiWFXA",
+      "published": "2026-08-07T10:00:00+00:00",
+      "summary": "Joel De La Garza is joined by Dylan Ayrey, co-founder and CEO of Truffle Security, and Feross Aboukhadijeh, founder and CEO of Socket, to discuss one of the biggest shifts happening in cybersecurity: AI models are no longer just finding vulnerabilities—they're exploiting them. As frontier models become increasingly capable of hacking, software security, supply chain attacks, and cyber defense are entering a fundamentally new era. The conversation explores AI-powered hacking, software supply chain attacks, leaked credentials, zero-day vulnerabilities, package manager security, and why the path of least resistance for increasingly autonomous AI systems may also be the most dangerous. They also discuss what enterprises, developers, and the open-source ecosystem need to do to adapt as the gap between vulnerability discovery and exploitation continues to shrink. Resources: Follow Dylan Ayrey on X: https://x.com/InsecureNature Follow Feross Aboukhadijeh on X: https://x.com/Feross Follow Joel De La Garza on LinkedIn: https://www.linkedin.com/in/3448827723723234/ Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:23:51",
+      "old_score": 43,
+      "old_label": "skip",
+      "qwen": {
+        "id": "1b40f34abe016c60cc0479b2",
+        "score": 85,
+        "tier": "listen",
+        "reason": "AI-powered cyberattacks represent a critical frontier in enterprise security and tech risk.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "f64651b0b7840469a90f12c4",
+      "show_name": "Ezra Klein Show",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "AMA: Peter Thiel, Chris Rufo and the D.S.A.",
+      "link": "https://www.nytimes.com/2026/08/07/opinion/ezra-klein-podcast-ask-me-anything-aug-2026.html",
+      "published": "2026-08-07T09:00:00+00:00",
+      "summary": "The show’s executive producer, Claire Gordon, joins me in the studio to ask me your questions. Topics include: whether my views on “woke” issues have changed; the feedback we got on our episode with Chris Rufo; the D.S.A. insurgency; my first singing lesson; and the story that I’m in a “secret society” with Peter Thiel. Thank you to everyone who sent in questions; we read them all and wish we’d been able to get to more of them! Mentioned: “ What Has Chris Rufo Wrought? ” The Ezra Klein Show “ White threat in a browning America ” by Ezra Klein Why We’re Polarized by Ezra Klein “ “Yes Means Yes” is a terrible law, and I completely support it ” by Ezra Klein Music Recommendations: Four Tet “Wingdings” “Mas Amable” by DJ Python “Reckoning” by Jon Hopkins and Imogen Heap Thoughts? Guest suggestions? Email us at ezrakleinshow@nytimes.com. You can find transcripts (posted midday) and more episodes of “The Ezra Klein Show” at nytimes.com/ezra-klein-podcast , and you can find Ezra on Twitter @ezraklein. Book recommendations from all our guests are listed at https://www.nytimes.com/article/ezra-klein-show-book-recs . This episode of “The Ezra Klein Show” was produced by Claire Gordon, Kristin Lin and Emma Kehlbeck. Fact-checking by Michelle Harris and Julie Beer. Our senior engineer is Jeff Geld, with additional mixing by Johnny Simon. Our recording engineer is Johnny Simon. Cinematography by Kyle Kelley. Video editing by Dani Dillon and Steph Khoury. Our executive producer is Claire Gordon. The show’s production team also includes Marie Cascione, Annie Galvin, Jack McCordick Rollin Hu and Emma Kehlbeck. Original music by Pat McCusker. Audience strategy by Shannon Busta. The director of New York Times Opinion Shows is Annie-Rose Strasser. Subscribe today at nytimes.com/podcasts or on Apple Podcasts and Spotify. You can also subscribe via your favorite podcast app here https://www.nytimes.com/activate-access/audio?source=podcatcher . For more podcasts and narrated articles, download The New York Times app at nytimes.com/app. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:57:09",
+      "old_score": 63,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "f64651b0b7840469a90f12c4",
+        "score": 40,
+        "tier": "scan",
+        "reason": "AMA format covers broad topics but lacks focused market or tech insights.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "6d0d5d454deed9ce2cbd498e",
+      "show_name": "The Meb Faber Show",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Cambria Fund Profile – Cambria Global Value ETF (GVAL)",
+      "link": "",
+      "published": "2026-08-07T08:30:00+00:00",
+      "summary": "In the latest podcast episode, I discuss the Cambria Global Value ETF (GVAL). I share my perspective on the gap between U.S. and international valuations, why I believe concentrated, U.S.-heavy portfolios may carry underappreciated risks, and walk through how GVAL's process screens developed and emerging markets using long-term valuation metrics. Learn More: Cambria Global Value ETF (GVAL): https://cambriafunds.com/gval Contact us at info@cambriainvestments.com, 310-683-5500 TO DETERMINE IF THE FUND IS AN APPROPRIATE INVESTMENT FOR YOU, CAREFULLY CONSIDER THE FUND'S INVESTMENT OBJECTIVES, RISK FACTORS, CHARGES AND EXPENSES BEFORE INVESTING. THIS AND OTHER INFORMATION CAN BE FOUND IN THE FUND'S PROSPECTUS WHICH MAY BE OBTAINED BY CALLING 855-383-4636 (ETF INFO) OR VISITING OUR WEBSITE AT WWW.CAMBRIAFUNDS.COM. READ THE PROSPECTUS CAREFULLY BEFORE INVESTING OR SENDING MONEY. The Cambria ETFs are distributed by ALPS Distributors Inc., 1290 Broadway, Suite 1000, Denver, CO 80203, which is not affiliated with Cambria Investment Management, LP, the Investment Adviser for the Fund. Investing involves risk, including potential loss of capital. GVAL: There is no guarantee that a Fund will achieve its investment goal. Investing involves risk, including the possible loss of principal. High yielding stocks are often speculative, high-risk investments. The underlying holdings of the Funds may be leveraged, which will expose the holding to higher volatility and may accelerate the impact of any losses. These companies can be paying out more than they can support and may reduce their dividends or stop paying dividends at any time, which could have a material adverse effect on the stock price of these companies and the Fund’s performance. International investing may involve risk of capital loss from unfavorable fluctuations in currency values, from differences in generally accepted accounting principles, or from economic or political instability in other nations. Emerging markets involve heightened risks related to the same actors as well as increased volatility and lower trading volume. Investments in smaller companies typically exhibit higher volatility. Narrowly focused funds typically exhibit higher volatility. GVAL is actively managed. Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "duration": "792",
+      "old_score": 28,
+      "old_label": "skip",
+      "qwen": {
+        "id": "6d0d5d454deed9ce2cbd498e",
+        "score": 50,
+        "tier": "scan",
+        "reason": "GVAL ETF discussion offers investment insights but lacks AI or operational depth.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "48579984269d1e30a56f6724",
+      "show_name": "Odd Lots",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "How a Sardine Gets From the Ocean to a Can",
+      "link": "https://omny.fm/shows/odd-lots/how-a-sardine-gets-from-the-ocean-to-a-can",
+      "published": "2026-08-07T08:00:00+00:00",
+      "summary": "Just a decade ago, tinned fish was hardly a premium product. Most Americans likely associated cans of tuna with thrift. But that has changed a lot in recent years. The category took off during Covid and now shoppers are shelling out for high end brands like Fishwife. Today's guest Becca Millstein started the company in 2020, positioning it as a distinct, artisanal product, more akin to one might find in European grocery stores. In addition to the sheer challenges of scaling, the nature of the business itself has changed, influenced by climate change and geopolitics (shortages have led Morocco to suspend frozen sardine exports for instance). We discuss the tinned fish supply chain and how a new brand positions itself in today's media market. Read more: What the American Tin Can Reveals About Trump’s Volatile Tariff Policy Only Bloomberg.com subscribers can get the Odd Lots newsletter in their inbox, plus unlimited access to the site and app. bloomberg.com/subscriptions/oddlots See omnystudio.com/listener for privacy information.",
+      "duration": "3467",
+      "old_score": 0,
+      "old_label": "skip",
+      "qwen": {
+        "id": "48579984269d1e30a56f6724",
+        "score": 35,
+        "tier": "skip",
+        "reason": "Tinned fish supply chain lacks relevance to DJ's strategic focus areas.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "3ce08d00da38db81bf1a0df6",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "The Week: How Leverage Broke the AI Trade",
+      "link": "",
+      "published": "2026-08-07T08:00:00+00:00",
+      "summary": "George Hahn connects the dots across the week’s biggest stories: how leverage brought down one of the hottest AI hedge funds, why South Korea’s market crash offers a warning for American investors, and what Sam Harris teaches us about attention, anxiety, and the pursuit of happiness. We’d love your feedback as we build this show! Let us know what you think: info@profgmedia.com. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "1022",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "3ce08d00da38db81bf1a0df6",
+        "score": 60,
+        "tier": "digest",
+        "reason": "AI hedge fund leverage breakdown offers cautionary tale for capital allocation strategies.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "b93295af989dfa30f1a07305",
+      "show_name": "RenMac",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "RenMac Off-Script: Forecasts > Feelings*",
+      "link": "https://podcasters.spotify.com/pod/show/renmac-it/episodes/RenMac-Off-Script-Forecasts--Feelings-e3n320j",
+      "published": "2026-08-06T23:10:27+00:00",
+      "summary": "Former CEA Chair and Federal Reserve Board of Governors member Steve Miran joins the RenMac Off-Script team to discuss why he sees potential growth running closer to 3% than 2% — on tax incentives, deregulation, and AI — and why a data-dependent Fed is \"momentum trading\" monetary policy rather than forecasting inflation a year out. The team breaks down AI capex draining tech free cash flow, the Warsh Fed's dissents and Waller's hawkish turn, a stronger yen and the mechanics of possible FX intervention. They also explore new S&P highs, Middle East uncertainty, and the week ahead in the CPI print.",
+      "duration": "01:01:54",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "b93295af989dfa30f1a07305",
+        "score": 75,
+        "tier": "digest",
+        "reason": "RenMac's analysis of AI capex and macroeconomic trends provides actionable market insights.",
+        "confidence": "high"
+      }
+    }
+  ]
+}

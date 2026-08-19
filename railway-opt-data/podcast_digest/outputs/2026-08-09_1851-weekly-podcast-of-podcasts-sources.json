@@ -1,0 +1,38 @@
+[
+  {
+    "show": "Eye on AI",
+    "episode": "Why People Are Paying 10x More for AI | Sid Sheth, d-Matrix",
+    "link": "https://aneyeonai.libsyn.com/why-people-are-paying-10x-more-for-ai-sid-sheth-d-matrix",
+    "audio_url": "https://dts.podtrac.com/redirect.mp3/pscrb.fm/rss/p/pdst.fm/e/arttrk.com/p/VI4CS/prfx.byspotify.com/e/mgln.ai/e/p58841/pscrb.fm/rss/p/traffic.libsyn.com/secure/aneyeonai/CS-367_LA_V1.mp3?dest-id=727317",
+    "section": "Listen",
+    "what": "Sid explains the rise of a \"premium token economy\" where users pay 10x more per million tokens for real-time interactivity. He contrasts this with traditional GPU-based inference, which hits memory bandwidth ceilings, and argues that purpose-built architectures are better suited for this new tier of AI usage.",
+    "why": "This is a rare, candid look at the economic bifurcation in AI inference and how executive teams are leveraging AI (e.g., Claude for M&A strategy).",
+    "page_text": "Eye On A.I.: Why People Are Paying 10x More for AI | Sid Sheth, d-Matrix Preview Mode Links will not work in preview mode Eye On A.I. Why People Are Paying 10x More for AI | Sid Sheth, d-Matrix Eye on A.I. tracks new developments in artificial intelligence research, hosted by longtime New York Times journalist Craig S. Smith. In each episode, Craig will discuss aspects of AI with some of the people making a difference in the space, putting incremental advances into a broader context. AI is about to change your world, so pay attention. All Episodes Why People Are Paying 10x More for AI | Sid Sheth, d-Matrix Why People Are Paying 10x More for AI | Sid Sheth, d-Matrix Aug 6, 2026 The AI chip market looks monolithic from the outside - NVIDIA dominates, and everyone else is fighting for scraps. But d-Matrix's CEO Sid Sheth argues that the market is quietly splitting into two distinct tiers, and the one that's exploding right now is the one NVIDIA's architecture isn't built for. In this episode, Sid joins Craig Smith to explain the \"premium token economy\": a new class of AI inference where interactivity is the product, users pay ten times more per million tokens for instant responses, and the memory bandwidth limits of GPU-based systems create a structural ceiling that purpose-built architectures don't have. The conversation is unusually candid about what AI actually looks like at the executive level: Sid describes using Claude as a sounding board for M&amp;A strategy, producing full integration plans in 15 minutes that used to require entire banking advisory teams, and watching AI shift from a tool that echoed his ideas back at him to one that genuinely disagrees, flags what he missed, and pushes back with enough confidence to be useful. He also makes the case that we're at the beginning of a shift from individual agents to what he calls \"organizational AI\" - teams of agents running entire company functions at a high level of abstraction - and that the infrastructure bet d-Matrix is making positions them directly in the path of that wave. Subscribe to Eye on A.I. for weekly conversations with the people building and deploying the future of AI. &times; About the Podcast Eye on A.I. is a biweekly podcast, hosted by longtime New York Times correspondent Craig S. Smith. In each episode, Craig will talk to people making a difference in artificial intelligence. The podcast aims to put incremental advances into a broader context and consider the global implications of the developing technology. AI is about to change your world, so pay attention. Close &times; Share This Episode Cancel Private Premium Login Login Email Password Having trouble logging in? Login &times; Close Close",
+    "page_meta_description": "The AI chip market looks monolithic from the outside - NVIDIA dominates, and everyone else is fighting for scraps. But d-Matrix",
+    "page_transcript_like": true,
+    "page_status": "ok",
+    "audio_transcript_status": "not_needed",
+    "audio_transcript_path": "",
+    "audio_transcript_notes": "",
+    "audio_transcript_excerpt": "",
+    "source_file": "2026-08-06_2105-daily-podcast-digest-24h.md"
+  },
+  {
+    "show": "No Priors",
+    "episode": "Chasing Trillion-Dollar Companies, Founder Ambition, Token Budgets, and Regulatory Capture with Sarah & Elad",
+    "link": "https://no-priors.simplecast.com/episodes/chasing-trillion-dollar-companies-founder-ambition-token-budgets-and-regulatory-capture-with-sarah-elad",
+    "audio_url": "https://traffic.megaphone.fm/PDP3190127956.mp3",
+    "section": "Listen",
+    "what": "They discuss the current AI startup landscape, including how fear of AI labs may be stifling founder ambition, the realities of building trillion-dollar companies, shifting market sizes, and the impact of regulatory capture.",
+    "why": "Strategic insights into AI startup dynamics, regulatory shifts, and long-term founder mindset.",
+    "page_text": "",
+    "page_meta_description": "",
+    "page_transcript_like": false,
+    "page_status": "ok",
+    "audio_transcript_status": "disabled",
+    "audio_transcript_path": "",
+    "audio_transcript_notes": "",
+    "audio_transcript_excerpt": "",
+    "source_file": "2026-08-06_2105-daily-podcast-digest-24h.md"
+  }
+]

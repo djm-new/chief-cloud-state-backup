@@ -83,6 +83,37 @@ For one-off OCR over images (book covers, labels, receipts, cropped gallery item
 pip install pymupdf pymupdf4llm
 ```
 
+If the runtime has `uv` but no `pip`/`ensurepip`, use an ephemeral dependency run instead of stopping:
+
+```bash
+uv run --with pymupdf python - <<'PY'
+import pymupdf
+path = 'document.pdf'
+doc = pymupdf.open(path)
+print('PAGES', doc.page_count)
+for i, page in enumerate(doc):
+    print(f"\n--- PAGE {i+1} ---")
+    print(page.get_text('text'))
+PY
+```
+
+To render pages for visual inspection:
+
+```bash
+uv run --with pymupdf python - <<'PY'
+import pymupdf, os
+path = 'document.pdf'
+out = 'pdf_pages'
+os.makedirs(out, exist_ok=True)
+doc = pymupdf.open(path)
+for i, page in enumerate(doc):
+    pix = page.get_pixmap(matrix=pymupdf.Matrix(2, 2), alpha=False)
+    target = os.path.join(out, f'page_{i+1}.png')
+    pix.save(target)
+    print(target)
+PY
+```
+
 **Via helper script**:
 ```bash
 python scripts/extract_pymupdf.py document.pdf              # Plain text

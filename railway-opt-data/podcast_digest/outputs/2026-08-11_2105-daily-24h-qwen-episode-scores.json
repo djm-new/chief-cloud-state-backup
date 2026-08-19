@@ -1,0 +1,231 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-08-11_2105",
+  "usage": {
+    "prompt_tokens": 3773,
+    "completion_tokens": 839,
+    "total_tokens": 4612
+  },
+  "episodes": [
+    {
+      "id": "95220d76c370ba3ad0e8b2ff",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Lessons from the very first chatbot",
+      "link": "",
+      "published": "2026-08-11T19:29:00+00:00",
+      "summary": "Before Alexa and Siri, there was ELIZA. The first chatbot ever was the creation of a man named Joseph Weizenbaum, who built the bot almost as a magic trick — and then couldn't believe how many people fell for it. David Berry and Mark Marino, two members of a team dedicated to restoring and understanding ELIZA, explain how Weizenbaum created the virtual conversant, why he came to regret it, and what ELIZA can teach us about life in the AI age. Further reading: Why your Amazon order confirmation emails have become so unhelpful David Ellison’s ready to pull Paramount out of California What to expect from Google’s 2026 Pixel hardware launch event The ELIZA Archaeology Project Inventing ELIZA: How the First Chatbot Shaped the Future of AI From Eliza to ChatGPT: the 60-year history of chatbots Subscribe to The Verge for unlimited access to theverge.com, subscriber-exclusive newsletters, and our ad-free podcast feed. We love hearing from you! Email your questions and thoughts to vergecast@theverge.com or call us at 866-VERGE11. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "2438",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "95220d76c370ba3ad0e8b2ff",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Historical context on ELIZA offers durable framework for understanding AI evolution and user trust dynamics.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "290cf0eecc0be1481245dca2",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: August 11th, 2026",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-august-11th-2026",
+      "published": "2026-08-11T16:46:51+00:00",
+      "summary": "Featuring: Marvin Loh, Senior Strategist: Global Macro at State Street Retired Lt. General Karen Gibson, Advisor for Academy Securities Libby Cantrill, Managing Director & Head: Public Policy at PIMCO See omnystudio.com/listener for privacy information.",
+      "duration": "1219",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "290cf0eecc0be1481245dca2",
+        "score": 40,
+        "tier": "scan",
+        "reason": "Typical Bloomberg Surveillance episode with macro commentary but no standout insights flagged.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "6c36b95f6970ceb9ba775274",
+      "show_name": "Dwarkesh Podcast",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "Ryan Greenblatt – Human level AIs might build runaway superintelligences by 2032",
+      "link": "https://www.dwarkesh.com/p/ryan-greenblatt",
+      "published": "2026-08-11T16:31:23+00:00",
+      "summary": "Had Ryan Greenblatt on to discuss/debate recursive self-improvement. This might be the most important question in the world right now – whether within a year or so of achieving human-level intelligence, you slingshot towards having 10s of billions of superintelligences, each of which is dramatically more competent than human experts across all fields. I’ve historically been skeptical of this possibility. My intuition has been that we will end up significantly bottlenecked by not only compute scaling but human expert data, which I think underlies most of the AI progress today. If, because of RSI, we got a jump as big as GPT-3 to a Mythos (i.e. 6 years of AI progress) within a single year of achieving AGI, then the thing we get there at the end of that year is definitively and wildly superhuman. We hashed it out, and I think Ryan made a pretty good case that this kind of speedup is plausible. FWIW, Ryan’s median for when we automate AI R&D is 2031. We then discussed the alignment implications of this scenario. Who should these superintelligences be aligned to? In the future, our capacity to steward our votes and our capital, and to make sense of what’s happening in the world, will all be titrated by superintelligences. And I worry that specs like the Claude Constitution are not shaping these ASIs to truly be my personal advocates and guardian angels. And can we get them aligned to anything in the first place? Ryan and I had a long debate about whether the kind of reward hacking we saw with the OAI/Hugging Face hack extrapolates to superintelligences that would team up to literally take over the world. The first piece of advice you get when you’re learning to drive is that it will go much smoother if you look at the horizon instead of directly in front of your tires. And so it is with the trajectory of AI. Hope you enjoy! Watch on YouTube ; read the transcript . Sponsors * Antithesis is a software testing platform that finds the failures no human or AI could ever anticipate. It runs thousands of copies of your code inside a fully deterministic computer, injecting faults and steering each trajectory toward the most insidious bugs. This lets you find critical issues in minutes rather than waiting months for your users to uncover them. Learn more at antithesis.com/dwarkesh * Jane Street ’s back with a new puzzle. They designed an ASIC and sent me the final masks… but they didn’t tell me what the chip actually does. So that’s the challenge: reverse engineer the circuit and figure out the chip’s purpose. Jane Street has a bunch of swag ready to send to the most creative solutions, and they’re also planning to feature the top write-ups in a blog post. Download the files and get started at janestreet.com/dwarkesh * Cursor and SpaceX recently released Grok 4.5, and I’ve been surprised by just how good the model is. For example, when I tested it against Fable and Sol on a bunch of AI governance questions, all three models gave substantially the same answers, but Grok was faster, more concise, and cheaper. Grok 4.6 is coming soon, but in the meantime, you can try 4.5 at cursor.com/dwarkesh Timestamps (00:00:00) – Is AI R&D verifiable enough to unlock recursive self-improvement? (00:16:52) – Is AI progress bottlenecked by human expert data? (00:34:02) – Flat token prices suggest scaling has been slow (00:39:47) – Skills AI can’t train on: does it even need them? (00:48:07) – Aligned to whom? (01:09:18) – Recent incidents of AIs colluding and deceiving humans (01:19:38) – What could possibly go wrong? A concrete scenario (01:48:02) – From reward hacking to takeover Get full access to Dwarkesh Podcast at www.dwarkesh.com/subscribe",
+      "duration": "7952",
+      "old_score": 46,
+      "old_label": "skip",
+      "qwen": {
+        "id": "6c36b95f6970ceb9ba775274",
+        "score": 85,
+        "tier": "listen",
+        "reason": "Critical discussion on recursive self-improvement and AGI timelines with strong operator insight and implications for capital allocation.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "f4c67d2629260b54dfeca18d",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Stocks Climb as Oil Pares Gain on Iran Deal Hopes",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/stocks-climb-as-oil-pares-gain-on-iran-deal-hopes",
+      "published": "2026-08-11T13:44:36+00:00",
+      "summary": "The latest in finance, economics and investment. Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF . Bloomberg Surveillance hosted by Tom Keene & Paul SweeneyTuesday, August 11th, 2026 Featuring: 1) Becca Wasser, Defense Lead with Bloomberg Economics 2) Michael Green, Senior Executive Advisor of Tier1 Alpha Asset Management 3) Anastasia Amoroso, Chief Investment Strategist: Private Wealth at Partners Group 4) Jerome Schneider, Head:Short Term Portfolio Mgmt & Funding at PIMCO See omnystudio.com/listener for privacy information.",
+      "duration": "2017",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "f4c67d2629260b54dfeca18d",
+        "score": 45,
+        "tier": "scan",
+        "reason": "Market recap with geopolitical context; some macro value but not high differentiation.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "1304a0d2b18eec187af7097e",
+      "show_name": "New Yorker Radio Hour",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "low",
+      "title": "Sam Smith on Their New Album, “Hazel Eyes”",
+      "link": "https://www.wnycstudios.org/podcasts/tnyradiohour",
+      "published": "2026-08-11T10:00:00+00:00",
+      "summary": "Sam Smith burst onto the music scene in 2014 with their début album, “In the Lonely Hour.” It was one of the best-selling albums of the decade and won Smith three Grammys, for Best Pop Vocal Album and both Record and Song of the Year, for the massive hit “Stay With Me.” Smith’s early hits were ballads of heartbreak and unrequited love, so their new album marks something of a change: it’s an album of love songs, requited in this case. Many were written about Smith’s fiancé, the fashion designer Christian Cowan. Smith talked about the writing process that led to their new album “Hazel Eyes,” which comes out August 21st, with New Yorker Radio Hour producer Jeffrey Masters. Further reading: “ Sam Smith’s Sugary Loneliness and the Choir Effect ,” by Doreen St. Félix “ Getting the James Bond Song Right ,” by Ian Crouch New episodes of The New Yorker Radio Hour drop every Tuesday and Friday. Join host David Remnick as he discusses the latest in politics, news, and current events in conversation with political leaders, newsmakers, innovators, New Yorker staff writers, authors, actors, and musicians. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:28:15",
+      "old_score": 0,
+      "old_label": "skip",
+      "qwen": {
+        "id": "1304a0d2b18eec187af7097e",
+        "score": 10,
+        "tier": "skip",
+        "reason": "Celebrity/music-focused episode with no relevance to DJ's core interests.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "f329647da18c6fe004be017e",
+      "show_name": "Plain English with Derek Thompson",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "Why Americans Hate Data Centers",
+      "link": "",
+      "published": "2026-08-11T10:00:00+00:00",
+      "summary": "It seems a universal fact that AI has become an indispensable part of the American economy. At the same time, opposing AI has also become one of the most influential causes in American politics. Nowhere is that tension more obvious than in the fight over data centers. Across the country, communities are organizing to stop the massive facilities that power artificial intelligence from being built in their backyards. In today’s episode, Derek talks with writer Jasmine Sun, who traveled through the Midwest to investigate the growing animosity towards AI infrastructure. Why do Americans hate data centers? Plus, if this trend continues, what happens when one of the most important forces in the U.S. economy runs headfirst into local politics? Subscribe to our YouTube channel here:https://www.youtube.com/@PlainEnglishwithDerekThompson If you have questions, observations, or ideas for future episodes, email us at PlainEnglish@Spotify.com. Host: Derek Thompson Guest: Jasmine Sun Producer: Devon Baroldi Additional Production Support: Ben Glicksman Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "3780",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "f329647da18c6fe004be017e",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Explores growing political tension around AI infrastructure with implications for market adoption and regulation.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "0f96d45942be9bff9400e472",
+      "show_name": "Stratechery",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "Nvidia’s Risky Business",
+      "link": "https://stratechery.com/2026/nvidias-risky-business/",
+      "published": "2026-08-11T10:00:00+00:00",
+      "summary": "Nvidia is finding new ways for its customers to raise money, and it's expanding the risk of the AI buildout significantly.",
+      "duration": "",
+      "old_score": 38,
+      "old_label": "skip",
+      "qwen": {
+        "id": "0f96d45942be9bff9400e472",
+        "score": 80,
+        "tier": "digest",
+        "reason": "Stratechery analysis of Nvidia's expanding role and risk in the AI ecosystem is strategically relevant.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "74f04c0a7c6e50594049fd6b",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "The CISO Playbook for AI Agents | Datadog",
+      "link": "https://a16z.simplecast.com/episodes/the-ciso-playbook-for-ai-agents-datadog-rhAxFNQK",
+      "published": "2026-08-11T10:00:00+00:00",
+      "summary": "a16z's Joel De La Garza is joined by Emilio Escobar, Chief Information Security Officer at Datadog, to discuss what it takes to secure a company where nearly every employee is using AI and more than 4,000 engineers are working with coding agents. Rather than trying to block new tools, Emilio explains why Datadog chose to embrace AI early and build the security infrastructure needed to use it safely. They unpack how AI changes traditional assumptions around data permissions, credentials, developer access, and software supply chains. Emilio shares how Datadog uses role-based MCP servers and ephemeral credentials, as well as an AI \"judge\" built by his security team to evaluate the intent behind code and agent skills before they enter the environment. They also discuss why security teams can't afford to wait for commercial solutions to every new AI threat, how the relationship between developers and security teams needs to change, and why Emilio is less concerned about an AI \"escaping\" than he is about the sheer volume of vulnerabilities AI could uncover. Resources: Follow Emilio Escobar on LinkedIn: linkedin.com/in/emilioesc Follow Joel De La Garza on LinkedIn: https://www.linkedin.com/in/3448827723723234/ Follow Datadog on X: https://x.com/datadoghq Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:22:54",
+      "old_score": 35,
+      "old_label": "skip",
+      "qwen": {
+        "id": "74f04c0a7c6e50594049fd6b",
+        "score": 70,
+        "tier": "digest",
+        "reason": "CISO perspective on securing AI agent usage offers practical enterprise security insights.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "04c76da4e5ec168121114999",
+      "show_name": "Ezra Klein Show",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "Ross Douthat: The Exit Interview",
+      "link": "https://www.nytimes.com/2026/08/11/opinion/ezra-klein-podcast-ross-douthat.html",
+      "published": "2026-08-11T09:00:00+00:00",
+      "summary": "My colleague Ross Douthat is leaving The Times after 17 years to become a correspondent on “60 Minutes.” Before he goes, I’m asking him a few questions. Douthat has had a unique vantage point on the news media and politics over the last few decades. He’s typically held the role of explaining the right to more liberal audiences, starting as an undergrad, when he was a conservative columnist for The Harvard Crimson. Douthat has also lived through the seismic changes in the media from the both the inside and the outside: He’s made his career at legacy media institutions, but I first got to know him – and spar with him – as an early-2000s blogger (and I have the 20-year-old Bloggingheads.tv clips to prove it). So what does Douthat make of the transformations he’s lived through? How did blogging change journalism? How did a Republican Party powered by evangelical Christians become a political party dominated by Catholics and pagans? What has he learned about persuasion from writing for liberal audiences? And with the resources of “60 Minutes” behind him, will he finally crack the U.F.O. story once and for all? Mentioned: Magnifica Humanitas by Pope Leo XIV “ Is It Time for a New Sexual Revolution? ” with Louise Perry, Interesting Times with Ross Douthat “ Christopher Nolan’s Finest Trick ” by Ezra Klein Grand New Party by Ross Douthat and Reihan Salam Book Recommendations: Speak, Memory by Vladimir Nabokov De Gaulle by Julian Jackson Treasure Island by Robert Louis Stevenson Thoughts? Guest suggestions? Email us at ezrakleinshow@nytimes.com. You can find transcripts (posted midday) and more episodes of “The Ezra Klein Show” at nytimes.com/ezra-klein-podcast , and you can find Ezra on Twitter @ezraklein. Book recommendations from all our guests are listed at https://www.nytimes.com/article/ezra-klein-show-book-recs . This episode of “The Ezra Klein Show” was produced by Annie Galvin, Marie Cascione and Rollin Hu. Fact-checking by Kate Sinclair, Mary Marge Locker and Julie Beer. Our senior engineer is Jeff Geld, with additional mixing by Johnny Simon. Our recording engineer is Johnny Simon. Cinematography by Marina King. Video editing by Arpita Aneja and Julian Hackney. Our executive producer is Claire Gordon. The show’s production team also includes Jack McCordick, Kristin Lin and Emma Kehlbeck. Original music by Pat McCusker. Audience strategy by Shannon Busta. The director of New York Times Opinion Shows is Annie-Rose Strasser. Subscribe today at nytimes.com/podcasts or on Apple Podcasts and Spotify. You can also subscribe via your favorite podcast app here https://www.nytimes.com/activate-access/audio?source=podcatcher . For more podcasts and narrated articles, download The New York Times app at nytimes.com/app. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "01:13:57",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "04c76da4e5ec168121114999",
+        "score": 35,
+        "tier": "scan",
+        "reason": "Exit interview with media/political commentary; not directly relevant to DJ's focus areas.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "f373009d074a524d502c54d7",
+      "show_name": "Masters of Scale",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Rapid Recap: Google’s exodus, Spider-Man’s odyssey, Taco “Hell”, and more",
+      "link": "",
+      "published": "2026-08-11T09:00:00+00:00",
+      "summary": "What’s the business story of the summer thus far? SpaceX’s stumble post-IPO? AI security breaches? Ongoing tension surrounding the Strait of Hormuz? Host Bob Safian sits down with Rapid Response producer Alex Morris to weigh in. The pair also break down the impact of Uber COO Andrew Macdonald’s appearance on the podcast, and how it sparked a broader conversation throughout the business world about AI spending. Plus, leadership lessons forged in the fire of FIFA’s privatization play, Kalshi’s New York lawsuit, and the BTS boycott of The Grammy’s. Visit the Rapid Response website here: https://www.rapidresponseshow.com/ See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info .",
+      "duration": "00:29:58",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "f373009d074a524d502c54d7",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Rapid recap format with mixed business stories; some AI spending discussion but not deep.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "6aff5fb48ebb6784393aacb1",
+      "show_name": "Invest Like the Best",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "Eric Vishria - A Decade of Lessons Investing in Software & Hardware - [Invest Like the Best, EP.486]",
+      "link": "https://colossus.com/episode/sandcastles-and-silicon/",
+      "published": "2026-08-11T08:00:00+00:00",
+      "summary": "My guest today is Eric Vishria, a General Partner at Benchmark. Eric has spent his career in software and cloud, and few people know the history of these markets as well as he does. What makes him special is his ability to use that history to make sense of today. We discuss what the rise of AWS teaches us about AI, what he has learned from investing in Fireworks, Sierra, and Cerebras, and how the criteria for winning have changed for founders and investors. Please enjoy my conversation with Eric Vishria. For the full show notes, transcript, and links to mentioned content, check out the episode page ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠here⁠⁠⁠⁠⁠. ----- Become a Colossus member to get our quarterly print magazine and private audio experience, including exclusive profiles and early access to select episodes. Subscribe at ⁠colossus.com/subscribe⁠. ----- ⁠Ramp’s⁠ mission is to help companies manage their spend in a way that reduces expenses and frees up time for teams to work on more valuable projects. Go to⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ ⁠ramp.com/invest⁠⁠ to sign up for free and get a $250 welcome bonus. ----- Trusted by thousands of businesses, ⁠Vanta⁠ continuously monitors your security posture and streamlines audits so you can win enterprise deals and build customer trust without the traditional overhead. Invest Like the Best listeners get a special offer of $1,000 off Vanta when you go to ⁠vanta.com/invest⁠. ----- WorkOS⁠ is the infrastructure B2B and AI-native companies use to sell to enterprise. It covers everything enterprise security requires: SSO, SCIM, RBAC, Audit Logs, AI governance, and more. Trusted by 2,000+ fast-growing companies, including OpenAI, Anthropic, Cursor, and Vercel. ----- Rogo is the AI platform for finance. They're building agents for Wall Street that are trained to understand how bankers and investors actually do work: from diligence and modeling, to turning analysis into deliverables. To learn more, visit rogo.ai/invest. ----- ⁠Ridgeline⁠ has built a complete, real-time, modern operating system for investment managers. It handles trading, portfolio management, compliance, customer reporting, and much more through an all-in-one real-time cloud platform. Visit⁠ ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ridgeline.ai⁠. ----- Editing and post-production work for this episode was provided by The Podcast Consultant. Timestamps: (00:00:00) Welcome to Invest Like The Best (00:02:20) Learning the World Through Fireworks (00:05:42) AWS Was Going to Eat Everything (00:07:40) The Zero-Sum Thinking Trap (00:09:01) Comparing Cloud and AI Adoption (00:11:03) Becoming Enterprise's AI Sherpa (00:13:05) Building Sandcastles (00:14:55) The Return to Being Technical (00:17:13) The Shifting Competitive Frontier (00:22:10) Why the Old Playbook Fails (00:27:53) Energy as the Binding Constraint (00:29:38) The Cerebras Story (00:37:57) The Virtue of Productive Naivete (00:39:19) What Robotics Still Needs (00:45:58) What Makes a Great Board Partner (00:51:13) Raising A Growth Fund (00:55:39) What the Big Winners Taught Him (00:57:37) Hard Work Versus the Hole-in-One (00:58:38) The Best Reasons to Go Public (01:01:09) Debates Inside Benchmark (01:02:16) What If It All Works (01:03:35) What Geoff Hinton Got Wrong",
+      "duration": "3954",
+      "old_score": 54,
+      "old_label": "skip",
+      "qwen": {
+        "id": "6aff5fb48ebb6784393aacb1",
+        "score": 88,
+        "tier": "listen",
+        "reason": "Benchmark GP shares deep software/hardware investment insights with durable frameworks and AI implications.",
+        "confidence": "high"
+      }
+    }
+  ]
+}

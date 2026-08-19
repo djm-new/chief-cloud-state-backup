@@ -8,8 +8,6 @@ Use GitHub as source of truth and treat Railway as runtime/deployment only; for 
 §
 Hermes spend reconciliation uses mixed-provider, per-call attribution. The podcast OpenRouter zero-cost bug in openrouter_spend.py was fixed and backfilled from raw_usage_json.
 §
-Podcast weekly pipeline has a local STT venv at /opt/data/venvs/podcast-stt with faster-whisper/ctranslate2 installed; /opt/data/scripts/podcast_weekly_audio.py can download/transcribe audio-only finalists and condense transcript chunks before scripting.
-§
 This environment has multiple connected Google Workspace accounts under /opt/data/google-accounts; when looking for docs/Drive items, check all relevant accounts instead of assuming the default token.
 §
 For review/gallery apps, DJ prefers mobile-first grid (3x3/3x4), green check/red X corner actions, center tap enlarge, server-side shared decisions/activity tracking, Google Sheet decision log with date/who, one item per crop, no floor-only, readable upright; verify live output.
@@ -19,3 +17,15 @@ Google Workspace scripts should use /opt/data/google-accounts/.venv/bin/python; 
 User prefers onboarding/role docs to drive actual behavior with specific deliverables and cadence, not just polished wording or generic objectives.
 §
 Hermes CLI in this environment is run from /opt/hermes/.venv/bin/hermes, and the live config file is /opt/data/config.yaml with secrets in /opt/data/.env.
+§
+Podcast weekly pipeline cost/disk hygiene: keep local STT lightweight at /opt/data/venvs/podcast-stt with faster-whisper/ctranslate2; do not casually recreate heavyweight /opt/data/venvs/podcast-tts GPU/Torch stacks on Railway.
+§
+DJ wants Granola meeting-note exports saved to H:\My Drive\Meeting_Notes on his Windows machine.
+§
+Chief Group - Hermes Telegram topic map includes Podcast Digest = message_thread_id 7703 in chat -1003956828149.
+§
+Telegram Chief topics include General, Archive, Briefings, Alerts, Brain Dump, Coding, General/ad-hoc, and Podcast Digest/Podcast Updates. Podcast digest delivery target is the dedicated podcast topic, not Briefings.
+§
+DJ's 166-2nd Google Drive account has canonical AI/agentic professional work folder named beast at Drive folder ID 1d1lKeWF9OObyRHc63vZhazCosAg3p2MI; use account profile /opt/data/google-accounts/166-2nd for access.
+§
+Granola Windows automation context: DJ uses free Granola on Windows; local files are encrypted (.enc), granola-cli 0.2.0 expects plaintext supabase.json and failed. Target workflow is open meeting → hotkey → keyboard/UIAutomation export, avoiding coordinate clicks; copied notes include title/date; naming convention is "Meeting Title YYYY_MM_DD.txt".

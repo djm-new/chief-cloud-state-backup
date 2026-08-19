@@ -96,12 +96,29 @@ Important implementation details:
 - The Daily ToM context extractor should also recognize the same completion shorthand so `xTask` does not leak into briefing context before the next sync/cleanup pass.
 - Regression tests should cover both sides of the behavior: source-day rewrite to `✅` and next-day carry-forward without `x`/`↗️` markers.
 
-## Parking lot behavior
+## Parking/deferred behavior
 
-- `[Parking Lot]` is still part of the live Google Doc workflow.
-- `daily-tom-sync.py` preserves and reuses parking content instead of assuming Notion-era behavior.
+- Deferred/parked tasks are still part of the live Google Doc workflow, but they should not create noise above today's tasks. DJ wants the doc to open on the current dated section first.
+- Preferred layout is:
+  ```text
+  DM Running Daily Top of Mind
+  [Next date]
+  <Today date>
+  ...today's sections/tasks...
+
+  [Deferred]
+  [M/D] parked item [n:id]
+  ...
+  <Older date>
+  ```
+- `daily-tom-sync.py` should insert the new day immediately after `[Next date]`. If tasks are newly parked from the latest source day, render them after today's task list in one compact `[Deferred]` block.
+- Use a single `[Deferred]` heading and skip empty group headers. Do not emit repeated `[Professional]`, `[Professional - MENA]`, or `[Personal]` headers for parked items.
+- Preserve each parked line's leading `[M/D]` date and `[n:id]`; `parse_parking` depends on the return date and task ID to bring it back later.
+- `find_sections` / `parse_parking` should recognize both legacy `[Parking Lot]` and current `[Deferred]` headings so older docs still migrate safely.
+- If the compact `[Deferred]` block has no group headers, use task state by `[n:id]` to restore the original group when the item returns. Otherwise items with no recognizable prefix can incorrectly return under `Professional`.
+- When cleaning an existing noisy top-of-doc parking block, fetch live paragraph indexes, delete the old block above today, reinsert a compact `[Deferred]` block after today's section, then re-run both `/opt/data/scripts/daily-tom-context.py` and a future-date dry run to confirm return behavior.
 - Supported markers include relative parking like `[3d]` and absolute return dates like `[6/12]`.
-- Verify parking by checking the live context extractor output, not by relying on memory.
+- Verify parking by checking the live context extractor output and a dry run for the next return date, not by relying on memory.
 
 ## Verification checklist
 

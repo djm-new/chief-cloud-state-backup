@@ -49,8 +49,13 @@ def main():
         if not section or DONE_RE.match(t):
             continue
         priority = max([len(m.group(0)) for m in PRIORITY_RE.finditer(t)] or [0])
-        task_id = (ID_RE.search(t).group(1) if ID_RE.search(t) else '')
+        id_match = ID_RE.search(t)
+        task_id = id_match.group(1) if id_match else ''
         clean = re.sub(r'^(?:↗️\s*|\[>\]\s*|>\s*)', '↗️ ', t).strip()
+        # The context is for briefing synthesis, not editing. Show the task ID
+        # once as metadata instead of duplicating the visible [n:<id>] marker.
+        clean = ID_RE.sub('', clean)
+        clean = re.sub(r'\s+', ' ', clean).strip()
         by_section[section].append({'text': clean, 'priority': priority, 'id': task_id})
 
     print('## Daily Top of Mind Context')

@@ -496,6 +496,7 @@ def build_report(days: int) -> dict[str, Any]:
         "provider": "", "billing_modes": set(),
     })
     top_sessions: list[dict[str, Any]] = []
+    work_items: list[dict[str, Any]] = []
     stages: dict[str, dict[str, Any]] = defaultdict(_new_bucket)
 
     for s in sessions:
@@ -559,8 +560,24 @@ def build_report(days: int) -> dict[str, Any]:
 
         top_sessions.append({
             "id": s["id"], "title": s.get("title") or "",
-            "model": model, "source": src,
+            "model": model, "source": src, "project": project,
             "tokens": total, "est_cost": est,
+        })
+        work_items.append({
+            "kind": "agent",
+            "id": s["id"],
+            "title": s.get("title") or project,
+            "project": project,
+            "model": model,
+            "source": src,
+            "tokens": total,
+            "est_cost": est,
+            "input_tokens": it,
+            "output_tokens": ot,
+            "cache_read_tokens": cr,
+            "cache_write_tokens": cw,
+            "billing_mode": billing_mode,
+            "provider": provider,
         })
 
     for e in events:
@@ -606,6 +623,24 @@ def build_report(days: int) -> dict[str, Any]:
             stages[stage_key]["events"] += 1
             _add_tokens(stages[stage_key], model, it, ot, cr, cw, est)
 
+        stage = e.get("stage") or "script call"
+        title = f"{workflow}: {stage}" if workflow else project
+        work_items.append({
+            "kind": "script",
+            "id": e.get("session_id") or "",
+            "title": title,
+            "project": project,
+            "model": model,
+            "source": e.get("source") or e.get("platform") or "script",
+            "tokens": total,
+            "est_cost": est,
+            "input_tokens": it,
+            "output_tokens": ot,
+            "cache_read_tokens": cr,
+            "cache_write_tokens": cw,
+            "provider": e.get("provider") or "",
+        })
+
         mo = models_out[model]
         mo["tokens"] += total
         mo["events"] += 1
@@ -647,6 +682,7 @@ def build_report(days: int) -> dict[str, Any]:
         for model, v in sorted(models_out.items(), key=lambda kv: kv[1]["est_cost"], reverse=True)
     ]
     top_sessions.sort(key=lambda s: (s["est_cost"] or 0, s["tokens"]), reverse=True)
+    work_items.sort(key=lambda s: (s["est_cost"] or 0, s["tokens"]), reverse=True)
 
     return {
         "days": days,
@@ -657,6 +693,7 @@ def build_report(days: int) -> dict[str, Any]:
         "models": models_list,
         "stages": stages_out,
         "top_sessions": top_sessions[:8],
+        "work_items": work_items[:20],
     }
 
 

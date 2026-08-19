@@ -1,0 +1,291 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-08-13_2104",
+  "usage": {
+    "prompt_tokens": 4858,
+    "completion_tokens": 1040,
+    "total_tokens": 5898
+  },
+  "episodes": [
+    {
+      "id": "ecc7159c576cd37ef543c5f2",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Should you let a robot mow your lawn?",
+      "link": "",
+      "published": "2026-08-13T20:04:00+00:00",
+      "summary": "Is it time to fire the neighbor kid and hire a robot lawnmower instead? Last year I wrote that “in all but a few scenarios, robot lawnmowers still aren’t worth your money,” but there’s a new class of Roombas with razor blades ready to tackle bumpy terrain and dodge crazy chickens. Realtor and smart home reviewer Brandon Doyle joins me to talk about our experiences with 2026’s newest robotic mowers and to let you know if they're finally worth all that money. Further reading: It looks like Apple’s iPhone 18 really will skip the fall launch this year Flock CEO: ‘We got this one wrong’ Cats and dogs are missing meals after a popular smart feeder went down I finally found a robot lawnmower I’d trust with my yard I put four robot lawnmowers through a brutal backyard battle — and only one person got injured A hacker ran me over with a robot lawn mower The US government just banned Roombas 5 Robot Mowers, 90 Days, 1 Winner — My 2026 Picks (and One to Avoid) Subscribe to The Verge for unlimited access to theverge.com, subscriber-exclusive newsletters, and our ad-free podcast feed. We love hearing from you! Email your questions and thoughts to vergecast@theverge.com or call us at 866-VERGE11. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "2012",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "ecc7159c576cd37ef543c5f2",
+        "score": 40,
+        "tier": "scan",
+        "reason": "Interesting consumer tech angle but low relevance to core AI/business strategy focus.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "75d00e29f362d3d870f3e023",
+      "show_name": "No Priors",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "What Chess.com Teaches US About Superhuman Capabilities, with CEO Erik Allebest",
+      "link": "",
+      "published": "2026-08-13T17:29:00+00:00",
+      "summary": "In a world of infinite gaming and entertainment possibilities, how does a centuries-old game stay so popular? Chess.com co-founder and CEO Erik Allebest joins Sarah Guo to explain how the evolution of technology has kept people coming back to chess, even when machines can beat us at the game. Erik talks about how the desire to build a MySpace-like community for chess led to the purchase of a domain name from a bankruptcy sale back in 2005, and scaled into a community with 10 million daily active users and 250 million total registered members. He also discusses the growth of the cultural relevance of chess, how investments from private equity firms General Atlantic and CVC helped grow and strengthen their platform, and how Chess.com is leveraging AI both within the business itself and to make a better product for its community. Sign up for new podcasts every week. Email feedback to show@no-priors.com Follow us on Twitter: @NoPriorsPod | @Saranormous | @EladGil | @chesscom | @erikallebest Chapters: 00:00 – Cold Open Trailer 01:05 – Erik Allebest Introduction 01:48 – Chess.com Today 02:57 – Buying and Scaling Chess.com 06:29 – Competition and Growth 11:52 – Chess and Cultural Relevance 14:32 – Private Equity Investment 19:31 – Playing Games Amid Evolving Tech 25:09 – Tech, Skill Distribution, and Expertise 28:40 – Chess and Cheating 31:20 – What Makes Chess Special 33:17 – Chess.com Future Vision 34:54 – Founder Advice 36:48 – AGI/ASI Predictions 40:02 – AI Investments at Chess.com 42:13 – How AI May Change Product at Chess.com 43:27 – Poker Rating Algorithms 46:07 – Conclusion",
+      "duration": "2767",
+      "old_score": 59,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "75d00e29f362d3d870f3e023",
+        "score": 85,
+        "tier": "listen",
+        "reason": "CEO insight on AI integration, community building, and PE growth strategy aligns well with DJ's interests.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "30b5642a52525979eac7d6ff",
+      "show_name": "Eye on AI",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "American Companies Have 36 Months to Go AI-Native or Get Left Behind | Drew Cukor, TWG AI",
+      "link": "https://aneyeonai.libsyn.com/american-companies-have-36-months-to-go-ai-native-or-get-left-behind-drew-cukor-twg-ai",
+      "published": "2026-08-13T17:00:00+00:00",
+      "summary": "The same tools that slowed the U.S. military down in Afghanistan (PowerPoint, Excel, email, and Word) are now slowing American businesses down in the AI race. Drew Cukor spent 30 years as a Marine intelligence officer, helped build Project Maven into a battlefield command and control system, served as Chief Data Officer at JP Morgan, and is now leading AI transformation at TWG AI. In this episode, he joins Craig Smith to make a case that most enterprise AI strategies are fundamentally broken, not because the technology isn't there, but because companies are storing their data in Microsoft file folders where it becomes inaccessible to AI, appointing AI officers who block progress rather than enable it, and mistaking chatbot deployments for transformation. Cukor's prescription is specific: take a company's core workflows apart, how it acquires customers, delivers services, handles back office operations, and rebuild them from scratch with AI embedded throughout, protected inside Palantir Foundry, delivered within 36 months, with the CEO owning the outcome rather than delegating it to a CTO or a made-up AI officer role. The stakes, he argues, are not abstract: China is going AI-native from the start without the legacy infrastructure that's slowing American enterprise, token spend is approaching the cost of a human salary making poorly designed AI workflows as expensive as bad hiring decisions, and the window for acting is closing. The most important video he recommends any business leader watch isn't one where the AI wins, it's the footage of Lee Sedol losing to AlphaGo and realizing mid-game that he no longer understands how the game works. That moment, Cukor says, is coming for every legacy business that doesn't move now. Subscribe to Eye on A.I. for weekly conversations with the people building and deploying the future of AI.",
+      "duration": "58:43",
+      "old_score": 28,
+      "old_label": "skip",
+      "qwen": {
+        "id": "30b5642a52525979eac7d6ff",
+        "score": 80,
+        "tier": "listen",
+        "reason": "Strong enterprise AI strategy content with actionable transformation insights from experienced operator.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "cad4acb8d1ccfc976a2a7e81",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: August 13th, 2026",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-august-13th-2026",
+      "published": "2026-08-13T16:06:04+00:00",
+      "summary": "Featuring: Robert Kaplan, Goldman Sachs Vice Chairman Angelo Zino, Senior VP & Head: Technology at CFRA Lydia Mashburn Newman, Managing Director: Monetary Economics at the American Institute for Economic Research See omnystudio.com/listener for privacy information.",
+      "duration": "1362",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "cad4acb8d1ccfc976a2a7e81",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Standard market commentary with limited actionable insight.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "fc4e8267d80dbfe4cd7a3dbf",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Equity Bull Case and Commodity Outlook",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/equity-bull-case-and-commodity-outlook",
+      "published": "2026-08-13T15:36:15+00:00",
+      "summary": "The latest in finance, economics and investment. Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF . Bloomberg Surveillance hosted by Tom Keene & Paul SweeneyThursday, August 13th, 2026 Featuring: 1) Francisco Blanch, Head: Commodities at Derivatives Research at Bank of America, talks global energy crunch and commodity outlook. 2) Nelson Yu, Head of Equities at AllianceBernstein, talks about the investor trap and reacts to PPI. 3) Ivan Feinseth, CIO at Tigress Financial, talks tech, earnings season, and the equity bull case. 4) Harrison Mann, former US Army Major and Associate Director for Campaigns & Policy at Win Without War, talks Iran strategic mishaps, munitions concerns, and other military news. See omnystudio.com/listener for privacy information.",
+      "duration": "1897",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "fc4e8267d80dbfe4cd7a3dbf",
+        "score": 60,
+        "tier": "digest",
+        "reason": "Valuable macroeconomic and equity insights for daily digest, but not deep enough for audio focus.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "d48de8d6ed0f248caf8c9862",
+      "show_name": "Decoder with Nilay Patel",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Does Google even want to win in AI?",
+      "link": "",
+      "published": "2026-08-13T13:30:00+00:00",
+      "summary": "My guest today is The Verge’s Hayden Field, and we’re discussing a question that’s been rocketing around the tech industry for the past week: Is Google losing the AI race? That's because last week, the company announced a bombshell reorganization of its AI division. You can read these moves, and Google’s reaction, in a lot of different ways. So I really wanted to sit down with Hayden to dig into some of the smartest analysis we’ve seen this past week, and what we think is really going on here. Links: The messy politics behind Google’s big AI shakeup | The Verge Gemini is cooked but GCP is cooking | SemiAnalysis Google announced a major shakeup of its top AI leadership | The Verge AI lab musical chairs hits Google the hardest | Axios Demis Hassabis said this might be the ‘foothills of the singularity.’ What? | The Verge Google’s AI architect lived rent-free in Elon Musk’s head | The Verge Sundar Pichai on AI, search, and the future of the web | The Verge Subscribe to The Verge to access the ad-free version of Decoder! Credits: Decoder is a production of The Verge and part of the Vox Media Podcast Network. Decoder is produced by Kate Cox and Nick Statt. This episode was edited by Ursa Wright. Our supervising producer is Greg Ott, and our editorial director is Kevin McShane. The Decoder music is by Breakmaster Cylinder. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "2353",
+      "old_score": 94,
+      "old_label": "must_listen",
+      "qwen": {
+        "id": "d48de8d6ed0f248caf8c9862",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Important Google AI strategy analysis but lacks operator-level depth for audio focus.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "4f35f0d4bbba776defa86021",
+      "show_name": "Infinite Loops",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Lulu Cheng Meservey - — Going Direct: What Founders can learn from K-Pop, Crypto, and the Early Christians (Infinite Loops Classics)",
+      "link": "https://infiniteloopspodcast.com/133",
+      "published": "2026-08-13T12:00:00+00:00",
+      "summary": "Hi everyone, Jim here. We're taking a short pause on new episodes through the end of August. In the meantime, we're digging out some of our favorite conversations from the archive. This one is from November 2022, so a few of our references (and jobs!) are out of date, but the ideas have only gotten better. Enjoy this conversation with Lulu Cheng Meservey. Lulu Cheng Meservey is the Chief Communications Officer and Executive Vice President of Corporate Affairs at Activision Blizzard. She joins Infinite Loops to provide us with a masterclass in communications for startups. A must-listen for current and aspiring founders. Important Links: • Lulu's Twitter • Lulu's Substack • Episode summary from Podcasts Recapped Show Notes: • Why people write hit pieces • The insurgency framework • How to access your audience's neural real estate • How to develop a spontaneous elevator pitch • Tips for becoming better at reading the room • Speak directly and take the hits • Defining business objectives • Learning from other industries • Personalising your message • Overcoming resistance to the unknown, what Christianity can teach us about comms • Escaping corporate jargon • How comms resembles rugby • Taking ownership of comms • Moving to a new model of comms • \"Don't let things happen to you. Go and happen to things.\" Books Mentioned: • The Network State: How To Start a New Country; by Balaji S. Srinivasan • The Hero with a Thousand Faces; by Joseph Campbell",
+      "duration": "01:37:08",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "4f35f0d4bbba776defa86021",
+        "score": 55,
+        "tier": "scan",
+        "reason": "Interesting communications framework but dated and not AI/strategy focused enough.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "b413240f015e4c47b7b177bd",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "The Two Ways to Sell AI: Lighthouse or Landgrab?",
+      "link": "https://a16z.simplecast.com/episodes/the-two-ways-to-sell-ai-lighthouse-or-landgrab-9C2mrr4S",
+      "published": "2026-08-13T10:00:00+00:00",
+      "summary": "Elena Burger is joined by a16z's Andy McCall and Joe Schmidt to break down two very different ways AI startups can go to market: the lighthouse and the landgrab. Should founders win a handful of marquee customers whose credibility unlocks an entire industry, or move quickly across a broad market where the ROI already speaks for itself? Drawing on Joe's Lighthouse or Landgrab framework and Andy's experience building sales organizations at Samsara and Meraki, they explore how founders can determine which strategy fits their market, when social proof matters more than math, and why the current rush to adopt AI has created a rare window for startups to sell big software again. They also get tactical on POCs, pricing and ACV, hiring early sales teams, moving from mid-market to enterprise, and why founders shouldn't spend too much time perfecting their GTM strategy before talking to customers. As Andy puts it: spend 1% of your time on strategy and 99% executing. Resources: Read Joe Schmidt's \"Lighthouse or Landgrab\": https://a16z.com/lighthouse-or-landgrab-how-to-pick-your-ai-sales-strategy/ Follow Andy McCall on LinkedIn: https://www.linkedin.com/in/amccall/ Follow Joe Schmidt on X: https://x.com/joeschmidtiv Follow Elena Burger on X: https://x.com/VirtualElena Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:44:37",
+      "old_score": 47,
+      "old_label": "skip",
+      "qwen": {
+        "id": "b413240f015e4c47b7b177bd",
+        "score": 82,
+        "tier": "listen",
+        "reason": "Clear GTM framework for AI startups with actionable sales strategy insights from experienced a16z team.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "76dd1922c21ab8d4b1d441b1",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "July CPI and Market Melt Up",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/july-cpi-and-market-melt-up",
+      "published": "2026-08-13T09:25:50+00:00",
+      "summary": "Featuring: 1) Eric Winograd, Chief Economist with AllianceBernstein, Marta Norton, Chief Investment Strategist at Empower, Ira Jersey, Chief US Interest Rate Strategist with Bloomberg Intelligence, react to CPI. 2) Ed Yardeni, founder at Yardeni Research, talks about raising his S&P target and the market melt up. 3) Amanda Lynam, Chief Credit Strategist at Goldman Sachs, talks about new debt issuance and why \"this time is different.\" 4) Violetta Todorova, Senior Research Analyst at Leverage Shares, talks equity gains and tech lifting shares higher. See omnystudio.com/listener for privacy information.",
+      "duration": "1763",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "76dd1922c21ab8d4b1d441b1",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Solid macroeconomic context for CPI and market trends, suitable for daily digest.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "3dd4834ab50f254e81366e3a",
+      "show_name": "Masters of Scale",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Know which rules to break, with MTV co-founder Tom Freston",
+      "link": "",
+      "published": "2026-08-13T09:00:00+00:00",
+      "summary": "Tom Freston is a cofounder of MTV and former CEO of Viacom. He joined host Jeff Berman to dig into the wild stories and meaningful lessons from his life as an unconventional corporate leader. Freston reveals how MTV’s audience-first mentality and “subway car” approach to hiring helped the network scale into a cultural icon. Tom’s memoir is Unplugged: https://www.simonandschuster.com/books/Unplugged/Tom-Freston/9781668089798 See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info .",
+      "duration": "00:31:35",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "3dd4834ab50f254e81366e3a",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Interesting founder story but not directly relevant to AI or capital allocation focus.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "75ada3f56e7c30a1af5f498a",
+      "show_name": "Odd Lots",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "Trucking Is Booming Again, And Drivers Aren't Happy About It",
+      "link": "https://omny.fm/shows/odd-lots/trucking-is-booming-again-and-drivers-arent-happy-about-it",
+      "published": "2026-08-13T08:00:00+00:00",
+      "summary": "In the last year, freight companies have seen a significant upturn in the business. Volumes are up. Billing is up. And in addition to growing demand, we've also seen new constraints on the supply side, with the administration cracking down on who is even allowed on the road. As we know, trucking is an especially cyclical industry, but is this current boom structurally different from past booms? Why is it that despite the boom, many of today's drivers are unhappy with the state of the industry? On this episode, we speak with Reed Loustalot, the chief marketing officer at the the Truck Parking Club, a company which aims to help drivers find parking, so that they're not using up valuable road hours just looking for a place to stop for the night. We talk about the crackdown on the supply side of the market, the rise of surveillance, and how a recent Supreme Court ruling could impair capacity even further. Read more: Ship Pays $4 Million to Skip Line to Cross Panama Canal Trucking Stocks Fall on Legal Risk in Worst Month Since Tariffs Only http://Bloomberg.com subscribers can get the Odd Lots newsletter in their inbox each week, plus unlimited access to the site and app. Subscribe at bloomberg.com/subscriptions/oddlots Subscribe to the Odd Lots Newsletter Join the conversation: discord.gg/oddlots See omnystudio.com/listener for privacy information.",
+      "duration": "2781",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "75ada3f56e7c30a1af5f498a",
+        "score": 60,
+        "tier": "digest",
+        "reason": "Good macro/transportation analysis with cyclical insights relevant to market read.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "ec96d373695668221704af93",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Why We’re Having Less Sex — and Why It Matters (ft. Dr. Debra Soh)",
+      "link": "",
+      "published": "2026-08-13T08:00:00+00:00",
+      "summary": "Scott Galloway speaks with neuroscientist and author Debra Soh about why young people are having less sex, and what that decline reveals about intimacy, loneliness, and human connection. They also discuss how dating apps have turned romance into a winner-take-all market, how pornography and AI offer frictionless substitutes for relationships, and why growing resentment between men and women is making it harder to find lasting love. Follow Dr. Soh, @DrDebraSoh. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "3836",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "ec96d373695668221704af93",
+        "score": 30,
+        "tier": "skip",
+        "reason": "Off-topic with no AI, business, or investment strategy relevance.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "007906c442d92fc652347c2e",
+      "show_name": "The Twenty Minute VC",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "20VC: Canva Slashes Growth: How Much is it Really Worth | Demis Hassabis and Jeff Dean: Talent Exodus at Google | Revolut's $50BN CEO Pay Package | Elon Musk's $55BN Terrafab",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-canva-slashes-growth-how-much-is-it-really-worth-demis-hassabis-and-jeff-dean-talent-exodus-at-google-revoluts-50bn-ceo-pay-package-elon-musks-55bn-terrafab",
+      "published": "2026-08-13T07:07:00+00:00",
+      "summary": "AGENDA: 05:00 Canva's Growth Gets Slashed as AI Costs Explode 20:00 The Great Software Reset: Why 2026 Will Punish AI Hesitancy 29:00 Canva's Valuation Reality Check—and the LP Liquidity Trap 35:00 Google's AI Brain Drain: Jeff Dean Leaves, Demis Steps Back 43:00 Why Google Can't Afford to Cure Alzheimer's 50:00 The Data-Centre Revolt: Can AI Survive the Political Backlash? 55:00 Elon Musk's $55BN Terrafab Bet to Break Free from TSMC 57:00 Revolut's $50BN CEO Pay Package—and the Return of Founder Control 01:13 AI Shopping, Atlassian's Revival, and Airtable's Brutal Sale Reality",
+      "duration": "01:26:39",
+      "old_score": 100,
+      "old_label": "must_listen",
+      "qwen": {
+        "id": "007906c442d92fc652347c2e",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Timely market commentary on AI valuations, talent movement, and geopolitical tech risks.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "a4b878bcd9047b9ff2717aaf",
+      "show_name": "All-In Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Rahm Emanuel: Trump's Foreign Policy, China, Europe's Decline, Immigration & DSA vs Democrats",
+      "link": "https://allinchamathjason.libsyn.com/rahm-emanuel-trumps-foreign-policy-china-europes-decline-immigration-dsa-vs-democrats",
+      "published": "2026-08-13T02:10:00+00:00",
+      "summary": "(0:00) Jason and Friedberg welcome Rahm Emanuel (1:16) Lessons from working with Clinton and Obama (7:45) China: How to approach conflict, new economic bloc, isolation, and Taiwan (28:49) Europe: Reasons for the decay of the West (38:37) Immigration: US solutions, who to emulate, subsidizing college for Americans (46:55) National debt, government interference in markets, fixing education (1:09:24) DSA vs Democrats Follow Rahm: https://x.com/RahmEmanuel Follow the besties: https://x.com/chamath https://x.com/Jason https://x.com/DavidSacks https://x.com/friedberg Follow on X: https://x.com/theallinpod Follow on Instagram: https://www.instagram.com/theallinpod Follow on TikTok: https://www.tiktok.com/@allin Follow on LinkedIn: https://www.linkedin.com/company/allinpod Intro Music Credit: https://rb.gy/tppkzl https://x.com/yung_spielburg Intro Video Credit: https://x.com/TheZachEffect",
+      "duration": "01:11:36",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "a4b878bcd9047b9ff2717aaf",
+        "score": 45,
+        "tier": "scan",
+        "reason": "Geopolitical insights but lacks direct investment or AI strategy implications.",
+        "confidence": "medium"
+      }
+    }
+  ]
+}

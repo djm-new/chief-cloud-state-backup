@@ -1,0 +1,451 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-08-14_2104",
+  "usage": {
+    "prompt_tokens": 7943,
+    "completion_tokens": 1655,
+    "total_tokens": 9598
+  },
+  "episodes": [
+    {
+      "id": "dbf320f6f51221dd77e2f8a4",
+      "show_name": "Big Technology Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Best of Big Technology: How Ozempic Changes Our Bodies, Minds, and Economy — With Johann Hari",
+      "link": "",
+      "published": "2026-08-14T21:00:00+00:00",
+      "summary": "Johan Hari is a New York Times bestselling author and has a new book, Magic Pill, about his experience with weight loss drugs. Hari joins Big Technology to discuss the impact of Ozempic on our relationship with food and the economy. Tune in to hear how these medications work, their benefits, and their potential risks. We also cover the science behind these drugs, economic implications, and ethical considerations. Hit play for an in-depth conversation on the future of weight loss drugs and their broader societal effects --- Enjoying Big Technology Podcast? Please rate us five stars ⭐⭐⭐⭐⭐ in your podcast app of choice. Want a discount for Big Technology on Substack + Discord? Here’s 25% off for the first year: https://www.bigtechnology.com/subscribe?coupon=0843016b Stop online threats before they become real-world attacks. Visit ⁠ironwall.com/BIGTECHNOLOGY⁠ and request a free Risk Assessment to see exactly how exposed your executives are Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "duration": "3145",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "dbf320f6f51221dd77e2f8a4",
+        "score": 40,
+        "tier": "scan",
+        "reason": "Interesting societal and economic implications of Ozempic, but not core to DJ's focus areas.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "cb5fae2c53c48130ad766cae",
+      "show_name": "All-In Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Anthropic's $2T IPO, Zuck's AI Manifesto, Nvidia's $500B AI Bet, Grok's Comeback",
+      "link": "https://allinchamathjason.libsyn.com/anthropics-2t-ipo-zucks-ai-manifesto-nvidias-500b-ai-bet-groks-comeback",
+      "published": "2026-08-14T20:11:00+00:00",
+      "summary": "(0:00) Gavin Baker joins the show! (2:36) Anthropic IPO report: $2T valuation, $100B+ run rate, October listing (27:32) Zuck's AI manifesto: What it means for Meta and frontier AI (56:41) All-In Summit Speaker Announcements! (58:13) Nvidia's $500B financing plan, how the AI market could fall apart (1:14:29) NJ and Mamdani take on Amazon over subcontracted drivers (1:27:32) Grok 4.6 launch: SpaceX's high-ceiling, high-floor AI strategy (1:35:21) Workday in talks to be acquired by Silver Lake for ~$43B Apply for Summit 2026: https://allin.com/events Follow Gavin: https://x.com/gavinsbaker Follow the besties: https://x.com/chamath https://x.com/Jason https://x.com/DavidSacks https://x.com/friedberg Follow on X: https://x.com/theallinpod Follow on Instagram: https://www.instagram.com/theallinpod Follow on TikTok: https://www.tiktok.com/@theallinpod Follow on LinkedIn: https://www.linkedin.com/company/allinpod Intro Music Credit: https://rb.gy/tppkzl https://x.com/yung_spielburg Intro Video Credit: https://x.com/TheZachEffect Referenced in the show: https://www.ft.com/content/840ac156-af1c-4a82-b260-ae791072fcfa https://polymarket.com/event/ipos-before-2027 https://polymarket.com/event/which-company-has-best-ai-model-end-of-2026 https://www.bloomberg.com/news/articles/2026-08-13/anthropic-said-in-talks-to-buy-ai-startup-decart-for-6-billion https://x.com/elonmusk/status/2052069691372478511 https://www.meta.com/thefutureisforeveryone https://x.com/Home_of_Fight/status/2086504599444140344 https://x.com/JensenHuang/status/2086934705207959965 https://www.cnbc.com/2026/08/04/nj-amazon-antitrust-lawsuit-delivery-contractors.html https://www.google.com/finance/beta/quote/WDAY:NASDAQ https://www.amazon.com/Vision-Anointed-Self-Congratulation-Social-Policy/dp/046508995X https://www.nytimes.com/2026/08/10/nyregion/mamdani-amazon-delivery-workers-nyc.html",
+      "duration": "01:39:30",
+      "old_score": 83,
+      "old_label": "digest_only",
+      "qwen": {
+        "id": "cb5fae2c53c48130ad766cae",
+        "score": 85,
+        "tier": "listen",
+        "reason": "Covers major AI market developments, IPOs, and capital allocation implications directly relevant to DJ.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "158c5602bb0c902aa59d5c03",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Money: 'Gold Has Been in Bull Market for 25 Years'",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-money-gold-has-been-in-bull-market-for-25-years",
+      "published": "2026-08-14T20:00:00+00:00",
+      "summary": "Bloomberg Money takes the pulse of your financial life, powered by the reporting of our global newsroom. This week's guests include: Mike Wilson, Morgan Stanley Chief US Equity Strategist/CIO Kristen Bitterly, Citigroup Global Markets Head:Wealth At Work See omnystudio.com/listener for privacy information.",
+      "duration": "2255",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "158c5602bb0c902aa59d5c03",
+        "score": 30,
+        "tier": "skip",
+        "reason": "General financial market commentary; lacks actionable insight or AI focus.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "6124b1f4c7ccb16a8ef273f5",
+      "show_name": "New Yorker Radio Hour",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "low",
+      "title": "Bernie Sanders Takes on Data Centers",
+      "link": "https://www.wnycstudios.org/podcasts/tnyradiohour",
+      "published": "2026-08-14T18:01:28+00:00",
+      "summary": "The data centers that power artificial intelligence are being built at a rampant pace, and are spurring resistance all over the country. Apart from public concerns about A.I.’s impact on jobs, privacy, and other aspects of life, data centers consume vast amounts of electricity and water. New York has passed a moratorium on new data centers; fourteen other states have considered restrictions. The Vermont senator Bernie Sanders is taking this fight to the national level. He and Representative Alexandria Ocasio-Cortez have introduced legislation that calls for a nationwide moratorium on data centers to allow time for more research and public input on the issue. The furor, Sanders tells David Remnick, cuts across political divisions. The opponents “are conservatives, they are progressives, they are moderates,” he adds. “They’re saying, What the hell are we doing? What is this gonna contribute to? Is this gonna result in my kid not being able to have a job? Is this gonna result in my not having any privacy? Why am I aiding these large corporations owned by the wealthiest people in the world who [couldn’t] care less about me? Let’s stand up.” Further reading and listening: “ When Bernie Sanders Headed for the Hills ,” by Jill Lepore “ Bernie Sanders and Alexandria Ocasio-Cortez Fight the Oligarchy ,” by Emily Witt “ Geoffrey Hinton: ‘It’s Far Too Late’ to Stop Artificial Intelligence ,” an episode of The New Yorker Radio Hour New episodes of The New Yorker Radio Hour drop every Tuesday and Friday. Join host David Remnick as he discusses the latest in politics, news, and current events in conversation with political leaders, newsmakers, innovators, New Yorker staff writers, authors, actors, and musicians. The New Yorker Radio Hour is a co-production of WNYC and The New Yorker. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:26:27",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "6124b1f4c7ccb16a8ef273f5",
+        "score": 55,
+        "tier": "digest",
+        "reason": "Highlights political resistance to AI data centers, relevant for understanding regulatory headwinds.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "ec60400b8c2b863e1da97777",
+      "show_name": "Stratechery",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "2026.33: The CapEx Train Keeps Rolling",
+      "link": "https://stratechery.com/2026/the-capex-train-keeps-rolling/",
+      "published": "2026-08-14T17:00:00+00:00",
+      "summary": "The best Stratechery content from the week of August 10, 2026, including the capital constraint, AI writing, and a tale of two cities.",
+      "duration": "",
+      "old_score": 34,
+      "old_label": "skip",
+      "qwen": {
+        "id": "ec60400b8c2b863e1da97777",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Discusses AI writing and capital constraints, both relevant to DJ's focus on AI and business models.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "2c50473307bea34b65df43a9",
+      "show_name": "RenMac",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "RenMac Off-Script: Total Eclipse of the Hike",
+      "link": "https://podcasters.spotify.com/pod/show/renmac-it/episodes/RenMac-Off-Script-Total-Eclipse-of-the-Hike-e3ndl13",
+      "published": "2026-08-14T16:51:39+00:00",
+      "summary": "RenMac breaks down a July inflation picture that isn't cooperating (softer CPI, firmer PPI, and core PCE annualizing near 2.5%), and why the bond market is under-pricing the risk of a September hike. The team also discusses slowing consumer spending after a weak retail sales print, a tape where the trend holds in the face of the momentum unwind and the Leopold rebound, the Credit Card Competition Act's path onto the Clarity Act, AOC's rise in the betting markets, and the week ahead in Fed minutes.",
+      "duration": "00:45:41",
+      "old_score": 28,
+      "old_label": "skip",
+      "qwen": {
+        "id": "2c50473307bea34b65df43a9",
+        "score": 60,
+        "tier": "digest",
+        "reason": "Inflation and Fed policy insights useful for macroeconomic context.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "3873d3e9821ee0fcf0b1b64b",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: August 14th, 2026 (Podcast)",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-august-14th-2026-podcast",
+      "published": "2026-08-14T16:17:14+00:00",
+      "summary": "Featuring: Julian Emanuel, Chief Equity & Quantitative Strategist, Evercore ISI Nick Setyan, Senior Analyst, Mizuho Securities Robert DeNault, Head of Enforcement, Kalshi See omnystudio.com/listener for privacy information.",
+      "duration": "1519",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "3873d3e9821ee0fcf0b1b64b",
+        "score": 35,
+        "tier": "scan",
+        "reason": "General market commentary; not highly differentiated or deep.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "0c2f0fef07d653d1ab3b9a89",
+      "show_name": "Dishcast with Andrew Sullivan",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "low",
+      "title": "John O'Sullivan On Conservatism And Trump",
+      "link": "https://andrewsullivan.substack.com/p/john-osullivan-on-conservatism-and",
+      "published": "2026-08-14T16:17:10+00:00",
+      "summary": "This is a free preview of a paid episode. To hear more, visit andrewsullivan.substack.com (The full Dish is on vacation until Friday, September 4. This week’s episode was recorded on July 21.) John is a journalist and political commentator. He’s the founder and president of the Danube Institute, the international editor of Quadrant Magazine, associate editor of the Hungarian Review, former editor of National Review, a fellow of the National Review Institute, and editor-at-large of National Review. He’s the author of several books, including Sleepwalking Into Wokeness . For two clips of the episode — on falling birth rates and immigration, and comparing Thatcher and Reagan — head to our YouTube page . Other topics: growing up Catholic in Liverpool; his working-class parents; his dad on a hospital ship for D-Day; stories of John working closely with Thatcher; both of us British editors of US magazines in the early ‘90s; covering The Bell Curve ; the Cold War and defeating the Soviets; muscular liberalism; Tony Blair and his tensions with Bush; what it means to be a conservative liberal; cosmopolitanism; the meaning of Englishness; oikophobia; multiculturalism; the World Cup; Trump and the Greenland threat; the Dem threat to democracy via institutions; the post-liberal left; Deneen and the post-liberal right; Trump getting Europe to bolster its own security; Ukraine; the Iran War and the nuclear threat; Trump’s character; the future of the GOP; AI and automation; Brits on the dole; the grooming gangs; Andy Burnham; premarital sex; how women civilize men; and the divorce rates among gays, lesbians, and straights. Browse the Dishcast archive for an episode you might enjoy. Coming up: Azam Ahmed on terrifying new drugs, Emily Eakin on postmodernism, and Arianna Huffington on anything but politics. Please send any guest recs, dissents, and other comments to dish@andrewsullivan.com .",
+      "duration": "3523",
+      "old_score": 0,
+      "old_label": "skip",
+      "qwen": {
+        "id": "0c2f0fef07d653d1ab3b9a89",
+        "score": 25,
+        "tier": "skip",
+        "reason": "Political commentary with limited relevance to DJ's focus areas.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "f751b37bde2e7e9e1a871f64",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Mark Zuckerberg has an Instagzam",
+      "link": "",
+      "published": "2026-08-14T16:15:00+00:00",
+      "summary": "Have you seen Instagram's new logo? Meta debuted it right before we started recording, so of course David and Nilay needed to talk about it. Then, the hosts turn to Mark Zuckerberg's 6,500-word missive on the future of AI, and the problem with his idea that giving AI to everyone will fix everything. After that, it's time for Claude watermarks, Spotify AI personas, Brendan Carr, Flock, and much more. Further reading: ⁠This is Instagram’s new logo | The Verge⁠ ⁠The Pepsi Universe PDF ⁠The Future is for Everyone⁠ ⁠Four takeaways from Mark Zuckerberg’s massive AI manifesto ⁠ ⁠Mark Zuckerberg doesn’t understand how to live ⁠ ⁠https://www.meta.com/design-at-meta/blog/⁠ ⁠Claude will apply invisible watermarks to AI text and images ⁠ ⁠‘If it was opt-in, nobody would opt in.’ ⁠ ⁠Spotify says it won’t recommend music from ‘AI Personas’ ⁠ ⁠Apple could help you prove your iPhone photos aren’t deepfakes | The Verge⁠ ⁠Guitar company D’Addario admits that AI music was used in a promotional video | The Verge⁠ ⁠Fender’s CEO seems to think your bandmates are just analog AI | The Verge⁠ ⁠Suno Unveils Download Song Caps for Free, Paid Tiers⁠ ⁠Brendan Carr is one firing away from an unchecked FCC⁠ ⁠YouTube is making it harder to earn money on YouTube ⁠ ⁠Flock CEO: ‘We got this one wrong’ ⁠ ⁠The first rival Android app store just arrived in the US Play Store ⁠ ⁠ChatGPT and Gemini both just passed 1 billion users ⁠ ⁠The sub-$100 phone market is disappearing. ⁠ Subscribe to The Verge for unlimited access to theverge.com, subscriber-exclusive newsletters, and our ad-free podcast feed. We love hearing from you! Email your questions and thoughts to vergecast@theverge.com or call us at 866-VERGE11. 0:00 Welcome and Parental Leave Announcement 00:43 Instagram Redesigns Their Logo 01:04 Why Companies Change Logos 03:37 Meta Design Blog Quotes 07:22 The 2008 Pepsi Universe Presentation 09:41 Blanding 10:37 Zuck’s AI Manifesto 13:29 Collective Action Problems 18:49 Superintelligence for All 20:57 Cybersecurity and AI Risks 22:22 China Chips and Distillation 27:48 Write the Law Challenge 32:30 Claude Text Watermarking 35:33 How The Watermark Works 39:34 Limits And Evasion Risks 41:54 Apple Marks Real Photos 46:03 Provenance Standards Fail 46:58 AI Music Backlash 49:39 Fender CEO AI Scandal 53:08 Where AI Fits In Music 59:13 Twitch Opt Out Training 01:01:35 The Lightning Round 01:02:55 Brendan Carr is a Dummy 01:04:55 Bans Don’t Work 01:05:56 Made in America Assembly 01:10:19 Gemini Claims a Billion Users 01:15:40 YouTube Partner Paywall 01:20:56 RAMageddon Cheap Phones 01:23:52 Flock Camera Backlash 01:27:19 Goodbyes and Plugs Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "5595",
+      "old_score": 63,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "f751b37bde2e7e9e1a871f64",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Meta's AI strategy and logo changes; some relevance but surface-level discussion.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "468c3064b487f33f07d102f1",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Rising Equities and Bond Yields",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/rising-equities-and-bond-yields",
+      "published": "2026-08-14T14:01:16+00:00",
+      "summary": "The latest in finance, economics and investment. Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF . Bloomberg Surveillance hosted by Tom Keene & Paul SweeneyFriday, August 14th, 2026 Featuring: 1) Priya Misra, Fixed Income Portfolio Manager at JPMorgan Wealth Management, talks the Fed and sticky inflation as well as the 30-year Treasury auction. 2) Sarah Hunt, Chief Market Strategist at Alpine Saxon Woods, talks about the equity melt up and if anything can slow down the rally. 3) Aditya Bhave, Head: US Economics at Bank of America, joins for an extended discussion on the state of the US economy, rates, and growth. 4) Katy Kaminski, Chief Research Strategist at AlphaSimplex, brings us into the market open and talks constructive equities and range bound fixed income. See omnystudio.com/listener for privacy information.",
+      "duration": "1906",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "468c3064b487f33f07d102f1",
+        "score": 40,
+        "tier": "scan",
+        "reason": "Economic updates, but not differentiated enough to prioritize.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "12234c8ab2dd0c248c89211e",
+      "show_name": "My First Million",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "$39B founder says his company could 100x in 5 years",
+      "link": "",
+      "published": "2026-08-14T11:11:00+00:00",
+      "summary": "Sam's database on how long it takes to become a millionaire: https://clickhubspot.com/elft Episode 851: Sam Parr ( https://x.com/theSamParr ) and Shaan Puri ( https://x.com/ShaanVP ) talk to Brett Adcock ( https://x.com/adcock_brett ), the founder of Figure.ai. — Show Notes: (0:00) Intro (3:29) Hark, a human in a box (8:00) zero constraints (17:32) rapid prototyping (21:38) What are the robots doing? (23:45) what about the hype is real? (27:54) finding the best people (30:14) $20M dollar salaries for engineers (32:03) How Zuck is buying his way into AI (35:44) Auditing Brett's 2026 predictions (42:33) reducing your buckets (44:00) show us your home screen (46:17) hitting rock bottom 3x (57:22) who inspires Brett — Links: • Hark - https://hark.com/ • Cover - https://www.cover.ai/ • Figure - https://www.figure.ai/ — Check Out Sam's Stuff: • Hampton (joinhampton.com): My community for founders. Average member does $25m/year. Many of the guests are members. Get after it...apply: http://joinhampton.com/mfm — Check Out Shaan's Stuff: • Shaan's weekly email - https://www.shaanpuri.com • Visit https://www.somewhere.com/mfm to hire worldwide talent like Shaan and get $500 off for being an MFM listener. Hire developers, assistants, marketing pros, sales teams and more for 80% less than US equivalents. • Mercury - Shaan uses Mercury across all of his companies. you can too: http://mercury.com/ Mercury is a fintech company, not an FDIC-insured bank. Banking services provided by Choice Financial Group, Column, N.A., Members FDIC • I run all my newsletters on Beehiiv and you should too + we're giving away $10k to our favorite newsletter, check it out: beehiiv.com/mfm-challenge My First Million is a HubSpot Original Podcast // Brought to you by HubSpot Media // Production by Arie Desormeaux // Editing by Ezra Bakker Trupiano /",
+      "duration": "3636",
+      "old_score": 32,
+      "old_label": "skip",
+      "qwen": {
+        "id": "12234c8ab2dd0c248c89211e",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Discusses AI hype, talent acquisition, and capital allocation in tech startups.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "fe60a9380df38ca969f7283b",
+      "show_name": "Hard Fork",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Zuckerberg’s Anti-Doom Fantasy + Finally an A.I. Detector That Works + A.I. Math",
+      "link": "https://www.nytimes.com/column/hard-fork",
+      "published": "2026-08-14T11:00:00+00:00",
+      "summary": "This week we’re talking about Mark Zuckerberg’s latest essay, “The Future Is for Everyone,” which outlines his positive new vision about the potential of A.I. But do we think it’s credible? Then, Pangram’s chief executive, Max Spero, joins us to talk about the breakout success of his A.I. slop detector. And finally, it’s time for our new segment all about math — we’re Running the Numbers. Guests : Max Spero , chief executive of Pangram Additional Reading: The Future Is for Everyone Meta Unveils an Open Version of Its Most Powerful A.I. Model Meta Ordered to Pay $567 Million in New Mexico Child Safety Case Sick of A.I.-Generated Content? The ‘Slop Janitor’ Is Here to Help. Learning more about Claude's mathematical capabilities Airtable Acquisition Is ‘Kick in the Gut’ for Software Unicorns and Their Backers The Dating Scene That’s Suddenly Dominated by Chip Nerds We want to hear from you. Email us at hardfork@nytimes.com. Find “Hard Fork” on YouTube and TikTok . Subscribe today at nytimes.com/podcasts or on Apple Podcasts and Spotify. You can also subscribe via your favorite podcast app here https://www.nytimes.com/activate-access/audio?source=podcatcher . For more podcasts and narrated articles, download The New York Times app at nytimes.com/app. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "01:03:14",
+      "old_score": 55,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "fe60a9380df38ca969f7283b",
+        "score": 60,
+        "tier": "digest",
+        "reason": "Covers AI ethics, detection tools, and math applications in AI systems.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "d9dfcbd91ff4a6be8f241eb9",
+      "show_name": "Plain English with Derek Thompson",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "It May Be Time to Freak Out About AI",
+      "link": "",
+      "published": "2026-08-14T10:00:00+00:00",
+      "summary": "Today, Derek talks with cybersecurity expert Alex Stamos about a recent wave of alarming AI cyberattacks. For decades, one of the biggest fears about AI has been that the machines will start doing things we didn’t ask them to do. This summer, that fear started to feel a little less like science fiction, as some of the world’s most advanced AI models went off script, broke through security barriers, and found ways to get around the humans overseeing them. Derek and Alex discuss why AI is so good at hacking, what happens when bad actors have their own AI hackers, and what governments, companies, and the rest of us can do to protect ourselves. Subscribe to our YouTube channel here:https://www.youtube.com/@PlainEnglishwithDerekThompson If you have questions, observations, or ideas for future episodes, email us at PlainEnglish@Spotify.com. Host: Derek ThompsonGuest: Alex StamosProducer: Devon BaroldiAdditional Production Support: Ben Glicksman Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "4669",
+      "old_score": 28,
+      "old_label": "skip",
+      "qwen": {
+        "id": "d9dfcbd91ff4a6be8f241eb9",
+        "score": 75,
+        "tier": "listen",
+        "reason": "Critical discussion on AI cybersecurity risks with expert Alex Stamos; high relevance to AI safety and systems integrity.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "f216e98834f13929c7c23516",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Ben Horowitz and Travis Kalanick on Building Again",
+      "link": "https://a16z.simplecast.com/episodes/ben-horowitz-and-travis-kalanick-on-building-again-o4RgblCd",
+      "published": "2026-08-14T10:00:00+00:00",
+      "summary": "Ben Horowitz, Travis Kalanick, and Erik Torenberg take the stage at Atoms' launch event for a candid fireside conversation about entrepreneurship, company building, and why Kalanick believes the next industrial revolution will be powered by AI. They revisit pivotal moments from Uber's history, including the decision not to acquire Lyft, lessons from scaling one of the world's fastest-growing companies, and how Kalanick has evolved as a founder. The conversation also explores Atoms' vision for industrial AI, why software is moving into the physical world, what it takes to build enduring company cultures, and why Kalanick believes the biggest opportunities of the next decade lie in transforming industries like food production, mining, and manufacturing. Resources: Follow Travis Kalanick on X: https://x.com/travisk Follow Ben Horowitz on X: https://x.com/bhorowitz Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:33:37",
+      "old_score": 70,
+      "old_label": "digest_only",
+      "qwen": {
+        "id": "f216e98834f13929c7c23516",
+        "score": 80,
+        "tier": "listen",
+        "reason": "Travis Kalanick and Ben Horowitz discuss AI-driven industrial transformation and entrepreneurship; highly aligned with DJ's interests.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "79bc6a3a3e43d41cba3c4d0e",
+      "show_name": "Ezra Klein Show",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "The Warring Visions of American Power",
+      "link": "https://www.nytimes.com/2026/08/14/opinion/ezra-klein-podcast-linda-kinstler.html",
+      "published": "2026-08-14T09:00:00+00:00",
+      "summary": "We’re in a really strange moment in the foreign policy politics of the Democratic Party. People are looking for an alternative vision — an approach to American power in the world that would feel more moral and just, after the failures of President Biden, and the wrecking ball President Trump has taken to international rules and norms. The answer many on the left are coming to is powerfully simple: international law. America could just start following the rules that we helped write. Is that possible? Is that enough? What would that even look like? To talk through these questions, I invited Linda Kinstler on the show. She’s a member of the Society of Fellows at Harvard, a contributing writer at The New York Times Magazine, and the author of “ Come to This Court and Cry: How the Holocaust Ends .” She’s done some incredible writing and reporting on whether what we’re watching is the death of international law. In this conversation, we talk about the Biden administration’s failures to live up to the principles it set for itself, the Trump administration’s campaign to destroy the International Criminal Court and what it would take to reinvigorate international law. Mentioned: “Are we witnessing the death of international law?” by Linda Kinstler “ Abdul El-Sayed, U.S. Senate candidate, on AIPAC and Israel ” by Detroit Free Press Opinion Staff Book Recommendations: The Divided City by Nicole Loraux Crossing the Red Line by Akbar Shahid Ahmed Under Water by Tara Menon Thoughts? Guest suggestions? Email us at ezrakleinshow@nytimes.com. You can find the transcript and more episodes of “The Ezra Klein Show” at nytimes.com/ezra-klein-podcast. Book recommendations from all our guests are listed at https://www.nytimes.com/article/ezra-klein-show-book-recs.html This episode of “The Ezra Klein Show” was produced by Jack McCordick. Fact-checking by Kelsey Lannin, with Michelle Harris. Our senior engineer is Jeff Geld, with additional mixing by Aman Sahota and Johnny Simon. Our recording engineer is Aman Sahota. Cinematography by Marina King. Video editing by Steph Khoury and Arpita Aneja. Our executive producer is Claire Gordon. The show’s production team also includes Marie Cascione, Annie Galvin, Rollin Hu, Kristin Lin, Emma Kehlbeck and Jan Kobal. Original music by Pat McCusker. Audience strategy by Shannon Busta. The director of New York Times Opinion Shows is Annie-Rose Strasser. Subscribe today at nytimes.com/podcasts or on Apple Podcasts and Spotify. You can also subscribe via your favorite podcast app here https://www.nytimes.com/activate-access/audio?source=podcatcher . For more podcasts and narrated articles, download The New York Times app at nytimes.com/app. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:54:15",
+      "old_score": 0,
+      "old_label": "skip",
+      "qwen": {
+        "id": "79bc6a3a3e43d41cba3c4d0e",
+        "score": 35,
+        "tier": "scan",
+        "reason": "Foreign policy discussion with limited direct relevance to DJ's focus areas.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "1600b181aa7cedbf07549f13",
+      "show_name": "NYT Book Review",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "low",
+      "title": "This Reporter Can Tell Us What Nuclear Apocalypse Looks Like (Encore)",
+      "link": "https://www.nytimes.com/column/book-review-podcast",
+      "published": "2026-08-14T09:00:00+00:00",
+      "summary": "Imagine, if you will, that for unknown reasons North Korea has just launched a nuclear bomb at the United States. What happens next? The journalist Annie Jacobsen has imagined exactly that, and spent more than a decade interviewing dozens of experts while mastering the voluminous literature on the subject — some of it declassified only in recent years — for her 2024 book “Nuclear War: A Scenario,” which walks readers through the 72 minutes from launch to global annihilation. In the Book Review, Barry Gewen said the book was “gripping” and declared it essential reading “if you want to understand the complex and disturbing details that go into a civilization-destroying decision.” Jacobsen now has another book out: “Biological War: A Scenario.” Our critic Dwight Garner wrote in his review that it “moves like a meteor.” For this week’s episode, we revisit the conversation the host Gilbert Cruz had with Jacobsen last year, in which she discussed why she wrote “Nuclear War,” and how she managed to compile so many details about topics that are among the most secret in the world. Subscribe today at nytimes.com/podcasts or on Apple Podcasts and Spotify. You can also subscribe via your favorite podcast app here https://www.nytimes.com/activate-access/audio?source=podcatcher . For more podcasts and narrated articles, download The New York Times app at nytimes.com/app. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:45:29",
+      "old_score": 4,
+      "old_label": "skip",
+      "qwen": {
+        "id": "1600b181aa7cedbf07549f13",
+        "score": 30,
+        "tier": "skip",
+        "reason": "Nuclear apocalypse scenario; dramatic but not actionable for DJ's focus.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "d7080093d3afd668ff5c4348",
+      "show_name": "Sharp Tech",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "(Preview) Nvidia’s Answer to Capital Constraints, Google’s Attrition and Direction, Q&A on AI Writing, Vision Pro, Vibe Coding",
+      "link": "https://sharptech.fm/member/episode/preview-nvidias-answer-to-capital-constraints-googles-attrition-and-direction-q-a-on-ai-writing-vision-pro-vibe-coding",
+      "published": "2026-08-14T08:59:41+00:00",
+      "summary": "Ben and Andrew begin with Nvidia’s announcements of a new funding model for AI infrastructure, including the differences and similarities with railroad expansion 150 years ago, why LLMs were a gift and curse to Nvidia’s business, the pressure on Nvidia coming from Google and Amazon, and the expanded blast radius as Nvidia works to mobilize third party funding. From there: Why the turnover at Google may actually be a good sign for Google’s frontier efforts, and extended thoughts the future of AI-generated output, ideas and substantiation, and Anthropic’s plan to watermark outputs. At the end: A question about the Vision Pro, the obstacles for Starlink Mobile, and a cranky emailer yields a clarifying answer on why Ben is excited about his vibe coded app.",
+      "duration": "00:26:49",
+      "old_score": 36,
+      "old_label": "skip",
+      "qwen": {
+        "id": "d7080093d3afd668ff5c4348",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Discusses Nvidia's infrastructure funding, Google attrition, and AI writing implications.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "070972a5d059975a2ee32f11",
+      "show_name": "The Meb Faber Show",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Luke Gromen: The Bull Market That Loses You Money | #645",
+      "link": "",
+      "published": "2026-08-14T08:31:00+00:00",
+      "summary": "Today’s guest is Luke Gromen, founder of the macro research firm Forest for the Trees, or FFTT. In today's episode, Luke argues that free trade is dead, and the US is pivoting to Hamiltonian economics: tariffs, reshoring, and a neutral reserve asset. He explains why the US Treasury can no longer be the world's reserve asset, why long bonds have become certificates of confiscation, and why gold belongs in every portfolio. To close, Luke explains why AI has become a snake eating its own tail on the government's tax base. (0:00) Introduction (2:38) The Stupid Washington Consensus and Hamiltonian Economics (9:14) Portfolio positioning and real rates in the current regime (15:19) Sponsor: Upwork (16:17) Importance of real returns and gold (21:18) US fiscal challenges and bond market outlook (27:21) Gold performance, allocation strategies, and diversification (35:09) Evaluating non-US equity markets and sectors (40:54) Investing in electricity and industrials (45:11) Risks, competition, and national security in the AI sector ----- Sponsor: Upwork is the world's largest human and AI-powered freelance marketplace to hire top talent—trusted by businesses and professionals worldwide. Follow Meb on⁠ X⁠,⁠ LinkedIn⁠ and⁠ YouTube⁠ For detailed show notes, click ⁠here⁠ To learn more about our funds and follow us, subscribe to our ⁠mailing list⁠ or visit us at⁠ cambriainvestments.com⁠ ----- Follow The Idea Farm: ⁠X⁠ | ⁠LinkedIn⁠ | ⁠Instagram⁠ | ⁠TikTok⁠ ----- Interested in sponsoring the show? Email us at Feedback@TheMebFaberShow.com ----- Past guests include ⁠Ed Thorp⁠, ⁠Richard Thaler⁠, ⁠Jeremy Grantham⁠, ⁠Joel Greenblatt⁠, ⁠Campbell Harvey⁠, ⁠Ivy Zelman⁠, ⁠Kathryn Kaminski⁠, ⁠Jason Calacanis⁠, ⁠Whitney Baker,⁠ ⁠Aswath Damodaran⁠, ⁠Howard Marks⁠, ⁠Tom Barton⁠, and many more. ----- Meb's invested in some awesome startups that have passed along discounts to our listeners. Check them out ⁠here⁠! ----- Editing and post-production work for this episode was provided by The Podcast Consultant (⁠https://thepodcastconsultant.com⁠).",
+      "duration": "3222",
+      "old_score": 67,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "070972a5d059975a2ee32f11",
+        "score": 60,
+        "tier": "digest",
+        "reason": "Macroeconomic insights on trade, gold, and AI's impact on taxation.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "be49ccd7dbd63c95c4ebf64d",
+      "show_name": "Odd Lots",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "A Historic El Niño Is Coming That Could Cost the World Trillions",
+      "link": "https://omny.fm/shows/odd-lots/a-historic-el-ni-o-is-coming-that-could-cost-the-world-trillions",
+      "published": "2026-08-14T08:00:00+00:00",
+      "summary": "Every few years, weather nerds and agriculture analysts will talk about an upcoming El Niño, and then they mostly pass by with relatively few headlines. But sometimes El Niños end up being massively destabilizing -- leading to devastating droughts, flooding, and other catastrophes. And this year's emerging El Niño could end up being one of the big ones, with forecasters predicting record-breaking intensity. But what exactly is an El Niño, and what does it mean that this year's could be so big? On this episode, we speak with Justin Mankin, professor of geography at Dartmouth and director of the Climate Modeling and Impacts Group. We discuss the forecasting of El Niños, and why they can lead to large and long-lasting economic damage. Read more: Super El Niño Will Give Us a Glimpse of Life in 2035 Heat Wave and World Cup Hand UK Economy a Surprise Boost Only http://Bloomberg.com subscribers can get the Odd Lots newsletter in their inbox each week, plus unlimited access to the site and app. Subscribe at bloomberg.com/subscriptions/oddlots Subscribe to the Odd Lots Newsletter Join the conversation: discord.gg/oddlots See omnystudio.com/listener for privacy information.",
+      "duration": "3353",
+      "old_score": 0,
+      "old_label": "skip",
+      "qwen": {
+        "id": "be49ccd7dbd63c95c4ebf64d",
+        "score": 50,
+        "tier": "scan",
+        "reason": "El Niño's economic impact is relevant but tangential to DJ's core focus.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "0dc68987f0378882f7951797",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "The Week: The Half-Trillion-Dollar AI Loop",
+      "link": "",
+      "published": "2026-08-14T08:00:00+00:00",
+      "summary": "George Hahn connects the dots across the week’s biggest stories: why Nvidia is helping finance the customers buying its chips, what a weak jobs report reveals about the American economy, and how technology is reshaping our relationships. Plus, Scott and Jess discuss America’s declining power and what it takes to build a capitalism that works for the middle class. We’d love your feedback as we build this show! Let us know what you think: info@profgmedia.com. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "1137",
+      "old_score": 28,
+      "old_label": "skip",
+      "qwen": {
+        "id": "0dc68987f0378882f7951797",
+        "score": 45,
+        "tier": "scan",
+        "reason": "General economic and tech commentary; not deeply differentiated.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "52d05816f36cd518fbe50a6a",
+      "show_name": "The James Altucher Show",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Mike Massimino: Why Failure Couldn't Keep this Astronaut from Outer Space [From the Archive]",
+      "link": "https://art19.com/shows/the-james-altucher-pod/episodes/85fea1eb-16cb-43bd-961c-699ce9131a45",
+      "published": "2026-08-14T07:00:00+00:00",
+      "summary": "Episode Description: Mike Massimino’s path to space was not a straight line. It was a long series of obstacles, failures, second attempts, and decisions not to quit. In this From the Archive conversation, James talks with Mike about his memoir Spaceman , his two shuttle missions to service the Hubble Space Telescope, his career at NASA, his work at Columbia, and the deeper lessons behind becoming an astronaut. Mike explains that spaceflight may look impossibly complex from the outside, but NASA makes it possible through preparation, checklists, training, repetition, and teamwork. In space, even the hardest work has structure. Back on Earth, ordinary life can sometimes feel harder because there is no checklist for getting through the day. James and Mike talk about the view of Earth from orbit and why Mike’s first reaction after a spacewalk was: “The Earth is a planet.” From space, Earth no longer looks like a safe, permanent background. It looks like a fragile home traveling through a dangerous universe. The conversation then moves back to Mike’s childhood. He watched Neil Armstrong walk on the moon and saw the New York Mets win the World Series in 1969, but he did not believe becoming an astronaut was realistic. Astronauts seemed like superheroes. It felt like something other people did. Still, the dream stayed with him. Mike describes failing his PhD qualifying exam at MIT, being told he might not be suited for the program, and deciding to try again anyway. He talks about applying to NASA four times, being rejected, failing the medical exam because of his eyesight, and then doing the seemingly impossible: training his eyes to pass the standard without surgery. For James, this becomes the central lesson. Most people would have accepted medical disqualification as proof that the dream was over. Mike saw it as another obstacle. The episode also explores what “the right stuff” really means. Mike pushes back against the old image of the astronaut as a lone, fearless test pilot. The real right stuff, he says, is whether someone can be trusted with your life. Can they work on a team? Will they help when you need help? Will they ask for help when they need it? Near the end, James identifies another pattern in Mike’s life: he may not have been the best at any single thing, but he became unusually good at a combination of things. Astronaut. Engineer. Spacewalker. Teacher. Communicator. Author. Public face for science. That combination made him uniquely valuable. The result is a conversation about space, but also about persistence, meaning, teamwork, and the improbable path from childhood dream to real achievement. Editorial Note: This is a From the Archive episode. References to NASA programs, the Space Launch System, Orion, Commercial Crew, SpaceX, Boeing, Blue Origin, Virgin Galactic, the shuttle program, and Mike’s recent book activity reflect the original recording period. What You’ll Learn: Why astronauts rely so heavily on checklists, procedures, training, and team support. How the view of Earth from space changed Mike Massimino’s relationship to the planet. Why Mike believes life likely exists somewhere else in the universe. What the Hubble Deep Field revealed about galaxies hiding in a seemingly empty patch of sky. Why childhood dreams can matter even when they seem impossible. How Mike decided which dreams were worth paying the price to pursue. Why failing at MIT did not end his path to NASA. How he handled repeated NASA rejections. Why failing the astronaut eye exam became one of the defining obstacles of his life. How Mike trained his eyes to pass NASA’s vision requirements. Why the most successful people are not people who never fail. What “the right stuff” means beyond bravery, intelligence, or physical ability. Why teamwork, trust, and character matter so much in spaceflight. How imposter syndrome can change when you understand your role on a team. Why the odds only become zero when you give up. How private space companie",
+      "duration": "01:06:34",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "52d05816f36cd518fbe50a6a",
+        "score": 45,
+        "tier": "scan",
+        "reason": "Interesting story but light on market insight or operational framework for DJ's focus.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "9aa2d81cb2800897d9230f08",
+      "show_name": "The Cognitive Revolution",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Lindy Teammate: Flo Crivello on Multiplayer Agents, Memory & Why He'd Ban the Chinese Models He Uses",
+      "link": "https://www.cognitiverevolution.ai/lindy-teammate-flo-crivello-on-multiplayer-agents-memory-why-he-d-ban-the-chinese-models-he-uses/",
+      "published": "2026-08-14T06:26:00+00:00",
+      "summary": "Flo Crivello returns to The Cognitive Revolution to launch Lindy Teammate, an AI employee that lives in Slack, connects to company tools, and accumulates a team’s shared context. He argues that multiplayer AI matters because intelligence without context is less useful than an ordinary coworker, and explains Lindy’s approach to agentic memory, editable file systems, context buckets, and large-scale tool outputs. The episode also examines the costs and operating realities of building for the next generation of models, from negative gross margins and cache rates to Lindy’s own dogfooding in engineering workflows. The stakes are whether AI workers become drop-in teammates, how long humans are still needed to cover model mistakes, and what happens when engineers spend more time managing the machines that do the work. Lindy: https://go.lindy.ai/CognitiveRevolution For full show notes, links, and references, read the episode page:https://www.cognitiverevolution.ai/lindy-teammate-flo-crivello-on-multiplayer-agents-memory-why-he-d-ban-the-chinese-models-he-uses/ Sponsor: Claude: Claude by Anthropic is an AI collaborator that understands your workflow and helps you tackle research, writing, coding, and organization with deep context. Get started with Claude and explore Claude Pro at https://claude.ai/tcr CHAPTERS: (00:00) About the Episode (02:56) Lindy Teammate launch (10:07) Agentic memory systems (Part 1) (19:58) Sponsor: Claude (21:28) Agentic memory systems (Part 2) (22:21) Reliability and caching (34:57) Slack data scaling (40:57) Memory retrieval tricks (48:16) Agent infrastructure choices (55:41) Company operations automate (01:03:34) Centaur era ideas (01:12:43) AI native organizations (01:17:59) Open-source model stack (01:27:39) Prompting and fine-tuning (01:38:03) Chinese model bans (01:45:09) Fairness and threat models (01:53:39) Audits and diplomacy (02:01:59) Episode Outro (02:05:18) Outro PRODUCED BY: https://aipodcast.ing SOCIAL LINKS: Website: https://www.cognitiverevolution.ai Twitter (Podcast): https://x.com/cogrev_podcast Twitter (Nathan): https://x.com/labenz LinkedIn: https://linkedin.com/in/nathanlabenz/ Youtube: https://youtube.com/@CognitiveRevolutionPodcast Apple: https://podcasts.apple.com/de/podcast/the-cognitive-revolution-ai-builders-researchers-and/id1669813431 Spotify: https://open.spotify.com/show/6yHyok3M3BjqzR0VB5MSyk",
+      "duration": "7613",
+      "old_score": 49,
+      "old_label": "skip",
+      "qwen": {
+        "id": "9aa2d81cb2800897d9230f08",
+        "score": 82,
+        "tier": "listen",
+        "reason": "Covers multiplayer AI agents, operational context, and model economics relevant to AI platform strategy.",
+        "confidence": "high"
+      }
+    }
+  ]
+}

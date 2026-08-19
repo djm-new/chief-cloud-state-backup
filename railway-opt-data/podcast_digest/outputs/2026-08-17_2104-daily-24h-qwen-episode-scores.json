@@ -1,0 +1,271 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-08-17_2104",
+  "usage": {
+    "prompt_tokens": 4368,
+    "completion_tokens": 1052,
+    "total_tokens": 5420
+  },
+  "episodes": [
+    {
+      "id": "97f1d408c4ea5cdaf1ca392f",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "The Digital Doctor will see you now",
+      "link": "",
+      "published": "2026-08-17T19:11:00+00:00",
+      "summary": "A few years ago, Leo Mastrolia started a gadget repair shop. Little did he know he’d eventually become known across the internet as The Digital Doctor, and would learn to fix practically every gadget you can think of. On this episode, which is part one of our conversation with Leo, he tells us about his journey as a gadget fixer, the growth of his social channels, and how right-to-repair fights and upgrade cycles are affecting life in his store. Further reading: ChatGPT’s Computer History tracks your clicks and keystrokes Amazon is trying to crush class action suits before they get started Uber partners with Zipline on Eats drone deliveries Disney D23 2026: Everything announced for Star Wars, Marvel, and more Digital Doctor Repairs on YouTube Subscribe to The Verge for unlimited access to theverge.com, subscriber-exclusive newsletters, and our ad-free podcast feed. We love hearing from you! Email your questions and thoughts to vergecast@theverge.com or call us at 866-VERGE11. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "2232",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "97f1d408c4ea5cdaf1ca392f",
+        "score": 30,
+        "tier": "scan",
+        "reason": "Gadget repair story with potential tangential relevance to hardware trends, but low direct value to DJ's focus areas.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "c8448415e889d85ddad109b5",
+      "show_name": "The Twenty Minute VC",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "20VC: Uber President on The Untold Uber Stories: Travis, China and Self-Driving | Why Autonomy Is Existential | How to Beat DoorDash to #1 in Food with Andrew MacDonald",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-uber-president-on-budgeting-ai-at-uber-how-ai-helps-and-hurts-uber-why-autonomy-is-existential-how-to-beat-doordash-to-1-in-food-the-untold-stories-of-travis-kalanick-dara-khosrowshahi-and-china-with-andrew-macdonald",
+      "published": "2026-08-17T16:04:00+00:00",
+      "summary": "Andrew Macdonald (Mac) is the longest-serving employee at Uber. Today, he is the President and COO. No one on the planet has spent more time mastering ride-sharing than Mac. Uber now does 300M rides per week, has 200M users, and is one of the most recognised brands on the planet. Mac never does interviews and so this was a rare look behind the scenes at the Uber machine. AGENDA: 05:39 – How was Mac the only survivor from the Travis era? 10:39 – How does Uber decide what to include in Uber One membership? 11:45 – How does Uber decide which new products to pursue? 16:08 – What does Uber need to do to reach 500 million users? 20:37 – Why Uber was right to focus on its core business and divest autonomy? 24:08 – Why India and Brazil will delay Uber's autonomous future? 28:34 – The craziest story from Uber's battle in China 29:27 – Why Travis Kalanick believed money was the moat? 31:17 – Was Uber structurally disadvantaged in China from day one? 35:48 – Inside Uber's SWAT team of its 30 best AI engineers 37:55 – How companies need to extract real efficiency from AI? 42:00 – Will Uber have more or fewer employees in five years? 43:52 – Will companies that do not work with frontier models be disaggregated? 46:02 – Will AI agents disaggregate Uber's interface and customer relationship? 48:26 – Why Brian Chesky was right: chat is not the best interface for everything 55:52 – Why it is bullshit to say DoorDash would not be number one if Travis were still CEO 59:13 – The single biggest lesson from Travis Kalanick 1:00:07 – The second biggest lesson from Travis Kalanick",
+      "duration": "01:06:36",
+      "old_score": 81,
+      "old_label": "digest_only",
+      "qwen": {
+        "id": "c8448415e889d85ddad109b5",
+        "score": 85,
+        "tier": "listen",
+        "reason": "Uber President provides rare insight into strategic decisions, autonomy, and global market dynamics—high relevance to operator and capital allocation thinking.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "10fb19cb30625926be317b20",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: August 17th, 2026 (Podcast)",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-august-17th-2026-podcast",
+      "published": "2026-08-17T16:00:00+00:00",
+      "summary": "Featuring: Lori Calvasina, Head of US Equity Strategies, RBC Ed Mills, Raymond James Managing Director/Washington Policy Analyst Neil Dutta, Head of US Economic Research, Renaissance Macro Research See omnystudio.com/listener for privacy information.",
+      "duration": "1421",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "10fb19cb30625926be317b20",
+        "score": 45,
+        "tier": "digest",
+        "reason": "Market-focused panel with potential macro insights, but lacks specific AI or operational depth for listen tier.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "89c440221d413c2d66372d1c",
+      "show_name": "Eye on AI",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Why People Are Paying 10x More for AI - and What That Means for the Chip Market | Sid Sheth, d-Matrix",
+      "link": "https://aneyeonai.libsyn.com/why-people-are-paying-10x-more-for-ai-and-what-that-means-for-the-chip-market-sid-sheth-d-matrix",
+      "published": "2026-08-17T15:25:00+00:00",
+      "summary": "The AI chip market looks monolithic from the outside - NVIDIA dominates, and everyone else is fighting for scraps. But d-Matrix's CEO Sid Sheth argues that the market is quietly splitting into two distinct tiers, and the one that's exploding right now is the one NVIDIA's architecture isn't built for. In this episode, Sid joins Craig Smith to explain the \"premium token economy\": a new class of AI inference where interactivity is the product, users pay ten times more per million tokens for instant responses, and the memory bandwidth limits of GPU-based systems create a structural ceiling that purpose-built architectures don't have. The conversation is unusually candid about what AI actually looks like at the executive level: Sid describes using Claude as a sounding board for M&A strategy, producing full integration plans in 15 minutes that used to require entire banking advisory teams, and watching AI shift from a tool that echoed his ideas back at him to one that genuinely disagrees, flags what he missed, and pushes back with enough confidence to be useful. He also makes the case that we're at the beginning of a shift from individual agents to what he calls \"organizational AI\" - teams of agents running entire company functions at a high level of abstraction - and that the infrastructure bet d-Matrix is making positions them directly in the path of that wave. Subscribe to Eye on A.I. for weekly conversations with the people building and deploying the future of AI.",
+      "duration": "50:46",
+      "old_score": 46,
+      "old_label": "skip",
+      "qwen": {
+        "id": "89c440221d413c2d66372d1c",
+        "score": 90,
+        "tier": "listen",
+        "reason": "CEO of d-Matrix offers rare insight into AI inference economics, token pricing, and executive AI tool usage—highly relevant to platform and business model thinking.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "983eb7bc38d9da2b7556d811",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Oil Edges Higher With Hormuz Risks and Lebanon Tensions in Focus",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/oil-edges-higher-with-hormuz-risks-and-lebanon-tensions-in-focus",
+      "published": "2026-08-17T14:15:33+00:00",
+      "summary": "The latest in finance, economics and investment. Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF . Bloomberg Surveillance hosted by Tom Keene & Paul SweeneyMonday, August 17th, 2026 Featuring: 1) Javier Blas, Bloomberg Opinion columnist 2) Dana Peterson, Chief Economist at The Conference Board 3) Mike McGlone, Bloomberg Intelligence commodities analyst 4) Henrietta Treyz, co-founder at Veda Partners See omnystudio.com/listener for privacy information.",
+      "duration": "1955",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "983eb7bc38d9da2b7556d811",
+        "score": 50,
+        "tier": "digest",
+        "reason": "Macro oil and geopolitical update with moderate relevance to market context, but not core DJ focus.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "8059084c6937d8fdcc22c427",
+      "show_name": "My First Million",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "3 strangers showed us how they made $8M, $10M, & $40M/year",
+      "link": "",
+      "published": "2026-08-17T11:07:00+00:00",
+      "summary": "140+ real business ideas database: https://clickhubspot.com/pkst Episode 852: Sam Parr ( https://x.com/theSamParr ) and Shaan Puri ( https://x.com/ShaanVP ) ask 3 founders to tell them the juiciest number behind their businesses and get advice live. — Show Notes: (0:00) Intro (1:31) Raav Gupta, Posha (20:03) Nick Saltarelli, Mid-Day Squares (39:48) Shreyas Parab, DayDream Dental — Links: • Posha - https://www.posha.com/ • Mid-Day Squares - https://www.middaysquares.com/ • DayDream Dental - https://www.daydream.dental/ — Check Out Sam's Stuff: • Hampton (joinhampton.com): My community for founders. Average member does $25m/year. Many of the guests are members. Get after it...apply: http://joinhampton.com/mfm — Check Out Shaan's Stuff: • Shaan's weekly email - https://www.shaanpuri.com • Visit https://www.somewhere.com/mfm to hire worldwide talent like Shaan and get $500 off for being an MFM listener. Hire developers, assistants, marketing pros, sales teams and more for 80% less than US equivalents. • Mercury - Shaan uses Mercury across all of his companies. you can too: http://mercury.com/ Mercury is a fintech company, not an FDIC-insured bank. Banking services provided by Choice Financial Group, Column, N.A., Members FDIC • I run all my newsletters on Beehiiv and you should too + we're giving away $10k to our favorite newsletter, check it out: beehiiv.com/mfm-challenge My First Million is a HubSpot Original Podcast // Brought to you by HubSpot Media // Production by Arie Desormeaux // Editing by Ezra Bakker Trupiano /",
+      "duration": "3660",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "8059084c6937d8fdcc22c427",
+        "score": 35,
+        "tier": "scan",
+        "reason": "Founder stories with potential tactical takeaways, but lacks depth in AI, capital allocation, or durable frameworks.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "255a9d63154f3ebcc9f19ee3",
+      "show_name": "EconTalk",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "The Hidden Cause of the Industrial Revolution (with Ben Southwood)",
+      "link": "https://www.econtalk.org/the-hidden-cause-of-the-industrial-revolution-with-ben-southwood/",
+      "published": "2026-08-17T10:30:00+00:00",
+      "summary": "What if the Industrial Revolution wasn't sparked by the steam engine, but by a quiet legal revolution in how England handled property rights? Ben Southwood of Works in Progress argues that the Glorious Revolution of the 1680s unleashed British growth by empowering a Parliament composed of landowners who simplified their own tangled, inefficient property rights. Through thousands of case-by-case acts, they freed up land for investment, consolidated inefficient farm ownership, and enabled a boom in privately-built roads, canals, and navigable rivers that created national markets. Along the way you'll learn why roads once moved at 1.5 miles per hour, and how these centuries-old lessons about buying off holdouts might solve today's housing and infrastructure gridlock.",
+      "duration": "01:13:36",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "255a9d63154f3ebcc9f19ee3",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Historical analysis of property rights and growth with potential parallels to modern infrastructure and AI development.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "0920504a12558852228abbdf",
+      "show_name": "Stratechery",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "Stripe Acquiring OpenRouter, Aggregating AI?, Flipping the Business Model",
+      "link": "https://stratechery.com/2026/stripe-acquiring-openrouter-aggregating-ai-flipping-the-business-model/",
+      "published": "2026-08-17T10:00:00+00:00",
+      "summary": "Stripe is reportedly acquiring OpenRouter, an implicit bet on a future market of models and the chance at Aggregation.",
+      "duration": "",
+      "old_score": 38,
+      "old_label": "skip",
+      "qwen": {
+        "id": "0920504a12558852228abbdf",
+        "score": 80,
+        "tier": "listen",
+        "reason": "Stripe acquiring OpenRouter signals strategic AI model aggregation move—important for platform and business model implications.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "37603cb340fff9514a0aa345",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Stripe’s AI Strategy: Build More, Not Less",
+      "link": "https://a16z.simplecast.com/episodes/stripes-ai-strategy-build-more-not-less-0w7FfhZZ",
+      "published": "2026-08-17T10:00:00+00:00",
+      "summary": "a16z General Partner David George is joined by Will Gaybrick, President of Product & Business at Stripe, to discuss how AI is changing the way Stripe builds products, organizes teams, and thinks about the future of internet commerce. Stripe has evolved from a payments company into a multi-product financial infrastructure platform, while a new generation of AI companies is growing and monetizing faster than previous software cohorts. Will explains why Stripe sees AI productivity as an opportunity to build more rather than simply cut costs, including how its internal coding agents now generate thousands of pull requests each week. They discuss creating founder-like agency inside large companies, building smaller and flatter teams, and why Stripe believes dramatically more software will be created as the cost of building continues to fall. They also look ahead to agentic commerce, why checkout pages could disappear, the potential return of micropayments, stablecoins as infrastructure for a global economy, and a future where AI agents increasingly buy software and services from other machines. Resources: Follow Will Gaybrick on LinkedIn: https://www.linkedin.com/in/william-gaybrick-5730347/ Follow Will on X: https://x.com/gaybrick Follow David George on X: https://x.com/DavidGeorge83 Follow Stripe on X: https://x.com/stripe Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:54:36",
+      "old_score": 49,
+      "old_label": "skip",
+      "qwen": {
+        "id": "37603cb340fff9514a0aa345",
+        "score": 85,
+        "tier": "listen",
+        "reason": "Stripe exec discusses AI-driven product evolution, internal coding agents, and future commerce—directly relevant to AI and operational strategy.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "26c2040cd14bb883d845ece4",
+      "show_name": "Decoder with Nilay Patel",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "It's about ethics in journalism, with Ben Smith",
+      "link": "",
+      "published": "2026-08-17T09:00:00+00:00",
+      "summary": "Today I’m talking to Ben Smith, the editor-in-chief of Semafor. Ben ran BuzzFeed News at the height of the Facebook traffic boom, and even wrote a book about it, called Traffic, which he discussed with me on Decoder back in 2023. Semafor, which is only four years old, is now a fast-growing and profitable media company, which makes about half of its revenue from events. So I wanted to talk to Ben about how that all works, and what it feels like to navigate the ethical conflicts that seem to be everywhere in media right now. Links: Jonah Peretti explains why he sold BuzzFeed | Decoder What’s after the social media era in news? | Decoder (2023) Semafor raises $30 Million after first profitable year | The Wrap Semafor’s new AI tool helped boil down its flagship conference | Nieman Lab Semafor launches Silicon Valley & The World | Semafor Semafor takes aim at Davos as events surpass half Its revenue | Adweek Semafor Is Betting Big on 'Anti-Scale' Video | Adweek Semafor wants to be ‘business outlet of record in the Gulf” | Press Gazette Subscribe to The Verge to access the ad-free version of Decoder! Credits: Decoder is a production of The Verge and is part of the Vox Media Podcast Network. Decoder’s producers are Kate Cox and Nick Statt. This episode was edited by Xander Adams. Our Supervising Producer is Greg Ott and our Editorial Director is Kevin McShane. The Decoder music is by Breakmaster Cylinder. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "4282",
+      "old_score": 32,
+      "old_label": "skip",
+      "qwen": {
+        "id": "26c2040cd14bb883d845ece4",
+        "score": 40,
+        "tier": "scan",
+        "reason": "Media ethics and business model discussion—interesting but not central to DJ's focus on AI, capital, or operations.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "1deb5df3a5d3398992d50d53",
+      "show_name": "Capital Allocators",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Best of Pre-Mortem Analysis: Gary Klein",
+      "link": "https://tedseides.libsyn.com/best-of-pre-mortem-analysis-gary-klein",
+      "published": "2026-08-17T08:00:00+00:00",
+      "summary": "This week's Summer Series covers the pre-mortem analysis with its founder, Gary Klein. Gary discovered pre-mortems while working with fighter pilots and wrote a white paper applying the tool to investment analysis alongside Paul Johnson and Paul Sonkin. Please enjoy this discussion of the proper use of pre-mortem analysis with Gary, Paul, and Paul from 2019. Learn more about Capital Allocators University: https://www.capitalallocators.com/capital-allocators-university/ Try ALEX by Admired Leadership: tryalex.admiredleadership.com Learn More Follow Ted on Twitter at @tseides or LinkedIn Subscribe to the mailing list Access Transcript with Premium Membership Editing and post-production work for this episode was provided by The Podcast Consultant ( ⁠ https://thepodcastconsultant.com ⁠ )",
+      "duration": "48:42",
+      "old_score": 44,
+      "old_label": "skip",
+      "qwen": {
+        "id": "1deb5df3a5d3398992d50d53",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Pre-mortem analysis with Gary Klein offers durable decision-making framework relevant to capital allocators and operators.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "3f56c50e3a7949a358d5d9fc",
+      "show_name": "Odd Lots",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "What the OpenAI-Hugging Face Hack Really Tells Us About AI Danger",
+      "link": "https://omny.fm/shows/odd-lots/what-the-openai-hugging-face-hack-really-tells-us-about-ai-danger",
+      "published": "2026-08-17T08:00:00+00:00",
+      "summary": "Scenarios that used to be the domain of sci-fi writers are coming true. We have machines that can talk. We have machines that are capable of ignoring the intent of their creators. And we have machines that are capable of planning and coordinating with other machines to deceive their creators. All of this came together last month, when it was revealed that an unreleased OpenAI model had hacked into the Hugging Face platform in order to obtain answers to an exam it was given. That was alarming enough, but the details that have emerged since then have been even more remarkable. On this episode, we speak with Miles Brundage, a former OpenAI employee who is the founder and executive director of the non-profit AVERI, which pushes for third-party auditing of model-makers and the models themselves. He explains what he learned from the attack and discusses what can plausibly be done to continue building out these models in a safe manner. See omnystudio.com/listener for privacy information.",
+      "duration": "3587",
+      "old_score": 36,
+      "old_label": "skip",
+      "qwen": {
+        "id": "3f56c50e3a7949a358d5d9fc",
+        "score": 70,
+        "tier": "digest",
+        "reason": "AI safety and coordination concerns highlighted by real-world hacking incident—important context for risk and governance.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "1f9597494e0f1061035a0cca",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Is SpaceX Overvalued? + What to Do When You're Not Getting Promoted",
+      "link": "",
+      "published": "2026-08-17T08:00:00+00:00",
+      "summary": "Scott Galloway breaks down whether SpaceX's blockbuster IPO makes Elon Musk a financial genius, then advises a listener on handling a peer's promotion and weighs in on raising a family in a big city. Want to be featured in a future episode? Send a voice recording to officehours@profgmedia.com, or drop your question in the r/ScottGalloway subreddit. Plus, you can now call or text Scott a question at our new Office Hours hotline: ‪(201) 472-3656‬. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "1355",
+      "old_score": 47,
+      "old_label": "skip",
+      "qwen": {
+        "id": "1f9597494e0f1061035a0cca",
+        "score": 25,
+        "tier": "scan",
+        "reason": "General business commentary and advice with low signal for DJ's specific interests.",
+        "confidence": "low"
+      }
+    }
+  ]
+}

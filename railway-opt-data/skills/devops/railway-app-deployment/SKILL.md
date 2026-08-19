@@ -36,6 +36,8 @@ GitHub/Railway auth, repo connection, deploy trigger, domain, and app-route prob
 See `references/standalone-services-and-repo-connection.md` for the repo/service split and connection flow.
 See `references/service-domain-discovery.md` for live-domain lookup and GitHub connection GraphQL snippets.
 See `references/private-gallery-review-apps.md` for secret-link gallery/review apps with shared decisions, activity tracking, and contact sheets.
+See `references/private-gallery-review-apps.md` for secret-link gallery/review apps with shared decisions, activity tracking, and contact sheets.
+See `references/billing-memory-diagnostics.md` for Railway invoice/RAM attribution, Gmail receipt lookup, GraphQL usage queries, and safely deleting unused services/volumes/projects.
 
 1. **Verify local build first**
 
@@ -197,9 +199,11 @@ See `references/private-gallery-review-apps.md` for secret-link gallery/review a
 
    If `railway domain` is empty or unclear, query GraphQL directly for `serviceInstance(...){ domains { serviceDomains { domain syncStatus targetPort } customDomains { ... } } }` and, if needed, create a service domain with `serviceDomainCreate`. See `references/secret-link-domain-discovery.md`.
 
-If GitHub push succeeds but the live service stays on the old commit, inspect `repoTriggers` and latest deployment metadata. A service can be connected to a repo in deployment metadata but have no active repo trigger, so pushes will not auto-deploy. In that case, use `serviceInstanceDeployV2(serviceId:, environmentId:, commitSha:)` with the exact pushed SHA, then poll `deployment(id)` to `SUCCESS` and verify the live route/manifest. Treat missing repo triggers as a deploy-wiring issue, not as proof Railway auth is blocked.
+   If GitHub push succeeds but the live service stays on the old commit, inspect `repoTriggers` and latest deployment metadata. A service can be connected to a repo in deployment metadata but have no active repo trigger, so pushes will not auto-deploy. In that case, use `serviceInstanceDeployV2(serviceId:, environmentId:, commitSha:)` with the exact pushed SHA, then poll `deployment(id)` to `SUCCESS` and verify the live route/manifest. Treat missing repo triggers as a deploy-wiring issue, not as proof Railway auth is blocked.
 
-   Health can return 200 while Railway is still building/deploying a new frontend bundle and the old page assets are still being served. For UI/CSS/Next.js changes, wait until `railway status` no longer shows `Building`/`Deploying`, then verify the actual route HTML and linked CSS/JS contain a unique marker from the change.
+   Before telling DJ access is missing, exhaust local credential discovery: stale Railway/GitHub env vars can coexist with valid tokens in `/opt/data` backups, git credential stores, or OAuth state. Validate candidates with API reads while redacting token values, then push/deploy with `GIT_ASKPASS` or token-authenticated GraphQL/CLI. Only ask the user after checking the durable stores available on the machine.
+
+   Health can return 200 while Railway is still building/deploying a new frontend bundle and the old page assets are still being served. For UI/CSS/Next.js changes, wait until `railway status` no longer shows `Building`/`Deploying`, then verify the actual route HTML and linked CSS/JS contain a unique marker from the change. If the changed UI is behind login, verify an authenticated page rather than the public login screen; use an existing app-supported recovery/backup login path if present, and never print the credential.
 
    Example frontend rollout probe:
 
@@ -238,8 +242,27 @@ restartPolicyType = "ON_FAILURE"
 restartPolicyMaxRetries = 3
 ```
 
+## Cost and cleanup triage
+
+When DJ reports a Railway bill, first distinguish **runtime RAM** from persistent storage/volumes. Stripe receipts may label the largest line item as `Memory (per MB / min)`: that is RAM consumed by running containers over time, not an app intentionally storing data. A quick workflow:
+
+1. Search/read the Railway/Stripe receipt in DJ's Gmail when authorized; Stripe text/plain bodies often include line items such as `Memory (per MB / min)`, `Disk (per GB / min)`, `vCPU`, `Network`, and `Object Storage`.
+2. Query Railway GraphQL `usage(workspaceId:, startDate:, endDate:, measurements:[MEMORY_USAGE_GB], groupBy:[PROJECT_ID,SERVICE_ID])` to map memory spend to projects/services.
+3. Interpret Railway's memory usage metric as time-integrated memory (effectively GB-minutes for the queried interval); divide by interval minutes for approximate average RAM by service.
+4. Check `sleepApplication` and old/stale services. Always-on idle services can be the whole bill even if they store nothing.
+5. For a service DJ explicitly says is unused, remove the whole stack in this order: `serviceDelete(id:, environmentId:)`, then `volumeDelete(volumeId:)`, then `projectDelete(id:)` if the project contains nothing else. Verify with `projects(includeDeleted:true)` that the project has `deletedAt` and no services/volumes.
+
+See `references/railway-billing-cleanup.md` for GraphQL snippets and the OpenClaw cleanup example.
+
 ## Pitfalls
 
+- **Authenticated API token does not prove target-project access.** Direct GraphQL `me` can succeed while `projects` is empty or the target `service(id:)` returns `Not Authorized`. Treat that as wrong workspace/account/scope for the deployment target, not as proof the Railway API is broken. Verify the token can actually see the project/service/environment needed for deploy before trying `railway up` or repo-trigger mutations.
+- **CLI auth and GraphQL auth can diverge.** If `railway whoami` rejects a token but GraphQL `me` succeeds, continue with GraphQL for diagnostics, but do not assume deploy rights exist until the token can read the target project/service.
+- **Deploy verification must use a UI marker for frontend fixes.** A healthy `/api/health` only proves the old or current backend is reachable. For UI changes, compare a visible marker from the change (copy, label, route output, asset content) against the live page or user screenshot before declaring production updated.
+- **Do not call a local commit “done” when push/deploy is blocked.** If git push fails or Railway project access is missing, report the local commit hash and the exact external access gate; do not imply the production app has changed.
+- **Cost audits: distinguish RAM from storage.** Railway invoices may label the large line item as `Memory (per MB / min)`: that is runtime RAM for awake containers over time, not persistent volume storage. Query usage with `MEMORY_USAGE_GB` grouped by `PROJECT_ID,SERVICE_ID`, map IDs back to projects/services, and identify always-on services (`sleepApplication: false`) before blaming volumes. Storage/volume fullness alerts are a separate issue from RAM billing.
+- **Unused-service cleanup can be service + volume + project.** When the user explicitly says a Railway app/service is unused and asks to kill it, verify the exact project/service/volume IDs first, then use GraphQL mutations in safe order: `serviceDelete(id:, environmentId:)`, `volumeDelete(volumeId:)`, and if the project contains nothing else, `projectDelete(id:)`. Re-query with `includeDeleted:true` and verify `deletedAt` plus no services/volumes remain.
+- **Do not escalate solvable Railway/GitHub wiring as a blocker.**
 - **Do not escalate solvable Railway/GitHub wiring as a blocker.** If tokens/access exist, repo connection failures, private/public repo visibility, service domains, auto-deploy triggers, and build/deploy checks should be fixed by the agent. Verify the exact layer with GraphQL/API calls, correct it, and keep moving. Surface only true external-action blockers.
 - **Use the correct Railway GraphQL endpoint before concluding auth is broken.** Prefer `https://backboard.railway.com/graphql/v2` with `Authorization: Bearer <token>` and a browser-like `User-Agent`; if CLI or one endpoint is flaky, confirm with direct GraphQL reads (`me`, `project`, `services`) before declaring an auth problem.
 - **Browserless login is not enough in headless chat environments.** If it waits/spins or expires, switch to `RAILWAY_API_TOKEN`; do not loop.
@@ -271,6 +294,16 @@ restartPolicyMaxRetries = 3
 - **Secrets must be set as Railway variables, not committed.** Keep OAuth tokens/client secrets on persistent volumes or Railway secret storage.
 - **Postgres must be provisioned before Prisma deploy.** `DATABASE_URL` needs to exist in the app service.
 - **Health check path must exist.** Add a simple `/api/health` route before setting `healthcheckPath`.
+
+## Billing / cost investigation
+
+When a user asks why Railway billed for memory, first verify the invoice and usage source before guessing:
+
+- Search Gmail broadly for Railway/Stripe receipts; Railway billing receipts can come from `invoice+statements+...@stripe.com`, not only `@railway.app`.
+- Treat invoice **Memory (per MB / min)** as runtime RAM for running containers, not persistent storage. Convert MB-minutes over the invoice period to average RAM to sanity-check the charge.
+- Use GraphQL `usage(... measurements:[MEMORY_USAGE_GB], groupBy:[PROJECT_ID,SERVICE_ID])` to attribute RAM to specific services, then map IDs back to project/service names.
+- Separately inspect `Disk`, `Object Storage`, and volume-full emails; a volume alert (for example “95% full”) is an operational disk issue, not the same as the memory bill.
+- If the user explicitly says an app is unused and to kill it, delete service → dedicated volume → dedicated project, then verify `deletedAt` and empty services/volumes. See `references/billing-memory-diagnostics.md`.
 
 ## Verification Checklist
 
@@ -304,3 +337,4 @@ Use this section when a deployed app is reachable but users cannot sign in, stay
 - `references/service-domain-discovery.md` — GraphQL snippets for discovering/creating the Railway domain and forcing a deploy from a commit SHA.
 - `references/private-gallery-review-apps.md` — patterns for standalone secret-link gallery review apps: shared server-side decisions, Railway volume persistence, activity tracking, mobile detail UX, and keep/discard contact sheets.
 - `references/auth-recovery.md` — compact web-app login/session recovery notes: inspect auth entry points first, prefer env-backed backup login or reset paths, and verify the session end to end.
+- `references/railway-usage-memory-billing.md` — GraphQL diagnostics for unexpected Railway memory/RAM bills; distinguish runtime RAM from persistent volumes and attribute usage by service.

@@ -196,7 +196,7 @@ Keep the guest/watchlist file as seed examples and calibration anchors, not a cl
 - See `references/weekly-episode-first-digest.md` for DJ's correction that weekly audio must name shows/guests/theses and avoid abstract theme-essay structure.
 - See `references/weekly-audio-quality-calibration.md` for the latest host-dynamic and voice calibration: expert/interlocutor format, Kokoro `af_heart` approved for Maya, Piper/Edge judged too robotic.
 - See `references/local-tts-backends.md` for local backend notes; update with user calibration before treating any local voice as production-ready.
-- Current audio-only finalist path: `/opt/data/venvs/podcast-stt` contains `faster-whisper`/`ctranslate2`; `/opt/data/scripts/podcast_weekly_audio.py` downloads finalist audio, transcribes with `PODCAST_WEEKLY_STT_MODEL` (default `base`), stores transcripts under `/opt/data/podcast_digest/transcripts/`, extracts per-chunk evidence notes with OpenRouter/Qwen, and feeds those notes/excerpts into the weekly script. Leave `PODCAST_WEEKLY_STT_MAX_SECONDS=0` for full production transcription; use a small positive value only for smoke tests.
+- Audio-only finalist transcription is optional and environment-dependent. `/opt/data/scripts/podcast_weekly_audio.py` can download finalist audio, transcribe with `PODCAST_WEEKLY_STT_MODEL` (default `base`), store transcripts under `/opt/data/podcast_digest/transcripts/`, extract per-chunk evidence notes with OpenRouter/Qwen, and feed those notes/excerpts into the weekly script, but first verify the configured STT environment exists. If `/opt/data/venvs/podcast-stt` was pruned to reduce Railway disk usage, recreate it before using local `faster-whisper`/`ctranslate2` rather than assuming it is present. Leave `PODCAST_WEEKLY_STT_MAX_SECONDS=0` for full production transcription; use a small positive value only for smoke tests.
 - Voice calibration update: if Piper sounds robotic, prefer Edge neural voices or a premium cloud TTS. Content structure and host dynamic matter first; but do not assume Piper is better just because it is local. See `references/audio-transcribed-weekly-finalists.md` for the verification gates and pitfalls.
 
 ## Audio production workflow
@@ -218,8 +218,8 @@ Use this path when the user wants to turn a script, outline, article, or weekly 
 - Use distinct, stable voices for recurring speakers; a slight rate/pitch split helps avoid the "single narrator" effect.
 - If the voices still sound mechanical, fix voice identity and dialogue structure first; do not try to polish a bad pairing with more TTS tweaking.
 - Keep successful chunks and retry only the failed chunk if one segment errors.
-   - For local cost-effective production, prefer **Piper** over `edge-tts` when the goal is better-sounding voices without cloud spend.
-   - Use `edge-tts` only as a fallback when local synthesis is unavailable or unacceptably slow.
+   - DJ has judged both Piper and Edge voices too robotic for production-quality recurring audio. Prefer a premium/high-quality configured TTS for final weekly delivery; use Piper/Edge only for cheap drafts or fallbacks and label them as such.
+   - Do not recreate heavyweight local TTS environments casually on Railway. If `/opt/data/venvs/podcast-tts` is absent after disk cleanup, inspect current needs and choose a lightweight or cloud path rather than reinstalling GPU Torch stacks by default.
 
 
 4. **Normalize the spoken script before synthesis.**
@@ -307,7 +307,8 @@ Rules:
 - Do not send emails or external notifications as part of this workflow.
 - Use persistent `/opt/data` locations in DJ's production Hermes/Railway environment for durable state; avoid relying on `/tmp` for long-lived assets.
 - When reporting spend for podcast work, separate Hermes-session spend from direct OpenRouter script spend instead of assuming `spend.db` is complete.
-- For DJ's Telegram Hermes group, production podcast digest outputs belong in **Briefings** (`telegram:-1003956828149:4` as of the current Chief setup). Pipeline failures/health alerts belong in **Alerts** (`telegram:-1003956828149:5`). Experiments/test runs should go to a coding/sandbox topic or stay local until DJ asks to see them.
+- Production podcast digest outputs should live in a **dedicated Telegram channel/topic separate from daily business briefings** once DJ creates/provides it. The current dedicated destination is the Podcast Updates/Digest topic in the Chief Group (`telegram:-1003956828149:7703`). Pipeline failures/health alerts belong in **Alerts**. Experiments/test runs should go to a coding/sandbox topic or stay local until DJ asks to see them.
+- **Do not use `origin` when moving recurring podcast jobs unless the current chat is definitely the podcast topic.** In the common failure mode, DJ is chatting in Briefings while saying he just created a new podcast topic; `origin` would bind jobs to Briefings. Resolve the explicit new topic/thread ID first, then set both daily and weekly podcast jobs to `telegram:<chat_id>:<thread_id>` and verify with cron list.
 - Daily podcast delivery wrappers should be bounded: if collection/discovery is slow, time-box those stages, keep semantic discovery optional or separate, and prefer a partial valid digest over a cron timeout. See `references/podcast-digest-cron-fix.md`.
 
 ### One-time preview run pattern

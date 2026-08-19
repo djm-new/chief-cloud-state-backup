@@ -1,0 +1,131 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-08-08_2104",
+  "usage": {
+    "prompt_tokens": 2479,
+    "completion_tokens": 481,
+    "total_tokens": 2960
+  },
+  "episodes": [
+    {
+      "id": "a551b5da6ea67b62d2c7554d",
+      "show_name": "The Cognitive Revolution",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Thinking in Silico: Goodfire CTO Dan Balsam on Concept Manifolds & a $1000/Month ML Research Agent",
+      "link": "https://www.cognitiverevolution.ai/thinking-in-silico-goodfire-cto-dan-balsam-on-concept-manifolds-a-1000-month-ml-research-agent/",
+      "published": "2026-08-08T20:48:23+00:00",
+      "summary": "Goodfire co-founder and CTO Dan Balsam returns to discuss where interpretability research now stands and to introduce Silico, the $1,000-per-month research platform Goodfire built for itself. He and Nathan explore Predictive Data Debugging, including the idea that fine-tuning and RL often amplify behaviors already latent in pre-training, and that interpretability can identify the data and features driving unwanted updates. The conversation centers on concept manifolds: Dan argues that models do not store concepts as simple one-hot features, but as sparse mixtures of meaningful subspaces whose geometry determines what kinds of steering and control work. The stakes are practical as well as conceptual, from debugging training data and RL to understanding why steering can fail off-manifold and why modern interpretability may be moving beyond its reputation as a toy-model science. Silico: https://www.goodfire.com/silico Predictive data debugging: https://www.goodfire.com/research/predictive-data-debugging# Neural Geometry: https://www.goodfire.com/research/the-world-inside-neural-networks# For full show notes, links, and references, read the episode page:https://www.cognitiverevolution.ai/thinking-in-silico-goodfire-cto-dan-balsam-on-concept-manifolds-a-1000-month-ml-research-agent/ Sponsor: Claude: Claude by Anthropic is an AI collaborator that understands your workflow and helps you tackle research, writing, coding, and organization with deep context. Get started with Claude and explore Claude Pro at https://claude.ai/tcr CHAPTERS: (00:00) About the Episode (03:22) Predictive data debugging (12:36) Concept manifold geometry (21:22) Finding concept manifolds (Part 1) (21:28) Sponsor: Claude (22:57) Finding concept manifolds (Part 2) (33:24) Factoring model internals (49:32) Introducing Silico platform (57:10) Research taste and credits (01:06:19) Silico research use cases (01:16:37) Skills and open models (01:24:57) Guardrails and bio risk (01:32:09) Training interventions and monitoring (01:42:04) Grants and AI consciousness (01:50:41) Episode Outro (01:55:47) Outro PRODUCED BY: https://aipodcast.ing SOCIAL LINKS: Website: https://www.cognitiverevolution.ai Twitter (Podcast): https://x.com/cogrev_podcast Twitter (Nathan): https://x.com/labenz LinkedIn: https://linkedin.com/in/nathanlabenz/ Youtube: https://youtube.com/@CognitiveRevolutionPodcast Apple: https://podcasts.apple.com/de/podcast/the-cognitive-revolution-ai-builders-researchers-and/id1669813431 Spotify: https://open.spotify.com/show/6yHyok3M3BjqzR0VB5MSyk",
+      "duration": "7041",
+      "old_score": 53,
+      "old_label": "skip",
+      "qwen": {
+        "id": "a551b5da6ea67b62d2c7554d",
+        "score": 92,
+        "tier": "listen",
+        "reason": "Goodfire CTO discusses concept manifolds and interpretability with practical implications for steering models.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "8413adf855948e394c9e2f6a",
+      "show_name": "The Twenty Minute VC",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "20VC: The AI Boom Will Create Enormous Roadkill: Who Wins & Loses | Why Founders Should Never Take Multi-Stage Money at Seed | Why Triple, Triple, Double, Double is Good Enough",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-the-ai-boom-will-create-enormous-roadkill-who-wins-loses-why-founders-should-never-take-multi-stage-money-at-seed-why-triple-triple-double-double-is-good-enough",
+      "published": "2026-08-08T12:56:00+00:00",
+      "summary": "David Frankel is one of the great seed investors of our time. As the Co-Founder of Founder Collective he has backed the likes of Uber, Coupang, Suno, PillPack, Airtable, Whoop, Shield AI and many more. In a world of expanding fund sizes, David and Founder Collective are one of the only successful franchises to truly stick to small, boutique funds. AGENDA: 00:00 The Bubbles Are Getting Bigger—and There Will Be a Lot of Roadkill 05:21 The Worst-Performing Funds Will Be the $50M–$100M Seed Funds 25:06 \"We're Greedy for Returns, Not Management Fees\" 30:10 \"Pro Rata Is the Original Sin\" 32:59 \"A $1BN Valuation Is the New Series A\" 46:39 \"I Have Never Seen Secondary Markets This Liquid\" 58:03 Microsoft Has Done a Crappy Job of AI—and Another Dot-Com Crash Is Inevitable 01:08:25 OpenAI and Anthropic Will Be Disrupted—and China Could Do It 01:16:12 \"Anyone Who Claims They Knew Is Full of Shit\" 01:19:56 Our Children Won't Need to Drive—and Chemotherapy Will Look Prehistoric",
+      "duration": "01:25:12",
+      "old_score": 46,
+      "old_label": "skip",
+      "qwen": {
+        "id": "8413adf855948e394c9e2f6a",
+        "score": 80,
+        "tier": "digest",
+        "reason": "Founder Collective's David Frankel offers durable frameworks on AI boom, capital allocation, and seed investing strategy.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "5df83c8ed3849d554ffb8617",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "No Mercy / No Malice: ICE Age",
+      "link": "",
+      "published": "2026-08-08T08:11:00+00:00",
+      "summary": "As read by George Hahn. https://www.profgmedia.com/p/ice-age Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "692",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "5df83c8ed3849d554ffb8617",
+        "score": 30,
+        "tier": "skip",
+        "reason": "Short episode with no substantial content or insight relevant to DJ's focus areas.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "4480268319a8afd81cb2610e",
+      "show_name": "Big Technology Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Demis Steps Down, Apple’s Memory Problem, Microsoft’s Clever Trick",
+      "link": "",
+      "published": "2026-08-08T01:09:00+00:00",
+      "summary": "M.G. Siegler from Spyglass is back for our Montly discussion of the latest tech news. We cover: 1) Demis Hassabis steps down as DeepMind CEO (Alex solo) 2) Apple's memory crunch 3) Should Apple have known better? 4) Will iPhone prices go up? 5) How much can Apple raise prices without losing sales 6) Does that eventually hurt its services business? 7) Microsoft is spending less on AI... but there's an interesting wrinkle 8) How much cloud growth is driven by OpenAI and Anthropic? 9) The divisions within Google's AI division 10) Can Google get it together? --- Enjoying Big Technology Podcast? Please rate us five stars ⭐⭐⭐⭐⭐ in your podcast app of choice. Want a discount for Big Technology on Substack + Discord? Here’s 25% off for the first year: https://www.bigtechnology.com/subscribe?coupon=0843016b Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "duration": "3354",
+      "old_score": 75,
+      "old_label": "digest_only",
+      "qwen": {
+        "id": "4480268319a8afd81cb2610e",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Covers key tech news including Apple's memory issues, Microsoft's AI spending, and Google's internal divisions.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "5b7fb1ae56aacf64026f93e4",
+      "show_name": "All-In Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Google's AI Brain Drain, SpaceX's Huge Quarter, Airtable's 90% Collapse, US Data Fuels China AI",
+      "link": "https://allinchamathjason.libsyn.com/googles-ai-brain-drain-spacexs-huge-quarter-airtables-90-collapse-us-data-fuels-china-ai",
+      "published": "2026-08-08T00:32:00+00:00",
+      "summary": "(0:00) Bestie intros! Brad Gerstner fills in for Chamath (2:16) Major shakeups at Google: AI brain drain or better strategy? (20:39) SpaceX's big quarter: Terafab, AI Capex, $1T revenue projection? (45:44) All-In Summit Speaker Announcements! (48:01) Airtable sells for a 90% discount: SaaSpocalypse? (1:05:56) Chinese AI labs are buying US training data to catch up Apply for Summit 2026: https://allin.com/events Follow Brad: https://x.com/altcap Follow the besties: https://x.com/chamath https://x.com/Jason https://x.com/DavidSacks https://x.com/friedberg Follow on X: https://x.com/theallinpod Follow on Instagram: https://www.instagram.com/theallinpod Follow on TikTok: https://www.tiktok.com/@theallinpod Follow on LinkedIn: https://www.linkedin.com/company/allinpod Intro Music Credit: https://rb.gy/tppkzl https://x.com/yung_spielburg Intro Video Credit: https://x.com/TheZachEffect Referenced in the show: https://x.com/the_ai_investor/status/2084687703707361429 https://x.com/Tesla/status/2085365278276284803",
+      "duration": "01:15:18",
+      "old_score": 32,
+      "old_label": "skip",
+      "qwen": {
+        "id": "5b7fb1ae56aacf64026f93e4",
+        "score": 85,
+        "tier": "digest",
+        "reason": "Discusses Google's AI brain drain, SpaceX's growth, and Airtable's valuation collapse with market implications.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "a8da2afea3091fc3236df69c",
+      "show_name": "People I Mostly Admire",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "34. Maya Shankar Is Changing People’s Behavior — and Her Own",
+      "link": "https://www.siriusxm.com",
+      "published": "2026-08-08T00:00:00+00:00",
+      "summary": "She used to run a behavioral unit in the Obama administration, and now has a similar role at Google. Maya and Steve talk about the power (and limits) of behavioral economics and also how people respond to change — the topic of her new podcast A Slight Change of Plans . This episode originally aired on July 2nd, 2021. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:44:58",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "a8da2afea3091fc3236df69c",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Behavioral economics insights from Maya Shankar, but limited direct relevance to AI or capital allocation.",
+        "confidence": "low"
+      }
+    }
+  ]
+}

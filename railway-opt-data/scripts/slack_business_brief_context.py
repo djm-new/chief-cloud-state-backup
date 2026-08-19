@@ -18,6 +18,7 @@ def sanitize(text: str) -> str:
 archive = Path('/opt/data/slack_brief_archive')
 open_topics = archive / 'open_topics.md'
 latest = Path('/opt/data/slack_business_brief_latest.md')
+dj_followup_trace = Path('/opt/data/slack_dj_followup_trace.md')
 
 print('# Rolling Slack Brief Context')
 print()
@@ -39,6 +40,14 @@ if open_topics.exists():
 else:
     print('## Open / rolling topics from prior briefs')
     print('No rolling topics file found.')
+
+print('\n# DJ Slack Follow-up Trace')
+try:
+    print(sanitize(subprocess.check_output(['/opt/data/scripts/slack_dj_followup_trace.py'], text=True, timeout=180)))
+except Exception as e:
+    print(f'Unable to load DJ Slack follow-up trace: {type(e).__name__}')
+    if dj_followup_trace.exists():
+        print(sanitize(dj_followup_trace.read_text(errors='ignore')[:12000]))
 
 print('\n# Latest Slack Collection Evidence')
 try:

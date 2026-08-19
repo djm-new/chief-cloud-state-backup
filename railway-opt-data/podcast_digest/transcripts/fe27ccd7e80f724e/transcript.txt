@@ -1,0 +1,745 @@
+[0.0-5.0] The great insights don't spring from curiosity alone, but from dissatisfaction.
+[5.0-10.0] Not the depressive kind of dissatisfaction, but rather a constructive dissatisfaction,
+[10.0-14.0] or a slight irritation when things don't look quite right.
+[14.0-19.0] A genius is simply someone who is usefully irritated.
+[19.0-22.0] A genius must delight in finding solutions.
+[22.0-26.0] Genius must derive joy from applications of intellect.
+[26.0-31.0] Claude Shannon once said, I get a big kick at a seeing a clever way of doing some engineering problem.
+[31.0-37.0] A clever design for a circuit, which uses a very small amount of equipment and gets a great deal results out of it.
+[37.0-43.0] For Shannon, there was no substitute for the pleasure of seeing net results.
+[43.0-46.0] So how would such a person go about solving a problem?
+[46.0-51.0] Shannon proposed six strategies, strategy number one.
+[51.0-54.0] You might, he said, start by simplifying.
+[54.0-61.0] Almost every problem that you come across is befuddled with all kinds of extraneous data of one sort or another.
+[61.0-67.0] And if you can bring this problem down into the main issues, you can see more clearly what you're trying to do.
+[67.0-71.0] Simplification is an art form in and of itself.
+[71.0-78.0] It requires a knack for exercising everything from a problem except what makes it interesting.
+[78.0-88.0] Number two, encircle your problem with existing answers to similar questions and then deduce what it is that the answers have in common.
+[88.0-92.0] You'll need a vocabulary of questions already answered.
+[92.0-95.0] You can call this ingenious incrementalism.
+[95.0-103.0] As Shannon put it, it seems to be much easier to make two small jumps than one big jump in any kind of mental thinking.
+[103.0-106.0] Number three, restate the question.
+[106.0-109.0] Change the words, change the viewpoint.
+[109.0-114.0] Break loose from certain mental blocks which are holding you in certain ways of looking at a problem.
+[114.0-119.0] Do not become trapped by the sunk cost, the work that you've already put in.
+[119.0-125.0] There's a reason after all why someone who is quite green to a problem will sometimes solve it on their first attempt.
+[125.0-130.0] They are unconstrained by the biases that build up over time.
+[130.0-134.0] Number four, break an overwhelming problem into small pieces.
+[135.0-140.0] Many proofs in mathematics have been actually found by extremely roundabout processes.
+[140.0-152.0] Shannon pointed out that a man often starts out and proves many great results which don't seem to be leading anywhere and then eventually ends up at the back door on the solution of his given problem.
+[152.0-154.0] Number five, invert.
+[154.0-161.0] If you can't use your premises to prove your conclusion, just imagine that the conclusion is already true and see what happens.
+[161.0-164.0] Try proving the premises instead.
+[164.0-169.0] And number six, take time and see how far it will stretch.
+[169.0-172.0] Someone always comes along and starts generalizing it.
+[172.0-175.0] So why not do it yourself?
+[175.0-179.0] That is an excerpt from one of my favorite chapters in the book that I'm going to talk to you about today.
+[179.0-182.0] That chapter is called constructive dissatisfaction.
+[182.0-191.0] The book that I'm going to talk to you about today is a mind at play how Claude Shannon invented the information age and it was written by Jimmy Sony and Rob Goodman.
+[191.0-196.0] So even though Claude Shannon is one of the most important people to ever live in history, many people don't know his name.
+[196.0-201.0] I've been telling friends this week the book that I'm reading and they're like, who's Claude Shannon?
+[201.0-207.0] And the thing that resonated the most is like, well, Claude Shannon is the reason that anthropic called Claude Claude.
+[208.0-215.0] And so I actually broke down this book and my notes on the book in the way that Claude Shannon would break down a problem.
+[215.0-222.0] So I essentially simplified what I think are the most important lessons and then extracted them out of the book and then organized them.
+[222.0-225.0] In a way, I think it's just going to be really interesting for you and I to go over.
+[225.0-231.0] So what I want to start is I'm not going to go over like even though there's a biography of Shannon is when it's wonderfully written.
+[231.0-236.0] I'm not even going to talk about really much of about his personal life or his childhood or anything else.
+[236.0-243.0] There's just a certain way and an indifference to the outside world that I find very intriguing by Shannon.
+[243.0-247.0] You and I have talked about this maximum over and over again that you mute the world and then build your own.
+[247.0-254.0] Well, Claude Shannon muted the world, built his own and then in turn by doing that, built the foundation of our world, the digital world that we live in now.
+[254.0-259.0] So I want to start with just giving an outline of this very unusual personality he had.
+[259.0-266.0] He says and there's a bunch of descriptions all throughout the book about how he was, how he approached life, how he approached work that I thought was interesting.
+[266.0-273.0] Here's a few. He was a man immune to scientific fashion and insulated from opinions of all kinds on all subject.
+[273.0-281.0] A man of closed doors and long silences who thought his best thoughts in Spartan apartments and empty office buildings.
+[281.0-286.0] He was a man almost entirely written out of a history that's defined by self promoters.
+[286.0-291.0] His was a life spent in the pursuit of curious, serious play.
+[291.0-296.0] The mind at play, that idea is so important, the book is perfectly titled.
+[296.0-301.0] So this idea is like, hey, I'm spending my entire life just following my natural curiosity, my natural drift.
+[301.0-305.0] I'm only going to work on things that I'm interested in. I don't care what other people think.
+[305.0-309.0] That is basically one of the main takeaways from this book. His life was spent in pursuit of curious, serious play.
+[309.0-314.0] He was that rare scientific genius who was just as content, rigging up a juggling robot,
+[314.0-320.0] are flame throwing trumpet, both inventions and actually things that he made, as he was pioneering digital circuits.
+[320.0-326.0] He worked with levity and played with gravity. He never acknowledged a distinction between the two.
+[326.0-333.0] Rarely has a thinker who devoted his life to the study of communication been so uncommunicative.
+[333.0-338.0] And so what they're talking about is the fact that he is the person that wrote that came up with information theory.
+[338.0-342.0] The book goes into great detail about how important it is. There's different ways to describe it.
+[342.0-348.0] In many cases, it's very confusing. This is just a very simple way to describe the impact of the theory that Claude Shannon came up with.
+[348.0-357.0] All the advanced signal processing that enables us to send high speed data was done as an outgrowth of Claude Shannon's work on information theory.
+[357.0-362.0] There's a great quote at the beginning of the book. It says geniuses are the luckiest of mortals,
+[362.0-371.0] because what they do is the same as what they most want to do. That is exactly a great description of Shannon.
+[371.0-377.0] What he did was just what he was most interested in doing. And it goes back to what they were saying in that some of the ideas he had
+[377.0-385.0] and how to solve problems at six step framework on how to solve problems, that the genius must delight in finding solutions.
+[385.0-392.0] You could think about Shannon and he did a lot of theoretical work, but he was most interested in intellect and intelligence that could be applied.
+[392.0-399.0] In fact, he talks a lot about, you know, he's saying this back in the 1930s and 1940s and 1950s. That is inevitable.
+[399.0-403.0] That we will build machines that can think and that will be smarter than us.
+[403.0-409.0] I think it's already obvious. He made no distinction between work and play.
+[410.0-414.0] And so later in his life he gave a series of interviews and there's a bunch of great quotes from this interview in the book.
+[414.0-416.0] And this is one of the ones I found most fascinating.
+[416.0-424.0] What's your secret in remaining so carefully and Shannon replied, I do what comes naturally and usefulness is not my main goal.
+[424.0-430.0] I keep asking myself, how would you do this? Is it possible to make a machine to do this? Can I prove this theorem?
+[430.0-435.0] And the way to think about what he's talking about is like he didn't look at the world isn't there to be used,
+[436.0-441.0] but to be played with and to be manipulated by hand and mind. He loved working with his hands.
+[441.0-446.0] In fact, there's all kinds of stories in the book and some of these I'll talk to you about where he's just making,
+[446.0-452.0] he just loved to make little machines, little gadgets anywhere from unicycles to chest playing robots.
+[452.0-456.0] He never, this is some of my favorite parts about his personality.
+[456.0-462.0] I read this book for the first time, I think like six years ago, I think originally it was like episode number 95 of founders.
+[463.0-467.0] And some of these blinds or stums I've never forgotten. He never argued his ideas.
+[467.0-471.0] If people didn't believe in them, he ignored those people.
+[471.0-475.0] Shannon could neither explain himself to others nor cared to.
+[475.0-479.0] He preferred solitude and kept his professional associations to a minimum.
+[479.0-482.0] He was terribly, terribly secretive.
+[482.0-487.0] He was not someone who would listen to other people about what to work on.
+[487.0-490.0] Few of his papers were co-authored.
+[490.0-494.0] Before we get back into this, I want to tell you about the presenting sponsor of this podcast, Ramp.
+[494.0-497.0] I have been reading a lot about SpaceX lately.
+[497.0-499.0] SpaceX is one of the most valuable businesses in the world.
+[499.0-505.0] And one of the main themes in the history of SpaceX is constantly attacking and questioning your cost.
+[505.0-509.0] Ramp helps many of the most innovative businesses in the world do exactly that.
+[509.0-514.0] And they do this by using first principles thinking, the median company running on ramp.
+[514.0-516.0] Cutster expenses by 5%.
+[516.0-525.0] And one thing that SpaceX has demonstrated is that a religious dedication to controlling your cost helps increase revenue because you can pursue opportunities you couldn't otherwise.
+[525.0-527.0] And we see that in the Ramp data too.
+[527.0-532.0] The median company running on ramp also grows their revenue by 16%.
+[532.0-535.0] So when you're running your business on ramp and your competitors are not,
+[535.0-539.0] you have a massive competitive advantage that compounds over time.
+[539.0-544.0] Ramp is the only platform designed to make your finance team faster and happier.
+[544.0-548.0] Many of the top founders and CEOs that I know run their business on ramp.
+[548.0-551.0] I run my business on ramp and you should too.
+[551.0-557.0] Go to ramp.com today to learn how to can help your business save time, save money and grow revenue.
+[557.0-559.0] That is ramp.com.
+[560.0-564.0] It was central to a career in which he chased his instincts,
+[564.0-568.0] often at the expense of more prestigious options.
+[568.0-572.0] That is exactly who was chasing his instincts when he wrote the paper on information.
+[572.0-573.0] This is why it's so important.
+[573.0-576.0] And then once the papers publish,
+[576.0-578.0] it starts gradually retirement.
+[578.0-580.0] It starts to build up it's like huge following.
+[580.0-582.0] He becomes the scientific celebrity.
+[582.0-586.0] You know, he's offered you sent carp launch at Bell Labs.
+[586.0-588.0] You know, you can come to MIT.
+[588.0-589.0] You can basically do whatever you want.
+[589.0-593.0] We just want to be associated with you very similar to what happened with Einstein later in his life.
+[593.0-599.0] And in fact, it says that Shannon is to communications as Einstein is to physics.
+[599.0-602.0] But Shannon didn't agree with a shit about any of that.
+[602.0-607.0] So it says unlike many scientists who parlayed successful research careers into lives as public intellectuals,
+[607.0-613.0] he did not seem to consider using his growing standing as an opportunity to expand his network outside of it.
+[613.0-618.0] If anything, he closed himself off further, ignoring letters, colleagues, and projects,
+[618.0-624.0] and spending his time and attention absorbed by puzzles that interested him the most is what he was just saying.
+[624.0-626.0] It's like, well, usefulness was my goal.
+[626.0-627.0] I just find myself curious about something.
+[627.0-629.0] And I was like, oh, can I solve this problem?
+[629.0-630.0] Can I prove this theorem?
+[630.0-632.0] Can I build a machine that does all this?
+[632.0-633.0] That's it.
+[633.0-636.0] He was just obsessed with puzzles and following his own curiosity.
+[636.0-639.0] And then you might wonder.
+[639.0-641.0] It's like, okay, well, you know, he could have made a lot more money.
+[642.0-645.0] He was awarded a lot of awards, but he never chased them.
+[645.0-650.0] He could have been out there speaking all the time, increasing his public profile.
+[650.0-653.0] And so like, why was it, why is this person so different?
+[653.0-657.0] Like, why is he acting so differently than others who were in a similar position?
+[657.0-664.0] And the answer that you obviously arrive after you read the book is like, oh, he's just following his natural curiosity and everything he does.
+[664.0-669.0] And this is what he says, I think that history of science has shown that valuable consequences often proliferate
+[669.0-672.0] from simple curiosity.
+[672.0-674.0] Goes back to the importance of following a natural drift.
+[674.0-680.0] Shannon would say that his interest in mathematics, even any other interest in mathematics from young age, has a very simple source.
+[680.0-682.0] It just came easily to him.
+[682.0-687.0] And he says, I think one tends to get into work that you find easy for yourself.
+[687.0-692.0] And then what you realize, you can also tell like, okay, you can tell a lot about a person by what they choose to work on.
+[692.0-696.0] But you can also tell a lot about a person by what they choose not to do.
+[697.0-699.0] And he started studying chemistry.
+[699.0-706.0] He's like, oh, this isn't, I don't like this subject because it has too many facts and too few principles.
+[706.0-710.0] So he says he disliked the kind of facts that he couldn't bring under a rule and abstract his way out of.
+[710.0-713.0] He says, chemistry always seemed adult to me.
+[713.0-718.0] There's too many isolated facts and too few general principles for my taste.
+[718.0-725.0] Now, as he gets to the end of high school, he's going to college, trying to figure out what to study.
+[725.0-735.0] And something that he'll be described by his entire life from when he was a younger kid to even later on when, you know, unfortunately, he wants to getting Alzheimer's and passing away.
+[735.0-740.0] But even later and later age, that he was just extremely indecisive.
+[740.0-742.0] He liked working on multiple things at one time.
+[742.0-744.0] He was a natural born tinkerer.
+[744.0-752.0] He was never just focused on one thing, even when he was writing his papers and even when he's at his most productive, when he was early 20s early to late 20s.
+[752.0-759.0] But this indecisive nature inadvertently is going to help him later in life because, you know, when he's a teenager, he's like, what the hell am I going to study?
+[759.0-762.0] And he's like, well, I like mathematics, but I like engineering too.
+[762.0-767.0] And he talks about later on that he actually thinks like engineers are some of the most important people in the world, which I'll get to.
+[767.0-769.0] He gives a great talk about that.
+[769.0-775.0] But so this idea is like, well, I'm so indecisive, I can't figure out what I should study.
+[775.0-777.0] He wants a pulpitting later on.
+[777.0-778.0] So he says, why?
+[778.0-784.0] Because a generation later, this two curriculum that he's studying in college, mathematics and engineering, are kind of merging into one.
+[784.0-790.0] And so this is the reason this dual degree appealed to him and why he was drawn to both mathematics and engineering.
+[790.0-795.0] And he says, he admitted that his choice of a dual degree wasn't part of a grand design for his career.
+[795.0-797.0] It was simply adolescent indecision.
+[797.0-799.0] I wasn't really quite sure what I liked best.
+[799.0-804.0] The studies gave him his first taste of communication engineering, which he found especially to his liking.
+[804.0-805.0] Why?
+[805.0-808.0] Because it blended practice and theory, so did he his entire life.
+[808.0-811.0] That's just his personality, this blend of practice and theory.
+[811.0-815.0] Shannon's variety of indecision, which he never entirely outgrew, would prove crucial to his later work.
+[815.0-816.0] This is why it's important.
+[816.0-820.0] Someone content to build things might have been happy with this single degree in engineering.
+[820.0-824.0] Someone drawn more to theory might have been satisfied with studying math alone.
+[824.0-828.0] Shannon, mathematically and mechanically inclined, could not make up his mind.
+[828.0-834.0] But the result left him trained in two fields that would prove essential to his later successes.
+[834.0-839.0] And so after he's done with school, right, when he's done with his undergraduate degrees.
+[839.0-846.0] One of the most important things to ever happen in cloud Shannon's life is he sees a job opening.
+[846.0-850.0] Okay, typed up on a postcard posted to an engineering bulletin board.
+[850.0-857.0] And it's saying come to MIT and run what at the time is going to be the largest analog computer in the world.
+[857.0-861.0] And I will tell you why it's not only running the analog, the largest analog computer in the world of time.
+[861.0-864.0] It's going to be really important to his future innovations.
+[864.0-867.0] And the foundation of information theory, what he derived from that.
+[867.0-871.0] But more importantly, it puts him in touch with his mentor, which I'll get to in one second.
+[871.0-874.0] So it says it was an invitation to help build a mechanical brain.
+[874.0-877.0] Shannon noticed it in the spring of 1936.
+[878.0-883.0] The job was to be a master student and assistant on the differential analyzer at MIT.
+[883.0-890.0] And it was Taylor made for a young man who could find equal joy in equations and construction, which we, you and I just talked about.
+[890.0-892.0] Thinking and building.
+[892.0-896.0] This was Shannon said about this. I pushed hard for that job and I got it.
+[896.0-898.0] That was one of the luckiest things of my life.
+[898.0-905.0] Luck may have played a role, but the application's acceptance was also a testament to the keen eye of a figure
+[905.0-911.0] who would shape the rest of Shannon's life and the course of American science.
+[911.0-913.0] Vannever Bush.
+[913.0-917.0] Okay, so Vannever Bush is one of the most important people in American history.
+[917.0-924.0] If you read a book about anybody doing important science and engineering in the United States in 1930s, 1940s, 1950s,
+[924.0-928.0] Vannever Bush will probably pop up as some supporting character.
+[928.0-930.0] If you want more details about him, I've done two episodes on him.
+[931.0-936.0] It was episode 272-71, but this book also gives you insight and little overview into some of his accomplishments.
+[936.0-945.0] But I would say most important thing in terms of the relation to the story you and I are going over right now is he's the first person to actually see
+[945.0-948.0] Claude Shannon for what he was, which is a near universal genius.
+[948.0-952.0] So it says Vannever Bush would preside over our custom made brain the size of a room.
+[952.0-955.0] He'd counsel presidents. He'd direct the nation's scientist during World War II.
+[955.0-959.0] He was called the man who may win or lose the war and the general of physics.
+[959.0-962.0] He was the first person to see Claude Shannon for who he was.
+[962.0-967.0] Bush believes Shannon to be an almost universal genius whose talents might be channeled into any direction.
+[967.0-972.0] And also speaks to Claude Shannon's intelligence that this winds up being his mentor.
+[972.0-977.0] But he also heeds most of the advice and accepts the direction of Vannever Bush, especially when he was a young man.
+[977.0-982.0] Then they talk about this is what Bush is hiring a young Claude Shannon to do.
+[982.0-985.0] She's like, I want you to run this differential analyzer.
+[985.0-992.0] So I do think there's some fantastic images online about just essentially this brain size of a room if you want to go look at it.
+[992.0-996.0] But this is a description of one of the world's first large scale analog computers.
+[996.0-1005.0] The differential analyzer was a brain the size of a room, a metal calculus machine that could work away at a problem for days and nights on end before ground to a hole.
+[1006.0-1013.0] One problem which measured the effects of the Earth's magnetic field on cosmic rays took 30 weeks of spinning gears.
+[1013.0-1023.0] But when it was done, the differential analyzer had solved by brute force equations so complex that even trying to attack them with human brain power would have been pointless.
+[1023.0-1028.0] Indeed Bush's lab now owned the, this is fantastic.
+[1028.0-1035.0] Bush's lab now owned the computational power to turn from the problems of industry to some of the fundamental designs of physics.
+[1035.0-1039.0] This was the computer before the digital revolution.
+[1039.0-1047.0] And so essentially Bush locks Claude Shannon in a room with this machine that is built to automate thought.
+[1047.0-1056.0] And it is built in the name of industry and efficiency to remove the art from math and in the midst of his work he came to understand that he knew another way of automating thought.
+[1057.0-1060.0] One that would ultimately prove far more powerful than the analog machine.
+[1060.0-1063.0] So this again goes back to his work on information theory which will get to the minute.
+[1063.0-1067.0] During this, Claude comes up with a very interesting insight.
+[1067.0-1072.0] He says logic just like a machine was a tool for democratizing force.
+[1072.0-1078.0] Built with enough precision and skill, it could multiply the power of the gifted and the average alike.
+[1078.0-1081.0] I don't think I've ever heard it describe that way, it's very interesting.
+[1081.0-1090.0] And then the book does a great job of describing this transition from which Claude Shannon obviously played a huge role in bringing about this transition from analog computers to digital ones.
+[1090.0-1100.0] Less than a decade after Shannon's paper, the great analog machine was effectively obsolete replaced by digital computers that could do that same work literally a thousand times faster.
+[1100.0-1104.0] Answering questions in real time driven by thousands of logic gates.
+[1104.0-1109.0] The design of these computers was a direct descendant of Shannon's discovery.
+[1109.0-1113.0] And then Vannevar Bush makes a few interesting observations about Shannon here.
+[1113.0-1114.0] And I think it was really interesting.
+[1114.0-1120.0] He says that Shannon was its English less by quantitative horsepower than by his mastery of model making.
+[1120.0-1125.0] That his main skill was the reduction of big problems to their essential core.
+[1125.0-1127.0] And so again, that's why you could have this universal genius.
+[1127.0-1133.0] He did not want, actually Vannevar Bush, and he's gonna talk about this right now, he was anti-specialization.
+[1133.0-1137.0] And so he obviously pushed Shannon in that direction.
+[1137.0-1140.0] He had him go down different fields of science.
+[1140.0-1146.0] And in many cases, he wanted Shannon's insights on a field of science that Shannon previously knew nothing about.
+[1146.0-1151.0] One of Vannevar Bush's deepest convictions was that specialization is the death of genius.
+[1151.0-1162.0] And he has a great quote about this. He says, in these days, when there's a tendency to specialize so closely, it is well for us to be reminded that the possibilities of being at once both broad and deep did not pass.
+[1163.0-1166.0] With Leonardo da Vinci or Benjamin Franklin.
+[1166.0-1169.0] And so let's get into how Bush applies this idea to Shannon.
+[1169.0-1172.0] He's like, hey, Claude, do you know anything about genetics?
+[1172.0-1173.0] And Claude knows nothing about genetics.
+[1173.0-1175.0] So okay, I want you to go study this.
+[1175.0-1178.0] And he winds up going down the path.
+[1178.0-1180.0] It was actually hilarious.
+[1180.0-1183.0] I'm gonna give you just a summary because there's a lot more detail in the book.
+[1183.0-1191.0] But this is Vannevar Bush's summary of just pointing this universal genius at a field of study he knew nothing about.
+[1191.0-1196.0] The project had been Bush's initiative and the hypothesis was his. This is the hypothesis.
+[1196.0-1204.0] The subject, this 23-year-old genius working in a scientific field in which he had no training and he didn't even know what the words meant.
+[1204.0-1209.0] Can the scientific genius produce original findings in less than one year?
+[1209.0-1212.0] Conclusion confirmed.
+[1212.0-1215.0] And there's something else that was hilarious.
+[1215.0-1225.0] So not only is Vannevar Bush realizing, you know, the genius of Claude Shannon was obviously everybody around him to the point where while he's in college,
+[1225.0-1227.0] Claude Shannon gets interested in learning how to fly.
+[1227.0-1231.0] And his flight instructor is like, oh, wait, no, no, flying's way too dangerous.
+[1231.0-1233.0] We cannot risk this guy's mind.
+[1233.0-1238.0] And so the flight instructor actually writes a letter to the president of MIT and this is what he says.
+[1238.0-1245.0] I can convince that Shannon is not only unusual, but is in fact a near genius of most unusual promise.
+[1245.0-1254.0] And he's essentially saying, with your permission, I will ban Shannon from the cockpit because such a life wasn't worth risking in a crash.
+[1254.0-1259.0] The president of MIT writes back a few days later and it's very level-hut to reply.
+[1259.0-1265.0] He goes somehow, I doubt the advisability of urging a young man to refrain from flying or arbitrarily to take the opportunity away from him.
+[1265.0-1272.0] On the ground of his being intellectually superior, I doubt whether it would be good for the development of his own character and personality.
+[1272.0-1275.0] And so it says, Shannon was allowed to continue flying.
+[1275.0-1278.0] And before we get back into this, I want to tell you about Apploven.
+[1278.0-1281.0] One of my all-time favorite quotes is from the book Zero to One.
+[1281.0-1288.0] In that book, Peter Thiel writes, he says, the single most powerful pattern I have noticed is that successful people find value in unexpected places
+[1288.0-1292.0] and they do this by thinking about business from first principles instead of formulas.
+[1292.0-1296.0] And that is exactly what Apploven has done with their advertising platform.
+[1296.0-1301.0] Apploven connects you with over a billion potential new customers in mobile games.
+[1301.0-1304.0] Apploven allows you to capture undivided attention.
+[1304.0-1308.0] Apploven ads are full-screen videos that are watched for an average of 35 seconds.
+[1308.0-1312.0] That is retention that blows other ad platforms out of the water.
+[1312.0-1314.0] And you can launch on Apploven in minutes.
+[1314.0-1317.0] You set the goal and Apploven achieves it.
+[1317.0-1322.0] No complex setup, no expertise needed in Apploven scales quickly.
+[1322.0-1325.0] They can put your ads in front of over a billion potential customers.
+[1325.0-1332.0] Other businesses have seen immediate results scale to hundreds of thousands of dollars of spend per day and increase their revenue by millions.
+[1332.0-1336.0] So you want to get started quickly before all of your competitors are on Apploven.
+[1336.0-1339.0] And you can do that by going to apploven.com.
+[1339.0-1341.0] That's apploven.com.
+[1341.0-1343.0] And then I want to tell you about Vanta.
+[1343.0-1348.0] Vanta, Vanta, Vanta helps your company prove your secure so more customers will use your product or service.
+[1348.0-1352.0] Vanta is an AI-powered security expert that scales with you.
+[1352.0-1355.0] The more your business grows, the more complex your security needs get.
+[1355.0-1358.0] And that complexity turns into chaos.
+[1358.0-1360.0] Vanta tames that chaos for you.
+[1360.0-1363.0] Vanta automates compliance, continuously monitors your controls,
+[1363.0-1366.0] and gives you a single source of truth for compliance and risk.
+[1366.0-1369.0] So whether you're a fast growing startup or an enterprise company,
+[1369.0-1372.0] Vanta fits easily into your existing workflows.
+[1372.0-1375.0] Many companies won't sign contracts unless you're certified
+[1375.0-1377.0] and this is causing you to lose out on sales.
+[1377.0-1383.0] That is why the average Vanta customer reports a 526% return on investment after becoming a Vanta customer.
+[1383.0-1386.0] Automate your compliance, security, and trust with Vanta.
+[1386.0-1390.0] Vanta will help you win trust, close deals, and stay secure faster and with less effort.
+[1390.0-1394.0] Go to Vanta.com, 4-slash founders, and you'll get $1,000 off.
+[1394.0-1397.0] That is Vanta.com, 4-slash founders.
+[1397.0-1402.0] So after he finished graduate school, he's trying to figure out what to work on.
+[1402.0-1404.0] He decides to go work for Bell Labs.
+[1404.0-1407.0] There is a great book on this that I'll eventually do an episode on.
+[1407.0-1409.0] It's called Idea Factory.
+[1409.0-1415.0] But this book has a great overview of just how important it was that Shannon chose to go down this path,
+[1415.0-1418.0] and how it's going to lead to his work on information theory,
+[1418.0-1421.0] says he was headed to what was perhaps the world's foremost technology company.
+[1421.0-1423.0] Remember, at this time, phone companies,
+[1423.0-1425.0] the most complicated communication network in the world,
+[1425.0-1427.0] and they're complete and utter monopolies,
+[1427.0-1430.0] and so they just shoot off cash, and then they took a bunch of that cash.
+[1430.0-1433.0] They actually, you know, a few weeks ago when you and I were talking about the founder of Honda,
+[1433.0-1435.0] he had that regional insight.
+[1435.0-1438.0] He actually thought that research and development departments were so important
+[1438.0-1441.0] that they had to be spun out completely and had a different set of incentives.
+[1441.0-1443.0] They can't just be inside of your company.
+[1443.0-1446.0] Bell Labs was spun out of the phone company too.
+[1446.0-1448.0] So there's a lot of thinking and similarities and thinking
+[1448.0-1451.0] between spinning out R&D, between what is happening here in the story,
+[1451.0-1454.0] and what the founder of Honda was doing in Japan as well.
+[1454.0-1458.0] So Shannon's headed to the world's most foremost technology company,
+[1458.0-1461.0] and it's the home of the best communications minds in America.
+[1461.0-1464.0] The goal of Bell Labs wasn't simply clear and faster phone calls.
+[1464.0-1468.0] The labs were tasked with dreaming up a future in which every form of communication
+[1468.0-1472.0] would be machine-aided, right place, right time,
+[1472.0-1474.0] right set of skills, right person.
+[1474.0-1477.0] This is exactly the perfect place for Claude Shannon.
+[1477.0-1481.0] So the amount of innovation that comes out of Bell Labs is insane.
+[1481.0-1483.0] Let me just read this paragraph to you.
+[1483.0-1487.0] In the span of a few decades, Bell researchers engineered the first ever long distance phone call.
+[1487.0-1489.0] They synchronized the sounds and images and movies,
+[1489.0-1491.0] and demonstrated some of the earliest facts and television systems.
+[1491.0-1495.0] During World War II, they improved radar, sonar, and the bazooka,
+[1495.0-1498.0] and they created a secure phone line connecting Franklin Roosevelt and Winston Churchill.
+[1498.0-1502.0] They would invent touch-tone dialing and the solar battery cell,
+[1502.0-1504.0] and they would also pioneer the communication satellite.
+[1504.0-1510.0] And in 1947, Bell researchers also created the transistor, the foundation of modern electronics.
+[1510.0-1514.0] And so this is why Shannon said he wanted to work at Bell Labs.
+[1514.0-1518.0] I had the freedom to do anything I wanted from almost the day I started.
+[1518.0-1520.0] They never told me what to work on.
+[1520.0-1527.0] He also had no responsibilities other than to tinker and to think and to publish papers and to do science.
+[1527.0-1528.0] Why is this important?
+[1528.0-1533.0] Because Shannon was allergic to administrative work and bureaucracies of almost every kind.
+[1533.0-1537.0] He has a very deep, he's like a level 10 introvert, which we'll get to in a moment.
+[1537.0-1539.0] But he's naturally a loner.
+[1539.0-1544.0] He long solitudes, Spartan apartments, empty offices.
+[1544.0-1547.0] This is where he does his best work.
+[1547.0-1551.0] His freedom from obligation played into his lifelong tendency to isolate himself.
+[1551.0-1558.0] Most days were spent shut indoors, alternating between his notepad and the clarinet and back again.
+[1558.0-1567.0] So I already mentioned it a few times and he's going to mention a few more times that he loved working back and forth on multiple things at one time.
+[1567.0-1569.0] Again, there's no separation between work and play.
+[1569.0-1577.0] So he might be thinking about how can we, he did a lot of work in cryptography or how can we improve the telephone network.
+[1577.0-1586.0] And he'd think about that for a little bit and then he put his pad down and he would listen to jazz or he'd play his clarinet or he'd juggle or he'd ride his unicycle and then he'd go back and forth back and forth.
+[1586.0-1590.0] Like this is essentially, you know, his entire day and how he lives his life.
+[1590.0-1593.0] Then it goes back into, oh, it says that right here.
+[1593.0-1600.0] He was actually riding this letter to Vanny for Bush and he talked about, you know, essentially what we'd call this today is like his productivity hack.
+[1600.0-1607.0] He says, I've been working on three different ideas simultaneously and strangely enough, it seems a more productive method than sticking to one problem.
+[1607.0-1611.0] Now, this is early 1940s.
+[1611.0-1616.0] He's, you know, in his 20s and so he's going to be drafted into the war.
+[1616.0-1618.0] It terrified him.
+[1618.0-1622.0] Now, you know, you could think, okay, I terrified him because he was worried about dying.
+[1622.0-1623.0] Obviously, he didn't want to do that.
+[1623.0-1626.0] But what was interesting is the description of his introvert nature.
+[1626.0-1627.0] It's like, wait a minute.
+[1627.0-1628.0] I'm going to have to live in barracks.
+[1628.0-1629.0] I'm going to be in the army.
+[1629.0-1630.0] I'm going to have all these strangers around me.
+[1630.0-1631.0] Freak them out.
+[1631.0-1637.0] So he wanted to find a way to use his mind to serve the country, not his body.
+[1637.0-1642.0] So it says, Shannon worried not only about the dangers of an overseas deployment, but also the close quarters of army life.
+[1642.0-1648.0] I think he did the work with the fear that he might have to go into the army, which means being with lots of people around, which he couldn't stand.
+[1648.0-1649.0] He could not stand being in groups.
+[1649.0-1653.0] He was phobic about crowds and people he didn't know.
+[1653.0-1657.0] He would put his mind rather than his body to work on the country's behalf.
+[1657.0-1663.0] This is not only Shannon, but almost everybody at Bell Labs is now transitioned into doing work for the war.
+[1663.0-1667.0] And one of the things is interesting is like nothing really good when you study Shannon.
+[1667.0-1669.0] Nothing that he works on ever goes to waste.
+[1669.0-1673.0] He'll find other ways to essentially make an abstraction or analogy and use it in his later work.
+[1673.0-1677.0] And so this description of what he's actually working on.
+[1677.0-1679.0] It's called fire control, which I'll read you in one second.
+[1679.0-1684.0] Actually plays a role into him because he's writing the paper on information theory.
+[1684.0-1686.0] I think it takes him like eight years on and off.
+[1686.0-1688.0] So he's doing a bunch of these things at the same time.
+[1688.0-1690.0] And then he'll draw these analogies.
+[1690.0-1692.0] So one analogy he drew was from fire control.
+[1692.0-1694.0] So this is what fire control is.
+[1694.0-1697.0] Fire control was essentially the study of hitting moving targets.
+[1697.0-1701.0] The targets were anything and everything the enemy could hurl through the air to cause damage.
+[1701.0-1703.0] Plains, rockets, ballistics.
+[1703.0-1706.0] So imagine a gun firing a single shot at a target.
+[1706.0-1707.0] Okay.
+[1707.0-1713.0] Now imagine that gun is the size of a two-story house and it's placed on a moving navy ship in the middle of the ocean.
+[1713.0-1717.0] And that is trying to shoot down an enemy fighter moving at 350 miles per hour.
+[1717.0-1719.0] This is the math he's got to figure out.
+[1719.0-1723.0] That's a rough description of the challenge of fire control.
+[1723.0-1725.0] Goes back to this idea that he's always finding analogies.
+[1725.0-1733.0] There are surprisingly close and valid analogies between fire control prediction problem and certain basic problems in communications engineering.
+[1733.0-1740.0] At the most basic level, the speed and quality of information was vital to both phone systems and fire control systems.
+[1740.0-1744.0] A phone call reaching its attendant recipient was a struggle against noise.
+[1744.0-1750.0] An anti-aircraft missile hitting its target presented the same conceptual challenge.
+[1750.0-1751.0] This is what he said.
+[1751.0-1752.0] He's like, he's just a man of abstractions.
+[1752.0-1755.0] He's like, oh, I'm actually working on the same problem.
+[1755.0-1758.0] You might think, and many people, again, I think it's part of his genius,
+[1758.0-1760.0] I wouldn't even see the similarities between these two problems.
+[1760.0-1762.0] And to him, everything was the same.
+[1762.0-1765.0] He says both required high level statistical inference.
+[1765.0-1771.0] Both presented the challenge of building machines to accurately translate math into action.
+[1771.0-1776.0] Then it goes into some of the other things that his colleagues at Bell Labs were working on.
+[1776.0-1779.0] Some of the questions to scientists at Bell Labs had a tackle for the war effort.
+[1779.0-1781.0] They're working six days a week on this.
+[1781.0-1784.0] And so, again, the Army and the government is giving them all these problems.
+[1784.0-1786.0] Here, we can find solutions to these questions.
+[1786.0-1790.0] How many tons of explosive force must a bomb release to create a certain amount of damage?
+[1790.0-1793.0] In what sorts of formations should bombers fly?
+[1793.0-1797.0] Should an airplane be heavily armored or should it be stripped of defenses so it can fly faster?
+[1797.0-1801.0] At what depths should an anti-submarine weapon drop from an airplane explode?
+[1801.0-1805.0] How many anti-aircraft guns should be placed around a critical target?
+[1805.0-1812.0] In short, what the government is trying to figure out is precisely how should these new weapons be used to produce the greatest military payoff.
+[1812.0-1816.0] Now, he's doing this because obviously they're compelled to.
+[1816.0-1820.0] He doesn't want to physically serve in the war, but he hated it.
+[1820.0-1822.0] So, this is his reaction to all this war work.
+[1822.0-1825.0] The whole atmosphere left a bitter taste.
+[1825.0-1828.0] The secrecy, the intensity, the drudgery.
+[1828.0-1831.0] The obligatory teamwork goes back to...
+[1831.0-1833.0] I don't know if you caught on that.
+[1833.0-1838.0] There's one sentence I said earlier that very few of his papers were co-authored.
+[1838.0-1840.0] He does not like working on teams.
+[1840.0-1842.0] He likes working by himself alone.
+[1842.0-1844.0] So, he's like, I'm being compelled to work on a team.
+[1844.0-1845.0] I hate this.
+[1845.0-1847.0] And he winds up getting to him.
+[1847.0-1849.0] He's also going through a divorce of time.
+[1849.0-1852.0] He has like this temporary breakdown.
+[1852.0-1858.0] Now, another thing that they have been working on during the war is cryptography.
+[1858.0-1860.0] They're trying to figure out how can we...
+[1860.0-1869.0] Not only do we want to be able to send secure communications across long distances, but we also want to hack into the Germans and the Japanese doing the same thing.
+[1869.0-1873.0] We want to find out we want to find their secrets and make sure they don't find ours.
+[1873.0-1878.0] And so, Shannon is tasked with checking the algorithms so that it allows the message to be securely reproduced and they're receiving in.
+[1878.0-1881.0] The work gave him a window into the world of a coded speech.
+[1881.0-1883.0] Transmission of information and cryptography.
+[1883.0-1890.0] A synthesis that at that moment in history may not have taken place anywhere other than at Bell Labs as Shannon observed.
+[1890.0-1895.0] Not a lot of laboratories had voice encoding devices for scrambling speech.
+[1895.0-1900.0] And so, this is when Claude Shannon meets Alan Turing, who's also working on very similar things.
+[1900.0-1902.0] And they wind up getting along so well.
+[1902.0-1906.0] They met daily in the Bell Labs cafeteria and they'd have tea.
+[1906.0-1909.0] And later in life, Shannon is being interviewed.
+[1909.0-1910.0] And she was being asked all these questions.
+[1910.0-1917.0] She's like, well, with your own passion for cryptographic puzzles, why didn't you probe Turing deeper and further?
+[1917.0-1923.0] And Shannon's response was simple and to the point, well, in the war time, he didn't ask too many questions.
+[1923.0-1927.0] But he did talk about some of the stuff that Alan Turing and him would talk about.
+[1927.0-1934.0] Remember, this is happening in 1940, so it's pretty well because now we are literally living in the future that these two guys envisioned helped envision too.
+[1934.0-1938.0] And we're essentially having these daily conversations about.
+[1938.0-1942.0] And he says, we would talk about the notion of building computers that will think.
+[1942.0-1945.0] And so, Shannon was obsessed with artificial intelligence.
+[1945.0-1947.0] He says, we had dreams.
+[1947.0-1950.0] Turing and I used to talk about the possibility of simulating the human brain.
+[1950.0-1955.0] Could we really get a computer which would be the equivalent of the human brain or even a lot better?
+[1955.0-1958.0] We both thought that this would be possible in not very long time.
+[1958.0-1962.0] In 10 or 15 years, such was not the case.
+[1962.0-1972.0] And so in this book, there's a lot of quotes from Shannon about his deep desire to invent and to have artificial intelligence to have AI.
+[1972.0-1974.0] In fact, he called it his fondest dream.
+[1974.0-1981.0] He says, my fondest dream is to someday build a machine that thinks, learns, communicates and manipulates its environment in a fairly sophisticated way.
+[1981.0-1984.0] Goes on over and over again. There's multiple quotes throughout the book like this.
+[1984.0-1988.0] I believe we are going to invent machines which are smarter than we are.
+[1988.0-1994.0] We talk about the fact that when he would discuss this, you know, it had to seem like crazy talk, especially back then.
+[1994.0-2000.0] He says that he was adamant and he thought the people that thought he was wrong were actually the ones that were incorrect.
+[2000.0-2004.0] The thought that a machine could never exceed its creator was just foolish logic.
+[2004.0-2008.0] He called it wrong and incorrect logic.
+[2008.0-2013.0] Now, Shannon winds up meeting, you know, all the other great minds of his time.
+[2013.0-2028.0] He met John Van Numan. He said Shannon called John Van Numan the smartest person that he ever met later in a life when he was asked a lot of questions like, you know, they were all these scientists were advising the CIA, the Defense Department, the NSA.
+[2028.0-2032.0] And Shannon was very reluctant to talk about that even decades later.
+[2032.0-2039.0] But this surprising story will give you an idea of the type of classified work that Shannon was involved in because John Van Numan was involved in as well.
+[2039.0-2047.0] One of Shannon's fellow NSA scientific advisors John Van Numan was watch around the clock by uniform military personnel when he was on his deathbed.
+[2047.0-2059.0] Impressive though, Van Numan's mind may have been it wasn't immune from it wasn't immune from infiltration or so the government feared and what better time to infiltrate it and grab the precious state secrets it held.
+[2059.0-2070.0] Then when it was any medically induced, hey, so so important that he was guarded around the clock on his deathbed because they did not want anybody hacking his brain.
+[2070.0-2077.0] So there is, I don't know, I bet you a 50 to 100 pages of this book about information theory.
+[2077.0-2084.0] I think for our purposes, I mean, just going to do a really simple review because I think more important than that is the way he approaches work.
+[2084.0-2094.0] I think that's what you and I are most interested in, but I do think, you know, there is a couple paragraphs that give you, I think a simplified version of a simplified understanding rather of information theory.
+[2094.0-2098.0] So information existed before Shannon, just as objects had inertia before Newton.
+[2098.0-2110.0] But before Shannon, there was precious little sense of information as an idea, as a measurable quantity, an object fitted out for hard science before Shannon information was a telegram, a photograph, a paragraph, a song.
+[2110.0-2115.0] After Shannon, information was entirely abstracted into bits.
+[2115.0-2126.0] Information theory was summed up by his recognition that all information, no matter the source, the sender, the recipient, or the meaning could be efficiently represented by a sequence of bits.
+[2126.0-2134.0] He felt that bits was information's fundamental unit. So he writes his paper, like I said, I think it's published in 1948.
+[2134.0-2141.0] So his paper is going to introduce many of the concepts that underpin the modern digital world, the world that we inhabit.
+[2141.0-2145.0] The fact that most of our, probably most of our communications is digital today.
+[2145.0-2159.0] And Shannon's work is widely regarded as one of the most influential scientific papers of the 20th century and laid theoretical foundation for things like the internet, data compression, error correcting codes, digital telecommunications, modern computing, and much of today's AI infrastructure.
+[2159.0-2164.0] Now, there's a couple interesting descriptions of the book of him writing the paper again, it just plays out over many, many years.
+[2164.0-2170.0] Napkins decorate the table, strands of thought and stray sections of equations accumulate around him.
+[2170.0-2174.0] He writes in neat script online paper, but the raw materials everywhere.
+[2174.0-2183.0] Eight years like this, scribbling, refining, crossing out, staring into a thicket of equations, knowing that at the end of all this effort, they may reveal nothing.
+[2183.0-2188.0] They're a brace for music and cigarettes and blurry eyed walks to work in the morning.
+[2188.0-2198.0] But mostly it's this ceaseless drilling again alone at night by himself back to the desk, where he senses perhaps that he's on to something significant, something even more fundamental.
+[2198.0-2199.0] But what?
+[2199.0-2206.0] And then he talks about that there was many flashes of intuition that his work was not linear ideas came when they came and he had no control over it.
+[2206.0-2210.0] One night I remember I woke up in the middle of the night and I had an idea and stayed up all night working on that.
+[2210.0-2214.0] And one of the most remarkable things about Shannon is he publishes the paper, he knows it's good.
+[2214.0-2221.0] He never doubts that his work is good and even to the point where, you know, he kind of was like he trusted, he trusted judgment so much that when he said,
+[2221.0-2224.0] you know, if you want to argue ideas, like, I'm not even going to argue with you.
+[2224.0-2228.0] But once it comes out, then we see again, he goes back to his personality.
+[2228.0-2233.0] He's like, he wants to do great work, but he's doing great work because he's just curious about he's not doing it.
+[2233.0-2237.0] If you go back to what Munger says about the importance of having an inner clock.
+[2237.0-2243.0] Buffy calls it an inner scorecard. Just like man, I'm just doing what I want to do regardless of what's going on outside in the outside world.
+[2243.0-2248.0] And we see this because it says having completed his path breaking work by the age of 32.
+[2248.0-2251.0] He might have spent his remaining decades as a scientific celebrity.
+[2251.0-2253.0] Instead, he spent all his time tinkering.
+[2253.0-2255.0] So he'd build, he's a funny dude too.
+[2255.0-2258.0] He'd build an electronic maze solving mouse.
+[2258.0-2262.0] He had a chest, these are all things he'd build with his hands by the way.
+[2262.0-2267.0] He built a chest playing computer. He built the first ever wearable computer.
+[2267.0-2271.0] He created a calculator that operated in Roman numerals.
+[2271.0-2274.0] He had a fleet of customized unicycles.
+[2274.0-2278.0] He spent years devoted to the scientific study of juggling.
+[2278.0-2283.0] And his whole point is that working on a nationally interest you is time well spent.
+[2283.0-2289.0] Shannon would be adamant on this point. After the effort of discovery, the effort of communication was secondary by far.
+[2289.0-2294.0] He had solved the problem to his own satisfaction. And that as far as he was concerned was enough.
+[2294.0-2297.0] Shannon explains this viewpoint later on.
+[2297.0-2301.0] After I had found the answers, it was always painful to write them up or to publish them.
+[2301.0-2305.0] Again, this is why it's so important. The writing up and the publishing is actually how you get the acclaim.
+[2305.0-2308.0] He was just interested in solving the puzzle.
+[2308.0-2310.0] So, winds up.
+[2310.0-2314.0] And now he's scientific celebrity. Bell Labs does not want to lose him.
+[2314.0-2317.0] He's essentially just do whatever you want, Shannon.
+[2317.0-2320.0] You're on the payroll. You can do whatever, you know, you can work from home. You can come in.
+[2320.0-2323.0] You can do neither or both.
+[2323.0-2327.0] He still decides to wind up leaving because he's getting poached by MIT.
+[2327.0-2331.0] And he talks about one of the reasons. There's really two, two main reasons that he winds up doing this.
+[2331.0-2337.0] And what's funny is even after he leaves Bell Labs, they thought he was so important.
+[2337.0-2342.0] And he was so disinterested in money for money sake that Bell Labs kept him on the payroll.
+[2342.0-2345.0] He winds up getting paid from MIT and Bell Labs.
+[2345.0-2350.0] And so now, at this point in the book, he's talking about why he leaves Bell Labs and decides to go to MIT.
+[2350.0-2354.0] The general freedom and academic life is one of its most important features.
+[2354.0-2359.0] There was a certain restlessness on Shannon's part after spending more than a decade and a half in a single institution.
+[2359.0-2365.0] Having spent 15 years at Bell Labs, I felt myself getting a little stale and unproductive.
+[2365.0-2369.0] And a change of scene and colleagues is very stimulating.
+[2369.0-2375.0] And then I love this paragraph, which describes the result of that very important decision, saying, hey, I had 15 years here.
+[2375.0-2377.0] I loved it here, but I needed a change of scenery.
+[2377.0-2380.0] I needed a change of place. I needed a change of colleagues.
+[2380.0-2385.0] And so it says, once you got to MIT, what resulted was some of Shannon's most creative and whimsical endeavors.
+[2385.0-2389.0] There was a trumpet that shot fire when played. Handmade unicycles.
+[2389.0-2393.0] There was a chair left that took guests down from the porch to the edge of the lake.
+[2393.0-2397.0] A machine that saw Rubik's cubes, more chest-playing machines, more handmade robots.
+[2397.0-2403.0] Shannon's mind, it seems, was finally free to bring its most outlandish ideas to mechanical life.
+[2403.0-2404.0] He loved building machines.
+[2404.0-2409.0] What I would describe, the activities that he's doing now, and, you know, especially now at this point in the story,
+[2409.0-2413.0] before early in life as well, his activities were auto-telic.
+[2413.0-2415.0] So auto-telic is one of my favorite words.
+[2415.0-2424.0] In fact, the original name of this podcast that I started 10 years ago next month was auto-telic.
+[2424.0-2426.0] Why was that such an important name?
+[2426.0-2430.0] Uh, auto-telic is an activity done for the sake of itself.
+[2430.0-2433.0] I was saying with the title of the podcast that I never thought I was going to listen to by the way,
+[2433.0-2436.0] I'm going to podcast even if no one listens to it.
+[2436.0-2437.0] I just feel compelled to do it.
+[2437.0-2438.0] I love it. I'm obsessed with it.
+[2438.0-2441.0] You see the exact same idea here.
+[2441.0-2442.0] All of his ideas.
+[2442.0-2443.0] All of his activities.
+[2443.0-2444.0] They're just auto-telic.
+[2444.0-2446.0] They're activities done for the sake of himself.
+[2446.0-2451.0] Shannon summed all of his work up, the work that he's doing now, as happily pointless.
+[2451.0-2455.0] I've always pursued my interest without much regard to financial value or value to the world.
+[2455.0-2458.0] I've spent lots of time on totally useless things.
+[2458.0-2463.0] He made no distinction between his interest in information and his interest in unicycles.
+[2463.0-2466.0] They were all moves in the same game.
+[2466.0-2469.0] This is just, and this is just great writing here.
+[2469.0-2472.0] What other people called hobbies he thought of as experiments.
+[2472.0-2476.0] Exercises in the practice of simplification.
+[2476.0-2482.0] Models that filed a problem down to its barest interesting form.
+[2482.0-2488.0] He was so convinced of a machine-enabled future, and so eager to explore its boundaries
+[2488.0-2492.0] that he was willing to tolerate a degree of ridicule to bring it to pass.
+[2492.0-2494.0] He was preoccupied with, quote,
+[2494.0-2500.0] the possible capabilities and applications of large-scale electronic computers.
+[2500.0-2504.0] At a time when nothing even existed.
+[2504.0-2508.0] Consider it in the light of that future, which is our present.
+[2508.0-2510.0] His machines were not hobbies.
+[2510.0-2513.0] They were proofs. That is great, great writing.
+[2513.0-2515.0] Here's another great quote from Shannon.
+[2515.0-2521.0] A very small percentage of the population produces the greatest proportion of the most important ideas.
+[2521.0-2522.0] There are some people.
+[2522.0-2526.0] If you shoot one idea into their brain, you will get half an idea out.
+[2526.0-2532.0] There are other people who produce two ideas for each idea sent in.
+[2532.0-2535.0] Now, another thing. We go back to puzzles.
+[2535.0-2537.0] You really give a shit about money, but he was very rich.
+[2537.0-2538.0] How do you give a very rich?
+[2538.0-2540.0] Because he just started getting obsessed with stocks and stock market.
+[2540.0-2543.0] He's like, oh, this is just another puzzle.
+[2543.0-2546.0] And they wind up making...
+[2546.0-2548.0] There's this documentary.
+[2548.0-2551.0] And no disrespect to the documentary makers, but everyone's like,
+[2551.0-2552.0] you've got to watch this documentary.
+[2552.0-2553.0] It's called The Bit Player.
+[2553.0-2555.0] And I think I've watched it before.
+[2555.0-2558.0] We watched it again to prep for this episode.
+[2558.0-2559.0] Not good.
+[2559.0-2563.0] But if you want to maybe watch it on one five, I don't know, maybe two X.
+[2564.0-2565.0] Maybe he gives you insight.
+[2565.0-2568.0] You'd probably just better off just listening to the audiobook of this book
+[2568.0-2570.0] or maybe listening to his podcast again, again.
+[2570.0-2573.0] But one of the interesting things about documentary was they interview his kids.
+[2573.0-2575.0] You know, Shen has now passed on.
+[2575.0-2576.0] I think he died in 2001.
+[2576.0-2581.0] But they talk about the fact that they made investing a family hobby.
+[2581.0-2582.0] And I thought that was interesting.
+[2582.0-2583.0] And so his wife Betty.
+[2583.0-2587.0] Since Betty and Claude did play the markets obsessively, the process became a family affair.
+[2587.0-2590.0] And so this is what his daughter Peggy talked about this.
+[2590.0-2592.0] Much of the conversation around the home would be about the stock market.
+[2593.0-2596.0] Because much of my parents' focus was on what the market was doing.
+[2596.0-2598.0] They taught me to read the Wall Street Journal and stocks.
+[2598.0-2600.0] And they taught me about stocks very early.
+[2600.0-2602.0] You'd come down and open the newspaper and they'd have me read
+[2602.0-2605.0] because at that time, my eyesight was better than theirs.
+[2605.0-2607.0] And it was a way for them to engage their kids.
+[2607.0-2609.0] Then eventually, they set up a small personal computer
+[2609.0-2612.0] to carry out the quotes during the day and then check again at the end of the day.
+[2612.0-2616.0] So there were computer printouts floating around the house with stock quotes on them.
+[2616.0-2618.0] Now, there's a couple crazy stories.
+[2618.0-2620.0] And again, this is one of my favorite parts of reading out his biography.
+[2621.0-2624.0] The higher you go, the world gets smaller and smaller.
+[2624.0-2626.0] And so, you know, he's working.
+[2626.0-2627.0] He's talking to John Ben Newman.
+[2627.0-2628.0] He's meeting Albert Einstein.
+[2628.0-2631.0] He's having tea with Alan Turing.
+[2631.0-2635.0] In a twist of fate and just remarkable is the fact that Henry Singleton,
+[2635.0-2638.0] who again, if you just go back and listen to Buffett and Munger,
+[2638.0-2640.0] Buffett and Munger talk about Henry Singleton.
+[2640.0-2643.0] Henry Singleton built a conglomerate before Buffett and Munger did.
+[2643.0-2645.0] And they took a lot of ideas from Singleton.
+[2645.0-2647.0] The ideas I thought were Buffett and Munger.
+[2647.0-2648.0] So they actually learned from Singleton.
+[2648.0-2653.0] Munger said that Singleton was the single smartest person that he ever met in life.
+[2653.0-2657.0] Buffett said that it was a crime that business schools did not study this guy.
+[2657.0-2661.0] Claude Shannon and Henry Singleton wind up being meeting in college.
+[2661.0-2663.0] He was a friend in college.
+[2663.0-2666.0] The conglomerate that Singleton builds is called Teladine.
+[2666.0-2669.0] Claude Shannon is going to be on the board of it.
+[2669.0-2672.0] And Shannon does something really smart.
+[2672.0-2675.0] And he makes a large investment into Teladine.
+[2675.0-2678.0] And that investment winds up compounding,
+[2678.0-2684.0] gave him a compound return of 27% over 25 years.
+[2684.0-2686.0] And as Shannon retold the story,
+[2686.0-2689.0] he made the investment simply because I had a good opinion of him.
+[2689.0-2693.0] And there's all these stories in the book where Singleton benefits
+[2693.0-2696.0] from when he's doing a series of acquisitions,
+[2696.0-2700.0] being able to balance those ideas off of Claude Shannon.
+[2700.0-2704.0] So there's another book I read a long time ago called Fortune's Formula.
+[2704.0-2710.0] I think actually has a better description of just how remarkable Shannon was at investing
+[2710.0-2714.0] and turning the, trying to solve the puzzle of the stock market.
+[2714.0-2718.0] I'm going to read a paragraph from there from that book in one second too.
+[2718.0-2720.0] But I just want to give you an overview of why he's doing this.
+[2720.0-2722.0] Again, it just was just another puzzle.
+[2722.0-2724.0] Shannon's interest in money resembled his other passions.
+[2724.0-2726.0] He was not out to a crew wealth for wealth sake,
+[2726.0-2729.0] nor did he have any burning desire to own the finer things in life.
+[2729.0-2731.0] But money created markets and math puzzles.
+[2731.0-2737.0] Problems that could be analyzed and interpreted and played out.
+[2737.0-2740.0] So then let me read just how good he was at this.
+[2740.0-2742.0] This is a paragraph from Fortune's Formula.
+[2742.0-2747.0] In 1986, Barons ran an article ranking the recent performance of 77 money managers.
+[2747.0-2753.0] Claude Shannon, though not mentioned in the article, had done better than all but three of the pros.
+[2753.0-2756.0] The Barons' money managers are mostly firms with up to 100 people.
+[2756.0-2760.0] Shannon worked with his wife and an Apple II computer.
+[2760.0-2765.0] Barons reported on the recent performance of 1026 funds.
+[2765.0-2770.0] Shannon achieved a higher return than 1025 of them.
+[2770.0-2773.0] This is incredible, over 30 years.
+[2773.0-2782.0] From the late 1950s through 1986, Shannon's returns on his stock portfolio was 28% a year.
+[2782.0-2787.0] Another legendary person that Shannon winds up meeting.
+[2787.0-2789.0] This is a young Ed Thorpe.
+[2789.0-2792.0] Ed Thorpe and Claude Shannon wind up building the world's first wearable computer.
+[2792.0-2796.0] They're trying to solve, Shannon was obsessed with trying to solve gambling.
+[2796.0-2799.0] Thorpe wrote the book on how to count cards and black jats.
+[2799.0-2800.0] Thorpe's still alive.
+[2800.0-2803.0] It's episode 222, one of the best audio biographies ever read.
+[2803.0-2806.0] It's called a Man for All Markets, if you want to learn more about Thorpe.
+[2806.0-2814.0] But Thorpe, he's all in this book, but I thought this one description of Thorpe on how Shannon dealt with problems was very fascinating.
+[2814.0-2818.0] And he says, Shannon seemed to think with ideas more than words or formulas.
+[2818.0-2822.0] A new problem was like a sculptor's block of stone.
+[2822.0-2829.0] And Shannon's ideas chiseled away the obstacles until an approximate solution emerged like an image,
+[2829.0-2834.0] which he proceeded to refine as desired with more ideas.
+[2834.0-2839.0] Remind me of this great quote from Michelangelo when he was saying that how he carved the statue of David.
+[2839.0-2845.0] Because I simply removed everything that was not David back to following his curiosity.
+[2845.0-2848.0] He says, I don't think I was ever motivated by the notions of winning prizes,
+[2848.0-2850.0] although I've had a couple dozen of them in the other room.
+[2850.0-2855.0] I was more motivated by curiosity, never by the desire for financial gain.
+[2855.0-2860.0] I just wondered how things were put together or what laws or rules govern a situation.
+[2860.0-2864.0] Or if there are theorems about what one can or cannot do.
+[2864.0-2868.0] Mainly because I just wanted to know myself.
+[2868.0-2876.0] In fact, one of my dear quotes of him, he says, I think the history of science has shown that valuable consequences often proliferate from simple curiosity.
+[2876.0-2882.0] Later in his life, you know, he would pick, you know, he'd been invited all over the world to travel and to speak.
+[2882.0-2887.0] Many times they wanted to go and reward, you know, he didn't really just like being home.
+[2887.0-2892.0] He liked eating the same thing all the time, he liked just being in his room building gadgets.
+[2892.0-2896.0] But he did go and accept his prize in Japan, which I thought was very interesting.
+[2896.0-2902.0] And he talked about the fact that he actually thinks that at least in the United States that we're actually teaching history incorrect.
+[2902.0-2904.0] And it's just the wrong way to go about it.
+[2904.0-2907.0] And he's got some really interesting insights about how he thinks history should be taught,
+[2907.0-2911.0] but also tells you a lot about what he admired and what he thought were valuable.
+[2911.0-2914.0] And he says, most of the time, we spent on the study of political leaders and wars.
+[2914.0-2916.0] The Caesars, Napoleon's, and Hitler's.
+[2916.0-2918.0] I think this is totally wrong.
+[2918.0-2921.0] The important people in events of history are the thinkers and innovators,
+[2921.0-2927.0] the Darwin's, the Newton's, the Beethoven's, whose work continues to grow influence in a positive fashion.
+[2927.0-2930.0] He talks about we need in the same comp and the same talk.
+[2930.0-2932.0] He says we need to incur, we need more engineers.
+[2932.0-2934.0] We need to encourage people to go into engineering.
+[2934.0-2936.0] Things are some of the most important people to ever exist.
+[2936.0-2938.0] One category of innovation he signaled out for special mention.
+[2938.0-2941.0] The discoveries of science are wonderful achievements in themselves,
+[2941.0-2947.0] but would not affect the life of the common man without the intermediate efforts of engineers and inventors.
+[2947.0-2951.0] People like Thomas Edison and Alexander Graham Bell,
+[2951.0-2954.0] and then in a cool twist of fate,
+[2954.0-2959.0] somebody who was born with one of the most gifted minds that has ever graced up the planet.
+[2959.0-2963.0] Unfortunately, the last decade of his life slowly starts to degrade,
+[2963.0-2968.0] winds up having Alzheimer's, winds up having to put into full-time care.
+[2968.0-2973.0] But before he died, he outlined what he wanted his funeral to be.
+[2973.0-2975.0] And I think, again, this gives you a great insight.
+[2975.0-2977.0] It's just a very unique personality.
+[2977.0-2980.0] It's a person that was obsessed with play and following his own curiosity.
+[2980.0-2984.0] And so this is Claude Shannon's idea for his own funeral.
+[2984.0-2987.0] Shannon had set to his mind the question of his funeral,
+[2987.0-2989.0] and imagined something very different.
+[2989.0-2992.0] For him, it was an occasion that called for humor, not grief.
+[2992.0-2997.0] He outlined a grand procession, a macy-style parade to amuse and delight
+[2997.0-3000.0] and to sum up the life of Claude Shannon.
+[3000.0-3003.0] The parade would be led by somebody playing a clarinet.
+[3003.0-3005.0] Behind them would be a jazz combo.
+[3005.0-3008.0] Next in line would be six unicycling pole bearers,
+[3008.0-3010.0] somehow balancing Shannon's coffin.
+[3010.0-3013.0] Behind them would come the grieving widow,
+[3013.0-3017.0] then a juggling octet and then a juggling machine.
+[3017.0-3021.0] Next would come three black chess pieces bearing a hundred-dollar bills,
+[3021.0-3026.0] and then three rich men from the West, California tech investors, following the money.
+[3026.0-3029.0] They would march in front of a chess float,
+[3029.0-3033.0] a top of that float would be British chess master David Levy,
+[3033.0-3037.0] who would be squaring off an alive chess match against a computer.
+[3037.0-3039.0] Then it's the scientist and mathematicians,
+[3039.0-3046.0] a fanlinks of joggers and a 417 instrument band would bring up the rear.
+[3046.0-3051.0] And that is how Claude Shannon wanted to be remembered.
+[3051.0-3055.0] That is where I will leave it for the full story highly recommend reading the book
+[3055.0-3061.0] that is 428 books down, 1,000 to go, and I'll talk to you again soon.
