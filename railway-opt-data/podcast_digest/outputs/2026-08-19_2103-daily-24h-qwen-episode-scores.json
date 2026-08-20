@@ -1,0 +1,251 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-08-19_2103",
+  "usage": {
+    "prompt_tokens": 4089,
+    "completion_tokens": 934,
+    "total_tokens": 5023
+  },
+  "episodes": [
+    {
+      "id": "fd02ab214dc5c490f0f05e5f",
+      "show_name": "The Tim Ferriss Show",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "#880: Relationship Tools That Work — Esther Perel, Brené Brown, Dr. Sue Johnson, Terry Real, and More on Conflict, Repair, and Lasting Love",
+      "link": "",
+      "published": "2026-08-19T20:30:00+00:00",
+      "summary": "This episode is devoted to one deceptively simple question: How do you stay close to your partner over time through the inevitable exhaustion, misunderstanding, conflict, disappointment, and change? This episode is brought to you by: Eight Sleep Pod Cover 5 with dual-zone temperature control, so each partner sleeps at their perfect temperature In this episode: Esther Perel begins with the basics: appreciation, affection, and replacing chronic complaints with clear requests. Brené Brown explains why marriage is never 50/50 and how she and her husband create what Brené calls a “plan of kindness.” Brad Feld describes the monthly “life dinners” that have helped him and his wife review the previous 30 days, talk honestly about the future, and prevent resentments from building up Jim Dethmer offers a practical way to distinguish observable facts from the stories we make up about our partners. Sheila Heen explains how humor and genuine curiosity can serve as an interrupt on an argument that is heating up The late Dr. Sue Johnson then walks us through a “Hold Me Tight” conversation—a way of moving beneath anger and defensiveness to the fear, vulnerability, and need for connection underneath. Terry Real then offers a strikingly simple model for repair and introduces the term “normal marital hatred” - as he put it, nobody ever goes up to him and says “What do you mean by that?!” Finally, Diana Chapman describes what it means to let an outdated version of a marriage end so that two people can consciously choose what comes next for their relationship. Timestamps: Intro from Tim: 00:00:00 Esther Perel : 00:01:58 Brené Brown : 00:08:21 Brad Feld: 00:12:02 Jim Dethmer : 00:16:51 Shelia Heen : 00:23:04 Dr. Sue Johnson : 00:29:26 Terry Real : 00:40:14 Diana Chapman : 00:46:19 Short bios: Esther Perel is an internationally renowned psychotherapist, the New York Times bestselling author of Mating in Captivity and The State of Affairs , and the host of the award-winning podcast Where Should We Begin? Brené Brown is the author of six number-one New York Times bestsellers exploring courage, vulnerability, shame, and resilience; a research professor at the University of Houston; and a professor of practice at the University of Texas at Austin. Brad Feld is an early-stage investor and entrepreneur and a co-founder of Foundry Group, Mobius Venture Capital, and Techstars. He writes on entrepreneurship, leadership, mental health, and sustaining a life beyond work. Jim Dethmer is a co-founder of the Conscious Leadership Group and co-author of The 15 Commitments of Conscious Leadership , an influential framework for building candid, responsible, high-trust relationships. Sheila Heen is the deputy director of the Harvard Negotiation Project, founder of Triad Consulting Group, and co-author of the New York Times bestsellers Difficult Conversations and Thanks for the Feedback . Dr. Sue Johnson was the pioneering clinical psychologist who created Emotionally Focused Therapy. She was named Psychologist of the Year by the American Psychological Association and appointed to the Order of Canada for her global impact on psychotherapy. Terry Real is an internationally recognized family therapist, a bestselling author, and the creator of Relational Life Therapy. He has spent more than four decades helping couples restore intimacy and connection. Diana Chapman is co-author of The 15 Commitments of Conscious Leadership , a cofounder of the Conscious Leadership Group, and founder of the Signal Institute, working with leaders on radical honesty, somatic intelligence, and transformation. * For show notes and past guests on The Tim Ferriss Show , please visit tim.blog/podcast . For deals from sponsors of The Tim Ferriss Show , please visit tim.blog/podcast-sponsors Sign up for Tim’s email newsletter ( 5-Bullet Friday ) at tim.blog/friday . For transcripts of episodes, go to tim.blog/transcripts . Discover Tim’s books: tim.blog/books . Follow Tim: Twitter : twitter.com/tfe",
+      "duration": "00:57:11",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "fd02ab214dc5c490f0f05e5f",
+        "score": 45,
+        "tier": "scan",
+        "reason": "Relationship tools from Perel, Brown, and others offer personal insights but lack business or market relevance.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "0ea5dd557dec1e3498e70739",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Pixel reviewer roundtable",
+      "link": "",
+      "published": "2026-08-19T19:46:00+00:00",
+      "summary": "Pixel reviewers assemble: Senior reviewer Victoria Song leads a Vergecast roundtable with editors Dominic Preston and Cameron Faulkner to discuss the Pixel 11/Pro/Fold and the Pixel Watch 5. We discuss if HiLight is a LowLight, whether we miss the temperature sensor, and if the Watch 5’s GPS truly beats Garmin and Apple. And stay tuned for more camera discussion on Friday’s Vergecast. Further reading: Nvidia’s new financial strategy does not compute Amazon’s drones will soon deliver to nearly 500 US cities and towns | The Verge Framework gave its 12-inch laptop some hardware upgrades | The Verge This robot vacuum solves my kitchen stool problem The Pixel 11 isn’t the best Pixel of 2026, but it’s the smartest buy The Pixel 11 Pro is a great phone, no thanks to its flashiest new features Google’s Pixel 11 Pro Fold feels like the end of an era Google’s Pixel Watch 5 is promising — but it isn’t finished Subscribe to The Verge for unlimited access to theverge.com, subscriber-exclusive newsletters, and our ad-free podcast feed.We love hearing from you! Email your questions and thoughts to vergecast@theverge.com or call us at 866-VERGE11. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "2317",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "0ea5dd557dec1e3498e70739",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Pixel review roundtable offers tech insights but leans toward consumer gadgetry over strategic AI or market analysis.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "462a213fe611c5f1c179dae2",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: August 19th, 2026",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-august-19th-2026",
+      "published": "2026-08-19T16:00:00+00:00",
+      "summary": "Featuring: Ed Yardeni, President at Yardeni Research Gennadiy Goldberg, Head of US Interest Rate Strategy at TD Securities James Bullard, Dean of Purdue University Business School & Former St. Louis Fed President See omnystudio.com/listener for privacy information.",
+      "duration": "1329",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "462a213fe611c5f1c179dae2",
+        "score": 55,
+        "tier": "scan",
+        "reason": "Bloomberg Surveillance covers market updates but lacks specific actionable insights for DJ's focus areas.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "a74f6df47cec4234e8d3499e",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bond Traders Look to Hedge Risk of Fed Cuts",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bond-traders-look-to-hedge-risk-of-fed-cuts",
+      "published": "2026-08-19T14:14:58+00:00",
+      "summary": "The latest in finance, economics and investment. Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF .Bloomberg Surveillance hosted by Tom Keene & Paul SweeneyWednesday, August 19th, 2026 Featuring: 1) Lindsay Rosner, Head of Multi-Sector Investing at Goldman Sachs Asset Management, talks market resilience and global risk premiums.2) Kathy Bostjancic, Chief Economist at Nationwide, on why recent inflation prints support a Fed hold.3) Ian Lyngen, Head of US Rates Strategy at BMO Capital Markets, discusses the impact of real yield pressure on monetary policy. 4) John Stoltzfus, Chief Investment Strategist at Oppenheimer & Co., on why fundamentals point to more opportunity than risk. See omnystudio.com/listener for privacy information.",
+      "duration": "1536",
+      "old_score": 28,
+      "old_label": "skip",
+      "qwen": {
+        "id": "a74f6df47cec4234e8d3499e",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Discusses Fed policy impact on real yields and market resilience, relevant for macroeconomic positioning.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "aeede87b04c7d0b46a16e0b5",
+      "show_name": "Eye on AI",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "From Zero to 150 Robots in Just 20 Months | Mike LeBlanc, Foundation Future Industries",
+      "link": "https://aneyeonai.libsyn.com/from-zero-to-150-robots-in-just-20-months-mike-leblanc-foundation-future-industries",
+      "published": "2026-08-19T13:26:00+00:00",
+      "summary": "Most humanoid robot companies are still running curated demos in replica environments. Foundation Future Industries is running 150 robots on real automotive production lines in Georgia, and heading to Ukraine this year to deploy on the battlefield. Mike LeBlanc, the co-founder of Foundation Future Industries - currently the only company supplying humanoid robots to the US Department of Defense, with contracts across the Army, Navy, and Air Force, joins Craig Smith to explain why the race is moving faster than almost anyone in the industry believes, and why the companies that are moving cautiously are about to be left behind. His frame is striking: he keeps a framed 1906 New York Times article on his office wall predicting that human flight would take between one million and ten million years. It was published three months before the Wright Brothers flew. He thinks humanoids are in exactly that moment right now. The conversation covers the full operational picture: how Foundation trains robots using video rather than simulation; why the fry-cook robot that couldn't open the bag of fries is a perfect metaphor for everything wrong with how most companies approach go-to-market in this space; why the human form factor isn't a philosophical preference but an empirical fact, humans are still doing every job in every factory that other robots can't, and that's the proof of concept; and why Mike LeBlanc isn't particularly worried about competing against Boston Dynamics backed by Google DeepMind, because they're still demoing in replica sites while Foundation is deploying on production lines. The episode ends with a bet: LeBlanc tells Craig that in twelve months, he'll be back to report 10,000 robots deployed in the world. Craig says he remains cautious. One of them is going to be right. Subscribe to Eye on A.I. for weekly conversations with the people building and deploying the future of AI.",
+      "duration": "01:06:23",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "aeede87b04c7d0b46a16e0b5",
+        "score": 85,
+        "tier": "listen",
+        "reason": "Humanoid robot deployment at scale with DoD contracts offers rare operational and market insight in AI/robotics.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "27d15abba5659750064a5611",
+      "show_name": "Conversations with Tyler",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "Luke Burgis on Mimetic Desire, Catholicism, and the Age of Social Contagion",
+      "link": "https://cowenconvos.libsyn.com/luke-burgis-on-mimetic-desire-catholicism-and-the-age-of-social-contagion",
+      "published": "2026-08-19T12:00:00+00:00",
+      "summary": "Luke Burgis left Wall Street after two years, founded a few successful companies in his twenties, then walked away to spend three years in a Roman seminary on the path to the priesthood. He now runs the Cluny Institute and teaches at Catholic University. His book Wanting made René Girard legible to a general audience; the new one, The One and the Ninety-Nine , takes mimetic theory into the dynamics of self and crowd in an age of social contagion. He joined Tyler to discuss whether the age of pessimism is ending, why the Anglo world in particular seems so unhappy, whether Dostoevsky or Thomas Mann better diagnoses modernity, the kind of reader his own book would ruin, why he thinks AI will make social contagion weaker , what put him off consulting with Anthropic on Claude's constitution, what effective altruism misses, why men and women are drifting apart, what he'd fund in every American city, the case for reintroducing friction, whether a Gnostic reading of the lost sheep explains our moment, what Rod Dreher gets right about withdrawal, why Genoa is Italy's most underrated city, what confession times reveal about a church, why Italians seem tired of their Catholicism, why he didn't become a priest, where he differs from Ross Douthat, why exorcists appear to be on the rise, the sudden mimetic antisemitism on the right, the book his 23-year-old self would have hated, what he secretly admires about Silicon Valley, why Michigan never left him, what the original Cluny can teach a modern talent network, how he hopes to face his own death, what he'll do next, and more. Read a transcript enhanced with helpful links, or watch the full video on YouTube. Recorded April 30th, 2026. Other ways to connect Follow us on X and Instagram Follow Tyler on X Follow Luke on X Sign up for our newsletter Join our Discord Email us: cowenconvos@mercatus.gmu.edu Learn more about Conversations with Tyler and other Mercatus Center podcasts here . Timestamps: 00:00:00 - Intro 00:05:08 - On overapplying mimetic theory 00:06:35 - On AI and social contagion 00:07:53 - On declining Anthropic's invitation 00:09:36 - On the widening gap between men and women 00:12:25 - On anti-mimetic postures, jazz, and porn 00:16:46 - On Genoa, Naples, and societal escape fantasies 00:18:31 - On Italian Catholicism 00:26:59 - On not becoming a priest 00:29:13 - On beauty, enchantment, and the Gnostic sheep 00:40:22 - On what Wall Street taught him 00:43:50 - On Michigan 00:45:12 - On the Cluny Institute 00:48:41 - On dealing with death and what else is next 00:51:21 - Outro Image credit: Kirth Bobb",
+      "duration": "52:01",
+      "old_score": 37,
+      "old_label": "skip",
+      "qwen": {
+        "id": "27d15abba5659750064a5611",
+        "score": 60,
+        "tier": "digest",
+        "reason": "Philosophical take on mimetic desire and AI's impact on social contagion offers conceptual framework worth considering.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "e940d3896fefff1f7b9955f0",
+      "show_name": "Big Technology Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Nick Bostrom: Worries About AI Existential Risk Just Became More Concrete",
+      "link": "",
+      "published": "2026-08-19T10:00:00+00:00",
+      "summary": "Nick Bostrom is an AI philosopher and the author of Superintelligence and Deep Utopia. Bostrom joins Big Technology to discuss whether the rise of autonomous AI agents is making the technology’s existential risks more concrete. Tune in to hear his assessment of the alignment problem, recursive self-improvement, and humanity’s chances of steering superintelligence toward a positive outcome. We also cover whether we have reached AGI, the case for a precisely timed AI pause, biological threats, AI consciousness, and the moral status of digital minds. Hit play for a clear-eyed conversation about AI’s greatest dangers and its potential to radically improve human life. --- Enjoying Big Technology Podcast? Please rate us five stars ⭐⭐⭐⭐⭐ in your podcast app of choice. Watch the full documentary here: https://www.gravitee.io/ai-agent-documentary Want a discount for Big Technology on Substack + Discord? Here’s 25% off for the first year: https://www.bigtechnology.com/subscribe?coupon=0843016b Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "duration": "3705",
+      "old_score": 55,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "e940d3896fefff1f7b9955f0",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Bostrom provides concrete existential risk analysis on AI agents, relevant for long-term strategic thinking.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "a82d5049d7579bc516df44a2",
+      "show_name": "My First Million",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Asking 3 young millionaires how they make $1.8M, $5M, & $12M/year",
+      "link": "",
+      "published": "2026-08-19T10:00:00+00:00",
+      "summary": "30+ blue-collar business ideas: https://clickhubspot.com/refn Episode 853: Sam Parr ( https://x.com/theSamParr ) and Shaan Puri ( https://x.com/ShaanVP ) ask 3 founders to tell them the juiciest number behind their businesses and get advice live. — Show Notes: (0:00) Nick Haschka, OnPoint Generators (17:39) Kevin Moyer, Smash My Trash (36:54) Noam Eisenberg, TMJaw — Links: • OnPoint Generators - https://onpointgen.com/ • Smash My Trash - https://howitworks.smashmytrash.com/ • Your TMJ Pen - https://yourtmj.com/ — Check Out Sam's Stuff: • Hampton (joinhampton.com): My community for founders. Average member does $25m/year. Many of the guests are members. Get after it...apply: http://joinhampton.com/mfm — Check Out Shaan's Stuff: • Shaan's weekly email - https://www.shaanpuri.com • Visit https://www.somewhere.com/mfm to hire worldwide talent like Shaan and get $500 off for being an MFM listener. Hire developers, assistants, marketing pros, sales teams and more for 80% less than US equivalents. • Mercury - Shaan uses Mercury across all of his companies. you can too: http://mercury.com/ Mercury is a fintech company, not an FDIC-insured bank. Banking services provided by Choice Financial Group, Column, N.A., Members FDIC • I run all my newsletters on Beehiiv and you should too + we're giving away $10k to our favorite newsletter, check it out: beehiiv.com/mfm-challenge My First Million is a HubSpot Original Podcast // Brought to you by HubSpot Media // Production by Arie Desormeaux // Editing by Ezra Bakker Trupiano /",
+      "duration": "3481",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "a82d5049d7579bc516df44a2",
+        "score": 40,
+        "tier": "scan",
+        "reason": "Founders sharing revenue figures lacks depth on frameworks or durable business models DJ prioritizes.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "6fcf76b1f6347550cbad012a",
+      "show_name": "Stratechery",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "Apple Settles With E.U., U.S. App Store Fees, ATT Rules in Germany",
+      "link": "https://stratechery.com/2026/apple-settles-with-e-u-u-s-app-store-fees-att-rules-in-germany/",
+      "published": "2026-08-19T10:00:00+00:00",
+      "summary": "Apple's App Store is finally facing the reality of lower fees, and the EU should be satisfied with its work; it's ok it's late.",
+      "duration": "",
+      "old_score": 22,
+      "old_label": "skip",
+      "qwen": {
+        "id": "6fcf76b1f6347550cbad012a",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Apple's App Store fee changes in EU offer regulatory and platform business model insights worth digesting.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "171d1f5ecd96ea14c6a0dc9f",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "How Whatnot Built a Global Marketplace",
+      "link": "https://a16z.simplecast.com/episodes/how-whatnot-built-a-global-marketplace-DoonwHjN",
+      "published": "2026-08-19T10:00:00+00:00",
+      "summary": "a16z General Partner David George is joined by Grant LaFontaine, co-founder of Whatnot, to unpack how a marketplace that started with collectibles evolved into one of the world's leading live shopping platforms. Grant traces the company's origins from selling Pokémon cards online as a kid to discovering live commerce by watching Whatnot's earliest customers hack together sales on social media. They discuss why Whatnot thinks less like a traditional e-commerce marketplace and more like a digital shopping mall, where discovery, entertainment, community, and commerce all happen at once. Today, users spend roughly 95 minutes a day on the platform, and most aren't even buying something on a given day. They also explore how Whatnot is enabling small businesses to reach global audiences, expanding from collectibles into categories like fashion, food, and golf, and using AI to make sellers more efficient without replacing the human connection at the center of the experience. Resources: Follow Grant LaFontaine on X: https://x.com/GrantLaFontaine Follow David George on X: https://x.com/DavidGeorge83 Follow Whatnot on X: https://x.com/whatnot Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:42:39",
+      "old_score": 39,
+      "old_label": "skip",
+      "qwen": {
+        "id": "171d1f5ecd96ea14c6a0dc9f",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Whatnot's evolution into live commerce offers marketplace and AI-assisted seller insights worth summarizing.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "eb0fd9aa1bc3d87fc0cfef0a",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "The Truth About the Entrepreneurship Boom, and How to Manage Cash Flow as a Founder",
+      "link": "",
+      "published": "2026-08-19T08:00:00+00:00",
+      "summary": "Scott Galloway explains why the solopreneur boom isn't actually distorting the jobs report, breaks down how founders can survive a brutal early cash flow crunch, and shares how he thinks about talking to his kids about complicated family relationships. Want to be featured in a future episode? Send a voice recording to officehours@profgmedia.com, or drop your question in the r/ScottGalloway subreddit. Plus, you can now call or text Scott a question at our new Office Hours hotline: ‪(201) 472-3656‬. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "960",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "eb0fd9aa1bc3d87fc0cfef0a",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Galloway's founder cash flow tips are practical but not uniquely differentiated for DJ's toolkit.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "924e143604cca1fc55cb93fc",
+      "show_name": "Possible",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "The whole studio is one guy | Jonathan Brazeau",
+      "link": "",
+      "published": "2026-08-19T07:01:00+00:00",
+      "summary": "Jonathan Brazeau joins Reid Hoffman and Parth Patil to explain how AI animation and filmmaking are making the one-person studio possible—letting small teams create films that once required 100 people. From Dungeons & Dragons world-building and an RPG art book illustrated with Stable Diffusion, to a fantasy-western short film made with Midjourney, Luma AI, and Suno, Jonathan breaks down his workflow: character design, storyboarding, mocap, rotoscoping, music, and human curation. The conversation explores the “cogs and sparks” framework, what a lean AI-native studio can realistically accomplish, how taste separates art from AI slop, and why technology still can’t provide the essential creative spark. Read Questmaxxing on Substack: https://reidhoffman.substack.com/p/questmaxxing",
+      "duration": "1915",
+      "old_score": 55,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "924e143604cca1fc55cb93fc",
+        "score": 65,
+        "tier": "digest",
+        "reason": "AI animation workflow insights from a one-person studio offer creative tooling perspective relevant to content platforms.",
+        "confidence": "medium"
+      }
+    }
+  ]
+}

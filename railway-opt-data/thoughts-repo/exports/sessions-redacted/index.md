@@ -4,8 +4,76 @@ Generated from `/opt/data/sessions/` and safe for cloud backup.
 
 ## Sessions
 
+- `cron_e53615e48a2a_20260820_071152` | `2026-08-20` | `gpt-5.5` | `cron` | `19` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_071152.md`
+- `cron_e53615e48a2a_20260820_070614` | `2026-08-20` | `gpt-5.5` | `cron` | `17` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_070614.md`
+- `cron_e53615e48a2a_20260820_070032` | `2026-08-20` | `gpt-5.5` | `cron` | `19` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_070032.md`
+- `cron_e53615e48a2a_20260820_065454` | `2026-08-20` | `gpt-5.5` | `cron` | `19` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_065454.md`
+- `cron_e53615e48a2a_20260820_064908` | `2026-08-20` | `gpt-5.5` | `cron` | `22` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_064908.md`
+- `cron_e53615e48a2a_20260820_064340` | `2026-08-20` | `gpt-5.5` | `cron` | `14` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_064340.md`
+- `cron_e53615e48a2a_20260820_063813` | `2026-08-20` | `gpt-5.5` | `cron` | `16` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_063813.md`
+- `cron_e53615e48a2a_20260820_063223` | `2026-08-20` | `gpt-5.5` | `cron` | `23` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_063223.md`
+- `cron_e53615e48a2a_20260820_062605` | `2026-08-20` | `gpt-5.5` | `cron` | `35` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_062605.md`
+- `cron_e53615e48a2a_20260820_062015` | `2026-08-20` | `gpt-5.5` | `cron` | `23` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_062015.md`
+- `cron_e53615e48a2a_20260820_061445` | `2026-08-20` | `gpt-5.5` | `cron` | `17` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_061445.md`
+- `cron_e53615e48a2a_20260820_060912` | `2026-08-20` | `gpt-5.5` | `cron` | `17` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_060912.md`
+- `cron_e53615e48a2a_20260820_060314` | `2026-08-20` | `gpt-5.5` | `cron` | `27` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_060314.md`
+- `cron_e53615e48a2a_20260820_055615` | `2026-08-20` | `gpt-5.5` | `cron` | `19` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_055615.md`
+- `cron_e53615e48a2a_20260820_055042` | `2026-08-20` | `gpt-5.5` | `cron` | `19` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_055042.md`
+- `cron_e53615e48a2a_20260820_054503` | `2026-08-20` | `gpt-5.5` | `cron` | `22` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_054503.md`
+- `cron_e53615e48a2a_20260820_053940` | `2026-08-20` | `gpt-5.5` | `cron` | `15` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_053940.md`
+- `cron_e53615e48a2a_20260820_053411` | `2026-08-20` | `gpt-5.5` | `cron` | `16` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_053411.md`
+- `cron_e53615e48a2a_20260820_052845` | `2026-08-20` | `gpt-5.5` | `cron` | `15` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_052845.md`
+- `cron_e53615e48a2a_20260820_052313` | `2026-08-20` | `gpt-5.5` | `cron` | `16` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_052313.md`
+- `cron_e53615e48a2a_20260820_051736` | `2026-08-20` | `gpt-5.5` | `cron` | `19` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_051736.md`
+- `cron_e53615e48a2a_20260820_051209` | `2026-08-20` | `gpt-5.5` | `cron` | `13` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_051209.md`
+- `cron_e53615e48a2a_20260820_050629` | `2026-08-20` | `gpt-5.5` | `cron` | `18` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_050629.md`
+- `cron_e53615e48a2a_20260820_050058` | `2026-08-20` | `gpt-5.5` | `cron` | `18` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_050058.md`
+- `cron_e53615e48a2a_20260820_045528` | `2026-08-20` | `gpt-5.5` | `cron` | `19` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_045528.md`
+- `cron_e53615e48a2a_20260820_044953` | `2026-08-20` | `gpt-5.5` | `cron` | `21` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_044953.md`
+- `cron_e53615e48a2a_20260820_044428` | `2026-08-20` | `gpt-5.5` | `cron` | `15` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_044428.md`
+- `cron_e53615e48a2a_20260820_043900` | `2026-08-20` | `gpt-5.5` | `cron` | `17` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_043900.md`
+- `cron_e53615e48a2a_20260820_042933` | `2026-08-20` | `gpt-5.5` | `cron` | `16` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_042933.md`
+- `cron_e53615e48a2a_20260820_041835` | `2026-08-20` | `gpt-5.5` | `cron` | `23` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_041835.md`
+- `cron_e53615e48a2a_20260820_040753` | `2026-08-20` | `gpt-5.5` | `cron` | `15` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_040753.md`
+- `cron_e53615e48a2a_20260820_035705` | `2026-08-20` | `gpt-5.5` | `cron` | `24` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_035705.md`
+- `cron_e53615e48a2a_20260820_034558` | `2026-08-20` | `gpt-5.5` | `cron` | `32` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_034558.md`
+- `cron_e53615e48a2a_20260820_033525` | `2026-08-20` | `gpt-5.5` | `cron` | `18` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_033525.md`
+- `cron_e53615e48a2a_20260820_032453` | `2026-08-20` | `gpt-5.5` | `cron` | `16` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_032453.md`
+- `cron_e53615e48a2a_20260820_031411` | `2026-08-20` | `gpt-5.5` | `cron` | `19` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_031411.md`
+- `cron_e53615e48a2a_20260820_030336` | `2026-08-20` | `gpt-5.5` | `cron` | `19` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_030336.md`
+- `cron_e53615e48a2a_20260820_025256` | `2026-08-20` | `gpt-5.5` | `cron` | `17` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_025256.md`
+- `cron_e53615e48a2a_20260820_024207` | `2026-08-20` | `gpt-5.5` | `cron` | `22` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_024207.md`
+- `cron_e53615e48a2a_20260820_023134` | `2026-08-20` | `gpt-5.5` | `cron` | `17` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_023134.md`
+- `cron_e53615e48a2a_20260820_022051` | `2026-08-20` | `gpt-5.5` | `cron` | `22` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_022051.md`
+- `cron_e53615e48a2a_20260820_021017` | `2026-08-20` | `gpt-5.5` | `cron` | `20` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_021017.md`
+- `cron_e53615e48a2a_20260820_015945` | `2026-08-20` | `gpt-5.5` | `cron` | `15` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_015945.md`
+- `cron_e53615e48a2a_20260820_014915` | `2026-08-20` | `gpt-5.5` | `cron` | `18` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_014915.md`
+- `cron_e53615e48a2a_20260820_013818` | `2026-08-20` | `gpt-5.5` | `cron` | `27` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_013818.md`
+- `cron_e53615e48a2a_20260820_012750` | `2026-08-20` | `gpt-5.5` | `cron` | `17` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_012750.md`
+- `cron_e53615e48a2a_20260820_011707` | `2026-08-20` | `gpt-5.5` | `cron` | `20` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_011707.md`
+- `cron_e53615e48a2a_20260820_010635` | `2026-08-20` | `gpt-5.5` | `cron` | `19` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_010635.md`
+- `cron_e53615e48a2a_20260820_005602` | `2026-08-20` | `gpt-5.5` | `cron` | `18` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_005602.md`
+- `cron_e53615e48a2a_20260820_004520` | `2026-08-20` | `gpt-5.5` | `cron` | `19` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_004520.md`
+- `cron_e53615e48a2a_20260820_003444` | `2026-08-20` | `gpt-5.5` | `cron` | `17` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_003444.md`
+- `cron_e53615e48a2a_20260820_002408` | `2026-08-20` | `gpt-5.5` | `cron` | `17` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_002408.md`
+- `cron_e53615e48a2a_20260820_001340` | `2026-08-20` | `gpt-5.5` | `cron` | `16` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_001340.md`
+- `cron_e53615e48a2a_20260820_000257` | `2026-08-20` | `gpt-5.5` | `cron` | `24` messages | `exports/sessions-redacted/2026/08/cron_e53615e48a2a_20260820_000257.md`
+- `20260819_141950_047bf321` | `2026-08-20` | `gpt-5.5` | `telegram` | `Coding 1` | `140` messages | `exports/sessions-redacted/2026/08/20260819_141950_047bf321.md`
+- `cron_d85ba3927717_20260819_210537` | `2026-08-19` | `gpt-5.5` | `cron` | `6` messages | `exports/sessions-redacted/2026/08/cron_d85ba3927717_20260819_210537.md`
+- `cron_d85ba3927717_20260819_130613` | `2026-08-19` | `gpt-5.5` | `cron` | `6` messages | `exports/sessions-redacted/2026/08/cron_d85ba3927717_20260819_130613.md`
+- `20260819_235005_99bf8f` | `2026-08-19` | `gpt-5.5` | `telegram` | `126` messages | `exports/sessions-redacted/2026/08/20260819_235005_99bf8f.md`
+- `20260819_234211_68590a` | `2026-08-19` | `gpt-5.5` | `telegram` | `95` messages | `exports/sessions-redacted/2026/08/20260819_234211_68590a.md`
+- `20260819_231050_f5a7f8` | `2026-08-19` | `gpt-5.5` | `telegram` | `66` messages | `exports/sessions-redacted/2026/08/20260819_231050_f5a7f8.md`
+- `20260819_230906_c3a0a1` | `2026-08-19` | `gpt-5.5` | `telegram` | `4` messages | `exports/sessions-redacted/2026/08/20260819_230906_c3a0a1.md`
+- `20260819_230803_5fe36b` | `2026-08-19` | `gpt-5.5` | `telegram` | `4` messages | `exports/sessions-redacted/2026/08/20260819_230803_5fe36b.md`
+- `20260819_230723_14e083` | `2026-08-19` | `gpt-5.5` | `telegram` | `6` messages | `exports/sessions-redacted/2026/08/20260819_230723_14e083.md`
+- `20260819_230538_86998f` | `2026-08-19` | `gpt-5.5` | `telegram` | `10` messages | `exports/sessions-redacted/2026/08/20260819_230538_86998f.md`
+- `20260819_142454_2b4654` | `2026-08-19` | `gpt-5.5` | `telegram` | `56` messages | `exports/sessions-redacted/2026/08/20260819_142454_2b4654.md`
+- `20260819_103322_350d38` | `2026-08-19` | `gpt-5.5` | `telegram` | `77` messages | `exports/sessions-redacted/2026/08/20260819_103322_350d38.md`
 - `20260819_012903_1806df` | `2026-08-19` | `gpt-5.5` | `curator` | `12` messages | `exports/sessions-redacted/2026/08/20260819_012903_1806df.md`
+- `20260815_111319_36f6d5bc` | `2026-08-19` | `gpt-5.5` | `telegram` | `Coding 2` | `45` messages | `exports/sessions-redacted/2026/08/20260815_111319_36f6d5bc.md`
 - `20260811_222019_9b7cd9` | `2026-08-19` | `gpt-5.5` | `telegram` | `Briefings` | `157` messages | `exports/sessions-redacted/2026/08/20260811_222019_9b7cd9.md`
+- `20260810_215555_af4107d3` | `2026-08-19` | `gpt-5.5` | `telegram` | `thread 7703` | `89` messages | `exports/sessions-redacted/2026/08/20260810_215555_af4107d3.md`
 - `cron_d85ba3927717_20260818_210632` | `2026-08-18` | `gpt-5.5` | `cron` | `6` messages | `exports/sessions-redacted/2026/08/cron_d85ba3927717_20260818_210632.md`
 - `cron_d85ba3927717_20260818_130604` | `2026-08-18` | `gpt-5.5` | `cron` | `4` messages | `exports/sessions-redacted/2026/08/cron_d85ba3927717_20260818_130604.md`
 - `cron_d85ba3927717_20260817_210641` | `2026-08-17` | `gpt-5.5` | `cron` | `2` messages | `exports/sessions-redacted/2026/08/cron_d85ba3927717_20260817_210641.md`
@@ -16,7 +84,6 @@ Generated from `/opt/data/sessions/` and safe for cloud backup.
 - `cron_d85ba3927717_20260816_130550` | `2026-08-16` | `gpt-5.5` | `cron` | `2` messages | `exports/sessions-redacted/2026/08/cron_d85ba3927717_20260816_130550.md`
 - `cron_d85ba3927717_20260815_210618` | `2026-08-15` | `gpt-5.5` | `cron` | `6` messages | `exports/sessions-redacted/2026/08/cron_d85ba3927717_20260815_210618.md`
 - `cron_d85ba3927717_20260815_130620` | `2026-08-15` | `gpt-5.5` | `cron` | `2` messages | `exports/sessions-redacted/2026/08/cron_d85ba3927717_20260815_130620.md`
-- `20260815_111319_36f6d5bc` | `2026-08-15` | `gpt-5.5` | `telegram` | `Coding 2` | `4` messages | `exports/sessions-redacted/2026/08/20260815_111319_36f6d5bc.md`
 - `cron_d85ba3927717_20260814_210652` | `2026-08-14` | `gpt-5.5` | `cron` | `2` messages | `exports/sessions-redacted/2026/08/cron_d85ba3927717_20260814_210652.md`
 - `cron_d85ba3927717_20260814_130552` | `2026-08-14` | `gpt-5.5` | `cron` | `2` messages | `exports/sessions-redacted/2026/08/cron_d85ba3927717_20260814_130552.md`
 - `cron_d85ba3927717_20260813_210652` | `2026-08-13` | `gpt-5.5` | `cron` | `6` messages | `exports/sessions-redacted/2026/08/cron_d85ba3927717_20260813_210652.md`
@@ -28,7 +95,7 @@ Generated from `/opt/data/sessions/` and safe for cloud backup.
 - `20260812_124645_21ba82` | `2026-08-12` | `gpt-5.5` | `telegram` | `234` messages | `exports/sessions-redacted/2026/08/20260812_124645_21ba82.md`
 - `20260812_010216_012071` | `2026-08-12` | `gpt-5.5` | `curator` | `32` messages | `exports/sessions-redacted/2026/08/20260812_010216_012071.md`
 - `20260811_133737_b79ae24c` | `2026-08-12` | `gpt-5.5` | `telegram` | `64` messages | `exports/sessions-redacted/2026/08/20260811_133737_b79ae24c.md`
-- `20260810_131417_cb315e3b` | `2026-08-12` | `gpt-5.5` | `telegram` | `Coding 1` | `147` messages | `exports/sessions-redacted/2026/08/20260810_131417_cb315e3b.md`
+- `20260810_131417_cb315e3b` | `2026-08-12` | `gpt-5.5` | `telegram` | `147` messages | `exports/sessions-redacted/2026/08/20260810_131417_cb315e3b.md`
 - `cron_d85ba3927717_20260811_210745` | `2026-08-11` | `gpt-5.5` | `cron` | `6` messages | `exports/sessions-redacted/2026/08/cron_d85ba3927717_20260811_210745.md`
 - `cron_d85ba3927717_20260811_130615` | `2026-08-11` | `gpt-5.5` | `cron` | `6` messages | `exports/sessions-redacted/2026/08/cron_d85ba3927717_20260811_130615.md`
 - `20260811_132350_e1d5a3` | `2026-08-11` | `gpt-5.5` | `telegram` | `230` messages | `exports/sessions-redacted/2026/08/20260811_132350_e1d5a3.md`
@@ -43,7 +110,6 @@ Generated from `/opt/data/sessions/` and safe for cloud backup.
 - `20260810_220607_0e0e26da` | `2026-08-10` | `gpt-5.5` | `telegram` | `14` messages | `exports/sessions-redacted/2026/08/20260810_220607_0e0e26da.md`
 - `20260810_220408_3151bc` | `2026-08-10` | `gpt-5.5` | `telegram` | `35` messages | `exports/sessions-redacted/2026/08/20260810_220408_3151bc.md`
 - `20260810_220205_b108c7` | `2026-08-10` | `gpt-5.5` | `telegram` | `99` messages | `exports/sessions-redacted/2026/08/20260810_220205_b108c7.md`
-- `20260810_215555_af4107d3` | `2026-08-10` | `gpt-5.5` | `telegram` | `thread 7703` | `31` messages | `exports/sessions-redacted/2026/08/20260810_215555_af4107d3.md`
 - `20260810_145239_27511c` | `2026-08-10` | `gpt-5.5` | `telegram` | `93` messages | `exports/sessions-redacted/2026/08/20260810_145239_27511c.md`
 - `20260810_135051_ddbe12` | `2026-08-10` | `gpt-5.5` | `telegram` | `89` messages | `exports/sessions-redacted/2026/08/20260810_135051_ddbe12.md`
 - `20260810_133603_b68a0a` | `2026-08-10` | `gpt-5.5` | `telegram` | `40` messages | `exports/sessions-redacted/2026/08/20260810_133603_b68a0a.md`
@@ -194,7 +260,7 @@ Generated from `/opt/data/sessions/` and safe for cloud backup.
 - `cron_d85ba3927717_20260717_130536` | `2026-07-17` | `gpt-5.5` | `cron` | `4` messages | `exports/sessions-redacted/2026/07/cron_d85ba3927717_20260717_130536.md`
 - `20260717_173648_1d390f` | `2026-07-17` | `moonshotai/kimi-k3` | `telegram` | `367` messages | `exports/sessions-redacted/2026/07/20260717_173648_1d390f.md`
 - `20260717_162142_41564f` | `2026-07-17` | `moonshotai/kimi-k3` | `telegram` | `77` messages | `exports/sessions-redacted/2026/07/20260717_162142_41564f.md`
-- `20260708_224823_1ff1f1d1` | `2026-07-17` | `moonshotai/kimi-k3` | `telegram` | `Alerts` | `347` messages | `exports/sessions-redacted/2026/07/20260708_224823_1ff1f1d1.md`
+- `20260708_224823_1ff1f1d1` | `2026-07-17` | `moonshotai/kimi-k3` | `telegram` | `347` messages | `exports/sessions-redacted/2026/07/20260708_224823_1ff1f1d1.md`
 - `cron_d85ba3927717_20260716_210629` | `2026-07-16` | `gpt-5.5` | `cron` | `6` messages | `exports/sessions-redacted/2026/07/cron_d85ba3927717_20260716_210629.md`
 - `cron_d85ba3927717_20260716_130551` | `2026-07-16` | `gpt-5.5` | `cron` | `6` messages | `exports/sessions-redacted/2026/07/cron_d85ba3927717_20260716_130551.md`
 - `20260716_212741_a1c823` | `2026-07-16` | `gpt-5.4-mini` | `telegram` | `87` messages | `exports/sessions-redacted/2026/07/20260716_212741_a1c823.md`

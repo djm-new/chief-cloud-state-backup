@@ -29,11 +29,20 @@ python3 SKILL_DIR/scripts/fetch_transcript.py "https://youtube.com/watch?v=VIDEO
 # Plain text (good for piping into further processing)
 python3 SKILL_DIR/scripts/fetch_transcript.py "URL" --text-only
 
-# With timestamps
+# Timestamped plain text for deliverable transcript files
+python3 SKILL_DIR/scripts/fetch_transcript.py "URL" --timestamps --text-only
+
+# Timestamped JSON (metadata + full_text + timestamped_text field)
 python3 SKILL_DIR/scripts/fetch_transcript.py "URL" --timestamps
 
 # Specific language with fallback chain
 python3 SKILL_DIR/scripts/fetch_transcript.py "URL" --language tr,en
+```
+
+If the active Python environment has no `pip` (common in stripped Hermes installs), install the dependency with uv instead:
+
+```bash
+uv pip install --python /opt/hermes/.venv/bin/python youtube-transcript-api
 ```
 
 ## Output Formats
@@ -59,11 +68,13 @@ After fetching the transcript, format it based on what the user asks for:
 
 ## Workflow
 
-1. **Fetch** the transcript using the helper script with `--text-only --timestamps`.
-2. **Validate**: confirm the output is non-empty and in the expected language. If empty, retry without `--language` to get any available transcript. If still empty, tell the user the video likely has transcripts disabled.
-3. **Chunk if needed**: if the transcript exceeds ~50K characters, split into overlapping chunks (~40K with 2K overlap) and summarize each chunk before merging.
-4. **Transform** into the requested output format. If the user did not specify a format, default to a summary.
-5. **Verify**: re-read the transformed output to check for coherence, correct timestamps, and completeness before presenting.
+1. **Identify sources**: if the user asks for “new/recent” videos without URLs, web-search for the likely title/guest/show, prefer official YouTube/podcast pages, and capture title, show, date, URL, and video ID.
+2. **Fetch** the transcript using the helper script with `--timestamps --text-only` for clean transcript deliverables. Use JSON only when you need metadata programmatically.
+3. **Validate**: confirm the output is non-empty and in the expected language. If empty, retry without `--language` to get any available transcript. If still empty, tell the user the video likely has transcripts disabled.
+4. **Package multi-video requests**: create one timestamped `.txt` per video plus a combined `.txt`; zip them together for delivery. Include title, show/channel, date when known, source URL, video ID, and segment count at the top of each file.
+5. **Chunk if needed**: if a transcript exceeds ~50K characters and the user asked for a summary/analysis, split into overlapping chunks (~40K with 2K overlap) and summarize each chunk before merging. Do not summarize when the user asked for raw transcripts unless they also request analysis.
+6. **Transform** into the requested output format. If the user did not specify a format, default to the raw transcript for “transcript” requests and a summary for “summarize” requests.
+7. **Verify**: check file sizes/non-empty content and verify ZIP integrity (for example, Python `zipfile.ZipFile(path).testzip() is None`) before presenting. Deliver the artifact with `MEDIA:/absolute/path`.
 
 ## Error Handling
 

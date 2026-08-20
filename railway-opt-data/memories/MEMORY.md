@@ -29,3 +29,5 @@ Telegram Chief topics include General, Archive, Briefings, Alerts, Brain Dump, C
 DJ's 166-2nd Google Drive account has canonical AI/agentic professional work folder named beast at Drive folder ID 1d1lKeWF9OObyRHc63vZhazCosAg3p2MI; use account profile /opt/data/google-accounts/166-2nd for access.
 §
 Granola Windows automation context: DJ uses free Granola on Windows; local files are encrypted (.enc), granola-cli 0.2.0 expects plaintext supabase.json and failed. Target workflow is open meeting → hotkey → keyboard/UIAutomation export, avoiding coordinate clicks; copied notes include title/date; naming convention is "Meeting Title YYYY_MM_DD.txt".
+§
+Meeting prep briefs for DJ should deliver to Telegram Chief Group - Hermes topic Briefings: target telegram:-1003956828149:4.

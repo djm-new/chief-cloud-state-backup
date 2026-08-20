@@ -27,3 +27,9 @@ DJ business briefing prefs: avoid noisy/repetitive action-list additions; use co
 DJ wants Hermes to operate as an executive brain for tracking/tracing/follow-up: use judgment, context, goals, and importance scoring rather than brittle hard-coded keyword rules whenever possible.
 §
 DJ wants Hermes spend reports to be work-first: plain-English tasks/titles with estimated cost and tokens first; aggregate labels like “agent sessions” are not useful as primary reporting.
+§
+DJ expects Hermes to inspect available live metadata/logs for Telegram topic IDs before saying a topic is not visible, and prefers direct numeric answers when asking for a topic number.
+§
+DJ's meeting-prep preference: deliver the actual concise prep card he would use before a meeting, not a framework/spec. Do not infer agenda from stale or weak note matches; if context is weak, say that plainly and provide a sharp opening question/branching posture rather than pseudo-smart guessed context.
+§
+DJ's meeting prep standard: start with meeting identity/recurrence and prior note to-dos/followups/highlights; verify whether followups were actioned via Slack and other notes; then inspect participant-specific recent communications for this topic; then retrieve topic-specific context. Avoid repeating generic person context across multiple same-day meetings, and never infer the agenda from weak/stale matches.

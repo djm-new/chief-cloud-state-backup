@@ -17,6 +17,12 @@ Use when DJ asks where something lives, how repos are organized, or where to fin
 - Hermes Agent source checkout + Railway deployment files
 - `Dockerfile.railway`, `railway.json`, `docker/railway-chief-start.sh`
 
+### `djm-new/hermes-thoughts`
+**Purpose:** "Can we inspect and restore the Daily Brain Dump / thoughts archive directly?"
+- Git remote for the local thoughts repo at `/opt/data/thoughts-repo/`
+- Contains daily markdown captures, weekly/monthly/quarterly synthesis artifacts when generated, attachments, and redacted session exports intended for private backup
+- Treat `/opt/data/thoughts-repo/` as the live source of truth; use the GitHub repo as the private remote/backup mirror
+
 ### `djm-new/healthos`
 **Purpose:** HealthOS app code
 - Next.js/TypeScript/PWA health tracking app
@@ -39,7 +45,7 @@ Primary source of truth — everything Chief knows and does:
 | `/opt/data/skills/` | Learned skills and procedures |
 | `/opt/data/cron/jobs.json` | All scheduled jobs |
 | `/opt/data/scripts/` | Utility scripts |
-| `/opt/data/thoughts-repo/` | Daily Brain Dump, ToM, weekly/monthly synthesis |
+| `/opt/data/thoughts-repo/` | Daily Brain Dump, ToM, weekly/monthly synthesis; git remote `djm-new/hermes-thoughts` |
 | `/opt/data/config.yaml` | Model routing, topic overrides, platform config |
 | `/opt/data/slack_brief_archive/` | Business briefing history |
 | `/opt/data/podcast_digest/` | Podcast workflow state and outputs |

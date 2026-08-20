@@ -28,6 +28,8 @@ Use for:
 - Investigating whether a meeting app exposes data through local files, APIs, MCP, CLI tools, official exports, or browser/UI state.
 - Creating stable output files in a user-selected folder.
 - Building assisted workflows where the user still performs one or two manual copy steps but the script handles formatting and saving.
+- Preparing DJ for upcoming meetings from calendar events, prior meeting notes, and related Slack/docs context; see `references/meeting-prep-memos.md`.
+- Designing or generating meeting-prep memos from calendar events plus prior meeting notes, especially when the output must be brief, current-state-first, and action-oriented.
 
 Do not use for:
 
@@ -135,6 +137,76 @@ Common Windows options:
 
 Use only when a stable API/export endpoint is available and the user approves recurrence. Respect DJ's preference for explicit approval before recurring monitors.
 
+## Meeting Prep Cards
+
+When DJ asks for meeting prep (for example, “prep me for my next meeting” or asks for a concrete example), the output should be the actual short card he would read before entering the meeting — not a framework, implementation spec, or provenance-heavy research memo.
+
+Use `references/meeting-prep-cards.md` for the full pattern. Key rules:
+
+- Identify the actual calendar event first: title, ET time, duration, attendees, description/agenda availability.
+- Check meeting notes, but classify evidence quality before using it as context.
+- Do not infer the agenda from stale or weak note matches just because an attendee name appears.
+- If context is weak, say that plainly and give DJ a sharp opening question plus branches to listen for.
+- Optimize for: “Would DJ be sharper in the meeting after reading this?” If not, say less.
+
+Preferred visible shape:
+
+```markdown
+## [time ET] [Meeting title]
+
+**Bottom line:** [known/uncertain + posture]
+
+**Walk in knowing**
+- [1-3 useful facts only]
+
+**DJ should**
+- [1-3 concrete behaviors/questions]
+
+**If nothing else, ask**
+"[one sharp opening question]"
+```
+
+Anti-patterns:
+
+- Producing a system design when the user asked for a meeting prep example.
+- Overfitting one stale note and steering DJ toward a guessed agenda.
+- Making the visible product about scoring, retrieval, source freshness, or implementation mechanics.
+- Writing a confident-sounding memo from weak evidence.
+
+## Meeting Prep Memos
+
+When DJ asks to be prepared for a meeting, do not treat this as generic summarization. Follow `references/meeting-prep-memos.md`.
+
+Required behavior:
+
+1. Identify the actual calendar event, attendees by email, recurrence status, and same-day adjacent meetings.
+2. If recurring, start with the prior occurrence and prior note; extract to-dos, follow-ups, unresolved decisions, and important highlights.
+3. Verify whether follow-ups were actioned using later notes, Slack, or related docs before presenting them as still open.
+4. Resolve who each participant is, especially unfamiliar names: internal/external, role, team, manager, start date, and recent topic-specific communications.
+5. Resolve the meeting topic from title, description, agenda links, attendees, prior notes, and related docs. If agenda is unavailable or context is weak, say so and give DJ the sharp opening question rather than guessing.
+6. Avoid repeating generic person history across multiple same-day meetings; include only context that changes how DJ should behave in this meeting.
+
+Preferred output:
+
+```markdown
+## [time ET] Meeting name
+
+**Bottom line:** [what this meeting likely is / how DJ should approach it]
+
+**Know walking in**
+- [relevant fact]
+- [prior follow-up or current context]
+- [risk/gap]
+
+**DJ should**
+- [specific action/question/posture]
+
+**Ask**
+“[single sharp question]”
+```
+
+Pitfall: never overfit to stale name matches. If a meeting includes `Zaid`, first resolve the actual attendee email/person before assuming an old note about another Zaid or an external deal is relevant.
+
 ## Output Design
 
 Confirm before choosing defaults. Good defaults, if the user asks you to choose:
@@ -168,7 +240,7 @@ Source: Granola
 For DJ's Granola workflow on Windows, confirmed preferences are:
 
 ```text
-Destination: H:\\My Drive\\Meeting_Notes
+Destination: H:\\\\My Drive\\\\Meeting_Notes
 Filename: [Meeting Title] YYYY_MM_DD.txt
 Separator before transcript: ***
 Date: use the meeting date, not today's/export date
@@ -176,6 +248,18 @@ Automation level: DJ wants no-touch automation, not a clipboard-assisted flow, o
 ```
 
 Still confirm any missing pieces before writing a script, especially whether the first no-touch version should export the currently open meeting, selected/highlighted meeting, or latest completed meeting.
+
+### DJ meeting-prep memo design
+
+When DJ asks for meeting preparation from calendar + prior notes, use `references/meeting-prep-memos.md`. Key defaults:
+
+- canonical source: `dj@flow.life` → `My Drive / Meeting_Notes`, folder ID `1wpJT9Yuoah_gwAOR2crtw7vjG6z6GkUB`
+- memo must be digestible in under 90 seconds; target 180–260 words, hard max 320
+- all meeting times shown in ET
+- required structure: title, `As of [ET timestamp]` source freshness, `Read this first`, `Current state`, `Needs DJ`, `Watching`, `Ask/posture`
+- stale/missing/conflicting context must be visible in `Current state` or `Watching`
+- use a builder → consumer-proxy → refiner loop up to 5 iterations for high-value prep; the consumer proxy should act as DJ and reject memos that lack usefulness, freshness, ET correctness, or action clarity
+- no writes/sends/notifications/recurring jobs without explicit approval
 
 ## Granola Notes
 

@@ -12,6 +12,18 @@ Use this when building a dedicated low-friction capture channel (Telegram/Slack/
 - URLs/images: preserve source artifacts where possible; append extracted/summarized text with explicit markers (`[link]`, `[image]`). For screenshots/images, keep the original file in `attachments/` and, if available, OCR/extract text into the daily note so weekly/monthly syntheses can reference both the artifact and its meaning.
 - Retrieval: return underlying excerpts with date/time/context even when offering synthesis; rank exact matches before intensity flags before semantic matches.
 
+## Manual capture / archive requests
+
+When DJ asks to "save this" or "put this in the Daily Brain Dump archive" from a normal chat, act directly instead of explaining the architecture first.
+
+1. Resolve the configured repo path from `/opt/data/config.yaml` (`thoughts.repo_path`), defaulting to `/opt/data/thoughts-repo` only after checking config.
+2. Use ET for the daily path and timestamp (`daily/YYYY/MM/YYYY-MM-DD.md`). Create the file with `# YYYY-MM-DD (Weekday)` if missing.
+3. Preserve the source artifact: include the original URL for links, mark entries with `[link]`/`[image]`/`[voice]` where applicable, and add a concise extracted summary/key context so later synthesis does not depend on re-fetching the source.
+4. Keep capture append-only. Do not rewrite old entries except to maintain the footer in the same daily file. If the URL/content is already present, report that it is already saved rather than duplicating.
+5. Update the footer counts (`total entries`, `voice count`, `link count`, `intensity-flagged count`, `total estimated word count`) if the file uses that format.
+6. If the repo is a git repo, commit only the daily file/attachment(s) touched by the capture. Do not stage unrelated dirty files such as redacted session exports.
+7. Verify by reading the saved daily file before replying with the path and, if committed, the commit hash.
+
 ## Hermes integration pattern
 
 - Put reusable logic in a standalone script (e.g. `thoughts_system.py`) with subcommands for `init`, `capture`, `rollup`, `replay`, `synthesize`, and `retrieve`.

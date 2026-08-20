@@ -1107,7 +1107,7 @@ Current target discovery via `send_message(action="list")` may show only `topic 
 ```bash
 grep -R "Flushing text batch\|inbound message" -n /opt/data/logs/gateway.log /root/.hermes/logs/gateway.log 2>/dev/null | tail -80
 ```
-For a current message, pair the newest `Flushing text batch ...:<thread_id>` line with the following `inbound message` line. That `<thread_id>` is the topic number; the full delivery target is `telegram:<chat_id>:<thread_id>`. Do **not** treat a random word in DJ's question (e.g. “Milner”) as the topic name unless he explicitly confirms it.
+For a current message, pair the newest `Flushing text batch ...:<thread_id>` line with the following `inbound message` line. That `<thread_id>` is the topic number; the full delivery target is `telegram:<chat_id>:<thread_id>`. If DJ asks “Number,” answer with just the direct numeric thread id first (for example, `7703`), then add the full delivery target only if useful. Do **not** treat a random word in DJ's question (e.g. “Milner”) as the topic name unless he explicitly confirms it.
 
 To build a durable map:
 1. List messaging targets and cron deliveries.
