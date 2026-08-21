@@ -1,0 +1,231 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-08-20_2104",
+  "usage": {
+    "prompt_tokens": 3981,
+    "completion_tokens": 809,
+    "total_tokens": 4790
+  },
+  "episodes": [
+    {
+      "id": "8de4f1cf88a7be927b9238d6",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "We ask Gemini and Alexa to track cats and give advice",
+      "link": "",
+      "published": "2026-08-20T20:21:00+00:00",
+      "summary": "For better or worse, Amazon Alexa and Google Home's smart voice assistants have been imbued with the powers of generative AI. The promise is that you can use natural language with your smart speaker to adjust your thermostat, lock the doors, and find out what your pets have been up to. The reality is smart home voice assistants seem to be going through an identity crisis. Senior reviewer Jennifer Pattison Tuohy invites Verge editor-in-chief Nilay Patel onto his own podcast to compare notes on life with Alexa Plus vs. Gemini for Home. Further reading: ⁠GTA VI keeps leaking ahead of its gameplay premiere⁠ ⁠I bought DJI’s banned camera — it was cheap and easy⁠ ⁠Does giving a camera wings dodge the FCC’s drone ban?⁠ ⁠Meta glasses are a workplace menace⁠ ⁠Google’s Pet Memory forgot who my cats are⁠ ⁠I tasked Alexa Plus with tackling my to-do list — it was hit or miss⁠ ⁠With Alexa Plus, Amazon finally reinvents its best product⁠ ⁠How AI broke the smart home in 2025⁠ ⁠I let Gemini watch my family for the weekend — it got weird⁠ ⁠Google built a great smart speaker, but Gemini isn’t ready for it⁠ ⁠Jony Ive’s first OpenAI gadget is reportedly a hockey puck-sized smart speaker⁠ Subscribe to The Verge for unlimited access to theverge.com, subscriber-exclusive newsletters, and our ad-free podcast feed. We love hearing from you! Email your questions and thoughts to vergecast@theverge.com or call us at 866-VERGE11. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "2362",
+      "old_score": 28,
+      "old_label": "skip",
+      "qwen": {
+        "id": "8de4f1cf88a7be927b9238d6",
+        "score": 45,
+        "tier": "scan",
+        "reason": "Consumer AI assistant evaluation lacks durable framework or business insight.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "59c461a2d6e2a8c61c25b138",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: August 20th, 2026",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-august-20th-2026",
+      "published": "2026-08-20T16:00:00+00:00",
+      "summary": "Featuring: Mary Daly, President, Federal Reserve Bank of San Francisco Nela Richardson, Chief Economist & ESG Officer at ADP Mona Mahajan, Head of Investment Strategy at Edward Jones See omnystudio.com/listener for privacy information.",
+      "duration": "1608",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "59c461a2d6e2a8c61c25b138",
+        "score": 60,
+        "tier": "digest",
+        "reason": "Fed policy and economic indicators discussion relevant to market read.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "681622cb12c2f364c08ad988",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bessent Launches Treasury Bid to Tame Yields",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bessent-launches-treasury-bid-to-tame-yields",
+      "published": "2026-08-20T14:00:19+00:00",
+      "summary": "The latest in finance, economics and investment. Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF. Bloomberg Surveillance hosted by Tom Keene & Paul Sweeney Thursday, August 20th, 2026 Featuring: 1) Win Thin, Chief Economist at Bank of Nassau, reacts to minutes from the FOMC's July meeting. 2) George Goncalves, Head of US Macro Strategy at MUFG Securities Americas, examines the potential impact of the US Treasury's bond buyback push. 3) Robert Teeter, Chief Investment Strategist at Silvercrest Asset Management, talks elevated valuations and slower earnings growth. 4) Patrick Sykes, Bloomberg Middle East Breaking News Editor, on President Trump's threats of economic warfare on Iran. See omnystudio.com/listener for privacy information.",
+      "duration": "1427",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "681622cb12c2f364c08ad988",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Treasury bond strategy and market impact analysis worth DJ's attention.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "3ebe84123dad30e51352d4e1",
+      "show_name": "Infinite Loops",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Dr. Julie Gurner — Ultra Successful (Infinite Loops Classics)",
+      "link": "https://infiniteloopspodcast.com/176",
+      "published": "2026-08-20T12:08:00+00:00",
+      "summary": "Hi everyone, Jim here. We're taking a short pause on new episodes through the end of August. In the meantime, we're digging out some of our favorite conversations from the archive. This one is from August 2023, with Dr. Julie Gurner. Enjoy. Dr. Julie Gurner is a doctor of psychology and executive performance coach to top percentile executives, primarily in finance and technology. She is also the proprietor of the Ultra Successful newsletter, which delivers a weekly challenge pulled from global business leaders and designed to \"help you unleash your power.\" Dr. Gurner joins the show to discuss the merits of being unreasonable, why your business should not be your identity, why niceness is overrated, and more! Important Links: - Substack - https://drgurner.substack.com - Twitter - https://twitter.com/drgurner?s=21&t=kpNZMw5M-jHHMC0vAkndPg - Website - https://www.drgurner.com/consulting/ Show Notes: 0:00:00 Intro 0:01:24 Main podcast 0:02:20 Dr. Gurner's origin story 0:05:07 How forensic psychology experience can help executive coaching 0:07:11 Leaning into the 1% 0:15:23 Why psychological tests are flawed 0:19:26 The common traits of successful founders 0:29:12 High performance & bottlenecks 0:30:38 Why your business should not be your identity 0:41:01 How Dr. Gurner applies her strategies in her own life 0:44:17 Don't be nice 0:46:48 Be unreasonable 0:51:18 Social validation is not important 0:56:22 How can you improve someone's communication skills 1:01:43 How Dr. Gurner would teach executive coaching 1:03:36 The \"no Plan B\" mentality 1:06:48 Can high energy be detrimental? 1:10:21 How to unpack charisma 1:15:57 How to turn down work 1:20:01 Dr. Gurner's greatest satisfaction 1:22:31 How has leadership changed in the last 20 years? 1:25:40 Dr. Gurner as Empress of the World 1:31:18 End screen Books Mentioned: - The Art of War; by Sun Tzu",
+      "duration": "01:33:25",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "3ebe84123dad30e51352d4e1",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Psychology and executive coaching lacks direct capital or AI relevance.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "fc7554649a46c02779aa208c",
+      "show_name": "No Priors",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "From Restoring Sight to Reimagining the Brain, with Max Hodak",
+      "link": "",
+      "published": "2026-08-20T10:00:00+00:00",
+      "summary": "Max Hodak, co-founder and CEO of Science Corporation, joins Sarah Guo to discuss the future of vision, brain-computer interfaces, and the human experience. Max explains how Science’s PRIMA retinal implant could restore functional vision for people who have lost their sight, and why treating the brain as a computational system could unlock new approaches to medicine. They explore the broader potential of neural devices, from restoring lost capabilities to expanding human potential, as well as deeper questions around identity, consciousness, and whether the human experience can persist as our biological hardware changes. Max also shares Science’s long-term vision for reducing the fragility of the human condition by repairing, replacing, and ultimately upgrading parts of ourselves. Finally, he discusses the surprising parallels between AI models and biological brains, and why AI may offer a powerful new lens for understanding intelligence. Chapters: 00:00 – Cold Open Trailer 01:40 – Max Hodak Introduction 02:00 – Science Corporation Overview and Origin 02:53 – A Revolutionary Solve for Blindness 06:32 – Scope of Timeline and Engineer Cost 09:10 – Clinic Trial Process 09:45 - The Response from Clinicians 12:21 – Broader Biotech Landscape 14:59 – Brain’s Relationship to Senses 17:35 – The Study of Consciousness 19:50 – Investments in Brain Computer Interface 22:10 – Fertile Ways to Study Neuroscience 24:46 – Biotech Expansion for Science Corporation 27:50 – What Success Looks Like in Neuroscience and Tech 29:06 - Goals Within Human Preservation vs. Adaptation 30:25 – Conclusion",
+      "duration": "1898",
+      "old_score": 49,
+      "old_label": "skip",
+      "qwen": {
+        "id": "fc7554649a46c02779aa208c",
+        "score": 80,
+        "tier": "listen",
+        "reason": "Neural interfaces and biological-AI parallels offer durable frameworks and innovation insight.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "269f12471a7dbfad58c4e87a",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "How Global Networks Are Reshaping Startup Success",
+      "link": "https://a16z.simplecast.com/episodes/how-global-networks-are-reshaping-startup-success-YCGysOkP",
+      "published": "2026-08-20T10:00:00+00:00",
+      "summary": "Elena Burger is joined by a16z’s Angela Strange and Gabriel Vasquez to discuss the rise of the \"borderless founder\": entrepreneurs who bring the networks and insights of their home markets together with the talent, capital, and speed of Silicon Valley to build global companies. Angela and Gabriel trace how a16z's international investing efforts grew from early work in Latin America into a broader global network, and why AI has accelerated the flow of founders and talent between Silicon Valley and startup ecosystems around the world. They explore the advantages borderless founders can bring, from differentiated talent networks and early customers to strong local brands and communities that help open doors across markets. They also discuss how founder diasporas can function like powerful alumni networks, why spending time in Silicon Valley can help founders recalibrate around speed and ambition, and how the next generation of global companies may increasingly be built across multiple countries from day one. Resources: Read Angela Strange and Gabriel Vasquez's piece on Borderless Founders: https://www.a16z.news/p/rise-of-the-borderless-founder Follow Angela Strange on X: https://x.com/astrange Follow Gabriel Vasquez on X: https://x.com/GEVS94 Follow Elena Burger on X: https://x.com/VirtualElena Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:45:44",
+      "old_score": 47,
+      "old_label": "skip",
+      "qwen": {
+        "id": "269f12471a7dbfad58c4e87a",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Global founder networks and AI-driven talent flows provide strategic business insight.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "67a27801eba6bf83e24a2bf6",
+      "show_name": "Decoder with Nilay Patel",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Welcome to the AI crisis in math",
+      "link": "",
+      "published": "2026-08-20T09:00:00+00:00",
+      "summary": "My guest today is Robert Hart, The Verge’s London-based AI reporter. Robert recently wrote a fantastic story for us about the debate raging inside the world of mathematics — and the existential crisis over what it means that new frontier AI models have become very good at math in a shockingly short period of time. I wanted to dive into all of this with Robert, who actually spoke to some of the most accomplished mathematicians working today to figure out what’s hype and what’s real — and to get a sense of just how exciting, and how scary, all of this is. Read the full interview transcript on The Verge. Links: The AI takeover of mathematics has begun | The Verge Ten advances in mathematics and theoretical computer science | OpenAI An unreleased Anthropic model made progress on the Riemann hypothesis| TechCrunch OpenAI’s amazing — but vastly oversold — new model Astra | Gary Marcus OpenAI’s math breakthrough played to AI’s strengths | Understanding AI Why the legendary Erdős problems are falling to AI | Quanta Subscribe to The Verge to access the ad-free version of Decoder! Credits: Decoder is a production of The Verge and part of the Vox Media Podcast Network. Decoder is produced by Kate Cox and Nick Statt. This episode was edited by Ursa Wright. Our supervising producer is Greg Ott, and our editorial director is Kevin McShane. The Decoder music is by Breakmaster Cylinder. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "2430",
+      "old_score": 48,
+      "old_label": "skip",
+      "qwen": {
+        "id": "67a27801eba6bf83e24a2bf6",
+        "score": 75,
+        "tier": "digest",
+        "reason": "AI's disruption of mathematics offers technical and philosophical implications for models and labor.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "78f81dd13928d5e8d6bb8b5c",
+      "show_name": "Masters of Scale",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "How Barnes & Noble made a comeback, with CEO James Daunt",
+      "link": "",
+      "published": "2026-08-20T09:00:00+00:00",
+      "summary": "CEO James Daunt has now rescued two iconic bookstore chains: Barnes & Noble and Waterstones. He joins host Jeff Berman to discuss the turnarounds, plus how bookstores are preparing for an onslaught of AI-written content, his BookTok strategy, and why local control is the key to making great bookstores. Subscribe to the Masters of Scale weekly newsletter: https://mastersofscale.com/subscribe See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info .",
+      "duration": "00:32:54",
+      "old_score": 28,
+      "old_label": "skip",
+      "qwen": {
+        "id": "78f81dd13928d5e8d6bb8b5c",
+        "score": 55,
+        "tier": "scan",
+        "reason": "Bookstore turnaround story with AI content implications, moderate relevance.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "124f277345912e9919684bec",
+      "show_name": "Odd Lots",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "Nick Bostrom on What Happens if AI Solves All of Our Problems",
+      "link": "https://omny.fm/shows/odd-lots/nick-bostrom-on-what-happens-if-ai-solves-all-of-our-problems",
+      "published": "2026-08-20T08:00:00+00:00",
+      "summary": "The philosopher Nick Bostrom was one of the first thinkers who mapped out the existential risk of AI. In his 2014 book, Superintelligence: Paths, Dangers, Strategies, he delved into various scenarios — like the now-famous “paperclip maximizer” — to show the dangers that unfettered and highly intelligent AI posed to humans. A decade later, in Deep Utopia: Life and Meaning in a Solved World, he looked at the other side of the AI coin, and theorizes what human experience might look like if AI is capable of solving all of our problems. What happens if AI and robots can literally do every single thing better than humans can? How would we find any meaning or satisfaction from life? On this episode, he speaks to us about the two divergent ways of understanding AI's future, what we might do, and what we can do right now to improve the chances that AI actually improves our lives. Come see Odd Lots live in Los Angeles , get your tickets now. Read more: Tech Deploys Charm Offensive to Combat AI Data Center Backlash Young Americans Become More Hostile to AI, Fearing Job Losses Only Bloomberg - Business News, Stock Markets, Finance, Breaking & World News subscribers can get the Odd Lots newsletter in their inbox each week, plus unlimited access to the site and app. Subscribe at bloomberg.com/subscriptions/oddlots Subscribe to the Odd Lots Newsletter Join the conversation: discord.gg/oddlots See omnystudio.com/listener for privacy information.",
+      "duration": "3356",
+      "old_score": 63,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "124f277345912e9919684bec",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Bostrom explores AI utopia and existential meaning, relevant to long-term AI implications.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "588795767772f7b88f329451",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Who Will Power the 21st Century? — with Hannah Ritchie",
+      "link": "",
+      "published": "2026-08-20T08:00:00+00:00",
+      "summary": "Hannah Ritchie, deputy editor of Our World in Data, joins Scott Galloway to examine the new global energy race. They discuss whether AI’s power demands are being overstated, how China built its clean-energy advantage, and why the United States risks falling behind on electrification. Plus, Hannah explains why the climate outlook is more hopeful (and more complicated) than the headlines suggest. Check out Hannah’s Substack, By the Numbers, here. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "2910",
+      "old_score": 4,
+      "old_label": "skip",
+      "qwen": {
+        "id": "588795767772f7b88f329451",
+        "score": 60,
+        "tier": "digest",
+        "reason": "Energy demands of AI and global competition provide macroeconomic context.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "ea50c79c6d1e9939c18d8ad5",
+      "show_name": "The Twenty Minute VC",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "20VC: SpaceX Buys Cursor for $60BN | Stripe's $8BN OpenRouter Bet | Anthropic's First Profit & The Math Behind Reaching $600BN in Revenue? | Lovable and Higgsfield Raise Mega Rounds",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-spacex-buys-cursor-for-60bn-stripes-8bn-openrouter-bet-anthropics-first-profit-the-math-behind-reaching-600bn-in-revenue-lovable-and-higgsfield-raise-mega-rounds",
+      "published": "2026-08-20T07:07:00+00:00",
+      "summary": "AGENDA: 04:20 Elon's Deal of the Decade: SpaceX Buys Cursor for $60BN 06:10 Why Cursor Was Surprisingly Cheap at $60BN 07:00 Why Zuckerberg Failed to Buy the AI Prize Elon Secured 12:00 Elon vs Zuck: Who Would You Rather Work For? 14:00 Will Microsoft or Amazon Now Race to Buy Cognition? 17:05 Stripe's $7BN OpenRouter Deal Creates Huge VC Winners 25:00 OpenRouter's Fatal Risk: Enterprises Don't Want 10 Models 28:15 Anthropic Turns Its First Profit on $11.5BN of Quarterly Revenue 32:15 Can Anthropic Really Reach $600BN in Revenue? 37:00 Why Every Elite Engineer Could Soon Get $100K in AI Tokens 39:30 Would Rory Buy Anthropic at a $2.5TN Valuation? 44:50 Silver Lake's $43BN Workday Bet: SaaS Isn't Dead, It's Mature 53:00 How Silver Lake Could Make $30BN From Workday 57:00 Lovable vs Higgsfield: Similar Revenue, Radically Different Valuations 58:00 Is Lovable's $13.3BN Price Actually Cheap? 63:30 Why the DOJ Is Coming After Andreessen Horowitz 69:00 Why A16Z Has \"50 Legal Battles\" Happening at Once",
+      "duration": "01:13:12",
+      "old_score": 44,
+      "old_label": "skip",
+      "qwen": {
+        "id": "ea50c79c6d1e9939c18d8ad5",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Market moves and revenue math around AI companies offer actionable insights.",
+        "confidence": "high"
+      }
+    }
+  ]
+}

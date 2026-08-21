@@ -30,4 +30,6 @@ DJ's 166-2nd Google Drive account has canonical AI/agentic professional work fol
 §
 Granola Windows automation context: DJ uses free Granola on Windows; local files are encrypted (.enc), granola-cli 0.2.0 expects plaintext supabase.json and failed. Target workflow is open meeting → hotkey → keyboard/UIAutomation export, avoiding coordinate clicks; copied notes include title/date; naming convention is "Meeting Title YYYY_MM_DD.txt".
 §
-Meeting prep briefs for DJ should deliver to Telegram Chief Group - Hermes topic Briefings: target telegram:-1003956828149:4.
+Meeting prep briefs for DJ should deliver to Telegram Chief Group - Hermes topic Meeting Briefs: target telegram:-1003956828149:8289.
+§
+Chief Group - Hermes Telegram topic map includes Meeting Briefs = message_thread_id 8289 in chat -1003956828149. Pre-meeting briefing generator should deliver to telegram:-1003956828149:8289.
