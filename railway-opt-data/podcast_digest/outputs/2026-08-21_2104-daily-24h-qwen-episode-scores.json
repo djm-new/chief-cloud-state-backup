@@ -1,0 +1,411 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-08-21_2104",
+  "usage": {
+    "prompt_tokens": 6646,
+    "completion_tokens": 1507,
+    "total_tokens": 8153
+  },
+  "episodes": [
+    {
+      "id": "3bd2e55e7f9c52fc43c9906e",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Money: Bond Moves, Social Security and the US Open",
+      "link": "https://omny.fm/shows/bloomberg-money/bloomberg-money-bond-moves-social-security-and-the-us-open",
+      "published": "2026-08-21T20:00:00+00:00",
+      "summary": "Bloomberg Money takes the pulse of your financial life, powered by the reporting of our global newsroom. This week's guests include: Rebecca Patterson, Senior Fellow at the Council on Foreign Relations Kevin Gordon, Head of Macro Research & Strategy at Schwab Center for Financial Research See omnystudio.com/listener for privacy information.",
+      "duration": "2390",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "3bd2e55e7f9c52fc43c9906e",
+        "score": 45,
+        "tier": "scan",
+        "reason": "Financial market updates, but generic and not deeply insightful for operators or investors.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "e7cf73146a66f85367f5a754",
+      "show_name": "Dishcast with Andrew Sullivan",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "low",
+      "title": "Buck Angel & Helena Kerschner On Trans And Detrans (Re-Aired)",
+      "link": "https://andrewsullivan.substack.com/p/buck-angel-and-helena-kerschner-on-72f",
+      "published": "2026-08-21T18:03:21+00:00",
+      "summary": "(The full Dish returns on September 4. In the meantime, we are re-airing a handful of the most downloaded episodes from the early years of the Dishcast.) In addition to the Middle East , another topic that has generated a lot of heat on the Dish since 2020 is the issue of the gender revolution and the TQ+ movement. So here are two perspectives from an early pod — that shows again how we at the Dish have genuinely sought the truth in this area, have listened to all sides, and aired all the arguments. Almost no other place does this anymore. Which is why we’re so grateful for your support and subscriptions. Buck Angel was a pioneering porn star — the only trans man to ever win Transsexual Performer of the Year at the AVN Awards — and today he’s a sex educator, motivational speaker, and entrepreneur. Helena Kerschner is a young woman who lived as a man on hormone therapy for several years before detransitioning. Buck’s transition saved his life, while Helena’s transition was a bit of a calamity, but they share a resistance to the dogma of the trans activist community and speak forcefully and elegantly against it. Go here for a polished transcript. Four clips on YouTube are also available: on the cult-like behavior of many trans activists; on the risks of puberty blockers ; on the profound effects of testosterone ; on how the hormone caused Buck, a former lesbian, to become attracted to men for the first time. This episode is part of an ongoing series on the lives of transgender people and the debates surrounding one of the most polarizing subjects of today, especially when it comes to kids transitioning. Our previous episodes welcomed three happily transitioned and brilliant women — Dana Beyer , Mara Keisling , Brianna Wu — along with a remarkable trans man, Shannon Minter . All of them pushed back against my views, and we agreed on a lot as well. This is a public episode. If you'd like to discuss this with other subscribers or get access to bonus episodes, visit andrewsullivan.substack.com/subscribe",
+      "duration": "5924",
+      "old_score": 4,
+      "old_label": "skip",
+      "qwen": {
+        "id": "e7cf73146a66f85367f5a754",
+        "score": 30,
+        "tier": "skip",
+        "reason": "Re-aired episode on trans and detrans topics; not relevant to capital allocation or AI/business insights.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "636cc380c8699f32e93d4963",
+      "show_name": "Dishcast with Andrew Sullivan",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "low",
+      "title": "Yossi Klein Halevi On Zionism (Re-Aired)",
+      "link": "https://andrewsullivan.substack.com/p/yossi-klein-halevi-on-zionism-re",
+      "published": "2026-08-21T17:58:46+00:00",
+      "summary": "(The full Dish returns on September 4. In the meantime, we are re-airing a handful of the most downloaded episodes from the early years of the Dishcast.) The Middle East has become one of the most contested topics here at the Dish. So on our summer break, we thought we’d run some classics, popular with Dishheads and ageing well. So here’s the great and humane Yossi Klein Halevi from 2022. Yossi is an American-born Israeli journalist, and his latest book is Letters to My Palestinian Neighbor . After our pod with Peter Beinart in July 2021, many of you recommended Yossi to balance out the discussion on Israel. I was grateful for the suggestion and truly enjoyed our January 2022 talk — alternately honest and difficult. How can one admire Israel while also being candid about its flaws? How deeply utopian was Zionism in the first place? Go here for a polished transcript. We also have two clips on YouTube — on the “bizarre, tragic” history of Zionism, and on the intractable nature of the Israeli settlements. This is a public episode. If you'd like to discuss this with other subscribers or get access to bonus episodes, visit andrewsullivan.substack.com/subscribe",
+      "duration": "5002",
+      "old_score": 4,
+      "old_label": "skip",
+      "qwen": {
+        "id": "636cc380c8699f32e93d4963",
+        "score": 35,
+        "tier": "skip",
+        "reason": "Re-aired episode on Zionism; more cultural/political than business or market relevant.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "54851c9290398c8c5b17265a",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Pixel 11 gets in on the digicam trend",
+      "link": "",
+      "published": "2026-08-21T17:48:00+00:00",
+      "summary": "Smart phone cameras have been getting better and better at capturing flawless, true-to-life images. But is that what the people really want?David Imel joins Nilay Patel and Jake Kastrenakes to talk through the Pixel 11's Camera Looks. They're Google's nod to the trend of retro digital and analogue cameras, and alter how a photo is processed on the sensor level. At the same time, its super zoom is still hallucinating text and making stuff up. Then it's a supersized Brendan Carr is a Dummy, with increasingly infuriating tales of how Brendan Carr is being a Dummy, culminating in the FCC's quest to make sure your internet connection remains slow. Plus, we talk through the confounding AirPods camera leak, the Fairphone, and YouTube's new method for counting views. Further reading: Google is making the Pixel cameras better by making them worse Revealed: FCC chair Brendan Carr’s close coordination with White House and rightwing media ABC sues the FCC over Trump and Carr’s campaign of threats FCC abolishes gigabit speed goal, suggesting it is unfair to slower technologies Apple’s camera-equipped AirPods appear in leaked video Meta glasses are a workplace menace Apple reportedly won’t launch AirPods with cameras until next year. Fairphone’s latest repairable phone is going on sale in the US YouTube is changing how it counts views to give the numbers a boost YouTube is reportedly offering channels “millions of dollars” not to cross-post videos on Netflix. We’re also on video! Check us out on YouTube. Subscribe to The Verge for unlimited access to theverge.com, subscriber-exclusive newsletters and our ad-free podcast feed. We love hearing from you! Email your questions and thoughts to vergecast@theverge.com or call us at 866-VERGE11. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "4642",
+      "old_score": 4,
+      "old_label": "skip",
+      "qwen": {
+        "id": "54851c9290398c8c5b17265a",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Discussion on Pixel 11 camera features and tech trends; light but potentially useful for tech watchers.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "0eb59408d5578f379db05c36",
+      "show_name": "New Yorker Radio Hour",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "low",
+      "title": "Jon Lovett Answers Your Questions",
+      "link": "https://www.wnycstudios.org/podcasts/tnyradiohour",
+      "published": "2026-08-21T17:40:00+00:00",
+      "summary": "In the 2026 midterm elections, close finishes in crucial swing states have put a spotlight on the divide between the Democratic Party’s moderate and progressive wings. Jon Lovett straddles that divide. He was a longtime speechwriter for Hillary Clinton and then for Barack Obama, but, as a host of the podcasts “Pod Save America” and “Lovett or Leave It,” he’s been critical of the Party’s establishment. Lovett sat down with David Remnick to answer listeners’ questions about the midterms and what they suggest about the 2028 Presidential election. In a “broad trend,” Lovett says, centrist Democrats “put up candidates, and they say, ‘Vote for us, or else.’ And [voters] just keep picking ‘or else.’ . . . Across the board, I don’t know what this establishment of the Democratic Party stands for, and neither does the country.” Further listening: “ ‘ Pod Save America’ ’s Jon Lovett on Trump: ‘The Threat of Jail Time Sharpens the Mind ,’ ” an episode of The New Yorker Radio Hour New episodes of The New Yorker Radio Hour drop every Tuesday and Friday. Join host David Remnick as he discusses the latest in politics, news, and current events in conversation with political leaders, newsmakers, innovators, New Yorker staff writers, authors, actors, and musicians. The New Yorker Radio Hour is a co-production of WNYC and The New Yorker. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:28:21",
+      "old_score": 0,
+      "old_label": "skip",
+      "qwen": {
+        "id": "0eb59408d5578f379db05c36",
+        "score": 40,
+        "tier": "scan",
+        "reason": "Political discussion on Democratic Party dynamics; not directly relevant to DJ's focus areas.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "815b51f72dec8b14c69499ab",
+      "show_name": "Stratechery",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "2026.34: App Snore",
+      "link": "https://stratechery.com/2026/app-snore/",
+      "published": "2026-08-21T17:00:00+00:00",
+      "summary": "The best Stratechery content from the week of August 17, 2026, including Apple making compromises in the EU, Truth (Social) and reconciliation, and August fun with the Clippers and Lakers.",
+      "duration": "",
+      "old_score": 22,
+      "old_label": "skip",
+      "qwen": {
+        "id": "815b51f72dec8b14c69499ab",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Stratechery's curated tech and business insights, including Apple and AI developments, are consistently valuable.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "c83b00f65e97e5f1884a4986",
+      "show_name": "RenMac",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "RenMac Off-Script: Breaking Glass",
+      "link": "https://podcasters.spotify.com/pod/show/renmac-it/episodes/RenMac-Off-Script-Breaking-Glass-e3nn9ed",
+      "published": "2026-08-21T16:25:24+00:00",
+      "summary": "RenMac breaks down Treasury's move to double its long-end liquidity support ops to $4 billion, its turn from plumbing to arguing yields don't reflect fundamentals and how bill-funding those buys lands them on the Fed's sheet. The team also discusses why a 53-year high in capex intentions is credit-financed capacity that looks like growth until the cost of capital reprices, Oracle and Nvidia CDS at new highs, PMIs as a bad indicator for asset allocation and why P/Es are siren songs in the context of shooting failed momentum in the back.",
+      "duration": "00:49:36",
+      "old_score": 28,
+      "old_label": "skip",
+      "qwen": {
+        "id": "c83b00f65e97e5f1884a4986",
+        "score": 75,
+        "tier": "digest",
+        "reason": "RenMac provides macroeconomic and market structure insights relevant to capital allocators.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "bb3a7ecc37ef4b48ad615668",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: August 21st, 2026",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-august-21st-2026",
+      "published": "2026-08-21T16:00:00+00:00",
+      "summary": "Featuring: Patrick Armstrong, CIO & Managing Partner at Plurimi Wealth Molly Brooks, US Rates Strategist at TD Securities Julie Biel, Chief Market Strategist at Kayne Anderson Rudnick See omnystudio.com/listener for privacy information.",
+      "duration": "865",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "bb3a7ecc37ef4b48ad615668",
+        "score": 45,
+        "tier": "scan",
+        "reason": "Market commentary with mixed relevance; not deeply analytical.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "34adcc5afac91b776412580a",
+      "show_name": "Big Technology Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Big Tech’s Insane Hidden AI Spending, Ranking Anthropic vs. OpenAI, AI For Travel Debate",
+      "link": "",
+      "published": "2026-08-21T15:54:00+00:00",
+      "summary": "Ranjan Roy from Margins is back for our weekly discussion of the latest tech news. We cover: 1) Big Tech is spending trillions more than it tells us on AI infrastructure 2) The mechanisms of the off-balance-sheet AI buildout 3) What would happen if these projects were on the balance sheet? 4) Can Wall St. actually not figure this out? 5) Will the tech giants pay the money back? 6) Is a soft landing in AI possible at this point if things go poorly? 7) Anthropic's revenue numbers are soaring 8) OpenAI, meanwhile, is in more tumult 9) Why OpenAI is dealing with so many executive departures 10) Startups vs. established companies, and what are the AI labs exactly? 11) Why travel is a good eval for AI --- Enjoying Big Technology Podcast? Please rate us five stars ⭐⭐⭐⭐⭐ in your podcast app of choice. Want a discount for Big Technology on Substack + Discord? Here’s 25% off for the first year: https://www.bigtechnology.com/subscribe?coupon=0843016b Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "duration": "3934",
+      "old_score": 32,
+      "old_label": "skip",
+      "qwen": {
+        "id": "34adcc5afac91b776412580a",
+        "score": 80,
+        "tier": "digest",
+        "reason": "Covers hidden AI spending, Anthropic vs OpenAI dynamics, and broader AI implications for business.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "70b7c9eb5440fcac5e2789a7",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Week of Whiplash in Treasuries Is Closing With Traders on Pause",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/week-of-whiplash-in-treasuries-is-closing-with-traders-on-pause",
+      "published": "2026-08-21T14:35:38+00:00",
+      "summary": "The latest in finance, economics and investment. Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF. Bloomberg Surveillance hosted by Tom Keene & Isabelle Lee Friday, August 21st, 2026 Featuring: 1) Kevin Gordon, Head of Macro Research & Strategy at Schwab Center for Financial Research 2) Emily Roland, Co-Chief Investment Strategist at Manulife John Hancock Investments 3) Geoffrey Yu, Senior EMEA Market Strategist at BNY 4) Ann Miletti, Head of Equity Investments at Allspring Global Investments See omnystudio.com/listener for privacy information.",
+      "duration": "2137",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "70b7c9eb5440fcac5e2789a7",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Treasuries and market commentary; surface-level insights.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "233c1e4ae04305ebb0f1f979",
+      "show_name": "All-In Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Dario Defends Himself, Datacenter Panic, AI Doomer Trap, Senate Toss-Up",
+      "link": "https://allinchamathjason.libsyn.com/dario-defends-himself-datacenter-panic-ai-doomer-trap-senate-toss-up",
+      "published": "2026-08-21T14:14:00+00:00",
+      "summary": "(00:00) Besties are back! (00:13) Dario's two-part essay: regulatory capture, doomerism, and the data center backlash (10:25) FINRA for AI vs. MPAA for AI: SROs, thinking tokens, and the \"DMV for AI\" (30:12) Is an open source ban coming? Harnesses, FDI, jobs, and recursive self-improvement (56:33) a16z under DOJ investigation over \"interlocking directorates\" (1:01:15) Midterms: broken polls, the socialism surge, and CATO's DSA price tag Come hang with the Besties at the All-In Summit | September 13-15: ⁠ http://theallinsummit.com ⁠ ⁠ #AllInSummit ⁠ Follow the besties: https://x.com/chamath https://x.com/Jason https://x.com/DavidSacks https://x.com/friedberg Follow on X: https://x.com/theallinpod Follow on Instagram: https://www.instagram.com/theallinpod Follow on TikTok: https://www.tiktok.com/@allin Follow on LinkedIn: https://www.linkedin.com/company/allinpodIntro Music Credit: https://rb.gy/tppkzl https://x.com/yung_spielburgIntro Video Credit: https://x.com/TheZachEffect #allin #tech #news",
+      "duration": "01:30:53",
+      "old_score": 28,
+      "old_label": "skip",
+      "qwen": {
+        "id": "233c1e4ae04305ebb0f1f979",
+        "score": 85,
+        "tier": "listen",
+        "reason": "All-In tackles AI regulation, data center panic, and political dynamics with sharp operator insights.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "fec39220a6b65ef0953f3620",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Microsoft's Deputy CISO on Securing AI Agents",
+      "link": "https://a16z.simplecast.com/episodes/how-microsoft-is-securing-the-agentic-enterprise-aaron-zollman-j7eOe8NH",
+      "published": "2026-08-21T11:40:08+00:00",
+      "summary": "a16z's Joel De La Garza is joined by Aaron Zollman, Deputy CISO at Microsoft Gaming, to discuss how security teams can embrace AI agents without losing control. Aaron shares Microsoft's experience with OpenClaw, from the initial instinct to ban it to figuring out how to make it safe to use. They unpack what agents mean for identity, permissions, containerization, and monitoring, as well as how AI is shifting the CISO's role from saying \"no\" to safely enabling new technology. They also explore whether AI could help defenders patch vulnerabilities as quickly as they're discovered, and why new AI threats don't make the old security problems go away. Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:25:15",
+      "old_score": 43,
+      "old_label": "skip",
+      "qwen": {
+        "id": "fec39220a6b65ef0953f3620",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Microsoft's CISO discusses securing AI agents—practical insights for enterprise AI adoption.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "8161bcac6bd334bb2b64a0da",
+      "show_name": "My First Million",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "3 millionaires reveal their super niche businesses",
+      "link": "",
+      "published": "2026-08-21T11:01:00+00:00",
+      "summary": "30+ unsexy business ideas: https://clickhubspot.com/dwtb Episode 854: Sam Parr ( https://x.com/theSamParr ) and Shaan Puri ( https://x.com/ShaanVP ) ask 3 founders to tell them the juiciest number behind their businesses and get advice live. — Show Notes: (0:00) Rishi Talati, Hot Plate (20:10) Ajay Mehta, Tolan (39:53) Jonathan Baer, Overlap — Links: • Hot Plate - https://www.hotplate.com/ • Tolan - https://www.tolans.com/ • Overlap - https://overlap.ai/ — Check Out Sam's Stuff: • Hampton (joinhampton.com): My community for founders. Average member does $25m/year. Many of the guests are members. Get after it...apply: http://joinhampton.com/mfm — Check Out Shaan's Stuff: • Shaan's weekly email - https://www.shaanpuri.com • Visit https://www.somewhere.com/mfm to hire worldwide talent like Shaan and get $500 off for being an MFM listener. Hire developers, assistants, marketing pros, sales teams and more for 80% less than US equivalents. • Mercury - Shaan uses Mercury across all of his companies. you can too: http://mercury.com/ Mercury is a fintech company, not an FDIC-insured bank. Banking services provided by Choice Financial Group, Column, N.A., Members FDIC • I run all my newsletters on Beehiiv and you should too + we're giving away $10k to our favorite newsletter, check it out: beehiiv.com/mfm-challenge My First Million is a HubSpot Original Podcast // Brought to you by HubSpot Media // Production by Arie Desormeaux // Editing by Ezra Bakker Trupiano /",
+      "duration": "3592",
+      "old_score": 32,
+      "old_label": "skip",
+      "qwen": {
+        "id": "8161bcac6bd334bb2b64a0da",
+        "score": 55,
+        "tier": "scan",
+        "reason": "Niche business ideas; some useful frameworks but not deeply strategic.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "3d11673efbc5152f43c5011f",
+      "show_name": "Hard Fork",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "OpenAI’s Two-Week Pause + Jill Lepore on the Threat of the “Artificial State” + Train of Thought",
+      "link": "https://www.nytimes.com/column/hard-fork",
+      "published": "2026-08-21T11:00:00+00:00",
+      "summary": "This week, we learned that OpenAI had stopped training new artificial intelligence models while the company reviewed its security measures. Will this encourage other labs to hit the brakes too? Then, the historian Jill Lepore joins to discuss her new book about the artificial state — or, as she describes it, “the rule of humans by machines manufactured by corporations.” And finally, why is Google buying up the data of the defunct Spirit Airlines? It’s time for our new segment “Train of Thought.” Guests: Jill Lepore , professor of history and law at Harvard University, staff writer at The New Yorker and author of the new book “The Rise and Fall of the Artificial State.” Additional Reading: OpenAI Slows Model Training to Bolster Security After Hugging Face Hack A Government for the People, but Not by People Google to Buy Spirit Airlines Business Data for $10 Million A.I.’s New Training Data: Your Old Work Slacks and Emails We Tracked a Shipment of Rare Books. It Ended at an Amazon A.I. Training Facility. We want to hear from you. Email us at hardfork@nytimes.com. Find “Hard Fork” on YouTube and TikTok . Subscribe today at nytimes.com/podcasts or on Apple Podcasts and Spotify. You can also subscribe via your favorite podcast app here https://www.nytimes.com/activate-access/audio?source=podcatcher . For more podcasts and narrated articles, download The New York Times app at nytimes.com/app. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "01:03:07",
+      "old_score": 32,
+      "old_label": "skip",
+      "qwen": {
+        "id": "3d11673efbc5152f43c5011f",
+        "score": 75,
+        "tier": "digest",
+        "reason": "OpenAI pause, AI governance, and data sourcing—solid context for AI business strategy.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "bd41cac1fc3fae0d85346918",
+      "show_name": "Ezra Klein Show",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "The China Shock 2.0",
+      "link": "https://www.nytimes.com/2026/08/21/opinion/ezra-klein-podcast-brad-setser.html",
+      "published": "2026-08-21T09:00:00+00:00",
+      "summary": "Brad Setser follows Chinese trade closer than just about anyone else on earth, and he thinks we’re in the early days of a China Shock 2.0. The first China Shock was when China came to dominate low-end manufacturing in the 2000s, filling American shelves with cheap clothes, toys and electronics, while devastating American factory towns. This new China Shock could be even more destabilizing. China now dominates advanced manufacturing: electric vehicles, batteries, solar panels. It’s outcompeting nearly all high-end manufacturing around the world, and other countries are just starting to feel the pain. And China isn’t slowing down. It’s moving into software, too. Its frontier A.I. models are neck and neck with American ones. China’s success poses a serious threat to the economies and domestic politics of countries around the world. So what should those countries do about it? Setser is a senior fellow at the Council on Foreign Relations.He served in top trade and economic roles in the Biden and Obama administrations. And he is widely cited across the field as one of the top analysts of China’s economy and trade practices. Book Recommendations: The Party by Richard McGregor The Volatility Machine by Michael Pettis How to Win a Trade War by Soumaya Keynes and Chad Bown Thoughts? Guest suggestions? Email us at ezrakleinshow@nytimes.com . You can find the transcript and more episodes of “The Ezra Klein Show” at nytimes.com/ezra-klein-podcast. Book recommendations from all our guests are listed at https://www.nytimes.com/article/ezra-klein-show-book-recs.html This episode of “The Ezra Klein Show” was produced by Rollin Hu. Fact-checking by Michelle Harris, with Kate Sinclair, Mary Marge Locker and Julie Beer. Our senior engineer is Jeff Geld, with additional mixing by Johnny Simon. Our recording engineer is Aman Sahota. Cinematography by Marina King and Kyle Kelley. Video editing by Dani Dillon and Brandon Belk-Yee. Our executive producer is Claire Gordon. The show’s production team also includes Marie Cascione, Annie Galvin, Kristin Lin, Emma Kehlbeck, Jack McCordick and Jan Kobal. Original music by Pat McCusker. Audience strategy by Shannon Busta. The director of New York Times Opinion Shows is Annie-Rose Strasser. Subscribe today at nytimes.com/podcasts or on Apple Podcasts and Spotify. You can also subscribe via your favorite podcast app here https://www.nytimes.com/activate-access/audio?source=podcatcher . For more podcasts and narrated articles, download The New York Times app at nytimes.com/app. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "01:05:30",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "bd41cac1fc3fae0d85346918",
+        "score": 80,
+        "tier": "digest",
+        "reason": "China Shock 2.0 analysis offers macroeconomic implications for global tech and trade.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "726f27d2c0b643ca588de614",
+      "show_name": "NYT Book Review",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "low",
+      "title": "Why We Can’t Resist a Great Bookstore",
+      "link": "https://www.nytimes.com/column/book-review-podcast",
+      "published": "2026-08-21T09:00:00+00:00",
+      "summary": "What is it about a bookstore? You walk in planning to browse for a few minutes, and somehow an hour later you’re still wandering the stacks with an armful of books you can’t seem to put down. For this week’s episode, our guest host, MJ Franklin, and the producer Sarah Diamond take a field trip to a local bookstore, McNally Jackson Seaport, at the southern tip of Manhattan. There, they talk with the owner, Sarah McNally, about what it’s actually like to run a bookstore. Then MJ sits down with Jennifer Harlan, an editor at the Book Review, to talk about The Times’s new bookstore crawl series , the bookstores she grew up loving and why bookshops seem to be having a moment. Of course, no bookstore episode would be complete without some book recommendations. MJ and Jen share some of their favorite books about bookstores and booksellers, including a romance set in a small-town bookshop and a memoir about living inside Shakespeare and Company in Paris. Books discussed on this episode: “Switzy,” by Emma Cline “Delicate Edible Birds,” by Lauren Groff “Book Lovers,” by Emily Henry “Monogamy,” by Sue Miller “Time Was Soft There: A Paris Sojourn at Shakespeare and Co.,” by Jeremy Mercer “The Bookshop: A History of the American Bookstore,” by Evan Friss “A Marvelous Light,” by Freya Marske “The Rachel Incident,” by Caroline O’Donoghue Listen to and Follow ‘The Book Review’ Apple Podcasts | Spotify | Amazon Music | YouTube | iHeartRadio Unlock full access to New York Times podcasts and explore everything from politics to pop culture. Subscribe today at nytimes.com/podcasts or on Apple Podcasts and Spotify. We Want to Hear From You We would love to hear your thoughts about this episode, and about the Book Review’s podcast in general. You can send them to thebookreview@nytimes.com. Credits “The Book Review” podcast is hosted this week by MJ Franklin and produced by Amy Pearl, Sarah Diamond and Patricia Sulbarán. The show is edited by Tracy Mumford and mixed this week by Daniel Ramirez. Special thanks to Dahlia Haddad and Brooke Minters. Subscribe today at nytimes.com/podcasts or on Apple Podcasts and Spotify. You can also subscribe via your favorite podcast app here https://www.nytimes.com/activate-access/audio?source=podcatcher . For more podcasts and narrated articles, download The New York Times app at nytimes.com/app. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:26:03",
+      "old_score": 0,
+      "old_label": "skip",
+      "qwen": {
+        "id": "726f27d2c0b643ca588de614",
+        "score": 35,
+        "tier": "skip",
+        "reason": "Bookstore culture and literary discussion; not relevant to DJ's focus areas.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "96b0a5d28fa4d6e9ce17b79f",
+      "show_name": "Sharp Tech",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "(Preview) The App Store in the Shadow of AI, Offensive and Defensive Cybersecurity, Q&A on Financial Planning, AI Writing, American Sports",
+      "link": "https://sharptech.fm/member/episode/preview-the-app-store-in-the-shadow-of-ai-offensive-and-defensive-cybersecurity-q-a-on-financial-planning-ai-writing-american-sports",
+      "published": "2026-08-21T08:59:38+00:00",
+      "summary": "On today’s show Andrew and Ben begin with reflections on big Apple news that feels relatively small alongside a world of growth and dramatic questions across technology in the AI era. Then: They turn to the news that OpenAI is pausing its Internet model training, the incentive structure that makes cybersecurity challenging and how AI compounds the challenge, two digressions from Ben on misalignment and a new AI use case, and why black hat and white hat cybersecurity actors are both doing the same thing in the AI era. At the end: More thoughts on bubble benefits that may survive, an emailer considers a financial planning career but is concerned about AI, two follow-ups on AI and the writing process, and European emailer thinks Americans who love sports love everything but the actual sport.",
+      "duration": "00:20:51",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "96b0a5d28fa4d6e9ce17b79f",
+        "score": 60,
+        "tier": "scan",
+        "reason": "Apple and AI news with some cybersecurity context; light but worth a scan.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "2192258643f75a97926ac1e6",
+      "show_name": "The Meb Faber Show",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "David Booth: 45 Years to $1 Trillion at Dimensional | #646",
+      "link": "",
+      "published": "2026-08-21T08:30:00+00:00",
+      "summary": "Today’s guest is David Booth, founder of Dimensional Fund Advisors, which now manages over $1 trillion. He studied under Eugene Fama at Chicago and helped build one of the first index funds at Wells Fargo. In today’s episode, David traces Dimensional’s arc from indexing’s earliest days at Wells Fargo to crossing $1 trillion in AUM this year. He shares what Gene Fama said when he got the call, the story of driving a client to Chicago to walk through the Fama-French paper, and why AI investing looks like the California gold rush. To close, David makes the case for judging yourself by decisions, not outcomes. Get David's book: Stay Calm: Learn to Embrace Uncertainty in Investing and Life (0:00) Introduction (0:58) David Booth's start to investing (3:38) The beginnings of index funds and early challenges at Dimensional (10:09) Long-term investment perspectives and the Fama-French three-factor model (17:26) Dimensional’s educational focus and advisor partnerships (20:21) Small cap value performance, AI & market trends (23:26) Symbolism of bankrupt stock certificates and lessons on diversification (25:44) Compounding for 45 years (30:56) David's passion for Kansas basketball ----- Sponsor: ⁠Upwork⁠ is the world's largest human and AI-powered freelance marketplace to hire top talent—trusted by businesses and professionals worldwide. Follow Meb on X, LinkedIn and YouTube For detailed show notes, click here To learn more about our funds and follow us, subscribe to our mailing list or visit us at cambriainvestments.com ----- Follow The Idea Farm: X | LinkedIn | Instagram | TikTok ----- Interested in sponsoring the show? Email us at Feedback@TheMebFaberShow.com ----- Past guests include Ed Thorp, Richard Thaler, Jeremy Grantham, Joel Greenblatt, Campbell Harvey, Ivy Zelman, Kathryn Kaminski, Jason Calacanis, Whitney Baker, Aswath Damodaran, Howard Marks, Tom Barton, and many more. ----- Meb's invested in some awesome startups that have passed along discounts to our listeners. Check them out here! ----- Editing and post-production work for this episode was provided by The Podcast Consultant (https://thepodcastconsultant.com).",
+      "duration": "2314",
+      "old_score": 71,
+      "old_label": "digest_only",
+      "qwen": {
+        "id": "2192258643f75a97926ac1e6",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Dimensional Fund Advisors' growth and AI investing parallels offer investment insights.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "c78f44cf41dfaf0b760709de",
+      "show_name": "Odd Lots",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "Jasmine Sun on What the AI Industry Got Wrong About the Public Backlash",
+      "link": "https://omny.fm/shows/odd-lots/jasmine-sun-on-what-the-ai-industry-got-wrong-about-the-public-backlash",
+      "published": "2026-08-21T08:00:00+00:00",
+      "summary": "Within the AI industry, even the builders of it have been very anxious about the technology. They've talked for years about its potential to create destabilizing job losses. They even spend a lot of time thinking about rogue AI that could lead to human extinction. But for all their anxiety, they missed the thing that's become the most publicly salient: how upset people would be about building data centers. Part of this was understandable. Data center construction has been happening for a long time in America, and it used to be relatively uncontroversial. In fact, cities and states would often design their tax code to incentivize data center construction. Now there's this complete 180. On this episode, we speak with independent writer and Substacker Jasmine Sun, who recently traveled to Wisconsin and Michigan for some on-the-ground reporting about the communities and activists trying to stop data center development. She explains what the pushback is really all about, what it represents, and what future developers will have to do in order to be welcomed in. Come see Odd Lots live in Los Angeles , get your tickets now. Read more: Anthropic-Tied Data Center Inks $1.3 Billion Private Credit Loan Pennsylvania Governor Josh Shapiro to Limit New Data Centers Only Bloomberg - Business News, Stock Markets, Finance, Breaking & World News subscribers can get the Odd Lots newsletter in their inbox each week, plus unlimited access to the site and app. Subscribe at bloomberg.com/subscriptions/oddlots Subscribe to the Odd Lots Newsletter Join the conversation: discord.gg/oddlots See omnystudio.com/listener for privacy information.",
+      "duration": "3104",
+      "old_score": 32,
+      "old_label": "skip",
+      "qwen": {
+        "id": "c78f44cf41dfaf0b760709de",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Ground-level reporting on data center backlash—important for AI infrastructure strategy.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "182b5d1b7f0311cab5f6a324",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "The Week: The Right Turns Against the Rich",
+      "link": "",
+      "published": "2026-08-21T08:00:00+00:00",
+      "summary": "George Hahn connects the dots across the week’s biggest stories: why California may impose a one-time tax on billionaire wealth, how Tucker Carlson could pair right-wing culture with populist economics, and why China’s decades-long infrastructure strategy may give it an advantage in the AI race. Plus, Scott shares why the key to stronger relationships is to stop keeping score. We’d love your feedback as we build this show! Let us know what you think: info@profgmedia.com. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "1133",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "182b5d1b7f0311cab5f6a324",
+        "score": 55,
+        "tier": "scan",
+        "reason": "Week in review with some macroeconomic and tech policy context.",
+        "confidence": "medium"
+      }
+    }
+  ]
+}
