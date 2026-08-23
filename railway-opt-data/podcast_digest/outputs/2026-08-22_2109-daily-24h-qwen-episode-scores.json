@@ -1,0 +1,151 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-08-22_2109",
+  "usage": {
+    "prompt_tokens": 2708,
+    "completion_tokens": 571,
+    "total_tokens": 3279
+  },
+  "episodes": [
+    {
+      "id": "33c844abb53e688ea1088ab2",
+      "show_name": "The Cognitive Revolution",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "AI in the AM — Weekly Highlights: Relaunch Week (Aug 17–20, 2026)",
+      "link": "https://www.cognitiverevolution.ai/ai-in-the-am-weekly-highlights-relaunch-week-aug-17-20-2026/",
+      "published": "2026-08-22T14:22:00+00:00",
+      "summary": "Relaunch week of AI in the AM brings together highlights from four live mornings and nine guests, centered on who checks frontier AI, how wide the gap is between lab-internal systems and public access, where capabilities are landing, and who pays for the physical infrastructure beneath them. Adam Gleave of FAR.AI argues that agent-orchestrated attacks and agentic defenses are already forcing humans out of the loop, while current monitoring has missed the failures it was meant to catch. The discussion weighs misuse versus misalignment through cyber incidents, deceptive agent behavior in evaluations, safeguards like pretraining filtering, and why highly bio-capable open-weight releases pose a different kind of irreversible risk. Alex Turner adds a governance and military-use perspective from his resignation account at Google DeepMind, sharpening the stakes around independent evaluation, enforceable standards, and whether frontier labs can be trusted to grade their own models. For full show notes, links, and references, read the episode page:https://www.cognitiverevolution.ai/ai-in-the-am-weekly-highlights-relaunch-week-aug-17-20-2026/ Sponsors: Diffusion: Diffusion helps organizations build custom AI software factories that scale business outcomes, not just outputs. Cognitive Revolution listeners get a 25% service credit on their first engagement at https://diffusion.io/tcr Granola: Granola is an AI-powered notepad that securely transcribes meetings and turns rough notes into clean, structured action items. Try it free at https://granola.ai/tcr Deepgram Flux TTS: Deepgram Flux TTS brings lifelike AI voices with real personalities that handle interruptions, pauses, and natural conversation. Try all the voices free through September 12 at https://deepgram.com/keep-talking Claude: Claude is the AI collaborator for problem solvers, helping with writing, coding, financial models, strategy, and more. Get started with Claude and explore Claude Pro at https://claude.ai/tcr CHAPTERS: (00:01) Checking frontier agents (07:40) Misalignment and harms (Part 1) (12:52) Sponsors: Diffusion | Granola (15:49) Misalignment and harms (Part 2) (19:20) Auditing fragile access (Part 1) (27:38) Sponsors: Deepgram Flux TTS | Claude (29:43) Auditing fragile access (Part 2) (29:59) Military AI red lines (44:58) Raising safety standards (53:50) Internal capability gap (01:05:06) Enterprise agent economics (01:18:27) Cancer vaccines arrive (01:23:48) Emergency AI tools (01:28:59) Real time voice (01:37:51) App layer squeeze (01:44:52) Data center politics (01:52:31) Accounting agent supervision (02:06:25) Compute stack bottlenecks (02:19:47) Public consent pricing (02:28:12) Episode Outro (02:31:38) Outro PRODUCED BY: https://aipodcast.ing",
+      "duration": "9221",
+      "old_score": 43,
+      "old_label": "skip",
+      "qwen": {
+        "id": "33c844abb53e688ea1088ab2",
+        "score": 92,
+        "tier": "listen",
+        "reason": "Discusses frontier AI risks, agent-orchestrated attacks, and governance with experts from FAR.AI and Google DeepMind.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "a1253136c035cb50ebebb8ee",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Martin Casado on Where the Value Is Going in AI",
+      "link": "https://a16z.simplecast.com/episodes/martin-casado-on-where-the-value-is-going-in-ai-750ULKGM",
+      "published": "2026-08-22T10:00:00+00:00",
+      "summary": "Martin Casado joins MTS hosts Theo Jaffee and Sophia Dew to unpack where value is actually accruing in AI, why this technology cycle looks fundamentally different from previous waves, and whether the frontier labs will ultimately capture most of the market. Martin explains why AI has turned venture into a scale-up capital game, where small teams can productively deploy extraordinary amounts of money, and why the relationship between capital, innovation, and growth has never been tighter. He lays out the case both for and against the frontier labs dominating AI, the role of open-source and specialist models, and why applications are increasingly capturing more value. The conversation also explores model routing, AI economics, founder-market fit, and why Martin believes this may be the biggest unlock of wealth he's seen since the 1990s. Resources: Follow Martin Casado on X: https://x.com/martin_casado Follow Theo Jaffee on X: https://x.com/theojaffee Follow Sophia Dew on X: https://x.com/sophiadew Follow MTS on X: https://x.com/mtslive Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:42:01",
+      "old_score": 51,
+      "old_label": "skip",
+      "qwen": {
+        "id": "a1253136c035cb50ebebb8ee",
+        "score": 88,
+        "tier": "listen",
+        "reason": "Martin Casado analyzes AI value accrual, frontier labs' dominance, and capital dynamics in the AI ecosystem.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "3000a301055edf198778e607",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "No Mercy / No Malice: I Disagree",
+      "link": "",
+      "published": "2026-08-22T08:11:00+00:00",
+      "summary": "Audio excerpted with permission of Penguin Random House Audio from I DISAGREE by Jessica Tarlov, read by the author. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "450",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "3000a301055edf198778e607",
+        "score": 10,
+        "tier": "skip",
+        "reason": "Excerpt from a book reading, not relevant to AI, markets, or capital allocation.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "671ba7298f39d466b37a105c",
+      "show_name": "The Twenty Minute VC",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "20VC: The AI Bubble Will Burst: Half the Neoclouds Will Die | China: Should We Ban Chip Exports & Be Fearful of Chinese Open-Source | Mag7: Who Dies and Who Thrives: Why Meta is Meh and Microsoft is Mega",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-the-ai-bubble-will-burst-half-the-neoclouds-will-die-china-should-we-ban-chip-exports-be-fearful-of-chinese-open-source-mag7-who-dies-and-who-thrives-why-meta-is-meh-and-microsoft-is-mega",
+      "published": "2026-08-22T07:07:00+00:00",
+      "summary": "Jerry Murdock is the Co-Founder of Insight Partners, which manages over $90 billion in assets. Jerry personally backed companies including Twitter, Nest and Docker, while Insight's portfolio includes giants such as Shopify, Wiz and monday.com. Across three decades, Insight has helped produce 55+ IPOs and become one of the most powerful technology investment firms in the world. AGENDA: 00:00 — Is the AI Bubble About to Burst? 11:00 — Will Half of All Neoclouds Disappear Within 36 Months? 13:00 — Can Open Source Models Actually Beat OpenAI and Anthropic? 22:00 — Are We Entering the Golden Age of Cybersecurity Attacks? 32:00 — Have AI Valuations Completely Lost Touch With Reality? 42:00 — Is AI About to Wipe Out an Entire Generation of SaaS & Private Equity? 47:00 — Should We Ban U.S. Chips From Being Exported to China? 48:00 — Should We Be Fearful of Open-Source Chinese Models? 49:00 — Will Continuous Learning Kill Every AI Model We Use Today? 53:00 — Why Microsoft Remains a Mega Buy 56:00 — Which Mag 7 Giant Would You Short — and Is Apple's AI Strategy a Disaster?",
+      "duration": "01:06:24",
+      "old_score": 46,
+      "old_label": "skip",
+      "qwen": {
+        "id": "671ba7298f39d466b37a105c",
+        "score": 78,
+        "tier": "digest",
+        "reason": "Discusses AI bubble risks, open-source models, cybersecurity, and geopolitical implications of AI in China.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "f36f9c2527f527e5141f42e7",
+      "show_name": "The James Altucher Show",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Arianna Huffington: The Sleep Revolution, Microsteps, and the Joy of Being Awake [From the Archive]",
+      "link": "https://art19.com/shows/the-james-altucher-pod/episodes/cb9867f8-9063-47f5-a9d2-aee321151361",
+      "published": "2026-08-22T07:00:00+00:00",
+      "summary": "Episode Description: This is a From the Archive episode with Arianna Huffington. Arianna Huffington returns to the show for a conversation about sleep, success, reinvention, and the cultural delusion that burnout is the price of achievement. James begins by asking practical sleep questions: Is nine hours too much? Can sleep be split into two four-hour blocks? Arianna explains that for most people, seven to nine hours is the real range, and that sleep should leave a person fully recharged, not limping through the day waiting for a second shift of rest. From there, James rewinds to Arianna’s career. Before The Huffington Post, before Thrive Global, before The Sleep Revolution , Arianna had already spent decades writing, appearing on television, entering politics, changing positions, and reinventing herself. She credits her mother with giving her the belief that failure was not the opposite of success, but a stepping stone toward it. One of the central stories is Arianna’s second book being rejected by 36 publishers. Out of money and unsure whether she should remain a writer, she walked into a bank in London and asked for a loan. The manager gave it to her. That small act kept her on the path. James and Arianna then talk about The Huffington Post: its rough launch, brutal early reviews, the team behind it, the importance of creating a platform, and the thrill of giving unknown people a chance to be heard. Arianna tells one of her favorite stories about a homeless teenager whose writing on HuffPost helped lead to Harvard discovering him. The conversation then turns to the 2007 collapse that changed Arianna’s relationship with sleep. Arianna says the problem was not just personal overwork. It was a collective belief that sleep deprivation is required for success. But James pushes her on the personal side too, and Arianna acknowledges perfectionism: building a company, raising daughters, trying to be a perfect mother, and working through the night after college-tour days with her daughter. Arianna’s answer is not a rigid sleep doctrine. It is a series of small steps. Build a transition. Remove devices from the bedroom. Lower the lights. Take a bath or shower. Read a physical book. Use gratitude as the closing scene of the day. If you wake up at 3 a.m., meditate instead of spiraling. The episode closes with joy. For Arianna, sleep is not only about health and productivity. It is about being present enough to experience life while it is happening. Editorial Note: This is a From the Archive episode. References to Arianna’s role at The Huffington Post, HuffPost’s size and global expansion, her contract, sleep resources, and digital products reflect the original recording period. This episode discusses sleep, medication, insomnia, health, and wellbeing. It should not be treated as medical advice. Anyone dealing with chronic insomnia, sleep medication dependence, depression, narcolepsy, or other health concerns should speak with a qualified clinician. What You’ll Learn: Why Arianna says sleep deprivation is not a requirement for achievement. How her 2007 collapse changed her view of success, productivity, and wellbeing. Why most people need seven to nine hours of sleep. Why she sees failure as a stepping stone, not the opposite of success. How her mother shaped her courage, optimism, and relationship to fear. Why The Huffington Post was built as both a journalistic enterprise and a platform for voices. How brutal early reviews tested the HuffPost team. Why Arianna believes teams matter most during hard times. How perfectionism contributed to her burnout. Why sleep affects health, productivity, decision-making, creativity, and joy. Why dreams matter for memory, insight, and new ideas. How to start a sleep transition with small microsteps. Why removing devices from the bedroom is one of the first practical changes. How gratitude can become the “closing scene” of the day. Why waking up in the middle of the night is not the problem—the stress",
+      "duration": "00:39:27",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "f36f9c2527f527e5141f42e7",
+        "score": 25,
+        "tier": "scan",
+        "reason": "Archived episode on sleep and burnout, not central to AI, markets, or durable frameworks.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "bd6724e4d66ecf8f44301b6b",
+      "show_name": "People I Mostly Admire",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "36. How Rahm Emanuel Would Run the World",
+      "link": "https://www.siriusxm.com",
+      "published": "2026-08-22T00:00:00+00:00",
+      "summary": "In this interview, Steve talks with the former top adviser to presidents Clinton and Obama, about his record — and his reputation. And Rahm explains that while he believes in the power of the federal government, as former mayor of Chicago, he says that cities are where problems really get solved. This episode originally aired on March 2, 2020 on Freakonomics Radio, and again on July 16th, 2021st on People I Mostly Admire. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:41:56",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "bd6724e4d66ecf8f44301b6b",
+        "score": 20,
+        "tier": "scan",
+        "reason": "Political interview with Rahm Emanuel, not focused on AI, markets, or operator insights.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "3f6aef7b13889716b3afdd85",
+      "show_name": "Latent Space",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Simulation: the new Scaling Law — Joon Sung Park, Simile AI",
+      "link": "https://www.latent.space/p/simile",
+      "published": "2026-08-21T23:37:38+00:00",
+      "summary": "When we first dicsussed the Summer of Simulative AI in 2024 we knew it would be a brief summer, but it has recently come back with a vengeance with SimGym in April and now Simile AI’s $2B Series B , backed by GreenOaks and Index Ventures with prominent backers like Fei-Fei Li and Andrej Karpathy, running tens of millions of simulations for Fortune 100 clients like CVS and 85–99% accuracy vs human focus groups. Time to catch up on why this Second Summer of simulation is working! From creating Smallville , the landmark 2023 paper on Generative Agents that showed AI characters could remember, plan, socialize, and develop emergent behaviors , to now building foundation models of human behavior, Joon Sung Park is trying to answer a much bigger question: what if we could simulate the world before making decisions in it? In this episode, the Simile co-founder and CEO joins us to unpack the path from generative agents to digital twins, why today’s frontier models still fail to capture how humans actually behave, and what it would take to eventually simulate all 8 billion people on Earth. We go deep on Simile’s approach to modeling human behavior : long-form interviews, observational and transaction data, randomized controlled trials, population-level and individual-level models, and post-training on the causal mechanisms behind why people make decisions. Joon explains how his research created digital twins that reproduced human behavior and attitudes 85% as accurately as people reproduced their own responses , why models optimized to be rational can be bad simulations of irrational humans, and why understanding “social physics” may require changing model weights rather than simply prompting frontier LLMs. We also explore the much larger ambition behind simulation : testing products and policies before deploying them, finding counterintuitive paths toward desired outcomes, modeling emergent behavior across entire societies, and potentially tackling problems like climate change , democratic instability, and UBI . Joon reflects on scaling laws for simulation , the economics of data-center-scale simulated worlds , the connection to Thomas Schelling and psychohistory, why simulation is surprisingly similar to painting, and whether we might already be living in one. We discuss: * How Smallville and Generative Agents led to Simile * Why Joon’s team asked: “What if we can just recreate the world that we live in?” * Why useful personal agents require deep models of their users * Memory architectures, Markdown files, and the limits of prompting * “Social physics” and behavioral foundation models * Why web data captures what people say more than what they actually do * Interviews, transactions, observational data, and randomized controlled trials * Why predicting the future matters less than understanding how to shape it * How Simile creates representative simulated populations * Simulation versus prediction and the connection to Foundation’s psychohistory * How to evaluate simulations instead of simply stacking LLM hallucinations * Creating digital twins of 1,000 real people and reaching 85% behavioral accuracy * Why frontier models can struggle to reproduce real human behavior * Why good simulations need to reproduce human biases and mistakes * Post-training models on randomized controlled trials * Population-level versus individual-level simulation * Scaling laws for human simulation * The long-term ambition to simulate all 8 billion people on Earth * Whether simulations could help solve climate change or detect collapsing democracy * Thomas Schelling and the history of agent-based modeling * Why future simulations could require an entire data center * Multi-agent simulations and what happens when simulated people interact * Replacing expensive human panels with synthetic populations * Why market research is only the starting point for simulation * Why Joon sees simulation as surprisingly similar to painting * Using simulation to study questi",
+      "duration": "4178",
+      "old_score": 43,
+      "old_label": "skip",
+      "qwen": {
+        "id": "3f6aef7b13889716b3afdd85",
+        "score": 85,
+        "tier": "listen",
+        "reason": "Explores simulation as a new scaling law, digital twins, and behavior modeling with Simile AI's CEO.",
+        "confidence": "high"
+      }
+    }
+  ]
+}

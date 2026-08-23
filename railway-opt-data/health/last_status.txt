@@ -1,22 +1,22 @@
-Chief Railway health check: 2026-08-22T06:00:55Z
-Memory: 2993MB / 22888MB (13%)
-Railway volume disk: 4836MB / 46627MB (11%)
+Chief Railway health check: 2026-08-23T06:00:46Z
+Memory: 3251MB / 22888MB (14%)
+Railway volume disk: 4939MB / 46627MB (11%)
 Gateway process: 1 /opt/hermes/.venv/bin/python3 /opt/hermes/.venv/bin/hermes gateway run
 Operational checks:
-  Chief operational health: 2026-08-22T06:02:23.602649+00:00
-  Check: /opt/data/daily-tom/task_state.json: 88952 bytes, age 21.0h
-  Check: /opt/data/slack_business_brief_latest.md: 66808 bytes, age 9.1h
-  Check: /opt/data/slack_brief_archive/open_topics.md: 7342 bytes, age 1280.9h
-  Check: /opt/data/slack_brief_archive/BRIEFING_POLICY.md: 2216 bytes, age 247.8h
-  Check: /opt/data/google-accounts/SECURITY_POLICY.md: 2340 bytes, age 2103.5h
-  Check: /opt/data/security/ATTACK_VECTOR_CHECKLIST.md: 1489 bytes, age 2097.8h
+  Chief operational health: 2026-08-23T06:01:57.692085+00:00
+  Check: /opt/data/daily-tom/task_state.json: 89585 bytes, age 21.0h
+  Check: /opt/data/slack_business_brief_latest.md: 62486 bytes, age 8.9h
+  Check: /opt/data/slack_brief_archive/open_topics.md: 7342 bytes, age 1304.9h
+  Check: /opt/data/slack_brief_archive/BRIEFING_POLICY.md: 2216 bytes, age 271.8h
+  Check: /opt/data/google-accounts/SECURITY_POLICY.md: 2340 bytes, age 2127.5h
+  Check: /opt/data/security/ATTACK_VECTOR_CHECKLIST.md: 1489 bytes, age 2121.8h
   Check: Archived smart briefings: 126
-  Check: Latest archived briefing: 2026-08-21-2107.md, age 8.9h
+  Check: Latest archived briefing: 2026-08-21-2107.md, age 32.9h
   Check: Daily ToM context: OK (1431 chars)
   Check: Daily ToM integrity: OK (149 chars)
   Check: Briefing repetition lint: OK (54 chars)
   Check: Email ToM context: OK (2703 chars)
-  Check: Filtered Slack context: OK (22575 chars)
-  Check: Full smart brief context: OK (34577 chars)
+  Check: Filtered Slack context: OK (18739 chars)
+  Check: Full smart brief context: OK (30741 chars)
   Status: OK
 Status: OK
