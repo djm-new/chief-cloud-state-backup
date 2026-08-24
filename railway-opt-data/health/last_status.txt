@@ -1,22 +1,22 @@
-Chief Railway health check: 2026-08-23T06:00:46Z
-Memory: 3251MB / 22888MB (14%)
-Railway volume disk: 4939MB / 46627MB (11%)
+Chief Railway health check: 2026-08-24T06:00:18Z
+Memory: 3848MB / 22888MB (16%)
+Railway volume disk: 5093MB / 46627MB (11%)
 Gateway process: 1 /opt/hermes/.venv/bin/python3 /opt/hermes/.venv/bin/hermes gateway run
 Operational checks:
-  Chief operational health: 2026-08-23T06:01:57.692085+00:00
-  Check: /opt/data/daily-tom/task_state.json: 89585 bytes, age 21.0h
-  Check: /opt/data/slack_business_brief_latest.md: 62486 bytes, age 8.9h
-  Check: /opt/data/slack_brief_archive/open_topics.md: 7342 bytes, age 1304.9h
-  Check: /opt/data/slack_brief_archive/BRIEFING_POLICY.md: 2216 bytes, age 271.8h
-  Check: /opt/data/google-accounts/SECURITY_POLICY.md: 2340 bytes, age 2127.5h
-  Check: /opt/data/security/ATTACK_VECTOR_CHECKLIST.md: 1489 bytes, age 2121.8h
-  Check: Archived smart briefings: 126
-  Check: Latest archived briefing: 2026-08-21-2107.md, age 32.9h
+  Chief operational health: 2026-08-24T06:01:33.342568+00:00
+  Check: /opt/data/daily-tom/task_state.json: 90218 bytes, age 21.0h
+  Check: /opt/data/slack_business_brief_latest.md: 64121 bytes, age 9.1h
+  Check: /opt/data/slack_brief_archive/open_topics.md: 7342 bytes, age 1328.9h
+  Check: /opt/data/slack_brief_archive/BRIEFING_POLICY.md: 2216 bytes, age 295.8h
+  Check: /opt/data/google-accounts/SECURITY_POLICY.md: 2340 bytes, age 2151.5h
+  Check: /opt/data/security/ATTACK_VECTOR_CHECKLIST.md: 1489 bytes, age 2145.8h
+  Check: Archived smart briefings: 128
+  Check: Latest archived briefing: 2026-08-23-2110.md, age 8.8h
   Check: Daily ToM context: OK (1431 chars)
   Check: Daily ToM integrity: OK (149 chars)
   Check: Briefing repetition lint: OK (54 chars)
-  Check: Email ToM context: OK (2703 chars)
-  Check: Filtered Slack context: OK (18739 chars)
-  Check: Full smart brief context: OK (30741 chars)
+  Check: Email ToM context: OK (3161 chars)
+  Check: Filtered Slack context: OK (36275 chars)
+  Check: Full smart brief context: OK (48735 chars)
   Status: OK
 Status: OK

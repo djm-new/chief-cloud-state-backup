@@ -1,0 +1,71 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-08-23_2108",
+  "usage": {
+    "prompt_tokens": 1582,
+    "completion_tokens": 241,
+    "total_tokens": 1823
+  },
+  "episodes": [
+    {
+      "id": "fcccb28a83a1078232ef008e",
+      "show_name": "Founders",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "#430 How to Write Ads That Sell",
+      "link": "",
+      "published": "2026-08-23T14:22:00+00:00",
+      "summary": "Claude Hopkins was the greatest copywriter of all time. His ideas were so valuable that when he wrote them down in a book the founder of his advertising firm locked the manuscript in a safe for 20 years. When the book was finally published it sold over 8 million copies. David Ogilvy said that nobody should work in advertising until they had read the book seven times. This episode is what I learned by reading Claude Hopkins' autobiography My Life In Advertising and his legendary book Scientific Advertising. Made possible by: Ramp: ⁠⁠https://ramp.com⁠⁠ Applovin: ⁠⁠https://www.applovin.com Vanta: ⁠⁠https://vanta.com/founders Some of my favorite quotes: 0:00 — \"Any man who by a lifetime of excessive application learns more about anything than others owes a statement to his successors.\" 5:12 — \"The man who works twice as long as his fellows is bound to go twice as far, especially in advertising.\" 5:30 — \"If I have gone higher than others in advertising or done more, the fact is not due to exceptional ability but to exceptional hours.\" 6:48 — \"To poverty I owe the fact that I never went to college. I spent those four years in the school of experience instead of the school of theory.\" 9:08 — \"Which is work and which is play? If a thing is useful, they call it work. If it's useless, they call it play. But one is hard as the other. All the difference I see lies in the attitude of the mind.\" 9:32 — \"I came to love work as other men love golf. I love it still. The love of work can be cultivated just like the love of play.\" 9:58 — \"We do best what we like best.\" 13:05 — \"A good product is its own best salesman. It is uphill work to sell goods without samples.\" 15:00 — \"We must never judge humanity by ourselves. The things we want, the things we like may appeal to a small minority.\" 15:23 — \"We must submit all things in advertising to the court of public opinion.\" 17:48 — \"Some of the greatest successes I have ever known in advertising were ignorant men. One wrote copy which would induce a farmer to mortgage his barn to respond, but every sentence had to be edited for grammar.\" 20:23 — \"John Powers created a new concept of advertising. He told the truth, but told it in a rugged and fascinating way.\" 25:47 — \"Study salesmen, canvassers, and fakers if you want to know how to sell goods. No argument in the world can ever compare with one dramatic demonstration.\" 26:35 — \"The average salesman seeks favors. He seeks profit for himself. His plea is, 'Buy my goods.' He makes a selfish appeal to selfish people, and of course, he meets resistance. I was selling service.\" 28:45 — \"We must treat people in advertising as we treat them in person.\" 31:23 — \"Others have never told this story. It will startle everyone in print. I gave purity a meaning.\" (On Schlitz Beer jumping from 5th to 1st.) 32:03 — \"Tell the pains that you take to excel. The maker is too close to his product. He sees in his methods only the ordinary.\" 34:08 — \"The greatest two faults in advertising lie in boasts and in selfishness. People will listen if you talk service to them. They will turn their backs when you seek to impress an advantage for yourself.\" 41:23 — \"People will do anything to cure a trouble, but little to prevent it. Prevention offers slight appeal to humanity in general. They want to be told of rewards.\" 1:01:30 — \"Genius is the art of taking pains. The advertising man who spares the midnight oil will never get very far. This is no lazy man's field.\"",
+      "duration": "3810",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "fcccb28a83a1078232ef008e",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Historical marketing insight from a foundational copywriter, useful for frameworks and messaging principles.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "ea9ffcb09ca367814ab61cb3",
+      "show_name": "Lenny's Podcast",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "How to close $100K+ enterprise deals, step by step | Jen Abel",
+      "link": "https://www.lennysnewsletter.com/p/how-to-close-100k-1m-deals-step-by",
+      "published": "2026-08-23T12:31:43+00:00",
+      "summary": "Jen Abel is the co-founder of JJellyfish and GM of enterprise sales at State Affairs. She is widely regarded as one of the sharpest practitioners in enterprise sales, and for that reason, this is her third visit to the podcast. In our first conversation we went deep on founder-led sales; in our second we mapped the $1M–$10M playbook. This time we do something I’ve never seen on another podcast: walk step by step through the full enterprise sales cycle. Most people think it’s five steps. Jen shows it’s closer to 15. In our in-depth conversation, we discuss: 1. Why the standard five-stage CRM pipeline is a forecasting tool, not a sales process, and what the real 15-step cycle looks like 2. The “pincer model” for landing the first meeting at the executive and N-minus-one level simultaneously 3. How to craft a two-to-three-sentence message around giving them “alpha” 4. How to run an intro call that extracts maximum intelligence before you ever show a demo 5. The two-to-three-day pilot structure, how to define success jointly, and when to charge for a longer pilot versus giving it away 6. Navigating pricing, procurement, redline negotiations, and the final signature without losing momentum — Brought to you by: WorkOS —Make your app enterprise-ready, with SSO, SCIM, RBAC, and more Mercury —Radically different banking, now with Command — Where to find Jen Abel: • X: https://x.com/jjen_abel • LinkedIn: https://www.linkedin.com/in/earlystagesales • Website: https://www.jjellyfish.com — Where to find Lenny: • Newsletter: https://www.lennysnewsletter.com • X: https://twitter.com/lennysan • LinkedIn: https://www.linkedin.com/in/lennyrachitsky/ — In this episode, we cover: (00:00) Introduction (02:49) Why Jen is giving away her enterprise sales playbook (05:54) Example: selling AI legal tech to SpaceX (09:11) Step 1: Landing the meeting (18:44) Step 2: Running the intro call (30:00) Step 3: Running a follow-up call (36:30) Step 4: Prepping the pitch/frame for demo (38:36) Step 5: Running the demo (46:45) Step 6: Post-demo debrief (48:59) Step 7 through 9: Preparing for and running the pilot (01:03:44) Why the standard five-stage CRM pipeline doesn’t work (01:04:49) Step 10: Post-pilot session (01:07:48) What a healthy enterprise win rate looks like (01:11:45) Steps 11 through 14: Navigating procurement and getting the signature (01:18:01) How to think about expansion (01:19:18) How buyers can say no without wasting everyone’s time (01:21:53) Why enterprise sales is a lot like product management (01:22:27) Closing thoughts — Referenced: • State Affairs: https://stateaffairs.com • The ultimate guide to founder-led sales | Jen Abel (co-founder of JJELLYFISH): https://www.lennysnewsletter.com/p/master-founder-led-sales-jen-abel • “Sell the alpha, not the feature”: The enterprise sales playbook for $1M to $10M ARR | Jen Abel: https://www.lennysnewsletter.com/p/the-enterprise-sales-playbook-1m-to-10m-arr • SpaceX: https://www.spacex.com • Lemlist: https://www.lemlist.com • Palantir: https://www.palantir.com • Jason Lemkin on X: https://x.com/jasonlk • We replaced our sales team with 20 AI agents—here’s what happened | Jason Lemkin (SaaStr): https://www.lennysnewsletter.com/p/we-replaced-our-sales-team-with-20-ai-agents • Building a world-class sales org | Jason Lemkin (SaaStr): https://www.lennysnewsletter.com/p/building-a-world-class-sales-org • Careers at State Affairs: https://stateaffairs.com/careers — Production and marketing by https://penname.co/ . For inquiries about sponsoring the podcast, email podcast@lennyrachitsky.com . — Lenny may be an investor in the companies discussed. To hear more, visit www.lennysnewsletter.com",
+      "duration": "5097",
+      "old_score": 46,
+      "old_label": "skip",
+      "qwen": {
+        "id": "ea9ffcb09ca367814ab61cb3",
+        "score": 88,
+        "tier": "listen",
+        "reason": "Deep, actionable enterprise sales framework with high relevance for scaling B2B startups and capital allocation strategy.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "8dd642e1ae6a4f3b6bb592bf",
+      "show_name": "The James Altucher Show",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Seth Godin: The Smallest Viable Audience and the Work That Might Not Work [From the Archive]",
+      "link": "https://art19.com/shows/the-james-altucher-pod/episodes/64e3e426-3501-43cd-9a6c-b67f862f7c45",
+      "published": "2026-08-23T07:00:00+00:00",
+      "summary": "Episode Description: This is a From the Archive episode with Seth Godin. Seth Godin returns to the show for a conversation about making work that matters in a world obsessed with hits, rankings, followers, algorithms, and approval. James opens by talking about Seth’s long body of work: Purple Cow , Linchpin , Graceful , thousands of blog posts, and Seth’s then-new podcast Akimbo . Seth explains why he had thought about podcasting for years but resisted it because audio creates a different kind of intimacy. In print, the voice in the reader’s head is the reader’s own voice. In audio, the voice belongs to the person speaking. That intimacy made podcasting powerful, but also something Seth wanted to handle carefully. From there, James asks about the structure of Akimbo . Seth says the key to a strong solo format is assertion. What are you saying that is not obvious? What are you asking people to see differently? If you cannot make the point in 15 minutes, maybe you cannot make it at all. The conversation then moves into hits. Seth explains that platforms benefit from the long tail, but creators can suffer inside it. Amazon, iTunes, Facebook, Twitter, and other platforms need endless creators to show up with work, but they also train people to believe that if they do not hit number one, they failed. Seth’s alternative is the smallest viable audience. Find the specific group you seek to serve. If it is 500 people, make something so good for those 500 people that they cannot help but tell someone else. That is more useful than chasing a vague mass audience or gaming a category so you can call yourself a bestseller. James and Seth connect this to Purple Cow . The book spread because Seth gave people a phrase they could use in a meeting. A “purple cow” became a way to describe something remarkable before people necessarily knew where the phrase came from. That is a key idea in the episode: every hit changes the people it touches. It does not simply entertain. It gives people a new belief, a new language, or a new way to see. Seth also explains the deeper forces under a lot of culture: fear and status. Fear keeps people from doing work that might not work. Status makes people compare themselves to the wrong people and measure the wrong things. The creator’s job is to notice both, then act generously anyway. The episode closes with the craft itself. Seth says he does not check blog stats, does not read Amazon reviews, and does not shape his work around critics. The question is simpler: Did you change someone for the better in a way you are proud of? If yes, do it again. Editorial Note: This is a From the Archive episode. References to Akimbo as a newer podcast, This Is Marketing as an upcoming book, the altMBA, platform dynamics, bestseller lists, podcasting, and Seth’s then-current projects reflect the original recording period. What You’ll Learn: Why Seth Godin resisted podcasting for years. How audio creates a different kind of intimacy than writing. Why a solo podcast needs a clear assertion. Why Seth focuses on overlooked, underthought, ignored, or uncomfortable ideas. Why platforms benefit from the long tail more than most creators do. Why chasing hits can distort the work. What Seth means by the “smallest viable audience.” Why a hit has to change people, not just entertain them. How Purple Cow spread by giving people useful language. Why trying to avoid criticism often makes work invisible. How fear and status shape culture, creativity, marketing, and self-worth. Why random events should not be taken personally. Why generosity requires emotional labor. What it means to choose your customers and choose your future. Why second-order teaching matters more to Seth than personal credit. Why being “amazing” starts long before the hustle. Why the best work lives in the territory of “this might not work.” Why Seth does not read reviews or track stats. How to protect the craft from outside measurement. Timestamped Chapters: [03:19] Seth G",
+      "duration": "00:52:56",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "8dd642e1ae6a4f3b6bb592bf",
+        "score": 60,
+        "tier": "scan",
+        "reason": "Seth Godin's creative philosophy offers durable frameworks but light on operational or market insight.",
+        "confidence": "low"
+      }
+    }
+  ]
+}

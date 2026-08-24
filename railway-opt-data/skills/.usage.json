@@ -43,12 +43,12 @@
     "created_at": "2026-05-26T21:01:01.030914+00:00",
     "created_by": null,
     "last_patched_at": "2026-08-19T10:25:52.865132+00:00",
-    "last_used_at": "2026-08-22T21:06:10.373484+00:00",
+    "last_used_at": "2026-08-23T21:10:47.266751+00:00",
     "last_viewed_at": "2026-08-19T23:07:28.723492+00:00",
     "patch_count": 55,
     "pinned": false,
     "state": "active",
-    "use_count": 203,
+    "use_count": 205,
     "view_count": 46
   },
   "devops/cron-job-design": {
@@ -173,12 +173,12 @@
     "created_at": "2026-08-10T13:36:56.081737+00:00",
     "created_by": "agent",
     "last_patched_at": "2026-08-19T23:50:48.060738+00:00",
-    "last_used_at": "2026-08-23T07:14:20.153262+00:00",
+    "last_used_at": "2026-08-24T07:12:11.872427+00:00",
     "last_viewed_at": "2026-08-20T14:40:37.385198+00:00",
     "patch_count": 11,
     "pinned": false,
     "state": "active",
-    "use_count": 821,
+    "use_count": 1072,
     "view_count": 11
   },
   "podcast-intelligence-digest": {

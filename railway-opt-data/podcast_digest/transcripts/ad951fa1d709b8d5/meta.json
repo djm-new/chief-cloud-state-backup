@@ -1,0 +1,8 @@
+{
+  "show": "*a16z Podcast*",
+  "episode": "Martin Casado on Where the Value Is Going in AI",
+  "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/0f74143d-54d1-41fc-bb21-edb7d10bf376/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=0f74143d-54d1-41fc-bb21-edb7d10bf376&feed=JGE3yC0V",
+  "model": "base",
+  "max_seconds": 0,
+  "stdout": "{\"language\": \"en\", \"duration\": 2521.1559375, \"segments\": 853}"
+}

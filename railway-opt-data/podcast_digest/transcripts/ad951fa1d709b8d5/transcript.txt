@@ -1,0 +1,853 @@
+[0.0-3.1] I think there's basically two paths that are meaningful to talk about.
+[3.1-6.3] One of them is that the labs went everything, and then the other one is the labs don't
+[6.3-7.3] win everything.
+[7.3-9.8] And you can make very strong arguments on either side of that.
+[9.8-12.1] What would have happened 10 years ago if I gave you a billion dollars?
+[12.1-13.1] What would you do?
+[13.1-14.1] Higher and tonnage.
+[14.1-15.1] Higher and tonage.
+[15.1-16.1] You would blow up.
+[16.1-17.1] It's probably okay.
+[17.1-18.1] Yeah, I know.
+[18.1-19.1] I hope it could be like a total mess.
+[19.1-20.1] Right?
+[20.1-21.1] And so now we actually know what to do with that money.
+[21.1-24.3] The history of humanity and the history of engineering efforts, we've never been able
+[24.3-28.7] to have 20 people, I don't think, being able to productively use two billion dollars.
+[28.7-30.2] Like, what does that even mean?
+[30.2-33.4] Put that much money to work with that small, the team and that small, the timeline.
+[33.4-37.3] You can put capital into these things and tends to turn into usage.
+[37.3-42.1] Let's say you put in $10 to do this, I don't know if you get $9 back on the other side
+[42.1-43.1] of that.
+[43.1-46.8] But what we've never been able to do in the history of this industry is put in $10 and
+[46.8-47.8] get anything back.
+[47.8-51.9] But now it really is $10 and then some amount out pretty directly.
+[51.9-54.9] AI isn't just changing what companies can build.
+[54.9-58.5] It's changing the economics of building companies in the first place.
+[58.5-64.2] Martín Casado joins Theo Jaffe and Sofia Du on MTS to explain why AI has created something
+[64.2-65.6] unusual.
+[65.6-69.6] Small teams that can productively put enormous amounts of capital to work and turn that
+[69.6-75.1] capital into capability, usage, and growth faster than we've seen in previous technology
+[75.1-76.1] cycles.
+[76.1-81.2] They debate whether frontier labs ultimately eat the rest of the AI stack, where open source
+[81.2-86.5] and applications fit in, and what model routing tells us about how the market could evolve.
+[86.5-91.1] Martín also explains why he's less interested in today's margins and modes than identifying
+[91.1-96.0] the strategic control points of a new technology stack, and what he calls the biggest wealth
+[96.0-100.9] unlock he's seen in his career.
+[100.9-103.3] Hello everyone and welcome to MTS.
+[103.3-108.0] Today, we are joined by Martín Casado, who's a general partner at Andreessen Horowitz,
+[108.0-110.2] and leads the firm's infrastructure practice.
+[110.2-115.6] In the last week, SpaceX closed its 60 billion acquisition of Cursor and Stripe agreed
+[115.6-119.7] to acquire OpenRouter, two major A16Z backed companies.
+[119.7-123.4] So today, we'll talk about what those deals tell us about where value is actually accruing
+[123.4-124.4] in the age of AI.
+[124.4-126.4] Martín, welcome to MTS.
+[126.4-127.4] Super happy to be here.
+[127.4-128.4] Thanks for having me.
+[128.4-129.8] We're super excited to have you.
+[129.8-130.8] Yeah, it's been...
+[130.8-131.8] What an incredible week.
+[131.8-132.8] Right.
+[132.8-134.8] One of the weeks of all time.
+[134.8-135.8] It's been pretty well.
+[135.8-139.9] Well, yeah, ten years in the making, but it all happened in a couple of days, yeah.
+[139.9-143.7] Yeah, so I guess we could start with a little backstory.
+[143.7-149.2] You got a master's in PhD in computer science and founded Nasira when you were 30-ish.
+[149.2-150.2] 30-ish, yeah.
+[150.2-151.2] 30-ish, yeah.
+[151.2-152.2] Yeah, who's counting?
+[152.2-153.2] Yeah, but 30-ish, yeah.
+[153.2-156.5] But these days, a lot of top founders, including the founders of Cursor, will drop
+[156.5-159.1] out of college at like 20 in order to start companies.
+[159.1-162.1] So which path do you think is better?
+[162.1-169.2] You know, listen, I actually took time off between undergrad and grad school, and I worked
+[169.2-170.9] for a national lab.
+[170.9-174.9] I actually think it's probably a good idea to get on the ground experience so that it's
+[174.9-175.9] not entirely academic.
+[175.9-181.4] I mean, the one caveat I will say is a lot of the AI stuff is pretty deep research.
+[181.4-186.2] I do think like, you know, in one hand, you have this whole kind of outcry against
+[186.2-188.8] higher education, and it's kind of very invoked not to do it.
+[188.8-191.8] On the other hand, it's kind of never been more relevant, too.
+[191.8-196.4] And so I think we're in a bit of a schizophrenic period, which suggests to me, you should do exactly
+[196.4-197.9] what you're feeling is right for you.
+[197.9-199.9] I think both paths are totally legitimate.
+[199.9-200.9] Yeah.
+[200.9-204.3] I mean, there's like a spectrum of neolabs where on the one hand, you have like flapping
+[204.3-207.4] airplanes where the co-founders are like 22 years old.
+[207.4-208.4] Yeah.
+[208.4-212.1] And then on the other hand, you have Jeff Dean and Oriole Vignolz's new lab, which I'm
+[212.1-216.2] forgetting the name, it's slipping my mind, but obviously these are like incredibly senior
+[216.2-218.1] people with like decades of experience.
+[218.1-221.8] So like, how much does decades of experience matter in your life?
+[221.8-226.3] Well, so one thing that we forget is like, the PhD used to be the rarity for founders,
+[226.3-227.3] right?
+[227.3-230.4] And like, you would start a company if you dropped out of PhD or you dropped out of grad
+[230.4-233.4] school, like very famously Sergei and Larry.
+[233.4-238.9] This is the case for, and we always say like, you're kind of failing if you got the PhD,
+[238.9-241.4] because clearly you didn't have a good enough idea to do it.
+[241.4-244.0] We're actually seeing a lot of really good PhD founders now, right?
+[244.0-245.2] Like, all he goes is he has a PhD.
+[245.2-248.8] We did research when I was in, you know, when I was in, when I was in grad school, George
+[248.8-251.6] Frazier, CO5 Tran also has a PhD.
+[251.6-255.2] So I would say we're going to see more PhD founders now than ever before in the history
+[255.2-256.2] of the industry.
+[256.3-259.9] We've always had the young tech founder right, Mark Zuckerberg.
+[259.9-264.7] And so I would actually think that even the optics on X feels like it's going towards
+[264.7-268.4] like the younger, less experienced founder, I would say weighted.
+[268.4-270.8] It's actually probably the trend is more in that direction.
+[270.8-275.2] It seems like the main thing right now that matters is how much you can raise, because
+[275.2-278.5] you're not bottlenecked anymore on who could build the best software right now.
+[278.5-282.6] The big competition is who can raise the most money are typically the types of companies
+[282.6-283.6] who can compete the most.
+[283.6-288.6] So are you seeing that for the companies who are able to raise the most, they are the
+[288.6-289.6] most competitive?
+[289.6-298.6] I mean, I think that when it's all said and done, when we look back on this, you know,
+[298.6-301.7] this wave, I think the biggest change is the fact that you can actually put a lot of
+[301.7-302.7] money to get used.
+[302.7-305.5] Like, you never be able to, like, so what would it happen 10 years ago if I gave you a
+[305.5-306.5] billion dollars?
+[306.5-307.5] What would you do?
+[307.5-308.5] Higher and tonnage.
+[308.5-309.5] Higher engineers.
+[309.5-311.5] They would blow up.
+[311.5-313.8] I don't think it would be like a total mess, right?
+[313.8-315.4] And so now we actually know what to do with that money.
+[315.4-318.6] So I do think that now it's become a scale of capital need.
+[318.6-321.9] I think the companies that do raise a lot of money, they don't necessarily blow up,
+[321.9-322.9] you know, how to use it.
+[322.9-325.9] And I think that that actually is changing a lot of what's happening on the ground for
+[325.9-326.9] us.
+[326.9-331.9] So the typical path before is, if you get too much money too early, it could be an issue,
+[331.9-333.5] but you're not seeing that anymore being the case.
+[333.5-338.1] Well, yeah, so there's kind of a lot of like engineering physics, right?
+[338.1-342.6] Or you raise a bunch of money and then you try and hire a bunch of people to build a
+[342.6-343.6] product.
+[343.6-347.2] And this is where the mythical math came from.
+[347.2-350.5] And you just can't really speed up timelines that way, but then you end up like increasing
+[350.5-353.8] burn and adding a lot of complexity and like the roadmap gets very diluted and then you
+[353.8-359.1] have all like the organizational complexity that happens as a result.
+[359.1-362.6] And so I mean, this is some of these major model efforts were done with very, very small
+[362.6-363.6] teams.
+[363.6-367.6] Like, you know, I'm not going to say the exact model, but one of the very famous models,
+[367.6-370.9] you know, multi model model that many people use is probably one of the most popular
+[370.9-373.8] models was built with a team of about 20 people.
+[373.8-377.5] And I would say the cost of that was probably $2 billion plus, right?
+[377.5-381.3] And so this is on her in the history of humanity in the history of engineering efforts.
+[381.3-383.3] We've never been able to have 20 people.
+[383.3-388.0] I don't think being able to predict, productively use $2 billion, like what does that even
+[388.0-389.0] mean?
+[389.0-391.7] But that much money to work with that small team and that small of a timeline.
+[391.7-397.5] And so I know we like to look at this wave in the context of like technical sophistication
+[397.5-402.9] and, you know, new capabilities, but I actually think like one of the major stories is the
+[402.9-407.8] fact that we're able to apply large amounts of money productively in short amount of times
+[407.8-411.0] to whatever problem that we're trying to solve.
+[411.0-415.4] Would you say that this age and venture is just completely different from any age before
+[415.4-416.4] it?
+[416.4-417.4] Totally, totally.
+[417.4-422.7] I mean, it's just, you know, again, there's always been this weird meme and venture, which
+[423.7-426.0] is it's kind of not much of an asset class.
+[426.0-429.7] There's only a few companies you can't deploy a lot of money in it, which has often been
+[429.7-434.0] very weird to me to have like this zero sum thinking from people whose entire job shouldn't
+[434.0-436.1] be zero sum thinking, right?
+[436.1-440.3] And one thing that we're learning is you actually can take large amounts of capital in private
+[440.3-442.2] markets at a point and get the returns.
+[442.2-443.7] And, you know, you can just give two examples.
+[443.7-447.4] One of them is like companies are staying private longer and occurring a lot of value that
+[447.4-448.4] way.
+[448.4-449.4] So that's one.
+[449.4-451.6] And then the second one is like, you know, these models consume a lot of money and they
+[451.6-453.0] turn that money into growth.
+[453.0-458.2] And so this kind of almost archaic view that like, you know, venture has to be limited
+[458.2-464.3] in capital, you know, we're overfunding it, you know, absolutely is not the case now.
+[464.3-469.1] And listen, there's two, there's two, I think there's two conclusions you can kind of
+[469.1-470.1] draw from that.
+[470.1-473.9] One of that is, well, there's a new technology wave that can consume more capital, like
+[473.9-475.8] AI can consume more capital.
+[475.8-477.7] And so it's a result of technology wave.
+[477.7-482.4] I happen to think causality goes the other way, which is if you put more money privately
+[482.4-488.3] into the private markets, it actually grows the tam and companies don't need to go public
+[488.3-491.7] as quickly and companies can do more privately.
+[491.7-496.6] So I actually think that the causality is the more money goes to private markets, the larger
+[496.6-501.1] the markets are going to grow and then the more returns go in the private markets.
+[501.1-504.6] But just interestingly, we're seeing both things happen at once.
+[504.6-509.3] So when did A16Z realize for the first time like, wow, this AI thing is going to be a really
+[509.3-510.3] big deal.
+[510.3-515.0] We're going to need to spend like enormous amounts of money investing in infrastructure and
+[515.0-516.0] and other things.
+[516.0-519.8] Well, when did we first, I mean, listen, I think that we're the most kind of, one of the
+[519.8-523.4] most tech for venture funds and we just kind of assume everything is going to work
+[523.4-525.3] in the long run.
+[525.3-530.2] And so I remember when, you know, when opening I was still an experiment and we had very legitimate
+[530.2-534.1] conversations about should be going all in on AI then and this was like seven years
+[534.1-537.0] before, like say GPT, like actually was pretty significant.
+[537.0-541.5] And so, you know, we've always been investing in AI, we've invested in multiple waves of AI
+[541.5-549.1] like when I joined the firm in say 2016, that was kind of like the drone AV wave of AI.
+[549.1-552.7] For this generative wave, I think we're one of the earliest that we're very active in it.
+[552.7-556.0] Like we did a lot of the early foundation model companies where we're in 11 labs, we're
+[556.0-557.0] in open AI.
+[557.0-560.0] Of course, we're in cursor, we're an ITogram, we're in BFL, we're in Mistral.
+[560.0-562.1] So we did a lot of very, very active deployment.
+[562.1-567.2] So I will say like the intent to deploy was even before that.
+[567.2-572.7] Now again, I would say that like our conviction on technology waves tends to actually proceed
+[572.7-578.5] quite a bit the like on the ground gains, which can like it sometimes work and sometimes
+[578.5-579.5] not work.
+[579.5-581.8] But in this, in this case, it was actually quite patient.
+[581.8-582.8] Yeah.
+[582.8-586.1] It's interesting because the old view was very zero sound.
+[586.1-590.5] It's what's the point of investing in another model when open AI is pretty good.
+[590.5-595.5] It's not if it's defensible, the quality of revenue is by the way, every single way.
+[595.5-602.5] So this is why I know the difference between like a finance kind of, you know, based investor
+[602.5-605.6] that should be in the growth market and in the early stage investor.
+[605.6-610.8] So like if you if you if you think primarily in the balance sheet and finance, you worry
+[610.8-617.8] about things like margins, churn, you know, revenue quality, which are all very legitimate
+[617.8-622.9] things to worry about if you see no strategic value in the business, right?
+[622.9-627.7] So if you think like the entire business, forget the tech for forget the strategic value,
+[627.7-629.8] forget the ability for somebody else to monetize it.
+[629.8-633.4] I'm just only going to look at the balance sheet, which many, many people do and make that
+[633.4-634.4] mistake.
+[634.4-636.6] Then sure, look at, you know, if you look at that, it's going to, you know, you'll have
+[636.6-641.5] like difference of opinions, but that's entirely divorced to the strategic value of a company.
+[641.5-646.8] Like some value, some companies may lose money, but they'll get to a position where they
+[646.8-650.1] can command a tremendous transfer of value.
+[650.1-653.9] And if you don't look at it that way, I just don't think you can be an early stage investor.
+[653.9-658.6] You have to look under the lens of this is a very important part of the new stack.
+[658.6-661.1] It's an then very important control point.
+[661.1-664.6] And either somebody will want to own that because of crew value or it itself will be able
+[664.6-669.5] to attract a crew value, even if right now when you look at it, the financials don't
+[669.5-672.4] look like whatever, something that would trade highly on a public market.
+[672.4-673.4] Yeah.
+[673.4-676.5] So relatedly, there is an argument that some people make where it's like the labs are
+[676.5-677.5] just going to eat everything.
+[677.5-679.0] They're going to have the smartest models.
+[679.0-682.9] They're going to take over every vertical, open AI and Anthropic are doing biotech now.
+[682.9-684.1] They're going to eat Eli Lilly.
+[684.1-685.7] They're going to eat all the pharma companies.
+[685.7-687.5] Obviously, A16Z doesn't believe in this.
+[687.5-689.7] Well, I don't know if we don't believe in that.
+[689.7-695.1] I mean, I don't, listen, we actually had an offsite recently.
+[695.1-698.9] And one of the big discussions points in like, what is the future of models?
+[698.9-701.9] And I think there's basically two paths that are meaningful to talk about.
+[701.9-705.0] One of them is that the labs went everything and then the other one is the labs don't
+[705.0-706.0] win everything.
+[706.0-708.4] And you can make very strong arguments on either side of that.
+[708.4-711.2] So if you want to very happy to detail the arguments on either side, let me give you
+[711.2-712.2] the argument for us.
+[712.2-714.8] So why will the models win everything?
+[714.8-722.1] Well, the first one is we've got three years of data and they own 95% of the market.
+[722.1-723.1] You just look at the data.
+[723.1-726.3] You're like, well, okay, so they're doing, you know, tremendously well.
+[726.3-729.4] They have the majority certainly dollar weighted of revenue.
+[729.4-732.4] The second one is that their ability to raise capital is just unbelievable.
+[732.4-734.8] And then they can turn that capital pretty directly into growth, which we've
+[734.8-735.8] very rarely seen.
+[735.8-743.1] So let's say opening and Thrapa Kevres $240 billion, $220 billion, that's more than the
+[743.1-746.9] entire downstream ecosystem combined, which is really unbelievable.
+[746.9-750.0] There's another argument and that argument is like, listen, they've been able to maintain
+[750.0-753.1] pricing power just by being an epsilon higher.
+[753.1-757.8] So like they began the frontier's expensive, but also began the frontier can command a
+[757.8-760.5] tremendous amount of pricing power.
+[760.5-763.8] And so it's not like, it's not like you have to be like way better, you can just be a little
+[763.8-768.5] bit better because these get used in competitive equilibria.
+[768.5-770.4] We're starting to see auto catalytic effects.
+[770.4-772.2] What does it mean by auto catalytic effects?
+[772.2-775.9] Like if, you know, you have sophisticated enough AI, you can use that AI to create more
+[775.9-779.0] AI and that improves your unit economics.
+[779.0-782.6] I also think if you talk to a lot of like the people deep in these labs that are working
+[782.6-787.2] on these, they think they're actually getting further away from open source than not.
+[787.2-791.5] And the benchmarks don't reflect that because benchmarking an AI is kind of an AI complete
+[791.5-792.5] problem.
+[792.5-795.4] Like you just kind of have to use it to do the thing to know how good it is.
+[795.4-798.5] So there's a lot of data that would suggest this and they have the cap, they have the
+[798.5-803.1] capital, they have the, you know, the teams and the talent.
+[803.1-806.5] They have the best models, you know, they're going to run away with it.
+[806.5-807.5] Yeah.
+[807.5-809.5] So catalytic effects, do you mean like recursive self-improvement?
+[809.5-813.7] Well, so yeah, this is where I'm just like an annoying peedent.
+[813.7-817.5] So to me, recursive means something like I'm a, you know, it's my PhDs in computer
+[817.5-818.5] science.
+[818.5-819.5] I've done programming lame.
+[819.5-823.0] Because when you take something and you make another copy of that thing wholesale, like
+[823.0-826.1] if I have a compiler, could a compiler, that would be recursive.
+[826.1-831.5] Where auto catalytic is is use the thing to like, you know, help you make that thing faster
+[831.5-832.6] as a tool.
+[832.6-838.0] Like if I use a computer to design a chip because I'm using like whatever, like some chip
+[838.0-840.4] design software, would you call that recursive self-improvement?
+[840.4-841.4] I would say no.
+[841.4-843.4] I mean, nobody's used that word before and we've always-
+[843.4-844.4] Not in the literal sense.
+[844.4-847.0] No, I mean, not in any sense, because we've never used that word.
+[847.0-851.2] Like let's say we all use software to build software and we never, we don't call it
+[851.2-852.2] RSI.
+[852.2-853.2] And we never have.
+[853.2-857.8] And so I feel like what we're seeing today is much more auto catalytic effects, which
+[857.8-859.1] we've had forever.
+[859.1-862.0] But for whatever reason, I think this is a legacy of boastroom.
+[862.0-864.6] We call it RSI recursive self-improvement.
+[864.6-868.4] That said, there's definitely focus on recursive self-improvement and that's great.
+[868.4-874.3] But it's a subset of the broader phenomenon, which is very important for all of us to understand
+[874.3-876.0] which is auto catalytic effects.
+[876.0-882.8] But just give me an example, if I use AI to create a really good GPU kernel that's faster
+[882.8-887.0] than the human being can do and that improves my ability to like run or build AI, I would
+[887.0-890.0] say that's auto catalytic.
+[890.0-893.9] I would think that's very important for us on the economics, the convergence properties
+[893.9-896.5] of the industry, but it's not RSI.
+[896.5-900.5] So what about the arguments against, then, that the labs will not own everything?
+[900.5-903.3] Oh, another one for it, by the way, is they own all the supply.
+[903.3-904.3] Yeah.
+[904.3-905.3] In the supply limit.
+[905.3-906.3] Okay.
+[906.3-912.7] So the arguments against, the arguments against is the surface area is really expanding and
+[912.7-919.2] I mean, really what's working are primarily code and language reasoning.
+[919.2-924.0] And so there's a bunch more domains where actually probably you need a service's arm, probably
+[924.0-928.4] you need kind of more connection with the customers, and this would be very hard for a single
+[928.4-930.2] organization to do.
+[930.2-934.7] Second one is, there is a wealth of open source models that you're doing very well and we've
+[934.7-937.0] seen some recent examples of that.
+[937.0-940.6] And there's a maturing ecosystem around them to serve those.
+[940.6-945.9] I think a lot of the reason the labs are so far ahead is they have very cheap access
+[945.9-948.2] to capital, which will almost certainly rationalize.
+[948.2-950.9] Like, listen, if I give you free money and I say you're worth like whatever trillions
+[950.9-954.4] of dollars, like, of course, you can use that to grow but at some point in time, I may
+[954.4-959.1] be like, you know, like you're probably worth, you know, something different because
+[959.1-963.6] we've rationalized like the company and then it'll be harder for you to grow.
+[963.6-967.1] I think that right now they're taking advantage of the supply constraints because they can
+[967.1-971.1] actually buy, you know, GPUs and bulk when you have more supply, they won't be able
+[971.1-972.1] to do that.
+[972.1-978.6] So I think actually the landscape right now is very much in favor of the large labs, primarily
+[978.6-981.3] from funding and supply.
+[981.3-986.3] And once those rationalize, you know, the growing surface area is likely to fragment which
+[986.3-990.4] almost always happens in the history of this industry for sure.
+[990.4-993.0] And I think that will play in favor of everybody else.
+[993.0-999.6] If I were to guess, this is Martin totally guessing, no idea, if I were to guess, I'd say supply
+[999.6-1003.6] constraints will ease in 20, 28 ish.
+[1003.6-1009.3] I think that the club, the big labs will probably dollar weighted, get 80% of the market
+[1009.3-1012.7] going forward because that's historically what we've seen for large incumbents, but I
+[1012.7-1016.8] think token weighted 60% will be long tail and open source.
+[1016.8-1019.0] And one more thing about all of this, I'm sorry to kind of rant on it.
+[1019.0-1020.6] I just think it's such an important point.
+[1020.6-1023.4] Forcing increasing value, go to the actual apps.
+[1023.4-1026.4] The apps are doing incredibly well, and so I think they will start to actually erode
+[1026.4-1028.6] on some of that margin share.
+[1028.6-1034.1] And you don't view them as like necessarily competitive with the labs.
+[1034.1-1037.2] But I do think that we're going to capture more and more of the value going forward.
+[1037.2-1038.2] Yeah.
+[1038.2-1039.2] But it'll be a couple of years.
+[1039.2-1043.5] I mean, open router is a good example of what the future might actually predict on how
+[1043.5-1046.2] we'll be using these models long term.
+[1046.2-1047.2] Yeah.
+[1047.2-1050.4] So, so open router is an open router is many thing.
+[1050.4-1051.4] I mean, it's an API router.
+[1051.4-1057.3] But one thing you can think of it as is, you know, maybe you have your anthropic key,
+[1057.3-1062.3] maybe you have your open AI key, maybe you have your GROC key, but for all the other models
+[1062.3-1063.3] you use open router.
+[1063.3-1064.3] Right.
+[1064.3-1066.8] And it's like it's basically a two-sided marketplace to give you access to a bunch
+[1066.8-1068.2] of models.
+[1068.2-1071.6] It's a single place for visibility, it's a single place for analytics, it's a single
+[1071.6-1075.1] place for access to these models, it's on the token path.
+[1075.1-1078.6] It is the leader and kind of a brand monopoly in the space.
+[1078.6-1083.4] From a brand standpoint, it's a very well-known brand in the space.
+[1083.4-1087.4] And you know, I think with all of these phenomenons where you have a couple of incumbents, somebody
+[1087.4-1092.4] has to aggregate kind of the longer tail marketplace, which I think will impact the dynamics
+[1092.4-1094.8] of the model market going forward for sure.
+[1094.8-1098.0] But are you seeing smart routing just growing in popularity?
+[1098.0-1101.7] And so maybe the future of applications is you don't even know what model is actually
+[1101.7-1104.0] being used.
+[1104.0-1105.0] You know, it's a good question.
+[1105.0-1107.0] I go back and forth on this.
+[1107.0-1109.7] We've actually learned that these models are a lot stickier than people assumed.
+[1109.7-1113.1] Everybody talks about just swapping them out, but it actually doesn't happen very often.
+[1113.1-1116.5] And I think a lot of this could be actually procurement dynamics, like I bought a bunch
+[1116.5-1120.2] of credits from open AI, like why would I swap them out?
+[1120.2-1123.0] So you can think about smart routing in one of two contexts.
+[1123.0-1128.6] One of them, you can be like, almost from a quality standpoint, you'll answer the question
+[1128.6-1129.6] better on the right router.
+[1129.6-1133.2] I think it's a very, very hard problem, then maybe an AI-complete problem.
+[1133.2-1138.1] Right now, I think, you know, that doesn't happen very often.
+[1138.1-1141.3] You can think about it in a second way, which is basically cost performance, which is
+[1141.3-1144.9] like, I will minimize the cost.
+[1144.9-1148.4] And because tokens are so expensive, that's actually kind of a high priority for many.
+[1148.4-1149.4] And that we're seeing great results, right?
+[1149.4-1153.5] If you see like, for example, cursor router does a great job open router does a great
+[1153.5-1154.5] job.
+[1154.5-1158.2] And so I would encourage, you know, if you think about smart routing, I think it in the
+[1158.2-1165.3] context of, you know, how do I, for the given task, choose the right model on the Pareto
+[1165.3-1169.5] frontier relative to cost as opposed to like, I'm somehow going to choose the right model
+[1169.5-1172.2] that's going to answer the question in the right way.
+[1172.2-1176.2] Yeah, it does seem like model routing is like a very difficult technical problem.
+[1176.2-1177.2] I think it's an AI-complete.
+[1177.2-1178.2] Yeah.
+[1178.2-1179.2] By AI-complete.
+[1179.2-1183.6] Okay, so let's imagine you're answering the, trying to answer the question, what question
+[1183.6-1186.9] does the smartest thing in the universe need to answer?
+[1186.9-1190.0] I think you need the smartest thing in the universe to answer that question.
+[1190.0-1194.1] You see, I was like, yeah, the only thing that can answer that question is actually like
+[1194.1-1199.2] the smallest, you know, sorry, the smartest model, then in which case you just give it
+[1199.2-1200.2] to the smartest.
+[1200.2-1202.8] So it just becomes a cost optimization type of question?
+[1202.8-1203.8] Well, it's okay.
+[1203.8-1204.8] So there's many opinions.
+[1204.8-1206.1] So I don't think we know the answer to this.
+[1206.1-1210.3] Like, clearly, and you hear this often, clearly the frontier models are getting very
+[1210.3-1214.8] jagged, meaning, and this isn't, this isn't like a core technical capability.
+[1214.8-1219.4] It's like the decisions of the people that created it decided to make it very good and
+[1219.4-1222.8] say front end or very good in 3D or very good in language.
+[1222.8-1223.8] And so what about it?
+[1223.8-1226.3] It's not like this one's smarter than this one.
+[1226.3-1229.6] It's like this one's very good at this type of thing versus, you know, very good at this
+[1229.6-1230.6] type of thing.
+[1230.6-1231.6] That for sure.
+[1231.6-1234.4] I think we have a lot of specialist models, a lot of fun, you know, and then a model
+[1234.4-1238.3] router will just decide this is better in code, this better in language, this is better
+[1238.3-1239.9] in front end, this is, you know, whatever.
+[1239.9-1243.5] It's like that will happen, but I think today, if you look at like model routing and the
+[1243.5-1250.8] gains, you know, as deployed by the application companies, you know, I mentioned cursor, but
+[1250.8-1252.9] you know, we've got a huge portfolio of application companies.
+[1252.9-1259.6] I think the primary gains are actually tend to be keeping the quality bar high while decreasing
+[1259.6-1261.3] the cost.
+[1261.3-1266.3] So what, like, to what extent is like the value of open router that it will eventually
+[1266.3-1271.4] be able to do this kind of like a complete model routing?
+[1271.4-1275.6] Listen, I think that you need a two-sided marketplace.
+[1275.6-1280.2] And in many ways, you can view one of the products of open routers, the demand, right?
+[1280.2-1284.4] So I can go to the next model provider and say, hey, listen, we've got, you know, millions
+[1284.4-1286.8] of users all the time when we can bring that to you.
+[1286.8-1288.0] And this is a very common thing.
+[1288.0-1290.6] And then you can go to all the developers and say, hey, listen, you know, the next time
+[1290.6-1295.6] a model comes out, you know, it'll be on here and you'll have access to it and your existing
+[1295.6-1296.6] system and so forth.
+[1297.1-1303.2] And so I think there's a tremendous amount of value in the two-sided marketplace independent
+[1303.2-1304.2] of all of that.
+[1304.2-1308.1] That said, clearly over time, there's going to be more and more ability to do this sort
+[1308.1-1309.6] of arbitrage.
+[1309.6-1313.9] I think for whatever reason, we tend to kind of over rotate on that now.
+[1313.9-1317.9] And it's a hard question to answer just because we don't even know how to benchmark these
+[1317.9-1319.7] models to begin with.
+[1319.7-1321.0] The pricing is dynamic.
+[1321.0-1325.8] It's often subsidized and, you know, and then honestly, like the next big model comes
+[1325.8-1328.3] out and it tends to be Pareto efficient and everything anyways.
+[1328.3-1332.0] And so like then you only would route to like one model like Opus 4.5 anyway.
+[1332.0-1339.5] So I think right now that like the actual routing piece is, you know, the gains are uncertain.
+[1339.5-1344.3] And yet this is a very, very popular, very successful, you know, internet property and
+[1344.3-1345.3] brand.
+[1345.3-1347.1] And I think it's more of the two-sided marketplace.
+[1347.1-1348.1] Yeah.
+[1348.1-1349.1] The cost are subsidized.
+[1349.1-1350.1] When will that stop?
+[1350.1-1352.1] I mean, right now these guys get free money out.
+[1352.1-1353.1] Use it too, right?
+[1353.1-1356.7] Like, you know, if I could raise, you know, three times more money than the entire down
+[1356.7-1360.3] stream ecosystem combined, I mean, you know, like this is a very classic thing.
+[1360.3-1362.8] And of course, you'd subsidize in order to get kind of single users.
+[1362.8-1366.5] And by the way, all the margin tends to be made in the enterprise anyways, right?
+[1366.5-1367.5] For this business.
+[1367.5-1368.5] So why wouldn't you do that?
+[1368.5-1373.5] By the way, this is, but having run businesses, marketing is hard, man.
+[1373.5-1375.4] Like, you know, like, it's really hard.
+[1375.4-1380.2] Field marketing, content marketing, you never know if I put a dollar in what it's going to
+[1380.2-1381.2] get me.
+[1381.3-1383.4] Events like it may be get leads with those leads.
+[1383.4-1384.4] Qualified.
+[1384.4-1385.4] I have no idea.
+[1385.4-1386.4] I'm going to do this content.
+[1386.4-1391.7] Like, it's got this atmospheric value, but like it's very, it's always been hard to
+[1391.7-1395.3] like spend a marketing dollar and be like, this is going to be this many sales qualified
+[1395.3-1398.0] leads, except for very mature organizations.
+[1398.0-1403.4] A remarkable thing about AI is you can spend a dollar and get users because like there's
+[1403.4-1405.0] unlimited demands for tokens.
+[1405.0-1408.3] And so in many ways, it's kind of disrupting the entire marketing.
+[1408.3-1409.3] And so this is what we're seeing.
+[1409.3-1413.5] Like, if I'm a company and I want to attract users for the top of funnel, why wouldn't
+[1413.5-1414.5] I subsidize?
+[1414.5-1418.7] Yeah, I mean, like if you use a decent amount of tokens on your $200 a month, opening
+[1418.7-1422.9] iron, throbbing plan, like they're losing a decent amount of money off of that.
+[1422.9-1428.5] Uh, well, okay, so again, these things are, um, these things are a little complicated.
+[1428.5-1432.1] I mean, the only thing they want to because this is a knob, right?
+[1432.1-1436.9] And so, and it tends to be you only lose money on like the top 5% users, and there's always
+[1436.9-1439.6] this whackable with this type of top 5% users, right?
+[1439.6-1443.3] Like that's why you see things like you can't have multiple, you know, like a single person
+[1443.3-1447.3] can't have multiple accounts, you know, so they keep changing those turns to like keep
+[1447.3-1448.7] the 5% of their control.
+[1448.7-1449.7] Those are the loudest ones.
+[1449.7-1453.8] But the rest of them, you know, like it tends to be you're not losing that much money.
+[1453.8-1456.5] But in aggregate, and they start from board level discussions, and I'm involved in you're
+[1456.5-1458.7] like, okay, listen, we've got this free tier.
+[1458.7-1459.7] There's a knob.
+[1459.7-1464.1] Do we want to, to use the knob to grow top of funnel and to grow use?
+[1464.1-1467.3] And that way, we'll go to negative margins, or we do, and use the knob to like kind of
+[1467.3-1470.1] go more towards margin gain.
+[1470.1-1475.5] And it's actually like this stuff is, the demand is so strong that, you know, it's the,
+[1475.5-1478.5] it's kind of a very simple business decision we're in the past.
+[1478.5-1481.7] You literally don't know how to like, apply money to marketing.
+[1481.7-1482.7] You just haven't.
+[1482.7-1483.7] Yeah.
+[1483.7-1485.1] By the way, I have some very interesting things.
+[1485.1-1493.8] So for example, um, there are these very sophisticated, um, uh, operations out of
+[1493.9-1498.2] China that will use the single service tiers and arbitrage them.
+[1498.2-1503.8] The way they do it is like, so they will sign up to like a $200 plan, they'll use all
+[1503.8-1508.2] the tokens in like three days, and then they'll cancel and they'll get pro rated for the,
+[1508.2-1512.9] the 27 days, even though they used all the tokens, and then they'll use that to basically
+[1512.9-1516.8] provide people with like a service where they're arbitrashing these.
+[1516.8-1520.9] And so like the market around like laundering these, these plans is actually very, very
+[1520.9-1521.9] sophisticated.
+[1521.9-1525.3] We're seeing like a lot of catniles between the big labs, like the new router is just
+[1525.3-1528.1] arbitrage between these subscription laws.
+[1528.1-1529.1] No, seriously.
+[1529.1-1530.1] And that's what they do.
+[1530.1-1531.1] They'll sign up.
+[1531.1-1532.1] They'll drain it all.
+[1532.1-1533.1] Then they'll cancel it.
+[1533.1-1535.9] They'll, they'll recoup the cost and then they kind of use that to offer like a $20
+[1535.9-1536.9] service, right?
+[1536.9-1537.9] Yeah.
+[1537.9-1542.1] To, to, to somebody for basically kind of full, you know, opus tokens or whatever.
+[1542.1-1543.1] There.
+[1543.1-1546.5] So one of the things you're arguing is that more capital is almost directly correlated
+[1546.5-1552.9] to more capability capability again, and I don't, I don't mean to panic.
+[1552.9-1558.8] More capital because the demand is so high, you can put capital into these things and you
+[1558.8-1563.0] can that, that, that tends to turn into usage.
+[1563.0-1567.8] It also seems to tend to, to turn into capability in some direction like if I, if I'm training
+[1567.8-1571.8] a model and I want it to be good at X, I can create an RL environment of X or I can go
+[1571.8-1578.1] pay someone to like answer questions for X and I can turn capital into being good at
+[1578.1-1579.4] that X.
+[1579.4-1582.3] So the problem is is you don't know what gets worse.
+[1582.3-1585.3] So like I think we're kind of at this point where you are starting to see like more
+[1585.3-1588.4] jacket-ness and you are starting to see more trade-offs.
+[1588.4-1591.8] And what I don't know is like, let's say you put a dollar and you get, like, let's say
+[1591.8-1597.1] you put in $10 to do this, I don't know if you get $9 back on the other side of that.
+[1597.1-1601.1] But what we've never been able to do in the history of this industry is put in $10 and
+[1601.1-1602.1] get anything back.
+[1602.1-1603.1] Yeah.
+[1603.1-1607.3] It was literally put in $10, engineer, engineer, engineer, wait two years, probably
+[1607.3-1611.6] scroll stuff up, it'll probably fail, but maybe on the other side you'll have a product
+[1611.6-1612.6] that you can monetize.
+[1612.6-1616.1] But now it really is $10 and then sum amount out pretty directly.
+[1616.1-1617.1] Yeah.
+[1617.1-1618.1] Yeah.
+[1618.1-1619.1] Incredible.
+[1619.1-1622.6] It's like the new CMO is turning into a CFO now because it's got to be that way.
+[1622.6-1623.6] It's got to be that way.
+[1623.6-1624.6] Yeah.
+[1624.6-1629.1] I mean, really like many of the things that required a lot more art like engineering and marketing.
+[1629.1-1630.1] These are the two.
+[1630.1-1633.7] I think, you know, again, I just, I worked so close to these companies that it used
+[1633.7-1636.9] to be, there are these long discussions about the art of marketing and what, like, do
+[1636.9-1637.9] you do paid?
+[1637.9-1638.9] Do you do content?
+[1638.9-1639.9] Do you do events?
+[1639.9-1640.9] Do you do social?
+[1640.9-1641.9] Like, how do you do this?
+[1641.9-1643.4] And now it's literally like, should we subsidize more or less?
+[1643.4-1644.4] So you're right.
+[1644.4-1645.4] It's becoming finance.
+[1645.4-1646.7] Engineering is the same type of way.
+[1646.7-1650.2] Like, it used to be like, okay, like, I mean, it's such a complex thing and we spend so
+[1650.2-1651.2] much time in the engineering.
+[1651.2-1655.9] Now, a lot of it reduces down to like, can we raise the capital for the GPUs to do it with
+[1655.9-1656.9] one, yes or no?
+[1656.9-1657.9] Wow.
+[1657.9-1662.4] So every new role just be the role of a CFO and a trench coat.
+[1662.4-1671.4] I don't think so, but the relationship between money and innovation and growth and demand has
+[1671.4-1672.4] never been closer.
+[1672.4-1675.9] And by the way, I really think that is the, like, the big thing that's going on here in
+[1675.9-1676.9] the industry.
+[1676.9-1677.9] Yeah.
+[1677.9-1678.9] So we talked about Open Router.
+[1678.9-1683.9] The other big acquisition of the week was Cursor, which was, I believe, getting this
+[1683.9-1691.0] right, the biggest acquisition of a venture back start-up ever, I think so outside of Elon's
+[1691.0-1692.6] kind of self-dealing with X.
+[1692.6-1693.6] Right.
+[1693.6-1694.6] But yeah, but yeah.
+[1694.6-1697.5] So for like an independent thing, I think it's the largest private M&A ever.
+[1697.5-1698.5] Yeah.
+[1698.5-1701.6] So where does the bulk of the value of Cursor 2 SpaceX come from?
+[1701.6-1702.6] Is it the team?
+[1702.6-1703.6] Oh, no.
+[1703.6-1705.3] The Cursor is a phenomenal business.
+[1705.3-1706.3] They have all the data.
+[1706.3-1714.5] Elon has all of the compute, you know, that they've released phenomenal models in the past.
+[1714.5-1721.6] You know, many people realize that coding is kind of the path to, you know, some will
+[1721.6-1725.4] say AGI, but like, say, bottom computer user intelligence more broadly.
+[1725.4-1728.8] And so I actually think both companies bring a ton to the table.
+[1728.8-1732.9] And if you're going to reduce it, something very simple is like, you know, one has the data,
+[1732.9-1738.5] one has the compute, one has the distribution, you know, and the other has like enough resources
+[1738.5-1740.0] that you would need to be on the frontier.
+[1740.0-1743.7] Because remember, the frontier is a capital game, and of course, this is something
+[1743.7-1745.7] Elon is phenomenal at scaring up.
+[1745.7-1751.1] Do you think their 60-villain value would have been their value independently, or was that
+[1751.1-1752.6] mainly because of SpaceX?
+[1752.6-1754.1] Well, to who?
+[1754.1-1759.4] To just, to, to, to, to, to, to, to, to, to, to, I mean to SpaceX for sure, but would
+[1759.4-1762.3] that have been its value independently outside of SpaceX today?
+[1762.3-1763.3] To, to like an investor?
+[1763.3-1764.3] Yeah.
+[1764.3-1765.3] Yeah, for sure.
+[1765.3-1768.5] I know, I know for sure, because we can easily have raised at that, at that value.
+[1768.5-1769.5] Yeah.
+[1769.5-1773.6] No, that, that said, private investors are crazy and they kind of see the future and everything
+[1773.6-1774.6] else like that.
+[1774.6-1775.6] How would it have done the public market?
+[1775.6-1776.6] I don't know.
+[1776.6-1778.1] I can't even speculate about those types of things.
+[1778.1-1782.9] But for sure, the private independent value was of that order, and there's a lot of kind
+[1782.9-1787.1] of like, you know, non-public proof points to that, which I can't talk about, but yes,
+[1787.1-1788.1] I do think so.
+[1788.1-1790.8] And again, like, the business was doing phenomenally.
+[1790.8-1794.3] Like, if you saw the numbers that, that, that they talked about, I mean, this is the fastest
+[1794.3-1795.3] growth.
+[1795.3-1798.1] Certainly, I've ever seen in 10 years of investing and in 20 years in the valley.
+[1798.1-1801.4] Yeah, but would it not be even better to be like part of SpaceX with all of their
+[1801.4-1806.9] compute and all of their infrastructure and, you know, the entire engineering force of
+[1806.9-1808.1] SpaceX behind them?
+[1808.1-1811.2] It seems like that, that would make cursor more valuable now.
+[1811.2-1812.2] Of course.
+[1812.2-1813.2] Yeah.
+[1813.2-1814.2] I agree.
+[1814.2-1815.2] Yeah.
+[1815.2-1816.2] Oh, yeah.
+[1816.2-1817.2] Are you suggesting that cursor by SpaceX?
+[1817.2-1819.2] That might have happened in a couple of years.
+[1819.2-1820.2] Yeah.
+[1820.2-1827.6] I think open rather than stripe make a lot of sense.
+[1827.6-1831.3] Both companies kind of do things as markets, but, you know, one view is like, you know,
+[1832.3-1833.3] tokens is value.
+[1833.3-1835.2] The other, you know, payments is value.
+[1835.2-1839.0] There's a lot of alignment at the founder level for these types of businesses.
+[1839.0-1841.6] Very, very similar thing for cursor and SpaceX, right?
+[1841.6-1845.9] Very engineering focused cultures, you know, both believe that code is the path and general
+[1845.9-1849.0] computer uses the path to AGI.
+[1849.0-1854.2] And, you know, you know, I actually think Elon likes these types of teams that are kind
+[1854.2-1858.2] of like, you know, very, very scrappy, but very, very fast.
+[1858.2-1860.2] I mean, we even wrote a post about this.
+[1860.2-1863.0] This is the fastest engineering team I've ever seen outside of an Elon company.
+[1863.0-1864.6] And so I would say there's a lot of alignment.
+[1864.6-1865.6] There's a lot of synergy.
+[1865.6-1871.4] I think the combined entities are greater on both sides for these acquisitions, but I
+[1871.4-1872.8] still think it was worth $60.
+[1872.8-1873.8] How did they do it?
+[1873.8-1877.5] Like, what are the aspects of cursor's culture that makes them capable of iterating so
+[1877.5-1878.5] quickly?
+[1878.5-1879.5] Yeah.
+[1879.5-1880.5] That's a good question.
+[1880.5-1891.1] Yeah, I am, you know, they, in many ways, a lot of these AI companies that I work with
+[1891.1-1896.2] are so research heavy, if you're not working on a new model architecture, like it's kind
+[1896.2-1898.6] of hard to actually interest the core teams.
+[1898.6-1902.8] And they always kept the main thing, the main thing, cursor, which is like changing how
+[1902.8-1906.3] you write software engineering, making, and they believed fundamentally it was a product
+[1906.3-1909.5] problem, not like necessarily like a model architecture problem.
+[1909.5-1914.4] The model is very, very important, but it was a product problem and so, you know, they
+[1914.4-1915.4] hired incredibly well.
+[1915.4-1916.6] They said culture incredibly well.
+[1916.6-1920.8] I would say the founders probably spend 30, 40% of their time hiring and setting culture.
+[1920.8-1923.8] They're very focused on engineering and not like research or model architecture.
+[1923.8-1927.0] I think research and model architecture is incredibly important, but it's got a different
+[1927.0-1929.8] life cycle and it requires a different type of environment and that's not what they were
+[1929.8-1930.8] focused on at the time.
+[1930.8-1934.5] They are more so now, of course, now that they've got the resources.
+[1934.5-1938.8] And then listen, I mean, like, this is wild in this space, there's actually not a lot
+[1938.8-1940.8] of companies that are actually focused on products, right?
+[1940.8-1944.2] They'll focus on services like they'll be like, we are the Palantir Vex, which is great.
+[1944.2-1945.2] There's a lot of value there.
+[1945.2-1949.2] Like, a lot of like the fine-tuney post-training companies are kind of more service oriented
+[1949.2-1950.2] companies.
+[1950.2-1954.6] And there's a lot of research companies, every Neolabsor research company, but they're
+[1954.6-1959.2] like, we are a product company and I think that's actually a key differentiator in this
+[1959.2-1960.2] era.
+[1960.2-1961.2] Yeah, it's pretty cool.
+[1961.2-1963.5] We had people from the cursor team actually here on MTS and they're sharing a little
+[1963.5-1967.4] bit about their internal culture and they're constantly building products internally for
+[1967.4-1970.2] themselves and then testing it on their own.
+[1970.2-1971.2] Yeah, their own.
+[1971.2-1972.2] I love that.
+[1972.2-1973.2] I love that.
+[1973.2-1976.0] Like, they're all like, well, we're all developers, but they'll build a product that we
+[1976.0-1978.6] will use and they really, really took that one to heart.
+[1978.6-1983.1] Yeah, I think my absolute favorite example of this was Rio Lu, who was the head of his
+[1983.1-1984.1] own.
+[1984.1-1985.1] Yeah, he was amazing.
+[1985.1-1987.8] He did this project called Rio OS, which I said.
+[1987.8-1988.8] Yeah, I love it.
+[1988.8-1994.6] I kind of was like retro Mac looking at something like retro Mac OS emulator of sorts.
+[1994.6-1995.8] I do think it's funny.
+[1996.2-2001.5] I do vibe coding in silly VC way and I build retro video games and I feel like the kind
+[2001.5-2007.6] of like, you know, older person in the garage doing a hobby.
+[2007.6-2010.8] It used to be like train sets or whatever and now it's like building retro video games
+[2010.8-2011.8] or retro.
+[2011.8-2025.7] So I'm going to go back to what I said before, which is so much of the general shot.
+[2025.7-2033.5] And Freud and criticism on X and the socials are around business quality metrics and often
+[2033.5-2034.5] they're wrong.
+[2034.5-2038.5] By the way, like, hers was a great business and it was doing great.
+[2038.5-2045.5] But it misses the point of like, we're in a transformative wave where new pieces of
+[2045.5-2050.1] the stack are being developed and they have strategic independent value that will have
+[2050.1-2053.0] a tremendous amount of optionality going forward, right?
+[2053.0-2054.9] I mean, open router is on the token path.
+[2054.9-2060.8] It is the leader in, you know, the long tail of models and new models that has a two-sided
+[2060.8-2067.6] marketplace of those, you know, cursor was by far the leading software dev tool.
+[2067.6-2072.8] And so like, to me, it's obvious that you're going to have these properties that are strategic
+[2072.8-2075.1] value strategic control points.
+[2075.1-2079.1] I don't think it says something more deeply about like where in the stack value is going
+[2079.1-2081.3] to grow as far as I can tell, by the way.
+[2081.6-2083.2] Valley's the queen all the hears the stack.
+[2083.2-2085.6] I mean, in videos doing great, the model companies are doing great, the app companies
+[2085.6-2086.6] doing great.
+[2086.6-2087.6] The inference companies are doing great.
+[2087.6-2088.6] The services companies.
+[2088.6-2089.6] The media companies talking about that.
+[2089.6-2090.6] The media companies are talking about that.
+[2090.6-2096.0] Right now, listen, I think this is the biggest unlock of wealth I've seen in my entire
+[2096.0-2097.0] career.
+[2097.0-2099.5] I never thought I'd see another one after the 90s.
+[2099.5-2103.5] And you know, I think anybody that wants to do a company or invest in a company, I would
+[2103.5-2107.8] strongly recommend that you have zero some thinking or worrying about modes or defensibility
+[2107.8-2111.1] too much in the near-term and really think about like, what is strategically important?
+[2111.1-2113.1] In this new world that's being created.
+[2113.1-2117.6] Oh, what do you think are the top opportunities right now in this new world that's being
+[2117.6-2118.6] created?
+[2118.6-2121.4] If someone were to come to you asking for advice, Vic, where do I start?
+[2121.4-2122.4] Where do I build?
+[2122.4-2123.4] What would you work them to do?
+[2123.4-2126.7] You know, one thing I love about being a venture capitalist, I don't have to answer that.
+[2126.7-2127.7] Like I don't have to know the answer.
+[2127.7-2128.7] Yeah.
+[2128.7-2129.7] No, seriously.
+[2129.7-2130.7] No, no, no.
+[2130.7-2131.7] It's such a great question.
+[2131.7-2133.7] People assume as a venture capitalist, like, I see the future.
+[2133.7-2134.7] I've got thesis on it.
+[2134.7-2135.7] And I just don't.
+[2135.7-2138.6] I mean, like having been a founder, doing two startups, one startup was like, you know,
+[2138.6-2140.3] I was the whole thing.
+[2140.3-2143.4] It was like, you know, build a global business.
+[2143.4-2144.8] And there you have to predict the future.
+[2144.8-2145.8] And there you have that.
+[2145.8-2148.9] Like, you have to be piped in the nervous system of the techno strategic chess game being
+[2148.9-2149.9] played.
+[2149.9-2150.9] And what does the future look like?
+[2150.9-2151.9] What are the incumbents going to do?
+[2151.9-2152.9] How's the technology going to shift?
+[2152.9-2154.2] Is it going to make me irrelevant?
+[2154.2-2158.8] And it's like a walking ulcer all the time is like trying to figure out what's, huh?
+[2158.8-2160.8] And as a venture capitalist, you're like, you know what?
+[2160.8-2165.0] There's a whole ecosystem of founders that are bearing that ulcer.
+[2165.0-2166.7] And then that's what they think about.
+[2166.7-2169.6] And I'm very happy to borrow along their dreams and support them.
+[2169.6-2174.0] And so I am generally very bullish and optimistic about AI.
+[2174.0-2176.4] I think this is a massive unlock.
+[2176.4-2179.9] If there are three or four strong founders in a space that I understand, as we have
+[2179.9-2181.6] space, I understand, I won't second guess it.
+[2181.6-2186.3] I mean, you know, they're going to be taking the opportunity costs and risking their
+[2186.3-2189.3] time and their, you know, family's time on this.
+[2189.3-2192.2] I just assume it's a good space and all an all invest.
+[2192.2-2193.2] Yeah.
+[2193.2-2195.7] So how are you thinking about hiring at A16 Zinfra?
+[2195.7-2198.3] Like what kind of people are you looking for, what kind of skills are you looking for?
+[2198.3-2202.5] So we've found, so we've found what works best for us are people that actually have
+[2202.5-2204.8] product background of some sort.
+[2204.8-2206.8] I just think it's the nature of the conversations we have.
+[2206.8-2211.0] Like, I mean, I think there's a reason why we have probably the most kind of strategic
+[2211.0-2212.4] acquisition exits.
+[2212.4-2216.4] Like, you know, we've had a lot of those because I think we view a lot of these things
+[2216.4-2219.4] as strategic assets.
+[2219.4-2222.9] And that means you have to understand product market fit.
+[2222.9-2226.6] So you have to understand the market, the evolution of the market, you have to understand
+[2226.6-2229.4] the product, how the technology maps to the product into that interface.
+[2229.4-2232.0] And that's a very kind of like product based discussion.
+[2232.0-2238.0] And you tend to do this, like, before you have enough financials to really read kind
+[2238.0-2240.0] of the outcome of the business and value it that way.
+[2240.0-2243.6] And I will say having worked with many great people, I actually, I mean, I love working
+[2243.6-2244.6] with my team.
+[2244.6-2248.0] But we have in the past hired people that don't have that background, like listening to
+[2248.0-2249.6] come strictly from finance.
+[2249.6-2252.5] And even though they can do the work, like they can call it the customers, they just don't
+[2252.5-2255.9] have the sensitivity, sensitivity to come up back with the right answers.
+[2255.9-2261.6] Like because it's like the taste, it's almost like you have to know what to ask and what
+[2261.6-2268.9] to look for to know if like there's going to be, you know, if they're going to buy
+[2268.9-2271.6] if there's going to be value, if there's going to be long term value.
+[2271.6-2274.4] I mean, like, this is what a product manager's job is.
+[2274.4-2277.9] So not everyone who works with a product manager, but like, most people have been involved
+[2277.9-2279.9] in product in some sort or another.
+[2279.9-2282.3] And so that they understand how important that interface is.
+[2282.3-2285.8] And by the way, I mean, I would say even when it comes to like the types of founders
+[2285.8-2288.6] we work with, I mean, yeah, some, it's so funny.
+[2288.6-2291.9] I feel like there's two views from investors, some are like very product focused.
+[2291.9-2296.0] I was talking to Ben, Toro Tester, he's like, back to strongest founders, the founders
+[2296.0-2297.0] everything.
+[2297.0-2298.0] Which is true.
+[2298.0-2301.2] And then other people are very market focused, like Andy Radcliffe, who's on my board.
+[2301.2-2304.4] He's like, the market is everything, like you need a good founder and a good market,
+[2304.4-2305.7] you know, whatever.
+[2305.7-2310.9] And I think for infrastructure for the state we invest in, our primary form of inquiries
+[2310.9-2313.5] around founder market fit, right?
+[2313.5-2316.8] There's just certain founders that will be good for certain markets.
+[2316.8-2319.8] And there's great founders would not be good for them.
+[2319.8-2322.6] And you know, we spend a lot of time trying to understand that interface.
+[2322.6-2326.2] And I think that that is why we build the type of team that we do, sorry.
+[2326.2-2327.2] Yeah.
+[2327.2-2328.2] Definitely.
+[2328.2-2329.2] What's your perspective there?
+[2329.2-2330.2] Where do you lay?
+[2330.2-2331.2] My perspective on the founder market fit.
+[2331.2-2334.2] Or just are you more pro, just the founder matters, just the market matters?
+[2334.2-2335.2] No, I'm part of market fit.
+[2335.2-2337.6] I'm like, literally the intersection of the founder, the market.
+[2337.6-2344.8] Like I don't think unless, you know, unless it's very, very rare, like Travis Kaloneck,
+[2344.8-2350.6] you know, like those, you know, these guys are so amazing and they're so rare.
+[2350.6-2355.4] You know, I think that, you know, the path that someone took to getting to a startup kind
+[2355.4-2358.4] of carves them in a certain way, they'll have certain sensitivities, they'll have certain
+[2358.4-2361.2] earned knowledge that other people don't have.
+[2361.2-2365.0] And I think you want to take that and they're kind of inherent skills and map it to like
+[2365.0-2368.0] what the actual market needs, which means you have to do a lot of market work.
+[2368.0-2372.3] I would say the majority of the work that we do is not like analyzing a given deal at
+[2372.3-2373.3] any point in time.
+[2373.3-2377.2] The majority of the work we're doing is analyzing the market, you know, in the absence
+[2377.2-2380.7] of any given company to understand it, so we can actually make these decisions once we
+[2380.7-2381.7] meet the company.
+[2381.7-2382.7] Definitely.
+[2382.7-2384.8] Well, Martin, personal question for you.
+[2384.8-2385.8] What motivates you?
+[2385.8-2387.8] What's the world you're trying to build towards?
+[2387.8-2389.3] What motivates me in general?
+[2389.3-2391.1] Honestly, I'm just a hill climber.
+[2391.1-2392.1] It's not funny.
+[2392.1-2398.1] When I was selling my company, you know, I went to, this is to VMware.
+[2398.1-2402.5] I remember Pat Gelsinger, you know, he was like, you know, kind of interviewing us.
+[2402.5-2405.0] He was a CEO of VMware and he was kind of interviewing us.
+[2405.0-2406.0] And I had this one on one with him.
+[2406.0-2408.6] He's like, Martin, kind of what would get you up in the morning.
+[2408.6-2410.5] I'm like, you know, this is a really deep philosophical question.
+[2410.5-2411.8] I'm going to have to think about that.
+[2411.8-2413.0] I'll tell you tomorrow.
+[2413.0-2418.6] So I went home and I thought about it and I came back in and I told him, I'm like, listen,
+[2419.6-2420.6] I am a hill climber.
+[2420.6-2427.9] My first love, my absolute first love is technology and startups and creative destruction
+[2427.9-2428.9] and innovation.
+[2428.9-2431.5] I am very, very long Silicon Valley.
+[2431.5-2434.4] I think we've got the most unique culture and history.
+[2434.4-2435.4] And I love to be part of that.
+[2435.4-2438.4] So as long as there's a hill for me to climb and I can do it in this place that I love
+[2438.4-2439.4] I'll be incredibly happy.
+[2439.4-2440.4] Yeah.
+[2440.4-2442.4] Well, Martin, it's been amazing having you on.
+[2442.4-2443.4] I love it.
+[2443.4-2444.4] So good.
+[2444.4-2445.4] Congratulations on OpenRouter.
+[2445.4-2446.4] Congratulations.
+[2446.4-2447.4] Yeah.
+[2447.4-2448.4] Congratulations.
+[2448.6-2449.6] Thank you so much.
+[2449.6-2451.9] Yeah, I was a pleasure getting to have you on MTS.
+[2451.9-2452.9] Super fun.
+[2452.9-2455.7] Thank you.
+[2455.7-2459.1] Thanks for listening to this episode of the A16Z podcast.
+[2459.1-2464.0] If you like this episode, be sure to like, comment, subscribe, leave us a rating or a view
+[2464.0-2466.3] and share it with your friends and family.
+[2466.3-2470.4] For more episodes, go to YouTube, Apple Podcasts, and Spotify.
+[2470.4-2476.4] Follow us on X, A16Z, and subscribe to our substack at A16Z.substack.com.
+[2476.4-2478.9] Thanks again for listening and I'll see you in the next episode.
+[2480.2-2484.4] This information is for educational purposes only and is not a recommendation to buy, hold,
+[2484.4-2487.0] or sell any investment or financial product.
+[2487.0-2491.2] This podcast has been produced by a third party and may include pay promotional advertisements,
+[2491.2-2494.9] other company references and individuals unaffiliated with A16Z.
+[2494.9-2499.2] Such advertisements, companies, and individuals are not endorsed by A.H. Capital Management
+[2499.2-2502.8] LLC, A16Z, or any of its affiliates.
+[2502.8-2507.1] Information is from sources deep reliable on the data publication, but A16Z does not guarantee
+[2507.1-2508.1] its accuracy.
