@@ -1,0 +1,271 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-08-24_2103",
+  "usage": {
+    "prompt_tokens": 4547,
+    "completion_tokens": 939,
+    "total_tokens": 5486
+  },
+  "episodes": [
+    {
+      "id": "e49ea9e7ec0f296ce392e78d",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "We play a brutal quiz of our gadget memories",
+      "link": "",
+      "published": "2026-08-24T19:11:00+00:00",
+      "summary": "Do you remember your first BlackBerry? Do you remember when that first BlackBerry launched? On this episode taped before David Pierce went on leave, producer Travis Larchuk leads David, Nilay, and The Verge’s Sean Hollister through a game of memory and history and a surprising amount of feelings tied to gadget launches. Subscribe to The Verge for unlimited access to theverge.com, subscriber-exclusive newsletters, and our ad-free podcast feed. We love hearing from you! Email your questions and thoughts to vergecast@theverge.com or call us at 866-VERGE11. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "1540",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "e49ea9e7ec0f296ce392e78d",
+        "score": 20,
+        "tier": "skip",
+        "reason": "Gadget memory quiz; lacks actionable insights for DJ.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "16ee60b76cbf9b3fdf6d0f62",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: August 24th, 2026",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-august-24th-2026",
+      "published": "2026-08-24T16:00:00+00:00",
+      "summary": "Featuring: Anne Walsh, CIO at Guggenheim Brian Gardner, Chief Washington Policy Strategist at Stifel Troy Gayeski, Chief Market Strategist at Future Standard See omnystudio.com/listener for privacy information.",
+      "duration": "1360",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "16ee60b76cbf9b3fdf6d0f62",
+        "score": 40,
+        "tier": "scan",
+        "reason": "General market commentary; low specificity for DJ's focus.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "72622f93f7a583a78421d51c",
+      "show_name": "Eye on AI",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "95% of AI Agent Projects Fail to Reach Production. Here's Why | Manoj Saxena, TrustWise",
+      "link": "https://aneyeonai.libsyn.com/95-of-ai-agent-projects-fail-to-reach-production-heres-why-manoj-saxena-trustwise",
+      "published": "2026-08-24T15:07:00+00:00",
+      "summary": "It takes a few hours to build an AI agent. It takes six to seven months to get it into production. Manoj Saxena - the executive who commercialized IBM Watson - built TrustWise around one thesis: intelligence without control is not deployable. In this episode, he joins Craig Smith to explain why 95% of enterprise AI agent projects are stalling between pilot and production, and why the answer has nothing to do with the quality of the underlying models. The bottleneck, Saxena argues, is the absence of an entirely new class of infrastructure, something that can evaluate every tool call, every action, every output of every agent at runtime, in milliseconds, against the full stack of alignment requirements that govern what an AI is actually allowed to do inside a real enterprise. TrustWise's AI Control Tower does that across all vendors and agent frameworks simultaneously, operating in live, sidecar, batch, or simulation mode and aligning agent behavior against six layers of requirements - from UN Human Rights frameworks down to individual customer SLA commitments - in 10 to 300 milliseconds per decision. The conversation covers demonstrated results (83% cost reduction, 40% safety improvement), the token consumption paradox that's making agentic AI far more expensive than expected even as token costs fall, and a milestone Saxena compares to the moment data traffic surpassed voice on AT&T's network: last month, for the first time ever, agent traffic on the internet exceeded human traffic. The episode closes with a preview of Genesis agents, TrustWise's next product, designed not just to prevent bad outcomes but to surface beneficial hypotheses by looking 95 moves deep into enterprise data, in domains like fraud detection and revenue leakage, in the way Deep Blue looked 95 moves deep in chess. Subscribe to Eye on A.I. for weekly conversations with the people building and deploying the future of AI.",
+      "duration": "01:01:49",
+      "old_score": 40,
+      "old_label": "skip",
+      "qwen": {
+        "id": "72622f93f7a583a78421d51c",
+        "score": 85,
+        "tier": "listen",
+        "reason": "Deep dive into AI agent deployment bottlenecks with enterprise control insights.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "1ba6f79f8d94a20fadef9dd4",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "US Bond Yields, Kevin Warsh, and Nvidia Preview",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/us-bond-yields-kevin-warsh-and-nvidia-preview",
+      "published": "2026-08-24T14:02:54+00:00",
+      "summary": "The latest in finance, economics and investment. Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF . Bloomberg Surveillance hosted by Tom Keene & Paul SweeneyMonday, August 24th, 2026 Featuring: 1) Kelsey Berro, Executive Director: Fixed Income at JPMorgan Asset Management, joins to discuss 30-year yields and Scott Bessent's quagmire. 2) Sarah House, Senior Economist at Wells Fargo, talks about the tax refund dry up and previews Kevin Warsh's first Jackson Hole. 3) Dan Ives, Parnter at Yorkville & Ives, previews Nvidia earnings and other tech headlines. 4) Suzy Welch, Professor of Management Practice at NYU, talks about the employment market for college students and recent grads, career advice, and the curriculum conundrum. See omnystudio.com/listener for privacy information.",
+      "duration": "2194",
+      "old_score": 0,
+      "old_label": "skip",
+      "qwen": {
+        "id": "1ba6f79f8d94a20fadef9dd4",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Contains relevant yield and tech earnings insights for market read.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ed57b83f88a8e9c9e6265c30",
+      "show_name": "My First Million",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "I built a $2,000,000,000 business on vibes",
+      "link": "",
+      "published": "2026-08-24T11:11:00+00:00",
+      "summary": "Sam's database on how long it takes to become a millionaire: https://clickhubspot.com/elkv Episode 855: Sam Parr ( https://x.com/theSamParr ) and Shaan Puri ( https://x.com/ShaanVP ) talk to Allison Ellsworth, the founder of Poppi. — Links: • Poppi - https://drinkpoppi.com/ • Josie Rushing - https://josiesrushing.com/ • Orion - https://orionsleep.com/ • Nello - https://drinknello.com/ • Preston Lane - https://www.onprestonlane.com/ • Blue Land - https://www.blueland.com/ — Check Out Sam's Stuff: • Hampton (joinhampton.com): My community for founders. Average member does $25m/year. Many of the guests are members. Get after it...apply: http://joinhampton.com/mfm — Check Out Shaan's Stuff: • Shaan's weekly email - https://www.shaanpuri.com • Visit https://www.somewhere.com/mfm to hire worldwide talent like Shaan and get $500 off for being an MFM listener. Hire developers, assistants, marketing pros, sales teams and more for 80% less than US equivalents. • Mercury - Shaan uses Mercury across all of his companies. you can too: http://mercury.com/ Mercury is a fintech company, not an FDIC-insured bank. Banking services provided by Choice Financial Group, Column, N.A., Members FDIC • I run all my newsletters on Beehiiv and you should too + we're giving away $10k to our favorite newsletter, check it out: beehiiv.com/mfm-challenge My First Million is a HubSpot Original Podcast // Brought to you by HubSpot Media // Production by Arie Desormeaux // Editing by Ezra Bakker Trupiano /",
+      "duration": "4584",
+      "old_score": 32,
+      "old_label": "skip",
+      "qwen": {
+        "id": "ed57b83f88a8e9c9e6265c30",
+        "score": 30,
+        "tier": "skip",
+        "reason": "Vibe-based business story; lacks durable frameworks or operator insights.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "7622c29367832a21e91b401e",
+      "show_name": "EconTalk",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Are We Alone? Cosmic Loneliness and the Longing to Believe (with Adam Kirsch)",
+      "link": "https://www.econtalk.org/are-we-alone-cosmic-loneliness-and-the-longing-to-believe-with-adam-kirsch/",
+      "published": "2026-08-24T10:30:00+00:00",
+      "summary": "Has the earth been visited by extraterrestrials? Are we alone? Despite no formal evidence for conscious life outside of earth, the belief that we are not alone has become more common among both scientists and everyday people. Listen as author Adam Kirsch talks to EconTalk host Russ Roberts about the urge to believe that there are sentient beings elsewhere in the universe and that these aliens want to connect with human beings. Topics discussed include why belief in extraterrestrials has become more mainstream, existential loneliness, religion, extinction, and Elon Musk's desire to get to Mars.",
+      "duration": "01:11:50",
+      "old_score": 47,
+      "old_label": "skip",
+      "qwen": {
+        "id": "7622c29367832a21e91b401e",
+        "score": 25,
+        "tier": "skip",
+        "reason": "Philosophical discussion on extraterrestrial life; not relevant to DJ's focus.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "89348e8cdb777e01e55329c2",
+      "show_name": "Stratechery",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "Autonomy and Innovation",
+      "link": "https://stratechery.com/2026/autonomy-and-innovation/",
+      "published": "2026-08-24T10:00:00+00:00",
+      "summary": "Incentives favor offense when it comes to agentic cybersecurity; it's the same dynamic that will limit incumbents and fuel startups in the long run.",
+      "duration": "",
+      "old_score": 30,
+      "old_label": "skip",
+      "qwen": {
+        "id": "89348e8cdb777e01e55329c2",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Discusses innovation dynamics and autonomy in cybersecurity with startup implications.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "0fab4cf663ec835853c98d1e",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Why Medical AI Needs a Referee | Protege's Engy Ziedan",
+      "link": "https://a16z.simplecast.com/episodes/why-medical-ai-needs-a-referee-proteges-engy-ziedan-K_iA_k2D",
+      "published": "2026-08-24T10:00:00+00:00",
+      "summary": "Daisy Wolf and Eva Steinman are joined by Engy Ziedan, co-founder and Chief Scientific Officer of Protege, to discuss why medical AI has a measurement problem, and why scoring well on a benchmark doesn't necessarily mean a model is ready for the hospital. Engy explains why healthcare AI needs independent evaluations that go beyond static exams and measure how models actually perform in real-world clinical workflows. They explore the risks of subtle bias and misalignment, why the same model can rank differently depending on how it's prompted or tested, and what happens as AI becomes more personalized and changes faster than traditional healthcare quality systems can keep up. The conversation also gets into Protege's role as an independent evaluator, how contaminated training data can undermine benchmarks, and why the future of medical AI may require continuous monitoring rather than occasional testing. Resources: Read our insights piece: https://www.a16z.news/p/the-oracle-problem-an-invisible-bottleneck Follow Engy Ziedan on X: https://x.com/engyziedan Follow Daisy Wolf on X: https://x.com/daisydwolf Follow Eva Steinman on X: https://x.com/evajsteinman Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:35:21",
+      "old_score": 39,
+      "old_label": "skip",
+      "qwen": {
+        "id": "0fab4cf663ec835853c98d1e",
+        "score": 80,
+        "tier": "listen",
+        "reason": "Medical AI evaluation challenges with real-world deployment insights.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "16b7d64a65bd2d3cb6ccccc3",
+      "show_name": "Decoder with Nilay Patel",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "How GoFundMe became America's backup plan",
+      "link": "",
+      "published": "2026-08-24T09:00:00+00:00",
+      "summary": "Tim Cadogan is CEO of GoFundMe, the for-profit platform where you can donate to help people with everything from medical expenses to little league uniforms to starting a new business. Tim took over as CEO in March 2020 — a chaotic moment when GoFundMe became a load-bearing part of American culture. So you can imagine I had a lot of questions for Tim, how he thinks about all this, and how he makes some very tough decisions on what money to make and what money not to make. Read the full interview transcript on The Verge. Links: The GoFundMe CEO wants you to ask: ‘How can I help?’ | New York TImes GoFundMe CEO: We weren't meant to replace COVID relief | USA Today GoFundMe Is a healthcare utility now | The Atlantic As Gaza is bombarded, GoFundMe donations are stuck in limbo | The Verge For the uninsured, crowdfunding provides little help in paying for healthcare | University of Washington Oregon nonprofits claim GoFundMe impersonated them | Central Oregon Daily News The causes and consequences of medical crowdfunding | ScienceDirect Subscribe to The Verge to access the ad-free version of Decoder! Credits: Decoder is a production of The Verge and part of the Vox Media Podcast Network. Decoder’s producers are Greg Ott, Kate Cox, and Nick Statt. This episode was edited by Eileen Felix. Our editorial director is Kevin McShane. The Decoder music is by Breakmaster Cylinder. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "4664",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "16b7d64a65bd2d3cb6ccccc3",
+        "score": 55,
+        "tier": "digest",
+        "reason": "CEO discusses GoFundMe's societal role and tough business decisions.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "4f964829014c3a9106375456",
+      "show_name": "Capital Allocators",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Best of Storytelling: Matthew Dicks",
+      "link": "https://tedseides.libsyn.com/best-of-storytelling-matthew-dicks",
+      "published": "2026-08-24T08:00:00+00:00",
+      "summary": "This week's Summer Series is a two-fer on the essential skill of storytelling. Whether pitching an investment fund to a prospect, an idea to a portfolio manager or CIO, or a request of a family member, storytelling helps you get what you want. To help understand the art and science of storytelling, Matt Dicks – a retired middle school teacher and author of the best-seller Storyworthy, and Don Miller – creator of Storybrand, a business started with his book of the same name – describe how to improve your storytelling ability. Learn more about Capital Allocators University . Try ALEX by Admired Leadership. Learn More Follow Ted on Twitter at @tseides or LinkedIn Subscribe to the mailing list Access Transcript with Premium Membership Editing and post-production work for this episode was provided by The Podcast Consultant ( ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠https://thepodcastconsultant.com⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ )",
+      "duration": "01:26:45",
+      "old_score": 40,
+      "old_label": "skip",
+      "qwen": {
+        "id": "4f964829014c3a9106375456",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Storytelling techniques; potentially useful for communication but not core focus.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "728a7a731dbe3d0c3860e7f4",
+      "show_name": "Odd Lots",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "The Nigerian Industrial Behemoth That Could Reshape the African Economy",
+      "link": "https://omny.fm/shows/odd-lots/the-nigerian-industrial-behemoth-that-could-reshape-the-african-economy",
+      "published": "2026-08-24T08:00:00+00:00",
+      "summary": "Earlier in August, it was reported that Nigeria's Dangote Refinery secured a $1 billion underwriting for its upcoming stock market listing, which is set to become Africa's largest IPO. Indeed, the whole the continent has seen lots of economic growth in the last few years: According to the United Nations, growth across Africa was expected to reach 4.0% in 2026. The history of economic development on the continent is a vexed one; access to critical resources, whether its minerals or petrochemicals, has not always equated to improved economic conditions. To understand what is going on in Africa, we talk to Joe Studwell, the author of How Africa Works: Success and Failure on the World's Last Developmental Frontier . The product of a decade of reporting, Studwell's book argues that African countries, in many instances, have failed to adopt development strategies (an industrial policy that favors export manufacturing for instance) that mirror Asian counterparts. And while development has been uneven, Studwell is optimistic that the seeds of sustained development are increasingly taking root, at least in some countries. We speak to Studwell about the Dangote IPO, why development has historically been so difficult, Rwanda's dreams of becoming Africa's Singapore, and why Lagos is one of the most impressive cities in the world. Read more: Dangote Offers East Africa Nations 30% Stake in New Refinery T. Rowe Price Says Nigeria Attractive Even After 64% Stock Rally Only Bloomberg - Business News, Stock Markets, Finance, Breaking & World News subscribers can get the Odd Lots newsletter in their inbox each week, plus unlimited access to the site and app. Subscribe at bloomberg.com/subscriptions/oddlots Subscribe to the Odd Lots Newsletter Join the conversation: discord.gg/oddlots See omnystudio.com/listener for privacy information.",
+      "duration": "3499",
+      "old_score": 32,
+      "old_label": "skip",
+      "qwen": {
+        "id": "728a7a731dbe3d0c3860e7f4",
+        "score": 60,
+        "tier": "digest",
+        "reason": "African economic development insights with industrial policy comparisons.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ec705142f7ed310302e0fa26",
+      "show_name": "Capital Allocators",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Best of Storytelling: Donald Miller",
+      "link": "https://tedseides.libsyn.com/best-of-storytelling-donald-miller",
+      "published": "2026-08-24T07:30:00+00:00",
+      "summary": "This week's Summer Series is a two-fer on the essential skill of storytelling. Whether pitching an investment fund to a prospect, an idea to a portfolio manager or CIO, or a request of a family member, storytelling helps you get what you want. To help understand the art and science of storytelling, Matt Dicks – a retired middle school teacher and author of the best-seller Storyworthy, and Don Miller – creator of Storybrand, a business started with his book of the same name – describe how to improve your storytelling ability. Learn more about Capital Allocators University . Try ALEX by Admired Leadership. Learn More Follow Ted on Twitter at @tseides or LinkedIn Subscribe to the mailing list Access Transcript with Premium Membership Editing and post-production work for this episode was provided by The Podcast Consultant ( ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠https://thepodcastconsultant.com⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ )",
+      "duration": "48:49",
+      "old_score": 40,
+      "old_label": "skip",
+      "qwen": {
+        "id": "ec705142f7ed310302e0fa26",
+        "score": 45,
+        "tier": "scan",
+        "reason": "Storytelling advice; potentially useful for pitching but not urgent.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "ab4a11b816c83babb4591abe",
+      "show_name": "The Twenty Minute VC",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "20VC: Inside Sequoia's Investment Committee: Lessons from Don Valentine, Doug Leone and Alfred Lin | How the SpaceX and Citadel Deals Went Down | What Sequoia Specifically Looks for in Founders with Julien Bek",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-inside-sequoias-investment-committee-lessons-from-don-valentine-doug-leone-and-alfred-lin-how-the-spacex-and-citadel-deals-went-down-what-sequoia-specifically-looks-for-in-founders-with-julien-bek",
+      "published": "2026-08-24T07:07:00+00:00",
+      "summary": "Julien Bek is a Partner at Sequoia Capital, one of the most renowned venture firms in the world. At Sequoia, he has partnered with companies including Rillet, Tacto, and Auctor. Before joining Sequoia, Julien spent five years at Accel, where he worked with companies including Miro, Melio, and BeReal. He is also an angel investor in Revolut and Attio. AGENDA: 06:35 – What did Julien only discover about Sequoia after joining the firm? 08:05 – What does everyone get wrong about Sequoia? 13:00 – Is Series A the hardest stage at which to invest today? 14:00 – Is Sequoia less focused on ownership as outcomes become larger? 19:20 – Does Sequoia simply pay more than everyone else to win deals? 22:00 – Is the \"triple, triple, double, double\" growth model dead? 25:00 – What is Sequoia's investment process really like behind the scenes? 27:15 – Can a partner still invest when the rest of Sequoia votes against them? 30:00 – Why can a flawless founder pitch actually be a warning sign? 31:00 – How do you judge whether a founder is exceptional in just 30 minutes? 33:00 – How can investors tell whether a founder's story is genuine? 35:10 – Is arrogance a bad trait in a founder? 36:00 – Which great founder did Julien completely misread? 37:15 – How should investors adjust their founder assessment across different cultures? 39:00 – What does a founder's childhood reveal about their future trajectory? 40:30 – What has Julien learned from Doug Leone, Pat Grady, Alfred Lin and Shaun Maguire? 47:00 – What does it mean when \"agents become the new customer\"? 49:00 – Does UI become irrelevant in an agent-first economy? 50:15 – Will answer-engine optimisation become larger than SEO? 52:00 – Will AI agents destroy software margins and brand loyalty? 53:00 – How quickly will enterprises allow agents to make purchasing decisions? 54:00 – Is AI infrastructure a safer investment than applications? 56:00 – Do software margins matter less when the potential outcomes are larger? 58:00 – Could the next trillion-dollar company masquerade as a services business? 01:00:00 – Which service industries can AI truly automate end-to-end? 01:02:00 – Are enterprises simply crying out for more help implementing AI? 01:03:10 – Will AI lead to dramatically smaller teams? 01:06:15 – Is traditional private equity screwed? 01:07:00 – The most overfunded and underfunded categories in venture 01:08:15 – What is the best AI agent company outside Sequoia's portfolio? 01:09:00 – Which missed investment still haunts Julien? 01:09:45 – Which founder trait will Julien never compromise on? 01:10:00 – Which competing fund makes Sequoia bring its A-game? 01:10:45 – How Julien missed Revolut—and helped his mother retire by investing anyway 01:14:00 – What does Julien believe that other Sequoia partners might disagree with? 01:15:00 – What is Julien most excited about over the next five years of AI?",
+      "duration": "01:18:41",
+      "old_score": 38,
+      "old_label": "skip",
+      "qwen": {
+        "id": "ab4a11b816c83babb4591abe",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Sequoia's investment process and founder evaluation insights from inside VC.",
+        "confidence": "high"
+      }
+    }
+  ]
+}
