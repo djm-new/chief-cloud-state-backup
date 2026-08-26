@@ -1,0 +1,724 @@
+{
+  "jobs": [
+    {
+      "id": "779bf6caf213",
+      "name": "Daily Chief cloud-state GitHub backup sync",
+      "prompt": "",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "sync_chief_cloud_state_backup.sh",
+      "no_agent": true,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "15 7 * * *",
+        "display": "15 7 * * *"
+      },
+      "schedule_display": "15 7 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 104
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-12T19:59:22.529154+00:00",
+      "next_run_at": "2026-08-26T07:15:00+00:00",
+      "last_run_at": "2026-08-25T07:16:05.648710+00:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "telegram:-1003956828149:5",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": null
+    },
+    {
+      "id": "6fd3f691efe5",
+      "name": "Railway Chief lightweight health check",
+      "prompt": "",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "chief_health_check.sh",
+      "no_agent": true,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 */3 * * *",
+        "display": "0 */3 * * *"
+      },
+      "schedule_display": "0 */3 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 1697
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-12T20:42:58.485236+00:00",
+      "next_run_at": "2026-08-26T03:00:00+00:00",
+      "last_run_at": "2026-08-26T00:02:19.689675+00:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "telegram:-1003956828149:5",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": null
+    },
+    {
+      "id": "60e7cd4fcf43",
+      "name": "Smart business briefing data collection",
+      "prompt": "Script-only data collection for DJ's single smart business briefing. Crawl Flow Slack using SLACK_USER_TOKEN and save local candidate evidence for downstream ToM/email-aware synthesis. This job must not deliver a user-facing briefing, use an LLM, write to Daily ToM, or send/reply/notify anyone.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "slack_business_brief_collect.py",
+      "no_agent": true,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "55 12,20 * * *",
+        "display": "55 12,20 * * *"
+      },
+      "schedule_display": "55 12,20 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 166
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-18T00:29:40.815074+00:00",
+      "next_run_at": "2026-08-26T12:55:00+00:00",
+      "last_run_at": "2026-08-25T20:56:02.142562+00:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "local",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "-1003956828149",
+        "chat_name": "Chief Group - Hermes",
+        "thread_id": "3"
+      },
+      "enabled_toolsets": null,
+      "workdir": null
+    },
+    {
+      "id": "d85ba3927717",
+      "name": "Smart business briefing",
+      "prompt": "Write DJ Mauch's single smart executive business briefing for Flow using the pre-run script context. Follow the daily-business-briefing skill. Keep it concise, decisive, and suitable for Telegram Briefings.\n\nHard output rule: one issue, one home. Before finalizing, privately build a canonical issue list and assign each issue/workstream to exactly one section. If an issue is in Needs DJ, do not repeat it in Executive summary, Watching, or Carry-forward context. If an issue is in Watching, do not repeat it in Executive summary or Carry-forward context. Carry-forward context is only for background not already named above. Avoid the 2026-08-18 failure mode where MENA comp/payroll appeared three times; a DJ-actionable item belongs only in Needs DJ. If necessary, make Executive summary 1-2 meta-observations rather than repeating the action list.",
+      "skills": [
+        "daily-business-briefing"
+      ],
+      "skill": "daily-business-briefing",
+      "model": "gpt-5.5",
+      "provider": "openai-codex",
+      "base_url": null,
+      "script": "slack_business_brief_context.py",
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "5 13,21 * * *",
+        "display": "5 13,21 * * *"
+      },
+      "schedule_display": "5 13,21 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 164
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-19T14:57:13.733402+00:00",
+      "next_run_at": "2026-08-26T13:05:00+00:00",
+      "last_run_at": "2026-08-25T21:07:04.130057+00:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "telegram:-1003956828149:4",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "-1003956828149",
+        "chat_name": "Chief Group - Hermes",
+        "thread_id": "3"
+      },
+      "enabled_toolsets": [
+        "file",
+        "terminal"
+      ],
+      "workdir": null
+    },
+    {
+      "id": "b451ed7d4b37",
+      "name": "Daily ToM sync at 5AM ET",
+      "prompt": "Script-only job: runs the Google-native Daily ToM sync at 5AM America/New_York. The wrapper stays silent outside 5AM ET and only outputs a short completion summary when it actually runs.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "daily-tom-daily-5am-et.sh",
+      "no_agent": true,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9,10 * * *",
+        "display": "0 9,10 * * *"
+      },
+      "schedule_display": "0 9,10 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 224
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-05-26T16:48:41.225755+00:00",
+      "next_run_at": "2026-08-26T09:00:00+00:00",
+      "last_run_at": "2026-08-25T10:01:53.998814+00:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "telegram:-1003956828149:5",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "-1003956828149",
+        "chat_name": "Chief Group - Hermes",
+        "thread_id": "7"
+      },
+      "enabled_toolsets": null,
+      "workdir": null
+    },
+    {
+      "id": "3738adc5c390",
+      "name": "HealthOS nightly Google Sheets backup",
+      "prompt": "Run the HealthOS nightly Google Sheets backup script. The script outputs nothing on success and prints an error only on failure.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "healthos-nightly-backup.sh",
+      "no_agent": true,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 3 * * *",
+        "display": "0 3 * * *"
+      },
+      "schedule_display": "0 3 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 80
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-04T18:28:24.334811+00:00",
+      "next_run_at": "2026-08-26T03:00:00+00:00",
+      "last_run_at": "2026-08-25T03:01:41.756650+00:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "telegram:-1003956828149:5",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "-1003956828149",
+        "chat_name": "Chief Group - Hermes",
+        "thread_id": "7"
+      },
+      "enabled_toolsets": null,
+      "workdir": null
+    },
+    {
+      "id": "6399898065a4",
+      "name": "Thoughts daily rollup",
+      "prompt": "",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "thoughts_cron_daily_rollup.py",
+      "no_agent": true,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "5 4,5 * * *",
+        "display": "5 4,5 * * *"
+      },
+      "schedule_display": "5 4,5 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 158
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-05T19:42:57.893480+00:00",
+      "next_run_at": "2026-08-26T04:05:00+00:00",
+      "last_run_at": "2026-08-25T05:05:11.441301+00:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "telegram:-1003956828149:6",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "-1003956828149",
+        "chat_name": "Chief Group - Hermes",
+        "thread_id": "6"
+      },
+      "enabled_toolsets": null,
+      "workdir": null
+    },
+    {
+      "id": "233ac067b175",
+      "name": "Thoughts morning replay",
+      "prompt": "",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "thoughts_cron_morning_replay.py",
+      "no_agent": true,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 11,12 * * *",
+        "display": "0 11,12 * * *"
+      },
+      "schedule_display": "0 11,12 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 158
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-05T19:42:58.899916+00:00",
+      "next_run_at": "2026-08-26T11:00:00+00:00",
+      "last_run_at": "2026-08-25T12:01:11.717933+00:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "telegram:-1003956828149:6",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "-1003956828149",
+        "chat_name": "Chief Group - Hermes",
+        "thread_id": "6"
+      },
+      "enabled_toolsets": null,
+      "workdir": null
+    },
+    {
+      "id": "0defdc100e19",
+      "name": "Thoughts weekly synthesis",
+      "prompt": "",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "thoughts_cron_synthesize_weekly.sh",
+      "no_agent": true,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "30 9,10 * * 1",
+        "display": "30 9,10 * * 1"
+      },
+      "schedule_display": "30 9,10 * * 1",
+      "repeat": {
+        "times": null,
+        "completed": 22
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-05T19:42:59.905515+00:00",
+      "next_run_at": "2026-08-31T09:30:00+00:00",
+      "last_run_at": "2026-08-24T10:30:15.377486+00:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "telegram:-1003956828149:6",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "-1003956828149",
+        "chat_name": "Chief Group - Hermes",
+        "thread_id": "6"
+      },
+      "enabled_toolsets": null,
+      "workdir": null
+    },
+    {
+      "id": "5769c212e559",
+      "name": "Thoughts monthly synthesis",
+      "prompt": "",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "thoughts_cron_synthesize_monthly.sh",
+      "no_agent": true,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 13,14 1 * *",
+        "display": "0 13,14 1 * *"
+      },
+      "schedule_display": "0 13,14 1 * *",
+      "repeat": {
+        "times": null,
+        "completed": 4
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-05T19:43:06.338251+00:00",
+      "next_run_at": "2026-09-01T13:00:00+00:00",
+      "last_run_at": "2026-08-01T14:00:28.814708+00:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "telegram:-1003956828149:6",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "-1003956828149",
+        "chat_name": "Chief Group - Hermes",
+        "thread_id": "6"
+      },
+      "enabled_toolsets": null,
+      "workdir": null
+    },
+    {
+      "id": "e957cb0a7b26",
+      "name": "Thoughts quarterly synthesis",
+      "prompt": "",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "thoughts_cron_synthesize_quarterly.sh",
+      "no_agent": true,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 13,14 1 1,4,7,10 *",
+        "display": "0 13,14 1 1,4,7,10 *"
+      },
+      "schedule_display": "0 13,14 1 1,4,7,10 *",
+      "repeat": {
+        "times": null,
+        "completed": 2
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-05T19:43:07.344378+00:00",
+      "next_run_at": "2026-10-01T13:00:00+00:00",
+      "last_run_at": "2026-07-01T14:00:51.793084+00:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "telegram:-1003956828149:6",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "-1003956828149",
+        "chat_name": "Chief Group - Hermes",
+        "thread_id": "6"
+      },
+      "enabled_toolsets": null,
+      "workdir": null
+    },
+    {
+      "id": "422803a6b82f",
+      "name": "Daily podcast intelligence digest \u2014 5PM ET",
+      "prompt": "",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "run_podcast_digest_once.sh",
+      "no_agent": true,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 21,22 * * *",
+        "display": "0 21,22 * * *"
+      },
+      "schedule_display": "0 21,22 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 154
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-08T01:27:36.970151+00:00",
+      "next_run_at": "2026-08-26T21:00:00+00:00",
+      "last_run_at": "2026-08-25T22:00:31.937717+00:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "telegram:-1003956828149:7703",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "-1003956828149",
+        "chat_name": "Chief Group - Hermes",
+        "thread_id": "1"
+      },
+      "enabled_toolsets": null,
+      "workdir": null
+    },
+    {
+      "id": "05ebe3213ab3",
+      "name": "Daily Hermes health check + spend briefing \u2014 5AM ET",
+      "prompt": "Script-only daily Hermes spend briefing. Runs at UTC candidate times for 5:00 AM America/New_York and the script emits only at the actual 5 AM ET tick, once per ET date. Output includes last-24h and last-7d spend/tokens plus top projects, channels, and providers. Deliver to Briefings.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "hermes_daily_health_check_with_spend.py",
+      "no_agent": true,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9,10 * * *",
+        "display": "0 9,10 * * *"
+      },
+      "schedule_display": "0 9,10 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 154
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-08T01:32:21.927028+00:00",
+      "next_run_at": "2026-08-26T09:00:00+00:00",
+      "last_run_at": "2026-08-25T10:01:54.029984+00:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "telegram:-1003956828149:5",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "-1003956828149",
+        "chat_name": "Chief Group - Hermes",
+        "thread_id": "7"
+      },
+      "enabled_toolsets": null,
+      "workdir": null
+    },
+    {
+      "id": "f94a7adb55ec",
+      "name": "Weekly Hermes spend briefing \u2014 5AM ET",
+      "prompt": "",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "hermes_weekly_spend_briefing.py",
+      "no_agent": true,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 9,10 * * 1",
+        "display": "0 9,10 * * 1"
+      },
+      "schedule_display": "0 9,10 * * 1",
+      "repeat": {
+        "times": null,
+        "completed": 21
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-08T09:46:20.622643+00:00",
+      "next_run_at": "2026-08-31T09:00:00+00:00",
+      "last_run_at": "2026-08-24T10:00:19.851958+00:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "telegram:-1003956828149:4",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "-1003956828149",
+        "chat_name": "Chief Group - Hermes",
+        "thread_id": "4"
+      },
+      "enabled_toolsets": null,
+      "workdir": null
+    },
+    {
+      "id": "9c37d1be6716",
+      "name": "Weekly podcast of podcasts",
+      "prompt": "Generate DJ Mauch's weekly original podcast-of-podcasts audio. The script reads recent daily podcast digest artifacts, picks the week's strongest episodes, drafts an original two-host script, synthesizes it into audio, and prints a Telegram-deliverable MEDIA tag for the final audio file. This is the weekly podcast-of-podcasts delivery job for Briefings.",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "podcast_weekly_audio.py",
+      "no_agent": true,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "0 21,22 * * 0",
+        "display": "0 21,22 * * 0"
+      },
+      "schedule_display": "0 21,22 * * 0",
+      "repeat": {
+        "times": null,
+        "completed": 20
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-06-14T19:52:29.455883+00:00",
+      "next_run_at": "2026-08-30T21:00:00+00:00",
+      "last_run_at": "2026-08-23T22:00:14.464148+00:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "telegram:-1003956828149:7703",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "-1003956828149",
+        "chat_name": "Chief Group - Hermes",
+        "thread_id": "5"
+      },
+      "enabled_toolsets": [
+        "terminal",
+        "file"
+      ],
+      "workdir": "/opt/data/scripts"
+    },
+    {
+      "id": "733a0f850d0d",
+      "name": "Hermes cron self-heal monitor",
+      "prompt": "",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": "cron_self_heal.py",
+      "no_agent": true,
+      "context_from": null,
+      "schedule": {
+        "kind": "interval",
+        "minutes": 15,
+        "display": "every 15m"
+      },
+      "schedule_display": "every 15m",
+      "repeat": {
+        "times": null,
+        "completed": 4407
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-07-10T16:57:16.394992+00:00",
+      "next_run_at": "2026-08-26T01:36:49.099479+00:00",
+      "last_run_at": "2026-08-26T01:21:49.099479+00:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "telegram",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "-1003956828149",
+        "chat_name": "Chief Group - Hermes",
+        "thread_id": "5"
+      },
+      "enabled_toolsets": null,
+      "workdir": null
+    },
+    {
+      "id": "e53615e48a2a",
+      "name": "Pre-meeting briefing generator",
+      "prompt": "You generate DJ Mauch's pre-meeting briefs and deliver only useful briefs to Telegram Chief Group - Hermes \u2192 Meeting Briefs.\n\nRun cadence: every 5 minutes. Look for calendar meetings starting 8\u201312 minutes from now in ET. This means the intended delivery time is about 10 minutes before each real meeting. If no qualifying meeting exists, output nothing at all.\n\nDelivery target is already set to Meeting Briefs (telegram:-1003956828149:8289). Do not ask where to send.\n\nCore standard:\n- DJ wants a concise briefing before every real meeting, about 10 minutes before it starts.\n- Do not invent context. Do not infer agenda from weak/stale matches.\n- Use actual calendar identity, attendee emails, recurrence, prior notes, Slack/docs where available.\n- If context is weak, say that plainly and give the right opening question.\n- Times must be ET.\n- Output should be useful in under 90 seconds.\n\nRequired source workflow for each qualifying meeting:\n1. Identify actual meeting:\n   - title, ET start/end, source calendar/profile, recurrence status, attendee emails/names, organizer, description/links.\n   - If recurring, find the note from the prior meeting first.\n2. Prior meeting note workflow:\n   - Search canonical Meeting_Notes folder first: Google account dj@flow.life, My Drive / Meeting_Notes, folder ID 1wpJT9Yuoah_gwAOR2crtw7vjG6z6GkUB.\n   - For recurring meetings: retrieve prior instance note and extract to-dos, follow-ups, important highlights.\n   - Check whether those were actioned based on later Meeting_Notes and Slack when available.\n3. Participant workflow:\n   - Resolve who DJ is speaking to from email/name, not name alone.\n   - Check whether each non-DJ participant appears in recent calendar, Meeting_Notes, Slack, or core Drive docs.\n   - Focus on recent communications specifically pertaining to this meeting/topic.\n   - If DJ has multiple meetings with the same person today, avoid repeating generic context. Use the specific meeting topic/time to decide what matters.\n4. Topic workflow:\n   - Use meeting title/description/agenda/linked docs to identify topic.\n   - Retrieve related Meeting_Notes, Slack, Drive docs if clearly relevant.\n   - Prefer current, topic-specific context over generic stale person history.\n5. Judgment pass:\n   - What does DJ need to know right before walking in?\n   - What changed since the last relevant meeting?\n   - What did DJ or others commit to, and is it done?\n   - What should DJ ask/decide/push/avoid?\n   - If evidence is weak, what opening question should DJ use to orient fast?\n\nOutput format per meeting:\n## [HH:MM AM/PM ET] [Meeting title]\n\n**Bottom line:** [one sentence: why this meeting matters now + how DJ should approach it]\n\n**Know walking in**\n- [specific current fact/context]\n- [specific prior follow-up/commitment/status]\n- [specific person/topic context]\n\n**DJ should**\n- [action/question/decision/posture]\n- [optional second/third; max 3]\n\n**Ask**\n\u201c[one sharp question]\u201d\n\nRules:\n- If no real DJ action, do not manufacture one; say what to listen for instead.\n- Do not include raw source dumps, progress receipts, or implementation notes.\n- If multiple qualifying meetings are due in the same run, produce one card per meeting, separated by a blank line.\n- If a calendar item is a travel block, personal block, focus block, or obvious non-meeting, output nothing for it.\n- If no qualifying real meeting is found, output exactly nothing.\n- Never schedule additional cron jobs from this job.",
+      "skills": [
+        "google-workspace",
+        "meeting-note-automation"
+      ],
+      "skill": "google-workspace",
+      "model": null,
+      "provider": null,
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "interval",
+        "minutes": 5,
+        "display": "every 5m"
+      },
+      "schedule_display": "every 5m",
+      "repeat": {
+        "times": null,
+        "completed": 1503
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-08-19T23:52:05.952452+00:00",
+      "next_run_at": "2026-08-26T01:38:43.201101+00:00",
+      "last_run_at": "2026-08-26T01:33:43.201101+00:00",
+      "last_status": "ok",
+      "last_error": null,
+      "last_delivery_error": null,
+      "deliver": "telegram:-1003956828149:8289",
+      "origin": {
+        "platform": "telegram",
+        "chat_id": "-1003956828149",
+        "chat_name": "Chief Group - Hermes",
+        "thread_id": "7"
+      },
+      "enabled_toolsets": [
+        "terminal",
+        "file",
+        "web"
+      ],
+      "workdir": null
+    }
+  ],
+  "updated_at": "2026-08-26T01:33:43.201249+00:00"
+}

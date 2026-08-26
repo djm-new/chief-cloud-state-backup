@@ -1,0 +1,291 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-08-25_2104",
+  "usage": {
+    "prompt_tokens": 4919,
+    "completion_tokens": 985,
+    "total_tokens": 5904
+  },
+  "episodes": [
+    {
+      "id": "c32a9b60eb9a6b6c5f82f831",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Does smart home tech work in a college dorm?",
+      "link": "",
+      "published": "2026-08-25T19:45:00+00:00",
+      "summary": "It can be hard enough to set up smart home tech in a house or an apartment, but what about a dorm room? Jennifer Pattison Tuohy recently tested out some smart home tech when she dropped off her son for his freshman year at Clemson. Jen reports back to David Imel on how the gadgets stood up to the challenges of college Wi-Fi and rules against hanging things on the wall. Further reading: Apple’s new M6 chip gets more cores and more AI compute Apple’s new Mac Mini has fresh M6 and M5 Pro chip offerings — and higher prices Apple launches new Mac Studios with its ‘most powerful chip ever’ — the M5 Ultra Android is getting its own weird dots to cure car sickness WhatsApp is making it easier to ignore spam calls Subscribe to The Verge for unlimited access to theverge.com, subscriber-exclusive newsletters, and our ad-free podcast feed. We love hearing from you! Email your questions and thoughts to vergecast@theverge.com or call us at 866-VERGE11. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "1972",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "c32a9b60eb9a6b6c5f82f831",
+        "score": 10,
+        "tier": "skip",
+        "reason": "Consumer tech in dorms lacks market or AI insight relevance.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ab3e4a9986171dab6f91a106",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: August 25th, 2026",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-august-25th-2026",
+      "published": "2026-08-25T16:56:04+00:00",
+      "summary": "Featuring: George Goncalves, Managing Director & Head of US Macro Strategy at MUFG Securities Kate Kalutkiewicz, Senior Managing Director: Trade Practice at Mclarty Associates Ted Mortonson, Managing Director: Tech Strategist at Baird See omnystudio.com/listener for privacy information.",
+      "duration": "1019",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "ab3e4a9986171dab6f91a106",
+        "score": 40,
+        "tier": "scan",
+        "reason": "Macro strategy and tech insights possible but likely shallow.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "68a8db1e54084ad613aa1fcc",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bessent Intervention and Economic D-Day",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bessent-intervention-and-economic-d-day",
+      "published": "2026-08-25T14:22:40+00:00",
+      "summary": "The latest in finance, economics and investment. Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF. Bloomberg Surveillance hosted by Tom Keene & Paul Sweeney Tuesday, August 25th, 2026 Featuring: 1) Jason Trennert, Chairman and CEO at Strategas Research Partners, joins for an extended discussion on US Treasury Secretary Scott Bessent's focus on yields and what to expect from Jackson Hole and the Fed. 2) Simona Mocuta, Chief Economist at State Street, previews Jackson Hole and discusses the outlook for Treasury yields. 3) Steve Sosnick, Chief Market Strategist at Interactive Brokers, talks Bessent wariness, market volatility, and previewing Nvidia. 4) Joshua Crabb, Head: Asia-Pacific Equities at Robeco, discusses the Asia-Pacific backdrop, 2025-26 outperformance, and Japan latest. See omnystudio.com/listener for privacy information.",
+      "duration": "1846",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "68a8db1e54084ad613aa1fcc",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Economic outlook, Fed policy, and Nvidia preview are relevant.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "c5898c721602a942558686c8",
+      "show_name": "New Yorker Radio Hour",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "low",
+      "title": "Jessica Tarlov, a Lonely Liberal on Fox News’ “The Five”",
+      "link": "https://www.wnycstudios.org/podcasts/tnyradiohour",
+      "published": "2026-08-25T10:00:00+00:00",
+      "summary": "Fox News’ “The Five” is the most-watched program on cable news. So there are millions of eyes on Jessica Tarlov, who occupies the liberal hot seat (alternating with Harold Ford, Jr.) on a panel featuring the diehard conservatives Dana Perino, Greg Gutfeld, and Jesse Watters. Her exchanges with fellow-panellists tend to get heated, but Tarlov is constantly aware of how she represents liberal views in front of a largely hostile audience—and of how liberal viewers may misunderstand her colleagues. Her new book, largely inspired by her work on Fox, is called “ I Disagree: Winning Arguments Without Losing Friends .” Further listening: “ Bret Baier on Trump’s Love-Hate Relationship with Fox News ,” an episode of The New Yorker Radio Hour New episodes of The New Yorker Radio Hour drop every Tuesday and Friday. Join host David Remnick as he discusses the latest in politics, news, and current events in conversation with political leaders, newsmakers, innovators, New Yorker staff writers, authors, actors, and musicians. The New Yorker Radio Hour is a co-production of WNYC and The New Yorker. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:22:25",
+      "old_score": 0,
+      "old_label": "skip",
+      "qwen": {
+        "id": "c5898c721602a942558686c8",
+        "score": 15,
+        "tier": "skip",
+        "reason": "Political commentary lacks business or AI focus.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "df13a64853523c8247695e97",
+      "show_name": "Plain English with Derek Thompson",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "Why Everything Is Going to Keep Getting More Expensive",
+      "link": "",
+      "published": "2026-08-25T10:00:00+00:00",
+      "summary": "For much of the 21st century, the U.S. economy was built around cheap money. Today, though, interest rates are rising, and borrowing is getting much more expensive. At the same time, the federal government is running huge deficits while governments and companies around the world are taking on enormous amounts of debt. Derek talks with returning guest Conor Sen, author of the Housing Frame newsletter, about why interest rates have climbed, what’s driving this new age of debt, and how it could change the economy for years to come. Subscribe to our YouTube channel here:https://www.youtube.com/@PlainEnglishwithDerekThompson If you have questions, observations, or ideas for future episodes, email us at PlainEnglish@Spotify.com. Host: Derek Thompson Guest: Conor Sen Producer: Devon Baroldi Additional Production Support: Ben Glicksman Visit uber.com/safety to learn more. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "2514",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "df13a64853523c8247695e97",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Interest rates, debt, and economic implications are key themes.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "c232fcf8a4ac6af15e6957e8",
+      "show_name": "Stratechery",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "Netflix to Sell Streaming Services?, Streamers as Aggregators, Revisiting Roku",
+      "link": "https://stratechery.com/2026/netflix-to-sell-streaming-services-streamers-as-aggregators-revisiting-roku/",
+      "published": "2026-08-25T10:00:00+00:00",
+      "summary": "Netflix is considering selling other streaming services, and I think it's a good idea; it's also a let-down for Netflix's original goals and potential pivots.",
+      "duration": "",
+      "old_score": 22,
+      "old_label": "skip",
+      "qwen": {
+        "id": "c232fcf8a4ac6af15e6957e8",
+        "score": 60,
+        "tier": "digest",
+        "reason": "Streaming business model shifts and Netflix's pivot matter.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "cbe05433738f07309663e5d5",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "The New Economics of AI | Martin Casado & Steven Sinofsky",
+      "link": "https://a16z.simplecast.com/episodes/the-new-economics-of-ai-martin-casado-steven-sinofsky-6Xew5iHr",
+      "published": "2026-08-25T10:00:00+00:00",
+      "summary": "a16z General Partners Martin Casado and Erik Torenberg are joined by Board Partner Steven Sinofsky to explore what recent breakthroughs in AI and mathematics tell us about where the technology is headed, and whether some of the basic assumptions that have governed computing for decades are starting to break. Martin and Steven debate whether AI's progress in mathematics represents a genuine leap in reasoning or simply a new tool for solving problems at a higher level of abstraction. From the four-color theorem and early computers to graphing calculators and today's models, they trace how new technologies have repeatedly changed which problems humans need to solve themselves, and ask what makes this moment different. The conversation then turns to one of the biggest shifts in AI: problems that were once constrained by engineering talent can increasingly be attacked with capital and compute. They discuss what that means for startups versus incumbents, venture capital, the coming wave of AI applications, and why pouring billions into increasingly capable models may force us to rethink what these systems can ultimately accomplish. Resources: Follow Martin Casado on X: https://x.com/martin_casado Follow Steven Sinofsky on X: https://x.com/stevesi Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "01:03:32",
+      "old_score": 47,
+      "old_label": "skip",
+      "qwen": {
+        "id": "cbe05433738f07309663e5d5",
+        "score": 85,
+        "tier": "listen",
+        "reason": "AI economics and capital vs talent debate is critical.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "26d300240a78e21a01e9989b",
+      "show_name": "Ezra Klein Show",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "This Is Why People Hate the Government",
+      "link": "https://www.nytimes.com/2026/08/25/opinion/ezra-klein-podcast-annie-lowrey.html",
+      "published": "2026-08-25T09:00:00+00:00",
+      "summary": "In 2024, Americans spent an average of six full workdays a year filling out government forms, according to the government’s own estimates. That’s a total of 12 billion hours, or $430 billion of uncompensated labor a year. It’s easy to read something like this and say: “Oh, well, government is inefficient. That’s the price we pay for nice things.” But no, it’s not. Social Security, Medicare and the Postal Service are incredibly complex programs that are easy to use. When government is hard to gain access to, it is often by design. Republicans want paying taxes to be a hellish hassle. Programs for the poor are often designed to humiliate, punish, control or scrutinize. How the government works is always a choice. When it works poorly, we should ask why — and we should demand better. Annie Lowrey is a staff writer at The Atlantic and the author of the new book “ The Time Tax: How the Government Wastes Our Time — and How to Fix It .” She is also, I should note, my wife, so this is a book whose ideas I have been living with for years. They have quietly infused more than a few episodes of this show. So it’s a thrill to finally get to explore them directly. This episode contains strong language. Mentioned: The Time Tax by Annie Lowrey Give People Money by Annie Lowrey Why Americans Hate Welfare by Martin Gilens Book Recommendations: My Silent War by Kim Philby To Hate Like This Is to Be Happy Forever by Will Blythe Gender Trouble by Judith Butler Thoughts? Guest suggestions? Email us at ezrakleinshow@nytimes.com . You can find the transcript and more episodes of “The Ezra Klein Show” at nytimes.com/ezra-klein-podcast. Book recommendations from all our guests are listed at https://www.nytimes.com/article/ezra-klein-show-book-recs.html This episode of “The Ezra Klein Show” was produced by Annie Galvin. Fact-checking by Michelle Harris, with Kate Sinclair. Our senior engineer is Jeff Geld, with additional mixing by Aman Sahota, Johnny Simon and Isaac Jones. Our recording engineer is Aman Sahota. Cinematography by Marina King. Video editing by Brandon Belk-Yee, Dani Dillon and Julian Hackney. Our executive producer is Claire Gordon. The show’s production team also includes Marie Cascione, Rollin Hu, Kristin Lin, Emma Kehlbeck, Jack McCordick and Jan Kobal. Original music by Pat McCusker. Audience strategy by Shannon Busta. The director of New York Times Opinion Shows is Annie-Rose Strasser. Subscribe today at nytimes.com/podcasts or on Apple Podcasts and Spotify. You can also subscribe via your favorite podcast app here https://www.nytimes.com/activate-access/audio?source=podcatcher . For more podcasts and narrated articles, download The New York Times app at nytimes.com/app. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "01:17:28",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "26d300240a78e21a01e9989b",
+        "score": 35,
+        "tier": "scan",
+        "reason": "Policy critique may lack actionable market insight.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "4a4a9d335184e1b534863a33",
+      "show_name": "Masters of Scale",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Ford's Jim Farley on beating China, and the storm nobody sees coming",
+      "link": "",
+      "published": "2026-08-25T09:00:00+00:00",
+      "summary": "With the ongoing disruption in the Strait of Hormuz and fuel prices still elevated, few auto executives are feeling the pressure more acutely than Ford Motor Company CEO Jim Farley. He joins Rapid Response to give a candid account of what the turmoil means for the auto industry, and for an iconic American brand navigating one of the most turbulent moments in its history. Farley gets frank about the China threat reshaping the global auto business, and his frustration with Ford's own ingenuity. Plus, why Ford is back in Formula One, and why Farley sees a storm gathering in the so-called \"essential economy\". This episode originally aired on Rapid Response in April 2026. See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info .",
+      "duration": "00:28:23",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "4a4a9d335184e1b534863a33",
+        "score": 60,
+        "tier": "digest",
+        "reason": "China threat and auto industry disruption are relevant.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "d4c0e8e7fd2c5b3b8b8df110",
+      "show_name": "Training Data",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Parallel’s Parag Agrawal: Building a New Web for AI Agents",
+      "link": "",
+      "published": "2026-08-25T09:00:00+00:00",
+      "summary": "Parag Agrawal is making a bet that goes against two decades of web search: agents will query the web a thousand times more than humans ever have, and the infrastructure built around human clicks is wrong for them. The former Twitter CEO, now founder and CEO of Parallel Web Systems, explains why Parallel treats human click data as a bug and trains on agent feedback instead. He unpacks the counterintuitive choice to ship a search agent before a search engine, building an index incrementally, and how the new Turbo product cut agentic search to 200 milliseconds. But the problem Parag keeps returning to is economic: the ad-supported internet collapses when agents show up instead of people. His fix draws on Shapley values to pay content owners for the value their pages provide agents, with real dollars reaching publishers, he predicts, within 12 to 24 months. Hosted by Sonya Huang and Andrew Reed, Sequoia Capital",
+      "duration": "3318",
+      "old_score": 40,
+      "old_label": "skip",
+      "qwen": {
+        "id": "d4c0e8e7fd2c5b3b8b8df110",
+        "score": 75,
+        "tier": "digest",
+        "reason": "AI agent search infrastructure and economics are impactful.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "4945cccb3c2719c28bcda396",
+      "show_name": "The Meb Faber Show",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Jerry Parker on Big Game Hunting in the Market | #647",
+      "link": "",
+      "published": "2026-08-25T08:30:00+00:00",
+      "summary": "Today’s guest is Jerry Parker, founder and CEO of Chesapeake Capital and one of the original Turtles trained by Richard Dennis. Together we run the Cambria Chesapeake Pure Trend ETF (MFUT). In today's episode, Jerry explains why managed futures isn't the same as trend following. He breaks down the math and psychology of hunting outliers, letting a few winners pay for many small losses, and why he'd never chase crisis alpha at the cost of returns. To close, Jerry explains why MFUT trades individual stocks rather than just indices. Learn more about the Cambria Chesapeake Pure Trend ETF www.cambriafunds.com/mfut Have questions? Reach out to us any time at info@cambriainvestments.com. Full show notes: Link (0:00) Jerry Parker (3:09) Trend following vs managed futures (11:00) Misconceptions about crisis alpha (18:42) Portfolio construction, volatility targeting, and strategy complexity (23:47) Trend following in individual stocks (32:18) Performance reflection and importance of sticking to a strategy (37:46) Allocation challenges and memorable recent trades TO DETERMINE IF THIS FUND IS AN APPROPRIATE INVESTMENT FOR YOU, CAREFULLY CONSIDER THE FUND'S INVESTMENT OBJECTIVES, RISK FACTORS, CHARGES AND EXPENSE BEFORE INVESTING. THIS AND OTHER INFORMATION CAN BE FOUND IN THE FUND'S FULL OR SUMMARY PROSPECTUS WHICH MAY BE OBTAINED BY CALLING 855-383-4636 (ETF INFO) OR VISITING OUR WEBSITE AT WWW.CAMBRIAFUNDS.COM. READ THE PROSPECTUS OR SUMMARY PROSPECTUS CAREFULLY BEFORE INVESTING OR SENDING MONEY. Past performance is not indicative of future results. The material above has been provided for informational purposes only and is not intended as legal or investment advice or a recommendation of any particular security or strategy. The Cambria ETFs are distributed by ALPS Distributors Inc., 1290 Broadway, Suite 1000, Denver, CO 80203, which is not affiliated with Cambria Investment Management, LP. MFUT: This fund is new and has a limited operating history. There is no guarantee that the Fund will achieve its investment goal. Investing involves risk, including the possible loss of principal. Commodities Risk: Exposure to the commodities markets may subject the Fund to greater volatility than investments in traditional securities. Fixed Income Securities Risk: The prices of fixed income securities respond to economic developments, particularly interest rate changes, as well as to changes in an issuer’s credit rating or market perceptions about the creditworthiness of an issuer. Foreign Securities Risk: The Fund may invest in foreign securities. Such investments involve certain risks not involved in domestic investments and may experience more rapid and extreme changes in value than investments in securities of U.S. companies. Leverage Risk: The derivative instruments in which the Fund may invest provide the economic effect of financial leverage by creating additional investment exposure to the underlying instrument, as well as the potential for greater loss. If the Fund uses leverage through purchasing derivative instruments, the Fund has the risk that losses may exceed the net assets of the Fund. Derivatives Risk: Derivatives are financial instruments that derive value from the underlying reference asset or assets, such as stocks, bonds, commodities, currencies, funds (including ETFs), interest rates or indexes. Short Selling Risk: If a security sold short or other instrument increases in price, the Fund may have to cover its short position at a higher price than the short sale price, resulting in a loss. Commodity-Linked Derivatives Tax Risk: The tax treatment of commodity-linked derivative instruments may be adversely affected by changes in legislation, regulations, or other legally binding authority. Non-Diversification Risk: Because the Fund is “non-diversified,” it may invest a greater percentage of its assets in the securities of a single issuer or a smaller number of issuers than if it was a diversified fund. Commodities Risk. Exposure t",
+      "duration": "2829",
+      "old_score": 40,
+      "old_label": "skip",
+      "qwen": {
+        "id": "4945cccb3c2719c28bcda396",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Trend-following strategy and MFUT ETF mechanics matter.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "45ea95a8bc23d15821a256df",
+      "show_name": "Invest Like the Best",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "Neil Movva - Making AI 10x Cheaper - [Invest Like the Best, EP.488]",
+      "link": "https://colossus.com/episode/from-transistor-to-token/",
+      "published": "2026-08-25T08:00:00+00:00",
+      "summary": "My guest today is Neil Movva, founder of Sail. Sail is building what Neil calls a token factory, an inference company designed for a specific kind of future, one where AI agents run in the background for hours or days at a time rather than answering a human in real time. In that world, latency matters less and cost matters more, and Neil has built the whole company around driving the cost of a token as low as it can possibly go. What makes this conversation special is that it is one of the most detailed tours I have ever done through the full stack of intelligence, the software, the chips, and the power, and how all three connect. Along the way we cover the trade-off between speed and cost that lives inside every GPU, his scavenger strategy for buying the chips and power nobody else wants, his contrarian view on Nvidia, and why the premium the frontier labs charge for being three to six months ahead may not last. Please enjoy my conversation with Neil Movva. For the full show notes, transcript, and links to mentioned content, check out the episode page ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠here⁠⁠⁠⁠⁠. ----- Become a Colossus member to get our quarterly print magazine and private audio experience, including exclusive profiles and early access to select episodes. Subscribe at ⁠colossus.com/subscribe⁠. ----- ⁠Ramp’s⁠ mission is to help companies manage their spend in a way that reduces expenses and frees up time for teams to work on more valuable projects. Go to⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ ⁠ramp.com/invest⁠⁠ to sign up for free and get a $250 welcome bonus. ----- Trusted by thousands of businesses, ⁠Vanta⁠ continuously monitors your security posture and streamlines audits so you can win enterprise deals and build customer trust without the traditional overhead. Invest Like the Best listeners get a special offer of $1,000 off Vanta when you go to ⁠vanta.com/invest⁠. ----- WorkOS⁠ is the infrastructure B2B and AI-native companies use to sell to enterprise. It covers everything enterprise security requires: SSO, SCIM, RBAC, Audit Logs, AI governance, and more. Trusted by 2,000+ fast-growing companies, including OpenAI, Anthropic, Cursor, and Vercel. ----- Rogo is the AI platform for finance. They're building agents for Wall Street that are trained to understand how bankers and investors actually do work: from diligence and modeling, to turning analysis into deliverables. To learn more, visit rogo.ai/invest. ----- ⁠Ridgeline⁠ has built a complete, real-time, modern operating system for investment managers. It handles trading, portfolio management, compliance, customer reporting, and much more through an all-in-one real-time cloud platform. Visit⁠ ⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠⁠ridgeline.ai⁠. ----- Editing and post-production work for this episode was provided by The Podcast Consultant. Timestamps: (00:00:00) Welcome to Invest Like The Best (00:02:20) Neil Movva (00:03:22) Building a Token Factory (00:05:32) The Rise of Long-Running Agents (00:08:47) Deep Research and Cybersecurity (00:15:12) The Full Stack of Intelligence (00:20:03) Throughput Versus Latency (00:24:58) The Future of AI Chips (00:33:19) Why Transformers Work (00:36:43) The Future of Data (00:44:05) The Market for AI Chips (00:47:56) Is the AI Boom Different? (00:51:08) Reinventing the Data Center (00:56:43) Scavenging Power (01:01:04) Where Compute Is Most Inefficient (01:07:02) Open Versus Closed Models (01:10:37) A Trillion Tokens a Day (01:12:42) The Contrarian Case on NVIDIA (01:14:38) Advice for AI Hardware Founders",
+      "duration": "4687",
+      "old_score": 54,
+      "old_label": "skip",
+      "qwen": {
+        "id": "45ea95a8bc23d15821a256df",
+        "score": 90,
+        "tier": "listen",
+        "reason": "Deep dive into AI inference cost and stack optimization.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "98c4b02d541b65bea527fa47",
+      "show_name": "The Prof G Pod",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "China Decode: Taiwan's Record Defense Budget, Evergrande's Life Sentence, and China's Robot Boom",
+      "link": "",
+      "published": "2026-08-25T08:00:00+00:00",
+      "summary": "Alice Han and James Kynge start in Taipei, where the government has approved a record $35 billion defense budget for 2027 — an 18.2% jump — coming right on the heels of this year's Han Kuang drills, which mobilized nearly 22,000 reservists and adopted U.S.-style command tactics for the first time. They dig into what it means for Taiwan's military readiness, and whether this is more about deterring China or convincing Washington. Then: Evergrande founder Hui Ka Yan — once China's richest man — has been sentenced to life in prison for financial fraud on a staggering scale, closing the book on the world's largest corporate liquidation tied to the property sector. Alice and James ask whether the sentencing does anything to fix China's still-struggling housing market. Finally: China's humanoid robot industry is booming — Chinese vendors account for 97% of global shipments — but who's actually buying them, and how much of the demand is real versus a \"circular financing\" loop that inflates the numbers? Subscribe to China Decode on Substack for weekly analysis, livestreams, and deep dives into the biggest story shaping the global economy: chinadecode.profgmedia.com. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "2838",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "98c4b02d541b65bea527fa47",
+        "score": 50,
+        "tier": "scan",
+        "reason": "China defense and robot trends are partially relevant.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "8a083abce334b49a61bc1158",
+      "show_name": "All-In Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Michael Kratsios: Trump's Science Agenda, Anti-Science Claims, Fauci's Damage, DEI & China",
+      "link": "https://allinchamathjason.libsyn.com/michael-kratsios-trumps-science-agenda-anti-science-claims-faucis-damage-dei-china",
+      "published": "2026-08-24T23:19:00+00:00",
+      "summary": "(0:00) Michael Kratsios joins the show! (01:56) Is this administration anti-science? The Nature poll, DEI grants, and $8B down the drain (8:16) Climate science cuts: RCP 8.5 gets pulled and the \"climate emergency\" narrative collapses (13:45) $47B at NIH, Eroom's Law, and golden tickets: has American science stagnated? (22:24) Big bold bets: Genesis Mission, quantum by 2028, fusion by 2035, boots on the moon in '28 (34:04) The great race with China: $33B to $670B, and 7 out of 10 STEM PhDs aren't American (44:09) Fauci did more damage to science than anyone in modern history, and NIH's median researcher is 71 Follow the besties: https://x.com/chamath https://x.com/Jason https://x.com/DavidSacks https://x.com/friedberg Follow on X: https://x.com/theallinpod Follow on Instagram: https://www.instagram.com/theallinpod Follow on TikTok: https://www.tiktok.com/@allin Follow on LinkedIn: https://www.linkedin.com/company/allinpod Intro Music Credit: https://rb.gy/tppkzl https://x.com/yung_spielburg Intro Video Credit: https://x.com/TheZachEffect #allin #tech #news",
+      "duration": "55:59",
+      "old_score": 4,
+      "old_label": "skip",
+      "qwen": {
+        "id": "8a083abce334b49a61bc1158",
+        "score": 40,
+        "tier": "scan",
+        "reason": "Science policy and China race have partial relevance.",
+        "confidence": "medium"
+      }
+    }
+  ]
+}
