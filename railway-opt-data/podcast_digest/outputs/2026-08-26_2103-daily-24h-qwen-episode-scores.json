@@ -1,0 +1,211 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-08-26_2103",
+  "usage": {
+    "prompt_tokens": 3471,
+    "completion_tokens": 779,
+    "total_tokens": 4250
+  },
+  "episodes": [
+    {
+      "id": "0065091d65e80c4bd9bbe69b",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Meta will cut teens off of Instagram after two hours",
+      "link": "",
+      "published": "2026-08-26T18:27:00+00:00",
+      "summary": "Two-hour usage limits, age verification, and a $17.1 billion payout: We're breaking down today's big settlement in Meta's kids online safety trial. Senior policy reporter Lauren Feiner and senior tech and policy editor Adi Robertson discuss how we got here, why Meta settled, and what this means for the ongoing conversation around teen mental health and social media. Further reading: Meta agrees to heavy restrictions on teen users in major lawsuit settlement Subscribe to The Verge for unlimited access to theverge.com, subscriber-exclusive newsletters, and our ad-free podcast feed. We love hearing from you! Email your questions and thoughts to vergecast@theverge.com or call us at 866-VERGE11. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "1065",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "0065091d65e80c4bd9bbe69b",
+        "score": 40,
+        "tier": "scan",
+        "reason": "Meta's teen restrictions and legal settlement matter for policy and social media trends, but not core DJ focus.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "0cae71aa8ce81fde7875b4fc",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: August 26th, 2026",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-august-26th-2026",
+      "published": "2026-08-26T16:00:00+00:00",
+      "summary": "Featuring: Marvin Loh, Senior Strategist: Global Macro at State Street Stephanie Roth, Chief Economist at Wolfe Research Mark Ein, Co-Chairman at Kastle Systems See omnystudio.com/listener for privacy information.",
+      "duration": "1254",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "0cae71aa8ce81fde7875b4fc",
+        "score": 55,
+        "tier": "digest",
+        "reason": "Bloomberg Surveillance offers macro insights relevant to market dynamics and capital allocation.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "c9f9b2a12b7b85cdf6397502",
+      "show_name": "Latent Space",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "🔬“We have foundation models for language, not for physics” — Anima Anandkumar, Bren Professor of Computing",
+      "link": "https://www.latent.space/p/anima",
+      "published": "2026-08-26T15:15:00+00:00",
+      "summary": "A few years ago, Caltech Prof. and co-founder of Accelerated Understanding, Anima Anandkumar set out to develop the first open-source weather model with AI. Talking to experts in the field, she was met with skepticism. Weather is chaotic, physics simulations are hard, have been developed for decades, and require supercomputers, the data just isn’t there. Despite reservations, Anima went forth and built. Within a year her team had developed FourCastNet , a predictive model that is competitive with the best physics-based simulations available. Thanks to Anima, and her follow up work, anyone can now predict weather accurately over a short timescale using consumer grade GPUs. In the fifteen or so science episodes we’ve released on Latent.Space , we’ve covered atoms, molecules, materials, biology, and math. Anima is a pioneer in studying physical systems that are continuous. Weather, fusion, and fluid or heat flow are huge areas of science that are extremely difficult to model: they are large, chaotic, and fundamentally multi-scale. This is a field the AI community has somewhat neglected, but one we expect will grow fast. We plan to cover large physical systems more in coming episodes. One thing you can glean from Anima’s work is that this area of AI resists the scaling ideas that have permeated the rest of the field. The data isn’t there: open source datasets in many of these domains are limited to tens or hundreds of thousands of examples, far from what token-hungry transformers need. Even worse, the resolution that physics demands pushes the context length into the hundreds of billions, so you can’t just throw more tokens at the problem. That isn’t a ceiling though, just a slower road: progress here comes from building in structure and inductive biases. Sorry for all you bitter-lesson-pilled language modelers. “If each dimension is even a few hundred grid points, which is where industrial scale starts... we’re talking hundreds of billions to even a trillion context length. So forget ever having a transformer for anything of this scale, all of the world’s compute will not be enough.” The math underneath To tackle these systems, Anima pioneered a technique known as Neural Operators , one of the most beautiful theoretical developments in AI of the last decade. These allow you to combine data and physical laws to enable multi-scale inputs and outputs. We’re no longer modeling a grid, we’re modeling a function that evolves over many scales. This allows Anima and crew to build in priors based upon physical intuition. To see how physical priors are still helpful for AI modeling, let’s revisit the problem of weather forecasting on a global scale. The earth is a sphere, which meant that accurate modeling involved using the right basis set — the Spherical Harmonics . Run a weather model on a grid and it blows up fast. Move to the natural basis for the problem and it stays stable far longer, long enough to roll out months ahead instead of days. Anima’s Fourier Neural Operator learns directly in this frequency domain, and its spherical variant powers FourCastNet 3 , which models the weather across the whole globe and keeps running stably far into the future. The physical world is forgiving Anima explored Neural Operators across other physical domains too, and one striking observation is that the physical world is more forgiving than you’d expect. In fusion, a few thousand samples are enough to predict plasma disruptions, and to do it a million times faster than traditional simulation. None of this is a rejection of scale, it is a different route to it. Anima ultimately still wants to build a “foundation model for physics”, a model that spans many phenomena and does both simulation and design. You get there by building in the structure the physical world already has, not by waiting for data that will never exist. It is a start, and it will take longer than the token-driven parts of AI, because for the physical world tokens were never the ans",
+      "duration": "5011",
+      "old_score": 53,
+      "old_label": "skip",
+      "qwen": {
+        "id": "c9f9b2a12b7b85cdf6397502",
+        "score": 85,
+        "tier": "listen",
+        "reason": "Anima Anandkumar discusses AI for physics modeling, a durable framework with implications for science and AI infrastructure.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "80d87921c2ca77dbe4dac502",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Reacting to PCE and Market Look Ahead",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/reacting-to-pce-and-market-look-ahead",
+      "published": "2026-08-26T14:06:27+00:00",
+      "summary": "The latest in finance, economics and investment. Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF. Bloomberg Surveillance hosted by Tom Keene & Paul Sweeney Wednesday, August 26th, 2026 Featuring: 1) Vishal Khanduja, Head of Broad Markets Fixed Income at Morgan Stanley Investment Management, Michael Ball, Macro Strategist with Bloomberg News, Jess Menton, Deputy Team Lead: Equities with Bloomberg News, react to PCE 2) Tobin Marcus, US Policy Analyst at Wolfe Research, talks economic D-Day and looking ahead to the midterms 3) Ben Cook, Portfolio Manager at Hennessy Energy Transition Fund as well as the Hennessy Midstream Fund, talks about the latest move downward in oil amid stalled Iran talks. 4) Dan Tannebaum, Global Anti-Financial Crime Practice Leader at Oliver Wyman, discusses Scott Bessent and why he's skeptical of economic D-Day. See omnystudio.com/listener for privacy information.",
+      "duration": "2544",
+      "old_score": 4,
+      "old_label": "skip",
+      "qwen": {
+        "id": "80d87921c2ca77dbe4dac502",
+        "score": 65,
+        "tier": "digest",
+        "reason": "PCE reaction and market outlook provide actionable macroeconomic context for investors.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "0a443ab54d526a96675b8e1d",
+      "show_name": "My First Million",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "How a $5B founder is using AI (3 tutorials)",
+      "link": "",
+      "published": "2026-08-26T11:16:00+00:00",
+      "summary": "How Wade uses AI (steal his prompts): https://clickhubspot.com/efcd Episode 856: Sam Parr ( https://x.com/theSamParr ) and Shaan Puri ( https://x.com/ShaanVP ) talk to Wade Foster ( https://x.com/wadefoster ) about how he uses AI to save himself hours of work every day. — Show Notes: (0:00) intro (2:27) The sales pitch (7:04) My Robot Executive Staff, Waking Up Like The President (14:13) Evening brief (17:39) AI that argues with you (19:32) War Council skill (31:53) How to use AI to hire better (48:15) being a billionaire before 40 (51:17) a case for not having a chip on your shoulder (54:36) 1-dimensional winners (1:00:55) recommended reading — Links: • Zapier - https://zapier.com/ — Check Out Sam's Stuff: • Hampton (joinhampton.com): My community for founders. Average member does $25m/year. Many of the guests are members. Get after it...apply: http://joinhampton.com/mfm — Check Out Shaan's Stuff: • Shaan's weekly email - https://www.shaanpuri.com • Visit https://www.somewhere.com/mfm to hire worldwide talent like Shaan and get $500 off for being an MFM listener. Hire developers, assistants, marketing pros, sales teams and more for 80% less than US equivalents. • Mercury - Shaan uses Mercury across all of his companies. you can too: http://mercury.com/ Mercury is a fintech company, not an FDIC-insured bank. Banking services provided by Choice Financial Group, Column, N.A., Members FDIC • I run all my newsletters on Beehiiv and you should too + we're giving away $10k to our favorite newsletter, check it out: beehiiv.com/mfm-challenge My First Million is a HubSpot Media Podcast // Brought to you by HubSpot Media // Production by Arie Desormeaux // Editing by Ezra Bakker Trupiano /",
+      "duration": "4141",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "0a443ab54d526a96675b8e1d",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Wade Foster shares AI productivity tips, useful but not transformative for DJ's focus.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "92cbdd9faa44c7a07c5d21fa",
+      "show_name": "The Cognitive Revolution",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "RL's a Hell of a Drug: Metagaming, Reward Seeking & Motivated CoT Reasoning – Bronson Schoen, Apollo",
+      "link": "https://www.cognitiverevolution.ai/rl-s-a-hell-of-a-drug-metagaming-reward-seeking-motivated-cot-reasoning-bronson-schoen-apollo/",
+      "published": "2026-08-26T11:02:32+00:00",
+      "summary": "Nathan talks with Apollo Research Member of Technical Staff Bronson Schoen, who studies raw frontier-model chain-of-thought, about what those reasoning traces reveal during reinforcement learning. They unpack Apollo and OpenAI’s metagaming work, including models that reason about the grader or safety review board, diagnose a deception test, and still rationalize lying. Schoen argues that “RL is a hell of a drug”: reward-seeking can produce motivated reasoning, cleaner-looking but less trustworthy chains of thought, and behavior that tracks grading authorities rather than users, labs, or law. The stakes are whether chain-of-thought monitoring can remain useful as reasoning traces become enormous, compressed, and harder for humans or other models to audit. For full show notes, links, and references, read the episode page:https://www.cognitiverevolution.ai/rl-s-a-hell-of-a-drug-metagaming-reward-seeking-motivated-cot-reasoning-bronson-schoen-apollo/ Sponsors: Mercury: Mercury is the banking platform loved by 300,000+ entrepreneurs, with virtual cards and Spend controls for granular budgets, receipts, and low-risk AI agent purchases. Learn more and apply in minutes at https://mercury.com Diffusion: Diffusion helps organizations build custom AI software factories that scale business outcomes, not just outputs. Cognitive Revolution listeners get a 25% service credit on their first engagement at https://diffusion.io/tcr Granola: Granola is an AI-powered notepad that securely transcribes meetings and turns rough notes into clean, structured action items. Try it free at https://granola.ai/tcr Deepgram Flux TTS: Deepgram Flux TTS brings lifelike AI voices with real personalities that handle interruptions, pauses, and natural conversation. Try all the voices free through September 12 at https://deepgram.com/keep-talking Claude: Claude is the AI collaborator for problem solvers, helping with writing, coding, financial models, strategy, and more. Get started with Claude and explore Claude Pro at https://claude.ai/tcr PRODUCED BY: https://aipodcast.ing SOCIAL LINKS: Website: https://www.cognitiverevolution.ai Twitter (Podcast): https://x.com/cogrev_podcast Twitter (Nathan): https://x.com/labenz LinkedIn: https://linkedin.com/in/nathanlabenz/ Youtube: https://youtube.com/@CognitiveRevolutionPodcast Apple: https://podcasts.apple.com/de/podcast/the-cognitive-revolution-ai-builders-researchers-and/id1669813431 Spotify: https://open.spotify.com/show/6yHyok3M3BjqzR0VB5MSyk",
+      "duration": "8063",
+      "old_score": 51,
+      "old_label": "skip",
+      "qwen": {
+        "id": "92cbdd9faa44c7a07c5d21fa",
+        "score": 80,
+        "tier": "listen",
+        "reason": "Deep dive into RL, motivated reasoning, and metagaming with implications for AI alignment and safety.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "aa9b12193b5cf7bc9cfb471d",
+      "show_name": "Big Technology Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "How AI Should Handle News, Politics, Medicine, and Mental Health — With Campbell Brown",
+      "link": "",
+      "published": "2026-08-26T10:00:00+00:00",
+      "summary": "Campbell Brown is the CEO of Forum AI. Brown joins Big Technology Podcast to discuss how AI models should handle sensitive information involving news, politics, medicine, and mental health. Tune in to hear how experts can evaluate chatbots for accuracy, bias, source quality, and context, and why independent standards will be essential as people increasingly trust AI’s answers. We also cover AI’s threat to the journalism business, the limits of expert consensus, chatbot sycophancy, election misinformation, and the rise of AI companions. Hit play for a nuanced conversation about who should decide what AI tells us when the stakes are highest. --- Enjoying Big Technology Podcast? Please rate us five stars ⭐⭐⭐⭐⭐ in your podcast app of choice. Watch the full documentary here: https://www.gravitee.io/ai-agent-documentary Want a discount for Big Technology on Substack + Discord? Here’s 25% off for the first year: https://www.bigtechnology.com/subscribe?coupon=0843016b Stop online threats before they become real-world attacks. Visit ⁠ironwall.com/BIGTECHNOLOGY⁠ and request a free Risk Assessment to see exactly how exposed your executives are Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "duration": "3593",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "aa9b12193b5cf7bc9cfb471d",
+        "score": 60,
+        "tier": "digest",
+        "reason": "Discussion on AI handling of sensitive domains like news and medicine offers policy and product insights.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "8cd0b9f21624445540a604a5",
+      "show_name": "Stratechery",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "Apple Updates Mini and Studio, AI Computers, OpenAI Jalapeño",
+      "link": "https://stratechery.com/2026/apple-updates-mini-and-studio-ai-computers-openai-jalapeno/",
+      "published": "2026-08-26T10:00:00+00:00",
+      "summary": "Apple and OpenAI have two completely different hardware announcements; both represent pressure on Nvidia.",
+      "duration": "",
+      "old_score": 38,
+      "old_label": "skip",
+      "qwen": {
+        "id": "8cd0b9f21624445540a604a5",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Apple and OpenAI hardware moves signal strategic shifts in AI compute and Nvidia competition.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "b5144d143bb78510b605f8f9",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "The State of AI: Macro, Apps, and Consumer",
+      "link": "https://a16z.simplecast.com/episodes/the-state-of-ai-macro-apps-and-consumer-0SpxP4t2",
+      "published": "2026-08-26T10:00:00+00:00",
+      "summary": "Anish Acharya joins Jen Kha to break down the next frontier of AI, from the evolving model landscape and open-source AI to why the application layer, and consumer AI in particular, may be entering a new phase. Anish explains why he believes there will be multiple winners at the model layer, why traditional moats like network effects, scale, and brand still matter, and how companies can choose between frontier and open-weight models depending on the economics of the task. They also explore why models are increasingly specializing, and how applications can combine different types of intelligence to create products that are more valuable than any single model. The conversation then turns to consumer AI: personal agents that can shop and manage your inbox, coding tools enabling a new generation of small businesses, and why Anish thinks we're seeing a renaissance for consumer builders. They also discuss the changing economics of AI software, the rise of \"luxury software,\" and why the biggest risk for today's founders may no longer be thinking too big, but thinking too small. Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:37:14",
+      "old_score": 47,
+      "old_label": "skip",
+      "qwen": {
+        "id": "b5144d143bb78510b605f8f9",
+        "score": 75,
+        "tier": "digest",
+        "reason": "a16z breaks down AI macro trends, model specialization, and consumer AI renaissance with durable insights.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "4521d54bc7d97fae91f19e76",
+      "show_name": "Possible",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Inside an AI-powered personal dashboard | Matthew Tiemann",
+      "link": "",
+      "published": "2026-08-26T07:01:00+00:00",
+      "summary": "AI strategist Matthew Tiemann is building toward a world where AI agents work around the clock—and humans step in for the decisions that matter. Across his work at energy services company Foundry-Logic and his personal projects, he uses Claude Code, Codex, and Fable to automate knowledge work and accelerate software development. Those projects range from an AI-assisted iOS game to a personal dashboard informed by his goals, to-do list, and Oura Ring sleep data. Drawing on experience across data analytics, supply chain, robotics, logistics, and energy, Matthew joins Reid Hoffman and Parth Patil to explore proactive “heartbeat” agents and shared context. They also discuss adversarial review, 12-hour human check-ins, and AI’s limits in subjective judgment—revealing why human vision and alignment remain essential.",
+      "duration": "1909",
+      "old_score": 59,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "4521d54bc7d97fae91f19e76",
+        "score": 60,
+        "tier": "digest",
+        "reason": "Matthew Tiemann explores personal AI dashboards and agent workflows with practical implementation takeaways.",
+        "confidence": "medium"
+      }
+    }
+  ]
+}
