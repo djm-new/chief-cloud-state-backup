@@ -33,3 +33,11 @@ DJ expects Hermes to inspect available live metadata/logs for Telegram topic IDs
 DJ's meeting-prep preference: deliver the actual concise prep card he would use before a meeting, not a framework/spec. Do not infer agenda from stale or weak note matches; if context is weak, say that plainly and provide a sharp opening question/branching posture rather than pseudo-smart guessed context.
 §
 DJ's meeting prep standard: start with meeting identity/recurrence and prior note to-dos/followups/highlights; verify whether followups were actioned via Slack and other notes; then inspect participant-specific recent communications for this topic; then retrieve topic-specific context. Avoid repeating generic person context across multiple same-day meetings, and never infer the agenda from weak/stale matches.
+§
+DJ does not want project artifacts stored on Railway/VM disk as a durable destination; artifacts should live in GitHub or his personal Google Drive, and local /opt paths should be treated as temporary working cache to clean up aggressively.
+§
+DJ does not want raw background-process completion notifications in Telegram; avoid terminal(background=true, notify_on_complete=true) for build/deploy jobs unless explicitly requested, and poll/wait silently instead.
+§
+DJ expects product work to be validated by real end-user interaction before being called done; health checks, endpoint smoke tests, source retrieval, or tests alone are not sufficient if the user experience is the deliverable.
+§
+Ben Bot should use Ben Horowitz's corpus as grounded source material for reasoning, not as a cage for extractive answers; DJ wants it to make logical inferences from retrieved evidence while clearly distinguishing direct citations from synthesized judgment.

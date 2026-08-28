@@ -37,6 +37,7 @@ See `references/standalone-services-and-repo-connection.md` for the repo/service
 See `references/service-domain-discovery.md` for live-domain lookup and GitHub connection GraphQL snippets.
 See `references/private-gallery-review-apps.md` for secret-link gallery/review apps with shared decisions, activity tracking, and contact sheets.
 See `references/private-gallery-review-apps.md` for secret-link gallery/review apps with shared decisions, activity tracking, and contact sheets.
+See `references/private-repo-local-cli-deploy.md` for bypassing Railway GitHub App private-repo fetch failures by creating project/service via GraphQL, generating a project token, deploying the local checkout with `railway up --ci`, and fixing service-domain target port mismatches.
 See `references/billing-memory-diagnostics.md` for Railway invoice/RAM attribution, Gmail receipt lookup, GraphQL usage queries, and safely deleting unused services/volumes/projects.
 
 1. **Verify local build first**
@@ -84,13 +85,18 @@ See `references/billing-memory-diagnostics.md` for Railway invoice/RAM attributi
    If `whoami` is inconclusive but you have a fresh token, do a direct GraphQL read against `https://backboard.railway.com/graphql/v2` with `Authorization: Bearer <token>` and a browser-like `User-Agent` to confirm the token actually works for API reads. See `references/railway-auth-verification.md`.
 
    Common GraphQL operations for automation:
+   - `me { workspaces { id name } }` — discover workspace IDs when `projects(first:...)` is empty but auth is valid
+   - `projectCreate(input:{..., workspaceId:...})` — create a project; workspaceId is required
    - `serviceConnect` — attach a GitHub repo to a Railway service
    - `serviceInstanceAutoDeployStatus` — confirm auto-deploy is enabled
    - `serviceDomainCreate` — create the default Railway domain when `domains` is empty
    - `serviceInstanceDeployV2` — trigger a deploy from a specific Git commit SHA
    - `deployments` — list/poll deployment status and build IDs
 
+   See `references/graphql-workspace-project-create.md` for Railway GraphQL workspace discovery, projectCreate inputs, private GitHub repo fetch failures, and project creation rate limits.
+
    See `references/railway-empty-project-and-tailwind-postcss.md` for the empty-project trap and the Tailwind/PostCSS build failure pattern.
+See `references/local-cli-deploy-with-project-token.md` for bypassing private GitHub App repo-access failures by creating a project token and running `railway up --ci` from the local checkout, plus the 502/domain-target-port mismatch fix.
 
 3. **Avoid repeated browserless auth loops**
 
@@ -256,8 +262,12 @@ See `references/railway-billing-cleanup.md` for GraphQL snippets and the OpenCla
 
 ## Pitfalls
 
+- **GitHub App deploy-source failure is not always a blocker.** If Railway GraphQL says `Repository "owner/repo" not found or is not accessible` or `Failed to fetch repository files` for a private repo, but GitHub push works and Railway GraphQL account auth works, bypass the GitHub App layer: create/reuse the Railway project and service via GraphQL, create a `projectTokenCreate` token for the environment, install/source the Railway CLI if needed, then run `RAILWAY_TOKEN=<project-token> railway up --ci --service <service-id>` from the local checkout. This deploys a local snapshot without requiring Railway GitHub App repo access. See `references/local-cli-deploy-with-project-token.md`.
+- **Public 502 after successful deploy can be a domain target-port mismatch.** If Railway deployment is `SUCCESS` and logs show Uvicorn/listener on `0.0.0.0:<PORT>` with internal health checks passing, but the public `.up.railway.app` URL returns `Application failed to respond`, query the service domain and update `targetPort` to the logged runtime port (often `8080`, not the fallback in `railway.toml`). Verify with public `/health` and a real app request.
 - **Authenticated API token does not prove target-project access.** Direct GraphQL `me` can succeed while `projects` is empty or the target `service(id:)` returns `Not Authorized`. Treat that as wrong workspace/account/scope for the deployment target, not as proof the Railway API is broken. Verify the token can actually see the project/service/environment needed for deploy before trying `railway up` or repo-trigger mutations.
 - **CLI auth and GraphQL auth can diverge.** If `railway whoami` rejects a token but GraphQL `me` succeeds, continue with GraphQL for diagnostics, but do not assume deploy rights exist until the token can read the target project/service.
+- **Railway GitHub App private-repo fetch failure is not necessarily a blocker.** If GraphQL/API auth can create/read the project but repo-backed `projectCreate` or `serviceInstanceDeployV2` says `Failed to fetch repository files` or `Repository "owner/repo" not found or is not accessible`, bypass the GitHub App path: create the project/service via GraphQL, create a `projectTokenCreate` token, install/use Railway CLI, then run `RAILWAY_TOKEN=<project-token> railway up --ci --service <service-id>` from the local checkout. See `references/private-repo-local-cli-deploy.md`.
+- **Domain target port can differ from the start-command fallback port.** Railway may run the app on `$PORT` such as `8080` even if `railway.toml` says `${PORT:-8000}` and the service domain was manually created with `targetPort: 8000`. If logs show the app listening and internal health passing but the public URL returns edge `502 Application failed to respond`, inspect `serviceInstance.domains.serviceDomains.targetPort` and update it to the actual app port with `serviceDomainUpdate`.
 - **Deploy verification must use a UI marker for frontend fixes.** A healthy `/api/health` only proves the old or current backend is reachable. For UI changes, compare a visible marker from the change (copy, label, route output, asset content) against the live page or user screenshot before declaring production updated.
 - **Do not call a local commit “done” when push/deploy is blocked.** If git push fails or Railway project access is missing, report the local commit hash and the exact external access gate; do not imply the production app has changed.
 - **Cost audits: distinguish RAM from storage.** Railway invoices may label the large line item as `Memory (per MB / min)`: that is runtime RAM for awake containers over time, not persistent volume storage. Query usage with `MEMORY_USAGE_GB` grouped by `PROJECT_ID,SERVICE_ID`, map IDs back to projects/services, and identify always-on services (`sleepApplication: false`) before blaming volumes. Storage/volume fullness alerts are a separate issue from RAM billing.

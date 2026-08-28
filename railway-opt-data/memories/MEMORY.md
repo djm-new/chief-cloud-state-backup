@@ -33,3 +33,5 @@ Granola Windows automation context: DJ uses free Granola on Windows; local files
 Meeting prep briefs for DJ should deliver to Telegram Chief Group - Hermes topic Meeting Briefs: target telegram:-1003956828149:8289.
 §
 Chief Group - Hermes Telegram topic map includes Meeting Briefs = message_thread_id 8289 in chat -1003956828149. Pre-meeting briefing generator should deliver to telegram:-1003956828149:8289.
+§
+Ben Bot project convention: repo is djm-new/ben-bot under /opt/data/projects/ben-bot; user wants the product named “Ben Bot” everywhere and responses to feel like a direct first-person conversation with Ben while retaining grounding/disclaimer guardrails.

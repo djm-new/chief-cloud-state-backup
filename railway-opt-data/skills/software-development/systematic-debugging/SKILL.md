@@ -238,6 +238,22 @@ When a usage dashboard or spend report undercounts Hermes model usage:
 - Treat ledger writes as best-effort instrumentation, but make the capture path explicit so side-channel usage is not lost.
 - Add a regression test or probe that proves the auxiliary call writes a spend event.
 
+### 11. For RAG / Corpus Completeness Gaps, Debug Discovery Before Patching One Source
+
+When a user says a grounded agent is missing a source that “should be in the corpus,” treat it as a corpus-discovery bug, not a one-off content request:
+
+- Reproduce the gap in three places: corpus files, bibliography/manifest records, and retrieval index results. A source can exist in one layer but be absent from another.
+- Trace the original discovery/enumeration method from runbooks, coverage reports, and ingestion scripts. Identify whether it depended on archive URLs, sitemaps, RSS, search, or seed-list matching.
+- Verify the target source independently from authoritative/live metadata before ingesting: HTTP status, canonical URL, author/speaker metadata, publish date, and content-specific phrases.
+- If archive/sitemap enumeration missed a live legacy/migrated page, record that as the root cause in the run log/coverage report and add the canonical artifact; do not simply say “added missing post.”
+- Do not treat “my discovered list ingested cleanly” as a completeness proof. Reconcile at least one independent ground-truth-ish source for the class (e.g. PDF/book TOC, full HTML sitemap, category pages, author pages, RSS/Wayback) against the manifest, and report raw checked count, verified-author count, and missing count.
+- After adding content, rebuild every downstream layer that serves the agent: bibliography/manifest, cleaned corpus, chunks, retrieval index, source metadata, tests/probes, and deployed runtime if applicable.
+- Convert the audit into a regression invariant: add a test that fails if `missing_count != 0`, if the missing list is non-empty, or if the audited candidate/verified counts unexpectedly drop below a floor. This prevents future silent corpus regressions.
+- Verify both retrieval rank and answer/source payload. For web/API agents, assert that the expected source ID ranks first and that citation/source cards include the canonical URL.
+- For “does X exist in the corpus?” user tests, treat a clunky/repetitive answer as a runtime bug even if retrieval found the right source. Add composer/runtime tests that assert direct source identity, canonical URL, key grounded concept, and absence of irrelevant secondary sources or repeated template phrases.
+- Do not call a RAG app “working” after only a health check or one happy-path API call. Interact with the deployed UI/API across several realistic questions and inspect latency, source relevance, and answer coherence. Instant answers that simply quote snippets are a sign the runtime may be a deterministic retriever/stitcher rather than a real conversational composer.
+- Trace the runtime composition path explicitly: endpoint → retriever → reranker/composer → provider/env config → response. If the product is supposed to be an LLM-backed advisor, verify a model call is actually configured and exercised in production; otherwise report it as a preview/snippet mode, not a bot.
+
 ### Phase 1 Completion Checklist
 
 - [ ] Error messages fully read and understood
@@ -455,6 +471,7 @@ When fixing bugs:
 
 ## References
 
+- `references/corpus-grounded-agent-debugging.md` — debugging RAG/persona/corpus agents that pass endpoint tests but fail real conversational reasoning, including corpus-brain layers, follow-up referent resolution, concept-aware retrieval, and product-level interaction verification.
 - `references/nextjs-prisma-api-500.md` — minimal reproduction and fix pattern for Next.js API routes whose form payload validates but Prisma/ORM writes fail, especially date-only strings sent to DateTime fields or raw parsed data used in upsert updates.
 - `references/nextjs-app-router-server-refresh.md` — fix pattern for client-side mutations that save successfully but leave server-rendered App Router dashboard cards stale until `router.refresh()` or a full reload.
 - `references/app-day-timezone-debugging.md` — debugging and fix pattern for apps that show/log the wrong day because server UTC date keys are used instead of the product timezone/app day.

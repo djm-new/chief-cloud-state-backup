@@ -1,0 +1,291 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-08-27_2103",
+  "usage": {
+    "prompt_tokens": 5275,
+    "completion_tokens": 1062,
+    "total_tokens": 6337
+  },
+  "episodes": [
+    {
+      "id": "ce31f8d7f4bf189ca9b127e9",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "How to buy a laptop when everything’s expensive",
+      "link": "",
+      "published": "2026-08-27T20:13:00+00:00",
+      "summary": "If, after months of increasingly dire RAMageddon warnings, you just now find yourself in the market for a new laptop... we're here to help. In the latest installment of our \"RAMageddon Survival Guide,\" laptop reviewer Antonio G. Di Benedetto joins David Imel to offer his recommendations. Further reading: Apple announces September iPhone launch event Xbox announces disc-to-digital feature that digitizes your physical games Xbox’s limited-edition green Series X is already sold out Panic is passing Playdate tariff refunds on to customers A RAMageddon guide to back-to-school laptop shopping An okay laptop with 16GB of RAM is better than a nice laptop with 8GB, and this $520 HP OmniBook proves it This is my new favorite laptop, but thanks to RAMageddon the price already went up by $800 Subscribe to The Verge for unlimited access to theverge.com, subscriber-exclusive newsletters, and our ad-free podcast feed. We love hearing from you! Email your questions and thoughts to vergecast@theverge.com or call us at 866-VERGE11. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "1861",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "ce31f8d7f4bf189ca9b127e9",
+        "score": 30,
+        "tier": "skip",
+        "reason": "Consumer laptop buying guide focused on hardware pricing, not relevant to capital allocation or AI strategy.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "f974aaad3b3e02e84e52d03b",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: August 27th, 2026",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-august-27th-2026",
+      "published": "2026-08-27T16:00:00+00:00",
+      "summary": "Featuring: Aaron Kennon, CEO & Co-Founder of Clear Harbor Asset Management Stuart Benjamin, Professor at the Duke Center for Innovation Policy Torsten Slok, Partner & Chief Economist at Apollo Management See omnystudio.com/listener for privacy information.",
+      "duration": "1303",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "f974aaad3b3e02e84e52d03b",
+        "score": 50,
+        "tier": "scan",
+        "reason": "Bloomberg Surveillance episode with mixed macroeconomic and policy content, potential for market insights.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "84fae17de8cb5cec4b71f9b4",
+      "show_name": "Eye on AI",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Inside Ukraine's Azov Drone R&D: The Engineer Building AI Weapons 18 km From the Front Line | Alexander Palamarchuk",
+      "link": "https://aneyeonai.libsyn.com/inside-ukraines-azov-drone-rd-the-engineer-building-ai-weapons-18-km-from-the-front-line-alexander-palamarchuk",
+      "published": "2026-08-27T14:26:00+00:00",
+      "summary": "The most consequential arms race in the world right now isn't nuclear, it's software. Craig Smith speaks with Alexander Palamarchuk, an engineer in the R&D department of Ukraine's Azov Brigade, calling in from approximately 18 kilometers from the front line in the Pokrovsk region. What emerges is one of the most technically candid accounts available of what drone warfare actually looks like from the inside: how Ukraine went from homemade reconnaissance drones in 2014 to AI-guided systems being developed and tested in real combat today, how the jamming arms race has forced his unit to develop custom frequency systems spanning 100 to 3,000 megahertz in a constant search for clean windows Russia hasn't yet closed, and why the tank - once the defining weapon of land warfare - has been reduced on the modern battlefield to a mobile jamming platform. The most important distinction Alexander draws is one that rarely surfaces in mainstream coverage: AI already exists that can recognize and classify vehicles and people with high accuracy. The unsolved problem isn't recognition, it's discrimination, determining with certainty whether a recognized target is military or civilian. That gap is the only thing standing between today's AI-assisted drones and fully autonomous lethal systems, and Alexander puts the timeline for closing it at approximately two years. The US maintains an official policy of not developing fully autonomous lethal weapons for ethical reasons. On the battlefield 18 kilometers from where Alexander is speaking, that policy is being outpaced in real time, and he is clear that NATO's software advantage positions Western countries to win that race before anyone else gets there. Subscribe to Eye on A.I. for weekly conversations with the people building and deploying the future of AI.",
+      "duration": "41:48",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "84fae17de8cb5cec4b71f9b4",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Detailed technical and strategic insights into AI-guided drone warfare from Ukraine's front line engineer.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "78a3b9c21ef34d02856c420c",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Jackson Hole Preview",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/jackson-hole-preview",
+      "published": "2026-08-27T13:38:22+00:00",
+      "summary": "The latest in finance, economics and investment. Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF. Bloomberg Surveillance hosted by Tom Keene & Paul Sweeney Thursday, August 27th, 2026 Featuring: 1) Andrew Sheets, Global Head of Fixed Income Research at Morgan Stanley, joins to discuss bond market signals and global credit opportunities as central bankers convene at Jackson Hole. 2) Angelo Zino, SVP and Tech Lead at CFRA Research, breaks down Nvidia's earnings blowout and other tech headlines. 3) Brett Ewing, Chief Market Strategist at First Franklin Financial Services, talks the broken rate hike case and how the bond market is pricing in Kevin Warsh and Scott Bessent. 4) Aoifinn Devitt, Managing Director: Global Wealth at Moneta Group, on the big themes for Jackson Hole and markets. See omnystudio.com/listener for privacy information.",
+      "duration": "1926",
+      "old_score": 16,
+      "old_label": "skip",
+      "qwen": {
+        "id": "78a3b9c21ef34d02856c420c",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Jackson Hole preview with tech and bond market insights relevant to macro and AI investment themes.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "e1cb23aa26e971226a737737",
+      "show_name": "Infinite Loops",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Julian Gough — The Egg and The Rock (Infinite Loops Classics)",
+      "link": "https://infiniteloopspodcast.com/249",
+      "published": "2026-08-27T12:00:00+00:00",
+      "summary": "We're digging out some of our favorite conversations from the archive. This one is from January 2025, with Julian Gough. Enjoy. Julian Gough sums up his career as follows: \" I just sit in my room and write.\" Well, I think being an acclaimed children's author, novelist, stage playwright, poet and top-ten Irish musician is a little more impressive than he's letting on… Oh, and I didn't even mention that he wrote the ending to the computer game Minecraft! His current project, The Egg and The Rock, puts all of this to shame. This book, which Julian is writing in public on Substack, seeks to do no less than redescribe the universe, arguing that is not some random, dead, purposeless sack of chemicals, but instead a living, evolving organism. Julian joins me to discuss why the arc of human evolution bends towards man-made black holes, the hidden catastrophe at the heart of materialist science, the strange life of subterranean ice aliens, and MUCH more! This was such an interesting conversation - I can't wait for you to hear it. For the full transcript, episode takeaways, and bucketloads of other goodies designed to make you go, \" Hmm, that's interesting!\", check out our Substack . Important Links: Julian's Website The Egg and The Rock Julian's Twitter Show Notes: \" I just sit in my room and write\" Why write a book in public? Materialism & science's hidden catastrophe \"The scientific method is in conflict with human nature\" The faulty assumption at the heart of cosmology Big bangs, supermassive black holes & Darwinian evolution: A ~30 minute masterclass in cosmological natural selection \"I'm predicting very, very large amounts of life in this universe\" The strange life of subterranean ice aliens Could we spot man-made black holes? Bringing consciousness into physics Pulling back the curtain Julian as World Emperor MORE! Books & Articles Mentioned: The New Inquisition: Irrational Rationalism and the Citadel of Science; by Robert Anton Wilson Against Method: Outline of an Anarchistic Theory of Knowledge; by Paul Feyerabend What the Tortoise Said to Achilles; by Lewis Carroll The Life of the Cosmos; by Lee Smolin What Is Life? The Physical Aspect of the Living Cell; by Erwin Schrödinger Isis Unveiled: A Master-Key to the Mysteries of Ancient and Modern Science and Theology; by Helena Petrovna Blavatsky The Bhagavad Gita Did the Universe evolve? ; by Lee Smolin The Great Filter - Are We Almost Past It? ; by Robin Hanson",
+      "duration": "01:47:30",
+      "old_score": 0,
+      "old_label": "skip",
+      "qwen": {
+        "id": "e1cb23aa26e971226a737737",
+        "score": 40,
+        "tier": "skip",
+        "reason": "Philosophical conversation about universal evolution, not actionable for business or AI strategy.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "593108af9aba94493f5f96a1",
+      "show_name": "Odd Lots",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "Kansas City Fed President Jeffrey Schmid on the First Jackson Hole of the Warsh Era",
+      "link": "https://omny.fm/shows/odd-lots/kansas-city-fed-president-jeffrey-schmid-on-the-first-jackson-hole-of-the-warsh-era",
+      "published": "2026-08-27T11:30:00+00:00",
+      "summary": "We are back in Jackson Hole! And this year's Federal Reserve Bank of Kansas City symposium on monetary policy might be one of the most interesting editions in years. It marks the first under new Fed Chairman Kevin Warsh, and Fed observers all over the world will be closely watching his Friday speech for signs of how he might further distinguish himself, and the institution he is in charge of, from the Jerome Powell era. This meeting at Jackson Hole also comes at a fascinating, and pretty tense, time for monetary policy in the US and abroad: high bond yields, above-target inflation, and AI's still unrealized effect on broader parts of the economy like the job market. As we have in the past, we speak with Jeffrey Schmid, the president and CEO of the Kansas City Fed, about what to expect and he also shares his thoughts on the wave of baby boomer retirements and how it's affecting the labor force, his recent FOMC votes, and he explains why this symposium is so focused on payments. See omnystudio.com/listener for privacy information.",
+      "duration": "1736",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "593108af9aba94493f5f96a1",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Jackson Hole insights with Kansas City Fed President on monetary policy and AI's economic impact.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "77d082fa9aeeb2445a09e7be",
+      "show_name": "No Priors",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Rethinking Legacy Data Infrastructure with Eon Co-Founders Ofir Ehrlich and Gonen Stein",
+      "link": "",
+      "published": "2026-08-27T10:00:00+00:00",
+      "summary": "Google’s purchase of Spirit Airlines’ data out of bankruptcy signaled a shift in how the tech world values real-world datasets. Although compute and models get much of the attention, in this landscape, it’s data that is a company’s protective moat. Eon CEO / Co-Founder Ofir Ehrlich and President / Co-Founder Gonen Stein join Elad Gil to talk about how Eon is redefining cloud backup into a secure data foundation designed to power and protect enterprise AI. Ofir and Gonen discuss why historical enterprise data is in demand by AI labs, and how Eon facilitates access to scattered and locked data across business units through providing the mapping, classification, and access controls needed to connect it into AI workflows. They also explore how traditional ransomware defenses must now protect against rogue AI agents with legitimate system permissions, concerns around the influx of autonomous agents and non-human identities, and the implications for the breakneck speed of AI adoption compared to the slowness of the cloud era. Sign up for new podcasts every week. Email feedback to show@no-priors.com Follow us on Twitter: @NoPriorsPod | @Saranormous | @EladGil | @Eon_io_ | @OfirEhrlich Chapters: 00:00 – Cold Open Trailer 00:59 – Ofir Ehrlich and Gonen Stein Introduction 01:27 – What Eon Does 02:41 – Data as Moat 06:43 – Training Agents with Good Data 09:39 – Data is the New Oil 15:00 – Autonomous Security Threats 18:15 – How Agents Change the Enterprise Stack 22:11 – Re-imagining Data Infrastructure 27:52 – Cloud vs. AI Era Shift 30:26 – How AI is Changing Companies 34:31 – Conclusion",
+      "duration": "2090",
+      "old_score": 51,
+      "old_label": "skip",
+      "qwen": {
+        "id": "77d082fa9aeeb2445a09e7be",
+        "score": 80,
+        "tier": "listen",
+        "reason": "Enterprise data infrastructure redefined for AI workflows, with ransomware and agent risk implications.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "407e0f9486b719c0e8df22cf",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Inside Cursor: The Anatomy of a Generational Startup",
+      "link": "https://a16z.simplecast.com/episodes/inside-cursor-the-anatomy-of-a-generational-startup-eVZ_egyp",
+      "published": "2026-08-27T10:00:00+00:00",
+      "summary": "a16z General Partners Martin Casado, Sarah Wang, and Matt Bornstein unpack the story of Cursor: how a small, product-obsessed team entered one of the most competitive markets in technology, took on incumbents with seemingly unbeatable advantages, and repeatedly made decisions that ran against conventional startup wisdom. They revisit the early bet that the interface between humans and AI would matter more than building a coding-specific foundation model, why Cursor built its own product rather than a VS Code plugin, and how the founders' ability to say \"no\" became one of the company's defining strengths. They also discuss Cursor's rapid evolution from IDE to agent and model platform, and why the team was willing to cannibalize its own products as AI capabilities improved. The conversation gets into what founders can learn from Cursor's approach to competition, hiring, enterprise sales, M&A, and company culture, including why the team remained unfazed by competitors from Microsoft to Anthropic and how its obsessive focus on product ultimately extended into every part of building the company. Resources: Explore Cursor Compile: https://cursor.com/compile Follow Martin Casado on X: https://x.com/martin_casado Follow Matt Bornstein on X: https://x.com/BornsteinMatt Follow Sarah Wang on X: https://x.com/sarahdingwang Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:39:29",
+      "old_score": 57,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "407e0f9486b719c0e8df22cf",
+        "score": 85,
+        "tier": "listen",
+        "reason": "Deep dive into Cursor's product and strategy as a generational AI startup with competitive moats.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "4e19c305e6c344e9bfa0fa95",
+      "show_name": "Decoder with Nilay Patel",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "OpenAI's executive exodus has one big winner",
+      "link": "",
+      "published": "2026-08-27T09:00:00+00:00",
+      "summary": "Today, I’m talking with Hayden Field, The Verge’s senior AI reporter, about some pure Decoder bait: the seemingly-endless org chart changes at OpenAI, and how all of them seem to consolidate power under cofounder Greg Brockman, the company’s president. While Sam Altman is the CEO and still OpenAI’s most public face, Brockman has amassed enormous power and influence within the top ranks of the company as other senior leaders have left in rapid succession. So I wanted Hayden to break down for me what’s going on at OpenAI, and the increasingly important role Greg Brockman will play in its future. Links: It’s Greg Brockman’s OpenAI now | The Verge OpenAI’s Brockman brushes off concerns about leadership changes | CNBC Sam Altman on building OpenAI & betting on the impossible | David Senra OpenAI’s Q2 sales show tepid growth compared to Anthropic | WSJ Anthropic's revenue run rate reportedly surpasses $65 billion pre-IPO | Axios OpenAI President On Reinventing Computers | Johanna Stern / YouTube Greg Brockman takes control of OpenAI’s products in latest shake-up | Wired OpenAI’s president is a Trump mega-donor | The Verge Subscribe to The Verge to access the ad-free version of Credits: Decoder is a production of The Verge and part of the Vox Media Podcast Network. Decoder is produced by Greg Ott, Kate Cox, and Nick Statt. This episode was edited by Ursa Wright. Our editorial director is Kevin McShane. The Decoder music is by Breakmaster Cylinder. Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "2440",
+      "old_score": 81,
+      "old_label": "digest_only",
+      "qwen": {
+        "id": "4e19c305e6c344e9bfa0fa95",
+        "score": 70,
+        "tier": "digest",
+        "reason": "OpenAI leadership dynamics and Greg Brockman's growing influence over strategic direction.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "bcc8cbba407ddb116d9d8351",
+      "show_name": "Masters of Scale",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Chicago Fed President on inflation, recession, and Trump’s attacks",
+      "link": "",
+      "published": "2026-08-27T09:00:00+00:00",
+      "summary": "The economy is strong, prices are still too high, and the job market is sending mixed signals. The Federal Reserve is navigating all of it while fending off the most overt political pressure in its modern history. Austan Goolsbee, President of the Chicago Fed, joins Rapid Response ahead of the Central Bank’s highly-watched meeting in Jackson Hole, to give his most candid read on what's actually going on. He explains why tariffs, war in the Middle East, and six years above the 2% inflation target make this the most dangerous inflation environment he's seen, what Kevin Warsh's new leadership means for how the Fed operates, and why he's a \"grim optimist\" on AI even as the hype keeps outrunning the results. Plus, what business leaders should actually be watching to get ahead of the Fed's next move. Visit the Rapid Response website here: https://www.rapidresponseshow.com/ See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info .",
+      "duration": "00:35:42",
+      "old_score": 8,
+      "old_label": "skip",
+      "qwen": {
+        "id": "bcc8cbba407ddb116d9d8351",
+        "score": 60,
+        "tier": "scan",
+        "reason": "Fed inflation and AI outlook from Chicago Fed President with mixed strategic value.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "930c45e4f4d3bd21c5019cd5",
+      "show_name": "The Twenty Minute VC",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "20VC: NVIDIA Bonanza: Buys Poolside & Invests in Mercor and Perplexity | Anthropic's $30TRN Revenue Assumption & OpenAI Confirms IPO | Why Customer Service, Defence and Robotics are Overinflated",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-nvidia-bonanza-buys-poolside-invests-in-mercor-and-perplexity-anthropics-30trn-revenue-assumption-openai-confirms-ipo-why-customer-service-defence-and-robotics-are-overinflated",
+      "published": "2026-08-27T07:07:00+00:00",
+      "summary": "AGENDA: 00:00 NVIDIA Launches a Three-Deal Blitz Across the AI Stack 04:31 NVIDIA's $12BN Poolside Deal Exposes Frontier AI's Capital Wall 15:39 NVIDIA Moves to Back Mercor at $20BN and Perplexity at $30BN 26:55 OpenAI Confirms 2027 IPO as Anthropic Seizes the Lead 40:42 Hugging Face Draws $13BN Takeover Interest as Open Models Boom 44:56 Citadel Cashes Out 80% of Its Leopold Aschenbrenner AI Trade 51:51 AI Boom Is \"Less Than One-Third Over\"—But Token Addiction Has a Price 01:04:07 Stripe Reaccelerates to 41% as AI Reshapes Software's Leaderboard 01:07:45 Instinct Security Scare Exposes Why AI Agents Still Cannot Be Trusted 01:23:55 VCs Name AI's Biggest Bubbles: Support, Defense, Humanoids and Roll-Ups",
+      "duration": "01:22:40",
+      "old_score": 38,
+      "old_label": "skip",
+      "qwen": {
+        "id": "930c45e4f4d3bd21c5019cd5",
+        "score": 75,
+        "tier": "digest",
+        "reason": "NVIDIA's AI stack investments and market dynamics across key startups and IPO timelines.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "aaa9553235ab84a545019e78",
+      "show_name": "The James Altucher Show",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "How You Get Rich Isn't How You Stay Rich: 300 Years of Proof | Joseph Moore",
+      "link": "https://art19.com/shows/the-james-altucher-pod/episodes/0af3e962-04aa-45c0-8374-db4d40fa4916",
+      "published": "2026-08-27T07:00:00+00:00",
+      "summary": "A Note from James: In 1790, one of the easiest ways to get rich in America was the old-fashioned way: marry someone rich. George Washington did pretty well that way. Benjamin Franklin, meanwhile, was so deep in debt that he offered to marry a woman if her parents would mortgage their house to pay off his printing press debt. When they said no, he married someone else who had money. And back then, debt was not just annoying. It could land you in debtor’s prison. Actual prison. And not just you—your wife and kids could go too. Fast-forward to the 1900s, and most Americans still were not buying stocks. Only a tiny percentage owned shares. Everyday people were gambling, playing the numbers, using dream-interpretation books to decide what lottery number to play, and trying to find some edge that would move them a little closer to security. My guest today, Joseph Moore, literally wrote the book on this: How to Get Rich in American History: 300 Years of Financial Advice That Worked (& Didn’t). The book is full of strange, funny, surprising stories about money in America: Franklin, Washington, debtor’s prison, the Great Depression, bucket shops, real estate booms, FIRE, crypto, debt, index funds, and all the scams people keep falling for. But the bigger lesson is that the basic patterns have not changed as much as we think. People want security. People want freedom. People want hope. People want a way out. And whenever there is hope, there is usually someone selling a formula. Joseph has very little patience for the usual personal finance myths. Debt does not make you rich. Opportunity makes you rich. Real estate is not always a magic wealth machine. The stock market was not designed to be everyone’s retirement plan. FIRE can work, but it can also become the CrossFit of personal finance. And optimism, marriage, mobility, risk, and solving other people’s problems may matter more than almost anything else. If you think the rules for getting rich have changed completely, this conversation may convince you how little human nature has changed. Episode Description: Joseph Moore joins James to talk about the long, strange history of getting rich in America. His book, How to Get Rich in American History , looks at 300 years of financial advice—what worked, what failed, what people kept repeating, and what today’s money culture keeps forgetting. The conversation starts in 1790, with George Washington, Martha Washington, Benjamin Franklin, Stephen Girard, debt, leverage, and debtor’s prison. Joseph explains that many early American fortunes were built through risk, borrowed money, marriage, luck, and then—critically—de-leveraging over time. That becomes one of the core lessons of the episode: debt does not make people rich. Opportunity does. Debt is only a tool that allows someone to grab more of an opportunity than they otherwise could. But if the opportunity is not real, or the person cannot handle the risk, debt destroys them. James and Joseph then move into real estate. Joseph argues that real estate is a good way to build a modest middle-class fortune, but not usually the path to the biggest fortunes. In modern America, he says, real estate often functions as a short on the dollar, an income annuity in a low-dividend world, a tax shelter, and a way for ordinary people to use leverage they could not access anywhere else. But that does not make buying a house automatically smart. Renting versus buying depends on age, mobility, location, family needs, inflation, taxes, maintenance, transaction costs, and opportunity cost. The conversation then turns to the stock market. Joseph challenges the usual historical charts that claim anyone could have invested a fixed sum in 1929 and held forever. Most Americans could not invest that way. There were no index funds, mutual funds had high fees, and buying an index directly required enormous capital. Instead, everyday people went to bucket shops, bet on price moves, played the numbers, and treated gambl",
+      "duration": "01:03:23",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "aaa9553235ab84a545019e78",
+        "score": 45,
+        "tier": "scan",
+        "reason": "Historical financial advice overview, some context on wealth dynamics but limited actionable insight.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "6ddf3b89d0826256b3c91e52",
+      "show_name": "All-In Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Eric Weinstein: The State of American Science, Breakthrough Coverups, and the Danger of Physics",
+      "link": "https://allinchamathjason.libsyn.com/eric-weinstein-the-scientific-precariat-chinas-brain-drain-physics-stagnation-string-theorys-collapse-uaps",
+      "published": "2026-08-26T23:00:00+00:00",
+      "summary": "(0:00) Eric Weinstein joins the show! (03:09) Has American science stalled? Cowboy science, Fauci, and the scientific precariat (21:31) Weinstein's fix: Blow a hole in the Civil Rights Act, kill peer review, fund people not ideas (41:36) Ed Witten drove physics off a cliff, and is Renaissance Technologies a secret Los Alamos? (52:49) Boom, Vroom, Zoom: Did stagnant physics save the human species? (01:07:11) UAPs, multi-temporal adversaries, and Einstein's prison (01:16:12) China poaches our best scientists, AI reads the trash can corpus Thanks to our partners for making this possible! As wealth grows, complexity compounds. Between investments, tax strategy and estate planning, coordinating it all can feel like a full-time job. Creative Planning can help with the heavy lifting. https://ad.doubleclick.net/ddm/trackclk/N2598215.3565131ALLIN/B36182939.452362736;dc_trk_aid=646454825;dc_trk_cid=260464105;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;ltd=;dc_tdv=1 With over nine million acres protected across all fifty states, The Conservation Fund secures the irreplaceable lands we love. Learn more at http://conservationfund.org Follow Eric: https://x.com/ericweinstein Follow the besties: https://x.com/chamath https://x.com/Jason https://x.com/DavidSacks https://x.com/friedberg Follow on X: https://x.com/theallinpod Follow on Instagram: https://www.instagram.com/theallinpod Follow on TikTok: https://www.tiktok.com/@allin Follow on LinkedIn: https://www.linkedin.com/company/allinpod Intro Music Credit: https://rb.gy/tppkzl https://x.com/yung_spielburg Intro Video Credit: https://x.com/TheZachEffect",
+      "duration": "01:30:20",
+      "old_score": 32,
+      "old_label": "skip",
+      "qwen": {
+        "id": "6ddf3b89d0826256b3c91e52",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Eric Weinstein critiques American science stagnation and proposes radical reforms for innovation.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "b9ac6493294fc35900f84117",
+      "show_name": "Lex Fridman Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "#501 – DHH: Future of Programming, AI, Agentic Engineering, Vibe Coding & Linux",
+      "link": "https://lexfridman.com/dhh-2/?utm_source=rss&utm_medium=rss&utm_campaign=dhh-2",
+      "published": "2026-08-26T21:47:04+00:00",
+      "summary": "DHH is the creator of Ruby on Rails, Omarchy Linux, CTO of 37signals, and a racecar driver. Thank you for listening ❤ Check out our sponsors: https://lexfridman.com/sponsors/ep501-sc See below for timestamps, transcript, and to give feedback, submit questions, contact Lex, etc. Transcript: https://lexfridman.com/dhh-2-transcript CONTACT LEX: Feedback – give feedback to Lex: https://lexfridman.com/survey AMA – submit questions, videos or call-in: https://lexfridman.com/ama Hiring – join our team: https://lexfridman.com/hiring Other – other ways to get in touch: https://lexfridman.com/contact EPISODE LINKS: DHH’s X: https://x.com/dhh DHH’s Blog: https://world.hey.com/dhh Omarchy: https://omarchy.org Ruby on Rails: https://rubyonrails.org 37signals: https://37signals.com SPONSORS: To support this podcast, check out our sponsors & get discounts: Wispr Flow: AI-powered voice dictation app. Go to https://wisprflow.ai/lex Blitzy: AI agent for large enterprise codebases. Go to https://blitzy.com/lex NetSuite: Business management software. Go to http://netsuite.ai/lex Shopify: Sell stuff online. Go to https://shopify.com/lex LMNT: Zero-sugar electrolyte drink mix. Go to https://drinkLMNT.com/lex Plaud: AI-powered note-taking devices and software. Go to https://plaud.ai/lex Higgsfield AI: AI-based video generation, filmmaking, and creative studio. Go to https://higgsfield.ai Perplexity: AI-powered answer engine. Go to https://perplexity.ai/ OUTLINE: (00:00) – Introduction (01:14) – Sponsors, Comments, and Reflections (08:56) – Programming with AI agents (24:14) – How software will change (33:30) – AI impact on open source (43:21) – Building Omarchy Linux distro (53:05) – Vibe coding vs agentic engineering (1:06:06) – The end of manual programming (1:16:24) – Advice for programmers (1:28:31) – Surviving Internet Hate (1:37:46) – Programming setup for AI Agents (1:50:11) – Obsessing about speed (2:13:06) – Voice prompting vs typing (2:27:05) – Best AI coding models (2:43:55) – Best AI coding harnesses (2:56:57) – AI video generation and filmmaking (3:16:28) – Fatherhood (3:44:35) – Linux will win the desktop (3:55:51) – PewDiePie (4:05:25) – Future of programming (4:28:18) – Politics and immigration (4:59:55) – Longevity, over-optimization, and fear of death (5:11:38) – Eternal recurrence and future of human civization",
+      "duration": "5:21:57",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "b9ac6493294fc35900f84117",
+        "score": 70,
+        "tier": "digest",
+        "reason": "DHH discusses AI, programming future, and Linux with implications for developer tooling and workflows.",
+        "confidence": "high"
+      }
+    }
+  ]
+}

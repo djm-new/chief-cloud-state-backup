@@ -243,7 +243,28 @@ gh auth status
 gh auth setup-git
 ```
 
-Pitfalls:
+## Headless HTTPS push with an existing token
+
+When `git push` to an HTTPS remote fails in a headless environment with `fatal: could not read Username for 'https://github.com': No such device or address`, first check for an existing token in durable env/config stores without printing the value. If a token exists, use a temporary `GIT_ASKPASS` helper rather than changing the remote URL or echoing secrets:
+
+```bash
+ASKPASS=$(mktemp)
+cat > "$ASKPASS" <<'SH'
+#!/bin/sh
+case "$1" in
+  *Username*) printf '%s\n' x-access-token ;;
+  *Password*) awk -F= '/^GITHUB_TOKEN=/{print substr($0,index($0,"=")+1)}' /opt/data/.env ;;
+  *) printf '\n' ;;
+esac
+SH
+chmod 700 "$ASKPASS"
+GIT_ASKPASS="$ASKPASS" GIT_TERMINAL_PROMPT=0 git push origin main
+rm -f "$ASKPASS"
+```
+
+This keeps the private repo remote clean and avoids leaking the token in process output.
+
+## Pitfalls
 - PTY prompts such as “Authenticate Git with your GitHub credentials? (Y/n)” can appear stuck in automation. If so, kill the process and prefer `--with-token`.
 - Backgrounding `gh auth login --web` can lose the printed device code from logs; capture and relay the code before waiting.
 - If a timed foreground login exits while waiting, the device code may still be valid briefly, but a restarted login creates a new code. Tell the user which code is current.
@@ -329,6 +350,8 @@ git remote set-url origin https://github.com/<owner>/<repo>.git
 ```
 
 See `references/headless-token-push.md` for the reusable temporary-remote pattern.
+
+**Safer one-shot push without changing remotes:** if a token is available in `/opt/data/.env` (or another env file), use `GIT_ASKPASS` to answer the HTTPS username/password prompts from the env file without printing the token or embedding it in `origin`. See `references/headless-git-askpass-env-token.md`.
 
 **For persistent access:** use `git config --global credential.helper store` and trigger a credential prompt once (via `git ls-remote`), which saves to `~/.git-credentials`.
 

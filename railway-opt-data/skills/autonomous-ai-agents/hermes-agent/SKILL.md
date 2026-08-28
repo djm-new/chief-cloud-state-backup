@@ -786,8 +786,11 @@ terminal(command="tmux new-session -d -s resumed 'hermes --resume 20260225_14305
 - **Use `-w` (worktree mode)** when spawning agents that edit code — prevents git conflicts
 - **Set timeouts** for one-shot mode — complex tasks can take 5-10 minutes
 - **Use `hermes chat -q` for fire-and-forget** — no PTY needed
+- **Avoid raw background completion notifications for DJ-facing Telegram work** — for long builds/deploys, prefer foreground/polled commands and send only the final verified result unless the user explicitly requested raw logs or completion notifications. Background `notify_on_complete=true` can spam Docker/build output into Telegram.
 - **Use tmux for interactive sessions** — raw PTY mode has `\r` vs `\n` issues with prompt_toolkit
 - **For scheduled tasks**, use the `cronjob` tool instead of spawning — handles delivery and retry
+- **For scheduled tasks**, use the `cronjob` tool instead of spawning — handles delivery and retry
+
 
 ---
 
@@ -835,6 +838,8 @@ the `cronjob` tool, the `hermes cron` CLI (`list`, `add`, `edit`,
 User docs: https://hermes-agent.nousresearch.com/docs/user-guide/features/cron
 
 **Output discipline:** cron jobs that emit verbose status on every tick are noise. DJ expects silence on OK and actionable alerts only. Load the `cron-job-design` skill when writing or fixing cron scripts — it has the fingerprint-dedup pattern, alert format, and status-file pattern that match DJ's preferences.
+
+**Background-process completion noise:** On Telegram/gateway sessions, do not start long build/deploy/test commands with raw completion notifications unless DJ explicitly asks for build logs. Prefer foreground waits when reasonable, or run/poll silently and send only the finished, verified result. Raw messages like Docker/Railway build output from `notify_on_complete=true` read as spam and should be avoided for deploy jobs.
 
 **Chief project map:** for the full picture of what lives where (repos, live brain, workflows), see `references/chief-project-map.md`.
 

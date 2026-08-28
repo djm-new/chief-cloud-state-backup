@@ -266,6 +266,18 @@ If you catch yourself doing any of these, delete the code and restart with TDD:
 
 **All of these mean: Delete code. Start over with TDD.**
 
+## Product-level acceptance tests
+
+When the deliverable is an interactive product, bot, agent, or UI, unit/API tests are not sufficient. Write tests for the user-visible failure class before calling the work done:
+
+- multi-turn interaction transcripts, not only single-turn happy paths
+- referent/context preservation across follow-ups
+- answer relevance and non-snippet-stitching for conversational agents
+- source/evidence visibility matching cited claims
+- live end-user interaction after deploy when the user experience is the deliverable
+
+Keep “infrastructure green” separate from “product green”: `/health`, endpoint smoke tests, and “returns sources” do not prove an interactive product works.
+
 ## Verification Checklist
 
 Before marking work complete:
@@ -354,7 +366,9 @@ Never fix bugs without a test.
 - **Happy path only** — always test edge cases, errors, and boundaries
 - **Brittle tests** — tests should verify behavior, not structure; refactoring shouldn't break them
 - **Assumed fixture values** — when writing tests against seed/fixture data that already exists (e.g. a JSON seed file, a database fixture), READ THE FIXTURE FIRST before hardcoding expected values. A test that asserts `exerciseName: 'Bench Press'` when the seed file says `'Barbell Bench Press'` will fail at the assertion level, not at the missing-implementation level, obscuring whether the implementation is wrong or the expectation is wrong. Pattern: `read_file(fixture)` → extract exact values → write test expectations from those values.
+- **Leaking live model/provider credentials into unit tests** — if the code conditionally calls an LLM when an env var exists, normal unit tests must clear those env vars by default (e.g. an autouse fixture deleting `OPENROUTER_API_KEY`, `ANTHROPIC_API_KEY`, `OPENAI_API_KEY`, and model overrides). Add a separate mocked-provider test that proves the LLM path is wired correctly without spending tokens or making tests nondeterministic.
 - **Static/browser-app regression tests can inspect generated assets when no browser runner exists** — for self-contained HTML/JS apps, add focused text/fixture tests that guard critical branches, fixture counts, and removed stale constants. Example: assert a bundled gallery has per-image crop fixture keys for every sample file, a crop-spec count far above the number of source photos, and the intended sample-routing branch. This is not a substitute for visual verification, but it prevents repeating catastrophic branch regressions.
+- **RAG answer-quality fixes need behavioral tests, not only retrieval tests** — when the user complains that an answer is clunky, repetitive, or fails a natural-language “can I talk to the bot about X?” check, write a test against the composer/runtime output shape before changing prompts or code. Assert the user-visible behavior: direct source identity, canonical URL/citation, no repeated template phrase, no irrelevant secondary source, and the key grounded concept. Then deploy and hit the live endpoint with the same prompt.
 
 ## Final Rule
 

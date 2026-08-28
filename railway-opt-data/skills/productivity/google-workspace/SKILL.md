@@ -201,6 +201,7 @@ See `references/attachment-intake.md` for the quick triage flow, and `references
 
 For temporary review files, use `My Drive > Chief_of_Staff > Projects > Hermes_temp_folder` in DJ's personal Drive. See `references/drive-temporary-folder.md` for the live-folder-ID lookup and upload verification pattern.
 For user-facing file artifacts (PDFs, docs, transcripts, exports), prefer the temp-folder flow and return the Drive webViewLink rather than a local Railway/VM path. See `references/artifact-delivery.md`.
+For project/source artifacts, do not present `/opt/...` or Railway paths as the destination. Put durable artifacts in GitHub or DJ's personal Drive, then clean local VM/Railway working caches aggressively.
 
 ```bash
 GAPI="python ${HERMES_HOME:-$HOME/.hermes}/skills/productivity/google-workspace/scripts/google_api.py"

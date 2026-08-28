@@ -25,6 +25,19 @@
     "use_count": 6,
     "view_count": 6
   },
+  "corpus-grounded-persona-agents": {
+    "archived_at": null,
+    "created_at": "2026-08-27T20:17:41.966748+00:00",
+    "created_by": "agent",
+    "last_patched_at": "2026-08-27T20:17:56.304402+00:00",
+    "last_used_at": null,
+    "last_viewed_at": null,
+    "patch_count": 1,
+    "pinned": false,
+    "state": "active",
+    "use_count": 0,
+    "view_count": 0
+  },
   "cron-job-design": {
     "archived_at": null,
     "created_at": "2026-05-27T12:08:01.270884+00:00",
@@ -43,12 +56,12 @@
     "created_at": "2026-05-26T21:01:01.030914+00:00",
     "created_by": null,
     "last_patched_at": "2026-08-19T10:25:52.865132+00:00",
-    "last_used_at": "2026-08-26T21:06:17.920771+00:00",
+    "last_used_at": "2026-08-27T21:06:33.477881+00:00",
     "last_viewed_at": "2026-08-19T23:07:28.723492+00:00",
     "patch_count": 55,
     "pinned": false,
     "state": "active",
-    "use_count": 211,
+    "use_count": 213,
     "view_count": 46
   },
   "devops/cron-job-design": {
@@ -173,12 +186,12 @@
     "created_at": "2026-08-10T13:36:56.081737+00:00",
     "created_by": "agent",
     "last_patched_at": "2026-08-19T23:50:48.060738+00:00",
-    "last_used_at": "2026-08-27T07:12:36.566555+00:00",
+    "last_used_at": "2026-08-28T07:12:17.376583+00:00",
     "last_viewed_at": "2026-08-26T01:36:51.604200+00:00",
     "patch_count": 11,
     "pinned": false,
     "state": "active",
-    "use_count": 1829,
+    "use_count": 2080,
     "view_count": 12
   },
   "podcast-intelligence-digest": {
@@ -233,18 +246,31 @@
     "use_count": 4,
     "view_count": 4
   },
+  "public-corpus-ingestion": {
+    "archived_at": null,
+    "created_at": "2026-08-27T11:43:02.393901+00:00",
+    "created_by": "agent",
+    "last_patched_at": "2026-08-27T20:18:06.826076+00:00",
+    "last_used_at": "2026-08-27T20:16:58.109583+00:00",
+    "last_viewed_at": "2026-08-27T20:16:58.104827+00:00",
+    "patch_count": 22,
+    "pinned": false,
+    "state": "active",
+    "use_count": 9,
+    "view_count": 9
+  },
   "railway-app-deployment": {
     "archived_at": null,
     "created_at": "2026-06-04T15:54:08.698228+00:00",
     "created_by": "agent",
-    "last_patched_at": "2026-08-11T13:24:45.254761+00:00",
-    "last_used_at": "2026-08-26T01:36:51.633349+00:00",
-    "last_viewed_at": "2026-08-26T01:36:51.621648+00:00",
-    "patch_count": 88,
+    "last_patched_at": "2026-08-27T14:40:22.409692+00:00",
+    "last_used_at": "2026-08-27T13:45:46.393520+00:00",
+    "last_viewed_at": "2026-08-27T13:45:46.388806+00:00",
+    "patch_count": 96,
     "pinned": false,
     "state": "active",
-    "use_count": 55,
-    "view_count": 55
+    "use_count": 56,
+    "view_count": 56
   },
   "software-development/systematic-debugging": {
     "archived_at": null,

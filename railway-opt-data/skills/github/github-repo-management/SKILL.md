@@ -101,7 +101,9 @@ For a repeatable verification recipe, see `references/railway-github-deploy-veri
 Cloning is pure `git` — works identically either way:
 
 For a quick repo/push readiness checklist in Hermes environments, see `references/repo-push-auth.md`.
+For a quick repo/push readiness checklist in Hermes environments, see `references/repo-push-auth.md`.
 For repo-role and location discovery in Hermes environments, see `references/local-repo-discovery.md`.
+For bulky artifact/corpus repos where GitHub is durable storage but the VM/Railway checkout must stay small, see `references/blobless-sparse-artifact-repos.md`.
 
 ```bash
 # Clone via HTTPS (works with credential helper or token-embedded URL)
@@ -172,6 +174,33 @@ git add .
 git commit -m "Initial commit"
 git remote add origin https://github.com/$GH_USER/my-new-project.git
 git push -u origin main
+```
+
+**Token hygiene for headless git+cURL flows:** prefer a temporary `GIT_ASKPASS` helper over embedding tokens in `origin`. This lets `git push` authenticate non-interactively while leaving the remote URL clean and avoiding token leakage in logs:
+
+```bash
+cat > /tmp/git-askpass.sh <<'EOF'
+#!/usr/bin/env bash
+case "$1" in
+  *Username*) echo x-access-token ;;
+  *Password*) echo "$GITHUB_TOKEN" ;;
+  *) echo ;;
+esac
+EOF
+chmod 700 /tmp/git-askpass.sh
+GIT_ASKPASS=/tmp/git-askpass.sh GIT_TERMINAL_PROMPT=0 git push origin main
+rm -f /tmp/git-askpass.sh
+git remote -v   # verify it is still https://github.com/owner/repo.git
+```
+
+If you temporarily embed a token in `origin` to clone or push (`https://x-access-token:$GITHUB_TOKEN@github.com/...`), restore the clean remote URL before finishing:
+
+```bash
+git remote set-url origin https://github.com/$GH_USER/my-new-project.git
+git remote -v
+```
+
+For very large generated/raw-data commits, use `git status --short`, `git commit --quiet`, and final `git log --oneline -1` verification instead of dumping thousands of created-file lines into the user-facing transcript.
 ```
 
 To create under an organization:
