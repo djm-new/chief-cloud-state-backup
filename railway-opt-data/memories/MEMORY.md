@@ -35,3 +35,5 @@ Meeting prep briefs for DJ should deliver to Telegram Chief Group - Hermes topic
 Chief Group - Hermes Telegram topic map includes Meeting Briefs = message_thread_id 8289 in chat -1003956828149. Pre-meeting briefing generator should deliver to telegram:-1003956828149:8289.
 §
 Ben Bot project convention: repo is djm-new/ben-bot under /opt/data/projects/ben-bot; user wants the product named “Ben Bot” everywhere and responses to feel like a direct first-person conversation with Ben while retaining grounding/disclaimer guardrails.
+§
+Ben Bot production app is https://ben-bot-production.up.railway.app/chat/ui; repo is /opt/data/projects/ben-bot. Its product interaction eval script takes the chat URL as the first positional argument, e.g. `/opt/hermes/.venv/bin/python scripts/run_product_interaction_eval.py https://ben-bot-production.up.railway.app/chat`.

@@ -47,7 +47,7 @@ Do not call the work done until a live or scripted multi-turn conversation demon
 
 ### 1. Keep RAG, but add a corpus brain
 
-RAG gives local evidence. Add a structured `corpus_brain` layer that captures global principles:
+RAG gives local evidence. Add a structured `corpus_brain` layer that captures global principles. Build it from the full chunk corpus whenever possible, not from a hand-written seed list or the last failing prompt: iterate all chunks, group by controlled topic tags, extract recurring claims/decision rules with source IDs, and emit a coverage report with chunk/source/topic counts so you can prove the brain saw the whole corpus.
 
 ```json
 {
@@ -91,6 +91,14 @@ Short follow-ups like “what about if the person is senior?” often need the p
 
 Do not show every retrieved source as if it supported the final answer. Filter UI source cards to sources actually cited or materially used by the composer. Handle common citation separators such as commas, semicolons, brackets, and title/year variants.
 
+Fail closed on citation/source mismatches:
+
+- If the generated answer has no inline citations, return no source cards and do not present the answer as grounded.
+- If any inline citation does not resolve to a retrieved source, reject/regenerate the answer rather than silently dropping the unmatched source card.
+- If a citation contains multiple semicolon-separated titles, split and validate every title independently.
+- Reject weak one-token/generic citations such as `[CEO, 2011]`; require an exact/substring match or strong multi-token overlap against an allowed retrieved title.
+- Product eval scripts must parse citations with the same separator rules as runtime filtering; otherwise the evaluator can falsely fail valid semicolon citations or miss mixed valid/invalid citations.
+
 ### 5. Track unsupported claims
 
 Add a post-check or evaluator that inspects the answer against retrieved chunks and brain concepts:
@@ -98,6 +106,10 @@ Add a post-check or evaluator that inspects the answer against retrieved chunks 
 - Supported: claim traces to source text or a recorded decision rule with source IDs.
 - Synthesized: claim is an inference from multiple sources and is labeled as such.
 - Unsupported: claim should be removed, regenerated, or qualified.
+
+For persona/advice agents, make grounding validation claim-level rather than answer-level. Split generated answers into substantive sentence or bullet units and require each unit to carry at least one citation that resolves to the retrieved/allowed source set. This catches citation laundering where a paragraph starts with a valid citation and then appends unsupported advice. Treat short high-stakes imperatives (for example: hire, fire, sell, acquire, fundraise, lay off, promote, replace, shut down) as substantive even if they are under the usual length threshold.
+
+Preferred runtime behavior: generate once, run the grounding checker, then allow exactly one regeneration with explicit checker feedback. If the retry still has missing or unmatched citations, fail closed with a grounded-error/abstention response instead of returning generic unsupported persona advice.
 
 ## Repair Workflow for “Not Smart Enough” Feedback
 
@@ -123,7 +135,7 @@ Create a script for repeatable chat probes, not just pytest. Minimum scenarios:
 - Ambiguous follow-up requiring history.
 - Practical advice question requiring synthesized application of principles.
 - Out-of-corpus/current-event trap requiring grounded refusal.
-- Citation/source-card alignment check.
+- Citation/source-card alignment check, including no-citation answers, citations that match no retrieved source, mixed valid+invalid citations, semicolon-separated citations, and weak one-token citations.
 - Composer-unavailable fallback check.
 
 For each probe, record:
@@ -136,6 +148,8 @@ For each probe, record:
 - Displayed source IDs.
 - Verdict and failure reason.
 
+Eval assertions should catch the failure class without overfitting exact wording. For generated conversational answers, prefer `must_include_any` semantic alternatives for concepts like "independent judgment" / "own judgment" / "replace theirs" instead of requiring a single brittle phrase that can fail good answers.
+
 ## Acceptance Checklist
 
 - [ ] Corpus brain covers the major recurring concepts, not just the latest failing prompt.
@@ -143,8 +157,8 @@ For each probe, record:
 - [ ] Backend accepts and uses recent conversation history.
 - [ ] Composer produces synthesized grounded advice, not pasted excerpts.
 - [ ] Fallback path does not impersonate or snippet-stitch when the model is unreachable.
-- [ ] UI displayed sources are a subset of cited/materially used sources.
-- [ ] Unit/integration tests cover brain matching, follow-up resolution, citation filtering, and fallback.
+- [ ] UI displayed sources are a subset of cited/materially used sources, and every answer citation resolves to a retrieved source.
+- [ ] Unit/integration tests cover brain matching, follow-up resolution, citation filtering, mixed valid/invalid citations, weak citation rejection, and fallback.
 - [ ] Product interaction eval includes multi-turn and out-of-corpus cases.
 - [ ] Live deployed conversation was inspected before saying done.
 
@@ -153,11 +167,14 @@ For each probe, record:
 1. **Health-check false confidence:** a green deployment says nothing about persona intelligence.
 2. **Retriever-only worldview:** top-k local chunks cannot substitute for global principles learned from the whole corpus.
 3. **One-demo hard-coding:** fixing only the user's example makes the bot look better for one question and dumb elsewhere.
-4. **Source-card overclaiming:** retrieved-but-uncited cards imply support the answer may not have used.
-5. **Fallback impersonation:** deterministic fallback snippets can look like low-quality persona reasoning. Be honest when the model is unavailable.
-6. **Generic MBA advice:** if an answer could be given without the corpus, it is probably failing the product goal.
-7. **No live probe:** tests pass can still hide a bad chat UX; inspect actual product output.
+4. **Source-card overclaiming:** retrieved-but-uncited cards imply support the answer may not have used. Do not accept answers with unmatched citations; silently pruning unmatched cards leaves unsupported citation text in the answer.
+5. **Weak citation overmatching:** token-overlap matchers can make `[CEO]` or `[Cares]` match real titles. Require multi-token citations and validate every semicolon-separated citation independently.
+6. **Fallback impersonation:** deterministic fallback snippets can look like low-quality persona reasoning. Be honest when the model is unavailable.
+7. **Generic MBA advice:** if an answer could be given without the corpus, it is probably failing the product goal.
+8. **No live probe:** tests pass can still hide a bad chat UX; inspect actual product output.
 
 ## Support Files
 
 - `references/ben-bot-reasoning-repair.md` records a condensed case study of repairing a Ben Horowitz corpus agent from snippet-stitching toward corpus-conditioned inference.
+- `references/citation-fail-closed.md` details fail-closed citation/source-card validation patterns for no-citation, unmatched-citation, mixed-citation, semicolon, and weak-token cases.
+- `references/full-corpus-brain-and-grounding.md` captures the reusable implementation pattern for full-corpus brain extraction plus sentence/bullet-level grounding with one feedback retry.

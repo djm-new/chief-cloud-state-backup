@@ -1,0 +1,351 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-08-28_2104",
+  "usage": {
+    "prompt_tokens": 5782,
+    "completion_tokens": 1340,
+    "total_tokens": 7122
+  },
+  "episodes": [
+    {
+      "id": "6202efded503e4f8ac68e8ac",
+      "show_name": "Big Technology Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Software’s Epic Comeback, Meta’s AI Layoffs Blunder, South Korea Stock Market Chaos",
+      "link": "",
+      "published": "2026-08-28T18:17:00+00:00",
+      "summary": "Ranjan Roy from Margins is back for our weekly discussion of the latest tech news. We cover: 1) Software is rebounding, is the Saaspocolyse over? 2) Salesforce delivers solid earnings and jumps 22% 3) Why was Dario sitting with Benioff? 4) All software stocks are rising 5) Disruption could still happen, but on a longer timeline 6) Meta's bungled AI layoff strategy 7) How much of AI failures today are cultural? 8) Meta pays billions in landmark addiction settlement 9) South Korean stock market volatility 10) The clash of AI belief and reality --- Enjoying Big Technology Podcast? Please rate us five stars ⭐⭐⭐⭐⭐ in your podcast app of choice. Want a discount for Big Technology on Substack + Discord? Here’s 25% off for the first year: https://www.bigtechnology.com/subscribe?coupon=0843016b Learn more about your ad choices. Visit megaphone.fm/adchoices",
+      "duration": "3562",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "6202efded503e4f8ac68e8ac",
+        "score": 82,
+        "tier": "digest",
+        "reason": "Covers software rebound, Meta AI layoffs, and market implications; relevant for tech and capital allocation insights.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "c75d58ce3f3824c281643ab7",
+      "show_name": "RenMac",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "RenMac Off-Script: Fed Swallows Whistle",
+      "link": "https://podcasters.spotify.com/pod/show/renmac-it/episodes/RenMac-Off-Script-Fed-Swallows-Whistle-e3o18ss",
+      "published": "2026-08-28T17:52:30+00:00",
+      "summary": "RenMac is joined this week by Kevin Muir, author of The Macro Tourist and co-host of The Market Huddle podcast to discuss why the Fed has run out of room to move before the midterms and what that means for bonds, gold, and the AI trade. The team explores why rising yields are a rational response to global deficits and the largest infrastructure build-out since the 1850s, why the People's Bank of China — not the Treasury — is the real driver of gold, and why the hyperscaler capex boom looks more like an earnings bubble than a price bubble. They also cover Bessent's buyback operations, widening credit spreads, the momentum unwind, tariffs, and Jackson Hole.",
+      "duration": "00:51:28",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "c75d58ce3f3824c281643ab7",
+        "score": 88,
+        "tier": "digest",
+        "reason": "Discusses Fed policy, global deficits, AI trade, and hyperscaler capex; strong macro and market read.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "03230760aaced421f408a0db",
+      "show_name": "New Yorker Radio Hour",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "low",
+      "title": "Kai Bird on Roy Cohn, a Founding Father of Donald Trump’s America",
+      "link": "https://www.wnycstudios.org/podcasts/tnyradiohour",
+      "published": "2026-08-28T17:40:00+00:00",
+      "summary": "During the height of Roy Cohn’s friendship with Donald Trump, according to the historian Kai Bird, “they were on the phone with each other a dozen times a day.” Bird’s new book, “ American Scoundrel ,” details Cohn’s profound influence on Trump—whom he met as a young real-estate heir in the nineteen-seventies—and how Cohn is “haunting” politics in our time. “I had written about Roy Cohn in [previous biographies] as this nefarious, minor, awful figure who was disruptive and divisive and unethical. And I suddenly realized that the establishment that I’d been writing about for forty years is gone. Their values and culture, the politics, the bipartisanship . . . that’s all gone,” he tells David Remnick. “Roy Cohn explains something about the dark side of America that I just didn’t understand.” They discuss Cohn’s early career as a prosecutor and his role as the “mastermind” of the McCarthy purges; his service as a lawyer and fixer for Mafia members, politicians, and celebrities; and an allegation of being involved in sex trafficking. Further reading and listening: “ How Roy Cohn Taught Donald Trump Everything ,” by Kai Bird and Susan Goldmark “ The Mobster Cosplay of Donald Trump ,” by David Remnick “ Adapting Oppenheimer’s Life Story to Film, with Biographer Kai Bird ,” an episode of The New Yorker Radio Hour “ Roy Cohn and the Making of a Winner-Take-All America ,” by Naomi Fry New episodes of The New Yorker Radio Hour drop every Tuesday and Friday. Join host David Remnick as he discusses the latest in politics, news, and current events in conversation with political leaders, newsmakers, innovators, New Yorker staff writers, authors, actors, and musicians. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:34:58",
+      "old_score": 0,
+      "old_label": "skip",
+      "qwen": {
+        "id": "03230760aaced421f408a0db",
+        "score": 40,
+        "tier": "skip",
+        "reason": "Focuses on Roy Cohn's influence on Trump; lacks relevance to tech, markets, or durable frameworks.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "b3a725e13f0d8c3ac75b5269",
+      "show_name": "Odd Lots",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "Austan Goolsbee Is Worried the Economy Is Overheating",
+      "link": "https://omny.fm/shows/odd-lots/austan-goolsbee-is-worried-the-economy-is-overheating",
+      "published": "2026-08-28T17:23:16+00:00",
+      "summary": "Inflation remains high and the 2% target is farther away than it was this time last year. There are signs all over that the economy is overheating — the strange labor market where hiring and firing remains low, while GDP is growing, but mostly due to AI and the data center buildout — and Chicago Fed President Austan Goolsbee is worried about how uncertain central bankers are about what to do to cool the economy. The next shock, he tells us, could be around the corner. In this conversation, recorded at the Jackson Hole Economic Symposium, Goolsbee explains why he is skeptical of metrics like r*, why he is embracing Kevin Warsh's philosophy around reducing forward guidance, the purpose of the new Fed task forces, and the economic indicators that influence his thinking around reaction function. See omnystudio.com/listener for privacy information.",
+      "duration": "2791",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "b3a725e13f0d8c3ac75b5269",
+        "score": 85,
+        "tier": "digest",
+        "reason": "Goolsbee discusses inflation, overheating economy, and AI-driven GDP growth; valuable macro insights.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "1da484a6f428a026de7f07cd",
+      "show_name": "Dishcast with Andrew Sullivan",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "low",
+      "title": "Charles Murray On Human Diversity (Re-Aired)",
+      "link": "https://andrewsullivan.substack.com/p/charles-murray-on-human-diversity-33a",
+      "published": "2026-08-28T17:00:40+00:00",
+      "summary": "(The full Dish returns on September 4. In the meantime, we are re-airing a handful of the most downloaded episodes from the early years of the Dishcast.) Charles is a writer, social scientist, and longtime friend. He currently holds the F.A. Hayek Chair Emeritus in Cultural Studies at AIE, and his many books include Losing Ground , The Bell Curve (co-authored with Richard Herrnstein), Coming Apart , Facing Reality , and Taking Religion Seriously (which we covered last year ). In this May 2021 pod, he and I discussed Human Diversity — a book that received little attention compared to the others. If you think you know who Charles is from the way the MSM has portrayed him for years, this conversation may surprise you. Like Cornel West , Charles is a one-off: absurdly brave (or dumb) in wading into truly touchy subjects, and always with reason. In many ways, I think if we’d been able to have a serious debate about The Bell Curve all those years ago — and I tried to encourage one — we might have avoided some awful subsequent mistakes. But we resorted to abuse and hysteria and went on to enact Woke 1.0 and, now, Woke 2.0. Go here for a polished transcript of Charles. We also have three clips on YouTube: on the different career choices of high IQ women ; the “ unearned gift ” of a high IQ; and IQ’s irrelevance to the human worth, dignity, and essential equality of all people. This is a public episode. If you'd like to discuss this with other subscribers or get access to bonus episodes, visit andrewsullivan.substack.com/subscribe",
+      "duration": "6980",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "1da484a6f428a026de7f07cd",
+        "score": 35,
+        "tier": "skip",
+        "reason": "Re-airing old episode on human diversity; not timely or directly relevant to DJ's focus.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "4a13c47107901e1fb0fc53c3",
+      "show_name": "Stratechery",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "high",
+      "title": "2026.35: Internet Hype and Real World Change",
+      "link": "https://stratechery.com/2026/internet-hype-and-real-world-change/",
+      "published": "2026-08-28T17:00:00+00:00",
+      "summary": "The best Stratechery content from the week of August 24, 2026 including the breaker's advantage, the new battle for HDMI1, and how data center discourse ends.",
+      "duration": "",
+      "old_score": 26,
+      "old_label": "skip",
+      "qwen": {
+        "id": "4a13c47107901e1fb0fc53c3",
+        "score": 90,
+        "tier": "listen",
+        "reason": "Stratechery's best content on internet hype vs real change; strong durable framework and tech analysis.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "4140fb3fbe2a31a90dc5782a",
+      "show_name": "Dishcast with Andrew Sullivan",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "low",
+      "title": "Cornel West On God And The Great Thinkers (Re-Aired)",
+      "link": "https://andrewsullivan.substack.com/p/cornel-west-on-god-and-the-great-2a3",
+      "published": "2026-08-28T16:55:52+00:00",
+      "summary": "(The full Dish returns on September 4. In the meantime, we are re-airing a handful of the most downloaded episodes from the early years of the Dishcast.) The academic career of Cornel West is long and storied. He has taught religion, philosophy, and African-American studies at Yale, Princeton, Harvard, and Union Theological Seminary. He has written or contributed to more than 20 books, including Race Matters and Democracy Matters — but he recommends you start with Chekhov. I met Cornel decades ago, when I interviewed him at Union Theological Seminary for a TNR piece I was writing on divinity schools. He has long fascinated me, and Race Matters had a real impact on me decades ago. Erudite, passionate, and deeply humane, he is an unapologetically leftist Christian who is also a champion of free speech, civility, and the classics. In other words: a rare and beautiful man. A key theme of the Dishcast is a willingness to talk to anyone across the political and ideological spectrum. We thought it would be cool if we re-aired this episode alongside that with Charles Murray , a philosophical opposite, but also a deeply decent man. Go here for a polished transcript of Cornel. We also have two clips on YouTube: on how he finds common ground with bigots and racists , and his take on CRT and the 1619 Project . This is a public episode. If you'd like to discuss this with other subscribers or get access to bonus episodes, visit andrewsullivan.substack.com/subscribe",
+      "duration": "3845",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "4140fb3fbe2a31a90dc5782a",
+        "score": 38,
+        "tier": "skip",
+        "reason": "Re-airing old episode on Cornel West; philosophical but not directly actionable for DJ's focus.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "d849f582a03f276be222aa50",
+      "show_name": "NYT Book Review",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "low",
+      "title": "Book Club: Let’s Talk About ‘London Falling’",
+      "link": "https://www.nytimes.com/column/book-review-podcast",
+      "published": "2026-08-28T16:21:14+00:00",
+      "summary": "At the center of Patrick Radden Keefe’s new book, “London Falling,” is a mystery: In 2019, a young man named Zac Brettler disappeared, and a few days later his body was found in the Thames River. Surveillance footage showed what appeared to be Zac jumping off the balcony of a nearby luxury tower, leading some to speculate that he had taken his own life. His family, though, didn’t quite believe that theory; though troubled, Zac, in their view, hadn’t seemed suicidal. Then the Brettlers learn that before his death, Zac had pretended to be the rich son of a Russian oligarch, and fallen in with a dangerous crowd in London’s criminal scene. So what happened? That’s what Keefe attempts to answer in “London Falling.” On this episode of the Book Review Book Club, the host MJ Franklin discusses the book with his colleagues Jennifer Szalai and Sadie Stein. You can follow along and add your own comments to the discussion here . Books discussed on this episode: “Say Nothing” and “Empire of Pain,” by Patrick Radden Keefe “Reunion,” by Fred Uhlman “Putin’s People,” by Catherine Belton “Strangers to Ourselves,” by Rachel Aviv “Days of Love and Rage,” by Anand Gopal “Bad Blood,” by John Carreyrou “Catch and Kill,” by Ronan Farrow Listen to and Follow ‘The Book Review’ Apple Podcasts | Spotify | Amazon Music | YouTube | iHeartRadio Unlock full access to New York Times podcasts and explore everything from politics to pop culture. Subscribe today at nytimes.com/podcasts or on Apple Podcasts and Spotify. We Want to Hear From You We would love to hear your thoughts about this episode, and about the Book Review’s podcast in general. You can send them to thebookreview@nytimes.com. Subscribe today at nytimes.com/podcasts or on Apple Podcasts and Spotify. You can also subscribe via your favorite podcast app here https://www.nytimes.com/activate-access/audio?source=podcatcher . For more podcasts and narrated articles, download The New York Times app at nytimes.com/app. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:54:05",
+      "old_score": 4,
+      "old_label": "skip",
+      "qwen": {
+        "id": "d849f582a03f276be222aa50",
+        "score": 42,
+        "tier": "scan",
+        "reason": "Book review episode; limited relevance to tech, markets, or business frameworks.",
+        "confidence": "low"
+      }
+    },
+    {
+      "id": "432ec7ef14c0d135da9d8fce",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Bloomberg Surveillance TV: August 28th, 2026",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/bloomberg-surveillance-tv-august-28th-2026",
+      "published": "2026-08-28T16:00:00+00:00",
+      "summary": "Featuring: Claudia Sahm, Chief Economist at New Century Advisors Dr. Patrick Harker, Former Philadelphia Fed President Eugene Munster, Managing Partner & Co-Founder at Deepwater Asset Management See omnystudio.com/listener for privacy information.",
+      "duration": "1224",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "432ec7ef14c0d135da9d8fce",
+        "score": 60,
+        "tier": "scan",
+        "reason": "Economic commentary from Bloomberg Surveillance; some macro relevance but light on actionable insights.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "d7d908dfa98a13a6cb0b2d20",
+      "show_name": "The Vergecast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "The iPhone Fold could make concerts even worse",
+      "link": "",
+      "published": "2026-08-28T15:10:00+00:00",
+      "summary": "This week Apple announced a Mac Mini made for AI and a Mac Studio made for AI, both with faster M6 and M5 Pro chips made for AI. But that's all an amuse-bouche to Sept. 9's (expected) main course: the long-awaited folding iPhone. Nilay Patel, Jake Kastrenakes, and David Imel run through all of this week's Apple news, including the most important story: a surprise discount on the legendary polishing cloth.Then, they react to Meta's settlement in its latest kids safety trial, geek out about Grand Theft Auto VI with the Hype Desk's Ashley Esqueda, check out the Pokémon Fitbit, and decide if Nvidia just saved the global economy. Further reading: ⁠File a comment with the FCC⁠ ⁠Apple announces September iPhone launch event⁠ ⁠Apple’s new M6 chip gets more cores and more AI compute⁠ ⁠Apple launches new Mac Studios with its ‘most powerful chip ever’ — the M5 Ultra⁠ ⁠Apple’s new Mac Mini has fresh M6 and M5 Pro chip offerings — and higher prices⁠ ⁠Apple’s ‘new’ polishing cloth is the same except $10 cheaper⁠ ⁠Meta agrees to heavy restrictions on teen users in major lawsuit settlement⁠ ⁠Meta is planning an ad blitz urging TikTok and YouTube to follow its lead.⁠ ⁠All the ways Instagram and Facebook are changing for teens⁠ ⁠Rockstar finally responds to ‘heartbreaking’ GTA 6 leaks⁠ ⁠Fierce Network: FCC opens comments on E-Rate as the program gets attacked in court⁠ ⁠Nvidia is about to be a hundred-billion-dollar-a-quarter company⁠ ⁠Panic is passing Playdate tariff refunds on to customers.⁠ Subscribe to The Verge for unlimited access to theverge.com, subscriber-exclusive newsletters, and our ad-free podcast feed. We love hearing from you! Email your questions and thoughts to vergecast@theverge.com or call us at 866-VERGE11. 0:00 Welcome to the Vergecast01:26 Apple Mac AI Hype02:26 Mac Mini Agent Craze06:32 Mac Studio vs Nvidia11:43 Price Hikes and Cloth17:01 iPhone Event Invite17:38 iPhone Fold Debate21:30 Camera Crash Out26:57 Meta Settlement Breakdown28:59 First Amendment Fallout36:59 Age Verification Push39:30 Filter Rules and Loopholes44:11 Will Teens Just Switch Apps45:20 Reels Versus Shorts46:35 Government Next Steps47:39 Break And Reset47:50 GTA VI Showcase54:29 Leaks And Spoilers57:12 Can GTA Save Games01:00:51 GTA Online Money01:02:04 Brendan Carr is a Dummy01:03:45 E Rate Fight01:08:46 Nvidia Earnings Hype01:17:50 Pokemon Sleep Fitbit01:22:41 Waymo Versus Tesla01:28:34 Decoder And Goodbye Learn more about your ad choices. Visit podcastchoices.com/adchoices",
+      "duration": "5614",
+      "old_score": 36,
+      "old_label": "skip",
+      "qwen": {
+        "id": "d7d908dfa98a13a6cb0b2d20",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Apple AI hardware updates and Meta settlement discussed; some relevance to tech and AI infrastructure.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "88d55f22f47d2c2b04b07744",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Previewing Jackson Hole",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/previewing-jackson-hole-1",
+      "published": "2026-08-28T13:13:41+00:00",
+      "summary": "The latest in finance, economics and investment. Watch Tom and Paul LIVE every day on YouTube: http://bit.ly/3vTiACF. Bloomberg Surveillance hosted by Tom Keene & Paul Sweeney Friday, August 28th, 2026 Featuring: 1) Richard Clarida, Global Economic Advisor at PIMCO, previews Jackson Hole and discusses Kevin Warsh. 2) Katy Kaminski, Chief Research Strategist at AlphaSimplex, talks about how various markets are pricing in Jackson Hole and Kevin Warsh. 3) Freya Beamish, Chief Economist and Head: Macro Research at TS Lombard, talks about Jackson Hole and the bond market pricing in Bessent and Warsh. 4) Mitch Berlin, EY Americas Vice Chair, Strategy and Transactions, discusses M&A activity and what it says about US economic health. See omnystudio.com/listener for privacy information.",
+      "duration": "1589",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "88d55f22f47d2c2b04b07744",
+        "score": 70,
+        "tier": "digest",
+        "reason": "Preview of Jackson Hole and macroeconomic implications; useful for market context.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "d5a592a7fd12379d93035b39",
+      "show_name": "The Cognitive Revolution",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "AI:AM Highlights: Recursive Self-Improvement, Rushed and Vibe-Coded?",
+      "link": "https://www.cognitiverevolution.ai/ai-am-highlights-recursive-self-improvement-rushed-and-vibe-coded/",
+      "published": "2026-08-28T11:30:42+00:00",
+      "summary": "In this AI:AM Highlights episode, Nathan Labenz and Prakash revisit three live mornings with Louis Kirsch and Damon Falck of Inherent Laboratories, Vercel CTO Malte Ubl, Genesis Molecular AI CTO Sergey Edunov, Arm’s Mohamed Awad, David Li of Shenzhen Open Innovation Lab, and Q.ANT CEO Michael Förtsch. The central thread is that the meaningful unit of AI work is becoming a division of labor between models, from Inherent’s 27B “scientist” model using GPT-5.5 Codex for implementation to production pipelines that route taste, execution, security, and hardware coordination across different systems. The episode weighs why that shift matters for recursive self-improvement, verification of discoveries humans may not be able to check, model refusals in security work, and the infrastructure needed for agents that can act in the world. Its sharpest stake is whether frontier labs are scaling reinforcement learning and agentic workflows on top of reward environments and vendor pipelines that may be too rushed, noisy, or gameable to support the institutional self-improvement they are pursuing. For full show notes, links, and references, read the episode page:https://www.cognitiverevolution.ai/ai-am-highlights-recursive-self-improvement-rushed-and-vibe-coded/ Sponsors: Mercury: Mercury is the banking platform loved by 300,000+ entrepreneurs, with virtual cards and Spend controls for granular budgets, receipts, and low-risk AI agent purchases. Learn more and apply in minutes at https://mercury.com Diffusion: Diffusion helps organizations build custom AI software factories that scale business outcomes, not just outputs. Cognitive Revolution listeners get a 25% service credit on their first engagement at https://diffusion.io/tcr Granola: Granola is an AI-powered notepad that securely transcribes meetings and turns rough notes into clean, structured action items. Try it free at https://granola.ai/tcr Deepgram Flux TTS: Deepgram Flux TTS brings lifelike AI voices with real personalities that handle interruptions, pauses, and natural conversation. Try all the voices free through September 12 at https://deepgram.com/keep-talking Claude: Claude is the AI collaborator for problem solvers, helping with writing, coding, financial models, strategy, and more. Get started with Claude and explore Claude Pro at https://claude.ai/tcr CHAPTERS: (00:00) About the Episode (01:16) Sponsor: Mercury (02:58) Reward hacking environments (Part 1) (15:12) Sponsors: Diffusion | Granola (18:09) Reward hacking environments (Part 2) (18:11) Inherent safety questions (26:26) Recursive lab design (Part 1) (31:24) Sponsors: Deepgram Flux TTS | Claude (33:29) Recursive lab design (Part 2) (44:34) Right model choices (01:01:57) Hardware for agents (01:19:44) Checking frontier agents (01:33:46) China compute abundance (01:44:21) Photonic compute stack (01:53:17) Astra and AGI (02:02:21) Slowdown and access (02:06:53) Episode Outro (02:09:53) Outro PRODUCED BY: https://aipodcast.ing",
+      "duration": "7916",
+      "old_score": 51,
+      "old_label": "skip",
+      "qwen": {
+        "id": "d5a592a7fd12379d93035b39",
+        "score": 92,
+        "tier": "listen",
+        "reason": "Deep dive into AI infrastructure, recursive self-improvement, and agent workflows; highly relevant for AI frameworks.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "ed3f33ad07fb8318daa53c98",
+      "show_name": "Hard Fork",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "Meta Shifts the Blame + Do Data Center Bans Work? + The Final HatGPT",
+      "link": "https://www.nytimes.com/column/hard-fork",
+      "published": "2026-08-28T11:00:00+00:00",
+      "summary": "This week, Meta agreed to pay up to $17.1 billion and make major changes to Facebook and Instagram over claims it endangered children with addictive social media platforms. We discuss why it capitulated and what it means for the entire social media industry. Then, Princeton computer science professor Arvind Narayanan returns to offer his thoughts on why banning data centers won’t slow down A.I. progress. And finally, it’s all hats on deck for the final HatGPT. Guests: Arvind Narayanan, professor of computer science at Princeton, and co-author of the “A.I. as Normal Technology” newsletter. Additional Reading: Meta to Pay Up to $17.1 Billion in Landmark Settlement Over Social Media Addiction Claims Mark Zuckerberg Wants to Make Sure His Competitors Share His Pain Arvind Narayanan’s Post About A.I. Data Centers Apple Vision Pro in Surgery: A New Paper Rockstar Finally Breaks Its Silence Over The GTA 6 Leaks, Calls Them ‘Heartbreaking’ Amazon Delivery Drone Dumps Texas Woman’s Parcel Straight Into Her Swimming Pool What if Your Texts Traveled as Slowly as a Carrier Pigeon? A.I. Agents Are Turning Founders Into Insomniacs What is a ‘Meat Proxy’? The New Term For Coworkers Who Blindly Share A.I. Output Chinese Robot Tiangong Clocks Sub-9 second 100 Metres in Beijing Inside OpenAI’s Reboot Subscribe today at nytimes.com/podcasts or on Apple Podcasts and Spotify. You can also subscribe via your favorite podcast app here https://www.nytimes.com/activate-access/audio?source=podcatcher . For more podcasts and narrated articles, download The New York Times app at nytimes.com/app. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "01:02:56",
+      "old_score": 73,
+      "old_label": "digest_only",
+      "qwen": {
+        "id": "ed3f33ad07fb8318daa53c98",
+        "score": 78,
+        "tier": "digest",
+        "reason": "Meta settlement, data center bans, and AI policy implications; relevant for tech and legal context.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "01fa3485c0b2c0ece49deb25",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "The Infrastructure Behind the Machine Age",
+      "link": "https://a16z.simplecast.com/episodes/the-infrastructure-behind-the-machine-age-M3g5NamY",
+      "published": "2026-08-28T10:00:00+00:00",
+      "summary": "Ben Horowitz, Martin Casado, Raghu Raghuram, and Erik Torenberg discuss the launch of a16z's new Machine Age Fund and the infrastructure buildout behind AI, from chips, memory, and networking to power, cooling, and data centers. Why a dedicated fund now? The group argues that the bottleneck in AI is increasingly shifting from the models themselves to everything beneath them. Hyperscaler CapEx is surging, critical components are booked years in advance, and each new generation of reasoning and agents requires dramatically more compute. They unpack why this cycle looks different from previous infrastructure booms and how AI is turning problems once constrained by engineering into problems that can increasingly be attacked with capital and compute. They also explore where the next generation of infrastructure companies could emerge, why founders are returning to hard technical problems across hardware and systems, and what it will take to rebuild the computing stack for the Machine Age. Resources: Read more about the Machine Age Fund : https://www.a16z.news/p/the-machine-age-fund Follow Ben Horowitz on X: https://x.com/bhorowitz Follow Raghu Raghuram on X: https://x.com/RaghuRaghuram Follow Martin Casado on X: https://x.com/martin_casado Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:55:02",
+      "old_score": 84,
+      "old_label": "digest_only",
+      "qwen": {
+        "id": "01fa3485c0b2c0ece49deb25",
+        "score": 93,
+        "tier": "listen",
+        "reason": "a16z discusses AI infrastructure bottlenecks and Machine Age Fund; essential for understanding AI capital allocation.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "5f4cbd07ee43b4c0e9c55863",
+      "show_name": "Ezra Klein Show",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "Trump vs. the Bond Market",
+      "link": "https://www.nytimes.com/2026/08/28/opinion/ezra-klein-podcast-robin-wigglesworth.html",
+      "published": "2026-08-28T09:00:00+00:00",
+      "summary": "A lot of things are on track to get more expensive. The U.S. Treasury market is the bedrock of the global economy. When yields on those Treasuries go up, mortgages, car loans and credit cards get more expensive, and it can hit the stock market, too. And yields have been going up – to levels we haven’t seen consistently since before the Great Recession – inspiring some erratic and futile efforts from the Trump administration to push them back down. So why are yields creeping higher? What is the administration trying to do about it? And if this continues, what’s in store for the economy? Robin Wigglesworth is the editor of the Financial Times blog Alphaville, a host of the podcast “The Story of Money” and the author of the forthcoming book “A Fabulous Debt: The Epic Story of How Bonds Built the Modern World.” This conversation was recorded on August 24, 2026. Mentioned: “ An Economic D-Day Is Coming for Iran ” by Scott Bessent Book Recommendations: Barbarians at the Gate by Bryan Burrough and John Helyar The Prize by Daniel Yergin Lords of Finance by Liaquat Ahamed Thoughts? Guest suggestions? Email us at ezrakleinshow@nytimes.com . You can find the transcript and more episodes of “The Ezra Klein Show” at nytimes.com/ezra-klein-podcast. Book recommendations from all our guests are listed at https://www.nytimes.com/article/ezra-klein-show-book-recs.html This episode of “The Ezra Klein Show” was produced by Rollin Hu. Fact-checking by Michelle Harris, with Kate Sinclair and Mary Marge Locker. Our senior engineer is Jeff Geld, with additional mixing by Aman Sahota. Our recording engineer is Aman Sahota. Cinematography by Marina King. Video editing by Kristen Williamson, Brandon Belk-Yee and Dani Dillon. Our executive producer is Claire Gordon. The show’s production team also includes Marie Cascione, Annie Galvin, Kristin Lin, Emma Kehlbeck, Jack McCordick and Jan Kobal. Original music by Pat McCusker. Audience strategy by Shannon Busta. The director of New York Times Opinion Shows is Annie-Rose Strasser. Subscribe today at nytimes.com/podcasts or on Apple Podcasts and Spotify. You can also subscribe via your favorite podcast app here https://www.nytimes.com/activate-access/audio?source=podcatcher . For more podcasts and narrated articles, download The New York Times app at nytimes.com/app. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:59:34",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "5f4cbd07ee43b4c0e9c55863",
+        "score": 75,
+        "tier": "digest",
+        "reason": "Discusses bond market, yields, and economic implications of Trump policies; macro-relevant but not AI-focused.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "628a07aa577ad7e7903ed8b9",
+      "show_name": "Sharp Tech",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "(Preview) Meta’s New Restrictions for Teens, Nvidia’s Open Source Investments, Q&A on Netflix, Druckenmiller, Parameters and Performance",
+      "link": "https://sharptech.fm/member/episode/preview-metas-new-restrictions-for-teens-nvidias-open-source-investments-q-a-on-netflix-druckenmiller-parameters-and-performance",
+      "published": "2026-08-28T08:59:25+00:00",
+      "summary": "On today’s show Ben and Andrew begin with initial reactions to Meta’s settlement with 29 states, including behavioral remedies that will impose restrictions on teens using Facebook and Instagram. From there: Reactions to a report that Nvidia is set to acquire HuggingFace, including why a robust open source ecosystem looks increasingly urgent for Nvidia, and why OpenAI’s surprisingly impressive jalapeño chip underscores the point. At the end: Netflix pivots from a longstanding refusal to funnel customers to rivals, F1’s declining ratings on AppleTV, ESPN abandons the bottom line for college football, Stanley Druckenmiller uses AI for his Wall Street Journal op ed, a vibe coding question (and more adventures with Ben’s over-engineered psychosis), a coffee pot question, parameter sizes and the mysteries of model performance, and a hurling PSA yields an appreciation for various sports on TV.",
+      "duration": "00:22:05",
+      "old_score": 63,
+      "old_label": "skim_if_interested",
+      "qwen": {
+        "id": "628a07aa577ad7e7903ed8b9",
+        "score": 72,
+        "tier": "digest",
+        "reason": "Meta teen restrictions, Nvidia/HuggingFace, and AI ecosystem dynamics; relevant for tech and platform trends.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "b2907f9931ff4fbad9ad58ae",
+      "show_name": "The Meb Faber Show",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Paul Kedrosky: AI is the First Bubble With Every Ingredient at Once | #648",
+      "link": "",
+      "published": "2026-08-28T08:30:00+00:00",
+      "summary": "Today’s guest is Paul Kedrosky, a fellow at the MIT Institute for the Digital Economy, partner at SK Ventures and former sell-side analyst. In today’s episode, Paul Kedrosky explains why AI sits at the intersection of every force behind the biggest bubbles. He walks through why tokens are the fastest-deflating commodity ever, why more than half the data center buildout runs on debt instead of cash flow, and why an IPO wave pressures the market’s biggest winners. To close, Paul argues AI already drives most US GDP growth, and revisits how badly humans misjudge scale. (0:00) Introduction (1:19) AI solving its own problems and historical economic crises (3:14) The impact of AI on energy and emissions (7:25) AI’s economic implications (10:45) Financing and economic impact of data centers (18:42) Deflationary effects of AI tokens and tech company debt (22:26) Tech companies as utilities and the IPO surge (28:01) High PE ratios and valuation risks (34:04) AI model convergence and diminishing returns (40:22) Global attitudes toward AI and technology adoption ----- Sponsor: ⁠⁠Upwork⁠⁠ is the world's largest human and AI-powered freelance marketplace to hire top talent—trusted by businesses and professionals worldwide. ----- Follow Meb on X, LinkedIn and YouTube For detailed show notes, click here To learn more about our funds and follow us, subscribe to our mailing list or visit us at cambriainvestments.com ----- Follow The Idea Farm: X | LinkedIn | Instagram | TikTok ----- Interested in sponsoring the show? Email us at Feedback@TheMebFaberShow.com ----- Past guests include Ed Thorp, Richard Thaler, Jeremy Grantham, Joel Greenblatt, Campbell Harvey, Ivy Zelman, Kathryn Kaminski, Jason Calacanis, Whitney Baker, Aswath Damodaran, Howard Marks, Tom Barton, and many more. ----- Meb's invested in some awesome startups that have passed along discounts to our listeners. Check them out here! ----- Editing and post-production work for this episode was provided by The Podcast Consultant (https://thepodcastconsultant.com).",
+      "duration": "2731",
+      "old_score": 73,
+      "old_label": "digest_only",
+      "qwen": {
+        "id": "b2907f9931ff4fbad9ad58ae",
+        "score": 80,
+        "tier": "digest",
+        "reason": "Paul Kedrosky on AI as a bubble, data center debt, and economic impact; strong capital and tech insights.",
+        "confidence": "high"
+      }
+    }
+  ]
+}

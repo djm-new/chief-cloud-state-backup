@@ -109,6 +109,25 @@ Types: `feat`, `fix`, `refactor`, `docs`, `test`, `ci`, `chore`, `perf`
 git push -u origin HEAD
 ```
 
+Headless HTTPS push fallback when credential prompting is disabled or `GIT_ASKPASS` points to a stale temp file:
+
+```bash
+ASKPASS=/tmp/git-askpass-$(basename "$PWD").sh
+cat > "$ASKPASS" <<'SH'
+#!/usr/bin/env sh
+case "$1" in
+  *Username*) echo "x-access-token" ;;
+  *Password*) echo "$GITHUB_TOKEN" ;;
+  *) echo "$GITHUB_TOKEN" ;;
+esac
+SH
+chmod +x "$ASKPASS"
+GIT_ASKPASS="$ASKPASS" GIT_TERMINAL_PROMPT=0 git push origin HEAD
+rm -f "$ASKPASS"
+```
+
+Use this as a recovery pattern, not as proof auth is broken; first confirm `GITHUB_TOKEN`/`GH_TOKEN` is present and has repo access.
+
 ### Create the PR
 
 **With gh:**

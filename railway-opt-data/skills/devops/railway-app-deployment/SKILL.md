@@ -38,6 +38,7 @@ See `references/service-domain-discovery.md` for live-domain lookup and GitHub c
 See `references/private-gallery-review-apps.md` for secret-link gallery/review apps with shared decisions, activity tracking, and contact sheets.
 See `references/private-gallery-review-apps.md` for secret-link gallery/review apps with shared decisions, activity tracking, and contact sheets.
 See `references/private-repo-local-cli-deploy.md` for bypassing Railway GitHub App private-repo fetch failures by creating project/service via GraphQL, generating a project token, deploying the local checkout with `railway up --ci`, and fixing service-domain target port mismatches.
+See `references/github-actions-railway-deploy-fallback.md` for restoring future push-to-production automation with GitHub Actions + a Railway project token when native Railway GitHub App repo triggers cannot access a private repo.
 See `references/billing-memory-diagnostics.md` for Railway invoice/RAM attribution, Gmail receipt lookup, GraphQL usage queries, and safely deleting unused services/volumes/projects.
 
 1. **Verify local build first**
@@ -231,7 +232,8 @@ See `references/local-cli-deploy-with-project-token.md` for bypassing private Gi
 
    Then verify a real app action if possible: login, create/edit/delete a record, and check DB-backed dashboard output.
 
-   For private secret-link apps, do not stop at the health route. Verify the actual user-facing route and at least one linked asset or sub-route. See `references/secret-link-verification.md`.
+   For private secret-link apps, do not stop at the health route. Verify the actual user-facing route and at least one linked asset or sub-route. See `references/production-product-eval-after-deploy.md` for the health-check-then-product-eval loop when the deliverable is user-facing behavior (for example Ben Bot).
+See `references/secret-link-verification.md`.
 
 ## `railway.toml` Template
 

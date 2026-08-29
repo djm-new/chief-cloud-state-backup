@@ -41,3 +41,5 @@ DJ does not want raw background-process completion notifications in Telegram; av
 DJ expects product work to be validated by real end-user interaction before being called done; health checks, endpoint smoke tests, source retrieval, or tests alone are not sufficient if the user experience is the deliverable.
 §
 Ben Bot should use Ben Horowitz's corpus as grounded source material for reasoning, not as a cage for extractive answers; DJ wants it to make logical inferences from retrieved evidence while clearly distinguishing direct citations from synthesized judgment.
+§
+DJ expects deployment work to include future push-to-production automation when appropriate; a one-off manual deploy workaround is not considered fully fixed if pushes will not deploy automatically.

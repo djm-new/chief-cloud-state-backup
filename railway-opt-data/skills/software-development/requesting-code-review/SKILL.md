@@ -227,9 +227,11 @@ After the fix agent completes, re-run Steps 1-6 (full verification cycle).
 
 ## Step 8 — Commit
 
-If verification passed:
+If verification passed, remove generated caches/artifacts before staging. Python test runs commonly leave `__pycache__/` and `.pytest_cache/`; do not accidentally commit them.
 
 ```bash
+find . -type d \( -name __pycache__ -o -name .pytest_cache \) -prune -exec rm -rf {} +
+git status --short
 git add -A && git commit -m "[verified] <description>"
 ```
 
@@ -270,6 +272,7 @@ tests exist, tests pass, no regressions.
 
 ## Pitfalls
 
+- **Generated caches accidentally staged** — after running tests, remove Python cache directories before `git add -A`: `find . -type d \( -name __pycache__ -o -name .pytest_cache \) -prune -exec rm -rf {} +`. If caches were already committed, use `git rm -r --cached <paths> && rm -rf <paths> && git commit --amend --no-edit` before pushing.
 - **Empty diff** — check `git status`, tell user nothing to verify
 - **Not a git repo** — skip and tell user
 - **Large diff (>15k chars)** — split by file, review each separately
