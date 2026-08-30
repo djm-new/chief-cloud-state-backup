@@ -1,0 +1,131 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-08-29_2103",
+  "usage": {
+    "prompt_tokens": 2468,
+    "completion_tokens": 460,
+    "total_tokens": 2928
+  },
+  "episodes": [
+    {
+      "id": "047986e7f27da6ed2c988241",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Why 1,200 AI Agents Started Working Together | Ryan Greenblatt",
+      "link": "https://a16z.simplecast.com/episodes/why-1-200-ai-agents-started-working-together-ryan-greenblatt-i7A557W2",
+      "published": "2026-08-29T10:00:00+00:00",
+      "summary": "Ryan Greenblatt, Chief Scientist at Redwood Research, joins MTS host Theo Jaffee to unpack a new independent investigation into the OpenAI Hugging Face hacking incident and what it reveals about how large groups of AI agents behave when they're allowed to coordinate. Ryan and his collaborators found agents spontaneously organizing through message boards, sharing information, assigning tasks, forming teams, and even sacrificing their own chances of success to help other agents. Rather than simply trying to steal answers, hundreds of agents were working together on elaborate strategies to manipulate how their performance would be scored. Theo and Ryan discuss why this level of coordination was surprising, how reward hacking may emerge during training, and the risk that attempts to eliminate bad behavior could simply make it harder to detect. They also explore what the incident means for AI monitoring and alignment, and why independent risk assessment may become increasingly important as agents grow more capable. Resources: Follow Ryan Greenblatt on X: https://x.com/RyanGreenblatt Follow Theo Jaffee on X: https://x.com/theojaffee Follow MTS on X: https://x.com/mtslive Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:34:15",
+      "old_score": 35,
+      "old_label": "skip",
+      "qwen": {
+        "id": "047986e7f27da6ed2c988241",
+        "score": 92,
+        "tier": "listen",
+        "reason": "Reveals emergent coordination in AI agents with implications for alignment and monitoring.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "f4eff9be5e805117be5cfab8",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "Warsh's Jackson Hole Debut; Harvard's Rogoff Says US Needs 'Shock' To Fix Debt",
+      "link": "https://omny.fm/shows/bloomberg-money/warshs-jackson-hole-debut-harvards-rogoff-says-us-needs-shock-to-fix-debt",
+      "published": "2026-08-29T09:00:00+00:00",
+      "summary": "Bloomberg Money takes the pulse of your financial life, powered by the reporting of our global newsroom. Today's guests: Kenneth Rogoff, Harvard Professor of Economics, and Nela Richardson, ADP Chief Economist & ESG Officer. See omnystudio.com/listener for privacy information.",
+      "duration": "2569",
+      "old_score": 0,
+      "old_label": "skip",
+      "qwen": {
+        "id": "f4eff9be5e805117be5cfab8",
+        "score": 65,
+        "tier": "digest",
+        "reason": "Discusses US debt and Jackson Hole insights, relevant for market context.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "f0302025e4643f4050406a00",
+      "show_name": "Masters of Scale",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "Pioneers of AI: Designing AI for people and the planet, with Aza Raskin",
+      "link": "",
+      "published": "2026-08-29T09:00:00+00:00",
+      "summary": "AI is rapidly changing what it means to be human, but is AI development truly human-centered? According to Aza Raskin, co-founder of the Center for Humane Technology, the answer is largely “no.” The man who invented the “infinite scroll” is now working to understand why the most powerful technology so often fails to prioritize the human experience and our collective well-being. Raskin is also leading the Earth Species Project — using AI to better understand the animals that live alongside us, by unlocking patterns in vast amounts of data on animal communication. He joins Pioneers of AI to talk about both of these dynamic endeavors, with the flourishing of humans and Earth at the core. Learn more about Pioneers of AI: http://pioneersof.ai/ Follow Pioneers of AI on all channels: https://linktr.ee/pioneersofai See Privacy Policy at https://art19.com/privacy and California Privacy Notice at https://art19.com/privacy#do-not-sell-my-info .",
+      "duration": "00:44:34",
+      "old_score": 24,
+      "old_label": "skip",
+      "qwen": {
+        "id": "f0302025e4643f4050406a00",
+        "score": 78,
+        "tier": "digest",
+        "reason": "Explores human-centered AI and AI's role in understanding animal communication.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "9704653b045f04990eee14b0",
+      "show_name": "The Twenty Minute VC",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "medium",
+      "title": "20VC: Is Anthropic's Coding Business Worth $2 Trillion? | Should American Enterprises Work With Open-Source Chinese Models? | Why 80–90% of Neo-Labs Die in the Next 18 Months? with Eno Reyes, Co-Founder @ Factory",
+      "link": "https://thetwentyminutevc.libsyn.com/20vc-is-anthropics-coding-business-worth-2-trillion-should-american-enterprises-work-with-open-source-chinese-models-why-8090-of-neo-labs-die-in-the-next-18-months-with-eno-reyes-co-founder-factory",
+      "published": "2026-08-29T07:07:00+00:00",
+      "summary": "Eno Reyes is the co-founder and CTO of Factory, the agent-native software development platform building autonomous \"Droids\" for enterprise engineering teams. Factory has raised $220 million, most recently a $150 million Series C at a $1.5 billion valuation, from investors including Khosla Ventures, Sequoia Capital, 20VC, NEA, Blackstone, Insight Partners and Nvidia. Before founding Factory, Eno worked as a machine-learning engineer at Hugging Face, training, optimizing and deploying large language models for enterprise customers. AGENDA: 00:00 Are We Underestimating AI by an Order of Magnitude? 06:35 Why Can the Smartest AI Model Be the Cheapest? 18:51 Is Anthropic's Coding Business Really Worth $2 Trillion? 33:41 Will Continuous-Learning Models Help or Hurt Factory? 40:43 Will 80–90% of Neo-Labs Die in the Next 18 Months? 44:33 Should American Enterprises Work With Open-Source Chinese Models? 55:42 Must AI Founders Radically Rethink What a Great Outcome Looks Like? 1:04:30 Do Pedigree and Credentials Still Matter in AI Hiring? 1:19:17 Which Is the Biggest Threat: Claude Code, Codex, Cognition or Cursor? 1:24:20 What Seems Crazy Today but Will Be Obvious in Five Years?",
+      "duration": "01:29:19",
+      "old_score": 38,
+      "old_label": "skip",
+      "qwen": {
+        "id": "9704653b045f04990eee14b0",
+        "score": 88,
+        "tier": "listen",
+        "reason": "Covers AI valuation, open-source Chinese models, and neo-labs survival odds.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "bb27ac1a8cecfd45cc7a8c36",
+      "show_name": "All-In Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Nvidia's Historic Quarter, SaaS Comeback, Bessent vs Druck, America's Debt Crisis, Cancer Vaccine",
+      "link": "https://allinchamathjason.libsyn.com/nvidias-historic-quarter-saas-comeback-bessent-vs-druck-americas-debt-crisis-cancer-vaccine",
+      "published": "2026-08-29T01:19:00+00:00",
+      "summary": "(0:00) Bestie intros: Recapping recent interviews and the state of American science (3:31) China's Robot Olympics, Optimus update, Grok Bot (9:05) Nvidia and Salesforce rip after big earnings: AI Capex Bubble and SaaSpocalypse narratives get reversed (33:32) Bessent gets called out by Druckenmiller for bond market interference (1:01:33) AI writing controversy: Druck used AI to write his WSJ Op-ed (1:15:00) CIA Chief visits Moscow, Meta's settlement and new teen rules (1:22:52) Science Corner: Moderna's mRNA cancer vaccine Come hang with the Besties at the All-In Summit | September 13-15: http://theallinsummit.com Follow the besties: https://x.com/chamath https://x.com/Jason https://x.com/DavidSacks https://x.com/friedberg Follow on X: https://x.com/theallinpod Follow on Instagram: https://www.instagram.com/theallinpod Follow on TikTok: https://www.tiktok.com/@allin Follow on LinkedIn: https://www.linkedin.com/company/allinpod Intro Music Credit: https://rb.gy/tppkzl https://x.com/yung_spielburg Intro Video Credit: https://x.com/TheZachEffect Referenced in the show: https://www.cnbc.com/2026/08/27/nvidia-nvda-q2-earnings.html https://finance.yahoo.com/markets/stocks/article/how-nvidia-silenced-the-bears-105017893.html https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027 https://polymarket.com/event/largest-company-end-of-december-2026 https://www.cnbc.com/2026/08/18/treasury-yields-.html https://www.cnbc.com/2026/08/24/bessent-1-trillion-treasury-general-account-bond-buybacks.html https://seekingalpha.com/news/4636322-wall-street-sees-bessent-putting-fear-of-god-into-bond-vigilantes https://www.wsj.com/opinion/let-the-bond-market-speak-81529d74 https://www.wsj.com/world/cia-director-john-ratcliffe-makes-surprise-trip-to-moscow-c1c68fa6 https://polymarket.com/event/russia-x-ukraine-ceasefire-agreement-by",
+      "duration": "01:36:41",
+      "old_score": 20,
+      "old_label": "skip",
+      "qwen": {
+        "id": "bb27ac1a8cecfd45cc7a8c36",
+        "score": 80,
+        "tier": "digest",
+        "reason": "Discusses Nvidia's performance, AI Capex, and implications for SaaS and tech.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "11d3017fc287dce4a7d036cd",
+      "show_name": "People I Mostly Admire",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "low",
+      "title": "37. Sendhil Mullainathan Thinks Messing Around Is the Best Use of Your Time",
+      "link": "https://www.siriusxm.com",
+      "published": "2026-08-29T00:00:00+00:00",
+      "summary": "He’s a professor of computation and behavioral science at the University of Chicago, MacArthur “Genius Grant” recipient, and author. Steve and Sendhil laugh their way through a conversation about the importance of play, the benefits of change, and why we remember so little about the books we’ve read — and how Sendhil’s new app solves this problem. This episode originally aired on July 23rd, 2021. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:50:31",
+      "old_score": 12,
+      "old_label": "skip",
+      "qwen": {
+        "id": "11d3017fc287dce4a7d036cd",
+        "score": 60,
+        "tier": "scan",
+        "reason": "Focuses on behavioral science and play, less directly relevant to DJ's focus.",
+        "confidence": "low"
+      }
+    }
+  ]
+}
