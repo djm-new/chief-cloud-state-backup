@@ -1,0 +1,351 @@
+[0.0-3.1] Up until now, the concerns came from human threats.
+[3.1-7.9] What we're seeing now on steroids is that the same type of threat is coming from non-human
+[7.9-12.4] actors, agents that essentially have legitimate access to the environment with legitimate
+[12.4-13.4] permissions.
+[13.4-18.4] Fortunately for us, it's a very similar methodology in terms of detecting that and protecting
+[18.4-19.4] against that.
+[19.4-22.0] But the velocity of that happening is extreme.
+[22.0-24.0] Think of the non-technical people.
+[24.0-29.1] They're not even aware for things like security or compliance or who is going to use
+[29.1-30.1] these data.
+[30.1-33.4] Maybe they're agents that they are building a using other agents and they're not technical
+[33.4-35.3] to even understand what it means.
+[35.3-40.2] It creates a complete set of actors inside the organization, not bound by the rules of
+[40.2-45.1] the organization and not necessarily running within the purposes of the organization.
+[45.1-50.3] But handing sensitive data, it's a good thing and bad thing that everyone inside the organization
+[50.3-51.3] can become builders.
+[51.3-59.3] We live in very interesting times.
+[59.3-64.3] Today our priors were joined by Oafir Erlich and Gunn and Stein, the co-founders of Ion.
+[64.3-70.7] Ion is a cloud backup, disaster recovery, centric services designed for the AI era.
+[70.7-76.6] In this discussion we talk about data, AI, YGOOL, bought out the data of Spirit Airlines
+[76.6-81.5] out of bankruptcy and what it means to really manage and use data infrastructure in the AI
+[81.5-82.5] era.
+[82.5-84.5] Oafir Gunn and thank you so much for joining us today.
+[84.5-85.5] It's great to see you.
+[85.5-86.5] Absolutely.
+[86.5-87.5] Thanks for having us.
+[87.5-88.5] Yeah.
+[88.5-92.0] One thing that you guys are doing at Ion is, or actually, why don't you give a quick overview
+[92.0-95.6] of Ion and what it does really quickly because I think that'll set the context for how
+[95.6-99.8] we think about AI and data and models and fine-tuning models.
+[99.8-103.0] I think there's a whole stack that's built on top of different types of data sets and
+[103.0-106.1] so maybe we can start with what you all do and then I think we'll kind of walk through
+[106.1-110.0] like how the world is shifting relative to the enterprise data stack.
+[110.0-111.0] Yeah, sure.
+[111.0-116.8] So what we do at a high level is we've created a new data foundation that runs in the cloud
+[116.8-121.7] and we provide multiple capabilities that allow customers to first map and classify their
+[121.7-127.8] data across their environment across multiple hyperscalers and identify what they have, where
+[127.8-132.3] they have it, what's sensitive, not sensitive and so on and so forth.
+[132.3-137.8] Then we provide an ability to easily ingest that data from all these different sources, structured
+[137.8-142.2] unstructured data into this data foundation and the data foundation then provides a very
+[142.2-148.4] cost effective way of both maintaining the data for protection and recovery but also makes
+[148.4-149.4] sense of the data.
+[149.4-153.9] So it allows customers to very easily access it, query it, search through it and apply
+[153.9-159.8] their AI models and LLMs on top of that data that's ingested from a variety of sources.
+[159.8-164.4] Yeah, and my sense is I mean your starting point was really as sort of backup and data recovery
+[164.4-168.2] and protection service and I think along the way you kind of realize if you have all this
+[168.2-173.0] data from a backup perspective and you have all their customer history over all time,
+[173.0-176.7] you can start using that for interesting application areas.
+[176.7-180.6] What are some of those directions where you see customers take this sort of full history
+[180.6-183.2] of data that you all have for represent?
+[183.2-189.0] So as you mentioned, when we started, I said that this crazy person started a non-AI company
+[189.0-198.8] in a world and the AI tail wound became absolutely insane and made sure that data becomes
+[198.8-205.7] the most supportive thing that the organization has, when you can think about it, models,
+[206.2-210.2] compute everything is relatively similar, almost the most switching costs and those are
+[210.2-216.3] important parts of the infrastructure for the industry but if your company, whether you
+[216.3-222.8] hotel chain, your food chain technology company doesn't matter. The most valuable thing that you have
+[222.8-228.4] is actually your data and you see more and more companies finding it is out just two days ago,
+[228.4-238.6] you saw Google buy something from the bankrupt Spirit Alliance, they didn't buy everything,
+[238.6-243.4] they bought the data, they bought the data for $10,000 because they think it's very important
+[243.4-246.6] in that perspective, they're using it to train models.
+[246.6-250.2] I think the rumor too is that the other bitter on the data set was Mercor,
+[251.4-256.6] in terms of the bankruptcy bed process and so it's interesting, you had multiple different
+[256.6-263.5] companies in the AI world betting on a bankrupt airlines enterprise data set, which is fascinating.
+[264.2-267.0] Do you think we'll be seeing a lot more of that in the future? Do you think we're going to
+[267.0-272.4] basically be seeing these out of bankruptcy data buys? We've seen it for multiple use cases,
+[272.4-276.0] that's what's really cool about it and you see Mercor, you see other companies are
+[276.0-284.5] continuously trying to buy data. If you're a tech data CEO today, I can tell that you constantly
+[284.5-290.0] get the questions, are you willing to sell your data? I'm hearing it all over and it seems that's
+[290.0-299.3] going to be a significant trend as you go. I'm hearing about labs going to Wall Street and trying
+[299.3-307.7] to buy data from hedge funds and trying to understand how to map and analyze companies. So,
+[307.7-316.1] you see a data that was accrued throughout the years by companies, which was usually like tape,
+[316.1-322.9] sit was usually, you know, sitting on a shelf, collecting dust and all of a sudden this becomes
+[322.9-329.4] very important and you see companies now realize that first, what I have today that differentiates
+[329.4-336.6] me than anyone else is my data and this data is gold and actually I can actually leverage it to
+[337.0-345.6] get more value for my company and to continue building my business when AI is actually coming
+[345.6-354.8] and finding the playgrounds. It seems that everyone and even large and small companies basically have
+[354.8-365.1] the same playing field and the only real advantage that the company have today is of course
+[365.1-370.2] their people, but also the data, the data truth, because everyone will access to all of those
+[370.2-373.9] cool new tools. Yeah, it's become a mode. I guess in terms of the, I mean people have been saying
+[373.9-379.2] data is a new oil for a long time and as I was a little bit skeptical of that statement, but I feel
+[379.2-385.2] like now what's happening is because of post-training and reinforcement learning and you know,
+[385.2-388.6] those companies like applied compute and others are starting to provide these services where you can
+[388.6-393.2] find two models or open source models against specific data sets. Like it seems like people are trying
+[393.4-398.2] to optimize these things for their own use cases. I guess in the case of something like spirit
+[398.2-403.8] airline is a customer support for building like an airline app, like what do you think they're
+[403.8-408.2] actually going to do with this information? Is it something else? It's the internal documents,
+[408.2-414.4] like I'm just from a curious, like what is the reinforcement learning or is it like a customer
+[414.4-420.0] support agent? Yeah, but I think if you're trying to build agents or they're trying to,
+[420.9-426.7] you can just build them in lab. You need to train them on new data, on some training data.
+[427.4-433.7] It's very hard to find very good data sets. You see the top, we just released a legal data
+[433.7-439.5] subject a few days ago. But you don't find too many good data sets that don't look like
+[439.5-446.3] recent data that can actually be used to really look like the reward. And I think that spirit
+[446.4-452.3] airlines can be used both as an airline company, but also as a large enterprise as a place where
+[452.3-461.0] lots of people work, a lot of hierarchy, middle management, talk management, and work is working
+[461.0-468.9] together. And if you're looking at what other public data sets that you have out there,
+[470.0-475.9] there are a lot of those. Seriously, I'm speaking with companies asking what kind of data do you have?
+[475.9-481.3] What you're trying to do here, find stuff, for example, the annual data is out there in public,
+[481.3-485.4] and people are actually using that as read data from a company. It doesn't have a company work
+[487.0-493.8] works like any reason is it's so very hard to find data that will help you to work like in
+[493.8-498.2] the real world. Anytime you see someone building an agent or building a new application,
+[499.1-505.0] you know, most of them don't really work. You have to go to the world. You have to actually
+[505.4-512.1] interact with real world companies in order to really build something significant. Now you can do that
+[512.1-517.6] when you go to customers, they can buy data and train in-house. So when you first release your
+[517.6-523.9] products, every new product that you have, you don't have to first interact with customers as
+[523.9-530.2] your initial interaction. So I think that you're going to see more and more of that both by creating
+[530.2-537.1] new synthetic data, new synthetic data in new innovative ways. In addition to getting existing
+[537.1-542.4] data, whether it's real data, whether it's somehow massive, you don't think about it,
+[542.4-546.1] it contains sensitive information like BIR, financial information, so on and so forth,
+[547.0-551.0] and actually be able to build real world stuff on top of that.
+[551.0-558.6] Yeah, and Google obviously is, they're in this travel space for a while. They want this type of
+[558.6-563.3] data. They're already monetizing it. This allows them to understand, train it, understand it,
+[563.3-569.3] monetize it even further. And it's a unique situation, right? That obviously people want to take
+[569.3-573.4] advantage of, and I think we're going to see more and more of that in such situations. And regardless
+[573.4-578.4] of that, customers who have existing data want to be able to unlock that existing data as well.
+[578.4-581.7] What's for getting tooling? Are you all building an eon to a lot of people that make these
+[581.7-585.8] their data for AI applications? Like, how are you thinking about this problem yourselves,
+[586.0-587.8] what's for the tools that your customers are asking for?
+[588.6-595.6] So let's go back from the trouble statement. Why there are so many tools for data and processing
+[595.6-601.4] why do you need new tools? It's already so many great companies throughout the years.
+[601.4-605.1] And everyone understands data is important. So I'll put it this way.
+[607.4-613.8] Back in the days, every data team found their own data. They decide what project do they have,
+[614.5-619.9] get data to do something with that. Very tactical. They were using some great companies,
+[619.9-626.5] five runs, DBT, Monte Carlo, all the data tools that exist, you know, to fulfill their tasks.
+[627.3-630.9] And for some of the data, they didn't even exist because this was locked.
+[631.8-638.9] Why was it locked? Because there are multiple business owners across the same company.
+[639.4-646.6] And let's say your data team leader in some company and you are based in San Francisco,
+[646.6-653.2] or we're now here in New York. And both are also different business unit leaders.
+[654.3-659.8] And now there's this thing called AI. And even the boss is playing with Chef GPT,
+[659.8-664.6] so the CEO and the board and the shareholders, they understand that AI is real.
+[665.4-672.5] So they're coming to you and they tell you that we have a lot of data in the organization.
+[672.5-678.4] We now realized data is new oil. We can actually activate it with the new tools that we have today.
+[678.4-685.4] We couldn't before do something with the data, make it useful and use AI for that because it's
+[685.4-691.5] valuable for us and because it's cool. What can you do? So you say great, I've done this thing before,
+[691.5-697.7] I just need to bring to I know all of those new cool things that come out every day in Silicon Valley.
+[697.7-704.6] I can just leverage them. The problem is where's the data? And so you come into us and we have
+[704.6-709.7] business unit leaders. If you can know us, maybe you don't. But let's say that you find somehow
+[711.0-719.1] get to me. I'm a leader of a business unit. I have a data probably. And somehow you
+[719.1-723.4] convince me to give me access to my data. Now, I don't know what data do I have. I have a lot of
+[723.4-731.4] people working for me. They have data in multiple systems for the last 20 years, some of them
+[731.4-737.0] systems that no one really understands where they contain production data because there's sensitive
+[737.0-741.4] information. You know, there's always this server that no one knows what it's doing, but it's connected
+[741.4-746.8] to the power with the virtual physically that everyone's afraid to turn off because we don't know
+[746.8-754.6] what's in there. So we have all of all of that. And let's say that somehow I know what's in there.
+[754.6-760.2] Now I need to bring engineers and to and the compromise may be security and compliance
+[760.2-767.9] and and a production out time. And to extract the data just to give it to you and struggling
+[767.9-775.0] a very inefficient matter. It's very hard. We understood that there's a problem with how this works
+[775.0-780.1] because we have different incentives. You were tasked with doing that. I'm tasked with making
+[780.1-785.8] sure my system works. And I'm tasked with making sure that data is intact. No data is run away.
+[785.8-792.5] I don't absolutely have the salary of the CEO inside my data. And it's actually going to be trained
+[792.5-801.3] to be used for training or post-training by you. So we are on so between a very different way. We
+[801.4-808.0] can help you, not me, you, the data team, I have a little find all the data that's in organization
+[808.0-813.8] a very simple way. Understand what it is, classify it, map it, understand context layer on top
+[813.8-821.4] of that. It's a semantic layer. And then be able to continuously bring all the data from me that
+[821.4-828.2] is relevant without compromising production, without compromising security. Compliance
+[828.2-833.4] we're actually keeping all it end. Because data is classified, I know that I'm not accidentally
+[833.4-838.5] going to share with you sensitive information that you shouldn't have eventually in your data.
+[839.0-845.8] We can do it in a very efficient and performant way. So it can actually do it from all over the
+[845.8-850.1] place, bringing to you and actually there. That sounds like a story of four things that you're
+[850.1-857.1] solving for. One is you're aggregating lots of historical and current data for people. Number two
+[857.1-861.3] is you're able to then mask, personally identify information or other fields that they don't
+[861.3-865.3] necessarily share or set permissions on top of that. And then third is it sounds like all this
+[865.3-872.1] can then be exposed into AI models for sort of their uses or applications. And the key point
+[872.1-877.4] to that is that customers already have this data. That's kind of the ironic thing. Customers today
+[877.4-882.2] already have this data. It's kept in their environment in different forms, but it's locked.
+[882.2-887.2] It's not accessible. And usually it's very, very expensive. So we're able to take what customers
+[887.2-894.1] already have converted into this new data foundation format that's stored much more efficiently
+[894.1-900.0] and provide the mapping, classification, access control, and connected into the AI workflows.
+[900.7-905.5] How do you think about security? So there's been a lot of news recently about the labs where they'll
+[905.5-910.7] have agents like it's that escape sandboxes, it goes through things. And you know, there may be
+[910.7-914.2] broader things of foot in terms of why that's happening beyond just the agent of capabilities.
+[914.2-918.9] Like who knows how these things are set up or configured or you know, sometimes a little bit
+[918.9-924.6] uncertain whether there's that much happy people are pushing these things, but you know,
+[924.6-929.1] fundamentally there's a lot of discussion of like AI security. How do you think about that in the
+[929.1-933.7] context of the enterprise stack? What people should do or not do? How she says should be thinking
+[933.7-939.5] about all this? Yeah. So up until now, the concerns came from human threats, right? So this is
+[940.5-947.0] not you where customers would come to us and say, hey, we were exposed by this ransomware attack.
+[947.0-952.1] So during our time at AWS, it was a very large customer that was impacted by ransomware. We
+[952.1-956.9] thought that they were completely protected using our technology, the disaster recovery service
+[956.9-961.3] that we managed there. And we learned, unfortunately, that the customer thought that they were
+[961.3-966.0] protected, they weren't protected because they didn't map and classify and tag their resources
+[966.0-971.9] properly. So it wasn't protected. And so 60% of the environment was was exposed by ransomware.
+[971.9-977.9] And that's one of the reasons why we decided to launch on and solve that pain point around human
+[977.9-982.6] threats, such as ransomware. So being able to detect when that happens, look for irregular
+[982.6-987.1] right patterns and entropy changes and things like that, protect against it, and then also allow
+[987.1-993.5] customers to recover in a granular fashion and very quickly. What we're seeing now on steroids is
+[993.7-1000.2] that the same type of threat is coming from non-human actors from AI agents that essentially
+[1000.2-1005.1] have legitimate access to the environment with legitimate permissions into such and such databases.
+[1005.1-1010.1] And all of a sudden, and this now happens very rapidly. A table is all of a sudden dropped.
+[1010.8-1016.2] Fortunately for us, it's a very similar methodology in terms of detecting that and protecting
+[1016.2-1021.2] against that and allowing to recover. But the velocity of that happening is extreme.
+[1021.7-1028.1] Something that I noted is that that six months ago, no one would even discuss it with me.
+[1028.6-1036.6] But a few months ago, pretty much every person I meet, every either in a company tells me either they
+[1037.4-1045.4] are afraid of that happening to them or it personally happened to that person to do that person
+[1045.4-1051.4] was speaking with me, which is crazy. You see it all over the place. You see really fear from
+[1053.8-1061.2] I no longer decide what really running on my data. I don't know, no, no, I understand. I need to
+[1062.2-1069.1] be prepared for both external threats because all the new murders make it much easier for
+[1069.1-1077.8] attackers to come to me and attack me. But also from the inside, with AI agents, I actually
+[1077.8-1083.6] approved running in my environment. It's a very, very tricky time. We need to assume
+[1084.5-1092.1] bridge, whether it's malicious or not, and we need to be able to handle it and act accordingly.
+[1092.1-1096.6] It's a really weird situation today. How do you think about the broader
+[1096.6-1103.4] enterprise stack and agents? The current stack really evolved around people
+[1104.0-1108.6] for humans asking if they're able to find analytical questions. We have warehouses,
+[1108.6-1114.9] we have dashboards, we have the ETL pipelines, we have BI, and agents may behave differently
+[1114.9-1122.9] and more dynamically. They may be able to reason over much larger sets of data. They may have
+[1123.0-1127.8] access to sass apps and historical data and a variety of little things in the act.
+[1130.3-1135.0] What do you think changes in terms of how you store access and interact with data in the
+[1135.0-1139.4] context of the agentic world? What else do you think these changes? Do dashboards go away? What
+[1139.4-1143.6] shifts? I actually think we'll see more dashboards because this will be the only way to
+[1143.6-1148.7] kind of let the speaker out what they have going on in the world because first coding agent has
+[1148.8-1153.7] studied right most of the code that running in the world, so that's indirectly, but also agents
+[1153.7-1160.2] activating other agents to activate other agents and trying to keep track of the non-human identity
+[1161.0-1166.1] or that it becomes almost the impossible task. So many actors in Sally organization
+[1166.8-1174.5] when it's so very hard for a human to understand that the chance of possibility and this
+[1174.5-1180.0] is a part of what you're seeing in a proliferation of cybersecurity companies, how many cybersecurity
+[1180.0-1186.6] companies you see in NHI, non-human identity right now, an infinite amount, and there's a reason
+[1186.6-1193.0] for that. It became one number two problem right now. In addition to that, second thing is
+[1193.6-1197.6] endpoint. You see endpoint security which looked like it sold them, so many great companies
+[1198.6-1205.8] and the world were just a few years ago when endpoint was a complete different problems with
+[1205.8-1215.9] DVRs. Now everything that's happening you see people are running agents today on the laptops
+[1215.9-1223.6] and the agents sometimes connected to other networks and they are connected to think
+[1223.7-1230.6] maybe an open core connected to your WhatsApp but also to your internal network and also to other
+[1230.6-1240.6] applications. And you see it's very hard for the VPO of IT, for the CIOs to understand what should
+[1240.6-1247.0] they do. On the one hand they want to and they are being pushed by the board by the CEO
+[1247.1-1254.6] enable AI in our position now. Don't block me. You can't block me. On the other hand, it's so scary.
+[1254.6-1260.1] I mean every person, don't even think of technical people, think of the non-technical people
+[1261.1-1267.0] building something with you know while let's say you can love a ball or any other software that you
+[1267.0-1274.4] have for themselves putting company data there. They're not even aware for things like security or
+[1274.4-1281.6] compliance or who is going to use this data and they're all using all of those new cool things so
+[1281.6-1285.8] maybe they're agent that they're building a using other agents and they're not technical to even
+[1285.8-1293.6] understand what it means. So it creates a complete set of actors inside an organization not bound
+[1293.6-1299.0] by the rules of the organization and not necessarily running within the premises of the organization
+[1299.0-1306.6] but handing sensitive data which is the property of the organization could be exposed to the world.
+[1306.6-1314.0] It could be incredibly used and becomes a big problem. It's a good thing and bad thing that
+[1314.0-1319.3] everyone inside organization can become builders whether you are a social media manager, whether
+[1319.3-1327.1] you're a famous person, whether you're in legal finance. So it's amazing but it's also
+[1327.9-1334.1] we live in very interesting times in that perspective. How much of the existing data infrastructure
+[1334.1-1339.6] do you think survives all this? So you know there's all the ETL, data engineering, infrastructure
+[1341.8-1347.5] that you know people have been building and deploying over the last decade. Did that stick around?
+[1347.5-1352.6] does that shift? Does that change? Like how quickly does all this up end? So you see there's a strong
+[1352.6-1357.4] compelling event to pretty much change everything because it's called the plumbing today is very
+[1357.4-1365.3] limited and everyone built a solution to their set of problems. So think about what happens. Now
+[1365.3-1372.3] Gonen goes downstairs after recording this postcast and he really wants coffee. So go to store and
+[1372.9-1379.1] and buy coffee and he puts on his credit card. Now there's a transaction and this is written in
+[1379.1-1386.3] some database somewhere. So someone needs to today whether doing the extracting the data,
+[1386.3-1391.0] putting somewhere in that seat. Someone else at some point takes these data and processing some
+[1391.0-1395.9] other way and that's it. So there's no connection with all of those stuff and every person is very
+[1395.9-1400.6] different. They don't have the context of what happened before and the reason wasn't and reason
+[1400.7-1405.6] is very simple. It wasn't so important before to have all the contacts on the data for some
+[1405.6-1412.2] organization because you could only do with the data things you really intend you to do to begin with.
+[1412.2-1419.8] So you add a single purpose in your mind when acting on the data. Today it's very different.
+[1419.8-1425.7] Today you are decided you can collect if you are able to smartly collect and clean all your data
+[1425.7-1429.7] and make sure you start an efficient manner and if you can activate that efficiently
+[1430.3-1436.1] you can let a single wide with all the data that they have and the more data that they have and
+[1436.1-1440.2] the more high quality that they have and the more context all the data that they have
+[1441.2-1448.1] the team hunting that can create wonders and think of things which are all imaginable. Let's say
+[1448.1-1453.1] that there's one person in the organization who have all the list of all the people in New York
+[1453.1-1458.3] who love burgers and another person in the organization who has a database of all the people in New
+[1458.3-1464.9] York who love pizza. They don't know they can find a list of all the people in New York who love
+[1464.9-1470.6] burgers and pizza because they didn't work together. Now if you use it for post-training
+[1470.6-1475.7] use it for the new capabilities you can actually do wonders with that. You can actually start asking
+[1475.7-1484.8] intelligent questions. You can start using that for your own purposes and just something that
+[1485.3-1491.9] you couldn't do before. So you see in companies first they're collecting tons more data than before
+[1491.9-1497.2] the amount of data being ingested is absolutely insane especially comparing to earlier.
+[1498.0-1504.5] We see trends continuously both us and other companies that we're seeing in data. You see data is
+[1504.5-1509.6] growing out of proportions so much of it and so much of it being general but there's new agents
+[1510.2-1516.7] so there's a lot of noise in the data. There's a lot of value I know as well. So you need tools that
+[1516.7-1523.2] are able to both understand data from multiple locations, clean the noise and make sure all of
+[1523.2-1529.8] these data that has been created is actually usable. It doesn't apply with all tools that were very
+[1530.6-1535.0] seldom were incredible by phone was incredible company DBT and so on and so forth but
+[1535.5-1544.2] very diverse specific tools for that purpose. So this creates a very interesting,
+[1544.2-1550.7] brave new world. You see companies like Databricks, one of the most incredible companies on the
+[1550.7-1558.9] planet in my opinion. Look at that I have more data coming in. I don't necessarily know where it
+[1558.9-1565.5] is. I'll help you calculate the data and make use of that but it's an after effect. You already
+[1565.5-1571.2] have the data now you need to process that but they are reinventing itself all the time because
+[1571.2-1577.8] they understand that more and more data has been generated by agents and they've thought
+[1578.4-1582.7] the way I see it is if you can't be them joining will build our own agents will build our own
+[1582.8-1590.6] databases. They want to take charge of how data is being used out and data has been created
+[1591.4-1599.1] and it's completely different than how any other people use that just three or five years ago.
+[1599.1-1607.8] So the goal is really to enable this culture of builders and the culture of agents with the ability
+[1607.8-1612.6] to automatically help them understand what's there automatically help them in just the data
+[1613.0-1617.1] without having to build manual pipelines for each and every application that is being built
+[1617.1-1620.6] and then also help them maintain control on top of the data that's created.
+[1620.6-1624.8] It's an interesting one with every data that you have there's another problem right now
+[1625.6-1632.2] that lots of data is amazing but it's scattered which is a sound of problem but then you need
+[1632.2-1640.1] to access that you need to pay for that for storage and of course tokens and we're not in the
+[1640.2-1645.4] time of a token, a token maxing anymore. If you are trying to grow to actually getting value for
+[1645.4-1651.4] every token that we have because it comes more and more and more and more and more expensive.
+[1652.2-1659.8] So you want to be very wise in you don't want to say not paying millions, paying millions and
+[1659.8-1664.9] even more than that if you need to but get the value that you can from actually doing so.
+[1665.0-1671.0] So it's very expensive, very locative let's make it relatively as least expensive as you can have it.
+[1671.9-1676.6] So I guess um you know the other thing that you guys have really lived through is
+[1677.3-1684.4] the cloud transition so prior to Eon you started a company called cloud and door that was acquired
+[1684.4-1693.3] by AWS and AWS you really saw that migration from on-prem to the cloud at like a huge scale
+[1693.3-1696.8] in terms of that big sort of generational issue that had happened before this.
+[1698.2-1701.4] How would you compare this infrastructure change to what's happening with AI right now?
+[1701.4-1705.1] Like what do you view sort of the cloud era versus AI era and what are takeaways or lessons
+[1705.1-1711.8] that you can apply across them? Yeah I think again it's it's like that but on steroids and even before
+[1711.8-1717.6] we we sold our last company cloud in the word to AWS we supported similar large scale enterprise
+[1717.6-1723.0] migrations with the other hyper-skillers with with Azure and with GCP where our product was
+[1723.0-1727.3] was integrated OEM into the console. So very large enterprises that were moving
+[1728.2-1732.6] thousands tens of thousands or hundreds of thousands of servers and then we saw those modernized
+[1732.6-1738.2] further in in the cloud and after we sold to AWS we did that as part of the application migration
+[1738.2-1743.4] service but that's kind of where it ended and it required a lot of work a lot of effort both from a
+[1743.4-1749.6] technology side as well as from from the human side. What we're seeing now in the this crazy world
+[1749.6-1757.0] of AI and agents is that those transformations are happening way faster and customers are losing
+[1757.0-1762.2] control to a point where that's becoming an inhibitor right not an enabler they're stopping
+[1762.2-1767.4] they're pausing because they're afraid that things might break that data might leak that IP might
+[1767.4-1772.7] break out and so they're looking desperately for this level of understanding of what's happening
+[1773.7-1780.0] so you can't so insane that and so fast and one of the reasons is that cloud in my opinion cloud is
+[1780.0-1785.5] somewhat somewhat abstract because it's very hard to explain what it means cloud is basically just
+[1785.5-1792.1] someone else's computer but who knows what it is it's hard to explain to a my grandmother about a
+[1792.1-1799.0] cloud AI everyone understands AI everyone and everyone lived through the chat you became moment
+[1799.5-1806.1] when we all laughed what they could do then oh my god this is incredible so they're getting pushed
+[1806.8-1811.6] by by sea levels by sea all by the board by the shareholders
+[1813.1-1820.6] use AI for the business otherwise otherwise we're relevant so you see people doing both for
+[1820.6-1827.1] the value that you get from AI also for the from the fear that you get from AI and you see new trends
+[1827.1-1837.6] of for a first time in in a lot of in in in many years you see how companies consume software
+[1837.6-1845.2] in a brand new way and one example is what's happening with forward the plug engineers used to be
+[1845.2-1851.0] something look at services apparently we're doing that no one really didn't understand what it means
+[1851.8-1856.8] now everyone's doing that now it seems that you come into a large legacy enterprise
+[1857.4-1863.0] they really want to adopt AI because they have to problem is they don't know how to do it they
+[1863.0-1868.2] understand that their processes are very long they sometimes they say year or two or more but they
+[1868.2-1876.7] need to have it now and the only way they can actually getting the plug and and and become a much
+[1876.7-1885.4] faster is by letting a strong engineers who understand what they're doing and coming with the
+[1887.3-1894.5] tool looks that they've created in top Silicon Valley companies startups and some other companies
+[1894.5-1901.9] to come and transform those organizations and you see them shrinking sales cycles and you see
+[1901.9-1907.8] companies growing really fast because of that you also see companies buying really fast especially
+[1908.7-1917.9] the new companies buying using product-led growth by a really fast AI infrastructure with
+[1918.6-1925.3] which actually helped to build agents because everyone now wants to be agent now in the past I
+[1925.3-1931.7] was arguing that for the majority of things PLG doesn't work especially for dev tools
+[1932.0-1938.1] because what's very fragmented people don't want to move so far so far so forth now it became
+[1938.1-1943.9] super hot looking companies like cognition for example which is incredible company that were ever
+[1943.9-1953.8] to first go through PLG we use that that way in eon and then through the FD motion telling
+[1953.8-1959.9] going to banks and then will replace engineering that you don't want to do with our engineers
+[1959.9-1964.6] making you focused with the things that you do want to do so leveraging on all fronts
+[1965.7-1970.5] so it became super super super interesting the world is changing so much and one other
+[1971.1-1977.4] really interesting way that companies are leveraging AI is they are very slow to adopt AI
+[1978.2-1985.9] but there are really great companies for example long-lake that say instead of you adopting AI
+[1985.9-1991.4] I know how to do that more efficiently if I can buy the company and transport it into an AI
+[1991.4-1998.1] company we can all win we can try to make it higher margin more efficiently and this is a really
+[1998.1-2004.6] radical new way for those companies to actually start using AI become more efficient and we speak
+[2004.6-2009.4] about this as a revolution but I think we just started most companies still don't use AI most
+[2009.4-2013.8] companies still at the beginning of this journey they all understand that something is happening
+[2014.4-2019.1] to understand the data is important they all understand that their existing processes are somewhat
+[2021.6-2028.1] mundane and they need to do something about it but it's scary but you have to let
+[2028.9-2036.2] so it's a fascinating thing to say it's a fascinating evolution on what's going on right now
+[2036.2-2043.4] in how how companies consume AI software how companies transform into being more modern
+[2044.0-2051.5] how much being being pushed to do that and I think that eventually I know it's a very wild right
+[2052.2-2059.2] but I think everyone is going to go they won't in my opinion it's going to be better because of that
+[2059.2-2062.7] amazing well thank you so much for joining me today I'm very interested in my
+[2062.7-2070.2] conversation on data and AI really appreciate it thank you our pleasure thank you thank you

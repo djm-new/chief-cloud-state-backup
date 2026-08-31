@@ -1,0 +1,8 @@
+{
+  "show": "No Priors",
+  "episode": "Rethinking Legacy Data Infrastructure with Eon Co-Founders Ofir Ehrlich and Gonen Stein",
+  "audio_url": "https://traffic.megaphone.fm/PDP7982864975.mp3",
+  "model": "base",
+  "max_seconds": 0,
+  "stdout": "{\"language\": \"en\", \"duration\": 2090.8669375, \"segments\": 351}"
+}

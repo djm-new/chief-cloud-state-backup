@@ -1,0 +1,71 @@
+{
+  "model": "qwen/qwen3-235b-a22b",
+  "created_at": "2026-08-30_2112",
+  "usage": {
+    "prompt_tokens": 1544,
+    "completion_tokens": 254,
+    "total_tokens": 1798
+  },
+  "episodes": [
+    {
+      "id": "0cba3336a7cf191b2581be95",
+      "show_name": "Lenny's Podcast",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "medium",
+      "title": "AI’s third era: the rise of persistent AI coworkers | Tara Seshan (OpenAI’s product lead)",
+      "link": "https://www.lennysnewsletter.com/p/ais-third-era-the-rise-of-persistent",
+      "published": "2026-08-30T12:31:30+00:00",
+      "summary": "Tara Seshan leads product for Codex and ChatGPT Work at OpenAI (alongside previous podcast guest Andrew Ambrosino, who’s her engineering manager). Before OpenAI, Tara spent over six years at Stripe, where she joined as one of the first five product managers. She went on to lead product for Watershed, which Time magazine named one of the best inventions of 2022, and she is also a founder and Thiel Fellow. Most personally meaningful to me: Tara is one of the three inaugural Lenny’s Newsletter Fellows, a program I ran a couple of years ago to spotlight the most exciting up-and-coming product leaders. In our in-depth conversation, we discuss: 1. The shift from “rowing” to “steering,” and why human judgment and ambition will become differentiators as AI takes on execution 2. How OpenAI thinks about building for model capabilities two to three months out 3. OpenAI’s best internal memes, such as “Is this maximally accelerated?” and “Are you mainlining it yet?” 4. Why ambition is the new bottleneck for companies, and why elevating others’ ambitions is now the key part of the PM job 5. Writing as thinking vs. writing as reporting — Brought to you by: WorkOS —Make your app enterprise-ready, with SSO, SCIM, RBAC, and more Mercury —Radically different banking, now with Command — Where to find Tara Seshan: • X: https://x.com/tarstarr • LinkedIn: https://www.linkedin.com/in/tarstarr • Newsletter: https://substack.com/@taraseshan — Where to find Lenny: • Newsletter: https://www.lennysnewsletter.com • X: https://twitter.com/lennysan • LinkedIn: https://www.linkedin.com/in/lennyrachitsky/ — In this episode, we cover: (00:00) Introduction (02:18) What makes OpenAI’s culture so different (06:42) Why AI product strategy is all about fast experimentation (09:02) How the PM role is changing (10:50) The shift from rowing to steering (15:35) What changes when agents become coworkers (20:05) Why ambition matters more than ever (26:39) Building products for models that do not exist yet (29:21) How ChatGPT’s Chat and Work modes differ (34:01) How OpenAI ships so quickly at scale (39:14) The vibe shift happening inside Codex (42:20) Why traditional roles are beginning to blur (45:59) Where humans will continue to provide unique value (48:20) How Tara uses AI in her own work (51:38) The magic of the /visualize command (52:39) Writing to think versus writing to report (57:10) How to use AI without losing your ability to think (01:00:15) Tara’s biggest lesson from Sutter Hill (01:04:16) ChatGPT’s site output (01:05:01) Why knowledge work is becoming more like coding (01:07:55) Lightning round and final thoughts — Referenced: • Codex: https://chatgpt.com/codex • ChatGPT Work: https://openai.com/chatgpt-work • Stripe: https://stripe.com • Watershed: https://watershed.com • Thiel Fellowship: https://thielfellowship.org • Meet your Lenny’s Newsletter Fellows: https://www.lennysnewsletter.com/p/meet-your-lennys-newsletter-fellows • The rituals of great teams | Shishir Mehrotra of Coda, YouTube, Microsoft: https://www.lennysnewsletter.com/p/the-rituals-of-great-teams-shishir • The nature of product | Marty Cagan, Silicon Valley Product Group: https://www.lennysnewsletter.com/p/the-nature-of-product-marty-cagan • Product management theater | Marty Cagan (Silicon Valley Product Group): https://www.lennysnewsletter.com/p/product-management-theater-marty • Patrick Collison’s examples of fast projects: https://patrickcollison.com/fast • Inside ChatGPT: The fastest-growing product in history | Nick Turley (Head of ChatGPT at OpenAI): https://www.lennysnewsletter.com/p/inside-chatgpt-nick-turley • Andrew Ambrosino on X: https://x.com/ajambrosino • Tyler Cowen’s website: https://tylercowen.com • OpenAI’s CPO on how AI changes must-have skills, moats, coding, startup playbooks, more | Kevin Weil (CPO at OpenAI, ex-Instagram, Twitter): https://www.lennysnewsletter.com/p/kevin-weil-open-ai • “Chop wood, carry water” quote: https://buddhism.stackexchange.com/questions/15921/",
+      "duration": "4904",
+      "old_score": 81,
+      "old_label": "digest_only",
+      "qwen": {
+        "id": "0cba3336a7cf191b2581be95",
+        "score": 82,
+        "tier": "digest",
+        "reason": "Insight into OpenAI's product roadmap and AI coworker evolution, with implications for future labor and tooling.",
+        "confidence": "high"
+      }
+    },
+    {
+      "id": "787fb5468d311e2e455e7b68",
+      "show_name": "Bloomberg Surveillance",
+      "ring": "ring1_dj_reference_shows",
+      "priority": "baseline",
+      "title": "How Financial Advisors Can Grow During the Great Wealth Transfer (Sponsored Content)",
+      "link": "https://omny.fm/shows/bloomberg-surveillance/how-financial-advisors-can-grow-during-the-great-wealth-transfer-sponsored-content",
+      "published": "2026-08-30T12:00:00+00:00",
+      "summary": "Over the next two decades, more than $100 trillion will change hands in the greatest wealth transfer in history. This is a massive opportunity for financial advisors, both new and established. This conversation provides detailed, research-backed information and practical advice for financial advisors who are considering their next move. Produced by Bloomberg Media Studios and Prudential Financial, this roundtable discussion provides clear and honest perspectives on the changes that are coming. Guests on the show include: David Blanchett, Head of Retirement Research with Prudential Financial, and Portfolio Manager with PGIM Brittney Castro, CFP, AAMS, CRPC, Financial Expert and Speaker Chelsea Ransom-Cooper, Co-Founder and Chief Financial Planning Officer with Zenith Wealth Partners Maggie Lake, Financial Journalist Research sources: Cerulli Associates: U.S. High-Net-Worth and Ultra-High-Net-Worth Markets, 2024 Cerulli Associates: The Cerulli Edge, U.S. Retail Investor, 2023 Alliance for Lifetime Income: Protected Retirement Income and Planning Study, 2024 Prudential Communications: Global Retirement Pulse Survey, 2025 For more about this series visit us at: https://sponsored.bloomberg.com/media/prudential/the-great-client-transfer See omnystudio.com/listener for privacy information.",
+      "duration": "1077",
+      "old_score": 28,
+      "old_label": "skip",
+      "qwen": {
+        "id": "787fb5468d311e2e455e7b68",
+        "score": 45,
+        "tier": "scan",
+        "reason": "Sponsored content on wealth transfer; limited actionable insight for DJ's focus areas.",
+        "confidence": "medium"
+      }
+    },
+    {
+      "id": "327e18aa486bb4df329024d5",
+      "show_name": "a16z Podcast",
+      "ring": "ring2_high_signal_business_ai_operator_shows",
+      "priority": "high",
+      "title": "Why a16z Launched the Machine Age Fund | Jen Kha",
+      "link": "https://a16z.simplecast.com/episodes/why-a16z-launched-the-machine-age-fund-jen-kha-MopZc0wl",
+      "published": "2026-08-30T10:00:00+00:00",
+      "summary": "a16z Managing Partner and Head of Global Partnerships Jen Kha joins MTS hosts Theo Jaffee and Sophia Dew to discuss a16z's Machine Age Fund and the investment thesis behind rebuilding the physical infrastructure that powers AI. Jen explains why chips, networking, memory, cooling, data centers, and other parts of the physical computing stack are becoming investable again after decades in which software captured much of the industry's attention. As AI demand pushes existing infrastructure to its limits, she explains why a16z created a dedicated fund and why hardware founders are increasingly rethinking the stack from first principles. They also discuss the global race to adopt AI, what hardware startups need beyond capital, the backlash against data centers in the U.S., and why experienced systems builders are returning to entrepreneurship as a new generation of infrastructure gets built. Resources: Follow Jen Kha on X: https://x.com/jkhamehl Follow Theo Jaffee on X: https://x.com/theojaffee Follow Sophia Dew on X: https://x.com/sophiadew Follow MTS on X: https://x.com/mtslive Stay Updated: Find a16z on YouTube: YouTube Find a16z on X Find a16z on LinkedIn Listen to the a16z Show on Spotify Listen to the a16z Show on Apple Podcasts Follow our host: https://twitter.com/eriktorenberg Please note that the content here is for informational purposes only; should NOT be taken as legal, business, tax, or investment advice or be used to evaluate any investment or security; and is not directed at any investors or potential investors in any a16z fund. a16z and its affiliates may maintain investments in the companies discussed. For more details please see a16z.com/disclosures. Hosted by Simplecast, an AdsWizz company. See pcm.adswizz.com for information about our collection and use of personal data for advertising.",
+      "duration": "00:24:37",
+      "old_score": 43,
+      "old_label": "skip",
+      "qwen": {
+        "id": "327e18aa486bb4df329024d5",
+        "score": 90,
+        "tier": "listen",
+        "reason": "Clear capital allocation signal from a16z on hardware infrastructure for AI; directly relevant to platform and investment trends.",
+        "confidence": "high"
+      }
+    }
+  ]
+}

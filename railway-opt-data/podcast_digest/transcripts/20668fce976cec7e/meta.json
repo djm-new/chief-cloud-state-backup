@@ -1,0 +1,8 @@
+{
+  "show": "a16z Podcast",
+  "episode": "Inside Cursor: The Anatomy of a Generational Startup",
+  "audio_url": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/2007ee81-c10e-4aea-aae5-c60f9a772e9c/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=2007ee81-c10e-4aea-aae5-c60f9a772e9c&feed=JGE3yC0V",
+  "model": "base",
+  "max_seconds": 0,
+  "stdout": "{\"language\": \"en\", \"duration\": 2055.5755, \"segments\": 224}"
+}
